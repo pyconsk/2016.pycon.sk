@@ -1,0 +1,16 @@
+body {
+  padding-top: 70px;
+}
+
+.navbar-default {
+  background-color: #e30016;
+  border-color: #88000b;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+  color: #ffffff;
+}
+
+.jumbotron {
+  border: 1px solid #bebebe;
+}
