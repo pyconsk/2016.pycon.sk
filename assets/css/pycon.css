@@ -14,3 +14,17 @@ body {
 .jumbotron {
   border: 1px solid #bebebe;
 }
+
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #eeeeee;
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #ffffff;
+  background-color: #88000b;
+}
