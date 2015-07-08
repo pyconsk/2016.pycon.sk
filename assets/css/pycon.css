@@ -2,29 +2,12 @@ body {
   padding-top: 70px;
 }
 
-.navbar-default {
-  background-color: #e30016;
-  border-color: #88000b;
+footer {
+  margin: 5em 0;
 }
 
-.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
-  color: #ffffff;
-}
-
-.jumbotron {
-  border: 1px solid #bebebe;
-}
-
-.navbar-default .navbar-nav>li>a {
-  color: #ffffff;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-  color: #eeeeee;
-}
-
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: #ffffff;
-  background-color: #88000b;
+footer li {
+  float: left;
+  margin-right: 1.5em;
+  margin-bottom: 1.5em;
 }
