@@ -1,0 +1,13 @@
+body {
+  padding-top: 70px;
+}
+
+footer {
+  margin: 5em 0;
+}
+
+footer li {
+  float: left;
+  margin-right: 1.5em;
+  margin-bottom: 1.5em;
+}
