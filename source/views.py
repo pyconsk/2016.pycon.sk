@@ -15,6 +15,10 @@ def code_of_conduct():
 def meetup_01():
     return render_template('01-meetup.html', title='Home')
 
+@app.route('/02-meetup.html')
+def meetup_02():
+    return render_template('02-meetup.html', title='Home')
+
 # Serve static files via flask so curl can collect them to build static pages
 
 @app.route('/static/js/<path:path>')
