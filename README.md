@@ -1,6 +1,6 @@
 # Python Bratislava Meetup Website
 
-Prvé stretnutie ľudí, ktorí majú záujem o programovanie v Pythone. Či už ste úplný začiatočník (bez akejkoľvek skúsenosti s programovaním), alebo používate iný "zastaralý" programovací jazyk (a radi by ste prešli na niečo "fresh"), príďte a spoznajte nové možnosti, ktoré Python poskytuje. Ak už ste v Pythone čo-to spravili alebo ste expert, budeme radi keď nás prídete niečo naučiť.
+Stretnutie ľudí, ktorí majú záujem o programovanie v Pythone. Či už ste úplný začiatočník (bez akejkoľvek skúsenosti s programovaním), alebo používate iný "zastaralý" programovací jazyk (a radi by ste prešli na niečo "fresh"), príďte a spoznajte nové možnosti, ktoré Python poskytuje. Ak už ste v Pythone čo-to spravili alebo ste expert, budeme radi keď nás prídete niečo naučiť.
 
 Stretnutie je vhodné pre ľudí zo všetkých oblastí od webového programovania, cez hackovanie hardvéru, až po výskum veľkých dát.
 
