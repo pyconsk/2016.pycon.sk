@@ -37,6 +37,10 @@ def send_images(path):
 def send_fonts(path):
     return send_from_directory('/static/fonts', path)
 
+@app.route('/static/<path:path>')
+def send_static(path):
+    return send_from_directory('/static', path)
+
 
 if __name__ == "__main__":
     app.run(debug=True)

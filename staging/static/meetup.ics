@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pycon.sk//meetup//EN
+X-ORIGINAL-URL:https://pycon.sk/meetup.ics
+X-WR-CALNAME;CHARSET=utf-8:Bratislava Python Meetup
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+
+BEGIN:VEVENT
+SUMMARY:Bratislava Python Meetup #1
+LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03
+URL:https://pycon.sk/01-meetup.html
+UID:675dc56060f241e0b70a6d157a915dc1
+DTSTART:20150707T160000Z
+DTEND:20150707T200000Z
+GEO:48.1442784;17.1065933
+DESCRIPTION:Prvé stretnutie ľudí\, ktorí majú záujem o programovanie v Pythone. Či už ste úplný začiatočník (bez akejkoľvek skúsenosti s programovaním)\, alebo používate iný "zastaralý" programovací jazyk (a radi by ste prešli na niečo "fresh")\, príďte a spoznajte nové možnosti\, ktoré Python poskytuje. Ak už ste v Pythone čo-to spravili alebo ste expert\, budeme radi keď nás prídete niečo naučiť.\n\nStretnutie je vhodné pre ľudí zo všetkých oblastí od webového programovania\, cez hackovanie hardvéru\, až po výskum veľkých dát.\n\nVytvorenie Python komunity je dôležité\, pretože veľa firiem doma aj v zahraničí začína používať Python a spoznávať jeho výhody. Koniec koncov to bude zábava učiť sa jeden od druhého a pri pive si rozprávať zážitky z krotenia hadov.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Bratislava Python Meetup #2
+LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03
+URL:https://pycon.sk/02-meetup.html
+UID:675dc56060f241e0b70a6d157a915dc2
+DTSTART:20150804T160000Z
+DTEND:20150804T190000Z
+GEO:48.1442784;17.1065933
+DESCRIPTION:Druhé stretnutie ľudí, ktorí majú záujem o programovanie v Pythone. Viac info na https://pycon.sk/
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Bratislava Python Meetup #3 ("Back to School" Edition)
+LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03
+URL:https://pycon.sk/03-meetup.html
+UID:675dc56060f241e0b70a6d157a915dc2
+DTSTART:20150901T160000Z
+DTEND:20150901T190000Z
+GEO:48.1442784;17.1065933
+DESCRIPTION:Tretie stretnutie ľudí, ktorí majú záujem o programovanie v Pythone. "Back to School" Edition. Viac info na https://pycon.sk/
+END:VEVENT
+
+END:VCALENDAR
