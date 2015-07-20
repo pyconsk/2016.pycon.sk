@@ -11,13 +11,13 @@ def index():
 def code_of_conduct():
     return render_template('code-of-conduct.html', title='Home')
 
-@app.route('/01-meetup.html')
+@app.route('/meetup-01.html')
 def meetup_01():
-    return render_template('01-meetup.html', title='Home')
+    return render_template('meetup-01.html', title='Home')
 
-@app.route('/02-meetup.html')
+@app.route('/meetup-02.html')
 def meetup_02():
-    return render_template('02-meetup.html', title='Home')
+    return render_template('meetup-02.html', title='Home')
 
 # Serve static files via flask so curl can collect them to build static pages
 

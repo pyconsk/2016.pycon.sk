@@ -9,7 +9,7 @@ X-MS-OLK-FORCEINSPECTOROPEN:TRUE
 BEGIN:VEVENT
 SUMMARY:Bratislava Python Meetup #1
 LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03
-URL:https://pycon.sk/01-meetup.html
+URL:https://pycon.sk/meetup-01.html
 UID:675dc56060f241e0b70a6d157a915dc1
 DTSTART:20150707T160000Z
 DTEND:20150707T200000Z
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bratislava Python Meetup #2
 LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03
-URL:https://pycon.sk/02-meetup.html
+URL:https://pycon.sk/meetup-02.html
 UID:675dc56060f241e0b70a6d157a915dc2
 DTSTART:20150804T160000Z
 DTEND:20150804T190000Z
