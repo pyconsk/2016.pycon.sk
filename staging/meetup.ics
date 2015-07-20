@@ -28,15 +28,4 @@ GEO:48.1442784;17.1065933
 DESCRIPTION:Druhé stretnutie ľudí, ktorí majú záujem o programovanie v Pythone. Viac info na https://pycon.sk/
 END:VEVENT
 
-BEGIN:VEVENT
-SUMMARY:Bratislava Python Meetup #3 ("Back to School" Edition)
-LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03
-URL:https://pycon.sk/03-meetup.html
-UID:675dc56060f241e0b70a6d157a915dc2
-DTSTART:20150901T160000Z
-DTEND:20150901T190000Z
-GEO:48.1442784;17.1065933
-DESCRIPTION:Tretie stretnutie ľudí, ktorí majú záujem o programovanie v Pythone. "Back to School" Edition. Viac info na https://pycon.sk/
-END:VEVENT
-
 END:VCALENDAR
