@@ -5,19 +5,45 @@ app = Flask(__name__, static_url_path='')
 @app.route('/')
 @app.route('/index.html')
 def index():
-    return render_template('index.html', title='Home')
+    variables = {
+        'title': 'PyCon SK',
+        'logo': 'python_logo_notext.svg'
+            }
+    return render_template('index.html', **variables)
 
 @app.route('/code-of-conduct.html')
 def code_of_conduct():
-    return render_template('code-of-conduct.html', title='Home')
+    variables = {
+        'title': 'PyCon SK',
+        'logo': 'python_logo_notext.svg'
+            }
+    return render_template('code-of-conduct.html', **variables)
 
-@app.route('/meetup-01.html')
-def meetup_01():
-    return render_template('meetup-01.html', title='Home')
+@app.route('/meetup.html')
+def meetup():
+    variables = {
+        'title': 'PyCon SK',
+        'logo': 'python_logo_notext.svg'
+            }
+    return render_template('meetup.html', **variables)
 
-@app.route('/meetup-02.html')
-def meetup_02():
-    return render_template('meetup-02.html', title='Home')
+@app.route('/01-meetup.html')
+@app.route('/ba-01-meetup.html')
+def ba_meetup_01():
+    variables = {
+        'title': 'PyCon SK',
+        'logo': 'bratislava_logo.svg'
+            }
+    return render_template('ba-01-meetup.html', **variables)
+
+@app.route('/02-meetup.html')
+@app.route('/ba-02-meetup.html')
+def ba_meetup_02():
+    variables = {
+        'title': 'PyCon SK',
+        'logo': 'bratislava_logo.svg'
+            }
+    return render_template('ba-02-meetup.html', **variables)
 
 # Serve static files via flask so curl can collect them to build static pages
 
