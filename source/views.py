@@ -45,6 +45,14 @@ def ba_meetup_02():
             }
     return render_template('ba-02-meetup.html', **variables)
 
+@app.route('/ba-03-meetup.html')
+def ba_meetup_03():
+    variables = {
+        'title': 'PyCon SK',
+        'logo': 'bratislava_logo.svg'
+            }
+    return render_template('ba-03-meetup.html', **variables)
+
 # Serve static files via flask so curl can collect them to build static pages
 
 @app.route('/static/js/<path:path>')
