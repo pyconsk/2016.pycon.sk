@@ -19,6 +19,23 @@ def code_of_conduct():
             }
     return render_template('code-of-conduct.html', **variables)
 
+@app.route('/spy.html')
+def spy():
+    variables = {
+        'title': 'SPy o. z.',
+        'logo': 'python_logo_notext.svg'
+            }
+    return render_template('spy.html', **variables)
+
+@app.route('/thank-you.html')
+def thank_you():
+    variables = {
+        'title': 'PyCon SK',
+        'logo': 'python_logo_notext.svg'
+            }
+    return render_template('thank-you.html', **variables)
+
+
 @app.route('/meetup.html')
 def meetup():
     variables = {
