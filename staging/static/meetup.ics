@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//pycon.sk//meetup//EN
 X-ORIGINAL-URL:https://pycon.sk/meetup.ics
-X-WR-CALNAME;CHARSET=utf-8:Slovakia Python Meetup
+X-WR-CALNAME;CHARSET=utf-8:Python Slovakia Meetups
 METHOD:PUBLISH
 X-MS-OLK-FORCEINSPECTOROPEN:TRUE
 
@@ -37,6 +37,17 @@ DTSTART:20150908T160000Z
 DTEND:20150908T190000Z
 GEO:48.1442784;17.1065933
 DESCRIPTION:Tretie stretnutie ľudí, ktorí majú záujem o programovanie v Pythone. Viac info na https://pycon.sk/ba-03-meetup.html
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Bratislava Python Meetup #4
+LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03
+URL:https://pycon.sk/ba-04-meetup.html
+UID:675dc56060f241e0b70a6d157a915dc4
+DTSTART:20151006T160000Z
+DTEND:20151006T190000Z
+GEO:48.1442784;17.1065933
+DESCRIPTION:Štvrté stretnutie ľudí, ktorí majú záujem o programovanie v Pythone. Viac info na https://pycon.sk/ba-04-meetup.html
 END:VEVENT
 
 END:VCALENDAR
