@@ -1,81 +1,97 @@
-from flask import Flask, request, send_from_directory, render_template
+from flask import Flask, g, request, send_from_directory, render_template, abort
+from flask.ext.babel import Babel
 
 app = Flask(__name__, static_url_path='')
+app.config['BABEL_DEFAULT_LOCALE'] = 'sk'
+babel = Babel(app)
+
+@app.before_request
+def before():
+    if request.view_args and 'lang_code' in request.view_args:
+        g.current_lang = request.view_args['lang_code']
+        if request.view_args['lang_code'] not in ('en', 'sk', 'de'):
+            return abort(404)
+        request.view_args.pop('lang_code')
+
+@babel.localeselector
+def get_locale():
+    # try to guess the language from the user accept
+    # header the browser transmits. The best match wins.
+    # return request.accept_languages.best_match(['de', 'sk', 'en'])
+    return g.get('current_lang', app.config['BABEL_DEFAULT_LOCALE'])
+
+def _get_template_variables():
+    variables = {
+        'title': 'PyCon SK',
+        'logo': 'python_logo_notext.svg'
+            }
+
+    if 'current_lang' in g:
+        variables['lang_code'] = g.current_lang
+    else:
+        variables['lang_code'] = app.config['BABEL_DEFAULT_LOCALE']
+
+    return variables
 
 @app.route('/')
 @app.route('/index.html')
+@app.route('/<lang_code>/')
+@app.route('/<lang_code>/index.html')
 def index():
-    variables = {
-        'title': 'PyCon SK',
-        'logo': 'python_logo_notext.svg'
-            }
-    return render_template('index.html', **variables)
+    return render_template('index.html', **_get_template_variables())
 
 @app.route('/code-of-conduct.html')
+@app.route('/<lang_code>/code-of-conduct.html')
 def code_of_conduct():
-    variables = {
-        'title': 'PyCon SK',
-        'logo': 'python_logo_notext.svg'
-            }
-    return render_template('code-of-conduct.html', **variables)
+    return render_template('code-of-conduct.html', **_get_template_variables())
 
 @app.route('/spy.html')
+@app.route('/<lang_code>/spy.html')
 def spy():
-    variables = {
-        'title': 'SPy o. z.',
-        'logo': 'python_logo_notext.svg'
-            }
+    variables = _get_template_variables()
+    variables['title'] = 'SPy o. z.'
+
     return render_template('spy.html', **variables)
 
 @app.route('/thank-you.html')
+@app.route('/<lang_code>/thank-you.html')
 def thank_you():
-    variables = {
-        'title': 'PyCon SK',
-        'logo': 'python_logo_notext.svg'
-            }
-    return render_template('thank-you.html', **variables)
+    return render_template('thank-you.html', **_get_template_variables())
 
 
 @app.route('/meetup.html')
+@app.route('/<lang_code>/meetup.html')
 def meetup():
-    variables = {
-        'title': 'PyCon SK',
-        'logo': 'python_logo_notext.svg'
-            }
-    return render_template('meetup.html', **variables)
+    return render_template('meetup.html', **_get_template_variables())
 
 @app.route('/01-meetup.html')
 @app.route('/ba-01-meetup.html')
 def ba_meetup_01():
-    variables = {
-        'title': 'PyCon SK',
-        'logo': 'bratislava_logo.svg'
-            }
+    variables = _get_template_variables()
+    variables['logo'] = 'bratislava_logo.svg'
+
     return render_template('ba-01-meetup.html', **variables)
 
 @app.route('/02-meetup.html')
 @app.route('/ba-02-meetup.html')
 def ba_meetup_02():
-    variables = {
-        'title': 'PyCon SK',
-        'logo': 'bratislava_logo.svg'
-            }
+    variables = _get_template_variables()
+    variables['logo'] = 'bratislava_logo.svg'
+
     return render_template('ba-02-meetup.html', **variables)
 
 @app.route('/ba-03-meetup.html')
 def ba_meetup_03():
-    variables = {
-        'title': 'PyCon SK',
-        'logo': 'bratislava_logo.svg'
-            }
+    variables = _get_template_variables()
+    variables['logo'] = 'bratislava_logo.svg'
+
     return render_template('ba-03-meetup.html', **variables)
 
 @app.route('/ba-04-meetup.html')
 def ba_meetup_04():
-    variables = {
-        'title': 'PyCon SK',
-        'logo': 'bratislava_logo.svg'
-            }
+    variables = _get_template_variables()
+    variables['logo'] = 'bratislava_logo.svg'
+
     return render_template('ba-04-meetup.html', **variables)
 
 
