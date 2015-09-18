@@ -49,6 +49,10 @@
               <a href="https://lists.pycon.sk/listinfo">{{ _('E-mailová konferencia') }}</a>
             </li>
           </ul>
+          <ul class="nav navbar-nav pull-right">
+            {% if lang_code != 'en' %}<li><a href="{{ request.path|replace('/'+lang_code, '/en') }}" title="Switch to english language"><img src="/images/lang/gb.gif" height="15" alt="english language"></a></li>{% endif %}
+            {% if lang_code != 'sk' %}<li><a href="{{ request.path|replace('/'+lang_code, '/sk') }}" title="Prepnúť slovenský jazyk"><img src="/images/lang/sk.gif" height="15" alt="slovenský jazyk"></a></li>{% endif %}
+          </ul>
         </div>
       </div>
     </div>
