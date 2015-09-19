@@ -1,0 +1,20 @@
+{% extends "body.html" %}
+{% block content %}
+<div class="row">
+  <div class="col-md-8">
+    <div class="jumbotron">
+      <h1>Štvrtý Bratislavský Python Meetup</h1>
+      <h2><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 6. október 2015 – 18:00</h2>
+      <h2><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> <a href="https://progressbar.sk/calendar/" title="Kalendár ProgressBaru">ProgressBar Hackerspace,<br>Michalská 3, Bratislava</a></h2>
+    </div>
+
+    <p class="text-justify">Téma bude ohlasená čoskoro...</p>
+    <p>Kontakt: <a href="mailto:meetup@pycon.sk?subject=Štvrtý%20Bratislavský%20Python%20Meetup" title="Bratislava Python Meetup Email">meetup@pycon.sk</a></p>
+    <p>Organizátor: <a href="/{{ lang_code }}/spy.html" title="">SPy o. z.</a></p>
+  </div>
+
+  <div class="col-md-4">
+    {% include 'right_nav.html' %}        
+  </div>
+</div>
+{% endblock %}

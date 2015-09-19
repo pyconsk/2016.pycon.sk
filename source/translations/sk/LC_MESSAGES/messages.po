@@ -1,0 +1,314 @@
+# Slovak translations for PROJECT.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-09-19 09:16+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: sk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.0\n"
+
+#: templates/body.html:24
+msgid "Preskočiť na hlavný obsah"
+msgstr ""
+
+#: templates/body.html:40
+msgid "Meetup"
+msgstr ""
+
+#: templates/body.html:43 templates/code-of-conduct.html:5
+msgid "Kódex správania"
+msgstr ""
+
+#: templates/body.html:46
+msgid "SPy občianske združenie"
+msgstr ""
+
+#: templates/body.html:49
+msgid "E-mailová konferencia"
+msgstr ""
+
+#: templates/body.html:68
+msgid "Preskočiť na začiatok"
+msgstr ""
+
+#: templates/code-of-conduct.html:7
+msgid ""
+"Python komunita sa skladá z členov z celého sveta s rôznorodým súborom "
+"zručností, osobností a skúseností. Tieto rozdiely prispievajú k tomu, že "
+"naša komunita prežíva veľké úspechy a pokračuje v raste. Keď pracujete s "
+"členmi komunity, odporúčame vám dodržiavať tieto pokyny, ktoré pomáhajú "
+"riadiť váš styk s ostatnými a snažiť sa udržať Python komunitu pozitívnu,"
+" úspešnú a rastúcu."
+msgstr ""
+
+#: templates/code-of-conduct.html:9
+msgid "Člen Python komunity je:"
+msgstr ""
+
+#: templates/code-of-conduct.html:11
+msgid "Otvorený"
+msgstr ""
+
+#: templates/code-of-conduct.html:12
+msgid ""
+"Členovia komunity sú otvorení k spolupráci, či už ide priamo o vývoj "
+"samotného Pythonu, štandardnej knižnice, dokumentácie, PEPov, vývoj iných"
+" Python projektov, iných open source projektov, riešenie spoločensko "
+"prospešných problémov, alebo o prácu na iných spriatelených projektoch. "
+"Sme vnímaví ku komentárom a konštruktívnej kritike, pretože skúsenosti a "
+"zručnosti ostatných členov prispievajú k celému nášmu úsiliu. Prijímame "
+"všetkých, ktorí sa chcú zúčastniť našich aktivít, podporujeme prostredie,"
+" kde sa môže ktokoľvek podieľať a každý ho môže zlepšiť."
+msgstr ""
+
+#: templates/code-of-conduct.html:14
+msgid "Ohľaduplný"
+msgstr ""
+
+#: templates/code-of-conduct.html:15
+msgid ""
+"Členovia komunity sú ohľaduplní voči svojim rovesníkom - ostatným "
+"používateľom Pythonu. Sme pozorní pri riešení úsilia druhých, pričom máme"
+" na pamäti, že častokrát ich práca bola venovaná len pre dobro komunity. "
+"Sme všímaví v našich vyjadreniach, či už osobne alebo on-line, a sme "
+"taktní, keď príde na rozdielne názory."
+msgstr ""
+
+#: templates/code-of-conduct.html:17
+msgid "Úctivý"
+msgstr ""
+
+#: templates/code-of-conduct.html:18
+msgid ""
+"Členovia komunity sú úctiví. Rešpektujeme ostatných, ich pozíciu, ich "
+"zručnosti, ich záväzky a ich úsilie. Rešpektujeme dobrovoľné úsilie, "
+"ktoré venujú Python komunite. Rešpektujeme postupy stanovené v komunite a"
+" využívame ich pri práci. Keď nesúhlasíme, sme zdvorilí pri adresovaní "
+"našich problémov."
+msgstr ""
+
+#: templates/code-of-conduct.html:20
+msgid ""
+"Celkovo sme dobrí k sebe navzájom. Prispievame k tejto komunite, nie "
+"pretože musíme, ale preto, že chceme. Ak si to uvedomíme, tak nám tieto "
+"pokyny prídu prirodzené."
+msgstr ""
+
+#: templates/code-of-conduct.html:22
+msgid "Slovenská Python Komunita"
+msgstr ""
+
+#: templates/code-of-conduct.html:23
+msgid ""
+"PyCon SK aj Python Meetup sa plne stotožňujú s kódexom správania členov "
+"Python komunity. Prinášame prostredie ktoré je otvorené pre všetkých, "
+"nezávisle na pohlaví, sexuálnej orientácií, postihnutí, fyzickom vzhľade,"
+" veľkosti, rase, vzdelaní či vierovyznaní. Všetka komunikácia by mala byť"
+" úctivá a na profesionálnej úrovni. Buďme k sebe navzájom tolerantní."
+msgstr ""
+
+#: templates/code-of-conduct.html:25
+msgid ""
+"Neurážame, ani nezhadzujeme iných účastníkov. Správame sa profesionálne. "
+"Obťažovanie, sexistické, rasistické, alebo inak vyraďujúce vtipy sú "
+"nevhodné na našom stretnutí. Nebudeme tolerovať obťažovanie účastníkov "
+"stretnutia v akejkoľvek forme."
+msgstr ""
+
+#: templates/index.html:5
+msgid "Štartujeme PyCon SK!"
+msgstr ""
+
+#: templates/index.html:6
+msgid ""
+"PyCon SK je komunitou organizovaná konferencia pre programovací jazyk "
+"Python."
+msgstr ""
+
+#: templates/index.html:6
+msgid ""
+"<strong>Prvý ročník</strong> sa uskutoční <strong>začiatkom roka 2016 v "
+"Bratislave</strong>."
+msgstr ""
+
+#: templates/index.html:13
+msgid ""
+"Veľmi sa tešíme, že vám môžeme oznámiť, že okrem dvoch dní zaujímavých "
+"prednášok, budeme organizovať aj workshopy, ktoré budú vhodné aj pre "
+"úplných začiatočníkov."
+msgstr ""
+
+#: templates/index.html:16
+msgid ""
+"Ak máte záujem dostávať aktuálne informácie o konferencii PyCon SK môžete"
+" sa prihlásiť do mailing listu."
+msgstr ""
+
+#: templates/index.html:18
+msgid "E-mail:"
+msgstr ""
+
+#: templates/index.html:21
+msgid "Prihlásiť"
+msgstr ""
+
+#: templates/index.html:26
+msgid ""
+"Ak máte záujem prispieť, stať sa dobrovoľníkom, alebo akokoľvek inak "
+"pomôcť s organizáciou PyConu (ktorý je kompletne organizovaný "
+"dobrovoľníkmi), budeme radi ak sa nám ozvete."
+msgstr ""
+
+#: templates/index.html:27
+#, python-format
+msgid ""
+"Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
+"href=\"/%(lang_code)s/meetup.html\">meetupy</a>."
+msgstr ""
+
+#: templates/right_nav.html:4 templates/right_nav.html:9
+#: templates/right_nav.html:14 templates/right_nav.html:18
+#, python-format
+msgid "%(num)s Bratislavský Python Meetup"
+msgstr ""
+
+#: templates/right_nav.html:5
+msgid "6. október 2015 – 18:00 - Progressbar"
+msgstr ""
+
+#: templates/right_nav.html:10
+msgid "8. september 2015 – 18:00 - Progressbar"
+msgstr ""
+
+#: templates/right_nav.html:15
+msgid "4. august 2015 – 18:00 - Progressbar"
+msgstr ""
+
+#: templates/right_nav.html:19
+msgid "7. júl 2015 – 18:00 - Progressbar"
+msgstr ""
+
+#: templates/right_nav.html:24
+msgid "Priatelia:"
+msgstr ""
+
+#: templates/right_nav.html:41
+msgid "Sponzor virtuálneho datacentra:"
+msgstr ""
+
+#: templates/spy.html:4
+msgid "SPy o. z."
+msgstr ""
+
+#: templates/spy.html:7
+msgid ""
+"Poslaním občianskeho združenia SPy je podpora vývojárov a používateľov "
+"programovacieho jazyka Python. Podporujeme a šírime používanie "
+"programovacieho jazyka Python a iných open source technológii a open "
+"source myšlienok v našej spoločnosti. Našim cieľom je poskytovať pomoc a "
+"podporu úplným začiatočníkom a ľuďom, ktorí s programovaním začínajú. "
+"Ďalej si dávame za cieľ spolupracovať so školami a inými vzdelávacími "
+"inštitúciami a propagovať programovanie (nezávislé od programovacieho "
+"jazyka) u detí a mladých ľudí od čo najskoršieho možného veku. "
+"Podporujeme oblasť softvérového vývoja u sociálne slabších alebo inak "
+"znevýhodnených sociálnych skupín. Venujeme sa praktickému využitiu "
+"softvérového vývoja. Chceme spolupracovať na rôznych open source "
+"projektoch, vytvárať otvorený vzdelávací obsah použiteľný pri školskej "
+"výuke či samoštúdiu, a zasadzovať sa o používanie otvorených technológii "
+"v spoločnosti a verejnom sektore."
+msgstr ""
+
+#: templates/spy.html:9
+msgid "Zakladajúci členovia:"
+msgstr ""
+
+#: templates/spy.html:11 templates/spy.html:12 templates/spy.html:13
+#, python-format
+msgid "Profil %(user)s na Linkedine"
+msgstr ""
+
+#: templates/spy.html:19
+msgid "Kontakt"
+msgstr ""
+
+#: templates/spy.html:20
+msgid "Registrované na MVSR"
+msgstr ""
+
+#: templates/spy.html:20
+msgid "dňa"
+msgstr ""
+
+#: templates/spy.html:21
+msgid "Číslo spisu"
+msgstr ""
+
+#: templates/spy.html:22
+msgid "IČO"
+msgstr ""
+
+#: templates/spy.html:22 templates/spy.html:23
+msgid "Čoskoro"
+msgstr ""
+
+#: templates/spy.html:23
+msgid "Číslo účtu"
+msgstr ""
+
+#: templates/spy.html:24
+msgid "Stanovy"
+msgstr ""
+
+#: templates/spy.html:28
+msgid "Ak sa chceš stať našim členom, vyplň nasledujúci formulár:"
+msgstr ""
+
+#: templates/spy.html:32
+msgid "Tvoje meno"
+msgstr ""
+
+#: templates/spy.html:35
+msgid "Tvoj e-mail"
+msgstr ""
+
+#: templates/spy.html:38
+msgid "Niečo o tebe"
+msgstr ""
+
+#: templates/spy.html:41
+msgid "Odoslať registráciu"
+msgstr ""
+
+#~ msgid "04. Bratislavský Python Meetup"
+#~ msgstr ""
+
+#~ msgid "03. Bratislavský Python Meetup"
+#~ msgstr ""
+
+#~ msgid "02. Bratislavský Python Meetup"
+#~ msgstr ""
+
+#~ msgid "01. Bratislavský Python Meetup"
+#~ msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "%s Bratislavský Python Meetup"
+#~ msgstr ""
+
+#~ msgid "Profil %s na Linkedine"
+#~ msgstr ""
+

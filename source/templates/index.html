@@ -1,19 +1,35 @@
 {% extends "body.html" %}
 {% block content %}
+<div class="row">
+  <div class="col-md-8">
+    <h1>{{ _('Štartujeme PyCon SK!') }}</h1>
+    <p class="lead">{{ _('PyCon SK je komunitou organizovaná konferencia pre programovací jazyk Python.') }} {{ _('<strong>Prvý ročník</strong> sa uskutoční <strong>začiatkom roka 2016 v Bratislave</strong>.') }}</p>
+    <p class="text-center">
+      <a href="https://www.python.org/" target="_blank" title="Domovská stránka Pythonu">
+        <img src="/images/python_logo.png" alt="Python" class="hidden-xs hidden-sm">
+        <img src="/images/python_logo_notext.svg" alt="Python" class="hidden-md hidden-lg">
+      </a>
+    </p>
+    <p>{{ _('Veľmi sa tešíme, že vám môžeme oznámiť, že okrem dvoch dní zaujímavých prednášok, budeme organizovať aj workshopy, ktoré budú vhodné aj pre úplných začiatočníkov.') }}</p>
 
-  <div class="bs-docs-section">
-    <div class="row">
-      <div class="col-lg-8">
-        <div class="bs-component">
-          <h1>Augustový meetup bude v utorok 4. augusta, tešíme sa na ďalšie stretnutie.</h1>
-          <p>Pravidelné meetupy budu každý prvý utorok v mesiaci. Usilovne pracujeme na programe augustového meetupu. Čoskoro sa dozviete viac...</p>
-          <p>Medzičasom sa môžete prihlásiť do <a href="https://lists.pycon.sk/listinfo">e-mailovej konferencie</a>.</p>
-        </div>
+    <form accept-charset="UTF-8" action="https://lists.pycon.sk/subscribe/pycon" method="post" class="form-inline">
+      <p>{{ _('Ak máte záujem dostávať aktuálne informácie o konferencii PyCon SK môžete sa prihlásiť do mailing listu.') }}</p>
+      <div class="form-group">
+        <label for="pycon_news_email">{{ _('E-mail:') }}</label>
+        <input type="email" class="form-control input-sm" name="email" id="pycon_news_email" placeholder="">
       </div>
-      <div class="col-lg-4">
-        {% include 'right_nav.html' %}
-      </div>
-    </div>
+      <button type="submit" name="email-button" class="btn btn-primary btn-sm">{{ _('Prihlásiť') }}</button>
+    </form>
+
+    <br>
+
+    <p>{{ _('Ak máte záujem prispieť, stať sa dobrovoľníkom, alebo akokoľvek inak pomôcť s organizáciou PyConu (ktorý je kompletne organizovaný dobrovoľníkmi), budeme radi ak sa nám ozvete.') }}</p>
+    <p>{{ _('Medzičasom sa môžete prísť pozrieť na naše pravidelné <a href="/%(lang_code)s/meetup.html">meetupy</a>.', lang_code=lang_code) }}</p>
   </div>
 
+  <div class="col-md-4">
+    {% include 'right_nav.html' %}
+  </div>
+  <div class="hide"><a href="/thank-you.html"></a></div>
+</div>
 {% endblock %}
