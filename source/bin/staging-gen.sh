@@ -27,7 +27,7 @@ if [ -d "${FLASK_URL}" ]; then
 	rm -rf "${FLASK_URL}"
 fi
 
-wget -mkEp http://"${FLASK_URL}"/
+wget -mkEp http://"${FLASK_URL}"/sk/
 
 if [ $? -eq 0 ]; then
 	cd "${TMP_DIR}/${FLASK_URL}" || exit 3
