@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-09-18 16:20+0100\n"
+"POT-Creation-Date: 2015-09-19 09:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -31,13 +31,13 @@ msgstr "Code of conduct"
 
 #: templates/body.html:46
 msgid "SPy občianske združenie"
-msgstr ""
+msgstr "SPy civic association"
 
 #: templates/body.html:49
 msgid "E-mailová konferencia"
 msgstr "E-mail conference"
 
-#: templates/body.html:64
+#: templates/body.html:68
 msgid "Preskočiť na začiatok"
 msgstr "Jump to beggining"
 
@@ -218,12 +218,19 @@ msgstr ""
 "will be happy if you let us know."
 
 #: templates/index.html:27
+#, python-format
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
-"href=\"/meetup.html\">meetupy</a>."
+"href=\"/%(lang_code)s/meetup.html\">meetupy</a>."
 msgstr ""
-"In the mean time you can come and visit out regular <a "
-"href=\"/en/meetup.html\">meetups</a>."
+"In the meantime you can visit our regular <a "
+"href=\"/%(lang_code)s/meetup.html\">meetups</a>."
+
+#: templates/right_nav.html:4 templates/right_nav.html:9
+#: templates/right_nav.html:14 templates/right_nav.html:18
+#, python-format
+msgid "%(num)s Bratislavský Python Meetup"
+msgstr "%(num)s Bratislava Python Meetup"
 
 #: templates/right_nav.html:5
 msgid "6. október 2015 – 18:00 - Progressbar"
@@ -251,7 +258,7 @@ msgstr "Virtual datacenter sponsor:"
 
 #: templates/spy.html:4
 msgid "SPy o. z."
-msgstr ""
+msgstr "SPy o. z."
 
 #: templates/spy.html:7
 msgid ""
@@ -270,10 +277,28 @@ msgid ""
 "výuke či samoštúdiu, a zasadzovať sa o používanie otvorených technológii "
 "v spoločnosti a verejnom sektore."
 msgstr ""
+"The mission of the SPy civic association is support developers and users "
+"of the Python programming language. We support and we spread the "
+"programming language Python, and other open source technologies and open "
+"source ideas in our society. Our goal is to provide help and support for "
+"complete beginners and people who begin programming. Our next goal is to "
+"work with schools and other educational institutions, and promote "
+"programming (independent of the programming language) in children and "
+"young people from the earliest age. We support the area of software "
+"development in socially vulnerable or otherwise disadvantaged social "
+"groups. We are dedicated to practical use of software development. We "
+"want to work on various open source projects to create open educational "
+"content to use in school-teaching, self-study and advocates the use of "
+"open technologies in society and the public sector."
 
 #: templates/spy.html:9
 msgid "Zakladajúci členovia:"
 msgstr "Founding memebers:"
+
+#: templates/spy.html:11 templates/spy.html:12 templates/spy.html:13
+#, python-format
+msgid "Profil %(user)s na Linkedine"
+msgstr "%(user)s profile at Linkedin"
 
 #: templates/spy.html:19
 msgid "Kontakt"
@@ -289,7 +314,7 @@ msgstr "day"
 
 #: templates/spy.html:21
 msgid "Číslo spisu"
-msgstr ""
+msgstr "Register number"
 
 #: templates/spy.html:22
 msgid "IČO"
@@ -305,25 +330,28 @@ msgstr "Bank account"
 
 #: templates/spy.html:24
 msgid "Stanovy"
-msgstr ""
+msgstr "Code of rules"
 
 #: templates/spy.html:28
 msgid "Ak sa chceš stať našim členom, vyplň nasledujúci formulár:"
-msgstr ""
+msgstr "If you would like to became our member, fill following form:"
 
 #: templates/spy.html:32
 msgid "Tvoje meno"
-msgstr ""
+msgstr "Your name"
 
 #: templates/spy.html:35
 msgid "Tvoj e-mail"
-msgstr ""
+msgstr "Your e-mail"
 
 #: templates/spy.html:38
 msgid "Niečo o tebe"
-msgstr ""
+msgstr "Something about you"
 
 #: templates/spy.html:41
 msgid "Odoslať registráciu"
-msgstr ""
+msgstr "Send registration"
+
+#~ msgid "Profil %s na Linkedine"
+#~ msgstr ""
 

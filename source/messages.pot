@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-09-18 16:20+0100\n"
+"POT-Creation-Date: 2015-09-19 09:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgstr ""
 msgid "E-mailová konferencia"
 msgstr ""
 
-#: templates/body.html:64
+#: templates/body.html:68
 msgid "Preskočiť na začiatok"
 msgstr ""
 
@@ -170,9 +170,16 @@ msgid ""
 msgstr ""
 
 #: templates/index.html:27
+#, python-format
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
-"href=\"/meetup.html\">meetupy</a>."
+"href=\"/%(lang_code)s/meetup.html\">meetupy</a>."
+msgstr ""
+
+#: templates/right_nav.html:4 templates/right_nav.html:9
+#: templates/right_nav.html:14 templates/right_nav.html:18
+#, python-format
+msgid "%(num)s Bratislavský Python Meetup"
 msgstr ""
 
 #: templates/right_nav.html:5
@@ -223,6 +230,11 @@ msgstr ""
 
 #: templates/spy.html:9
 msgid "Zakladajúci členovia:"
+msgstr ""
+
+#: templates/spy.html:11 templates/spy.html:12 templates/spy.html:13
+#, python-format
+msgid "Profil %(user)s na Linkedine"
 msgstr ""
 
 #: templates/spy.html:19
