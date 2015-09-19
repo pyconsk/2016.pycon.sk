@@ -144,8 +144,8 @@ msgid ""
 " úctivá a na profesionálnej úrovni. Buďme k sebe navzájom tolerantní."
 msgstr ""
 "PyCon SK and Python Meetup fully identify with code of conduct of Python "
-"community. We create environment, which is open to everyone, "
-"independently on sex, sexual orientation, rase, education or religion. "
+"community. We create an environment, which is open to everyone, "
+"independently of sex, sexual orientation, race, education or religion. "
 "All communication shoud be respectful and on professional level. We will "
 "be tolerant to each other."
 
@@ -157,8 +157,8 @@ msgid ""
 "stretnutia v akejkoľvek forme."
 msgstr ""
 "We do not offend, vilify other members. We behave proffesionally. "
-"Harrasment,sexist, raceist or othervise eliminating jokes are improper at"
-" our meetings. We will not tolerate any harasment participants of meetups"
+"Harrasment, sexist, racist or otherwise demeaning jokes are improper at"
+" our meetings. We will not tolerate any harrasment of participants of meetups"
 " in any form."
 
 #: templates/index.html:5
@@ -178,7 +178,7 @@ msgid ""
 "<strong>Prvý ročník</strong> sa uskutoční <strong>začiatkom roka 2016 v "
 "Bratislave</strong>."
 msgstr ""
-"<strong>First year</strong> will happen <strong>at beggining of 2016 in "
+"<strong>First year</strong> will happen <strong>at beginning of 2016 in "
 "Bratislava</strong>."
 
 #: templates/index.html:13
@@ -187,8 +187,8 @@ msgid ""
 "prednášok, budeme organizovať aj workshopy, ktoré budú vhodné aj pre "
 "úplných začiatočníkov."
 msgstr ""
-"We are looking forward to announce, that apart from two days of "
-"minteresting talks, we will organize workshops, that will be suitable for"
+"We are happy to announce that apart from two days of "
+"interesting talks, we will organize workshops that will be suitable for"
 " absolute beginners."
 
 #: templates/index.html:16
@@ -196,8 +196,8 @@ msgid ""
 "Ak máte záujem dostávať aktuálne informácie o konferencii PyCon SK môžete"
 " sa prihlásiť do mailing listu."
 msgstr ""
-"If you are interested in up to date information about conference PyCon SK"
-" you can subscribe into mailinglist"
+"If you are interested in up to date information about PyCon SK conference"
+" you can subscribe to the mailing list"
 
 #: templates/index.html:18
 msgid "E-mail:"
@@ -213,8 +213,8 @@ msgid ""
 "pomôcť s organizáciou PyConu (ktorý je kompletne organizovaný "
 "dobrovoľníkmi), budeme radi ak sa nám ozvete."
 msgstr ""
-"If you want support us, became a volunteer, or help with organiseing "
-"PyCon any other way (which is completely organised by volunteers), we "
+"If you want support us, become a volunteer, or help with organizing "
+"PyCon SK (which is run entirely by volunteers) in any other way, we "
 "will be happy if you let us know."
 
 #: templates/index.html:27
@@ -277,23 +277,23 @@ msgid ""
 "výuke či samoštúdiu, a zasadzovať sa o používanie otvorených technológii "
 "v spoločnosti a verejnom sektore."
 msgstr ""
-"The mission of the SPy civic association is support developers and users "
+"The mission of the SPy civic association is to support developers and users "
 "of the Python programming language. We support and we spread the "
-"programming language Python, and other open source technologies and open "
+"programming language Python and other open source technologies and open "
 "source ideas in our society. Our goal is to provide help and support for "
-"complete beginners and people who begin programming. Our next goal is to "
+"complete beginners and people who begin programming. Another goal is to "
 "work with schools and other educational institutions, and promote "
 "programming (independent of the programming language) in children and "
 "young people from the earliest age. We support the area of software "
 "development in socially vulnerable or otherwise disadvantaged social "
 "groups. We are dedicated to practical use of software development. We "
-"want to work on various open source projects to create open educational "
-"content to use in school-teaching, self-study and advocates the use of "
-"open technologies in society and the public sector."
+"want to work on various open source projects, to create open educational "
+"content for use in schools as well as self-study and advocate for the use "
+"of open technologies in society and the public sector."
 
 #: templates/spy.html:9
 msgid "Zakladajúci členovia:"
-msgstr "Founding memebers:"
+msgstr "Founding members:"
 
 #: templates/spy.html:11 templates/spy.html:12 templates/spy.html:13
 #, python-format
@@ -306,7 +306,7 @@ msgstr "Contact"
 
 #: templates/spy.html:20
 msgid "Registrované na MVSR"
-msgstr "Registered at MVSR"
+msgstr "Registered at the Ministry of Interior of the SR"
 
 #: templates/spy.html:20
 msgid "dňa"
@@ -330,7 +330,7 @@ msgstr "Bank account"
 
 #: templates/spy.html:24
 msgid "Stanovy"
-msgstr "Code of rules"
+msgstr "Bylaws"
 
 #: templates/spy.html:28
 msgid "Ak sa chceš stať našim členom, vyplň nasledujúci formulár:"
@@ -350,7 +350,7 @@ msgstr "Something about you"
 
 #: templates/spy.html:41
 msgid "Odoslať registráciu"
-msgstr "Send registration"
+msgstr "Submit registration"
 
 #~ msgid "Profil %s na Linkedine"
 #~ msgstr ""
