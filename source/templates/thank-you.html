@@ -2,9 +2,9 @@
 {% block content %}
 <div class="row">
   <div class="col-md-8">
-    <h1>Ďakujeme za záujem</h1>
-    <p>Tvoja požiadavka bola zaznamenaná a čoskoro sa ozveme...</p>
-    <p>Medzičasom sa môžeš prihlásiť do <a href="https://lists.pycon.sk/listinfo">e-mailovej konferencie</a> a dať nám o sebe vedieť.</p>
+    <h1>{{ _('Ďakujeme za záujem') }}</h1>
+    <p>{{ _('Tvoja požiadavka bola zaznamenaná a čoskoro sa ozveme...') }}</p>
+    <p>{{ _('Medzičasom sa môžeš prihlásiť do <a href="%(url)s">e-mailovej konferencie</a> a dať nám o sebe vedieť.', url='https://lists.pycon.sk/listinfo') }}</p>
   </div>
 
   <div class="col-md-4">
