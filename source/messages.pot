@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-09-19 09:16+0100\n"
+"POT-Creation-Date: 2015-09-24 16:32+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -173,7 +173,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
-"href=\"/%(lang_code)s/meetup.html\">meetupy</a>."
+"href=\"%(url)s\">meetupy</a>."
 msgstr ""
 
 #: templates/right_nav.html:4 templates/right_nav.html:9
@@ -228,64 +228,79 @@ msgid ""
 "v spoločnosti a verejnom sektore."
 msgstr ""
 
-#: templates/spy.html:9
+#: templates/spy.html:8
 msgid "Zakladajúci členovia:"
 msgstr ""
 
-#: templates/spy.html:11 templates/spy.html:12 templates/spy.html:13
+#: templates/spy.html:10 templates/spy.html:11 templates/spy.html:12
 #, python-format
 msgid "Profil %(user)s na Linkedine"
 msgstr ""
 
-#: templates/spy.html:19
+#: templates/spy.html:18
 msgid "Kontakt"
 msgstr ""
 
-#: templates/spy.html:20
+#: templates/spy.html:19
 msgid "Registrované na MVSR"
 msgstr ""
 
-#: templates/spy.html:20
+#: templates/spy.html:19
 msgid "dňa"
 msgstr ""
 
-#: templates/spy.html:21
+#: templates/spy.html:20
 msgid "Číslo spisu"
 msgstr ""
 
-#: templates/spy.html:22
+#: templates/spy.html:21
 msgid "IČO"
 msgstr ""
 
-#: templates/spy.html:22 templates/spy.html:23
+#: templates/spy.html:22
+msgid "Číslo účtu"
+msgstr ""
+
+#: templates/spy.html:22
 msgid "Čoskoro"
 msgstr ""
 
 #: templates/spy.html:23
-msgid "Číslo účtu"
-msgstr ""
-
-#: templates/spy.html:24
 msgid "Stanovy"
 msgstr ""
 
-#: templates/spy.html:28
+#: templates/spy.html:27
 msgid "Ak sa chceš stať našim členom, vyplň nasledujúci formulár:"
 msgstr ""
 
-#: templates/spy.html:32
+#: templates/spy.html:31
 msgid "Tvoje meno"
 msgstr ""
 
-#: templates/spy.html:35
+#: templates/spy.html:34
 msgid "Tvoj e-mail"
 msgstr ""
 
-#: templates/spy.html:38
+#: templates/spy.html:37
 msgid "Niečo o tebe"
 msgstr ""
 
-#: templates/spy.html:41
+#: templates/spy.html:40
 msgid "Odoslať registráciu"
+msgstr ""
+
+#: templates/thank-you.html:5
+msgid "Ďakujeme za záujem"
+msgstr ""
+
+#: templates/thank-you.html:6
+msgid "Tvoja požiadavka bola zaznamenaná a čoskoro sa ozveme..."
+msgstr ""
+
+#: templates/thank-you.html:7
+#, python-format
+msgid ""
+"Medzičasom sa môžeš prihlásiť do <a href=\"%(url)s\">e-mailovej "
+"konferencie</a> a dať nám o sebe vedieť."
 msgstr ""
 

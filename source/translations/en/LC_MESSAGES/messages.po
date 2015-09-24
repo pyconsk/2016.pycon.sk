@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-09-19 09:16+0100\n"
+"POT-Creation-Date: 2015-09-24 16:32+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -157,9 +157,9 @@ msgid ""
 "stretnutia v akejkoľvek forme."
 msgstr ""
 "We do not offend, vilify other members. We behave professionally. "
-"Harassment, sexist, racist or otherwise demeaning jokes are improper at"
-" our meetings. We will not tolerate any harassment of participants of meetups"
-" in any form."
+"Harassment, sexist, racist or otherwise demeaning jokes are improper at "
+"our meetings. We will not tolerate any harassment of participants of "
+"meetups in any form."
 
 #: templates/index.html:5
 msgid "Štartujeme PyCon SK!"
@@ -187,9 +187,8 @@ msgid ""
 "prednášok, budeme organizovať aj workshopy, ktoré budú vhodné aj pre "
 "úplných začiatočníkov."
 msgstr ""
-"We are happy to announce that apart from two days of "
-"interesting talks, we will organize workshops that will be suitable for"
-" absolute beginners."
+"We are happy to announce that apart from two days of interesting talks, "
+"we will organize workshops that will be suitable for absolute beginners."
 
 #: templates/index.html:16
 msgid ""
@@ -213,18 +212,18 @@ msgid ""
 "pomôcť s organizáciou PyConu (ktorý je kompletne organizovaný "
 "dobrovoľníkmi), budeme radi ak sa nám ozvete."
 msgstr ""
-"If you want support us, become a volunteer, or help with organizing "
-"PyCon SK (which is run entirely by volunteers) in any other way, we "
-"will be happy if you let us know."
+"If you want support us, become a volunteer, or help with organizing PyCon"
+" SK (which is run entirely by volunteers) in any other way, we will be "
+"happy if you let us know."
 
 #: templates/index.html:27
 #, python-format
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
-"href=\"/%(lang_code)s/meetup.html\">meetupy</a>."
+"href=\"%(url)s\">meetupy</a>."
 msgstr ""
 "In the meantime you can visit our regular <a "
-"href=\"/%(lang_code)s/meetup.html\">meetups</a>."
+"href=\"%(url)s\">meetups</a>."
 
 #: templates/right_nav.html:4 templates/right_nav.html:9
 #: templates/right_nav.html:14 templates/right_nav.html:18
@@ -277,8 +276,8 @@ msgid ""
 "výuke či samoštúdiu, a zasadzovať sa o používanie otvorených technológii "
 "v spoločnosti a verejnom sektore."
 msgstr ""
-"The mission of the SPy civic association is to support developers and users "
-"of the Python programming language. We support and we spread the "
+"The mission of the SPy civic association is to support developers and "
+"users of the Python programming language. We support and we spread the "
 "programming language Python and other open source technologies and open "
 "source ideas in our society. Our goal is to provide help and support for "
 "complete beginners and people who begin programming. Another goal is to "
@@ -288,69 +287,86 @@ msgstr ""
 "development in socially vulnerable or otherwise disadvantaged social "
 "groups. We are dedicated to practical use of software development. We "
 "want to work on various open source projects, to create open educational "
-"content for use in schools as well as self-study and advocate for the use "
-"of open technologies in society and the public sector."
+"content for use in schools as well as self-study and advocate for the use"
+" of open technologies in society and the public sector."
 
-#: templates/spy.html:9
+#: templates/spy.html:8
 msgid "Zakladajúci členovia:"
 msgstr "Founding members:"
 
-#: templates/spy.html:11 templates/spy.html:12 templates/spy.html:13
+#: templates/spy.html:10 templates/spy.html:11 templates/spy.html:12
 #, python-format
 msgid "Profil %(user)s na Linkedine"
 msgstr "%(user)s profile at Linkedin"
 
-#: templates/spy.html:19
+#: templates/spy.html:18
 msgid "Kontakt"
 msgstr "Contact"
 
-#: templates/spy.html:20
+#: templates/spy.html:19
 msgid "Registrované na MVSR"
 msgstr "Registered at the Ministry of Interior of the SR"
 
-#: templates/spy.html:20
+#: templates/spy.html:19
 msgid "dňa"
 msgstr "day"
 
-#: templates/spy.html:21
+#: templates/spy.html:20
 msgid "Číslo spisu"
 msgstr "Register number"
 
-#: templates/spy.html:22
+#: templates/spy.html:21
 msgid "IČO"
 msgstr "ID"
 
-#: templates/spy.html:22 templates/spy.html:23
+#: templates/spy.html:22
+msgid "Číslo účtu"
+msgstr "Bank account"
+
+#: templates/spy.html:22
 msgid "Čoskoro"
 msgstr "TBD"
 
 #: templates/spy.html:23
-msgid "Číslo účtu"
-msgstr "Bank account"
-
-#: templates/spy.html:24
 msgid "Stanovy"
 msgstr "Bylaws"
 
-#: templates/spy.html:28
+#: templates/spy.html:27
 msgid "Ak sa chceš stať našim členom, vyplň nasledujúci formulár:"
 msgstr "If you would like to became our member, fill following form:"
 
-#: templates/spy.html:32
+#: templates/spy.html:31
 msgid "Tvoje meno"
 msgstr "Your name"
 
-#: templates/spy.html:35
+#: templates/spy.html:34
 msgid "Tvoj e-mail"
 msgstr "Your e-mail"
 
-#: templates/spy.html:38
+#: templates/spy.html:37
 msgid "Niečo o tebe"
 msgstr "Something about you"
 
-#: templates/spy.html:41
+#: templates/spy.html:40
 msgid "Odoslať registráciu"
 msgstr "Submit registration"
+
+#: templates/thank-you.html:5
+msgid "Ďakujeme za záujem"
+msgstr "Thank you for your interest"
+
+#: templates/thank-you.html:6
+msgid "Tvoja požiadavka bola zaznamenaná a čoskoro sa ozveme..."
+msgstr "Your request has been recorded and we will get in touch soon..."
+
+#: templates/thank-you.html:7
+#, python-format
+msgid ""
+"Medzičasom sa môžeš prihlásiť do <a href=\"%(url)s\">e-mailovej "
+"konferencie</a> a dať nám o sebe vedieť."
+msgstr ""
+"In the meantime you can subscribed to <a href=\"%(url)s\">e-mail "
+"conference</a> and let us know something about you."
 
 #~ msgid "Profil %s na Linkedine"
 #~ msgstr ""
