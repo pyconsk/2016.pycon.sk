@@ -24,7 +24,7 @@
     <br>
 
     <p>{{ _('Ak máte záujem prispieť, stať sa dobrovoľníkom, alebo akokoľvek inak pomôcť s organizáciou PyConu (ktorý je kompletne organizovaný dobrovoľníkmi), budeme radi ak sa nám ozvete.') }}</p>
-    <p>{{ _('Medzičasom sa môžete prísť pozrieť na naše pravidelné <a href="/%(lang_code)s/meetup.html">meetupy</a>.', lang_code=lang_code) }}</p>
+    <p>{{ _('Medzičasom sa môžete prísť pozrieť na naše pravidelné <a href="%(url)s">meetupy</a>.', url=url_for('meetup', lang_code=lang_code)) }}</p>
   </div>
 
   <div class="col-md-4">
