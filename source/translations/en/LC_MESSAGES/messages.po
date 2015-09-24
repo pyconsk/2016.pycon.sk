@@ -27,7 +27,7 @@ msgstr ""
 
 #: templates/body.html:43 templates/code-of-conduct.html:5
 msgid "Kódex správania"
-msgstr "Code of conduct"
+msgstr "Code of Conduct"
 
 #: templates/body.html:46
 msgid "SPy občianske združenie"
@@ -39,7 +39,7 @@ msgstr "E-mail conference"
 
 #: templates/body.html:68
 msgid "Preskočiť na začiatok"
-msgstr "Jump to beggining"
+msgstr "Back to top"
 
 #: templates/code-of-conduct.html:7
 msgid ""
@@ -156,21 +156,21 @@ msgid ""
 "nevhodné na našom stretnutí. Nebudeme tolerovať obťažovanie účastníkov "
 "stretnutia v akejkoľvek forme."
 msgstr ""
-"We do not offend, vilify other members. We behave proffesionally. "
-"Harrasment, sexist, racist or otherwise demeaning jokes are improper at"
-" our meetings. We will not tolerate any harrasment of participants of meetups"
+"We do not offend, vilify other members. We behave professionally. "
+"Harassment, sexist, racist or otherwise demeaning jokes are improper at"
+" our meetings. We will not tolerate any harassment of participants of meetups"
 " in any form."
 
 #: templates/index.html:5
 msgid "Štartujeme PyCon SK!"
-msgstr "We are starrting PyCon SK!"
+msgstr "We are starting PyCon SK!"
 
 #: templates/index.html:6
 msgid ""
 "PyCon SK je komunitou organizovaná konferencia pre programovací jazyk "
 "Python."
 msgstr ""
-"PyCon SK is a community organized conference for Python programming "
+"PyCon SK is a community organized conference for the Python programming "
 "language."
 
 #: templates/index.html:6

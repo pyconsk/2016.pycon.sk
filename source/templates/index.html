@@ -6,8 +6,8 @@
     <p class="lead">{{ _('PyCon SK je komunitou organizovaná konferencia pre programovací jazyk Python.') }} {{ _('<strong>Prvý ročník</strong> sa uskutoční <strong>začiatkom roka 2016 v Bratislave</strong>.') }}</p>
     <p class="text-center">
       <a href="https://www.python.org/" target="_blank" title="Domovská stránka Pythonu">
-        <img src="/images/python_logo.png" alt="Python" class="hidden-xs hidden-sm">
-        <img src="/images/python_logo_notext.svg" alt="Python" class="hidden-md hidden-lg">
+        <img src="{{ url_for('static', filename='images/python_logo.png') }}" alt="Python" class="hidden-xs hidden-sm">
+        <img src="{{ url_for('static', filename='images/python_logo_notext.svg') }}" alt="Python" class="hidden-md hidden-lg">
       </a>
     </p>
     <p>{{ _('Veľmi sa tešíme, že vám môžeme oznámiť, že okrem dvoch dní zaujímavých prednášok, budeme organizovať aj workshopy, ktoré budú vhodné aj pre úplných začiatočníkov.') }}</p>
@@ -30,6 +30,6 @@
   <div class="col-md-4">
     {% include 'right_nav.html' %}
   </div>
-  <div class="hide"><a href="/thank-you.html"></a></div>
+  <div class="hide"><a href="{{ url_for('thank_you', lang_code=lang_code) }}"></a></div>
 </div>
 {% endblock %}

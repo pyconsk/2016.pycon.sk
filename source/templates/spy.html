@@ -21,7 +21,7 @@
       <li><b>{{ _('Číslo spisu') }}</b>: VVS/1-900/90-466 95</li>
       <li><b>{{ _('IČO') }}</b>: {{ _('Čoskoro') }}</li>
       <li><b>{{ _('Číslo účtu') }}</b>: {{ _('Čoskoro') }}</li>
-      <li><b>{{ _('Stanovy') }}</b>: <a href="/SPy_stanovy.pdf">PDF <span class="glyphicon glyphicon-download-alt"></span></a></li>
+      <li><b>{{ _('Stanovy') }}</b>: <a href="{{ url_for('static', filename='SPy_stanovy.pdf') }}">PDF <span class="glyphicon glyphicon-download-alt"></span></a></li>
     </ul>
 
     <hr>
