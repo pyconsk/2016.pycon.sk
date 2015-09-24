@@ -19,7 +19,7 @@ msgstr ""
 
 #: templates/body.html:24
 msgid "Preskočiť na hlavný obsah"
-msgstr "Jump to main topic"
+msgstr "Back to home page"
 
 #: templates/body.html:40
 msgid "Meetup"
@@ -35,7 +35,7 @@ msgstr "SPy civic association"
 
 #: templates/body.html:49
 msgid "E-mailová konferencia"
-msgstr "E-mail conference"
+msgstr "Mailing list"
 
 #: templates/body.html:68
 msgid "Preskočiť na začiatok"
@@ -78,7 +78,7 @@ msgid ""
 " kde sa môže ktokoľvek podieľať a každý ho môže zlepšiť."
 msgstr ""
 "Members of the community are open to collaboration, whether it's on PEPs,"
-" patches, problems, or otherwise. We're receptive to constructive comment"
+" patches, problems, or otherwise. We're receptive to constructive comments"
 " and criticism, as the experiences and skill sets of other members "
 "contribute to the whole of our efforts. We're accepting of all who wish "
 "to take part in our activities, fostering an environment where anyone can"
@@ -143,10 +143,10 @@ msgid ""
 " veľkosti, rase, vzdelaní či vierovyznaní. Všetka komunikácia by mala byť"
 " úctivá a na profesionálnej úrovni. Buďme k sebe navzájom tolerantní."
 msgstr ""
-"PyCon SK and Python Meetup fully identify with code of conduct of Python "
+"PyCon SK and Python Meetup fully identify with the Code of Conduct of the Python "
 "community. We create an environment, which is open to everyone, "
 "independently of sex, sexual orientation, race, education or religion. "
-"All communication shoud be respectful and on professional level. We will "
+"All communication should be respectful and on professional level. We will "
 "be tolerant to each other."
 
 #: templates/code-of-conduct.html:25
@@ -195,7 +195,7 @@ msgid ""
 "Ak máte záujem dostávať aktuálne informácie o konferencii PyCon SK môžete"
 " sa prihlásiť do mailing listu."
 msgstr ""
-"If you are interested in up to date information about PyCon SK conference"
+"If you are interested in up to date information about the PyCon SK conference"
 " you can subscribe to the mailing list"
 
 #: templates/index.html:18
@@ -212,7 +212,7 @@ msgid ""
 "pomôcť s organizáciou PyConu (ktorý je kompletne organizovaný "
 "dobrovoľníkmi), budeme radi ak sa nám ozvete."
 msgstr ""
-"If you want support us, become a volunteer, or help with organizing PyCon"
+"If you want support us, become a volunteer, or help with organizing of PyCon"
 " SK (which is run entirely by volunteers) in any other way, we will be "
 "happy if you let us know."
 
@@ -280,7 +280,7 @@ msgstr ""
 "users of the Python programming language. We support and we spread the "
 "programming language Python and other open source technologies and open "
 "source ideas in our society. Our goal is to provide help and support for "
-"complete beginners and people who begin programming. Another goal is to "
+"beginners and people who are new to programming. Another goal is to "
 "work with schools and other educational institutions, and promote "
 "programming (independent of the programming language) in children and "
 "young people from the earliest age. We support the area of software "
@@ -297,7 +297,7 @@ msgstr "Founding members:"
 #: templates/spy.html:10 templates/spy.html:11 templates/spy.html:12
 #, python-format
 msgid "Profil %(user)s na Linkedine"
-msgstr "%(user)s profile at Linkedin"
+msgstr "%(user)s profile at LinkedIn"
 
 #: templates/spy.html:18
 msgid "Kontakt"
@@ -313,7 +313,7 @@ msgstr "day"
 
 #: templates/spy.html:20
 msgid "Číslo spisu"
-msgstr "Register number"
+msgstr "Registry number"
 
 #: templates/spy.html:21
 msgid "IČO"
@@ -333,7 +333,7 @@ msgstr "Bylaws"
 
 #: templates/spy.html:27
 msgid "Ak sa chceš stať našim členom, vyplň nasledujúci formulár:"
-msgstr "If you would like to became our member, fill following form:"
+msgstr "If you would like to become our member, please fill out the following form:"
 
 #: templates/spy.html:31
 msgid "Tvoje meno"
@@ -357,7 +357,7 @@ msgstr "Thank you for your interest"
 
 #: templates/thank-you.html:6
 msgid "Tvoja požiadavka bola zaznamenaná a čoskoro sa ozveme..."
-msgstr "Your request has been recorded and we will get in touch soon..."
+msgstr "Your request was successfully submitted and we will get in touch soon..."
 
 #: templates/thank-you.html:7
 #, python-format
@@ -365,9 +365,4 @@ msgid ""
 "Medzičasom sa môžeš prihlásiť do <a href=\"%(url)s\">e-mailovej "
 "konferencie</a> a dať nám o sebe vedieť."
 msgstr ""
-"In the meantime you can subscribed to <a href=\"%(url)s\">e-mail "
-"conference</a> and let us know something about you."
-
-#~ msgid "Profil %s na Linkedine"
-#~ msgstr ""
-
+"In the meantime you can subscribe to our <a href=\"%(url)s\">mailing list</a> and tell us something about you."
