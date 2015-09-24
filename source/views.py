@@ -1,5 +1,5 @@
 from flask import Flask, g, request, send_from_directory, render_template, abort
-from flask.ext.babel import Babel
+from flask.ext.babel import Babel, gettext
 
 app = Flask(__name__, static_url_path='/static')
 app.config['BABEL_DEFAULT_LOCALE'] = 'sk'
@@ -25,8 +25,8 @@ def get_locale():
 
 def _get_template_variables():
     variables = {
-        'title': 'PyCon SK',
-        'logo': 'python_logo_notext.svg'
+        'title': gettext('PyCon SK'),
+        'logo': 'images/python_logo_notext.svg'
     }
 
     if 'current_lang' in g:
@@ -50,7 +50,7 @@ def code_of_conduct():
 @app.route('/<lang_code>/spy.html')
 def spy():
     variables = _get_template_variables()
-    variables['title'] = 'SPy o. z.'
+    variables['title'] = gettext('SPy o. z.')
 
     return render_template('spy.html', **variables)
 
@@ -68,7 +68,7 @@ def meetup():
 @app.route('/<lang_code>/ba-01-meetup.html')
 def ba_meetup_01():
     variables = _get_template_variables()
-    variables['logo'] = 'bratislava_logo.svg'
+    variables['logo'] = 'images/bratislava_logo.svg'
 
     return render_template('ba-01-meetup.html', **variables)
 
@@ -76,7 +76,7 @@ def ba_meetup_01():
 @app.route('/<lang_code>/ba-02-meetup.html')
 def ba_meetup_02():
     variables = _get_template_variables()
-    variables['logo'] = 'bratislava_logo.svg'
+    variables['logo'] = 'images/bratislava_logo.svg'
 
     return render_template('ba-02-meetup.html', **variables)
 
@@ -84,7 +84,7 @@ def ba_meetup_02():
 @app.route('/<lang_code>/ba-03-meetup.html')
 def ba_meetup_03():
     variables = _get_template_variables()
-    variables['logo'] = 'bratislava_logo.svg'
+    variables['logo'] = 'images/bratislava_logo.svg'
 
     return render_template('ba-03-meetup.html', **variables)
 
@@ -92,7 +92,7 @@ def ba_meetup_03():
 @app.route('/<lang_code>/ba-04-meetup.html')
 def ba_meetup_04():
     variables = _get_template_variables()
-    variables['logo'] = 'bratislava_logo.svg'
+    variables['logo'] = 'images/bratislava_logo.svg'
 
     return render_template('ba-04-meetup.html', **variables)
 
