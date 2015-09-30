@@ -8,40 +8,40 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-09-30 14:50+0200\n"
+"POT-Creation-Date: 2015-09-30 23:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.0\n"
+"Generated-By: Babel 2.1.1\n"
 
 #: templates/body.html:24
 msgid "Preskočiť na hlavný obsah"
 msgstr ""
 
-#: templates/body.html:40
+#: templates/body.html:41
 msgid "Speaking"
 msgstr ""
 
-#: templates/body.html:43 templates/code-of-conduct.html:5
+#: templates/body.html:45 templates/code-of-conduct.html:5
 msgid "Kódex správania"
 msgstr ""
 
-#: templates/body.html:46
+#: templates/body.html:48
 msgid "Meetup"
 msgstr ""
 
-#: templates/body.html:49
+#: templates/body.html:51
 msgid "SPy občianske združenie"
 msgstr ""
 
-#: templates/body.html:52
+#: templates/body.html:54
 msgid "E-mailová konferencia"
 msgstr ""
 
-#: templates/body.html:71
+#: templates/body.html:73
 msgid "Preskočiť na začiatok"
 msgstr ""
 
