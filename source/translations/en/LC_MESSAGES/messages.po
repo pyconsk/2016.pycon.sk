@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-09-30 13:07+0200\n"
+"POT-Creation-Date: 2015-09-30 14:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -484,6 +484,10 @@ msgid "Niečo o tebe"
 msgstr "Something about you"
 
 #: templates/spy.html:40
+msgid "Odoslané údaje sa nikde nezverejňujú."
+msgstr ""
+
+#: templates/spy.html:42
 msgid "Odoslať registráciu"
 msgstr "Submit registration"
 
