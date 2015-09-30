@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-09-24 16:32+0200\n"
+"POT-Creation-Date: 2015-09-30 13:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: de <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgid "Preskočiť na hlavný obsah"
 msgstr ""
 
 #: templates/body.html:40
-msgid "Meetup"
+msgid "Speaking"
 msgstr ""
 
 #: templates/body.html:43 templates/code-of-conduct.html:5
@@ -31,14 +31,18 @@ msgid "Kódex správania"
 msgstr ""
 
 #: templates/body.html:46
-msgid "SPy občianske združenie"
+msgid "Meetup"
 msgstr ""
 
 #: templates/body.html:49
+msgid "SPy občianske združenie"
+msgstr ""
+
+#: templates/body.html:52
 msgid "E-mailová konferencia"
 msgstr ""
 
-#: templates/body.html:68
+#: templates/body.html:71
 msgid "Preskočiť na začiatok"
 msgstr ""
 
@@ -207,6 +211,138 @@ msgstr ""
 msgid "Sponzor virtuálneho datacentra:"
 msgstr ""
 
+#: templates/speaking.html:5
+msgid "Call For Proposals"
+msgstr ""
+
+#: templates/speaking.html:6
+msgid ""
+"The Call For Proposals is now open — the PyCon SK 2016 conference in "
+"Bratislava, Slovak Republic, is accepting talks, tutorial proposals!"
+msgstr ""
+
+#: templates/speaking.html:8
+msgid ""
+"PyCon is annual gathering for the community using and developing the "
+"open-source Python programming language."
+msgstr ""
+
+#: templates/speaking.html:8
+msgid ""
+"Conference is completely organized by volunteers, You're coming to the "
+"event, and that makes you part of the community."
+msgstr ""
+
+#: templates/speaking.html:8
+msgid ""
+"If you've done something that you think other people might be interested "
+"in, or that you think they should know about, please do consider telling "
+"us about it."
+msgstr ""
+
+#: templates/speaking.html:8
+msgid ""
+"We don't just want to hear from the experts or famous names - other "
+"perspectives are just as valuable, so don't let the idea that you're not "
+"expert or famous enough stop you."
+msgstr ""
+
+#: templates/speaking.html:8
+msgid ""
+"This is your invitation to submit talk proposal if you haven't speak at "
+"the conference before. <strong>First-time speakers</strong> talk "
+"proposals are preffered."
+msgstr ""
+
+#: templates/speaking.html:11
+msgid "Where to submit your proposal"
+msgstr ""
+
+#: templates/speaking.html:12
+msgid "We are glad you are interested in giving a talk at PyCon SK 2016!"
+msgstr ""
+
+#: templates/speaking.html:12
+msgid "Send us your talk proposal with short abstract to email:"
+msgstr ""
+
+#: templates/speaking.html:14
+msgid "Don't hesitate to submit more than one proposal."
+msgstr ""
+
+#: templates/speaking.html:14
+msgid ""
+"<strong>The deadline for submissions is the end of 24th January 2016 "
+"(UTC).</strong>"
+msgstr ""
+
+#: templates/speaking.html:14
+msgid ""
+"Due to the competitive selection process, we encourage prospective "
+"speakers to submit their proposals as early as possible."
+msgstr ""
+
+#: templates/speaking.html:17
+msgid "Guidelines for Proposal Submission"
+msgstr ""
+
+#: templates/speaking.html:19
+msgid ""
+"There is no official restriction on the topic that you propose for a talk"
+" session!"
+msgstr ""
+
+#: templates/speaking.html:19
+msgid ""
+"Talks about Python or the Python community are most likely to line up "
+"with the interests of PyCon's audience, and a key consideration that the "
+"talk selection committee will be thinking about is your talk's ability to"
+" draw an audience."
+msgstr ""
+
+#: templates/speaking.html:19
+msgid "We observe a limit of one talk per presenter."
+msgstr ""
+
+#: templates/speaking.html:19
+msgid ""
+"You may propose more than one, but the committee will ask you to choose "
+"only one talk if more than one of your proposals is accepted."
+msgstr ""
+
+#: templates/speaking.html:22
+msgid "Talks"
+msgstr ""
+
+#: templates/speaking.html:23
+msgid ""
+"Most talks are 30 minutes long, but we do offer a limited number of "
+"45-minute slots for important topics that promise to benefit from a more "
+"extensive treatment."
+msgstr ""
+
+#: templates/speaking.html:24
+msgid "Workshops"
+msgstr ""
+
+#: templates/speaking.html:25
+msgid ""
+"As with the talks, we are looking for tutorials that can grow this "
+"community at any level!"
+msgstr ""
+
+#: templates/speaking.html:25
+msgid ""
+"We aim for tutorials that will advance Python, advance this community, "
+"and shape the future."
+msgstr ""
+
+#: templates/speaking.html:25
+msgid ""
+"As tutorials are longer than talks and are in an interactive classroom-"
+"like setting, they require much more preparation. "
+msgstr ""
+
 #: templates/spy.html:4
 msgid "SPy o. z."
 msgstr ""
@@ -324,11 +460,5 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Profil %s na Linkedine"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Medzičasom sa môžete prísť pozrieť na"
-#~ " naše pravidelné <a "
-#~ "href=\"/%(lang_code)s/meetup.html\">meetupy</a>."
 #~ msgstr ""
 

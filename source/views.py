@@ -42,6 +42,11 @@ def index():
     return render_template('index.html', **_get_template_variables())
 
 
+@app.route('/<lang_code>/speaking.html')
+def speaking():
+    return render_template('speaking.html', **_get_template_variables())
+
+
 @app.route('/<lang_code>/code-of-conduct.html')
 def code_of_conduct():
     return render_template('code-of-conduct.html', **_get_template_variables())

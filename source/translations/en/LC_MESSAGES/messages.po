@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-09-24 16:32+0200\n"
+"POT-Creation-Date: 2015-09-30 13:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgid "Preskočiť na hlavný obsah"
 msgstr "Back to home page"
 
 #: templates/body.html:40
-msgid "Meetup"
+msgid "Speaking"
 msgstr ""
 
 #: templates/body.html:43 templates/code-of-conduct.html:5
@@ -30,14 +30,18 @@ msgid "Kódex správania"
 msgstr "Code of Conduct"
 
 #: templates/body.html:46
+msgid "Meetup"
+msgstr ""
+
+#: templates/body.html:49
 msgid "SPy občianske združenie"
 msgstr "SPy civic association"
 
-#: templates/body.html:49
+#: templates/body.html:52
 msgid "E-mailová konferencia"
 msgstr "Mailing list"
 
-#: templates/body.html:68
+#: templates/body.html:71
 msgid "Preskočiť na začiatok"
 msgstr "Back to top"
 
@@ -78,11 +82,11 @@ msgid ""
 " kde sa môže ktokoľvek podieľať a každý ho môže zlepšiť."
 msgstr ""
 "Members of the community are open to collaboration, whether it's on PEPs,"
-" patches, problems, or otherwise. We're receptive to constructive comments"
-" and criticism, as the experiences and skill sets of other members "
-"contribute to the whole of our efforts. We're accepting of all who wish "
-"to take part in our activities, fostering an environment where anyone can"
-" participate and everyone can make a difference."
+" patches, problems, or otherwise. We're receptive to constructive "
+"comments and criticism, as the experiences and skill sets of other "
+"members contribute to the whole of our efforts. We're accepting of all "
+"who wish to take part in our activities, fostering an environment where "
+"anyone can participate and everyone can make a difference."
 
 #: templates/code-of-conduct.html:14
 msgid "Ohľaduplný"
@@ -143,11 +147,11 @@ msgid ""
 " veľkosti, rase, vzdelaní či vierovyznaní. Všetka komunikácia by mala byť"
 " úctivá a na profesionálnej úrovni. Buďme k sebe navzájom tolerantní."
 msgstr ""
-"PyCon SK and Python Meetup fully identify with the Code of Conduct of the Python "
-"community. We create an environment, which is open to everyone, "
+"PyCon SK and Python Meetup fully identify with the Code of Conduct of the"
+" Python community. We create an environment, which is open to everyone, "
 "independently of sex, sexual orientation, race, education or religion. "
-"All communication should be respectful and on professional level. We will "
-"be tolerant to each other."
+"All communication should be respectful and on professional level. We will"
+" be tolerant to each other."
 
 #: templates/code-of-conduct.html:25
 msgid ""
@@ -195,8 +199,8 @@ msgid ""
 "Ak máte záujem dostávať aktuálne informácie o konferencii PyCon SK môžete"
 " sa prihlásiť do mailing listu."
 msgstr ""
-"If you are interested in up to date information about the PyCon SK conference"
-" you can subscribe to the mailing list"
+"If you are interested in up to date information about the PyCon SK "
+"conference you can subscribe to the mailing list"
 
 #: templates/index.html:18
 msgid "E-mail:"
@@ -212,18 +216,16 @@ msgid ""
 "pomôcť s organizáciou PyConu (ktorý je kompletne organizovaný "
 "dobrovoľníkmi), budeme radi ak sa nám ozvete."
 msgstr ""
-"If you want support us, become a volunteer, or help with organizing of PyCon"
-" SK (which is run entirely by volunteers) in any other way, we will be "
-"happy if you let us know."
+"If you want support us, become a volunteer, or help with organizing of "
+"PyCon SK (which is run entirely by volunteers) in any other way, we will "
+"be happy if you let us know."
 
 #: templates/index.html:27
 #, python-format
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
 "href=\"%(url)s\">meetupy</a>."
-msgstr ""
-"In the meantime you can visit our regular <a "
-"href=\"%(url)s\">meetups</a>."
+msgstr "In the meantime you can visit our regular <a href=\"%(url)s\">meetups</a>."
 
 #: templates/right_nav.html:4 templates/right_nav.html:9
 #: templates/right_nav.html:14 templates/right_nav.html:18
@@ -255,6 +257,138 @@ msgstr "Friends:"
 msgid "Sponzor virtuálneho datacentra:"
 msgstr "Virtual datacenter sponsor:"
 
+#: templates/speaking.html:5
+msgid "Call For Proposals"
+msgstr ""
+
+#: templates/speaking.html:6
+msgid ""
+"The Call For Proposals is now open — the PyCon SK 2016 conference in "
+"Bratislava, Slovak Republic, is accepting talks, tutorial proposals!"
+msgstr ""
+
+#: templates/speaking.html:8
+msgid ""
+"PyCon is annual gathering for the community using and developing the "
+"open-source Python programming language."
+msgstr ""
+
+#: templates/speaking.html:8
+msgid ""
+"Conference is completely organized by volunteers, You're coming to the "
+"event, and that makes you part of the community."
+msgstr ""
+
+#: templates/speaking.html:8
+msgid ""
+"If you've done something that you think other people might be interested "
+"in, or that you think they should know about, please do consider telling "
+"us about it."
+msgstr ""
+
+#: templates/speaking.html:8
+msgid ""
+"We don't just want to hear from the experts or famous names - other "
+"perspectives are just as valuable, so don't let the idea that you're not "
+"expert or famous enough stop you."
+msgstr ""
+
+#: templates/speaking.html:8
+msgid ""
+"This is your invitation to submit talk proposal if you haven't speak at "
+"the conference before. <strong>First-time speakers</strong> talk "
+"proposals are preffered."
+msgstr ""
+
+#: templates/speaking.html:11
+msgid "Where to submit your proposal"
+msgstr ""
+
+#: templates/speaking.html:12
+msgid "We are glad you are interested in giving a talk at PyCon SK 2016!"
+msgstr ""
+
+#: templates/speaking.html:12
+msgid "Send us your talk proposal with short abstract to email:"
+msgstr ""
+
+#: templates/speaking.html:14
+msgid "Don't hesitate to submit more than one proposal."
+msgstr ""
+
+#: templates/speaking.html:14
+msgid ""
+"<strong>The deadline for submissions is the end of 24th January 2016 "
+"(UTC).</strong>"
+msgstr ""
+
+#: templates/speaking.html:14
+msgid ""
+"Due to the competitive selection process, we encourage prospective "
+"speakers to submit their proposals as early as possible."
+msgstr ""
+
+#: templates/speaking.html:17
+msgid "Guidelines for Proposal Submission"
+msgstr ""
+
+#: templates/speaking.html:19
+msgid ""
+"There is no official restriction on the topic that you propose for a talk"
+" session!"
+msgstr ""
+
+#: templates/speaking.html:19
+msgid ""
+"Talks about Python or the Python community are most likely to line up "
+"with the interests of PyCon's audience, and a key consideration that the "
+"talk selection committee will be thinking about is your talk's ability to"
+" draw an audience."
+msgstr ""
+
+#: templates/speaking.html:19
+msgid "We observe a limit of one talk per presenter."
+msgstr ""
+
+#: templates/speaking.html:19
+msgid ""
+"You may propose more than one, but the committee will ask you to choose "
+"only one talk if more than one of your proposals is accepted."
+msgstr ""
+
+#: templates/speaking.html:22
+msgid "Talks"
+msgstr ""
+
+#: templates/speaking.html:23
+msgid ""
+"Most talks are 30 minutes long, but we do offer a limited number of "
+"45-minute slots for important topics that promise to benefit from a more "
+"extensive treatment."
+msgstr ""
+
+#: templates/speaking.html:24
+msgid "Workshops"
+msgstr ""
+
+#: templates/speaking.html:25
+msgid ""
+"As with the talks, we are looking for tutorials that can grow this "
+"community at any level!"
+msgstr ""
+
+#: templates/speaking.html:25
+msgid ""
+"We aim for tutorials that will advance Python, advance this community, "
+"and shape the future."
+msgstr ""
+
+#: templates/speaking.html:25
+msgid ""
+"As tutorials are longer than talks and are in an interactive classroom-"
+"like setting, they require much more preparation. "
+msgstr ""
+
 #: templates/spy.html:4
 msgid "SPy o. z."
 msgstr "SPy o. z."
@@ -280,15 +414,15 @@ msgstr ""
 "users of the Python programming language. We support and we spread the "
 "programming language Python and other open source technologies and open "
 "source ideas in our society. Our goal is to provide help and support for "
-"beginners and people who are new to programming. Another goal is to "
-"work with schools and other educational institutions, and promote "
-"programming (independent of the programming language) in children and "
-"young people from the earliest age. We support the area of software "
-"development in socially vulnerable or otherwise disadvantaged social "
-"groups. We are dedicated to practical use of software development. We "
-"want to work on various open source projects, to create open educational "
-"content for use in schools as well as self-study and advocate for the use"
-" of open technologies in society and the public sector."
+"beginners and people who are new to programming. Another goal is to work "
+"with schools and other educational institutions, and promote programming "
+"(independent of the programming language) in children and young people "
+"from the earliest age. We support the area of software development in "
+"socially vulnerable or otherwise disadvantaged social groups. We are "
+"dedicated to practical use of software development. We want to work on "
+"various open source projects, to create open educational content for use "
+"in schools as well as self-study and advocate for the use of open "
+"technologies in society and the public sector."
 
 #: templates/spy.html:8
 msgid "Zakladajúci členovia:"
@@ -333,7 +467,9 @@ msgstr "Bylaws"
 
 #: templates/spy.html:27
 msgid "Ak sa chceš stať našim členom, vyplň nasledujúci formulár:"
-msgstr "If you would like to become our member, please fill out the following form:"
+msgstr ""
+"If you would like to become our member, please fill out the following "
+"form:"
 
 #: templates/spy.html:31
 msgid "Tvoje meno"
@@ -365,4 +501,6 @@ msgid ""
 "Medzičasom sa môžeš prihlásiť do <a href=\"%(url)s\">e-mailovej "
 "konferencie</a> a dať nám o sebe vedieť."
 msgstr ""
-"In the meantime you can subscribe to our <a href=\"%(url)s\">mailing list</a> and tell us something about you."
+"In the meantime you can subscribe to our <a href=\"%(url)s\">mailing "
+"list</a> and tell us something about you."
+
