@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-01 11:46+0200\n"
+"POT-Creation-Date: 2015-10-01 23:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -23,27 +23,27 @@ msgstr ""
 msgid "Preskočiť na hlavný obsah"
 msgstr ""
 
-#: templates/body.html:41
-msgid "Speaking"
+#: templates/body.html:40
+msgid "Prednášanie"
 msgstr ""
 
-#: templates/body.html:45 templates/code-of-conduct.html:5
+#: templates/body.html:43 templates/code-of-conduct.html:5
 msgid "Kódex správania"
 msgstr ""
 
-#: templates/body.html:48
+#: templates/body.html:46
 msgid "Meetup"
 msgstr ""
 
-#: templates/body.html:51
+#: templates/body.html:49
 msgid "SPy občianske združenie"
 msgstr ""
 
-#: templates/body.html:54
+#: templates/body.html:52
 msgid "E-mailová konferencia"
 msgstr ""
 
-#: templates/body.html:73
+#: templates/body.html:71
 msgid "Preskočiť na začiatok"
 msgstr ""
 
@@ -224,7 +224,7 @@ msgstr ""
 
 #: templates/speaking.html:8
 msgid ""
-"PyCon je každoročné stretnutie komunity ľudí, ktorý používajú, alebo "
+"PyCon je každoročné stretnutie komunity ľudí, ktorí používajú alebo "
 "vyvíjajú open-source programovací jazyk Python."
 msgstr ""
 
@@ -237,12 +237,13 @@ msgstr ""
 #: templates/speaking.html:8
 msgid ""
 "Pokiaľ ste spravili niečo, čo by mohlo zaujímať aj iných, alebo si "
-"myslíte, že ostatný by mali vedieť, príďte nám o tom spraviť prednášku."
+"myslíte, že ostatní by o tom mali vedieť, príďte nám o tom spraviť "
+"prednášku."
 msgstr ""
 
 #: templates/speaking.html:8
 msgid ""
-"Nechceme počúvať iba expertov a známe osobnosti - aj nový perspektívni "
+"Nechceme počúvať iba expertov a známe osobnosti - aj noví perspektívni "
 "rečníci sú tiež zaujímaví, tak sa prosím nenechajte odradiť pocitom že "
 "nie ste expert alebo známa osobnosť."
 msgstr ""
@@ -259,7 +260,7 @@ msgid "Kam poslať Váš návrh na prednášku"
 msgstr ""
 
 #: templates/speaking.html:13
-msgid "Sme radi že máte záujem prednášať na PyCon SK 2016!"
+msgid "Sme radi, že máte záujem prednášať na PyCon SK 2016!"
 msgstr ""
 
 #: templates/speaking.html:13
@@ -272,8 +273,8 @@ msgstr ""
 
 #: templates/speaking.html:17
 msgid ""
-"<strong>Termín odovzdania návrhov na prednášky je 24. január 2016 "
-"(UTC).</strong>"
+"<strong>Termín odovzdania návrhov na prednášky je 24. január "
+"2016.</strong>"
 msgstr ""
 
 #: templates/speaking.html:17
@@ -302,7 +303,7 @@ msgstr ""
 
 #: templates/speaking.html:22
 msgid ""
-"Navrhnúť môžete viac ako jednu, avšak komisia Vás vyzve aby ste vybrali "
+"Navrhnúť môžete viac ako jednu, avšak komisia Vás vyzve, aby ste vybrali "
 "iba jednu prednášku, v prípade že bude akceptovaných viac návrhov."
 msgstr ""
 
@@ -328,13 +329,13 @@ msgstr ""
 
 #: templates/speaking.html:31
 msgid ""
-"Usilujeme o výukové programy, ktoré budú zveľaďovať Python komunitu, a "
+"Usilujeme o výukové programy, ktoré budú zveľaďovať Python komunitu a "
 "formovať budúcnosť."
 msgstr ""
 
 #: templates/speaking.html:31
 msgid ""
-"Vzhľadom na to že návody trvajú dlhšie a budu v menších miestnostiach, "
+"Vzhľadom na to že návody trvajú dlhšie a budu v menších miestnostiach "
 "vyžadujú oveľa viac prípravy."
 msgstr ""
 
@@ -464,51 +465,6 @@ msgstr ""
 #~ msgid "Call For Proposals"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "The Call For Proposals is now open"
-#~ " — the PyCon SK 2016 conference "
-#~ "in Bratislava, Slovak Republic, is "
-#~ "accepting talks, tutorial proposals!"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "PyCon is annual gathering for the "
-#~ "community using and developing the "
-#~ "open-source Python programming language."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Conference is completely organized by "
-#~ "volunteers, You're coming to the event,"
-#~ " and that makes you part of the"
-#~ " community."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If you've done something that you "
-#~ "think other people might be interested"
-#~ " in, or that you think they "
-#~ "should know about, please do consider"
-#~ " telling us about it."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "We don't just want to hear from"
-#~ " the experts or famous names - "
-#~ "other perspectives are just as valuable,"
-#~ " so don't let the idea that "
-#~ "you're not expert or famous enough "
-#~ "stop you."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "This is your invitation to submit "
-#~ "talk proposal if you haven't speak "
-#~ "at the conference before. <strong>First-"
-#~ "time speakers</strong> talk proposals are "
-#~ "preffered."
-#~ msgstr ""
-
 #~ msgid "Where to submit your proposal"
 #~ msgstr ""
 
@@ -521,78 +477,66 @@ msgstr ""
 #~ msgid "Don't hesitate to submit more than one proposal."
 #~ msgstr ""
 
-#~ msgid ""
-#~ "<strong>The deadline for submissions is "
-#~ "the end of 24th January 2016 "
-#~ "(UTC).</strong>"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Due to the competitive selection "
-#~ "process, we encourage prospective speakers "
-#~ "to submit their proposals as early "
-#~ "as possible."
-#~ msgstr ""
-
 #~ msgid "Guidelines for Proposal Submission"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "There is no official restriction on "
-#~ "the topic that you propose for a"
-#~ " talk session!"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Talks about Python or the Python "
-#~ "community are most likely to line "
-#~ "up with the interests of PyCon's "
-#~ "audience, and a key consideration that"
-#~ " the talk selection committee will be"
-#~ " thinking about is your talk's "
-#~ "ability to draw an audience."
 #~ msgstr ""
 
 #~ msgid "We observe a limit of one talk per presenter."
 #~ msgstr ""
 
-#~ msgid ""
-#~ "You may propose more than one, but"
-#~ " the committee will ask you to "
-#~ "choose only one talk if more than"
-#~ " one of your proposals is accepted."
-#~ msgstr ""
-
 #~ msgid "Talks"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Most talks are 30 minutes long, "
-#~ "but we do offer a limited number"
-#~ " of 45-minute slots for important "
-#~ "topics that promise to benefit from "
-#~ "a more extensive treatment."
 #~ msgstr ""
 
 #~ msgid "Workshops"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "As with the talks, we are looking"
-#~ " for tutorials that can grow this "
-#~ "community at any level!"
+#~ msgid "Speaking"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "We aim for tutorials that will "
-#~ "advance Python, advance this community, "
-#~ "and shape the future."
+#~ "PyCon je každoročné stretnutie komunity "
+#~ "ľudí, ktorý používajú, alebo vyvíjajú "
+#~ "open-source programovací jazyk Python."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "As tutorials are longer than talks "
-#~ "and are in an interactive classroom-"
-#~ "like setting, they require much more "
-#~ "preparation. "
+#~ "Pokiaľ ste spravili niečo, čo by "
+#~ "mohlo zaujímať aj iných, alebo si "
+#~ "myslíte, že ostatný by mali vedieť, "
+#~ "príďte nám o tom spraviť prednášku."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Nechceme počúvať iba expertov a známe"
+#~ " osobnosti - aj nový perspektívni "
+#~ "rečníci sú tiež zaujímaví, tak sa "
+#~ "prosím nenechajte odradiť pocitom že nie"
+#~ " ste expert alebo známa osobnosť."
+#~ msgstr ""
+
+#~ msgid "Sme radi že máte záujem prednášať na PyCon SK 2016!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "<strong>Termín odovzdania návrhov na prednášky"
+#~ " je 24. január 2016 (UTC).</strong>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Navrhnúť môžete viac ako jednu, avšak"
+#~ " komisia Vás vyzve aby ste vybrali"
+#~ " iba jednu prednášku, v prípade že"
+#~ " bude akceptovaných viac návrhov."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Usilujeme o výukové programy, ktoré budú"
+#~ " zveľaďovať Python komunitu, a formovať "
+#~ "budúcnosť."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Vzhľadom na to že návody trvajú "
+#~ "dlhšie a budu v menších miestnostiach,"
+#~ " vyžadujú oveľa viac prípravy."
 #~ msgstr ""
 
