@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-01 23:01+0200\n"
+"POT-Creation-Date: 2015-10-05 22:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -321,19 +321,19 @@ msgstr ""
 
 #: templates/speaking.html:31
 msgid ""
-"Tak ako prednášky, tešíme sa na tutoriály, ktoré budú vhodné pre komunitu"
-" na akejkoľvek úrovni!"
+"Tak ako na prednášky, tešíme sa aj na tutoriály, ktoré budú vhodné pre "
+"komunitu na akejkoľvek úrovni!"
 msgstr ""
 
 #: templates/speaking.html:31
 msgid ""
-"Usilujeme o výukové programy, ktoré budú zveľaďovať Python komunitu a "
-"formovať budúcnosť."
+"Prostredníctvom takýchto výukových programov sa snažíme zveľaďovať Python"
+" komunitu a formovať budúcnosť."
 msgstr ""
 
 #: templates/speaking.html:31
 msgid ""
-"Vzhľadom na to že návody trvajú dlhšie a budu v menších miestnostiach "
+"Vzhľadom na to, že návody trvajú dlhšie a budú v menších miestnostiach "
 "vyžadujú oveľa viac prípravy."
 msgstr ""
 
@@ -368,6 +368,10 @@ msgstr ""
 msgid "Profil %(user)s na Linkedine"
 msgstr ""
 
+#: templates/spy.html:10
+msgid "(predseda)"
+msgstr ""
+
 #: templates/spy.html:18
 msgid "Kontakt"
 msgstr ""
@@ -392,35 +396,39 @@ msgstr ""
 msgid "Číslo účtu"
 msgstr ""
 
-#: templates/spy.html:22
-msgid "Čoskoro"
+#: templates/spy.html:23
+msgid "IBAN"
 msgstr ""
 
-#: templates/spy.html:23
+#: templates/spy.html:24
+msgid "SWIFT/BIC"
+msgstr ""
+
+#: templates/spy.html:25
 msgid "Stanovy"
 msgstr ""
 
-#: templates/spy.html:27
+#: templates/spy.html:29
 msgid "Ak sa chceš stať našim členom, vyplň nasledujúci formulár:"
 msgstr ""
 
-#: templates/spy.html:31
+#: templates/spy.html:33
 msgid "Tvoje meno"
 msgstr ""
 
-#: templates/spy.html:34
+#: templates/spy.html:36
 msgid "Tvoj e-mail"
 msgstr ""
 
-#: templates/spy.html:37
+#: templates/spy.html:39
 msgid "Niečo o tebe"
 msgstr ""
 
-#: templates/spy.html:40
+#: templates/spy.html:42
 msgid "Odoslané údaje sa nikde nezverejňujú."
 msgstr ""
 
-#: templates/spy.html:42
+#: templates/spy.html:44
 msgid "Odoslať registráciu"
 msgstr ""
 
