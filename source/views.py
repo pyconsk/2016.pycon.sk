@@ -47,6 +47,11 @@ def speaking():
     return render_template('speaking.html', **_get_template_variables())
 
 
+@app.route('/<lang_code>/sponsoring.html')
+def sponsoring():
+    return render_template('sponsoring.html', **_get_template_variables())
+
+
 @app.route('/<lang_code>/code-of-conduct.html')
 def code_of_conduct():
     return render_template('code-of-conduct.html', **_get_template_variables())
