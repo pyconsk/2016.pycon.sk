@@ -1,0 +1,46 @@
+{% extends "body.html" %}
+{% block content %}
+<div class="row">
+  <div class="col-md-8">
+    <h1>{{ _('Prečo sa stať sponzorom?') }}</h1>
+    <p class="text-justify">
+    {{ _('PyCon je každoročné stretnutie komunity ľudí, ktorí používajú alebo vyvíjajú open-source programovací jazyk Python.') }} {{ _('Konferencia je kompletne organizovaná dobrovoľníkmi.') }} 
+    </p>
+    <p class="text-justify">
+    {{ _('Členovia Python komunity organizujú PyCon konferencie vo svojich domovských krajinách pravidelne, avšak na Slovensku nebol žiadny oficiálny PyCon zorganizovaný. Preto sme sa rozhodli to zmeniť.') }}
+    </p>
+    <p class="text-justify">
+    {{ _('Aby sme mohli zabezpečiť kvalitných prednášajúcich a pri tom udržať cenu vstupeniek dostupnú pre každého potrebujeme vás, sponzorov, ktorí umožnia túto konferenciu uskutočniť.') }} 
+    </p>
+    <p class="text-justify">
+    {{ _('Neváhajte nás kedykoľvek kontaktovať. Sme flexibilní a ochotní spolupracovať a navrhnúť s vami balíček sponzorstva, ktorý splní vaše obchodné potreby.') }} 
+    </p>
+    <p class="text-center"><strong><a href="mailto:sponsors@pycon.sk">sponsors@pycon.sk</a></strong></p>
+
+    <h3>{{ _('Marketing') }}</h3>
+    <p class="text-justify">
+    {{ _('Hľadáte nových používateľov pre váš produkt? Takých ľudí nájdete na PyCone - oni tiež budú hľadať nové produkty a nápady.') }} 
+    </p>
+    <h3>{{ _('Nábor') }}</h3>
+    <p class="text-justify">
+    {{ _('Hľadáte programátorov? PyCon je to najlepšie miesto pre stretnutie nových talentov mnohí účastníci budú skúsení vývojári, ktorí hľadajú svoj ďalší veľký kariérny krok.') }} 
+    </p>
+    <h3>{{ _('Publikum') }}</h3>
+    <p class="text-justify">
+    {{ _('Chcete dostať svoje posolstvo medzi ľudí, aby sa o vás hovorilo? PyCon je to skvelá príležitosť, ľudia chcú objavovať a zdieľať nové veci.') }}
+    </p>
+    <h3>{{ _('Komunita') }}</h3>
+    <p class="text-justify">
+    {{ _('Hľadáte nových prispievateľov a partnerov pre váš open source projekt? PyCon je miesto, kde aj oni budú hľadať vás.') }}
+    </p>
+    <h3>{{ _('Podpora') }}</h3>
+    <p class="text-justify">
+    {{ _('Používate vo vašej firme Python? Podpora komunitných udalostí je výborná príležitosť ako prispieť späť.') }}
+    </p>
+  </div>
+
+  <div class="col-md-4">
+    {% include 'right_nav.html' %}
+  </div>
+</div>
+{% endblock %}

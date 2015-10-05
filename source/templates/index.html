@@ -30,6 +30,7 @@
   <div class="col-md-4">
     {% include 'right_nav.html' %}
   </div>
+  <div class="hide"><a href="{{ url_for('sponsoring', lang_code=lang_code) }}"></a></div>
   <div class="hide"><a href="{{ url_for('thank_you', lang_code=lang_code) }}"></a></div>
 </div>
 {% endblock %}

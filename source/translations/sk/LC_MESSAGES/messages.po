@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-05 22:47+0200\n"
+"POT-Creation-Date: 2015-10-05 23:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -223,15 +223,11 @@ msgid ""
 msgstr ""
 
 #: templates/speaking.html:8
-msgid ""
-"PyCon je každoročné stretnutie komunity ľudí, ktorí používajú alebo "
-"vyvíjajú open-source programovací jazyk Python."
+msgid "PyCon organizuje Python komunita pre komunitu."
 msgstr ""
 
 #: templates/speaking.html:8
-msgid ""
-"Konferencia je kompletne organizovaná dobrovoľníkmi. Ak idete na túto "
-"konferenciu, tak ste súčasťou tejto komunity."
+msgid "Ak idete na túto konferenciu, tak ste súčasťou tejto komunity."
 msgstr ""
 
 #: templates/speaking.html:8
@@ -338,6 +334,92 @@ msgstr ""
 msgid ""
 "Vzhľadom na to, že návody trvajú dlhšie a budú v menších miestnostiach "
 "vyžadujú oveľa viac prípravy."
+msgstr ""
+
+#: templates/sponsoring.html:5
+msgid "Prečo sa stať sponzorom?"
+msgstr ""
+
+#: templates/sponsoring.html:7
+msgid ""
+"PyCon je každoročné stretnutie komunity ľudí, ktorí používajú alebo "
+"vyvíjajú open-source programovací jazyk Python."
+msgstr ""
+
+#: templates/sponsoring.html:7
+msgid "Konferencia je kompletne organizovaná dobrovoľníkmi."
+msgstr ""
+
+#: templates/sponsoring.html:10
+msgid ""
+"Členovia Python komunity organizujú PyCon konferencie vo svojich "
+"domovských krajinách pravidelne, avšak na Slovensku nebol žiadny "
+"oficiálny PyCon zorganizovaný. Preto sme sa rozhodli to zmeniť."
+msgstr ""
+
+#: templates/sponsoring.html:13
+msgid ""
+"Aby sme mohli zabezpečiť kvalitných prednášajúcich a pri tom udržať cenu "
+"vstupeniek dostupnú pre každého potrebujeme vás, sponzorov, ktorí umožnia"
+" túto konferenciu uskutočniť."
+msgstr ""
+
+#: templates/sponsoring.html:16
+msgid ""
+"Neváhajte nás kedykoľvek kontaktovať. Sme flexibilní a ochotní "
+"spolupracovať a navrhnúť s vami balíček sponzorstva, ktorý splní vaše "
+"obchodné potreby."
+msgstr ""
+
+#: templates/sponsoring.html:20
+msgid "Marketing"
+msgstr ""
+
+#: templates/sponsoring.html:22
+msgid ""
+"Hľadáte nových používateľov pre váš produkt? Takých ľudí nájdete na "
+"PyCone - oni tiež budú hľadať nové produkty a nápady."
+msgstr ""
+
+#: templates/sponsoring.html:24
+msgid "Nábor"
+msgstr ""
+
+#: templates/sponsoring.html:26
+msgid ""
+"Hľadáte programátorov? PyCon je to najlepšie miesto pre stretnutie nových"
+" talentov mnohí účastníci budú skúsení vývojári, ktorí hľadajú svoj ďalší"
+" veľký kariérny krok."
+msgstr ""
+
+#: templates/sponsoring.html:28
+msgid "Publikum"
+msgstr ""
+
+#: templates/sponsoring.html:30
+msgid ""
+"Chcete dostať svoje posolstvo medzi ľudí, aby sa o vás hovorilo? PyCon je"
+" to skvelá príležitosť, ľudia chcú objavovať a zdieľať nové veci."
+msgstr ""
+
+#: templates/sponsoring.html:32
+msgid "Komunita"
+msgstr ""
+
+#: templates/sponsoring.html:34
+msgid ""
+"Hľadáte nových prispievateľov a partnerov pre váš open source projekt? "
+"PyCon je miesto, kde aj oni budú hľadať vás."
+msgstr ""
+
+#: templates/sponsoring.html:36
+msgid "Podpora"
+msgstr ""
+
+#: templates/sponsoring.html:38
+msgid ""
+"Používate vo vašej firme Python? Podpora komunitných udalostí je výborná "
+"príležitosť ako prispieť späť."
 msgstr ""
 
 #: templates/spy.html:4
@@ -501,24 +583,13 @@ msgstr ""
 #~ msgid "Sme radi že máte záujem prednášať na PyCon SK 2016!"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "Tak ako prednášky, tešíme sa na "
-#~ "tutoriály, ktoré budú vhodné pre "
-#~ "komunitu na akejkoľvek úrovni!"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Usilujeme o výukové programy, ktoré budú"
-#~ " zveľaďovať Python komunitu a formovať "
-#~ "budúcnosť."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Vzhľadom na to že návody trvajú "
-#~ "dlhšie a budu v menších miestnostiach"
-#~ " vyžadujú oveľa viac prípravy."
-#~ msgstr ""
-
 #~ msgid "Čoskoro"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Konferencia je kompletne organizovaná "
+#~ "dobrovoľníkmi. Ak idete na túto "
+#~ "konferenciu, tak ste súčasťou tejto "
+#~ "komunity."
 #~ msgstr ""
 
