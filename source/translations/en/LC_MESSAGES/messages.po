@@ -431,7 +431,7 @@ msgstr ""
 
 #: templates/sponsoring.html:8
 msgid "Konferencia je kompletne organizovaná dobrovoľníkmi."
-msgstr "Conference is completely organized by volunteers."
+msgstr "The conference is completely organized by volunteers."
 
 #: templates/sponsoring.html:11
 msgid ""
@@ -449,7 +449,7 @@ msgid ""
 "vstupeniek dostupnú pre každého, potrebujeme vás, sponzorov, ktorí "
 "umožnia túto konferenciu uskutočniť."
 msgstr ""
-"In order to ensure high quality speakers and keep the tickets price "
+"To ensure high-quality speakers and keep the tickets price "
 "available for everyone we need you, the sponsors, who allow the "
 "conference take place."
 
@@ -485,7 +485,7 @@ msgid ""
 " talentov. Mnohí účastníci budú skúsení vývojári, ktorí hľadajú svoj "
 "ďalší veľký kariérny krok."
 msgstr ""
-"Are you looking for a programmers? PyCon is the best place for meeting "
+"Are you looking for programmers? PyCon is the best place for meeting "
 "new talents. Many participants will be experienced developers looking for"
 " their next big career move."
 
