@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-06 08:15+0200\n"
+"POT-Creation-Date: 2015-10-06 10:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -27,23 +27,27 @@ msgstr ""
 msgid "Prednášanie"
 msgstr ""
 
-#: templates/body.html:43 templates/code-of-conduct.html:5
+#: templates/body.html:43
+msgid "Sponzorovanie"
+msgstr ""
+
+#: templates/body.html:46 templates/code-of-conduct.html:5
 msgid "Kódex správania"
 msgstr ""
 
-#: templates/body.html:46
+#: templates/body.html:49
 msgid "Meetup"
 msgstr ""
 
-#: templates/body.html:49
+#: templates/body.html:52
 msgid "SPy občianske združenie"
 msgstr ""
 
-#: templates/body.html:52
+#: templates/body.html:55
 msgid "E-mailová konferencia"
 msgstr ""
 
-#: templates/body.html:71
+#: templates/body.html:74
 msgid "Preskočiť na začiatok"
 msgstr ""
 
@@ -591,36 +595,5 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Čoskoro"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Členovia Python komunity organizujú PyCon "
-#~ "konferencie vo svojich domovských krajinách"
-#~ " pravidelne, avšak na Slovensku nebol "
-#~ "žiadny oficiálny PyCon zorganizovaný. Preto"
-#~ " sme sa rozhodli to zmeniť."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Aby sme mohli zabezpečiť kvalitných "
-#~ "prednášajúcich a pri tom udržať cenu "
-#~ "vstupeniek dostupnú pre každého potrebujeme"
-#~ " vás, sponzorov, ktorí umožnia túto "
-#~ "konferenciu uskutočniť."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Hľadáte programátorov? PyCon je to "
-#~ "najlepšie miesto pre stretnutie nových "
-#~ "talentov mnohí účastníci budú skúsení "
-#~ "vývojári, ktorí hľadajú svoj ďalší veľký"
-#~ " kariérny krok."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Chcete dostať svoje posolstvo medzi "
-#~ "ľudí, aby sa o vás hovorilo? PyCon"
-#~ " je to skvelá príležitosť, ľudia chcú"
-#~ " objavovať a zdieľať nové veci."
 #~ msgstr ""
 
