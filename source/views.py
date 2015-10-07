@@ -107,5 +107,13 @@ def ba_meetup_04():
     return render_template('ba-04-meetup.html', **variables)
 
 
+@app.route('/<lang_code>/ba-05-meetup.html')
+def ba_meetup_05():
+    variables = _get_template_variables()
+    variables['logo'] = 'images/bratislava_logo.svg'
+
+    return render_template('ba-05-meetup.html', **variables)
+
+
 if __name__ == "__main__":
     app.run(debug=True)

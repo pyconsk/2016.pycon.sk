@@ -50,4 +50,15 @@ GEO:48.1442784;17.1065933
 DESCRIPTION:Štvrté stretnutie ľudí, ktorí majú záujem o programovanie v Pythone. Viac info na https://pycon.sk/ba-04-meetup.html
 END:VEVENT
 
+BEGIN:VEVENT
+SUMMARY:Bratislava Python Meetup #5
+LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03
+URL:https://pycon.sk/ba-05-meetup.html
+UID:675dc56060f241e0b70a6d157a915dc4
+DTSTART:20151110T160000Z
+DTEND:20151110T190000Z
+GEO:48.1442784;17.1065933
+DESCRIPTION:Piate stretnutie ľudí, ktorí majú záujem o programovanie v Pythone. Viac info na https://pycon.sk/ba-05-meetup.html
+END:VEVENT
+
 END:VCALENDAR

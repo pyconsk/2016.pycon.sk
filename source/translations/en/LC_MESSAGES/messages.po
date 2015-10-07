@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-06 10:22+0200\n"
+"POT-Creation-Date: 2015-10-07 10:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -233,32 +233,37 @@ msgid ""
 msgstr "In the meantime you can visit our regular <a href=\"%(url)s\">meetups</a>."
 
 #: templates/right_nav.html:4 templates/right_nav.html:9
-#: templates/right_nav.html:14 templates/right_nav.html:18
+#: templates/right_nav.html:14 templates/right_nav.html:19
+#: templates/right_nav.html:23
 #, python-format
 msgid "%(num)s Bratislavský Python Meetup"
 msgstr "%(num)s Bratislava Python Meetup"
 
 #: templates/right_nav.html:5
+msgid "10. november 2015 – 18:00 - Progressbar"
+msgstr "10th November 2015 – 18:00 - Progressbar"
+
+#: templates/right_nav.html:10
 msgid "6. október 2015 – 18:00 - Progressbar"
 msgstr "6th October 2015 – 18:00 - Progressbar"
 
-#: templates/right_nav.html:10
+#: templates/right_nav.html:15
 msgid "8. september 2015 – 18:00 - Progressbar"
 msgstr "8th September 2015 – 18:00 - Progressbar"
 
-#: templates/right_nav.html:15
+#: templates/right_nav.html:20
 msgid "4. august 2015 – 18:00 - Progressbar"
 msgstr "4th August 2015 – 18:00 - Progressbar"
 
-#: templates/right_nav.html:19
+#: templates/right_nav.html:24
 msgid "7. júl 2015 – 18:00 - Progressbar"
 msgstr "7th July 2015 – 18:00 - Progressbar"
 
-#: templates/right_nav.html:24
+#: templates/right_nav.html:29
 msgid "Priatelia:"
 msgstr "Friends:"
 
-#: templates/right_nav.html:41
+#: templates/right_nav.html:46
 msgid "Sponzor virtuálneho datacentra:"
 msgstr "Virtual datacenter sponsor:"
 
