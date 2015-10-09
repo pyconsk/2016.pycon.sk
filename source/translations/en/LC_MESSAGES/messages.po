@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-07 10:05+0200\n"
+"POT-Creation-Date: 2015-10-09 22:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -184,10 +184,10 @@ msgstr ""
 
 #: templates/index.html:6
 msgid ""
-"<strong>Prvý ročník</strong> sa uskutoční <strong>začiatkom roka 2016 v "
+"<strong>Prvý ročník</strong> sa uskutoční <strong>11 až 13. marca 2016 v "
 "Bratislave</strong>."
 msgstr ""
-"<strong>First year</strong> will happen <strong>at beginning of 2016 in "
+"<strong>First year</strong> will happen <strong>11th to 13th of March 2016 in "
 "Bratislava</strong>."
 
 #: templates/index.html:13
