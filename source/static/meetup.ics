@@ -8,7 +8,7 @@ X-MS-OLK-FORCEINSPECTOROPEN:TRUE
 
 BEGIN:VEVENT
 SUMMARY:Bratislava Python Meetup #1
-LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03
+LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03 Bratislava
 URL:https://pycon.sk/ba-01-meetup.html
 UID:675dc56060f241e0b70a6d157a915dc1
 DTSTART:20150707T160000Z
@@ -19,7 +19,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 SUMMARY:Bratislava Python Meetup #2
-LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03
+LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03 Bratislava
 URL:https://pycon.sk/ba-02-meetup.html
 UID:675dc56060f241e0b70a6d157a915dc2
 DTSTART:20150804T160000Z
@@ -30,7 +30,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 SUMMARY:Bratislava Python Meetup #3
-LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03
+LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03 Bratislava
 URL:https://pycon.sk/ba-03-meetup.html
 UID:675dc56060f241e0b70a6d157a915dc3
 DTSTART:20150908T160000Z
@@ -41,7 +41,7 @@ END:VEVENT
 
 BEGIN:VEVENT
 SUMMARY:Bratislava Python Meetup #4
-LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03
+LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03 Bratislava
 URL:https://pycon.sk/ba-04-meetup.html
 UID:675dc56060f241e0b70a6d157a915dc4
 DTSTART:20151006T160000Z
@@ -52,9 +52,9 @@ END:VEVENT
 
 BEGIN:VEVENT
 SUMMARY:Bratislava Python Meetup #5
-LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03
+LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03 Bratislava
 URL:https://pycon.sk/ba-05-meetup.html
-UID:675dc56060f241e0b70a6d157a915dc4
+UID:675dc56060f241e0b70a6d157a915dc5
 DTSTART:20151110T160000Z
 DTEND:20151110T190000Z
 GEO:48.1442784;17.1065933
