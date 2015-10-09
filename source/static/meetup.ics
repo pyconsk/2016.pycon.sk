@@ -61,4 +61,15 @@ GEO:48.1442784;17.1065933
 DESCRIPTION:Piate stretnutie ľudí, ktorí majú záujem o programovanie v Pythone. Viac info na https://pycon.sk/ba-05-meetup.html
 END:VEVENT
 
+BEGIN:VEVENT
+SUMMARY:PyCon SK
+LOCATION;CHARSET=utf-8:Bratislava
+URL:https://pycon.sk
+UID:675dc56060f241e0b70a6d157a915xc4
+DTSTART:20160311T080000Z
+DTEND:20160313T150000Z
+GEO:48.1442784;17.1065933
+DESCRIPTION:Prvý slovenský PyCon. Viac info na https://pycon.sk
+END:VEVENT
+
 END:VCALENDAR
