@@ -2,6 +2,10 @@ body {
   padding-top: 70px;
 }
 
+.tito-ticket-description {
+  font-size: 1.1rem;
+}
+
 footer {
   margin: 5em 0;
 }

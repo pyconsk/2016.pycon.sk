@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-09 23:05+0200\n"
+"POT-Creation-Date: 2015-10-14 22:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -39,8 +39,8 @@ msgid "Meetup"
 msgstr ""
 
 #: templates/body.html:52
-msgid "SPy občianske združenie"
-msgstr "SPy civic association"
+msgid "Občianske združenie"
+msgstr "Civic association"
 
 #: templates/body.html:55
 msgid "E-mailová konferencia"
@@ -170,11 +170,11 @@ msgstr ""
 "our meetings. We will not tolerate any harassment of participants of "
 "meetups in any form."
 
-#: templates/index.html:5
+#: templates/index.html:11
 msgid "Štartujeme PyCon SK!"
 msgstr "We are starting PyCon SK!"
 
-#: templates/index.html:6
+#: templates/index.html:12
 msgid ""
 "PyCon SK je komunitou organizovaná konferencia pre programovací jazyk "
 "Python."
@@ -182,15 +182,15 @@ msgstr ""
 "PyCon SK is a community organized conference for the Python programming "
 "language."
 
-#: templates/index.html:6
+#: templates/index.html:12
 msgid ""
-"<strong>Prvý ročník</strong> sa uskutoční <strong>11 až 13. marca 2016 v "
-"Bratislave</strong>."
+"<strong>Prvý ročník</strong> sa uskutoční <strong>11.3.2016 až 13.3.2016 "
+"v Bratislave</strong>."
 msgstr ""
-"<strong>First year</strong> will happen <strong>11th to 13th of March "
-"2016 in Bratislava</strong>."
+"<strong>The first edition </strong> will take place on <strong>11.3.2016 "
+"to 13.3.2016 in Bratislava.</strong>."
 
-#: templates/index.html:13
+#: templates/index.html:19
 msgid ""
 "Veľmi sa tešíme, že vám môžeme oznámiť, že okrem dvoch dní zaujímavých "
 "prednášok, budeme organizovať aj workshopy, ktoré budú vhodné aj pre "
@@ -199,23 +199,13 @@ msgstr ""
 "We are happy to announce that apart from two days of interesting talks, "
 "we will organize workshops that will be suitable for absolute beginners."
 
-#: templates/index.html:16
-msgid ""
-"Ak máte záujem dostávať aktuálne informácie o konferencii PyCon SK môžete"
-" sa prihlásiť do mailing listu."
+#: templates/index.html:22
+msgid "Spustili sme predpredaj lístkov, môžete si ich zakúpiť za zvyhodnenú cenu."
 msgstr ""
-"If you are interested in up to date information about the PyCon SK "
-"conference you can subscribe to the mailing list"
+"We have launched ticket pre-sale, you can buy early bird tickets for "
+"special price."
 
-#: templates/index.html:18
-msgid "E-mail:"
-msgstr ""
-
-#: templates/index.html:21
-msgid "Prihlásiť"
-msgstr "Subscribe"
-
-#: templates/index.html:26
+#: templates/index.html:27
 msgid ""
 "Ak máte záujem prispieť, stať sa dobrovoľníkom, alebo akokoľvek inak "
 "pomôcť s organizáciou PyConu (ktorý je kompletne organizovaný "
@@ -225,7 +215,7 @@ msgstr ""
 "PyCon SK (which is run entirely by volunteers) in any other way, we will "
 "be happy if you let us know."
 
-#: templates/index.html:27
+#: templates/index.html:28
 #, python-format
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
@@ -581,7 +571,7 @@ msgstr "%(user)s profile at LinkedIn"
 
 #: templates/spy.html:10
 msgid "(predseda)"
-msgstr ""
+msgstr "(chairman)"
 
 #: templates/spy.html:18
 msgid "Kontakt"
@@ -697,4 +687,10 @@ msgstr ""
 
 #~ msgid "Čoskoro"
 #~ msgstr "TBD"
+
+#~ msgid "E-mail:"
+#~ msgstr ""
+
+#~ msgid "Prihlásiť"
+#~ msgstr "Subscribe"
 

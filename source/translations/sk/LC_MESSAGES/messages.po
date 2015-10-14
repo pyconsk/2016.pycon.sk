@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-09 23:05+0200\n"
+"POT-Creation-Date: 2015-10-14 22:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -40,7 +40,7 @@ msgid "Meetup"
 msgstr ""
 
 #: templates/body.html:52
-msgid "SPy občianske združenie"
+msgid "Občianske združenie"
 msgstr ""
 
 #: templates/body.html:55
@@ -135,51 +135,41 @@ msgid ""
 "stretnutia v akejkoľvek forme."
 msgstr ""
 
-#: templates/index.html:5
+#: templates/index.html:11
 msgid "Štartujeme PyCon SK!"
 msgstr ""
 
-#: templates/index.html:6
+#: templates/index.html:12
 msgid ""
 "PyCon SK je komunitou organizovaná konferencia pre programovací jazyk "
 "Python."
 msgstr ""
 
-#: templates/index.html:6
+#: templates/index.html:12
 msgid ""
-"<strong>Prvý ročník</strong> sa uskutoční <strong>11 až 13. marca 2016 v "
-"Bratislave</strong>."
+"<strong>Prvý ročník</strong> sa uskutoční <strong>11.3.2016 až 13.3.2016 "
+"v Bratislave</strong>."
 msgstr ""
 
-#: templates/index.html:13
+#: templates/index.html:19
 msgid ""
 "Veľmi sa tešíme, že vám môžeme oznámiť, že okrem dvoch dní zaujímavých "
 "prednášok, budeme organizovať aj workshopy, ktoré budú vhodné aj pre "
 "úplných začiatočníkov."
 msgstr ""
 
-#: templates/index.html:16
-msgid ""
-"Ak máte záujem dostávať aktuálne informácie o konferencii PyCon SK môžete"
-" sa prihlásiť do mailing listu."
+#: templates/index.html:22
+msgid "Spustili sme predpredaj lístkov, môžete si ich zakúpiť za zvyhodnenú cenu."
 msgstr ""
 
-#: templates/index.html:18
-msgid "E-mail:"
-msgstr ""
-
-#: templates/index.html:21
-msgid "Prihlásiť"
-msgstr ""
-
-#: templates/index.html:26
+#: templates/index.html:27
 msgid ""
 "Ak máte záujem prispieť, stať sa dobrovoľníkom, alebo akokoľvek inak "
 "pomôcť s organizáciou PyConu (ktorý je kompletne organizovaný "
 "dobrovoľníkmi), budeme radi ak sa nám ozvete."
 msgstr ""
 
-#: templates/index.html:27
+#: templates/index.html:28
 #, python-format
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
@@ -598,5 +588,14 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Čoskoro"
+#~ msgstr ""
+
+#~ msgid "SPy občianske združenie"
+#~ msgstr ""
+
+#~ msgid "E-mail:"
+#~ msgstr ""
+
+#~ msgid "Prihlásiť"
 #~ msgstr ""
 
