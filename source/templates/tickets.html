@@ -1,0 +1,107 @@
+{% extends "body.html" %}
+
+{% block header%}
+<script src='https://js.tito.io/v1' async></script>
+<link rel="stylesheet" type="text/css" href='https://css.tito.io/v1' />
+{% endblock %}
+
+{% block content %}
+<div class="row">
+  <div class="col-md-8">
+    <h1>{{ _('Vstupenky') }}</h1>
+    <p class="lead">{{ _('Predaj vstupeniek bol spustený.') }} {{ _('Možete využiť šancu zakúpiť si lístok za zvýhodnenú cenu.') }}</p>
+    <p class="text-justify">
+      <script>TitoDevelopmentMode = true</script>
+      <tito-widget event="pyconsk/2016"></tito-widget>
+    </p>
+    <p class="text-justify">{{ _('Kúpou lístka vyjadrujete súhlas s dodržiavaním kodexu správania.') }}</p>
+    
+    <h3>{{ _('Fazy predaja') }}</h3>
+    <p class="text-justify">
+    {{ _('Lístok získate za finančný príspevok na organizáciu konferencie. Môžete prispieť koľko chcete, avšak určili sme minimálnu hodnotu. Čím skôr si zakúpite lístok tým je suma výhodnejšia.') }}
+      <table class="table table-striped table-bordered table-condensed">
+        <tr>
+          <td rowspan="3">15.10.2015 - 24.1.2016</td>
+          <td>Supporter Early Bird</td>
+          <td>30 &euro; - {{ _('Odporúčaná cena:') }} 50 &euro;</td>
+        </tr>
+        <tr>
+          <td>Standard Early Bird</td>
+          <td>20 &euro; - {{ _('Odporúčaná cena:') }} 30 &euro;</td>
+        </tr>
+        <tr>
+          <td>Student Early Bird</td>
+          <td>10 &euro; - {{ _('Odporúčaná cena:') }} 15 &euro;</td>
+        </tr>
+        
+        <tr>
+          <td rowspan="3">24.1.2016 - 1.3.2016</td>
+          <td>Supporter</td>
+          <td>50 &euro; - {{ _('Odporúčaná cena:') }} 70 &euro;</td>
+        </tr>
+        <tr>
+          <td>Standard</td>
+          <td>30 &euro; - {{ _('Odporúčaná cena:') }} 40 &euro;</td>
+        </tr>
+        <tr>
+          <td>Student</td>
+          <td>15 &euro; - {{ _('Odporúčaná cena:') }} 20 &euro;</td>
+        </tr>
+
+        <tr>
+          <td rowspan="3">1.3.2016 - 12.3.2016</td>
+          <td>Supporter Last Moment</td>
+          <td>70 &euro; - {{ _('Odporúčaná cena:') }} 90 &euro;</td>
+        </tr>
+        <tr>
+          <td>Standard Last Moment</td>
+          <td>40 &euro; - {{ _('Odporúčaná cena:') }} 50 &euro;</td>
+        </tr>
+        <tr>
+          <td>Student Last Moment</td>
+          <td>20 &euro; - {{ _('Odporúčaná cena:') }} 25 &euro;</td>
+        </tr>
+
+      </table>
+    </p>
+    <h3>{{ _('Aký lístok si mám kúpiť?') }}</h3>
+    <p class="text-justify">
+      <strong>{{ _('Supporter') }}</strong>: {{ _('Lístok je určený pre účastníkov, ktorý chcú aby ich meno (firma) boli zverejnený v zozname podporovateľov na našom webe.') }}<br />
+      <strong>{{ _('Standard') }}</strong>: {{ _('Lístok je určený pre všetkých účastníkov konferencie.') }}<br />
+      <strong>{{ _('Student') }}</strong>: {{ _('Lístok je určený pre študentov. Nezabudnite si zo sebou na registráciu priniesť platný študentský preukaz (ISIC).') }}<br />
+    </p>
+    <h3>{{ _('Je aj iná možnosť ako sa dostať na PyCon?') }}</h3>
+    <p class="text-justify">
+      {{ _('Máme spustený štipendialny program, ktorý umožní niektorým návštevníkom prísť na PyCon zadarmo. Napíšte nám prečo by sme práve Vám mali dať vstupenku.') }}<br />
+      {{ _('Ak máte menej ako 18 rokov a prídete v sprievode rodiča, stačí ak si lístok zakúpi iba rodič, avšak musíte sa nám ozvať aby sme vystavli vstupenku aj pre dieťa.') }}<br />
+      {{ _('Pre sociálne znevýhodnených účastníkov máme pripravený grantový program. Napíšte nám ak máte záujem sa ho zúčastniť.') }}
+    </p>
+    <h3>{{ _('Čo všetko mám v lístku?') }}</h3>
+    <p class="text-justify">
+      <ul>
+        <li>{{ _('Dva dni prednášok') }}</li>
+        <li>{{ _('Obed počas oboch dní konferencie') }}</li>
+        <li>{{ _('Kávu a koláčik počas prestávok') }}</li>
+        <li>{{ _('Tričko a tašku plnú prekvapení') }}</li>
+        <li>{{ _('Pozvánka na piatkovú neformálnu party') }}</li> 
+      </ul>
+    </p>
+    <h3>{{ _('Ponúkate množstevné zľavy?') }}</h3>
+    <p class="text-justify">
+      {{ _('Ak máte záujem kúpiť viac ako 10 lístkov kontaktujete nás emailom na info@pycon.sk') }}
+    </p>
+    <h3>{{ _('Nemám PayPal, je možné kúpiť vstupenku inak ako cez Tito?') }}</h3>
+    <p class="text-justify">
+      {{ _('Akceptujeme aj bankový prevod, prípadne bitcoin, napíšte nám o aké lístky máte záujem a po pripísaní sumy na náš účet Vám vystavíme a pošleme emailom vstupenku, avšak bude vygenerovaná tiež cez systém Tito.') }}
+    </p> 
+    <h3>{{ _('Kam idú všetky peniaze za lístky?') }}</h3>
+    <p class="text-justify">
+    {{ _('PyCon je kompletne organizovaný dobrovoľníkmi. Veríme že takéto konferencie je potrebné organizovať aby propagovali programovanie a OpenSource. Všetky peniaze vyzbierané z predaja lístkov pôjdu na náklady spojené s organizáciou PyConu. Občianské združenie SPy, ako organizátor sa zaväzuje po ukončení konferencie transparentne zverejniť všetky náklady s ňou spojené. SPy vzniklo na podporu Pythonu a programovania všeobecne, prečítajte si') }} <a href="{{ url_for('spy', lang_code=lang_code) }}" title="{{ _('ciele SPy o.z.') }}">{{ _('viac o našich cieľoch') }}</a>.
+    </p>
+  </div>
+
+  <div class="col-md-4">
+    {% include 'right_nav.html' %}
+  </div>
+</div>
+{% endblock %}

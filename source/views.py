@@ -52,6 +52,11 @@ def sponsoring():
     return render_template('sponsoring.html', **_get_template_variables())
 
 
+@app.route('/<lang_code>/tickets.html')
+def tickets():
+    return render_template('tickets.html', **_get_template_variables())
+
+
 @app.route('/<lang_code>/code-of-conduct.html')
 def code_of_conduct():
     return render_template('code-of-conduct.html', **_get_template_variables())
