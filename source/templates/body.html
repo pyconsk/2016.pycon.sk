@@ -37,6 +37,9 @@
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
             <li>
+              <a href="{{ url_for('tickets', lang_code=lang_code) }}">{{ _('Vstupenky') }}</a>
+            </li>
+            <li>
               <a href="{{ url_for('speaking', lang_code=lang_code) }}">{{ _('Prednášanie') }}</a>
             </li>
             <li>
