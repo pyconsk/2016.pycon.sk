@@ -25,6 +25,13 @@ footer li {
   margin-bottom: 1.5em;
 }
 
+.icon-large {
+  font-size: 48px;
+  padding-top: 6px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
 .tito-ticket-description {
   font-size: 1.1rem;
 }
