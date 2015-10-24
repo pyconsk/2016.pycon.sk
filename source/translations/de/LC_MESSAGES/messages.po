@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-16 09:42+0200\n"
+"POT-Creation-Date: 2015-10-24 19:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -140,7 +140,7 @@ msgid ""
 msgstr ""
 
 #: templates/index.html:11
-msgid "Štartujeme PyCon SK!"
+msgid "PyCon prichádza na Slovensko!"
 msgstr ""
 
 #: templates/index.html:12
@@ -180,39 +180,42 @@ msgid ""
 "href=\"%(url)s\">meetupy</a>."
 msgstr ""
 
-#: templates/right_nav.html:4 templates/right_nav.html:9
-#: templates/right_nav.html:14 templates/right_nav.html:19
-#: templates/right_nav.html:23
+#: templates/meetup.html:16 templates/meetup.html:21 templates/meetup.html:26
+#: templates/meetup.html:31 templates/meetup.html:35
 #, python-format
 msgid "%(num)s Bratislavský Python Meetup"
 msgstr ""
 
-#: templates/right_nav.html:5
+#: templates/meetup.html:17
 msgid "10. november 2015 – 18:00 - Progressbar"
 msgstr ""
 
-#: templates/right_nav.html:10
+#: templates/meetup.html:22
 msgid "6. október 2015 – 18:00 - Progressbar"
 msgstr ""
 
-#: templates/right_nav.html:15
+#: templates/meetup.html:27
 msgid "8. september 2015 – 18:00 - Progressbar"
 msgstr ""
 
-#: templates/right_nav.html:20
+#: templates/meetup.html:32
 msgid "4. august 2015 – 18:00 - Progressbar"
 msgstr ""
 
-#: templates/right_nav.html:24
+#: templates/meetup.html:36
 msgid "7. júl 2015 – 18:00 - Progressbar"
 msgstr ""
 
-#: templates/right_nav.html:29
-msgid "Priatelia:"
+#: templates/right_nav.html:4
+msgid "Zlatý sponzori:"
 msgstr ""
 
-#: templates/right_nav.html:46
+#: templates/right_nav.html:17
 msgid "Sponzor virtuálneho datacentra:"
+msgstr ""
+
+#: templates/right_nav.html:24
+msgid "Priatelia:"
 msgstr ""
 
 #: templates/speaking.html:5
@@ -612,23 +615,23 @@ msgid "Čo všetko mám v lístku?"
 msgstr ""
 
 #: templates/tickets.html:33
-msgid "Dva dni prednášok"
+msgid "Dva dni prednášok."
 msgstr ""
 
 #: templates/tickets.html:34
-msgid "Obed počas oboch dní konferencie"
+msgid "Obed počas oboch dní konferencie."
 msgstr ""
 
 #: templates/tickets.html:35
-msgid "Kávu a koláčik počas prestávok"
+msgid "Kávu a koláčik počas prestávok."
 msgstr ""
 
 #: templates/tickets.html:36
-msgid "Tričko a tašku plnú prekvapení"
+msgid "Tričko a tašku plnú prekvapení."
 msgstr ""
 
 #: templates/tickets.html:37
-msgid "Pozvánka na piatkovú neformálnu party"
+msgid "Pozvánka na piatkovú neformálnu party."
 msgstr ""
 
 #: templates/tickets.html:40
@@ -647,7 +650,7 @@ msgstr ""
 
 #: templates/tickets.html:46
 msgid ""
-"Akceptujeme aj bankový prevod, prípadne bitcoin, napíšte nám o aké lístky"
+"Akceptujeme aj bankový prevod, prípadne Bitcoin, napíšte nám o aké lístky"
 " máte záujem a po pripísaní sumy na náš účet Vám vystavíme a pošleme "
 "emailom vstupenku, avšak bude vygenerovaná tiež cez systém Tito."
 msgstr ""
@@ -747,63 +750,24 @@ msgstr ""
 #~ msgid "Fazy predaja"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "Lístok získate za finančný príspevok na"
-#~ " organizáciu konferencie. Môžete prispieť "
-#~ "koľko chcete, avšak určili sme minimálnu"
-#~ " hodnotu. Čím skôr si zakúpite lístok"
-#~ " tým je suma výhodnejšia."
-#~ msgstr ""
-
 #~ msgid "Odporúčaná cena:"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "Lístok je určený pre účastníkov, ktorý"
-#~ " chcú aby ich meno (firma) boli "
-#~ "zverejnený v zozname podporovateľov na "
-#~ "našom webe."
+#~ msgid "Štartujeme PyCon SK!"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "Lístok je určený pre študentov. "
-#~ "Nezabudnite si zo sebou na registráciu"
-#~ " priniesť platný študentský preukaz (ISIC)."
+#~ msgid "Dva dni prednášok"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "Máme spustený štipendialny program, ktorý "
-#~ "umožní niektorým návštevníkom prísť na "
-#~ "PyCon zadarmo. Napíšte nám prečo by "
-#~ "sme práve Vám mali dať vstupenku."
+#~ msgid "Obed počas oboch dní konferencie"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "Ak máte menej ako 18 rokov a "
-#~ "prídete v sprievode rodiča, stačí ak "
-#~ "si lístok zakúpi iba rodič, avšak "
-#~ "musíte sa nám ozvať aby sme "
-#~ "vystavli vstupenku aj pre dieťa."
+#~ msgid "Kávu a koláčik počas prestávok"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "Ak máte záujem kúpiť viac ako 10"
-#~ " lístkov kontaktujete nás emailom na "
-#~ "info@pycon.sk"
+#~ msgid "Tričko a tašku plnú prekvapení"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "PyCon je kompletne organizovaný dobrovoľníkmi."
-#~ " Veríme že takéto konferencie je "
-#~ "potrebné organizovať aby propagovali "
-#~ "programovanie a OpenSource. Všetky peniaze "
-#~ "vyzbierané z predaja lístkov pôjdu na"
-#~ " náklady spojené s organizáciou PyConu. "
-#~ "Občianské združenie SPy, ako organizátor "
-#~ "sa zaväzuje po ukončení konferencie "
-#~ "transparentne zverejniť všetky náklady s "
-#~ "ňou spojené. SPy vzniklo na podporu "
-#~ "Pythonu a programovania všeobecne, prečítajte"
-#~ " si"
+#~ msgid "Pozvánka na piatkovú neformálnu party"
 #~ msgstr ""
 

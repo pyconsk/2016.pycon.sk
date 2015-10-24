@@ -2,8 +2,17 @@ body {
   padding-top: 70px;
 }
 
-.tito-ticket-description {
-  font-size: 1.1rem;
+img.navbar-brand {
+  height: 60px;
+  padding-top: 6px;
+}
+
+mark.gold {
+  background-color: #FCF8E3;
+}
+
+mark.platinum {
+  background-color: #E5E4E2;
 }
 
 footer {
@@ -14,4 +23,8 @@ footer li {
   float: left;
   margin-right: 1.5em;
   margin-bottom: 1.5em;
+}
+
+.tito-ticket-description {
+  font-size: 1.1rem;
 }

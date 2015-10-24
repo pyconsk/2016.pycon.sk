@@ -1,19 +1,19 @@
 {% extends "body.html" %}
 
 {% block header%}
-<script src='https://js.tito.io/v1' async></script>
 <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1' />
+<script src='https://js.tito.io/v1' async></script>
 {% endblock %}
 
 {% block content %}
 <div class="row">
   <div class="col-md-8">
-    <h1>{{ _('Štartujeme PyCon SK!') }}</h1>
+    <h1>{{ _('PyCon prichádza na Slovensko!') }}</h1>
     <p class="lead">{{ _('PyCon SK je komunitou organizovaná konferencia pre programovací jazyk Python.') }} {{ _('<strong>Prvý ročník</strong> sa uskutoční <strong>11.3.2016 až 13.3.2016 v Bratislave</strong>.') }}</p>
     <p class="text-center">
       <a href="https://www.python.org/" target="_blank" title="Domovská stránka Pythonu">
-        <img src="{{ url_for('static', filename='images/python_logo.png') }}" alt="Python" class="hidden-xs hidden-sm">
-        <img src="{{ url_for('static', filename='images/python_logo_notext.svg') }}" alt="Python" class="hidden-md hidden-lg">
+        <img src="{{ url_for('static', filename='images/pycon_sk_logo.svg') }}" alt="PyCon SK" class="hidden-xs hidden-sm">
+        <img src="{{ url_for('static', filename='images/pycon_sk_logo_notext.svg') }}" alt="PyCon SK" class="hidden-md hidden-lg" width="200">
       </a>
     </p>
     <p>{{ _('Veľmi sa tešíme, že vám môžeme oznámiť, že okrem dvoch dní zaujímavých prednášok, budeme organizovať aj workshopy, ktoré budú vhodné aj pre úplných začiatočníkov.') }}</p>

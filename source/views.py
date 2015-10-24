@@ -26,7 +26,7 @@ def get_locale():
 def _get_template_variables():
     variables = {
         'title': gettext('PyCon SK'),
-        'logo': 'images/python_logo_notext.svg'
+        'logo': 'images/pycon_sk_logo_notext.svg'
     }
 
     if 'current_lang' in g:

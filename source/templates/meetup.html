@@ -10,6 +10,32 @@
     <br><br>
     Pravidelné stretnutia si môžete pridať do svojho kalendára z webovej adresy (vo formáte ical): <a href="{{ url_for('static', filename='meetup.ics') }}">meetup.ics</a>
     </p>
+
+    <div class="list-group">
+      <a href="{{ url_for('ba_meetup_05', lang_code=lang_code) }}" class="list-group-item">
+        <h4 class="list-group-item-heading">{{ _('%(num)s Bratislavský Python Meetup', num='05.') }}</h4>
+        <p class="list-group-item-text">{{ _('10. november 2015 – 18:00 - Progressbar') }}</p>
+      </a>
+
+      <a href="{{ url_for('ba_meetup_04', lang_code=lang_code) }}" class="list-group-item">
+        <h4 class="list-group-item-heading">{{ _('%(num)s Bratislavský Python Meetup', num='04.') }}</h4>
+        <p class="list-group-item-text">{{ _('6. október 2015 – 18:00 - Progressbar') }}</p>
+      </a>
+
+      <a href="{{ url_for('ba_meetup_03', lang_code=lang_code) }}" class="list-group-item">
+        <h4 class="list-group-item-heading">{{ _('%(num)s Bratislavský Python Meetup', num='03.') }}</h4>
+        <p class="list-group-item-text">{{ _('8. september 2015 – 18:00 - Progressbar') }}</p>
+      </a>
+
+      <a href="{{ url_for('ba_meetup_02', lang_code=lang_code) }}" class="list-group-item">
+        <h4 class="list-group-item-heading">{{ _('%(num)s Bratislavský Python Meetup', num='02.') }}</h4>
+        <p class="list-group-item-text">{{ _('4. august 2015 – 18:00 - Progressbar') }}</p>
+      </a>
+      <a href="{{ url_for('ba_meetup_01', lang_code=lang_code) }}" class="list-group-item">
+        <h4 class="list-group-item-heading">{{ _('%(num)s Bratislavský Python Meetup', num='01.') }}</h4>
+        <p class="list-group-item-text">{{ _('7. júl 2015 – 18:00 - Progressbar') }}</p>
+      </a>
+    </div>
   </div>
 
   <div class="col-md-4">
