@@ -2,9 +2,23 @@ body {
   padding-top: 70px;
 }
 
-img.navbar-brand {
+.navbar {
+}
+
+.navbar-nav > li > a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar-logo {
   height: 60px;
-  padding-top: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 mark.gold {

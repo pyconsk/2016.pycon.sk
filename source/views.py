@@ -3,7 +3,11 @@ from flask.ext.babel import Babel, gettext
 
 app = Flask(__name__, static_url_path='/static')
 app.config['BABEL_DEFAULT_LOCALE'] = 'sk'
+app.jinja_options = {'extensions': ['jinja2.ext.with_']}
 babel = Babel(app)
+
+LOGO_PYCON = 'images/pycon_sk_logo_notext.svg'
+LOGO_MEETUP_BA = 'images/bratislava_logo.svg'
 
 
 @app.before_request
@@ -23,11 +27,12 @@ def get_locale():
     return g.get('current_lang', app.config['BABEL_DEFAULT_LOCALE'])
 
 
-def _get_template_variables():
+def _get_template_variables(**kwargs):
     variables = {
         'title': gettext('PyCon SK'),
-        'logo': 'images/pycon_sk_logo_notext.svg'
+        'logo': LOGO_PYCON
     }
+    variables.update(kwargs)
 
     if 'current_lang' in g:
         variables['lang_code'] = g.current_lang
@@ -44,30 +49,27 @@ def index():
 
 @app.route('/<lang_code>/speaking.html')
 def speaking():
-    return render_template('speaking.html', **_get_template_variables())
+    return render_template('speaking.html', **_get_template_variables(li_speaking='active'))
 
 
 @app.route('/<lang_code>/sponsoring.html')
 def sponsoring():
-    return render_template('sponsoring.html', **_get_template_variables())
+    return render_template('sponsoring.html', **_get_template_variables(li_sponsoring='active'))
 
 
 @app.route('/<lang_code>/tickets.html')
 def tickets():
-    return render_template('tickets.html', **_get_template_variables())
+    return render_template('tickets.html', **_get_template_variables(li_tickets='active'))
 
 
 @app.route('/<lang_code>/code-of-conduct.html')
 def code_of_conduct():
-    return render_template('code-of-conduct.html', **_get_template_variables())
+    return render_template('code-of-conduct.html', **_get_template_variables(li_coc='active'))
 
 
 @app.route('/<lang_code>/spy.html')
 def spy():
-    variables = _get_template_variables()
-    variables['title'] = gettext('SPy o. z.')
-
-    return render_template('spy.html', **variables)
+    return render_template('spy.html', **_get_template_variables(title='SPy o. z.', li_spy='active'))
 
 
 @app.route('/<lang_code>/thank-you.html')
@@ -77,47 +79,32 @@ def thank_you():
 
 @app.route('/<lang_code>/meetup.html')
 def meetup():
-    return render_template('meetup.html', **_get_template_variables())
+    return render_template('meetup.html', **_get_template_variables(li_meetup='active'))
 
 
 @app.route('/<lang_code>/ba-01-meetup.html')
 def ba_meetup_01():
-    variables = _get_template_variables()
-    variables['logo'] = 'images/bratislava_logo.svg'
-
-    return render_template('ba-01-meetup.html', **variables)
+    return render_template('ba-01-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active'))
 
 
 @app.route('/<lang_code>/ba-02-meetup.html')
 def ba_meetup_02():
-    variables = _get_template_variables()
-    variables['logo'] = 'images/bratislava_logo.svg'
-
-    return render_template('ba-02-meetup.html', **variables)
+    return render_template('ba-02-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active'))
 
 
 @app.route('/<lang_code>/ba-03-meetup.html')
 def ba_meetup_03():
-    variables = _get_template_variables()
-    variables['logo'] = 'images/bratislava_logo.svg'
-
-    return render_template('ba-03-meetup.html', **variables)
+    return render_template('ba-03-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active'))
 
 
 @app.route('/<lang_code>/ba-04-meetup.html')
 def ba_meetup_04():
-    variables = _get_template_variables()
-    variables['logo'] = 'images/bratislava_logo.svg'
-
-    return render_template('ba-04-meetup.html', **variables)
+    return render_template('ba-04-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active'))
 
 
 @app.route('/<lang_code>/ba-05-meetup.html')
 def ba_meetup_05():
-    variables = _get_template_variables()
-    variables['logo'] = 'images/bratislava_logo.svg'
-
-    return render_template('ba-05-meetup.html', **variables)
+    return render_template('ba-05-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active'))
 
 
 if __name__ == "__main__":
