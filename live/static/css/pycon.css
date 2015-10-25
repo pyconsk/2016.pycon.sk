@@ -15,6 +15,10 @@ mark.platinum {
   background-color: #E5E4E2;
 }
 
+.right-nav img {
+  border: none;
+}
+
 footer {
   margin: 5em 0;
 }
