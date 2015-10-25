@@ -65,4 +65,5 @@ footer li {
   margin: 0;
   color: #999;
   font-size: 11px;
+  max-width: 640px;
 }

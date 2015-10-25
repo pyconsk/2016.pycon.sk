@@ -192,7 +192,7 @@ msgid ""
 "v Bratislave</strong>."
 msgstr ""
 "<strong>The inaugural PyCon SK </strong> will be held <strong> in "
-"Bratislava on March 11 - 13, 2016</strong>."
+"Bratislava on 11th - 13th March 2016</strong>."
 
 #: templates/index.html:21
 msgid ""
