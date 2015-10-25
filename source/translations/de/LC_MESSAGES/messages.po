@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-25 20:50+0100\n"
+"POT-Creation-Date: 2015-10-25 23:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -19,39 +19,50 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.1.1\n"
 
-#: templates/body.html:24
+#: templates/body.html:9 templates/body.html:17 templates/body.html:21
+#: templates/index.html:11
+msgid "PyCon prichádza na Slovensko!"
+msgstr ""
+
+#: templates/body.html:9 templates/body.html:17 templates/body.html:21
+msgid ""
+"Nenechaj si újsť prvý PyCon SK - 11-13.03.2016 v Bratislave. Teraz si "
+"môžeš kúpiť vstupenky za zvyhodnenú cenu."
+msgstr ""
+
+#: templates/body.html:39
 msgid "Preskočiť na hlavný obsah"
 msgstr ""
 
-#: templates/body.html:41 templates/index.html:29 templates/tickets.html:11
+#: templates/body.html:56 templates/index.html:29 templates/tickets.html:11
 msgid "Vstupenky"
 msgstr ""
 
-#: templates/body.html:44
+#: templates/body.html:59
 msgid "Prednášanie"
 msgstr ""
 
-#: templates/body.html:47
+#: templates/body.html:62
 msgid "Sponzorovanie"
 msgstr ""
 
-#: templates/body.html:50 templates/code-of-conduct.html:5
+#: templates/body.html:65 templates/code-of-conduct.html:5
 msgid "Kódex správania"
 msgstr ""
 
-#: templates/body.html:53
+#: templates/body.html:68
 msgid "Meetup"
 msgstr ""
 
-#: templates/body.html:56
+#: templates/body.html:71
 msgid "Občianske združenie"
 msgstr ""
 
-#: templates/body.html:76
+#: templates/body.html:91
 msgid "Preskočiť na začiatok"
 msgstr ""
 
-#: templates/body.html:82
+#: templates/body.html:97
 msgid "E-mailová konferencia"
 msgstr ""
 
@@ -137,10 +148,6 @@ msgid ""
 "Obťažovanie, sexistické, rasistické, alebo inak vyraďujúce vtipy sú "
 "nevhodné na našom stretnutí. Nebudeme tolerovať obťažovanie účastníkov "
 "stretnutia v akejkoľvek forme."
-msgstr ""
-
-#: templates/index.html:11
-msgid "PyCon prichádza na Slovensko!"
 msgstr ""
 
 #: templates/index.html:13

@@ -6,20 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>{{ title }}</title>
-  <meta name="description" content="PyCon prichádza na Slovensko! Nenechaj si újsť prvý PyCon SK - 11-13.03.2016 v Bratislave. Teraz si môžeš kúpiť vstupenky za zvyhodnenú cenu.">
+  <meta name="description" content="{{ _('PyCon prichádza na Slovensko!') }} {{ _('Nenechaj si újsť prvý PyCon SK - 11-13.03.2016 v Bratislave. Teraz si môžeš kúpiť vstupenky za zvyhodnenú cenu.') }}">
 
   <!-- You Promised Me Mars Colonies. Instead, I Got Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://pycon.sk/static/images/pycon_sk_logo.png">
-  <meta property="og:url" content="https://pycon.sk">
+  <meta property="og:image" content="https://pycon.sk/static/images/pycon_sk_logo200_no_text.png">
+  <meta property="og:url" content="https://pycon.sk{% if lang_code=='en'%}/en{% endif %}">
   <meta property="og:title" content="PyCon SK 2016 - 11-13.03.2016, Bratislava">
   <meta property="og:site_name" content="pycon.sk">
-  <meta property="og:description" content="PyCon prichádza na Slovensko! Nenechaj si újsť prvý PyCon SK - 11-13.03.2016 v Bratislave. Teraz si môžeš kúpiť vstupenky za zvyhodnenú cenu.">
+  <meta property="og:description" content="{{ _('PyCon prichádza na Slovensko!') }} {{ _('Nenechaj si újsť prvý PyCon SK - 11-13.03.2016 v Bratislave. Teraz si môžeš kúpiť vstupenky za zvyhodnenú cenu.') }}">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@pyconsk">
   <meta name="twitter:title" content="PyCon SK 2016 - 11-13.03.2016, Bratislava">
-  <meta name="twitter:description" content="PyCon prichádza na Slovensko! Nenechaj si újsť prvý PyCon SK - 11-13.03.2016 v Bratislave. Teraz si môžeš kúpiť vstupenky za zvyhodnenú cenu.">
-  <meta name="twitter:url" content="https://pycon.sk">
+  <meta name="twitter:description" content="{{ _('PyCon prichádza na Slovensko!') }} {{ _('Nenechaj si újsť prvý PyCon SK - 11-13.03.2016 v Bratislave. Teraz si môžeš kúpiť vstupenky za zvyhodnenú cenu.') }}">
+  <meta name="twitter:url" content="https://pycon.sk{% if lang_code=='en'%}/en{% endif %}">
+  <meta name="twitter:image" content="https://pycon.sk/static/images/pycon_sk_logo200_no_text.png">
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
