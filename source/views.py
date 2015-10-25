@@ -6,8 +6,8 @@ app.config['BABEL_DEFAULT_LOCALE'] = 'sk'
 app.jinja_options = {'extensions': ['jinja2.ext.with_']}
 babel = Babel(app)
 
-LOGO_PYCON = 'images/pycon_sk_logo_notext.svg'
-LOGO_MEETUP_BA = 'images/bratislava_logo.svg'
+LOGO_PYCON = 'images/pycon_sk_logo_notext.png'
+LOGO_MEETUP_BA = 'images/bratislava_logo.png'
 
 
 @app.before_request
