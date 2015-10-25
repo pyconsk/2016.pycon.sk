@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-24 19:48+0200\n"
+"POT-Creation-Date: 2015-10-25 11:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -23,36 +23,36 @@ msgstr ""
 msgid "Preskočiť na hlavný obsah"
 msgstr ""
 
-#: templates/body.html:40 templates/index.html:22 templates/tickets.html:11
+#: templates/body.html:41 templates/index.html:28 templates/tickets.html:11
 msgid "Vstupenky"
 msgstr ""
 
-#: templates/body.html:43
+#: templates/body.html:44
 msgid "Prednášanie"
 msgstr ""
 
-#: templates/body.html:46
+#: templates/body.html:47
 msgid "Sponzorovanie"
 msgstr ""
 
-#: templates/body.html:49 templates/code-of-conduct.html:5
+#: templates/body.html:50 templates/code-of-conduct.html:5
 msgid "Kódex správania"
 msgstr ""
 
-#: templates/body.html:52
+#: templates/body.html:53
 msgid "Meetup"
 msgstr ""
 
-#: templates/body.html:55
+#: templates/body.html:56
 msgid "Občianske združenie"
 msgstr ""
 
-#: templates/body.html:58
-msgid "E-mailová konferencia"
+#: templates/body.html:76
+msgid "Preskočiť na začiatok"
 msgstr ""
 
-#: templates/body.html:77
-msgid "Preskočiť na začiatok"
+#: templates/body.html:82
+msgid "E-mailová konferencia"
 msgstr ""
 
 #: templates/code-of-conduct.html:7
@@ -143,37 +143,37 @@ msgstr ""
 msgid "PyCon prichádza na Slovensko!"
 msgstr ""
 
-#: templates/index.html:12
+#: templates/index.html:13
 msgid ""
 "PyCon SK je komunitou organizovaná konferencia pre programovací jazyk "
 "Python."
 msgstr ""
 
-#: templates/index.html:12
+#: templates/index.html:13
 msgid ""
 "<strong>Prvý ročník</strong> sa uskutoční <strong>11.3.2016 až 13.3.2016 "
 "v Bratislave</strong>."
 msgstr ""
 
-#: templates/index.html:19
+#: templates/index.html:21
 msgid ""
 "Veľmi sa tešíme, že vám môžeme oznámiť, že okrem dvoch dní zaujímavých "
 "prednášok, budeme organizovať aj workshopy, ktoré budú vhodné aj pre "
 "úplných začiatočníkov."
 msgstr ""
 
-#: templates/index.html:22
+#: templates/index.html:28
 msgid "sú už v predaji, môžete si ich zakúpiť za zvyhodnenú cenu."
 msgstr ""
 
-#: templates/index.html:26
+#: templates/index.html:32
 msgid ""
 "Ak máte záujem prispieť, stať sa dobrovoľníkom, alebo akokoľvek inak "
 "pomôcť s organizáciou PyConu (ktorý je kompletne organizovaný "
 "dobrovoľníkmi), budeme radi ak sa nám ozvete."
 msgstr ""
 
-#: templates/index.html:27
+#: templates/index.html:33
 #, python-format
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
@@ -222,80 +222,80 @@ msgstr ""
 msgid "Výzva na predloženie návrhov"
 msgstr ""
 
-#: templates/speaking.html:6
+#: templates/speaking.html:7
 msgid ""
 "Výzva na predloženie návrhov je otvorená — PyCon SK 2016 v Bratislave, "
 "prijíma návrhy na prednášky a workshopy!"
 msgstr ""
 
-#: templates/speaking.html:8
+#: templates/speaking.html:12
 msgid "PyCon organizuje Python komunita pre komunitu."
 msgstr ""
 
-#: templates/speaking.html:8
+#: templates/speaking.html:12
 msgid "Ak idete na túto konferenciu, tak ste súčasťou tejto komunity."
 msgstr ""
 
-#: templates/speaking.html:8
+#: templates/speaking.html:12
 msgid ""
 "Pokiaľ ste spravili niečo, čo by mohlo zaujímať aj iných, alebo si "
 "myslíte, že ostatní by o tom mali vedieť, príďte nám o tom spraviť "
 "prednášku."
 msgstr ""
 
-#: templates/speaking.html:8
+#: templates/speaking.html:12
 msgid ""
 "Nechceme počúvať iba expertov a známe osobnosti - aj noví perspektívni "
 "rečníci sú tiež zaujímaví, tak sa prosím nenechajte odradiť pocitom že "
 "nie ste expert alebo známa osobnosť."
 msgstr ""
 
-#: templates/speaking.html:8
+#: templates/speaking.html:12
 msgid ""
 "Toto je naša pozvánka, aby ste poslali návrh na prednášku, ak ste ešte "
 "nikdy na konferencií neprednášali. Rečníci <strong>vystupujúci prvý "
 "krát</strong> budú uprednostňovaní."
 msgstr ""
 
-#: templates/speaking.html:11
+#: templates/speaking.html:15
 msgid "Kam poslať Váš návrh na prednášku"
 msgstr ""
 
-#: templates/speaking.html:13
+#: templates/speaking.html:17
 msgid "Sme radi, že máte záujem prednášať na PyCon SK 2016!"
 msgstr ""
 
-#: templates/speaking.html:13
+#: templates/speaking.html:17
 msgid "Pošlite nám Váš návrh aj so stručným obsahom na email:"
 msgstr ""
 
-#: templates/speaking.html:17
+#: templates/speaking.html:21
 msgid "Neváhajte poslať viac ako jeden návrh na prednášku."
 msgstr ""
 
-#: templates/speaking.html:17
+#: templates/speaking.html:21
 msgid ""
 "<strong>Termín odovzdania návrhov na prednášky je 24. január "
 "2016.</strong>"
 msgstr ""
 
-#: templates/speaking.html:17
+#: templates/speaking.html:21
 msgid ""
 "Vzhľadom na výberové konania, odporúčame budúcim rečníkom, aby predložili"
 " svoje návrhy čo najskôr."
 msgstr ""
 
-#: templates/speaking.html:20
+#: templates/speaking.html:24
 msgid "Pokyny pre podávanie návrhov"
 msgstr ""
 
-#: templates/speaking.html:22
+#: templates/speaking.html:26
 msgid ""
 "Nie je žiadne oficiálne obmedzenie tém, ktoré môžete navrhnúť ako svoju "
 "prednášku."
 msgstr ""
 
-#: templates/speaking.html:22
+#: templates/speaking.html:26
 msgid ""
 "Prednášky o Pythone, alebo komunite s vysokou pravdepodobnosťou budú "
 "zaujímavé pre publikum. Hlavný bod, ktorý bude komisia pri výbere "
@@ -303,39 +303,39 @@ msgid ""
 "limit na jednu prednášku pre rečníka."
 msgstr ""
 
-#: templates/speaking.html:22
+#: templates/speaking.html:26
 msgid ""
 "Navrhnúť môžete viac ako jednu, avšak komisia Vás vyzve, aby ste vybrali "
 "iba jednu prednášku, v prípade že bude akceptovaných viac návrhov."
 msgstr ""
 
-#: templates/speaking.html:25
+#: templates/speaking.html:31
 msgid "Prednášky"
 msgstr ""
 
-#: templates/speaking.html:27
+#: templates/speaking.html:33
 msgid ""
 "Väčšina prednášok má dĺžku 30 minút, ale ponúkame aj 45 minútový vstup "
 "pre zaujímavé témy, ktoré budú vyžadovať dlhší vstup."
 msgstr ""
 
-#: templates/speaking.html:29
+#: templates/speaking.html:39
 msgid "Workshopy"
 msgstr ""
 
-#: templates/speaking.html:31
+#: templates/speaking.html:41
 msgid ""
 "Tak ako na prednášky, tešíme sa aj na tutoriály, ktoré budú vhodné pre "
 "komunitu na akejkoľvek úrovni!"
 msgstr ""
 
-#: templates/speaking.html:31
+#: templates/speaking.html:41
 msgid ""
 "Prostredníctvom takýchto výukových programov sa snažíme zveľaďovať Python"
 " komunitu a formovať budúcnosť."
 msgstr ""
 
-#: templates/speaking.html:31
+#: templates/speaking.html:41
 msgid ""
 "Vzhľadom na to, že návody trvajú dlhšie a budú v menších miestnostiach "
 "vyžadujú oveľa viac prípravy."
@@ -349,84 +349,84 @@ msgstr ""
 msgid "Potrebujeme vás — PyCon SK 2016 v Bratislave, hľadá sponzorov a partnerov!"
 msgstr ""
 
-#: templates/sponsoring.html:8
+#: templates/sponsoring.html:11
 msgid ""
 "PyCon je každoročné stretnutie komunity ľudí, ktorí používajú alebo "
 "vyvíjajú open-source programovací jazyk Python."
 msgstr ""
 
-#: templates/sponsoring.html:8
+#: templates/sponsoring.html:11
 msgid "Konferencia je kompletne organizovaná dobrovoľníkmi."
 msgstr ""
 
-#: templates/sponsoring.html:11
+#: templates/sponsoring.html:14
 msgid ""
 "Členovia Python komunity organizujú PyCon konferencie vo svojich "
 "domovských krajinách pravidelne, avšak na Slovensku nebol žiadny "
 "oficiálny PyCon doteraz zorganizovaný. Preto sme sa rozhodli to zmeniť."
 msgstr ""
 
-#: templates/sponsoring.html:14
+#: templates/sponsoring.html:17
 msgid ""
 "Aby sme mohli zabezpečiť kvalitných prednášajúcich a pritom udržať cenu "
 "vstupeniek dostupnú pre každého, potrebujeme vás, sponzorov, ktorí "
 "umožnia túto konferenciu uskutočniť."
 msgstr ""
 
-#: templates/sponsoring.html:17
+#: templates/sponsoring.html:20
 msgid ""
 "Neváhajte nás kedykoľvek kontaktovať. Sme flexibilní a ochotní "
 "spolupracovať a navrhnúť s vami balíček sponzorstva, ktorý splní vaše "
 "obchodné potreby."
 msgstr ""
 
-#: templates/sponsoring.html:21
+#: templates/sponsoring.html:26
 msgid "Marketing"
 msgstr ""
 
-#: templates/sponsoring.html:23
+#: templates/sponsoring.html:28
 msgid ""
 "Hľadáte nových používateľov pre váš produkt? Takých ľudí nájdete na "
 "PyCone - oni tiež budú hľadať nové produkty a nápady."
 msgstr ""
 
-#: templates/sponsoring.html:25
+#: templates/sponsoring.html:34
 msgid "Nábor"
 msgstr ""
 
-#: templates/sponsoring.html:27
+#: templates/sponsoring.html:36
 msgid ""
 "Hľadáte programátorov? PyCon je to najlepšie miesto pre stretnutie nových"
 " talentov. Mnohí účastníci budú skúsení vývojári, ktorí hľadajú svoj "
 "ďalší veľký kariérny krok."
 msgstr ""
 
-#: templates/sponsoring.html:29
+#: templates/sponsoring.html:42
 msgid "Publikum"
 msgstr ""
 
-#: templates/sponsoring.html:31
+#: templates/sponsoring.html:44
 msgid ""
 "Chcete dostať svoje posolstvo medzi ľudí, aby sa o vás hovorilo? PyCon je"
 " na to skvelá príležitosť. Ľudia v Python komunite radi objavujú a "
 "zdieľajú nové veci."
 msgstr ""
 
-#: templates/sponsoring.html:33
+#: templates/sponsoring.html:50
 msgid "Komunita"
 msgstr ""
 
-#: templates/sponsoring.html:35
+#: templates/sponsoring.html:52
 msgid ""
 "Hľadáte nových prispievateľov a partnerov pre váš open source projekt? "
 "PyCon je miesto, kde aj oni budú hľadať vás."
 msgstr ""
 
-#: templates/sponsoring.html:37
+#: templates/sponsoring.html:58
 msgid "Podpora"
 msgstr ""
 
-#: templates/sponsoring.html:39
+#: templates/sponsoring.html:60
 msgid ""
 "Používate vo vašej firme Python? Podpora komunitných udalostí je výborná "
 "príležitosť ako prispieť späť."
@@ -550,116 +550,116 @@ msgstr ""
 msgid "Možete využiť šancu zakúpiť si lístok za zvýhodnenú cenu."
 msgstr ""
 
-#: templates/tickets.html:16
+#: templates/tickets.html:17
 msgid "Kúpou lístka vyjadrujete súhlas s dodržiavaním kódexu správania."
 msgstr ""
 
-#: templates/tickets.html:18
+#: templates/tickets.html:19
 msgid "Aký lístok si mám kúpiť?"
 msgstr ""
 
-#: templates/tickets.html:20
+#: templates/tickets.html:21
 msgid "Supporter"
 msgstr ""
 
-#: templates/tickets.html:20
+#: templates/tickets.html:21
 msgid ""
 "Lístok je určený pre účastníkov, ktorí chcú aby ich meno (firma) bolo "
 "zverejnené v zozname podporovateľov na našom webe."
 msgstr ""
 
-#: templates/tickets.html:21
+#: templates/tickets.html:22
 msgid "Standard"
 msgstr ""
 
-#: templates/tickets.html:21
+#: templates/tickets.html:22
 msgid "Lístok je určený pre všetkých účastníkov konferencie."
 msgstr ""
 
-#: templates/tickets.html:22
+#: templates/tickets.html:23
 msgid "Student"
 msgstr ""
 
-#: templates/tickets.html:22
+#: templates/tickets.html:23
 msgid ""
 "Lístok je určený pre študentov. Nezabudnite si so sebou na registráciu "
 "priniesť platný študentský preukaz (ISIC)."
 msgstr ""
 
-#: templates/tickets.html:24
+#: templates/tickets.html:26
 msgid "Je aj iná možnosť ako sa dostať na PyCon?"
 msgstr ""
 
-#: templates/tickets.html:26
+#: templates/tickets.html:28
 msgid ""
 "Máme spustený štipendiálny program, ktorý umožní niektorým návštevníkom "
 "prísť na PyCon zadarmo. Napíšte nám prečo by sme práve Vám mali dať "
 "vstupenku."
 msgstr ""
 
-#: templates/tickets.html:27
+#: templates/tickets.html:29
 msgid ""
 "Ak máte menej ako 18 rokov a prídete v sprievode rodiča, stačí ak si "
 "lístok zakúpi iba rodič, avšak musíte sa nám ozvať aby sme vystavili "
 "vstupenku aj pre dieťa."
 msgstr ""
 
-#: templates/tickets.html:28
+#: templates/tickets.html:30
 msgid ""
 "Pre sociálne znevýhodnených účastníkov máme pripravený grantový program. "
 "Napíšte nám ak máte záujem sa ho zúčastniť."
 msgstr ""
 
-#: templates/tickets.html:30
+#: templates/tickets.html:33
 msgid "Čo všetko mám v lístku?"
 msgstr ""
 
-#: templates/tickets.html:33
+#: templates/tickets.html:36
 msgid "Dva dni prednášok."
 msgstr ""
 
-#: templates/tickets.html:34
+#: templates/tickets.html:37
 msgid "Obed počas oboch dní konferencie."
 msgstr ""
 
-#: templates/tickets.html:35
+#: templates/tickets.html:38
 msgid "Kávu a koláčik počas prestávok."
 msgstr ""
 
-#: templates/tickets.html:36
+#: templates/tickets.html:39
 msgid "Tričko a tašku plnú prekvapení."
 msgstr ""
 
-#: templates/tickets.html:37
+#: templates/tickets.html:40
 msgid "Pozvánka na piatkovú neformálnu party."
 msgstr ""
 
-#: templates/tickets.html:40
+#: templates/tickets.html:44
 msgid "Ponúkate množstevné zľavy?"
 msgstr ""
 
-#: templates/tickets.html:42
+#: templates/tickets.html:46
 msgid ""
 "Ak máte záujem kúpiť viac ako 10 lístkov kontaktujete nás emailom na "
 "info@pycon.sk."
 msgstr ""
 
-#: templates/tickets.html:44
+#: templates/tickets.html:49
 msgid "Nemám PayPal, je možné kúpiť vstupenku inak ako cez Tito?"
 msgstr ""
 
-#: templates/tickets.html:46
+#: templates/tickets.html:51
 msgid ""
 "Akceptujeme aj bankový prevod, prípadne Bitcoin, napíšte nám o aké lístky"
 " máte záujem a po pripísaní sumy na náš účet Vám vystavíme a pošleme "
 "emailom vstupenku, avšak bude vygenerovaná tiež cez systém Tito."
 msgstr ""
 
-#: templates/tickets.html:48
+#: templates/tickets.html:54
 msgid "Kam idú všetky peniaze za lístky?"
 msgstr ""
 
-#: templates/tickets.html:50
+#: templates/tickets.html:56
 msgid ""
 "PyCon je kompletne organizovaný dobrovoľníkmi. Veríme, že takéto "
 "konferencie je potrebné organizovať, aby propagovali programovanie a Open"
@@ -670,11 +670,11 @@ msgid ""
 "všeobecne, prečítajte si"
 msgstr ""
 
-#: templates/tickets.html:50
+#: templates/tickets.html:56
 msgid "ciele SPy o.z."
 msgstr ""
 
-#: templates/tickets.html:50
+#: templates/tickets.html:56
 msgid "viac o našich cieľoch"
 msgstr ""
 
