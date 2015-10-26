@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-25 23:03+0100\n"
+"POT-Creation-Date: 2015-10-26 08:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -212,7 +212,7 @@ msgid "7. júl 2015 – 18:00 - Progressbar"
 msgstr ""
 
 #: templates/right_nav.html:4
-msgid "Zlatý sponzori:"
+msgid "Zlatí sponzori:"
 msgstr ""
 
 #: templates/right_nav.html:17

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-25 23:03+0100\n"
+"POT-Creation-Date: 2015-10-26 08:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -28,8 +28,8 @@ msgid ""
 "Nenechaj si újsť prvý PyCon SK - 11-13.03.2016 v Bratislave. Teraz si "
 "môžeš kúpiť vstupenky za zvyhodnenú cenu."
 msgstr ""
-"Do not miss the first PyCon SK - 11-13.03.2016 in Bratislava. Now you "
-"can buy tickets at discounted price."
+"Do not miss the very first PyCon SK - 11-13.03.2016 in Bratislava. Buy "
+"your early bird ticket now!"
 
 #: templates/body.html:39
 msgid "Preskočiť na hlavný obsah"
@@ -262,7 +262,7 @@ msgid "7. júl 2015 – 18:00 - Progressbar"
 msgstr "7th July 2015 – 18:00 - Progressbar"
 
 #: templates/right_nav.html:4
-msgid "Zlatý sponzori:"
+msgid "Zlatí sponzori:"
 msgstr "Gold sponsors:"
 
 #: templates/right_nav.html:17
