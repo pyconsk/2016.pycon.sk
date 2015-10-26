@@ -27,17 +27,6 @@ if [ -d "${FLASK_URL}" ]; then
 	rm -rf "${FLASK_URL}"
 fi
 
-case "$(sed --help 2>&1)" in
-	*GNU*)
-		sed_cmd="sed -i"
-		stat_cmd="stat --format='%Y'"
-		;;
-	*)
-		sed_cmd="sed -i ''"
-		stat_cmd="stat -f%m"
-		;;
-esac
-
 wget -mkEp http://"${FLASK_URL}"/sk/index.html
 
 if [ $? -eq 0 ]; then
@@ -52,7 +41,7 @@ if [ $? -eq 0 ]; then
 
     # Get mtime of main CSS
 	VERSION=$(stat --format=%Y static/css/pycon.css 2> /dev/null || stat -f%m static/css/pycon.css)
-    find . -type f -name "*.html" | xargs sed -i .old "s#css/pycon.css\"#css/pycon.css?v=${VERSION}\"#"
+    find . -type f -name "*.html" | xargs sed -i.old "s#css/pycon.css\"#css/pycon.css?v=${VERSION}\"#"
 	find . -type f -name "*.old" -delete
 
 	cd "${GIT_ROOT}"
