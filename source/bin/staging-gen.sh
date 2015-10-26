@@ -50,6 +50,11 @@ if [ $? -eq 0 ]; then
 	# Regenerate symlinks
 	ln -s static/download files
 
+    # Get mtime of main CSS
+	VERSION=$(stat --format=%Y static/css/pycon.css 2> /dev/null || stat -f%m static/css/pycon.css)
+    find . -type f -name "*.html" | xargs sed -i .old "s#css/pycon.css\"#css/pycon.css?v=${VERSION}\"#"
+	find . -type f -name "*.old" -delete
+
 	cd "${GIT_ROOT}"
 
 	# Move stored site as new site
@@ -58,9 +63,6 @@ if [ $? -eq 0 ]; then
 	fi
 
 	mv "${TMP_DIR}/${FLASK_URL}" "${STAGING_DIR}"
-
-	VERSION=$(${stat_cmd} ${STAGING_DIR}/static/css/pycon.css)
-	${sed_cmd} "s#css/pycon.css\"#css/pycon.css?v=${VERSION}\"#" ${STAGING_DIR}/*/*.html
 else
 	echo "wget FAILED!"
 	exit 1
