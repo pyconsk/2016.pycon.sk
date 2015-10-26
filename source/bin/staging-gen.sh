@@ -27,6 +27,15 @@ if [ -d "${FLASK_URL}" ]; then
 	rm -rf "${FLASK_URL}"
 fi
 
+case "$(sed --help 2>&1)" in
+	*GNU*)
+		sed_cmd="sed -i"
+		;;
+	*)
+		sed_cmd="sed -i ''"
+		;;
+esac
+
 wget -mkEp http://"${FLASK_URL}"/sk/index.html
 
 if [ $? -eq 0 ]; then
@@ -49,7 +58,7 @@ if [ $? -eq 0 ]; then
 	mv "${TMP_DIR}/${FLASK_URL}" "${STAGING_DIR}"
 
 	VERSION=$(stat -f%m ${STAGING_DIR}/static/css/pycon.css)
-	sed -i'' "s#css/pycon.css\"#css/pycon.css?v=${VERSION}\"#" ${STAGING_DIR}/*/*.html
+	${sed_cmd} "s#css/pycon.css\"#css/pycon.css?v=${VERSION}\"#" ${STAGING_DIR}/*/*.html
 else
 	echo "wget FAILED!"
 	exit 1
