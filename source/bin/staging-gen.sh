@@ -30,9 +30,11 @@ fi
 case "$(sed --help 2>&1)" in
 	*GNU*)
 		sed_cmd="sed -i"
+		stat_cmd="stat --format='%Y'"
 		;;
 	*)
 		sed_cmd="sed -i ''"
+		stat_cmd="stat -f%m"
 		;;
 esac
 
@@ -57,7 +59,7 @@ if [ $? -eq 0 ]; then
 
 	mv "${TMP_DIR}/${FLASK_URL}" "${STAGING_DIR}"
 
-	VERSION=$(stat -f%m ${STAGING_DIR}/static/css/pycon.css)
+	VERSION=$(${stat_cmd} ${STAGING_DIR}/static/css/pycon.css)
 	${sed_cmd} "s#css/pycon.css\"#css/pycon.css?v=${VERSION}\"#" ${STAGING_DIR}/*/*.html
 else
 	echo "wget FAILED!"
