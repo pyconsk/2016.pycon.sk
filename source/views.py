@@ -135,7 +135,7 @@ def sitemap():
             if len(rule.arguments)==0:
                 indx = rule.rule.replace('/', '')
                 pages.append({
-                    'loc': rule.rule,
+                    'loc': 'https://pycon.sk' + rule.rule,
                     'lastmod': SITEMAP[indx]['lastmod'],
                     'freq': SITEMAP[indx]['freq'],
                     'prio': SITEMAP[indx]['prio'],
@@ -146,7 +146,7 @@ def sitemap():
 
                 for lang in LANGS:
                     pages.append({
-                        'loc': rule.rule.replace('<lang_code>', lang),
+                        'loc': 'https://pycon.sk' + rule.rule.replace('<lang_code>', lang),
                         'lastmod': SITEMAP[indx]['lastmod'],
                         'freq': SITEMAP[indx]['freq'],
                         'prio': SITEMAP[indx]['prio'],
