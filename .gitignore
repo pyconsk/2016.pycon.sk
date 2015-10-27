@@ -19,10 +19,6 @@ develop-eggs
 MANIFEST
 envs
 
-# Sitemap
-sitemap.xml
-sitemap.xml.gz
-
 # Databases
 *.sql
 *.db
