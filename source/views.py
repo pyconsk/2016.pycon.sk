@@ -30,7 +30,7 @@ SITEMAP = {
 LDJSON = {
     "@context": "http://schema.org",
     "@type": "Organization",
-    "name": "SPy o.z. - PyCon SK",
+    "name": "PyCon SK",
     "url": "https://pycon.sk",
     "logo": "https://pycon.sk/static/images/pycon_sk_logo200_notext.png",
     "sameAs": [
@@ -78,7 +78,58 @@ def _get_template_variables(**kwargs):
 
 @app.route('/<lang_code>/index.html')
 def index():
-    return render_template('index.html', **_get_template_variables())
+    lang =  get_locale()
+    LDJSON_EVENT = {
+      "@context": "http://schema.org",
+      "@type": "Event",
+      "name": u"PyCon SK 2016",
+      "startDate": "2016-03-11T9:00:00+01:00",
+      "endDate" : "2016-03-13T18:00:00+01:00",
+      "url": "https://pycon.sk/"+ lang +"/",
+      "sameAs": [
+        "https://www.facebook.com/events/941546202585736/"
+      ],
+      "offers": [{
+        "@type" : "Offer",
+        "name" : "Supporter Early Bird",
+        "category" : "presale",
+        "price" : "50",
+        "priceCurrency" : "EUR",
+        "url" : "https://ti.to/pyconsk/2016"
+      },{
+        "@type" : "Offer",
+        "name" : "Standard Early Bird",
+        "category" : "presale",
+        "price" : "20",
+        "priceCurrency" : "EUR",
+        "url" : "https://ti.to/pyconsk/2016"
+      },{
+        "@type" : "Offer",
+        "name" : "Student Early Bird",
+        "category" : "presale",
+        "price" : "10",
+        "priceCurrency" : "EUR",
+        "url" : "https://ti.to/pyconsk/2016"
+      }],
+      "workPerformed": {
+        "@type": "CreativeWork",
+        "name": "PyCon SK 2016",
+        "creator": {
+          "@type": "Organization",
+          "name": "SPy o.z.",
+          "url": "https://pycon.sk/"+ lang +"/spy.html",
+          "logo": "https://pycon.sk/static/images/pycon_sk_logo200_notext.png",
+          "sameAs": [
+            "https://facebook.com/pyconsk",
+            "https://twitter.com/pyconsk",
+            "https://www.linkedin.com/company/spy-o--z-",
+            "https://github.com/pyconsk",
+            "https://pyconsk.slack.com"
+          ],
+        }
+      }
+    }
+    return render_template('index.html', **_get_template_variables(ld_json=LDJSON_EVENT))
 
 
 @app.route('/<lang_code>/speaking.html')
@@ -103,7 +154,23 @@ def code_of_conduct():
 
 @app.route('/<lang_code>/spy.html')
 def spy():
-    return render_template('spy.html', **_get_template_variables(title='SPy o. z.', li_spy='active'))
+    lang =  get_locale()
+    LDJSON = {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "SPy o.z.",
+        "url": "https://pycon.sk/"+ lang +"/spy.html",
+        "logo": "https://pycon.sk/static/images/pycon_sk_logo200_notext.png",
+        "sameAs": [
+          "https://facebook.com/pyconsk",
+          "https://twitter.com/pyconsk",
+          "https://www.linkedin.com/company/spy-o--z-",
+          "https://github.com/pyconsk",
+          "https://pyconsk.slack.com"
+        ]
+    }
+    return render_template('spy.html', **_get_template_variables(title='SPy o.z.', li_spy='active',
+                                                                          ld_json=LDJSON))
 
 
 @app.route('/<lang_code>/thank-you.html')
