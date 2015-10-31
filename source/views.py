@@ -126,11 +126,8 @@ def ba_meetup_01():
       "endDate" : "2015-07-07T22:00:00+01:00",
       "url": "https://pycon.sk/sk/ba-01-meetup.html",
       "sameAs": [
-        "https://facebook.com/pyconsk",
-        "https://twitter.com/pyconsk",
-        "https://www.linkedin.com/company/spy-o--z-",
-        "https://github.com/pyconsk",
-        "https://pyconsk.slack.com"
+        "https://www.facebook.com/events/800093356777151/",
+        "http://lanyrd.com/2015/pyba/"
       ],
       "location": {
         "@type": "Place",
@@ -160,10 +157,6 @@ def ba_meetup_01():
       "workPerformed": {
         "@type": "CreativeWork",
         "name": u"Prvý Bratislavský Python Meetup",
-        "sameAs": [
-          "https://www.facebook.com/events/800093356777151/",
-          "http://lanyrd.com/2015/pyba/"
-        ],
         "creator": [{
           "@type": "Person",
           "name": "Richard Kellner",
@@ -182,22 +175,201 @@ def ba_meetup_01():
 
 @app.route('/<lang_code>/ba-02-meetup.html')
 def ba_meetup_02():
-    return render_template('ba-02-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active'))
+    LDJSON_EVENT = {
+      "@context": "http://schema.org",
+      "@type": "Event",
+      "name": u"Druhý Bratislavský Python Meetup",
+      "startDate": "2015-08-04T18:00:00+01:00",
+      "endDate" : "2015-08-04T22:00:00+01:00",
+      "url": "https://pycon.sk/sk/ba-02-meetup.html",
+      "sameAs": [
+        "https://www.facebook.com/events/405531022976000/",
+        "http://lanyrd.com/2015/pyconsk/"
+      ],
+      "location": {
+        "@type": "Place",
+        "sameAs": "https://progressbar.sk",
+        "name": "Progressbar",
+        "address": u"Michalská 3, Bratislava"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "EUR"
+      },
+      "performer": [{
+        "@type": "Person",
+        "name": u"Daniel Kontšek",
+        "sameAs": "https://sk.linkedin.com/in/danielkontsek"
+        },{
+        "@type": "Person",
+        "name": "Richard Kellner",
+        "sameAs": "https://sk.linkedin.com/in/richardkellner"
+        }
+      ],
+      "workPerformed": {
+        "@type": "CreativeWork",
+        "name": u"Druhý Bratislavský Python Meetup",
+        "creator": [{
+          "@type": "Person",
+          "name": "Richard Kellner",
+          "sameAs": "https://sk.linkedin.com/in/richardkellner"
+          },{
+          "@type": "Person",
+          "name": u"Daniel Kontšek",
+          "sameAs": "https://sk.linkedin.com/in/danielkontsek"
+          }
+        ]
+      }
+    }
+    return render_template('ba-02-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
+                                                                          ld_json=LDJSON_EVENT))
 
 
 @app.route('/<lang_code>/ba-03-meetup.html')
 def ba_meetup_03():
-    return render_template('ba-03-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active'))
+    LDJSON_EVENT = {
+      "@context": "http://schema.org",
+      "@type": "Event",
+      "name": u"Tretí Bratislavský Python Meetup",
+      "startDate": "2015-09-08T18:00:00+01:00",
+      "endDate" : "2015-09-08T22:00:00+01:00",
+      "url": "https://pycon.sk/sk/ba-03-meetup.html",
+      "sameAs": [
+        "https://www.facebook.com/events/860134137403420/",
+        "http://lanyrd.com/2015/bratislava-python-meetup-3/"
+      ],
+      "location": {
+        "@type": "Place",
+        "sameAs": "https://progressbar.sk",
+        "name": "Progressbar",
+        "address": u"Michalská 3, Bratislava"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "EUR"
+      },
+      "performer": [{
+        "@type": "Person",
+        "name": u"Tomáš Pytlíček",
+        "sameAs": "https://plus.google.com/+Tom%C3%A1%C5%A1Pytl%C3%AD%C4%8Dek/posts"
+        }
+      ],
+      "workPerformed": {
+        "@type": "CreativeWork",
+        "name": u"Tretí Bratislavský Python Meetup",
+        "creator": [{
+          "@type": "Person",
+          "name": "Richard Kellner",
+          "sameAs": "https://sk.linkedin.com/in/richardkellner"
+          },{
+          "@type": "Person",
+          "name": u"Daniel Kontšek",
+          "sameAs": "https://sk.linkedin.com/in/danielkontsek"
+          }
+        ]
+      }
+    }
+    return render_template('ba-03-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
+                                                                          ld_json=LDJSON_EVENT))
 
 
 @app.route('/<lang_code>/ba-04-meetup.html')
 def ba_meetup_04():
-    return render_template('ba-04-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active'))
+    LDJSON_EVENT = {
+      "@context": "http://schema.org",
+      "@type": "Event",
+      "name": u"Štvrtý Bratislavský Python Meetup",
+      "startDate": "2015-10-06T18:00:00+01:00",
+      "endDate" : "2015-10-06T22:00:00+01:00",
+      "url": "https://pycon.sk/sk/ba-04-meetup.html",
+      "sameAs": "https://www.facebook.com/events/1003712976319521/",
+      "location": {
+        "@type": "Place",
+        "sameAs": "https://progressbar.sk",
+        "name": "Progressbar",
+        "address": u"Michalská 3, Bratislava"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "EUR"
+      },
+      "performer": {
+        "@type": "Person",
+        "name": u"Adam Števko",
+        "sameAs": "https://sk.linkedin.com/in/xenol"
+      },
+      "workPerformed": {
+        "@type": "CreativeWork",
+        "name": u"Štvrtý Bratislavský Python Meetup",
+        "creator": {
+          "@type": "Organization",
+          "name": "SPy o.z.",
+          "sameAs": [
+            "https://facebook.com/pyconsk",
+            "https://twitter.com/pyconsk",
+            "https://www.linkedin.com/company/spy-o--z-",
+            "https://github.com/pyconsk",
+            "https://pyconsk.slack.com"
+          ],
+        }
+      }
+    }
+    return render_template('ba-04-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
+                                                                          ld_json=LDJSON_EVENT))
 
 
 @app.route('/<lang_code>/ba-05-meetup.html')
 def ba_meetup_05():
-    return render_template('ba-05-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active'))
+    LDJSON_EVENT = {
+      "@context": "http://schema.org",
+      "@type": "Event",
+      "name": u"Piaty Bratislavský Python Meetup",
+      "startDate": "2015-11-10T18:00:00+01:00",
+      "endDate" : "2015-11-10T22:00:00+01:00",
+      "url": "https://pycon.sk/sk/ba-05-meetup.html",
+      "sameAs": "https://www.facebook.com/events/850999828331493/",
+      "location": {
+        "@type": "Place",
+        "sameAs": "https://progressbar.sk",
+        "name": "Progressbar",
+        "address": u"Michalská 3, Bratislava"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "EUR"
+      },
+      "performer": [{
+        "@type": "Person",
+        "name": u"Daniel Kontšek",
+        "sameAs": "https://sk.linkedin.com/in/danielkontsek"
+        },{
+        "@type": "Person",
+        "name": "Richard Kellner",
+        "sameAs": "https://sk.linkedin.com/in/richardkellner"
+        }
+      ],
+      "workPerformed": {
+        "@type": "CreativeWork",
+        "name": u"Piaty Bratislavský Python Meetup",
+        "creator": {
+          "@type": "Organization",
+          "name": "SPy o.z.",
+          "sameAs": [
+            "https://facebook.com/pyconsk",
+            "https://twitter.com/pyconsk",
+            "https://www.linkedin.com/company/spy-o--z-",
+            "https://github.com/pyconsk",
+            "https://pyconsk.slack.com"
+          ],
+        }
+      }
+    }
+    return render_template('ba-05-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
+                                                                          ld_json=LDJSON_EVENT))
 
 
 @app.route('/sitemap.xml', methods=['GET'])
