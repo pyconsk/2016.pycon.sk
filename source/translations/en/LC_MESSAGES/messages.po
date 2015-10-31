@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-31 21:26+0100\n"
+"POT-Creation-Date: 2015-10-31 21:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -282,8 +282,8 @@ msgid "Priatelia:"
 msgstr "Friends:"
 
 #: templates/speakers.html:6
-msgid "Rečníci, ktorí vystúpia na PyCon SK 2016"
-msgstr "Speakers, who will speak at PyCon SK 2016"
+msgid "Rečníci, ktorí vystúpia na PyCon SK 2016."
+msgstr "Speakers, who will speak at PyCon SK 2016."
 
 #: templates/speakers.html:14
 msgid ""
@@ -292,7 +292,7 @@ msgid ""
 "od roku 1994 a kariériu softvérového vývojára začal v roku 2002."
 msgstr ""
 "He is a classically trained musician, philosophy graduate, teacher, "
-"writer and software developer. He have been programming since 1984 when "
+"writer and software developer. He has been programming since 1984 when "
 "he taught himself by using his school's BBC B. He have been online since "
 "1994 and made software development his career in 2002."
 
@@ -305,14 +305,14 @@ msgid ""
 "geocachingu."
 msgstr ""
 "Telecommunication Engineer. Python Lover since 1996, core developer since"
-" 2008.Freelance consulting since 2012. Founder of Python Madrid and "
+" 2008. Freelance consulting since 2012. Founder of Python Madrid and "
 "Python Vigo user groups, and Python Spain association. Interested in "
 "Python, Security and almost anything interesting, including podcasting "
 "and geocaching."
 
 #: templates/speakers.html:38
 msgid ""
-"Je open source Python vývojár pracujúci na plný úväzok pre <a "
+"Cory je open source Python vývojár pracujúci na plný úväzok pre <a "
 "href=\"https://www.hpe.com/\" target=\"_blank\" title=\"Hewlett Packard "
 "Enterprise\">HPE</a> v Python HTTP komunite. Prispievateľ do jadra "
 "knižníc <a href=\"http://docs.python-requests.org/en/latest/\" "
@@ -325,7 +325,7 @@ msgid ""
 "nástrojov na prácu s HTTP a HTTP/2. Má rád počítačové siete, filmy, "
 "televíziu a cestovanie."
 msgstr ""
-"is an open source Python developer working full-time for <a "
+"Cory is an open source Python developer working full-time for <a "
 "href=\"https://www.hpe.com/\" target=\"_blank\" title=\"Hewlett Packard "
 "Enterprise\">HPE</a> in the Python HTTP community. He's a <a "
 "href=\"http://docs.python-requests.org/en/latest/\" target=\"_blank\" "
@@ -340,10 +340,10 @@ msgstr ""
 
 #: templates/speakers.html:50
 msgid ""
-"Bol organizátor Django víkendu v Cardiffe a aj člen organizačnej komisie "
-"DjangoCon Europe 2014 a jej predseda v roku 2015. Tiež bol jedným z "
-"hlavných organizátorov Python Namibia 2015, prvej Python konferencie v "
-"Namíbií. Je vývojar jadra v Django projekte a pracuje pre <a "
+"Daniel bol organizátor Django víkendu v Cardiffe a aj člen organizačnej "
+"komisie DjangoCon Europe 2014 a jej predseda v roku 2015. Tiež bol jedným"
+" z hlavných organizátorov Python Namibia 2015, prvej Python konferencie v"
+" Namíbií. Je vývojar jadra v Django projekte a pracuje pre <a "
 "href=\"http://www.divio.com/\" target=\"_blank\" "
 "title=\"Divio\">Divio</a>. V Divio pracuje na <a href=\"http://www"
 ".django-cms.org/\" target=\"_blank\" title=\"Django CMS - Ľahko "
@@ -352,7 +352,7 @@ msgid ""
 "Najjednoduchší spôsob ako postaviť a spravovať django CMS "
 "projekty\">Aldryn</a> a iných zábavných Django projektoch."
 msgstr ""
-"was the organiser of Django Weekend Cardiff, and a member of the "
+"Daniel was the organiser of Django Weekend Cardiff, and a member of the "
 "organising committee of DjangoCon Europe 2014. He’s also leading the "
 "organisation of Python Namibia 2015, the first-ever Python conference to "
 "be held in the country. He is a member of the Django Project core team, "
@@ -368,7 +368,7 @@ msgstr ""
 msgid "Webový vývojár z Francúzska žijúci v Budapešti."
 msgstr "Web developer from France based in Budapest, Hungary."
 
-#: templates/speakers.html:61
+#: templates/speakers.html:60
 msgid ""
 "Milovník všetkého, čo je Python a <a "
 "href=\"https://www.djangoproject.com/\" target=\"_blank\" title=\"Django "
@@ -378,17 +378,17 @@ msgstr ""
 " target=\"_blank\" title=\"Django makes it easier to build better Web "
 "apps more quickly and with less code.\">Django</a>."
 
-#: templates/speakers.html:62
+#: templates/speakers.html:60
 msgid "Má zlú vlastnosť premeniť všetko čo začne na konferenciu."
 msgstr "Has a bad habbit of turning everything he does into a conference."
 
-#: templates/speakers.html:63
+#: templates/speakers.html:60
 msgid "Pevne verí v globálnu emojifikáciu."
 msgstr "Firm believer in global emojification."
 
-#: templates/speakers.html:76
+#: templates/speakers.html:73
 msgid ""
-"vývojár slobodného softvéru a administrátor z Islandu. Programuje od "
+"Vývojár slobodného softvéru a administrátor z Islandu. Programuje od "
 "polovice 90-tych rokov, vrátanie šesťročného boja so spamom a vírusmi a "
 "tri roky v zákulisí v tíme zaručujúcom spoľahlivosť webu Google. Po celý "
 "čas bol a je slobodný softvér a digitálna sloboda Bjarniho veľká záľuba, "
@@ -964,7 +964,4 @@ msgstr "objectives of SPy."
 #: templates/tickets.html:56
 msgid "viac o našich cieľoch"
 msgstr "more about our vision and objectives"
-
-#~ msgid ""
-#~ msgstr ""
 

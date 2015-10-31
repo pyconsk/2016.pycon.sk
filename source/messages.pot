@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-31 21:26+0100\n"
+"POT-Creation-Date: 2015-10-31 21:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -232,7 +232,7 @@ msgid "Priatelia:"
 msgstr ""
 
 #: templates/speakers.html:6
-msgid "Rečníci, ktorí vystúpia na PyCon SK 2016"
+msgid "Rečníci, ktorí vystúpia na PyCon SK 2016."
 msgstr ""
 
 #: templates/speakers.html:14
@@ -253,7 +253,7 @@ msgstr ""
 
 #: templates/speakers.html:38
 msgid ""
-"Je open source Python vývojár pracujúci na plný úväzok pre <a "
+"Cory je open source Python vývojár pracujúci na plný úväzok pre <a "
 "href=\"https://www.hpe.com/\" target=\"_blank\" title=\"Hewlett Packard "
 "Enterprise\">HPE</a> v Python HTTP komunite. Prispievateľ do jadra "
 "knižníc <a href=\"http://docs.python-requests.org/en/latest/\" "
@@ -269,10 +269,10 @@ msgstr ""
 
 #: templates/speakers.html:50
 msgid ""
-"Bol organizátor Django víkendu v Cardiffe a aj člen organizačnej komisie "
-"DjangoCon Europe 2014 a jej predseda v roku 2015. Tiež bol jedným z "
-"hlavných organizátorov Python Namibia 2015, prvej Python konferencie v "
-"Namíbií. Je vývojar jadra v Django projekte a pracuje pre <a "
+"Daniel bol organizátor Django víkendu v Cardiffe a aj člen organizačnej "
+"komisie DjangoCon Europe 2014 a jej predseda v roku 2015. Tiež bol jedným"
+" z hlavných organizátorov Python Namibia 2015, prvej Python konferencie v"
+" Namíbií. Je vývojar jadra v Django projekte a pracuje pre <a "
 "href=\"http://www.divio.com/\" target=\"_blank\" "
 "title=\"Divio\">Divio</a>. V Divio pracuje na <a href=\"http://www"
 ".django-cms.org/\" target=\"_blank\" title=\"Django CMS - Ľahko "
@@ -286,24 +286,24 @@ msgstr ""
 msgid "Webový vývojár z Francúzska žijúci v Budapešti."
 msgstr ""
 
-#: templates/speakers.html:61
+#: templates/speakers.html:60
 msgid ""
 "Milovník všetkého, čo je Python a <a "
 "href=\"https://www.djangoproject.com/\" target=\"_blank\" title=\"Django "
 "umožní vytvárať Webové aplikácie rýchlejšie s menej kódom.\">Django</a>."
 msgstr ""
 
-#: templates/speakers.html:62
+#: templates/speakers.html:60
 msgid "Má zlú vlastnosť premeniť všetko čo začne na konferenciu."
 msgstr ""
 
-#: templates/speakers.html:63
+#: templates/speakers.html:60
 msgid "Pevne verí v globálnu emojifikáciu."
 msgstr ""
 
-#: templates/speakers.html:76
+#: templates/speakers.html:73
 msgid ""
-"vývojár slobodného softvéru a administrátor z Islandu. Programuje od "
+"Vývojár slobodného softvéru a administrátor z Islandu. Programuje od "
 "polovice 90-tych rokov, vrátanie šesťročného boja so spamom a vírusmi a "
 "tri roky v zákulisí v tíme zaručujúcom spoľahlivosť webu Google. Po celý "
 "čas bol a je slobodný softvér a digitálna sloboda Bjarniho veľká záľuba, "
