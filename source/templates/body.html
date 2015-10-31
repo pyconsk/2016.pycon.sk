@@ -73,8 +73,8 @@
           </li>
         </ul>
         <ul class="nav navbar-nav pull-right lang-nav">
-          {% if lang_code != 'en' %}<li><a href="{{ request.path|replace('/'+lang_code, '/en') }}" title="Switch to english language"><img src="{{ url_for('static', filename='images/lang/uk.png') }}" alt="english language"></a></li>{% endif %}
-          {% if lang_code != 'sk' %}<li><a href="{{ request.path|replace('/'+lang_code, '/sk') }}" title="Prepnúť na slovenský jazyk"><img src="{{ url_for('static', filename='images/lang/sk.png') }}" alt="slovenský jazyk"></a></li>{% endif %}
+          {% if lang_code != 'en' %}<li><a href="{{ request.path|replace('/'+lang_code, '/en', 1) }}" title="Switch to english language"><img src="{{ url_for('static', filename='images/lang/uk.png') }}" alt="english language"></a></li>{% endif %}
+          {% if lang_code != 'sk' %}<li><a href="{{ request.path|replace('/'+lang_code, '/sk', 1) }}" title="Prepnúť na slovenský jazyk"><img src="{{ url_for('static', filename='images/lang/sk.png') }}" alt="slovenský jazyk"></a></li>{% endif %}
         </ul>
       </div>
     </div>
