@@ -134,7 +134,7 @@ def index():
 
 @app.route('/<lang_code>/speakers.html')
 def speakers():
-    return render_template('speakers.html', **_get_template_variables())
+    return render_template('speakers.html', **_get_template_variables(li_speaking='active'))
 
 
 @app.route('/<lang_code>/speaking.html')

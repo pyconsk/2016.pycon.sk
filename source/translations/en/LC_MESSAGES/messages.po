@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-26 08:14+0100\n"
+"POT-Creation-Date: 2015-10-31 18:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -31,39 +31,47 @@ msgstr ""
 "Do not miss the very first PyCon SK - 11-13.03.2016 in Bratislava. Buy "
 "your early bird ticket now!"
 
-#: templates/body.html:39
+#: templates/body.html:40
 msgid "Preskočiť na hlavný obsah"
 msgstr "Back to home page"
 
-#: templates/body.html:56 templates/index.html:29 templates/tickets.html:11
+#: templates/body.html:57 templates/index.html:29 templates/tickets.html:11
 msgid "Vstupenky"
 msgstr "Tickets"
 
-#: templates/body.html:59
+#: templates/body.html:60 templates/speaking.html:34
+msgid "Prednášky"
+msgstr "Talks"
+
+#: templates/body.html:62 templates/speakers.html:5
+msgid "Rečníci"
+msgstr "Speakers"
+
+#: templates/body.html:63
 msgid "Prednášanie"
 msgstr "Speaking"
 
-#: templates/body.html:62
+#: templates/body.html:67
 msgid "Sponzorovanie"
 msgstr "Sponsorship"
 
-#: templates/body.html:65 templates/code-of-conduct.html:5
+#: templates/body.html:70 templates/code-of-conduct.html:5
 msgid "Kódex správania"
 msgstr "Code of Conduct"
 
-#: templates/body.html:68
+#: templates/body.html:73
 msgid "Meetup"
 msgstr ""
 
-#: templates/body.html:71
+#: templates/body.html:76
 msgid "Občianske združenie"
 msgstr "Civic association"
 
-#: templates/body.html:91
+#: templates/body.html:96
 msgid "Preskočiť na začiatok"
 msgstr "Back to top"
 
-#: templates/body.html:97
+#: templates/body.html:102
 msgid "E-mailová konferencia"
 msgstr "Mailing list"
 
@@ -273,6 +281,97 @@ msgstr "Virtual datacenter sponsor:"
 msgid "Priatelia:"
 msgstr "Friends:"
 
+#: templates/speakers.html:6
+msgid "Rečníci, ktorý vystúpia na PyCon SK 2016"
+msgstr "Speakers, who will speak at PyCon SK 2016"
+
+#: templates/speakers.html:10
+msgid ""
+"Je hudobník, vyštudovaný učiteľ filozofie, spisovateľ a vývojár softvéru."
+" Programuje od roku 1984 kedy sa začal učiť na školskom BBC B. Online je "
+"od roku 1994 a kariériu softvérového vývojára začal v roku 2002."
+msgstr ""
+"He is a classically trained musician, philosophy graduate, teacher, "
+"writer and software developer. He have been programming since 1984 when "
+"he taught himself by using his school's BBC B. He have been online since "
+"1994 and made software development his career in 2002."
+
+#: templates/speakers.html:19
+msgid ""
+"Telekomunikačný inžinier. Milovník Pythonu od 1996, vývojar jadra od "
+"2008, konzultant od 2012. Zakladateľ užívateľských skupín v Madride a "
+"Vigu a Španielskej Python asociácie. Medzi jeho záľuby patrí Python, "
+"bezpečnosť a takmer čokoľvek zaujímavé, vrátane podcastov a geocachingu."
+msgstr ""
+"Telecommunication Engineer. Python Lover since 1996, core developer since"
+" 2008.Freelance consulting since 2012. Founder of Python Madrid and "
+"Python Vigo user groups, and Python Spain association. Interested in "
+"Python, Security and almost anything interesting, including podcasting "
+"and geocaching."
+
+#: templates/speakers.html:26
+msgid ""
+"je open source Python vývojár pracujúci na plný úväzor pre HPE v Python "
+"HTTP komunite. Prispievateľ do jadra knižníc Requests, urllib3 a hlavný "
+"správca v Hyper projekte, skupiny nástrojov na prácu s HTTP a HTTP/2. Má "
+"rád počítačové siete, filmy, televíziu a cestovanie."
+msgstr ""
+"is an open source Python developer working full-time for HPE in the "
+"Python HTTP community. He's a Requests core contributor, a urllib3 core "
+"contributor, and the lead maintainer on the Hyper project, a toolbox of "
+"projects for working with HTTP and HTTP/2. He loves computer networks, "
+"film and TV, and travel."
+
+#: templates/speakers.html:35
+msgid ""
+"bol organizátor Django víkendu v Cardiffe a aj člen organizačnej komisie "
+"DjangoCon Europe 2014 a predseda v 2015. Tiež bol jedným z hlavných "
+"organizátorov Python Namibia 2015, prvej Python konferencie v Namíbií. Je"
+" vývojar jadra v Django projekte a pracuje pre Divio. V Divio pracuje na "
+"Django CMS, Aldryn a iných zábavných Django projektoch."
+msgstr ""
+"Daniele was the organiser of Django Weekend Cardiff, and a member of the "
+"organising committee of DjangoCon Europe 2014. He’s also leading the "
+"organisation of Python Namibia 2015, the first-ever Python conference to "
+"be held in the country. He is a member of the Django Project core team, "
+"and works for Divio. At Divio he works on django CMS, Aldryn and other "
+"fun Django-based projects."
+
+#: templates/speakers.html:42
+msgid "Webový vývojár z Francúzska žijúci v Budapešti."
+msgstr "Web developer from France based in Budapest, Hungary."
+
+#: templates/speakers.html:43
+msgid "Milovník všetkého, čo je Python a Django."
+msgstr "Lover of all things Python and Django."
+
+#: templates/speakers.html:44
+msgid "Má zlú vlastnosť, premeniť všetko čo začne na konferenciu."
+msgstr "Has a bad habbit of turning everything he does into a conference."
+
+#: templates/speakers.html:45
+msgid "Pevne verí v globálnu emojifikáciu."
+msgstr "Firm believer in global emojification."
+
+#: templates/speakers.html:54
+msgid ""
+"vývojár slobodného softvéru a administrátor z Islandu. Programuje od "
+"polovice 90-tych rokov, vrátanie šesť ročného boja s spamom a vírusmi a "
+"tri roky v zákulisí v tíme zaručujúcom spoľahlivosť webu Google. Celý čas"
+" bol slobodný softvér a digitálna sloboda Bjarniho veľká záľuba, v roku "
+"2010 získal cenu Nordic Free Software za jeho zásluhy. Od roku 2009 "
+"Bjarni pracuje na plný úväzok a vývojár na sovjich projektoch PageKite a "
+"MailePile."
+msgstr ""
+"is an Icelandic Free Software developer and systems administrator. He has"
+" been writing code and slinging servers since the mid-90s, including a 6 "
+"year stint fighting spam and viruses and 3 years behind the scenes on "
+"Google's site reliability team. All this time Bjarni's passion has been "
+"Free Software and Digital Freedom; in 2010 he received the Nordic Free "
+"Software award for his dedication. Since 2009, Bjarni has worked full-"
+"time as a Free Software developer, mostly on his two projects, PageKite "
+"and Mailpile."
+
 #: templates/speaking.html:5
 msgid "Výzva na predloženie návrhov"
 msgstr "Call for proposals"
@@ -386,10 +485,6 @@ msgid ""
 msgstr ""
 "You may propose more than one, but the committee will ask you to choose "
 "only one talk if more than one of your proposals is accepted."
-
-#: templates/speaking.html:34
-msgid "Prednášky"
-msgstr "Talks"
 
 #: templates/speaking.html:36
 msgid ""
@@ -824,4 +919,19 @@ msgstr "objectives of SPy."
 #: templates/tickets.html:56
 msgid "viac o našich cieľoch"
 msgstr "more about our vision and objectives"
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "Web developer from France based in Budapest, Hungary."
+#~ msgstr ""
+
+#~ msgid "Lover of all things Python and Django."
+#~ msgstr ""
+
+#~ msgid "Has a bad habbit of turning everything he does into a conference."
+#~ msgstr ""
+
+#~ msgid "Firm believer in global emojification."
+#~ msgstr ""
 

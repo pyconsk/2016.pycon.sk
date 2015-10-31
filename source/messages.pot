@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-26 08:14+0100\n"
+"POT-Creation-Date: 2015-10-31 18:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,39 +28,47 @@ msgid ""
 "môžeš kúpiť vstupenky za zvyhodnenú cenu."
 msgstr ""
 
-#: templates/body.html:39
+#: templates/body.html:40
 msgid "Preskočiť na hlavný obsah"
 msgstr ""
 
-#: templates/body.html:56 templates/index.html:29 templates/tickets.html:11
+#: templates/body.html:57 templates/index.html:29 templates/tickets.html:11
 msgid "Vstupenky"
 msgstr ""
 
-#: templates/body.html:59
+#: templates/body.html:60 templates/speaking.html:34
+msgid "Prednášky"
+msgstr ""
+
+#: templates/body.html:62 templates/speakers.html:5
+msgid "Rečníci"
+msgstr ""
+
+#: templates/body.html:63
 msgid "Prednášanie"
 msgstr ""
 
-#: templates/body.html:62
+#: templates/body.html:67
 msgid "Sponzorovanie"
 msgstr ""
 
-#: templates/body.html:65 templates/code-of-conduct.html:5
+#: templates/body.html:70 templates/code-of-conduct.html:5
 msgid "Kódex správania"
 msgstr ""
 
-#: templates/body.html:68
+#: templates/body.html:73
 msgid "Meetup"
 msgstr ""
 
-#: templates/body.html:71
+#: templates/body.html:76
 msgid "Občianske združenie"
 msgstr ""
 
-#: templates/body.html:91
+#: templates/body.html:96
 msgid "Preskočiť na začiatok"
 msgstr ""
 
-#: templates/body.html:97
+#: templates/body.html:102
 msgid "E-mailová konferencia"
 msgstr ""
 
@@ -223,6 +231,69 @@ msgstr ""
 msgid "Priatelia:"
 msgstr ""
 
+#: templates/speakers.html:6
+msgid "Rečníci, ktorý vystúpia na PyCon SK 2016"
+msgstr ""
+
+#: templates/speakers.html:10
+msgid ""
+"Je hudobník, vyštudovaný učiteľ filozofie, spisovateľ a vývojár softvéru."
+" Programuje od roku 1984 kedy sa začal učiť na školskom BBC B. Online je "
+"od roku 1994 a kariériu softvérového vývojára začal v roku 2002."
+msgstr ""
+
+#: templates/speakers.html:19
+msgid ""
+"Telekomunikačný inžinier. Milovník Pythonu od 1996, vývojar jadra od "
+"2008, konzultant od 2012. Zakladateľ užívateľských skupín v Madride a "
+"Vigu a Španielskej Python asociácie. Medzi jeho záľuby patrí Python, "
+"bezpečnosť a takmer čokoľvek zaujímavé, vrátane podcastov a geocachingu."
+msgstr ""
+
+#: templates/speakers.html:26
+msgid ""
+"je open source Python vývojár pracujúci na plný úväzor pre HPE v Python "
+"HTTP komunite. Prispievateľ do jadra knižníc Requests, urllib3 a hlavný "
+"správca v Hyper projekte, skupiny nástrojov na prácu s HTTP a HTTP/2. Má "
+"rád počítačové siete, filmy, televíziu a cestovanie."
+msgstr ""
+
+#: templates/speakers.html:35
+msgid ""
+"bol organizátor Django víkendu v Cardiffe a aj člen organizačnej komisie "
+"DjangoCon Europe 2014 a predseda v 2015. Tiež bol jedným z hlavných "
+"organizátorov Python Namibia 2015, prvej Python konferencie v Namíbií. Je"
+" vývojar jadra v Django projekte a pracuje pre Divio. V Divio pracuje na "
+"Django CMS, Aldryn a iných zábavných Django projektoch."
+msgstr ""
+
+#: templates/speakers.html:42
+msgid "Webový vývojár z Francúzska žijúci v Budapešti."
+msgstr ""
+
+#: templates/speakers.html:43
+msgid "Milovník všetkého, čo je Python a Django."
+msgstr ""
+
+#: templates/speakers.html:44
+msgid "Má zlú vlastnosť, premeniť všetko čo začne na konferenciu."
+msgstr ""
+
+#: templates/speakers.html:45
+msgid "Pevne verí v globálnu emojifikáciu."
+msgstr ""
+
+#: templates/speakers.html:54
+msgid ""
+"vývojár slobodného softvéru a administrátor z Islandu. Programuje od "
+"polovice 90-tych rokov, vrátanie šesť ročného boja s spamom a vírusmi a "
+"tri roky v zákulisí v tíme zaručujúcom spoľahlivosť webu Google. Celý čas"
+" bol slobodný softvér a digitálna sloboda Bjarniho veľká záľuba, v roku "
+"2010 získal cenu Nordic Free Software za jeho zásluhy. Od roku 2009 "
+"Bjarni pracuje na plný úväzok a vývojár na sovjich projektoch PageKite a "
+"MailePile."
+msgstr ""
+
 #: templates/speaking.html:5
 msgid "Výzva na predloženie návrhov"
 msgstr ""
@@ -312,10 +383,6 @@ msgstr ""
 msgid ""
 "Navrhnúť môžete viac ako jednu, avšak komisia Vás vyzve, aby ste vybrali "
 "iba jednu prednášku, v prípade že bude akceptovaných viac návrhov."
-msgstr ""
-
-#: templates/speaking.html:34
-msgid "Prednášky"
 msgstr ""
 
 #: templates/speaking.html:36

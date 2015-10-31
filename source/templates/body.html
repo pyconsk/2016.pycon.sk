@@ -56,11 +56,11 @@
           <li{% if li_tickets %} class="{{ li_tickets }}"{% endif %}>
             <a href="{{ url_for('tickets', lang_code=lang_code) }}">{{ _('Vstupenky') }}</a>
           </li>
-          <li class="dropdown{% if li_speaking %} class="{{ li_speaking }}"{% endif %}">
+          <li class="dropdown{% if li_speaking %} {{ li_speaking }}{% endif %}">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ _('Prednášky') }} <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="{{ url_for('speakers', lang_code=lang_code) }}">{{ _('Rečníci') }}</a></li>
-              <li class="{{ li_speaking }}"><a href="{{ url_for('speaking', lang_code=lang_code) }}">{{ _('Prednášanie') }}</a></li>
+              <li><a href="{{ url_for('speaking', lang_code=lang_code) }}">{{ _('Prednášanie') }}</a></li>
             </ul>
           </li>
           <li{% if li_sponsoring %} class="{{ li_sponsoring }}"{% endif %}>
