@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-31 18:48+0100\n"
+"POT-Creation-Date: 2015-10-31 20:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -71,7 +71,7 @@ msgstr "Civic association"
 msgid "Preskočiť na začiatok"
 msgstr "Back to top"
 
-#: templates/body.html:102
+#: templates/body.html:103
 msgid "E-mailová konferencia"
 msgstr "Mailing list"
 
@@ -282,10 +282,11 @@ msgid "Priatelia:"
 msgstr "Friends:"
 
 #: templates/speakers.html:6
-msgid "Rečníci, ktorý vystúpia na PyCon SK 2016"
+#, fuzzy
+msgid "Rečníci, ktorí vystúpia na PyCon SK 2016"
 msgstr "Speakers, who will speak at PyCon SK 2016"
 
-#: templates/speakers.html:10
+#: templates/speakers.html:14
 msgid ""
 "Je hudobník, vyštudovaný učiteľ filozofie, spisovateľ a vývojár softvéru."
 " Programuje od roku 1984 kedy sa začal učiť na školskom BBC B. Online je "
@@ -296,7 +297,7 @@ msgstr ""
 "he taught himself by using his school's BBC B. He have been online since "
 "1994 and made software development his career in 2002."
 
-#: templates/speakers.html:19
+#: templates/speakers.html:27
 msgid ""
 "Telekomunikačný inžinier. Milovník Pythonu od 1996, vývojar jadra od "
 "2008, konzultant od 2012. Zakladateľ užívateľských skupín v Madride a "
@@ -309,68 +310,89 @@ msgstr ""
 "Python, Security and almost anything interesting, including podcasting "
 "and geocaching."
 
-#: templates/speakers.html:26
+#: templates/speakers.html:38
 msgid ""
-"je open source Python vývojár pracujúci na plný úväzor pre HPE v Python "
-"HTTP komunite. Prispievateľ do jadra knižníc Requests, urllib3 a hlavný "
-"správca v Hyper projekte, skupiny nástrojov na prácu s HTTP a HTTP/2. Má "
-"rád počítačové siete, filmy, televíziu a cestovanie."
+"je open source Python vývojár pracujúci na plný úväzor pre <a "
+"href=\"https://www.hpe.com/\" target=\"_blank\" title=\"Hewlett Packard "
+"Enterprise\">HPE</a> v Python HTTP komunite. Prispievateľ do jadra "
+"knižníc <a href=\"http://docs.python-requests.org/en/latest/\" "
+"target=\"_blank\" title=\"Requests: HTTP for Humans\">Requests</a>, <a "
+"href=\"https://urllib3.readthedocs.org/en/latest/\" "
+"target=\"_blank\">urllib3</a> a hlavný správca v <a "
+"href=\"https://hyper.readthedocs.org/en/latest/\" target=\"_blank\" "
+"title=\"Hyper: HTTP/2 Client for Python\">Hyper projekte</a>, skupiny "
+"nástrojov na prácu s HTTP a HTTP/2. Má rád počítačové siete, filmy, "
+"televíziu a cestovanie."
 msgstr ""
-"is an open source Python developer working full-time for HPE in the "
-"Python HTTP community. He's a Requests core contributor, a urllib3 core "
-"contributor, and the lead maintainer on the Hyper project, a toolbox of "
-"projects for working with HTTP and HTTP/2. He loves computer networks, "
-"film and TV, and travel."
 
-#: templates/speakers.html:35
+#: templates/speakers.html:50
 msgid ""
 "bol organizátor Django víkendu v Cardiffe a aj člen organizačnej komisie "
 "DjangoCon Europe 2014 a predseda v 2015. Tiež bol jedným z hlavných "
 "organizátorov Python Namibia 2015, prvej Python konferencie v Namíbií. Je"
-" vývojar jadra v Django projekte a pracuje pre Divio. V Divio pracuje na "
-"Django CMS, Aldryn a iných zábavných Django projektoch."
+" vývojar jadra v Django projekte a pracuje pre <a "
+"href=\"http://www.divio.com/\" target=\"_blank\" "
+"title=\"Divio\">Divio</a>. V Divio pracuje na <a href=\"http://www"
+".django-cms.org/\" target=\"_blank\" title=\"Django CMS - Easy-to-use for"
+" content editors and developer-friendly\">Django CMS</a>, <a "
+"href=\"http://www.aldryn.com/\" target=\"_blank\" title=\"Aldryn - The "
+"easiest way to build and manage your django CMS projects\">Aldryn</a> a "
+"iných zábavných Django projektoch."
 msgstr ""
-"Daniele was the organiser of Django Weekend Cardiff, and a member of the "
-"organising committee of DjangoCon Europe 2014. He’s also leading the "
-"organisation of Python Namibia 2015, the first-ever Python conference to "
-"be held in the country. He is a member of the Django Project core team, "
-"and works for Divio. At Divio he works on django CMS, Aldryn and other "
-"fun Django-based projects."
 
-#: templates/speakers.html:42
+#: templates/speakers.html:60
 msgid "Webový vývojár z Francúzska žijúci v Budapešti."
 msgstr "Web developer from France based in Budapest, Hungary."
 
-#: templates/speakers.html:43
-msgid "Milovník všetkého, čo je Python a Django."
-msgstr "Lover of all things Python and Django."
+#: templates/speakers.html:61
+msgid ""
+"Milovník všetkého, čo je Python a <a "
+"href=\"https://www.djangoproject.com/\" target=\"_blank\" title=\"Django umožní vytvárať Webové aplikácie rýchlejšie s menej kódom"
+".\">Django</a>."
+msgstr ""
+"Lover of all things Python and <a "
+"href=\"https://www.djangoproject.com/\" target=\"_blank\" title=\"Django "
+"makes it easier to build better Web apps more quickly and with less "
+"code.\">Django."
 
-#: templates/speakers.html:44
+#: templates/speakers.html:62
 msgid "Má zlú vlastnosť, premeniť všetko čo začne na konferenciu."
 msgstr "Has a bad habbit of turning everything he does into a conference."
 
-#: templates/speakers.html:45
+#: templates/speakers.html:63
 msgid "Pevne verí v globálnu emojifikáciu."
 msgstr "Firm believer in global emojification."
 
-#: templates/speakers.html:54
+#: templates/speakers.html:76
 msgid ""
 "vývojár slobodného softvéru a administrátor z Islandu. Programuje od "
 "polovice 90-tych rokov, vrátanie šesť ročného boja s spamom a vírusmi a "
 "tri roky v zákulisí v tíme zaručujúcom spoľahlivosť webu Google. Celý čas"
 " bol slobodný softvér a digitálna sloboda Bjarniho veľká záľuba, v roku "
-"2010 získal cenu Nordic Free Software za jeho zásluhy. Od roku 2009 "
-"Bjarni pracuje na plný úväzok a vývojár na sovjich projektoch PageKite a "
-"MailePile."
+"2010 získal cenu <a "
+"href=\"https://fsfe.org/news/2010/news-20101108-01.en.html\" "
+"target=\"_blank\" title=\"Developer z Islandu vyznamenaný Nordic Free "
+"Software cenou\">Nordic Free Software</a> za jeho zásluhy. Od roku 2009 "
+"Bjarni pracuje na plný úväzok a vývojár na sovjich projektoch <a "
+"href=\"https://pagekite.net/\" target=\"_blank\" title=\"PageKite vyrobí "
+"lokálnu stránku alebo SSH server verejne prístupný v "
+"momente\">PageKite</a> a <a href=\"https://www.mailpile.is/\" "
+"target=\"_blank\" title=\"MailPile je e-mailový klient\">MailePile</a>."
 msgstr ""
-"is an Icelandic Free Software developer and systems administrator. He has"
-" been writing code and slinging servers since the mid-90s, including a 6 "
-"year stint fighting spam and viruses and 3 years behind the scenes on "
-"Google's site reliability team. All this time Bjarni's passion has been "
-"Free Software and Digital Freedom; in 2010 he received the Nordic Free "
-"Software award for his dedication. Since 2009, Bjarni has worked full-"
-"time as a Free Software developer, mostly on his two projects, PageKite "
-"and Mailpile."
+"Bjarni Rúnar Einarsson is an Icelandic Free Software developer and "
+"systems administrator. He has been writing code and slinging servers "
+"since the mid-90s, including a 6 year stint fighting spam and viruses and"
+" 3 years behind the scenes on Google's site reliability team. All this "
+"time Bjarni's passion has been Free Software and Digital Freedom; in 2010"
+" he received the <a "
+"href=\"https://fsfe.org/news/2010/news-20101108-01.en.html\" "
+"target=\"_blank\" title=\"Icelandic developer receives Nordic Free "
+"Software Award\">Nordic Free Software award</a> for his dedication. Since"
+" 2009, Bjarni has worked full-time as a Free Software developer, mostly "
+"on his two projects, <a href=\"https://pagekite.net/\" target=\"_blank\" "
+"title=\"PageKite makes local websites or SSH servers publicly accessible "
+"in mere seconds\">PageKite</a>  and <a href=\"https://www.mailpile.is/\" "
+"target=\"_blank\" title=\"MailPile is an e-mail client\">Mailpile</a>."
 
 #: templates/speaking.html:5
 msgid "Výzva na predloženie návrhov"
@@ -934,4 +956,6 @@ msgstr "more about our vision and objectives"
 
 #~ msgid "Firm believer in global emojification."
 #~ msgstr ""
+
+#~ msgid "Milovník všetkého, čo je Python a Django."
 
