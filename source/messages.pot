@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-31 21:41+0100\n"
+"POT-Creation-Date: 2015-10-31 22:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -235,14 +235,16 @@ msgstr ""
 msgid "Rečníci, ktorí vystúpia na PyCon SK 2016."
 msgstr ""
 
-#: templates/speakers.html:14
+#: templates/speakers.html:15
 msgid ""
-"Hudobník, vyštudovaný učiteľ filozofie, spisovateľ a vývojár softvéru. "
-"Programuje od roku 1984 kedy sa začal učiť na školskom BBC B. Online je "
-"od roku 1994 a kariériu softvérového vývojára začal v roku 2002."
+"Nicholas je klasicky vyškolený hudobník, absolvent filozofie, učiteľ, "
+"spisovateľ a vývojár softvéru. Spolupracuje s nadáciou Python Software "
+"Foundation, ktorá mu udelila ocenenie komunity za jeho prácu v oblasti "
+"vzdelávania. Je jednoducho taký, asi ako táto biografia: stručný, čestný "
+"a plný užitočných informácií."
 msgstr ""
 
-#: templates/speakers.html:27
+#: templates/speakers.html:30
 msgid ""
 "Telekomunikačný inžinier. Milovník Pythonu od 1996, vývojar jadra od "
 "2008, konzultant od 2012. Zakladateľ Pythonových používateľských skupín v"
@@ -251,7 +253,7 @@ msgid ""
 "geocachingu."
 msgstr ""
 
-#: templates/speakers.html:38
+#: templates/speakers.html:43
 msgid ""
 "Cory je open source Python vývojár pracujúci na plný úväzok pre <a "
 "href=\"https://www.hpe.com/\" target=\"_blank\" title=\"Hewlett Packard "
@@ -267,9 +269,9 @@ msgid ""
 "televíziu a cestovanie."
 msgstr ""
 
-#: templates/speakers.html:50
+#: templates/speakers.html:57
 msgid ""
-"Daniel bol organizátor Django víkendu v Cardiffe a aj člen organizačnej "
+"Daniele bol organizátor Django víkendu v Cardiffe a aj člen organizačnej "
 "komisie DjangoCon Europe 2014 a jej predseda v roku 2015. Tiež bol jedným"
 " z hlavných organizátorov Python Namibia 2015, prvej Python konferencie v"
 " Namíbií. Je vývojar jadra v Django projekte a pracuje pre <a "
@@ -282,26 +284,26 @@ msgid ""
 "projekty\">Aldryn</a> a iných zábavných Django projektoch."
 msgstr ""
 
-#: templates/speakers.html:60
+#: templates/speakers.html:69
 msgid "Webový vývojár z Francúzska žijúci v Budapešti."
 msgstr ""
 
-#: templates/speakers.html:60
+#: templates/speakers.html:69
 msgid ""
 "Milovník všetkého, čo je Python a <a "
 "href=\"https://www.djangoproject.com/\" target=\"_blank\" title=\"Django "
 "umožní vytvárať Webové aplikácie rýchlejšie s menej kódom.\">Django</a>."
 msgstr ""
 
-#: templates/speakers.html:60
+#: templates/speakers.html:69
 msgid "Má zlú vlastnosť premeniť všetko čo začne na konferenciu."
 msgstr ""
 
-#: templates/speakers.html:60
+#: templates/speakers.html:69
 msgid "Pevne verí v globálnu emojifikáciu."
 msgstr ""
 
-#: templates/speakers.html:73
+#: templates/speakers.html:84
 msgid ""
 "Vývojár slobodného softvéru a administrátor z Islandu. Programuje od "
 "polovice 90-tych rokov, vrátanie šesťročného boja so spamom a vírusmi a "

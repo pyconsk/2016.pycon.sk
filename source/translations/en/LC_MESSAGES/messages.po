@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-31 21:41+0100\n"
+"POT-Creation-Date: 2015-10-31 22:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -283,20 +283,24 @@ msgstr "Friends:"
 
 #: templates/speakers.html:6
 msgid "Rečníci, ktorí vystúpia na PyCon SK 2016."
-msgstr "Speakers, who will speak at PyCon SK 2016."
+msgstr "Some of the speakers who will speak at PyCon SK 2016."
 
-#: templates/speakers.html:14
+#: templates/speakers.html:15
+#, fuzzy
 msgid ""
-"Hudobník, vyštudovaný učiteľ filozofie, spisovateľ a vývojár softvéru. "
-"Programuje od roku 1984 kedy sa začal učiť na školskom BBC B. Online je "
-"od roku 1994 a kariériu softvérového vývojára začal v roku 2002."
+"Nicholas je klasicky vyškolený hudobník, absolvent filozofie, učiteľ, "
+"spisovateľ a vývojár softvéru. Spolupracuje s nadáciou Python Software "
+"Foundation, ktorá mu udelila ocenenie komunity za jeho prácu v oblasti "
+"vzdelávania. Je jednoducho taký, asi ako táto biografia: stručný, čestný "
+"a plný užitočných informácií."
 msgstr ""
-"He is a classically trained musician, philosophy graduate, teacher, "
-"writer and software developer. He has been programming since 1984 when "
-"he taught himself by using his school's BBC B. He have been online since "
-"1994 and made software development his career in 2002."
+"Nicholas is a classically trained musician, philosophy graduate, teacher,"
+" writer and software developer. He's a Python Software Foundation fellow "
+"and a recipient of the PSF's community award for his work in education. "
+"He's just like this biography: concise, honest and full of useful "
+"information."
 
-#: templates/speakers.html:27
+#: templates/speakers.html:30
 msgid ""
 "Telekomunikačný inžinier. Milovník Pythonu od 1996, vývojar jadra od "
 "2008, konzultant od 2012. Zakladateľ Pythonových používateľských skupín v"
@@ -310,7 +314,7 @@ msgstr ""
 "Python, Security and almost anything interesting, including podcasting "
 "and geocaching."
 
-#: templates/speakers.html:38
+#: templates/speakers.html:43
 msgid ""
 "Cory je open source Python vývojár pracujúci na plný úväzok pre <a "
 "href=\"https://www.hpe.com/\" target=\"_blank\" title=\"Hewlett Packard "
@@ -338,9 +342,9 @@ msgstr ""
 " projects for working with HTTP and HTTP/2. He loves computer networks, "
 "film and TV, and travel."
 
-#: templates/speakers.html:50
+#: templates/speakers.html:57
 msgid ""
-"Daniel bol organizátor Django víkendu v Cardiffe a aj člen organizačnej "
+"Daniele bol organizátor Django víkendu v Cardiffe a aj člen organizačnej "
 "komisie DjangoCon Europe 2014 a jej predseda v roku 2015. Tiež bol jedným"
 " z hlavných organizátorov Python Namibia 2015, prvej Python konferencie v"
 " Namíbií. Je vývojar jadra v Django projekte a pracuje pre <a "
@@ -364,11 +368,11 @@ msgstr ""
 "easiest way to build and manage your django CMS projects\">Aldryn</a> and"
 " other fun Django-based projects."
 
-#: templates/speakers.html:60
+#: templates/speakers.html:69
 msgid "Webový vývojár z Francúzska žijúci v Budapešti."
 msgstr "Web developer from France based in Budapest, Hungary."
 
-#: templates/speakers.html:60
+#: templates/speakers.html:69
 msgid ""
 "Milovník všetkého, čo je Python a <a "
 "href=\"https://www.djangoproject.com/\" target=\"_blank\" title=\"Django "
@@ -378,15 +382,15 @@ msgstr ""
 " target=\"_blank\" title=\"Django makes it easier to build better Web "
 "apps more quickly and with less code.\">Django</a>."
 
-#: templates/speakers.html:60
+#: templates/speakers.html:69
 msgid "Má zlú vlastnosť premeniť všetko čo začne na konferenciu."
 msgstr "Has a bad habbit of turning everything he does into a conference."
 
-#: templates/speakers.html:60
+#: templates/speakers.html:69
 msgid "Pevne verí v globálnu emojifikáciu."
 msgstr "Firm believer in global emojification."
 
-#: templates/speakers.html:73
+#: templates/speakers.html:84
 msgid ""
 "Vývojár slobodného softvéru a administrátor z Islandu. Programuje od "
 "polovice 90-tych rokov, vrátanie šesťročného boja so spamom a vírusmi a "

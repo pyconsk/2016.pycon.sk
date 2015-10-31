@@ -5,72 +5,84 @@
     <h1>{{ _('Rečníci') }}</h1>
     <p class="lead">{{ _('Rečníci, ktorí vystúpia na PyCon SK 2016.') }}</p>
 
-    <div class="row" id="nicholas">
+    <div class="row">
       <div class="col-md-9 text-justify"><h3>Nicholas H. Tollervey <small>(UK)</small></h3>
         <p>
-          <a href="http://ntoll.org/" target="_blank" title="Nicholas Blog">Blog</a>,
-          <a href="https://twitter.com/ntoll" target="_blank" title="Nicholas Twitter">@ntoll</a>
+        <a href="http://ntoll.org/" target="_blank" title="Nicholas Blog">Blog</a>,
+        <a href="https://twitter.com/ntoll" target="_blank" title="Nicholas Twitter">@ntoll</a>
         </p>
-        {{ _('Hudobník, vyštudovaný učiteľ filozofie, spisovateľ a vývojár softvéru. Programuje od roku 1984 kedy sa začal učiť na školskom BBC B. Online je od roku 1994 a kariériu softvérového vývojára začal v roku 2002.') }}
+        <p>
+        {{ _('Nicholas je klasicky vyškolený hudobník, absolvent filozofie, učiteľ, spisovateľ a vývojár softvéru. Spolupracuje s nadáciou Python Software Foundation, ktorá mu udelila ocenenie komunity za jeho prácu v oblasti vzdelávania. Je jednoducho taký, asi ako táto biografia: stručný, čestný a plný užitočných informácií.') }}
+        </p>
       </div>
       <div class="col-md-3"><img src="{{ url_for('static', filename='images/avatar_nicholas.png') }}" alt="Nicholas H.Tollervey" class="img-thumbnail" /></div>
     </div>
 
     <hr />
-    <div class="row" id="jesus">
+    <div class="row">
       <div class="col-md-3"><img src="{{ url_for('static', filename='images/avatar_jesus.jpg') }}" alt="Jesús Cea Avión" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Jesús Cea Avión <small>(ES)</small></h3>
         <p>
-          <a href="https://blog.jcea.es/" target="_blank" title="Jesús Blog">Blog</a>,
-          <a href="https://twitter.com/jcea" target="_blank" title="Jesús Twitter">@jces</a>
+        <a href="https://blog.jcea.es/" target="_blank" title="Jesús Blog">Blog</a>,
+        <a href="https://twitter.com/jcea" target="_blank" title="Jesús Twitter">@jces</a>
         </p>
+        <p>
         {{ _('Telekomunikačný inžinier. Milovník Pythonu od 1996, vývojar jadra od 2008, konzultant od 2012. Zakladateľ Pythonových používateľských skupín v Madride a Vigu a Španielskej Python asociácie. Medzi jeho záľuby patrí Python, bezpečnosť a takmer čokoľvek zaujímavé, vrátane podcastov a geocachingu.') }}
+        </p>
       </div>
     </div>
 
     <hr />
-    <div class="row" id="cory">
+    <div class="row">
       <div class="col-md-9 text-justify"><h3>Cory Benfield <small>(UK)</small></h3>
         <p>
-          <a href="https://lukasa.co.uk/" target="_blank" title="Cory Bloh">Blog</a>,
-          <a href="https://twitter.com/Lukasaoz" target="_blank" title="Cory Twitter">@Lukasaoz</a>
+        <a href="https://lukasa.co.uk/" target="_blank" title="Cory Bloh">Blog</a>,
+        <a href="https://twitter.com/Lukasaoz" target="_blank" title="Cory Twitter">@Lukasaoz</a>
         </p>
+        <p>
         {{ _('Cory je open source Python vývojár pracujúci na plný úväzok pre <a href="https://www.hpe.com/" target="_blank" title="Hewlett Packard Enterprise">HPE</a> v Python HTTP komunite. Prispievateľ do jadra knižníc <a href="http://docs.python-requests.org/en/latest/" target="_blank" title="Requests: HTTP pre Ľudí">Requests</a>, <a href="https://urllib3.readthedocs.org/en/latest/" target="_blank" title="HTTP knižnica s bezpečným poolovaním vlákien, postovaním súborov a viac.">urllib3</a> a hlavný správca <a href="https://hyper.readthedocs.org/en/latest/" target="_blank" title="Hyper: HTTP/2 Klient pre Python">Hyper projektu</a> - skupiny nástrojov na prácu s HTTP a HTTP/2. Má rád počítačové siete, filmy, televíziu a cestovanie.') }}
+        </p>
       </div>
       <div class="col-md-3"><img src="{{ url_for('static', filename='images/avatar_cory.png') }}" alt="Cory Benfield" class="img-thumbnail" /></div>
     </div>
 
     <hr />
-    <div class="row" id="daniele">
+    <div class="row">
       <div class="col-md-3"><img src="{{ url_for('static', filename='images/avatar_daniele.png') }}" alt="Daniele Procida" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Daniele Procida <small>(UK)</small></h3>
         <p>
-          <a href="https://twitter.com/evildmp" target="_blank" title="Twitter">@evildmp</a>
+        <a href="https://twitter.com/evildmp" target="_blank" title="Twitter">@evildmp</a>
         </p>
-        {{ _('Daniel bol organizátor Django víkendu v Cardiffe a aj člen organizačnej komisie DjangoCon Europe 2014 a jej predseda v roku 2015. Tiež bol jedným z hlavných organizátorov Python Namibia 2015, prvej Python konferencie v Namíbií. Je vývojar jadra v Django projekte a pracuje pre <a href="http://www.divio.com/" target="_blank" title="Divio">Divio</a>. V Divio pracuje na <a href="http://www.django-cms.org/" target="_blank" title="Django CMS - Ľahko použiteľné pre editorov a aj vývojárov">Django CMS</a>, <a href="http://www.aldryn.com/" target="_blank" title="Aldryn - Najjednoduchší spôsob ako postaviť a spravovať django CMS projekty">Aldryn</a> a iných zábavných Django projektoch.') }}
+        <p>
+        {{ _('Daniele bol organizátor Django víkendu v Cardiffe a aj člen organizačnej komisie DjangoCon Europe 2014 a jej predseda v roku 2015. Tiež bol jedným z hlavných organizátorov Python Namibia 2015, prvej Python konferencie v Namíbií. Je vývojar jadra v Django projekte a pracuje pre <a href="http://www.divio.com/" target="_blank" title="Divio">Divio</a>. V Divio pracuje na <a href="http://www.django-cms.org/" target="_blank" title="Django CMS - Ľahko použiteľné pre editorov a aj vývojárov">Django CMS</a>, <a href="http://www.aldryn.com/" target="_blank" title="Aldryn - Najjednoduchší spôsob ako postaviť a spravovať django CMS projekty">Aldryn</a> a iných zábavných Django projektoch.') }}
+        </p>
       </div>
     </div>
 
     <hr />
-    <div class="row" id="baptiste">
+    <div class="row">
       <div class="col-md-9 text-justify"><h3>Baptiste Mispelon <small>(FR)</small></h3>
         <p>
-          <a href="https://twitter.com/bmispelon" target="_blank" title="Twitter">@bmispelon</a>
+        <a href="https://twitter.com/bmispelon" target="_blank" title="Twitter">@bmispelon</a>
         </p>
+        <p>
         {{ _('Webový vývojár z Francúzska žijúci v Budapešti.') }} {{ _('Milovník všetkého, čo je Python a <a href="https://www.djangoproject.com/" target="_blank" title="Django umožní vytvárať Webové aplikácie rýchlejšie s menej kódom.">Django</a>.') }} {{ _('Má zlú vlastnosť premeniť všetko čo začne na konferenciu.') }} {{ _('Pevne verí v globálnu emojifikáciu.') }}
+        </p>
       </div>
       <div class="col-md-3"><img src="{{ url_for('static', filename='images/avatar_baptiste.png') }}" alt="Baptiste Mispelon" class="img-thumbnail" /></div>
     </div>
     
     <hr />
-    <div class="row" id="bjarni">
+    <div class="row">
       <div class="col-md-3"><img src="{{ url_for('static', filename='images/avatar_bjarni.png') }}" alt="Bjarni Runar Einarsson" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Bjarni Runar Einarsson <small>(IS)</small></h3>
         <p>
-          <a href="http://bre.klaki.net/" target="_blank" title="Blog">Blog</a>,
-          <a href="https://twitter.com/HerraBRE" target="_blank" title="Twitter">@HerraBRE</a>
+        <a href="http://bre.klaki.net/" target="_blank" title="Blog">Blog</a>,
+        <a href="https://twitter.com/HerraBRE" target="_blank" title="Twitter">@HerraBRE</a>
         </p>
+        <p>
         {{ _('Vývojár slobodného softvéru a administrátor z Islandu. Programuje od polovice 90-tych rokov, vrátanie šesťročného boja so spamom a vírusmi a tri roky v zákulisí v tíme zaručujúcom spoľahlivosť webu Google. Po celý čas bol a je slobodný softvér a digitálna sloboda Bjarniho veľká záľuba, pričom v roku 2010 získal cenu <a href="https://fsfe.org/news/2010/news-20101108-01.en.html" target="_blank" title="Developer z Islandu vyznamenaný Nordic Free Software cenou">Nordic Free Software</a> za jeho zásluhy. Od roku 2009 Bjarni pracuje na plný úväzok ako vývojár na svojich projektoch <a href="https://pagekite.net/" target="_blank" title="PageKite vyrobí lokálnu stránku alebo SSH server verejne prístupný v momente">PageKite</a> a <a href="https://www.mailpile.is/" target="_blank" title="MailPile je e-mailový klient">MailePile</a>.') }}
+        </p>
       </div>
     </div>
     
