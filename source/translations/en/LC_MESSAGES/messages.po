@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-10-31 22:30+0100\n"
+"POT-Creation-Date: 2015-10-31 22:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -286,7 +286,6 @@ msgid "Rečníci, ktorí vystúpia na PyCon SK 2016."
 msgstr "Some of the speakers who will speak at PyCon SK 2016."
 
 #: templates/speakers.html:15
-#, fuzzy
 msgid ""
 "Nicholas je klasicky vyškolený hudobník, absolvent filozofie, učiteľ, "
 "spisovateľ a vývojár softvéru. Spolupracuje s nadáciou Python Software "
