@@ -118,13 +118,14 @@ def meetup():
 
 @app.route('/<lang_code>/ba-01-meetup.html')
 def ba_meetup_01():
+    lang =  get_locale()
     LDJSON_EVENT = {
       "@context": "http://schema.org",
       "@type": "Event",
       "name": u"Prvý Bratislavský Python Meetup",
       "startDate": "2015-07-07T18:00:00+01:00",
       "endDate" : "2015-07-07T22:00:00+01:00",
-      "url": "https://pycon.sk/sk/ba-01-meetup.html",
+      "url": "https://pycon.sk/"+ lang +"/ba-01-meetup.html",
       "sameAs": [
         "https://www.facebook.com/events/800093356777151/",
         "http://lanyrd.com/2015/pyba/"
@@ -175,13 +176,14 @@ def ba_meetup_01():
 
 @app.route('/<lang_code>/ba-02-meetup.html')
 def ba_meetup_02():
+    lang =  get_locale()
     LDJSON_EVENT = {
       "@context": "http://schema.org",
       "@type": "Event",
       "name": u"Druhý Bratislavský Python Meetup",
       "startDate": "2015-08-04T18:00:00+01:00",
       "endDate" : "2015-08-04T22:00:00+01:00",
-      "url": "https://pycon.sk/sk/ba-02-meetup.html",
+      "url": "https://pycon.sk/"+ lang +"/ba-02-meetup.html",
       "sameAs": [
         "https://www.facebook.com/events/405531022976000/",
         "http://lanyrd.com/2015/pyconsk/"
@@ -228,13 +230,14 @@ def ba_meetup_02():
 
 @app.route('/<lang_code>/ba-03-meetup.html')
 def ba_meetup_03():
+    lang =  get_locale()
     LDJSON_EVENT = {
       "@context": "http://schema.org",
       "@type": "Event",
       "name": u"Tretí Bratislavský Python Meetup",
       "startDate": "2015-09-08T18:00:00+01:00",
       "endDate" : "2015-09-08T22:00:00+01:00",
-      "url": "https://pycon.sk/sk/ba-03-meetup.html",
+      "url": "https://pycon.sk/"+ lang +"/ba-03-meetup.html",
       "sameAs": [
         "https://www.facebook.com/events/860134137403420/",
         "http://lanyrd.com/2015/bratislava-python-meetup-3/"
@@ -277,13 +280,14 @@ def ba_meetup_03():
 
 @app.route('/<lang_code>/ba-04-meetup.html')
 def ba_meetup_04():
+    lang =  get_locale()
     LDJSON_EVENT = {
       "@context": "http://schema.org",
       "@type": "Event",
       "name": u"Štvrtý Bratislavský Python Meetup",
       "startDate": "2015-10-06T18:00:00+01:00",
       "endDate" : "2015-10-06T22:00:00+01:00",
-      "url": "https://pycon.sk/sk/ba-04-meetup.html",
+      "url": "https://pycon.sk/"+ lang +"/ba-04-meetup.html",
       "sameAs": "https://www.facebook.com/events/1003712976319521/",
       "location": {
         "@type": "Place",
@@ -307,6 +311,8 @@ def ba_meetup_04():
         "creator": {
           "@type": "Organization",
           "name": "SPy o.z.",
+          "url": "https://pycon.sk/"+ lang +"/spy.html",
+          "logo": "https://pycon.sk/static/images/pycon_sk_logo200_notext.png",
           "sameAs": [
             "https://facebook.com/pyconsk",
             "https://twitter.com/pyconsk",
@@ -323,13 +329,14 @@ def ba_meetup_04():
 
 @app.route('/<lang_code>/ba-05-meetup.html')
 def ba_meetup_05():
+    lang =  get_locale()
     LDJSON_EVENT = {
       "@context": "http://schema.org",
       "@type": "Event",
       "name": u"Piaty Bratislavský Python Meetup",
       "startDate": "2015-11-10T18:00:00+01:00",
       "endDate" : "2015-11-10T22:00:00+01:00",
-      "url": "https://pycon.sk/sk/ba-05-meetup.html",
+      "url": "https://pycon.sk/"+ lang +"/ba-05-meetup.html",
       "sameAs": "https://www.facebook.com/events/850999828331493/",
       "location": {
         "@type": "Place",
@@ -358,6 +365,8 @@ def ba_meetup_05():
         "creator": {
           "@type": "Organization",
           "name": "SPy o.z.",
+          "url": "https://pycon.sk/"+ lang +"/spy.html",
+          "logo": "https://pycon.sk/static/images/pycon_sk_logo200_notext.png",
           "sameAs": [
             "https://facebook.com/pyconsk",
             "https://twitter.com/pyconsk",
