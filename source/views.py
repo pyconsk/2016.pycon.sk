@@ -16,6 +16,7 @@ SITEMAP = {
     'index.html': {'prio': '1', 'freq': 'weekly', 'lastmod': '2015-10-26T22:05:00+00:00'},
     'sponsoring.html': {'prio': '0.9', 'freq': 'weekly', 'lastmod': '2015-10-26T22:05:00+00:00'},
     'speaking.html': {'prio': '0.9', 'freq': 'weekly', 'lastmod': '2015-10-26T22:05:00+00:00'},
+    'speakers.html': {'prio': '0.9', 'freq': 'weekly', 'lastmod': '2015-10-31T23:45:00+00:00'},
     'tickets.html': {'prio': '1', 'freq': 'weekly', 'lastmod': '2015-10-26T22:00:05+00:00'},
     'spy.html': {'prio': '0.75', 'freq': 'monthly', 'lastmod': '2015-09-10T20:00:00+00:00'},
     'code-of-conduct.html': {'prio': '0.75', 'freq': 'monthly', 'lastmod': '2015-09-10T20:00:00+00:00'},
