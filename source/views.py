@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf8 -*-
 from flask import Flask, g, request, send_from_directory, render_template, abort, make_response
 from flask.ext.babel import Babel, gettext
 
@@ -25,6 +27,20 @@ SITEMAP = {
     'ba-05-meetup.html': {'prio': '0.5', 'freq': 'weekly', 'lastmod': '2015-10-26T20:10:00+00:00'},
     'thank-you.html': {'prio': '0.1', 'freq': 'yearly', 'lastmod': '2015-07-10T20:00:00+00:00'},
 }
+LDJSON = {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "SPy o.z. - PyCon SK",
+    "url": "https://pycon.sk",
+    "logo": "https://pycon.sk/static/images/pycon_sk_logo200_notext.png",
+    "sameAs": [
+      "https://facebook.com/pyconsk",
+      "https://twitter.com/pyconsk",
+      "https://www.linkedin.com/company/spy-o--z-",
+      "https://github.com/pyconsk",
+      "https://pyconsk.slack.com"
+    ]
+}
 
 
 @app.before_request
@@ -47,7 +63,8 @@ def get_locale():
 def _get_template_variables(**kwargs):
     variables = {
         'title': gettext('PyCon SK'),
-        'logo': LOGO_PYCON
+        'logo': LOGO_PYCON,
+        'ld_json': LDJSON
     }
     variables.update(kwargs)
 
@@ -101,7 +118,66 @@ def meetup():
 
 @app.route('/<lang_code>/ba-01-meetup.html')
 def ba_meetup_01():
-    return render_template('ba-01-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active'))
+    LDJSON_EVENT = {
+      "@context": "http://schema.org",
+      "@type": "Event",
+      "name": u"Prvý Bratislavský Python Meetup",
+      "startDate": "2015-07-07T18:00:00+01:00",
+      "endDate" : "2015-07-07T22:00:00+01:00",
+      "url": "https://pycon.sk/sk/ba-01-meetup.html",
+      "sameAs": [
+        "https://facebook.com/pyconsk",
+        "https://twitter.com/pyconsk",
+        "https://www.linkedin.com/company/spy-o--z-",
+        "https://github.com/pyconsk",
+        "https://pyconsk.slack.com"
+      ],
+      "location": {
+        "@type": "Place",
+        "sameAs": "https://progressbar.sk",
+        "name": "Progressbar",
+        "address": u"Michalská 3, Bratislava"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "EUR"
+      },
+      "performer": [{
+        "@type": "Person",
+        "name": u"Filip Kłębczyk",
+        "sameAs": "https://pl.linkedin.com/in/fklebczyk"
+        },{
+        "@type": "Person",
+        "name": u"Daniel Kontšek",
+        "sameAs": "https://sk.linkedin.com/in/danielkontsek"
+        },{
+        "@type": "Person",
+        "name": "Richard Kellner",
+        "sameAs": "https://sk.linkedin.com/in/richardkellner"
+        }
+      ],
+      "workPerformed": {
+        "@type": "CreativeWork",
+        "name": u"Prvý Bratislavský Python Meetup",
+        "sameAs": [
+          "https://www.facebook.com/events/800093356777151/",
+          "http://lanyrd.com/2015/pyba/"
+        ],
+        "creator": [{
+          "@type": "Person",
+          "name": "Richard Kellner",
+          "sameAs": "https://sk.linkedin.com/in/richardkellner"
+          },{
+          "@type": "Person",
+          "name": u"Daniel Kontšek",
+          "sameAs": "https://sk.linkedin.com/in/danielkontsek"
+          }
+        ]
+      }
+    }
+    return render_template('ba-01-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
+                                                                          ld_json=LDJSON_EVENT))
 
 
 @app.route('/<lang_code>/ba-02-meetup.html')
