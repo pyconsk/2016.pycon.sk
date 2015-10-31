@@ -53,32 +53,32 @@
       </div>
       <div class="navbar-collapse collapse" id="navbar-main">
         <ul class="nav navbar-nav">
-          <li class="{{ li_tickets }}">
+          <li{% if li_tickets %} class="{{ li_tickets }}"{% endif %}>
             <a href="{{ url_for('tickets', lang_code=lang_code) }}">{{ _('Vstupenky') }}</a>
           </li>
-          <li class="dropdown {{ li_speaking }}">
+          <li class="dropdown{% if li_speaking %} class="{{ li_speaking }}"{% endif %}">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ _('Prednášky') }} <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="{{ url_for('speakers', lang_code=lang_code) }}">{{ _('Rečníci') }}</a></li>
               <li class="{{ li_speaking }}"><a href="{{ url_for('speaking', lang_code=lang_code) }}">{{ _('Prednášanie') }}</a></li>
             </ul>
           </li>
-          <li class="{{ li_sponsoring }}">
+          <li{% if li_sponsoring %} class="{{ li_sponsoring }}"{% endif %}>
             <a href="{{ url_for('sponsoring', lang_code=lang_code) }}">{{ _('Sponzorovanie') }}</a>
           </li>
-          <li class="{{ li_coc }}">
+          <li{% if li_coc %} class="{{ li_coc }}"{% endif %}>
             <a href="{{ url_for('code_of_conduct', lang_code=lang_code) }}">{{ _('Kódex správania') }}</a>
           </li>
-          <li class="{{ li_meetup }}">
+          <li{% if li_meetup %} class="{{ li_meetup }}"{% endif %}>
             <a href="{{ url_for('meetup', lang_code=lang_code) }}">{{ _('Meetup') }}</a>
           </li>
-          <li class="{{ li_spy }}">
+          <li{% if li_spy %} class="{{ li_spy }}"{% endif %}>
             <a href="{{ url_for('spy', lang_code=lang_code) }}">{{ _('Občianske združenie') }}</a>
           </li>
         </ul>
         <ul class="nav navbar-nav pull-right lang-nav">
-          {% if lang_code != 'en' %}<li><a href="{{ request.path|replace('/'+lang_code, '/en') }}" title="Switch to english language"><img src="{{ url_for('static', filename='images/lang/uk.png') }}" alt="english language"></a></li>{% endif %}
-          {% if lang_code != 'sk' %}<li><a href="{{ request.path|replace('/'+lang_code, '/sk') }}" title="Prepnúť na slovenský jazyk"><img src="{{ url_for('static', filename='images/lang/sk.png') }}" alt="slovenský jazyk"></a></li>{% endif %}
+          {% if lang_code != 'en' %}<li><a href="{{ request.path|replace('/'+lang_code, '/en', 1) }}" title="Switch to english language"><img src="{{ url_for('static', filename='images/lang/uk.png') }}" alt="english language"></a></li>{% endif %}
+          {% if lang_code != 'sk' %}<li><a href="{{ request.path|replace('/'+lang_code, '/sk', 1) }}" title="Prepnúť na slovenský jazyk"><img src="{{ url_for('static', filename='images/lang/sk.png') }}" alt="slovenský jazyk"></a></li>{% endif %}
         </ul>
       </div>
     </div>
@@ -114,14 +114,20 @@
   <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
   <!-- GA -->
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-69278502-1', 'auto');
-    ga('send', 'pageview');
+  ga('create', 'UA-69278502-1', 'auto');
+  ga('send', 'pageview');
   </script>
   <!-- end GA -->
+
+  {% if ld_json %}
+  <script type="application/ld+json">
+  {{ ld_json|tojson|safe }}
+  </script>
+  {% endif%}
 </body>
 </html>

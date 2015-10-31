@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf8 -*-
 from flask import Flask, g, request, send_from_directory, render_template, abort, make_response
 from flask.ext.babel import Babel, gettext
 
@@ -25,6 +27,20 @@ SITEMAP = {
     'ba-05-meetup.html': {'prio': '0.5', 'freq': 'weekly', 'lastmod': '2015-10-26T20:10:00+00:00'},
     'thank-you.html': {'prio': '0.1', 'freq': 'yearly', 'lastmod': '2015-07-10T20:00:00+00:00'},
 }
+LDJSON = {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "PyCon SK",
+    "url": "https://pycon.sk",
+    "logo": "https://pycon.sk/static/images/pycon_sk_logo200_notext.png",
+    "sameAs": [
+      "https://facebook.com/pyconsk",
+      "https://twitter.com/pyconsk",
+      "https://www.linkedin.com/company/spy-o--z-",
+      "https://github.com/pyconsk",
+      "https://pyconsk.slack.com"
+    ]
+}
 
 
 @app.before_request
@@ -47,7 +63,8 @@ def get_locale():
 def _get_template_variables(**kwargs):
     variables = {
         'title': gettext('PyCon SK'),
-        'logo': LOGO_PYCON
+        'logo': LOGO_PYCON,
+        'ld_json': LDJSON
     }
     variables.update(kwargs)
 
@@ -61,7 +78,58 @@ def _get_template_variables(**kwargs):
 
 @app.route('/<lang_code>/index.html')
 def index():
-    return render_template('index.html', **_get_template_variables())
+    lang =  get_locale()
+    LDJSON_EVENT = {
+      "@context": "http://schema.org",
+      "@type": "Event",
+      "name": u"PyCon SK 2016",
+      "startDate": "2016-03-11T9:00:00+01:00",
+      "endDate" : "2016-03-13T18:00:00+01:00",
+      "url": "https://pycon.sk/"+ lang +"/",
+      "sameAs": [
+        "https://www.facebook.com/events/941546202585736/"
+      ],
+      "offers": [{
+        "@type" : "Offer",
+        "name" : "Supporter Early Bird",
+        "category" : "presale",
+        "price" : "50",
+        "priceCurrency" : "EUR",
+        "url" : "https://ti.to/pyconsk/2016"
+      },{
+        "@type" : "Offer",
+        "name" : "Standard Early Bird",
+        "category" : "presale",
+        "price" : "20",
+        "priceCurrency" : "EUR",
+        "url" : "https://ti.to/pyconsk/2016"
+      },{
+        "@type" : "Offer",
+        "name" : "Student Early Bird",
+        "category" : "presale",
+        "price" : "10",
+        "priceCurrency" : "EUR",
+        "url" : "https://ti.to/pyconsk/2016"
+      }],
+      "workPerformed": {
+        "@type": "CreativeWork",
+        "name": "PyCon SK 2016",
+        "creator": {
+          "@type": "Organization",
+          "name": "SPy o.z.",
+          "url": "https://pycon.sk/"+ lang +"/spy.html",
+          "logo": "https://pycon.sk/static/images/pycon_sk_logo200_notext.png",
+          "sameAs": [
+            "https://facebook.com/pyconsk",
+            "https://twitter.com/pyconsk",
+            "https://www.linkedin.com/company/spy-o--z-",
+            "https://github.com/pyconsk",
+            "https://pyconsk.slack.com"
+          ],
+        }
+      }
+    }
+    return render_template('index.html', **_get_template_variables(ld_json=LDJSON_EVENT))
 
 
 @app.route('/<lang_code>/speakers.html')
@@ -91,7 +159,23 @@ def code_of_conduct():
 
 @app.route('/<lang_code>/spy.html')
 def spy():
-    return render_template('spy.html', **_get_template_variables(title='SPy o. z.', li_spy='active'))
+    lang =  get_locale()
+    LDJSON = {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "SPy o.z.",
+        "url": "https://pycon.sk/"+ lang +"/spy.html",
+        "logo": "https://pycon.sk/static/images/pycon_sk_logo200_notext.png",
+        "sameAs": [
+          "https://facebook.com/pyconsk",
+          "https://twitter.com/pyconsk",
+          "https://www.linkedin.com/company/spy-o--z-",
+          "https://github.com/pyconsk",
+          "https://pyconsk.slack.com"
+        ]
+    }
+    return render_template('spy.html', **_get_template_variables(title='SPy o.z.', li_spy='active',
+                                                                          ld_json=LDJSON))
 
 
 @app.route('/<lang_code>/thank-you.html')
@@ -106,27 +190,267 @@ def meetup():
 
 @app.route('/<lang_code>/ba-01-meetup.html')
 def ba_meetup_01():
-    return render_template('ba-01-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active'))
+    lang =  get_locale()
+    LDJSON_EVENT = {
+      "@context": "http://schema.org",
+      "@type": "Event",
+      "name": u"Prvý Bratislavský Python Meetup",
+      "startDate": "2015-07-07T18:00:00+01:00",
+      "endDate" : "2015-07-07T22:00:00+01:00",
+      "url": "https://pycon.sk/"+ lang +"/ba-01-meetup.html",
+      "sameAs": [
+        "https://www.facebook.com/events/800093356777151/",
+        "http://lanyrd.com/2015/pyba/"
+      ],
+      "location": {
+        "@type": "Place",
+        "sameAs": "https://progressbar.sk",
+        "name": "Progressbar",
+        "address": u"Michalská 3, Bratislava"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "EUR"
+      },
+      "performer": [{
+        "@type": "Person",
+        "name": u"Filip Kłębczyk",
+        "sameAs": "https://pl.linkedin.com/in/fklebczyk"
+        },{
+        "@type": "Person",
+        "name": u"Daniel Kontšek",
+        "sameAs": "https://sk.linkedin.com/in/danielkontsek"
+        },{
+        "@type": "Person",
+        "name": "Richard Kellner",
+        "sameAs": "https://sk.linkedin.com/in/richardkellner"
+        }
+      ],
+      "workPerformed": {
+        "@type": "CreativeWork",
+        "name": u"Prvý Bratislavský Python Meetup",
+        "creator": [{
+          "@type": "Person",
+          "name": "Richard Kellner",
+          "sameAs": "https://sk.linkedin.com/in/richardkellner"
+          },{
+          "@type": "Person",
+          "name": u"Daniel Kontšek",
+          "sameAs": "https://sk.linkedin.com/in/danielkontsek"
+          }
+        ]
+      }
+    }
+    return render_template('ba-01-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
+                                                                          ld_json=LDJSON_EVENT))
 
 
 @app.route('/<lang_code>/ba-02-meetup.html')
 def ba_meetup_02():
-    return render_template('ba-02-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active'))
+    lang =  get_locale()
+    LDJSON_EVENT = {
+      "@context": "http://schema.org",
+      "@type": "Event",
+      "name": u"Druhý Bratislavský Python Meetup",
+      "startDate": "2015-08-04T18:00:00+01:00",
+      "endDate" : "2015-08-04T22:00:00+01:00",
+      "url": "https://pycon.sk/"+ lang +"/ba-02-meetup.html",
+      "sameAs": [
+        "https://www.facebook.com/events/405531022976000/",
+        "http://lanyrd.com/2015/pyconsk/"
+      ],
+      "location": {
+        "@type": "Place",
+        "sameAs": "https://progressbar.sk",
+        "name": "Progressbar",
+        "address": u"Michalská 3, Bratislava"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "EUR"
+      },
+      "performer": [{
+        "@type": "Person",
+        "name": u"Daniel Kontšek",
+        "sameAs": "https://sk.linkedin.com/in/danielkontsek"
+        },{
+        "@type": "Person",
+        "name": "Richard Kellner",
+        "sameAs": "https://sk.linkedin.com/in/richardkellner"
+        }
+      ],
+      "workPerformed": {
+        "@type": "CreativeWork",
+        "name": u"Druhý Bratislavský Python Meetup",
+        "creator": [{
+          "@type": "Person",
+          "name": "Richard Kellner",
+          "sameAs": "https://sk.linkedin.com/in/richardkellner"
+          },{
+          "@type": "Person",
+          "name": u"Daniel Kontšek",
+          "sameAs": "https://sk.linkedin.com/in/danielkontsek"
+          }
+        ]
+      }
+    }
+    return render_template('ba-02-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
+                                                                          ld_json=LDJSON_EVENT))
 
 
 @app.route('/<lang_code>/ba-03-meetup.html')
 def ba_meetup_03():
-    return render_template('ba-03-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active'))
+    lang =  get_locale()
+    LDJSON_EVENT = {
+      "@context": "http://schema.org",
+      "@type": "Event",
+      "name": u"Tretí Bratislavský Python Meetup",
+      "startDate": "2015-09-08T18:00:00+01:00",
+      "endDate" : "2015-09-08T22:00:00+01:00",
+      "url": "https://pycon.sk/"+ lang +"/ba-03-meetup.html",
+      "sameAs": [
+        "https://www.facebook.com/events/860134137403420/",
+        "http://lanyrd.com/2015/bratislava-python-meetup-3/"
+      ],
+      "location": {
+        "@type": "Place",
+        "sameAs": "https://progressbar.sk",
+        "name": "Progressbar",
+        "address": u"Michalská 3, Bratislava"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "EUR"
+      },
+      "performer": [{
+        "@type": "Person",
+        "name": u"Tomáš Pytlíček",
+        "sameAs": "https://plus.google.com/+Tom%C3%A1%C5%A1Pytl%C3%AD%C4%8Dek/posts"
+        }
+      ],
+      "workPerformed": {
+        "@type": "CreativeWork",
+        "name": u"Tretí Bratislavský Python Meetup",
+        "creator": [{
+          "@type": "Person",
+          "name": "Richard Kellner",
+          "sameAs": "https://sk.linkedin.com/in/richardkellner"
+          },{
+          "@type": "Person",
+          "name": u"Daniel Kontšek",
+          "sameAs": "https://sk.linkedin.com/in/danielkontsek"
+          }
+        ]
+      }
+    }
+    return render_template('ba-03-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
+                                                                          ld_json=LDJSON_EVENT))
 
 
 @app.route('/<lang_code>/ba-04-meetup.html')
 def ba_meetup_04():
-    return render_template('ba-04-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active'))
+    lang =  get_locale()
+    LDJSON_EVENT = {
+      "@context": "http://schema.org",
+      "@type": "Event",
+      "name": u"Štvrtý Bratislavský Python Meetup",
+      "startDate": "2015-10-06T18:00:00+01:00",
+      "endDate" : "2015-10-06T22:00:00+01:00",
+      "url": "https://pycon.sk/"+ lang +"/ba-04-meetup.html",
+      "sameAs": "https://www.facebook.com/events/1003712976319521/",
+      "location": {
+        "@type": "Place",
+        "sameAs": "https://progressbar.sk",
+        "name": "Progressbar",
+        "address": u"Michalská 3, Bratislava"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "EUR"
+      },
+      "performer": {
+        "@type": "Person",
+        "name": u"Adam Števko",
+        "sameAs": "https://sk.linkedin.com/in/xenol"
+      },
+      "workPerformed": {
+        "@type": "CreativeWork",
+        "name": u"Štvrtý Bratislavský Python Meetup",
+        "creator": {
+          "@type": "Organization",
+          "name": "SPy o.z.",
+          "url": "https://pycon.sk/"+ lang +"/spy.html",
+          "logo": "https://pycon.sk/static/images/pycon_sk_logo200_notext.png",
+          "sameAs": [
+            "https://facebook.com/pyconsk",
+            "https://twitter.com/pyconsk",
+            "https://www.linkedin.com/company/spy-o--z-",
+            "https://github.com/pyconsk",
+            "https://pyconsk.slack.com"
+          ],
+        }
+      }
+    }
+    return render_template('ba-04-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
+                                                                          ld_json=LDJSON_EVENT))
 
 
 @app.route('/<lang_code>/ba-05-meetup.html')
 def ba_meetup_05():
-    return render_template('ba-05-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active'))
+    lang =  get_locale()
+    LDJSON_EVENT = {
+      "@context": "http://schema.org",
+      "@type": "Event",
+      "name": u"Piaty Bratislavský Python Meetup",
+      "startDate": "2015-11-10T18:00:00+01:00",
+      "endDate" : "2015-11-10T22:00:00+01:00",
+      "url": "https://pycon.sk/"+ lang +"/ba-05-meetup.html",
+      "sameAs": "https://www.facebook.com/events/850999828331493/",
+      "location": {
+        "@type": "Place",
+        "sameAs": "https://progressbar.sk",
+        "name": "Progressbar",
+        "address": u"Michalská 3, Bratislava"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "EUR"
+      },
+      "performer": [{
+        "@type": "Person",
+        "name": u"Daniel Kontšek",
+        "sameAs": "https://sk.linkedin.com/in/danielkontsek"
+        },{
+        "@type": "Person",
+        "name": "Richard Kellner",
+        "sameAs": "https://sk.linkedin.com/in/richardkellner"
+        }
+      ],
+      "workPerformed": {
+        "@type": "CreativeWork",
+        "name": u"Piaty Bratislavský Python Meetup",
+        "creator": {
+          "@type": "Organization",
+          "name": "SPy o.z.",
+          "url": "https://pycon.sk/"+ lang +"/spy.html",
+          "logo": "https://pycon.sk/static/images/pycon_sk_logo200_notext.png",
+          "sameAs": [
+            "https://facebook.com/pyconsk",
+            "https://twitter.com/pyconsk",
+            "https://www.linkedin.com/company/spy-o--z-",
+            "https://github.com/pyconsk",
+            "https://pyconsk.slack.com"
+          ],
+        }
+      }
+    }
+    return render_template('ba-05-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
+                                                                          ld_json=LDJSON_EVENT))
 
 
 @app.route('/sitemap.xml', methods=['GET'])
