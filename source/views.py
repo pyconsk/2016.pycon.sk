@@ -457,6 +457,7 @@ def ba_meetup_05():
 @app.route('/sitemap.xml', methods=['GET'])
 def sitemap():
     """Generate sitemap.xml. Makes a list of urls and date modified."""
+    domain = 'https://pycon.sk'
     pages=[]
     # static pages
     for rule in app.url_map.iter_rules():
@@ -465,7 +466,7 @@ def sitemap():
             if len(rule.arguments)==0:
                 indx = rule.rule.replace('/', '')
                 pages.append({
-                    'loc': 'https://pycon.sk' + rule.rule,
+                    'loc': domain + rule.rule,
                     'lastmod': SITEMAP[indx]['lastmod'],
                     'freq': SITEMAP[indx]['freq'],
                     'prio': SITEMAP[indx]['prio'],
@@ -473,10 +474,20 @@ def sitemap():
 
             elif 'lang_code' in rule.arguments:
                 indx = rule.rule.replace('/<lang_code>/', '')
-
                 for lang in LANGS:
+                    alternate = []
+                    for alt_lang in LANGS:
+                        print alt_lang, lang, alt_lang != lang
+                        if alt_lang != lang:
+                            alternate.append({
+                                'lang': alt_lang,
+                                'url': domain + rule.rule.replace('<lang_code>', alt_lang)
+                                })
+                    print alternate
+
                     pages.append({
-                        'loc': 'https://pycon.sk' + rule.rule.replace('<lang_code>', lang),
+                        'loc': domain + rule.rule.replace('<lang_code>', lang),
+                        'alternate': alternate,
                         'lastmod': SITEMAP[indx]['lastmod'],
                         'freq': SITEMAP[indx]['freq'],
                         'prio': SITEMAP[indx]['prio'],
