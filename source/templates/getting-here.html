@@ -1,0 +1,62 @@
+{% extends "body.html" %}
+
+{% block header%}
+<link rel="stylesheet" type="text/css" href='https://css.tito.io/v1' />
+<script src='https://js.tito.io/v1' async></script>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+  <div class="col-md-8">
+    <h1>{{ _('Ako sa sem dostať?') }}</h1>
+    <p class="lead">{{ _('Ste skvelý. Už máte lístok na konferenciu a potrebujete zistiť ako sa sem dostať? Manuál na tejto stránke vysvetľuje možnosti ako prísť na konferenciu.') }}</p>
+
+    <h2>{{ _('Cestovanie') }}</h2>
+    <p class="text-justify"> 
+      {{ _('Bratislava patrí medzi najmladšie hlavné mestá Európy. Napriek tomu je to mesto s bohatou históriou slobodného kráľovského korunovačného mesta, v čase keď sa nazývala Prešporkom (Pozsony, Pressburg). Bratislava je významný dopravný uzol v stredoeurópskom regióne a tak máte veľa možností ako sa sem dostať.') }}
+    </p>
+
+    <h3>{{ _('Letecky') }}</h3>
+    <p class="text-justify">
+      {{ _('Letecky môžete prísť priamo do Bratislavy, avšak viac leteckých spoločností lieta do Viedne, ktorá je vzdialená iba 60 kilomertov. Medzi rakúskym letiskom Schwechat a centrom Bratislavy, premáva pravidelná a priama autobusová linka.') }}
+    </p>
+    
+    <h3>{{ _('Vlakom alebo autobusom') }}</h3>
+    <p class="text-justify">
+      {{ _('Bratislava ako hlavné mesto má veľmi dobré vlakové spojenie na veľa veľkých miest v celej Európe. Všetky susedné hlavné mestá Viedň, Praha, Budapešť, Varšava aj Kiev majú priame vlakové spojenie. Taktiež autobusová doprava z okolitých krajín je bezproblémová.') }}
+    </p>
+
+    <h3>{{ _('Autom') }}</h3>
+    <p class="text-justify">
+      {{ _('Z Viedňe smerom na letisko Schwechat po diaľnici A4, odbočťe na ďiaľnicu A6, ktorá vedie až na Slovensko do Bratislavy.') }}<br /> 
+      {{ _('Z Budapešti po diaľnici M1 smerom na Gyor, neskôr odbočte na M15 smerom na Slovensko do Bratislavy.') }}<br />
+      {{ _('Z Prahy po diaľnici D1 do Brna, tam odbočťe na D2, ktorá vedie až na Slovensko a potom do Bratislavy.') }}<br />
+      {{ _('Z Varšavy po diaľnici A1 smerom na Katowice, odťial na Slovensko do Čadce po ceste prvej triedy až do Žiliny odťiaľ po diaľnici D1 do Bratislavy.') }}
+    </p>
+
+    <h2>{{ _('Po Bratislave') }}</h2>
+    <p class="text-justify">
+      {{ _('Ako sa odsať na konferenciu. Parkovacích miest bude dosť.') }}
+    </p>
+
+    <h3>{{ _('MHD') }}</h3>
+    <p class="text-justify">
+      {{ _('Cestovné lístky. Električky, autobus.') }}
+    </p>
+
+    <h3>{{ _('Sprievodca') }}</h3>
+    <p class="text-justify">
+    {% trans lang_code=lang_code %}'Vedeli ste že, Bratislava je mesto, kde nájdete ozajstný život? Ak ste sa rozhodli ostať v Bratislave o niekoľko dní dlhšie, pozrite si <a href="http://mpba.sk/{{ lang_code }}" title="M_P_ BA: alternatívnu mapu Bratislavy">M_P_ BA</a> (alternatívnu mapu Bratislavy), kde nájdete súpis obľúbených miest obyvateľov Bratislavy s ich autentickými odporúčaniami a subjektívnymi názormi. Prípadne si môžete pozrieť <a href="http://www.visitbratislava.com/">oficialne stránky mesta, určené pre návštevníkov</a>, kde nájdete aj udalosti, ktoré sa práve odohrávajú.{% endtrans %}
+    </p>
+    
+    <h2>{{ _('Ubytovanie') }}</h2>
+    <p class="text-justify">
+      {{ _('Väčšina rečníkov, bude ubytovaných v hotely Ibis v centre Bratislavy. Pokiaľ by ste mali záujem o ubytovanie, vieme niekoľkým návštevníkom vybaviť zľavnené ubytovanie v tomto hotely. Ak by ste mali záujem pošlite nám mail na <a href="mailto:info@pycon.sk">info@pycon.sk</a> a my pre Vás skúsime vybaviť ubytovanie za lepšiu cenu.') }}
+    </p>
+  </div>
+
+  <div class="col-md-4">
+    {% include 'right_nav.html' %}
+  </div>
+</div>
+{% endblock %}

@@ -18,6 +18,7 @@ SITEMAP = {
     'speaking.html': {'prio': '0.9', 'freq': 'weekly', 'lastmod': '2015-10-26T22:05:00+00:00'},
     'speakers.html': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2015-10-31T23:45:00+00:00'},
     'tickets.html': {'prio': '1', 'freq': 'daily', 'lastmod': '2015-10-26T22:00:05+00:00'},
+    'getting-here.html': {'prio': '0.66', 'freq': 'weekly', 'lastmod': '2015-11-17T12:00:05+00:00'},
     'spy.html': {'prio': '0.75', 'freq': 'monthly', 'lastmod': '2015-09-10T20:00:00+00:00'},
     'code-of-conduct.html': {'prio': '0.75', 'freq': 'monthly', 'lastmod': '2015-09-10T20:00:00+00:00'},
     'meetup.html': {'prio': '0.66', 'freq': 'weekly', 'lastmod': '2015-10-26T22:56:48+00:00'},
@@ -152,6 +153,11 @@ def sponsoring():
 @app.route('/<lang_code>/tickets.html')
 def tickets():
     return render_template('tickets.html', **_get_template_variables(li_tickets='active'))
+
+
+@app.route('/<lang_code>/getting-here.html')
+def getting_here():
+    return render_template('getting-here.html', **_get_template_variables(li_tickets='active'))
 
 
 @app.route('/<lang_code>/code-of-conduct.html')
