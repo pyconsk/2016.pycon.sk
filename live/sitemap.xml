@@ -39,6 +39,30 @@
     </url>
     <url>
 		
+		<loc>https://pycon.sk/en/getting-here.html</loc>
+		<xhtml:link 
+                 rel="alternate"
+                 hreflang="sk"
+                 href="https://pycon.sk/sk/getting-here.html"
+                 />
+		<lastmod>2015-11-17T12:00:05+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.66</priority>
+    </url>
+    <url>
+		
+		<loc>https://pycon.sk/sk/getting-here.html</loc>
+		<xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://pycon.sk/en/getting-here.html"
+                 />
+		<lastmod>2015-11-17T12:00:05+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.66</priority>
+    </url>
+    <url>
+		
 		<loc>https://pycon.sk/en/ba-01-meetup.html</loc>
 		<xhtml:link 
                  rel="alternate"
