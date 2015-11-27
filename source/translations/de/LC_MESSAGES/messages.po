@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-11-13 18:14+0100\n"
+"POT-Creation-Date: 2015-11-28 00:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -158,6 +158,128 @@ msgid ""
 "stretnutia v akejkoľvek forme."
 msgstr ""
 
+#: templates/getting-here.html:11
+msgid "Ako sa sem dostať?"
+msgstr ""
+
+#: templates/getting-here.html:12
+msgid ""
+"Ste skvelý. Už máte lístok na konferenciu a potrebujete zistiť ako sa sem"
+" dostať? Manuál na tejto stránke vysvetľuje možnosti ako prísť na "
+"konferenciu."
+msgstr ""
+
+#: templates/getting-here.html:14
+msgid "Cestovanie"
+msgstr ""
+
+#: templates/getting-here.html:16
+msgid ""
+"Bratislava patrí medzi najmladšie hlavné mestá Európy. Napriek tomu je to"
+" mesto s bohatou históriou slobodného kráľovského korunovačného mesta, v "
+"čase keď sa nazývala Prešporkom (Pozsony, Pressburg). Bratislava je "
+"významný dopravný uzol v stredoeurópskom regióne a tak máte veľa možností"
+" ako sa sem dostať."
+msgstr ""
+
+#: templates/getting-here.html:19
+msgid "Letecky"
+msgstr ""
+
+#: templates/getting-here.html:21
+msgid ""
+"Letecky môžete prísť priamo do Bratislavy, avšak viac leteckých "
+"spoločností lieta do Viedne, ktorá je vzdialená iba 60 kilomertov. Medzi "
+"rakúskym letiskom Schwechat a centrom Bratislavy, premáva pravidelná a "
+"priama autobusová linka."
+msgstr ""
+
+#: templates/getting-here.html:24
+msgid "Vlakom alebo autobusom"
+msgstr ""
+
+#: templates/getting-here.html:26
+msgid ""
+"Bratislava ako hlavné mesto má veľmi dobré vlakové spojenie na veľa "
+"veľkých miest v celej Európe. Všetky susedné hlavné mestá Viedň, Praha, "
+"Budapešť, Varšava aj Kiev majú priame vlakové spojenie. Taktiež "
+"autobusová doprava z okolitých krajín je bezproblémová."
+msgstr ""
+
+#: templates/getting-here.html:29
+msgid "Autom"
+msgstr ""
+
+#: templates/getting-here.html:31
+msgid ""
+"Z Viedňe smerom na letisko Schwechat po diaľnici A4, odbočťe na ďiaľnicu "
+"A6, ktorá vedie až na Slovensko do Bratislavy."
+msgstr ""
+
+#: templates/getting-here.html:32
+msgid ""
+"Z Budapešti po diaľnici M1 smerom na Gyor, neskôr odbočte na M15 smerom "
+"na Slovensko do Bratislavy."
+msgstr ""
+
+#: templates/getting-here.html:33
+msgid ""
+"Z Prahy po diaľnici D1 do Brna, tam odbočťe na D2, ktorá vedie až na "
+"Slovensko a potom do Bratislavy."
+msgstr ""
+
+#: templates/getting-here.html:34
+msgid ""
+"Z Varšavy po diaľnici A1 smerom na Katowice, odťial na Slovensko do Čadce"
+" po ceste prvej triedy až do Žiliny odťiaľ po diaľnici D1 do Bratislavy."
+msgstr ""
+
+#: templates/getting-here.html:37
+msgid "Po Bratislave"
+msgstr ""
+
+#: templates/getting-here.html:39
+msgid "Ako sa odsať na konferenciu. Parkovacích miest bude dosť."
+msgstr ""
+
+#: templates/getting-here.html:42
+msgid "MHD"
+msgstr ""
+
+#: templates/getting-here.html:44
+msgid "Cestovné lístky. Električky, autobus."
+msgstr ""
+
+#: templates/getting-here.html:47
+msgid "Sprievodca"
+msgstr ""
+
+#: templates/getting-here.html:49
+#, python-format
+msgid ""
+"'Vedeli ste že, Bratislava je mesto, kde nájdete ozajstný život? Ak ste "
+"sa rozhodli ostať v Bratislave o niekoľko dní dlhšie, pozrite si <a "
+"href=\"http://mpba.sk/%(lang_code)s\" title=\"M_P_ BA: alternatívnu mapu "
+"Bratislavy\">M_P_ BA</a> (alternatívnu mapu Bratislavy), kde nájdete "
+"súpis obľúbených miest obyvateľov Bratislavy s ich autentickými "
+"odporúčaniami a subjektívnymi názormi. Prípadne si môžete pozrieť <a "
+"href=\"http://www.visitbratislava.com/\">oficialne stránky mesta, určené "
+"pre návštevníkov</a>, kde nájdete aj udalosti, ktoré sa práve odohrávajú."
+msgstr ""
+
+#: templates/getting-here.html:52
+msgid "Ubytovanie"
+msgstr ""
+
+#: templates/getting-here.html:54
+msgid ""
+"Väčšina rečníkov, bude ubytovaných v hotely Ibis v centre Bratislavy. "
+"Pokiaľ by ste mali záujem o ubytovanie, vieme niekoľkým návštevníkom "
+"vybaviť zľavnené ubytovanie v tomto hotely. Ak by ste mali záujem pošlite"
+" nám mail na <a href=\"mailto:info@pycon.sk\">info@pycon.sk</a> a my pre "
+"Vás skúsime vybaviť ubytovanie za lepšiu cenu."
+msgstr ""
+
 #: templates/index.html:14
 msgid ""
 "PyCon SK je komunitou organizovaná konferencia pre programovací jazyk "
@@ -229,11 +351,15 @@ msgstr ""
 msgid "Zlatí sponzori:"
 msgstr ""
 
-#: templates/right_nav.html:17
+#: templates/right_nav.html:15
+msgid "Strieborní sponzori:"
+msgstr ""
+
+#: templates/right_nav.html:28
 msgid "Sponzor virtuálneho datacentra:"
 msgstr ""
 
-#: templates/right_nav.html:24
+#: templates/right_nav.html:35
 msgid "Priatelia:"
 msgstr ""
 
@@ -647,7 +773,7 @@ msgid "Predaj vstupeniek bol spustený."
 msgstr ""
 
 #: templates/tickets.html:12
-msgid "Možete využiť šancu zakúpiť si lístok za zvýhodnenú cenu."
+msgid "Môžete využiť šancu zakúpiť si lístok za zvýhodnenú cenu."
 msgstr ""
 
 #: templates/tickets.html:17
@@ -692,15 +818,15 @@ msgstr ""
 
 #: templates/tickets.html:28
 msgid ""
-"Máme spustený štipendiálny program, ktorý umožní niektorým návštevníkom "
-"prísť na PyCon zadarmo. Napíšte nám prečo by sme práve Vám mali dať "
+"Spustili sme štipendijný program, ktorý umožní niektorým návštevníkom "
+"prísť na PyCon zadarmo. Napíšte nám, prečo by sme práve Vám mali dať "
 "vstupenku."
 msgstr ""
 
 #: templates/tickets.html:29
 msgid ""
 "Ak máte menej ako 18 rokov a prídete v sprievode rodiča, stačí ak si "
-"lístok zakúpi iba rodič, avšak musíte sa nám ozvať aby sme vystavili "
+"lístok zakúpi iba rodič, no musíte sa nám ozvať aby sme vystavili "
 "vstupenku aj pre dieťa."
 msgstr ""
 
@@ -750,9 +876,9 @@ msgstr ""
 
 #: templates/tickets.html:51
 msgid ""
-"Akceptujeme aj bankový prevod, prípadne Bitcoin, napíšte nám o aké lístky"
-" máte záujem a po pripísaní sumy na náš účet Vám vystavíme a pošleme "
-"emailom vstupenku, avšak bude vygenerovaná tiež cez systém Tito."
+"Akceptujeme aj bankový prevod, prípadne Bitcoin. Napíšte nám, o aké "
+"lístky máte záujem a po pripísaní sumy na náš účet Vám vystavíme a "
+"pošleme emailom vstupenku."
 msgstr ""
 
 #: templates/tickets.html:54
@@ -761,13 +887,13 @@ msgstr ""
 
 #: templates/tickets.html:56
 msgid ""
-"PyCon je kompletne organizovaný dobrovoľníkmi. Veríme, že takéto "
-"konferencie je potrebné organizovať, aby propagovali programovanie a Open"
-" Source. Všetky peniaze vyzbierané z predaja lístkov pôjdu na náklady "
-"spojené s organizáciou PyConu. Občianské združenie SPy, ako organizátor, "
-"sa zaväzuje po ukončení konferencie transparentne zverejniť všetky "
-"náklady s ňou spojené. SPy vzniklo na podporu Pythonu a programovania "
-"všeobecne, prečítajte si"
+"PyCon je kompletne organizovaný dobrovoľníkmi. Veríme, že organizovať "
+"takéto konferencie je potrebné, aby propagovali programovanie a Open "
+"Source. Všetky peniaze vyzbierané z predaja lístkov pôjdu na náklady "
+"spojené s organizáciou PyConu. Občianske združenie SPy, sa ako "
+"organizátor, zaväzuje po ukončení konferencie transparentne zverejniť "
+"všetky náklady s ňou spojené. SPy vzniklo na podporu Pythonu a "
+"programovania všeobecne, prečítajte si"
 msgstr ""
 
 #: templates/tickets.html:56
@@ -784,11 +910,6 @@ msgstr ""
 #~ msgid "Rečníci, ktorí vystúpia na PyCon SK 2016"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "Toto je naša pozvánka, aby ste "
-#~ "poslali návrh na prednášku, ak ste "
-#~ "ešte nikdy na konferencií neprednášali. "
-#~ "Rečníci <strong>vystupujúci prvý krát</strong> "
-#~ "budú uprednostňovaní."
+#~ msgid "Možete využiť šancu zakúpiť si lístok za zvýhodnenú cenu."
 #~ msgstr ""
 
