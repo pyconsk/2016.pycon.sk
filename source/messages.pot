@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-11-28 17:21+0100\n"
+"POT-Creation-Date: 2015-11-28 18:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,7 +74,7 @@ msgstr ""
 
 #: templates/code-of-conduct.html:7
 msgid ""
-"Python komunita sa skladá z členov z celého sveta s rôznorodým súborom "
+"Python komunitu tvoria ľudia z celého sveta s rôznorodým súborom "
 "zručností, osobností a skúseností. Tieto rozdiely prispievajú k tomu, že "
 "naša komunita prežíva veľké úspechy a pokračuje v raste. Keď pracujete s "
 "členmi komunity, odporúčame vám dodržiavať tieto pokyny, ktoré pomáhajú "
@@ -108,11 +108,11 @@ msgstr ""
 
 #: templates/code-of-conduct.html:15
 msgid ""
-"Členovia komunity sú ohľaduplní voči svojim rovesníkom - ostatným "
-"používateľom Pythonu. Sme pozorní pri riešení úsilia druhých, pričom máme"
-" na pamäti, že častokrát ich práca bola venovaná len pre dobro komunity. "
-"Sme všímaví v našich vyjadreniach, či už osobne alebo on-line, a sme "
-"taktní, keď príde na rozdielne názory."
+"Členovia komunity sú ohľaduplní voči ostatným používateľom Pythonu. "
+"Rešpektujeme úsilie druhých, pričom máme na pamäti, že častokrát ich "
+"práca bola venovaná len pre dobro komunity. Sme všímaví v našich "
+"vyjadreniach, či už osobne alebo on-line, a sme taktní, keď príde na "
+"rozdielne názory."
 msgstr ""
 
 #: templates/code-of-conduct.html:17
@@ -130,9 +130,9 @@ msgstr ""
 
 #: templates/code-of-conduct.html:20
 msgid ""
-"Celkovo sme dobrí k sebe navzájom. Prispievame k tejto komunite, nie "
-"pretože musíme, ale preto, že chceme. Ak si to uvedomíme, tak nám tieto "
-"pokyny prídu prirodzené."
+"Celkovo sme dobrí k sebe navzájom. Prispievame k tejto komunite nie "
+"preto, že musíme, ale preto, že chceme. Ak si to uvedomíme, tak nám tieto"
+" pokyny prídu prirodzené."
 msgstr ""
 
 #: templates/code-of-conduct.html:22
@@ -142,10 +142,10 @@ msgstr ""
 #: templates/code-of-conduct.html:23
 msgid ""
 "PyCon SK aj Python Meetup sa plne stotožňujú s kódexom správania členov "
-"Python komunity. Prinášame prostredie ktoré je otvorené pre všetkých, "
-"nezávisle na pohlaví, sexuálnej orientácií, postihnutí, fyzickom vzhľade,"
-" veľkosti, rase, vzdelaní či vierovyznaní. Všetka komunikácia by mala byť"
-" úctivá a na profesionálnej úrovni. Buďme k sebe navzájom tolerantní."
+"Python komunity. Prinášame prostredie, ktoré je otvorené pre všetkých, "
+"nezávisle na pohlaví, sexuálnej orientácii, postihnutí, fyzickom vzhľade,"
+" veľkosti, rase, vzdelaní či vierovyznaní. Každá komunikácia by mala byť "
+"úctivá a na profesionálnej úrovni. Buďme k sebe navzájom tolerantní."
 msgstr ""
 
 #: templates/code-of-conduct.html:25
@@ -370,8 +370,8 @@ msgid ""
 "Nicholas je klasicky vyškolený hudobník, absolvent filozofie, učiteľ, "
 "spisovateľ a vývojár softvéru. Spolupracuje s nadáciou Python Software "
 "Foundation, ktorá mu udelila ocenenie komunity za jeho prácu v oblasti "
-"vzdelávania. Je jednoducho taký, asi ako táto biografia: stručný, čestný "
-"a plný užitočných informácií."
+"vzdelávania. Je jednoducho taký ako táto biografia: stručný, čestný a "
+"plný užitočných informácií."
 msgstr ""
 
 #: templates/speakers.html:30
@@ -401,11 +401,11 @@ msgstr ""
 
 #: templates/speakers.html:57
 msgid ""
-"Daniele bol organizátor Django víkendu v Cardiffe a aj člen organizačnej "
-"komisie DjangoCon Europe 2014 a jej predseda v roku 2015. Tiež bol jedným"
-" z hlavných organizátorov Python Namibia 2015, prvej Python konferencie v"
-" Namíbií. Je vývojar jadra v Django projekte a pracuje pre <a "
-"href=\"http://www.divio.com/\" target=\"_blank\" "
+"Daniele bol organizátorom Django víkendu v Cardiffe a aj členom "
+"organizačnej komisie DjangoCon Europe 2014 a jej predsedom v roku 2015. "
+"Tiež bol jedným z hlavných organizátorov Python Namibia 2015, prvej "
+"Python konferencie v Namíbií. Je vývojár jadra v Django projekte a "
+"pracuje pre <a href=\"http://www.divio.com/\" target=\"_blank\" "
 "title=\"Divio\">Divio</a>. V Divio pracuje na <a href=\"http://www"
 ".django-cms.org/\" target=\"_blank\" title=\"Django CMS - Ľahko "
 "použiteľné pre editorov a aj vývojárov\">Django CMS</a>, <a "
@@ -436,9 +436,9 @@ msgstr ""
 #: templates/speakers.html:84
 msgid ""
 "Vývojár slobodného softvéru a administrátor z Islandu. Programuje od "
-"polovice 90-tych rokov, vrátanie šesťročného boja so spamom a vírusmi a "
-"tri roky v zákulisí v tíme zaručujúcom spoľahlivosť webu Google. Po celý "
-"čas bol a je slobodný softvér a digitálna sloboda Bjarniho veľká záľuba, "
+"polovice 90. rokov, vrátanie šesťročného boja so spamom a vírusmi a tri "
+"roky v zákulisí v tíme zaručujúcom spoľahlivosť webu Google. Po celý čas "
+"bol a je slobodný softvér a digitálna sloboda Bjarniho veľká záľuba, "
 "pričom v roku 2010 získal cenu <a "
 "href=\"https://fsfe.org/news/2010/news-20101108-01.en.html\" "
 "target=\"_blank\" title=\"Developer z Islandu vyznamenaný Nordic Free "
@@ -456,7 +456,7 @@ msgstr ""
 
 #: templates/speaking.html:7
 msgid ""
-"Výzva na predloženie návrhov je otvorená — PyCon SK 2016 v Bratislave, "
+"Výzva na predloženie návrhov je otvorená — PyCon SK 2016 v Bratislave "
 "prijíma návrhy na prednášky a workshopy!"
 msgstr ""
 
@@ -465,7 +465,7 @@ msgid "PyCon organizuje Python komunita pre komunitu."
 msgstr ""
 
 #: templates/speaking.html:15
-msgid "Ak idete na túto konferenciu, tak ste súčasťou tejto komunity."
+msgid "Ak idete na túto konferenciu, stávate sa súčasťou tejto komunity."
 msgstr ""
 
 #: templates/speaking.html:15
@@ -478,14 +478,14 @@ msgstr ""
 #: templates/speaking.html:15
 msgid ""
 "Nechceme počúvať iba expertov a známe osobnosti - aj noví perspektívni "
-"rečníci sú tiež zaujímaví, tak sa prosím nenechajte odradiť pocitom že "
-"nie ste expert alebo známa osobnosť."
+"rečníci sú tiež zaujímaví, preto sa, prosím, nenechajte odradiť pocitom, "
+"že nie ste expert alebo známa osobnosť."
 msgstr ""
 
 #: templates/speaking.html:15
 msgid ""
-"Toto je naša pozvánka, aby ste poslali návrh na prednášku, ak ste ešte "
-"nikdy na konferencií neprednášali. Rečníci <strong>vystupujúci "
+"Toto je naša pozvánka, aby ste poslali návrh na prednášku, aj ak ste ešte"
+" nikdy na konferencií neprednášali. Rečníci <strong>vystupujúci "
 "prvýkrát</strong> budú uprednostňovaní."
 msgstr ""
 
@@ -513,8 +513,8 @@ msgstr ""
 
 #: templates/speaking.html:24
 msgid ""
-"Vzhľadom na výberové konania, odporúčame budúcim rečníkom, aby predložili"
-" svoje návrhy čo najskôr."
+"Vzhľadom na výberové konania odporúčame budúcim rečníkom, aby predložili "
+"svoje návrhy čo najskôr."
 msgstr ""
 
 #: templates/speaking.html:27
@@ -529,16 +529,16 @@ msgstr ""
 
 #: templates/speaking.html:29
 msgid ""
-"Prednášky o Pythone, alebo komunite s vysokou pravdepodobnosťou budú "
-"zaujímavé pre publikum. Hlavný bod, ktorý bude komisia pri výbere "
-"prednášok zvažovať je ako Vaša prednáška zaujme publikum. Je stanovený "
-"limit na jednu prednášku pre rečníka."
+"Prednášky o Pythone alebo komunite budú s vysokou pravdepodobnosťou "
+"zaujímavé pre publikum. Hlavný kritériom, ktoré bude komisia pri výbere "
+"prednášok zvažovať, je to, ako Vaša prednáška zaujme publikum. Je "
+"stanovený limit na jednu prednášku pre rečníka."
 msgstr ""
 
 #: templates/speaking.html:29
 msgid ""
-"Navrhnúť môžete viac ako jednu, avšak komisia Vás vyzve, aby ste vybrali "
-"iba jednu prednášku, v prípade že bude akceptovaných viac návrhov."
+"Navrhnúť môžete viac ako jednu, komisia Vás však vyzve, aby ste vybrali "
+"iba jednu prednášku (v prípade že bude akceptovaných viac návrhov)."
 msgstr ""
 
 #: templates/speaking.html:36
@@ -565,7 +565,7 @@ msgstr ""
 
 #: templates/speaking.html:44
 msgid ""
-"Vzhľadom na to, že návody trvajú dlhšie a budú v menších miestnostiach "
+"Vzhľadom na to, že návody trvajú dlhšie a budú v menších miestnostiach, "
 "vyžadujú oveľa viac prípravy."
 msgstr ""
 
@@ -574,13 +574,13 @@ msgid "Prečo sa stať sponzorom?"
 msgstr ""
 
 #: templates/sponsoring.html:7
-msgid "Potrebujeme vás — PyCon SK 2016 v Bratislave, hľadá sponzorov a partnerov!"
+msgid "Potrebujeme vás — PyCon SK 2016 v Bratislave hľadá sponzorov a partnerov!"
 msgstr ""
 
 #: templates/sponsoring.html:15
 msgid ""
 "PyCon je každoročné stretnutie komunity ľudí, ktorí používajú alebo "
-"vyvíjajú open-source programovací jazyk Python."
+"vyvíjajú open source programovací jazyk Python."
 msgstr ""
 
 #: templates/sponsoring.html:15
@@ -615,7 +615,7 @@ msgstr ""
 #: templates/sponsoring.html:35
 msgid ""
 "Hľadáte nových používateľov pre váš produkt? Takých ľudí nájdete na "
-"PyCone - oni tiež budú hľadať nové produkty a nápady."
+"PyCone - aj oni budú hľadať nové produkty a nápady."
 msgstr ""
 
 #: templates/sponsoring.html:41
@@ -678,8 +678,8 @@ msgid ""
 "znevýhodnených sociálnych skupín. Venujeme sa praktickému využitiu "
 "softvérového vývoja. Chceme spolupracovať na rôznych open source "
 "projektoch, vytvárať otvorený vzdelávací obsah použiteľný pri školskej "
-"výuke či samoštúdiu, a zasadzovať sa o používanie otvorených technológii "
-"v spoločnosti a verejnom sektore."
+"výuke či samoštúdiu a zasadzovať sa o používanie otvorených technológii v"
+" spoločnosti a verejnom sektore."
 msgstr ""
 
 #: templates/spy.html:8
