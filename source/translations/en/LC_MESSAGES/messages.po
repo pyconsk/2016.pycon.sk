@@ -330,7 +330,7 @@ msgid ""
 "2016 v Bratislave</strong>."
 msgstr ""
 "<strong>The inaugural PyCon SK </strong> will be held <strong> in "
-"Bratislava on 11th - 13th March 2016</strong>."
+"Bratislava on 11th - 13th March, 2016</strong>."
 
 #: templates/index.html:22
 msgid ""
@@ -339,13 +339,12 @@ msgid ""
 "úplných začiatočníkov."
 msgstr ""
 "We are happy to announce that apart from two days of interesting talks, "
-"we will organize workshops that will be suitable for absolute beginners."
+"we will be organizing workshops that will be suitable for absolute beginners."
 
 #: templates/index.html:30
 msgid "sú už v predaji, môžete si ich zakúpiť za zvýhodnenú cenu."
 msgstr ""
-"We have launched the ticket presale, you can buy early bird tickets for a"
-" special price."
+"We have launched the ticket presale, you can buy specially priced early bird tickets."
 
 #: templates/index.html:34
 msgid ""
@@ -353,9 +352,8 @@ msgid ""
 "pomôcť s organizáciou PyConu (ktorý je kompletne organizovaný "
 "dobrovoľníkmi), budeme radi ak sa nám ozvete."
 msgstr ""
-"If you want support us, become a volunteer, or help with organizing of "
-"PyCon SK (which is run entirely by volunteers) in any other way, we will "
-"be happy if you let us know."
+"If you wish to support us, become a volunteer, or help with organizing of "
+"PyCon SK (which is run entirely by volunteers) we'd be happy to talk with you and discuss your ideas."
 
 #: templates/index.html:35
 #, python-format
