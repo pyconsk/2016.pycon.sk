@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-11-28 18:25+0100\n"
+"POT-Creation-Date: 2015-12-08 13:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -358,6 +358,10 @@ msgid "Sponzor virtuálneho datacentra:"
 msgstr ""
 
 #: templates/right_nav.html:35
+msgid "Partner konferencie:"
+msgstr ""
+
+#: templates/right_nav.html:42
 msgid "Priatelia:"
 msgstr ""
 
@@ -779,111 +783,123 @@ msgid "Kúpou lístka vyjadrujete súhlas s dodržiavaním kódexu správania."
 msgstr ""
 
 #: templates/tickets.html:19
+msgid "Kde sa uskutoční konferencia?"
+msgstr ""
+
+#: templates/tickets.html:26
+msgid "Ako sa dostať na FIIT STU"
+msgstr ""
+
+#: templates/tickets.html:26
+msgid "Ako sa tam dostať"
+msgstr ""
+
+#: templates/tickets.html:29
 msgid "Aký lístok si mám kúpiť?"
 msgstr ""
 
-#: templates/tickets.html:21
+#: templates/tickets.html:31
 msgid "Supporter"
 msgstr ""
 
-#: templates/tickets.html:21
+#: templates/tickets.html:31
 msgid ""
 "Lístok je určený pre účastníkov, ktorí chcú aby ich meno (firma) bolo "
 "zverejnené v zozname podporovateľov na našom webe."
 msgstr ""
 
-#: templates/tickets.html:22
+#: templates/tickets.html:32
 msgid "Standard"
 msgstr ""
 
-#: templates/tickets.html:22
+#: templates/tickets.html:32
 msgid "Lístok je určený pre všetkých účastníkov konferencie."
 msgstr ""
 
-#: templates/tickets.html:23
+#: templates/tickets.html:33
 msgid "Student"
 msgstr ""
 
-#: templates/tickets.html:23
+#: templates/tickets.html:33
 msgid ""
 "Lístok je určený pre študentov. Nezabudnite si so sebou na registráciu "
 "priniesť platný študentský preukaz (ISIC)."
 msgstr ""
 
-#: templates/tickets.html:26
+#: templates/tickets.html:36
 msgid "Je aj iná možnosť ako sa dostať na PyCon?"
 msgstr ""
 
-#: templates/tickets.html:28
+#: templates/tickets.html:38
 msgid ""
 "Spustili sme štipendijný program, ktorý umožní niektorým návštevníkom "
 "prísť na PyCon zadarmo. Napíšte nám, prečo by sme práve Vám mali dať "
 "vstupenku."
 msgstr ""
 
-#: templates/tickets.html:29
+#: templates/tickets.html:39
 msgid ""
 "Ak máte menej ako 18 rokov a prídete v sprievode rodiča, stačí ak si "
 "lístok zakúpi iba rodič, no musíte sa nám ozvať aby sme vystavili "
 "vstupenku aj pre dieťa."
 msgstr ""
 
-#: templates/tickets.html:30
+#: templates/tickets.html:40
 msgid ""
 "Pre sociálne znevýhodnených účastníkov máme pripravený grantový program. "
 "Napíšte nám ak máte záujem sa ho zúčastniť."
 msgstr ""
 
-#: templates/tickets.html:33
+#: templates/tickets.html:43
 msgid "Čo všetko mám v lístku?"
 msgstr ""
 
-#: templates/tickets.html:36
+#: templates/tickets.html:46
 msgid "Dva dni prednášok."
 msgstr ""
 
-#: templates/tickets.html:37
+#: templates/tickets.html:47
 msgid "Obed počas oboch dní konferencie."
 msgstr ""
 
-#: templates/tickets.html:38
+#: templates/tickets.html:48
 msgid "Kávu a koláčik počas prestávok."
 msgstr ""
 
-#: templates/tickets.html:39
+#: templates/tickets.html:49
 msgid "Tričko a tašku plnú prekvapení."
 msgstr ""
 
-#: templates/tickets.html:40
+#: templates/tickets.html:50
 msgid "Pozvánka na piatkovú neformálnu party."
 msgstr ""
 
-#: templates/tickets.html:44
+#: templates/tickets.html:54
 msgid "Ponúkate množstevné zľavy?"
 msgstr ""
 
-#: templates/tickets.html:46
+#: templates/tickets.html:56
 msgid ""
 "Ak máte záujem kúpiť viac ako 10 lístkov kontaktujete nás emailom na "
 "info@pycon.sk."
 msgstr ""
 
-#: templates/tickets.html:49
+#: templates/tickets.html:59
 msgid "Nemám PayPal, je možné kúpiť vstupenku inak ako cez Tito?"
 msgstr ""
 
-#: templates/tickets.html:51
+#: templates/tickets.html:61
 msgid ""
 "Akceptujeme aj bankový prevod, prípadne Bitcoin. Napíšte nám, o aké "
 "lístky máte záujem a po pripísaní sumy na náš účet Vám vystavíme a "
 "pošleme emailom vstupenku."
 msgstr ""
 
-#: templates/tickets.html:54
+#: templates/tickets.html:64
 msgid "Kam idú všetky peniaze za lístky?"
 msgstr ""
 
-#: templates/tickets.html:56
+#: templates/tickets.html:66
 msgid ""
 "PyCon je kompletne organizovaný dobrovoľníkmi. Veríme, že organizovať "
 "takéto konferencie je potrebné, aby propagovali programovanie a Open "
@@ -894,11 +910,11 @@ msgid ""
 "programovania všeobecne, prečítajte si"
 msgstr ""
 
-#: templates/tickets.html:56
+#: templates/tickets.html:66
 msgid "ciele SPy o.z."
 msgstr ""
 
-#: templates/tickets.html:56
+#: templates/tickets.html:66
 msgid "viac o našich cieľoch"
 msgstr ""
 

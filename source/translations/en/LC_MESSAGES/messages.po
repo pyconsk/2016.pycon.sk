@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-11-28 18:25+0100\n"
+"POT-Creation-Date: 2015-12-08 13:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -84,12 +84,13 @@ msgid ""
 "riadiť váš styk s ostatnými a snažiť sa udržať Python komunitu pozitívnu,"
 " úspešnú a rastúcu."
 msgstr ""
-"The Python community is made up of members from around the globe with"
-" a diverse set of skills, personalities, and experiences. It is "
-"through these differences that our community experiences great successes and "
+"The Python community is made up of members from around the globe with a "
+"diverse set of skills, personalities, and experiences. It is through "
+"these differences that our community experiences great successes and "
 "continued growth. When you're working with members of the community, we "
-"encourage you to follow these guidelines which help steer our interactions "
-"and strive to keep Python a positive, successful, and growing community."
+"encourage you to follow these guidelines which help steer our "
+"interactions and strive to keep Python a positive, successful, and "
+"growing community."
 
 #: templates/code-of-conduct.html:9
 msgid "Člen Python komunity je:"
@@ -130,10 +131,10 @@ msgid ""
 "rozdielne názory."
 msgstr ""
 "Members of the community are considerate of their peers -- other Python "
-"users. We're thoughtful when addressing the efforts of others, keeping in "
-"mind that often times the labor was completed simply for the good "
-"of the community. We're attentive in our communications, whether in person or"
-" online, and we're tactful when approaching differing views."
+"users. We're thoughtful when addressing the efforts of others, keeping in"
+" mind that often times the labor was completed simply for the good of the"
+" community. We're attentive in our communications, whether in person or "
+"online, and we're tactful when approaching differing views."
 
 #: templates/code-of-conduct.html:17
 msgid "Úctivý"
@@ -339,12 +340,14 @@ msgid ""
 "úplných začiatočníkov."
 msgstr ""
 "We are happy to announce that apart from two days of interesting talks, "
-"we will be organizing workshops that will be suitable for absolute beginners."
+"we will be organizing workshops that will be suitable for absolute "
+"beginners."
 
 #: templates/index.html:30
 msgid "sú už v predaji, môžete si ich zakúpiť za zvýhodnenú cenu."
 msgstr ""
-"We have launched the ticket presale, you can buy specially priced early bird tickets."
+"We have launched the ticket presale, you can buy specially priced early "
+"bird tickets."
 
 #: templates/index.html:34
 msgid ""
@@ -352,8 +355,9 @@ msgid ""
 "pomôcť s organizáciou PyConu (ktorý je kompletne organizovaný "
 "dobrovoľníkmi), budeme radi ak sa nám ozvete."
 msgstr ""
-"If you wish to support us, become a volunteer, or help with organizing of "
-"PyCon SK (which is run entirely by volunteers) we'd be happy to talk with you and discuss your ideas."
+"If you wish to support us, become a volunteer, or help with organizing of"
+" PyCon SK (which is run entirely by volunteers) we'd be happy to talk "
+"with you and discuss your ideas."
 
 #: templates/index.html:35
 #, python-format
@@ -405,6 +409,10 @@ msgid "Sponzor virtuálneho datacentra:"
 msgstr "Virtual datacenter sponsor:"
 
 #: templates/right_nav.html:35
+msgid "Partner konferencie:"
+msgstr ""
+
+#: templates/right_nav.html:42
 msgid "Priatelia:"
 msgstr "Friends:"
 
@@ -646,10 +654,10 @@ msgid ""
 "prednášok zvažovať, je to, ako Vaša prednáška zaujme publikum. Je "
 "stanovený limit na jednu prednášku pre rečníka."
 msgstr ""
-"Talks about Python or the Python community are most likely to line "
-"up with the interests of PyCon's audience, and a key consideration that"
-" the talk selection committee will be thinking about is your talk's "
-"ability to draw an audience."
+"Talks about Python or the Python community are most likely to line up "
+"with the interests of PyCon's audience, and a key consideration that the "
+"talk selection committee will be thinking about is your talk's ability to"
+" draw an audience."
 
 #: templates/speaking.html:29
 msgid ""
@@ -945,14 +953,26 @@ msgid "Kúpou lístka vyjadrujete súhlas s dodržiavaním kódexu správania."
 msgstr "By purchasing a ticket you agree to abide by the Code of Conduct."
 
 #: templates/tickets.html:19
+msgid "Kde sa uskutoční konferencia?"
+msgstr "Where will conference happen?"
+
+#: templates/tickets.html:26
+msgid "Ako sa dostať na FIIT STU"
+msgstr "How to get to FIIT STU"
+
+#: templates/tickets.html:26
+msgid "Ako sa tam dostať"
+msgstr "How to get there"
+
+#: templates/tickets.html:29
 msgid "Aký lístok si mám kúpiť?"
 msgstr "Which ticket should I buy?"
 
-#: templates/tickets.html:21
+#: templates/tickets.html:31
 msgid "Supporter"
 msgstr ""
 
-#: templates/tickets.html:21
+#: templates/tickets.html:31
 msgid ""
 "Lístok je určený pre účastníkov, ktorí chcú aby ich meno (firma) bolo "
 "zverejnené v zozname podporovateľov na našom webe."
@@ -960,19 +980,19 @@ msgstr ""
 "This ticket is designed for participants who want to make their name "
 "(company) be visible in the list of supporters on our website."
 
-#: templates/tickets.html:22
+#: templates/tickets.html:32
 msgid "Standard"
 msgstr ""
 
-#: templates/tickets.html:22
+#: templates/tickets.html:32
 msgid "Lístok je určený pre všetkých účastníkov konferencie."
 msgstr "This ticket is designed for all conference participants."
 
-#: templates/tickets.html:23
+#: templates/tickets.html:33
 msgid "Student"
 msgstr ""
 
-#: templates/tickets.html:23
+#: templates/tickets.html:33
 msgid ""
 "Lístok je určený pre študentov. Nezabudnite si so sebou na registráciu "
 "priniesť platný študentský preukaz (ISIC)."
@@ -980,11 +1000,11 @@ msgstr ""
 "This ticket is designed for students. Don't forget to bring your valid "
 "student ID (ISIC) to the registration."
 
-#: templates/tickets.html:26
+#: templates/tickets.html:36
 msgid "Je aj iná možnosť ako sa dostať na PyCon?"
 msgstr "Is there any another possibility to get to PyCon?"
 
-#: templates/tickets.html:28
+#: templates/tickets.html:38
 msgid ""
 "Spustili sme štipendijný program, ktorý umožní niektorým návštevníkom "
 "prísť na PyCon zadarmo. Napíšte nám, prečo by sme práve Vám mali dať "
@@ -993,7 +1013,7 @@ msgstr ""
 "We have a financial aid program allowing some visitors to come to PyCon "
 "for free. Tell us why we should give you the ticket."
 
-#: templates/tickets.html:29
+#: templates/tickets.html:39
 msgid ""
 "Ak máte menej ako 18 rokov a prídete v sprievode rodiča, stačí ak si "
 "lístok zakúpi iba rodič, no musíte sa nám ozvať aby sme vystavili "
@@ -1003,7 +1023,7 @@ msgstr ""
 "can just purchase one ticket only for the parent, but you have to inform "
 "us in advance to issue an another ticket for the child."
 
-#: templates/tickets.html:30
+#: templates/tickets.html:40
 msgid ""
 "Pre sociálne znevýhodnených účastníkov máme pripravený grantový program. "
 "Napíšte nám ak máte záujem sa ho zúčastniť."
@@ -1012,35 +1032,35 @@ msgstr ""
 "individuals that would otherwise not be able to attend the conference. "
 "Don't hesitate to contact us if you want to apply for it."
 
-#: templates/tickets.html:33
+#: templates/tickets.html:43
 msgid "Čo všetko mám v lístku?"
 msgstr "What is included in the ticket price?"
 
-#: templates/tickets.html:36
+#: templates/tickets.html:46
 msgid "Dva dni prednášok."
 msgstr "two days of awesome talks"
 
-#: templates/tickets.html:37
+#: templates/tickets.html:47
 msgid "Obed počas oboch dní konferencie."
 msgstr "delicious lunch on both days"
 
-#: templates/tickets.html:38
+#: templates/tickets.html:48
 msgid "Kávu a koláčik počas prestávok."
 msgstr "coffee and cake during breaks"
 
-#: templates/tickets.html:39
+#: templates/tickets.html:49
 msgid "Tričko a tašku plnú prekvapení."
 msgstr "t-shirt and a bag full of surprises"
 
-#: templates/tickets.html:40
+#: templates/tickets.html:50
 msgid "Pozvánka na piatkovú neformálnu party."
 msgstr "invitation for Friday's informal party"
 
-#: templates/tickets.html:44
+#: templates/tickets.html:54
 msgid "Ponúkate množstevné zľavy?"
 msgstr "Do you offer group discounts?"
 
-#: templates/tickets.html:46
+#: templates/tickets.html:56
 msgid ""
 "Ak máte záujem kúpiť viac ako 10 lístkov kontaktujete nás emailom na "
 "info@pycon.sk."
@@ -1048,11 +1068,11 @@ msgstr ""
 "If you would like to buy more than 10 tickets please contact us by email "
 "at info@pycon.sk."
 
-#: templates/tickets.html:49
+#: templates/tickets.html:59
 msgid "Nemám PayPal, je možné kúpiť vstupenku inak ako cez Tito?"
 msgstr "I don't use PayPal, is there any other way to buy a ticket?"
 
-#: templates/tickets.html:51
+#: templates/tickets.html:61
 msgid ""
 "Akceptujeme aj bankový prevod, prípadne Bitcoin. Napíšte nám, o aké "
 "lístky máte záujem a po pripísaní sumy na náš účet Vám vystavíme a "
@@ -1062,11 +1082,11 @@ msgstr ""
 "tickets you are interested in and after we receive the payment, we will "
 "issue and send the requested tickets to you by email."
 
-#: templates/tickets.html:54
+#: templates/tickets.html:64
 msgid "Kam idú všetky peniaze za lístky?"
 msgstr "Where does the money from tickets go?"
 
-#: templates/tickets.html:56
+#: templates/tickets.html:66
 msgid ""
 "PyCon je kompletne organizovaný dobrovoľníkmi. Veríme, že organizovať "
 "takéto konferencie je potrebné, aby propagovali programovanie a Open "
@@ -1085,76 +1105,14 @@ msgstr ""
 "association was created to support Python and programming in general, you"
 " can read "
 
-#: templates/tickets.html:56
+#: templates/tickets.html:66
 msgid "ciele SPy o.z."
 msgstr "objectives of SPy."
 
-#: templates/tickets.html:56
+#: templates/tickets.html:66
 msgid "viac o našich cieľoch"
 msgstr "more about our vision and objectives"
 
 #~ msgid ""
-#~ "Python komunita sa skladá z členov "
-#~ "z celého sveta s rôznorodým súborom "
-#~ "zručností, osobností a skúseností. Tieto "
-#~ "rozdiely prispievajú k tomu, že naša "
-#~ "komunita prežíva veľké úspechy a "
-#~ "pokračuje v raste. Keď pracujete s "
-#~ "členmi komunity, odporúčame vám dodržiavať "
-#~ "tieto pokyny, ktoré pomáhajú riadiť váš"
-#~ " styk s ostatnými a snažiť sa "
-#~ "udržať Python komunitu pozitívnu, úspešnú "
-#~ "a rastúcu."
 #~ msgstr ""
-#~ "The Python community is made up of"
-#~ " members from around the globe with"
-#~ " a diverse set of skills, "
-#~ "personalities, and experiences. It is "
-#~ "through these differences that our "
-#~ "community experiences great successes and "
-#~ "continued growth. When you're working "
-#~ "with members of the community, we "
-#~ "encourage you to follow these guidelines"
-#~ " which help steer our interactions "
-#~ "and strive to keep Python a "
-#~ "positive, successful, and growing community."
-
-#~ msgid ""
-#~ "Členovia komunity sú ohľaduplní voči "
-#~ "svojim rovesníkom - ostatným používateľom "
-#~ "Pythonu. Sme pozorní pri riešení úsilia"
-#~ " druhých, pričom máme na pamäti, že"
-#~ " častokrát ich práca bola venovaná "
-#~ "len pre dobro komunity. Sme všímaví "
-#~ "v našich vyjadreniach, či už osobne "
-#~ "alebo on-line, a sme taktní, keď"
-#~ " príde na rozdielne názory."
-#~ msgstr ""
-#~ "Members of the community are considerate"
-#~ " of their peers -- other Python "
-#~ "users. We're thoughtful when addressing "
-#~ "the efforts of others, keeping in "
-#~ "mind that often times the labor "
-#~ "was completed simply for the good "
-#~ "of the community. We're attentive in "
-#~ "our communications, whether in person or"
-#~ " online, and we're tactful when "
-#~ "approaching differing views."
-
-#~ msgid ""
-#~ "Prednášky o Pythone, alebo komunite s"
-#~ " vysokou pravdepodobnosťou budú zaujímavé "
-#~ "pre publikum. Hlavný bod, ktorý bude "
-#~ "komisia pri výbere prednášok zvažovať je"
-#~ " ako Vaša prednáška zaujme publikum. "
-#~ "Je stanovený limit na jednu prednášku"
-#~ " pre rečníka."
-#~ msgstr ""
-#~ "Talks about Python or the Python "
-#~ "community are most likely to line "
-#~ "up with the interests of PyCon's "
-#~ "audience, and a key consideration that"
-#~ " the talk selection committee will be"
-#~ " thinking about is your talk's "
-#~ "ability to draw an audience."
 
