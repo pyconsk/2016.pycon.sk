@@ -46,6 +46,12 @@ mark.platinum {
   background-color: #E5E4E2;
 }
 
+.sponsor-box {
+  height: 450px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
 .right-nav img {
   border: none;
 }
