@@ -22,6 +22,10 @@ body {
   padding-bottom: 2px;
 }
 
+mark.bronze {
+  background-color: #CD7F32;
+}
+
 mark.silver {
   background-color: #E5E4E2;
 }

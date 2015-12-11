@@ -15,6 +15,7 @@ SITEMAP = {
     'sitemap.xml': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2015-11-11T11:11:11+00:00'},
     'index.html': {'prio': '1', 'freq': 'daily', 'lastmod': '2015-10-26T22:05:00+00:00'},
     'sponsoring.html': {'prio': '0.9', 'freq': 'weekly', 'lastmod': '2015-10-26T22:05:00+00:00'},
+    'sponsors.html': {'prio': '0.9', 'freq': 'weekly', 'lastmod': '2015-12-10T23:43:42+00:00'},
     'speaking.html': {'prio': '0.9', 'freq': 'weekly', 'lastmod': '2015-10-26T22:05:00+00:00'},
     'speakers.html': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2015-10-31T23:45:00+00:00'},
     'tickets.html': {'prio': '1', 'freq': 'daily', 'lastmod': '2015-10-26T22:00:05+00:00'},
@@ -143,6 +144,10 @@ def speakers():
 @app.route('/<lang_code>/speaking.html')
 def speaking():
     return render_template('speaking.html', **_get_template_variables(li_speaking='active'))
+
+@app.route('/<lang_code>/sponsors.html')
+def sponsors():
+    return render_template('sponsors.html', **_get_template_variables(li_sponsoring='active'))
 
 
 @app.route('/<lang_code>/sponsoring.html')

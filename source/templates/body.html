@@ -66,7 +66,11 @@
             </ul>
           </li>
           <li{% if li_sponsoring %} class="{{ li_sponsoring }}"{% endif %}>
-            <a href="{{ url_for('sponsoring', lang_code=lang_code) }}">{{ _('Sponzorovanie') }}</a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ _('Sponzori') }} <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ url_for('sponsors', lang_code=lang_code) }}">{{ _('Naši Sponzori') }}</a></li>
+              <li><a href="{{ url_for('sponsoring', lang_code=lang_code) }}">{{ _('Sponzorovanie') }}</a></li>
+            </ul>
           </li>
           <li{% if li_coc %} class="{{ li_coc }}"{% endif %}>
             <a href="{{ url_for('code_of_conduct', lang_code=lang_code) }}">{{ _('Kódex správania') }}</a>
