@@ -8,8 +8,8 @@ app.config['BABEL_DEFAULT_LOCALE'] = 'sk'
 app.jinja_options = {'extensions': ['jinja2.ext.with_']}
 babel = Babel(app)
 
-LOGO_PYCON = 'images/pycon_sk_logo_notext.png'
-LOGO_MEETUP_BA = 'images/bratislava_logo.png'
+LOGO_PYCON = 'images/pycon_sk_logo_notext.svg'
+LOGO_MEETUP_BA = 'images/bratislava_logo.svg'
 LANGS = ('en', 'sk')
 SITEMAP = {
     'sitemap.xml': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2015-11-11T11:11:11+00:00'},
