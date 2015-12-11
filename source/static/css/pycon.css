@@ -22,6 +22,14 @@ body {
   padding-bottom: 2px;
 }
 
+mark.partners {
+  background-color: #ADD8E6;
+}
+mark.django-girls {
+  background-color: #346854;
+  color: #ffffff;
+}
+
 mark.bronze {
   background-color: #CD7F32;
 }

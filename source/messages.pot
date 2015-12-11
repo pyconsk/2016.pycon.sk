@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-12-11 21:38+0100\n"
+"POT-Creation-Date: 2015-12-11 23:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,35 +48,35 @@ msgstr ""
 msgid "Prednášanie"
 msgstr ""
 
-#: templates/body.html:70
+#: templates/body.html:69
 msgid "Sponzori"
 msgstr ""
 
-#: templates/body.html:72 templates/sponsors.html:5
+#: templates/body.html:71 templates/sponsors.html:6
 msgid "Naši Sponzori"
 msgstr ""
 
-#: templates/body.html:73
+#: templates/body.html:72
 msgid "Sponzorovanie"
 msgstr ""
 
-#: templates/body.html:77 templates/code-of-conduct.html:5
+#: templates/body.html:76 templates/code-of-conduct.html:5
 msgid "Kódex správania"
 msgstr ""
 
-#: templates/body.html:80
+#: templates/body.html:79
 msgid "Meetup"
 msgstr ""
 
-#: templates/body.html:83
+#: templates/body.html:82
 msgid "Občianske združenie"
 msgstr ""
 
-#: templates/body.html:103
+#: templates/body.html:102
 msgid "Preskočiť na začiatok"
 msgstr ""
 
-#: templates/body.html:111
+#: templates/body.html:110
 msgid "E-mailová konferencia"
 msgstr ""
 
@@ -672,22 +672,64 @@ msgid ""
 "príležitosť ako prispieť späť."
 msgstr ""
 
-#: templates/sponsors.html:6
+#: templates/sponsors.html:7
 msgid ""
 "Ďakujeme všetkým sponzorom - bez Vás by táto komunitná konferencia nebola"
 " možná."
 msgstr ""
 
-#: templates/sponsors.html:13
+#: templates/sponsors.html:14
 msgid "Zlatí"
 msgstr ""
 
-#: templates/sponsors.html:33
+#: templates/sponsors.html:34
 msgid "Strieborní"
 msgstr ""
 
-#: templates/sponsors.html:53
+#: templates/sponsors.html:54
 msgid "Bronzoví"
+msgstr ""
+
+#: templates/sponsors.html:86
+msgid "Django Girls"
+msgstr ""
+
+#: templates/sponsors.html:118
+msgid "Partners"
+msgstr ""
+
+#: templates/sponsors.html:130
+msgid ""
+"Fakulta informatiky a informačných technológií (FIIT) je jednou zo "
+"siedmich fakúlt Slovenskej technickej univerzity v Bratislave (STU). FIIT"
+" STU pokrýva komplexne oblasť informatiky a informačných technológií "
+"(IIT) vo výskume a vzdelávaní. Je prvou fakultou na Slovensku s takýmto "
+"poslaním. Napriek tomu, že ide o fakultu novú, STU má vo vzdelávaní a "
+"výskume v oblasti IIT dlhodobé skúsenosti a dosiahla celý rad významných "
+"výsledkov."
+msgstr ""
+
+#: templates/sponsors.html:141
+msgid ""
+"Cieľom tohto portálu je informovať. Informuje dievčatá, ich rodičov, "
+"verejnosť o tom, že vo svete IT je skvelé mať ženy. Prináša profily "
+"informatičiek, ale i neinformatičiek, ktoré aj keď neabsolvovali štúdiu "
+"na IT vysokých školách, postupne sa vypracovali a teraz pôsobia na "
+"zaujímavých pozíciach v rôznych spoločnostiach.Prináša informácie o "
+"akciách pre dievčatá, kam sa môžu pridať."
+msgstr ""
+
+#: templates/sponsors.html:152
+msgid ""
+"Našim cieľom je poskytovať inovatívnu platformu pre stretávanie sa s "
+"ľuďmi a výmenu informácií pre tých, ktorí sa zaujímajú o hacking, 3D "
+"tlač, elektroniku, arduino, programovanie, Bitcoin, bezpečnosť, "
+"hackovanie života, cestovanie, hľadanie slobody a stretávanie podobne "
+"zmýšľajúcich ľudí."
+msgstr ""
+
+#: templates/sponsors.html:153
+msgid "Našim cieľom je jednoducho vyhľadávať múdrych ľudí a rásť spolu s nimi."
 msgstr ""
 
 #: templates/spy.html:4
