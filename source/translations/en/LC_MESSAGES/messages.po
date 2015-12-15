@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-12-11 23:42+0100\n"
+"POT-Creation-Date: 2015-12-15 15:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -35,7 +35,7 @@ msgstr ""
 msgid "Preskočiť na hlavný obsah"
 msgstr "Back to home page"
 
-#: templates/body.html:59 templates/index.html:30 templates/tickets.html:11
+#: templates/body.html:59 templates/index.html:36 templates/tickets.html:11
 msgid "Vstupenky"
 msgstr "Tickets"
 
@@ -56,7 +56,7 @@ msgid "Sponzori"
 msgstr "Sponsors"
 
 #: templates/body.html:71 templates/sponsors.html:6
-msgid "Naši Sponzori"
+msgid "Naši sponzori"
 msgstr "Our Sponsors"
 
 #: templates/body.html:72
@@ -341,7 +341,7 @@ msgstr ""
 "<strong>The inaugural PyCon SK </strong> will be held <strong> in "
 "Bratislava on 11th - 13th March, 2016</strong>."
 
-#: templates/index.html:22
+#: templates/index.html:27
 msgid ""
 "Veľmi sa tešíme, že vám môžeme oznámiť, že okrem dvoch dní zaujímavých "
 "prednášok, budeme organizovať aj workshopy, ktoré budú vhodné aj pre "
@@ -351,13 +351,13 @@ msgstr ""
 "we will be organizing workshops that will be suitable for absolute "
 "beginners."
 
-#: templates/index.html:30
+#: templates/index.html:36
 msgid "sú už v predaji, môžete si ich zakúpiť za zvýhodnenú cenu."
 msgstr ""
 "We have launched the ticket presale, you can buy specially priced early "
 "bird tickets."
 
-#: templates/index.html:34
+#: templates/index.html:40
 msgid ""
 "Ak máte záujem prispieť, stať sa dobrovoľníkom, alebo akokoľvek inak "
 "pomôcť s organizáciou PyConu (ktorý je kompletne organizovaný "
@@ -367,7 +367,7 @@ msgstr ""
 " PyCon SK (which is run entirely by volunteers) we'd be happy to talk "
 "with you and discuss your ideas."
 
-#: templates/index.html:35
+#: templates/index.html:41
 #, python-format
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
@@ -405,24 +405,16 @@ msgid "7. júl 2015 – 18:00 - Progressbar"
 msgstr "7th July 2015 – 18:00 - Progressbar"
 
 #: templates/right_nav.html:4
+msgid "Platinoví sponzori:"
+msgstr "Platinum sponsors:"
+
+#: templates/right_nav.html:18
 msgid "Zlatí sponzori:"
 msgstr "Gold sponsors:"
 
-#: templates/right_nav.html:15
+#: templates/right_nav.html:32
 msgid "Strieborní sponzori:"
 msgstr "Silver sponsors:"
-
-#: templates/right_nav.html:28
-msgid "Sponzor virtuálneho datacentra:"
-msgstr "Virtual datacenter sponsor:"
-
-#: templates/right_nav.html:35
-msgid "Partner konferencie:"
-msgstr ""
-
-#: templates/right_nav.html:42
-msgid "Priatelia:"
-msgstr "Friends:"
 
 #: templates/speakers.html:6
 msgid "Rečníci, ktorí vystúpia na PyCon SK 2016."
@@ -827,39 +819,41 @@ msgstr ""
 
 #: templates/sponsors.html:7
 msgid ""
-"Ďakujeme všetkým sponzorom - bez Vás by táto komunitná konferencia nebola"
-" možná."
-msgstr "Thanks to all sponsors - without you this comference wouldn't be possible"
+"Ďakujeme všetkým sponzorom, bez ktorých by nebolo možné usporiadať túto "
+"úžasnú konferenciu."
+msgstr "Thanks to all sponsors - without you this conference wouldn't be possible."
 
-#: templates/sponsors.html:14
-msgid "Zlatí"
-msgstr "Gold"
+#: templates/sponsors.html:15
+msgid "Platinoví sponzori"
+msgstr "Platinum sponsors"
 
-#: templates/sponsors.html:34
-msgid "Strieborní"
-msgstr "Silver"
+#: templates/sponsors.html:38
+msgid "Zlatí sponzori"
+msgstr "Gold sponsors"
 
-#: templates/sponsors.html:54
-msgid "Bronzoví"
-msgstr "Bronze"
+#: templates/sponsors.html:61
+msgid "Strieborní sponzori"
+msgstr "Silver sponsors"
 
-#: templates/sponsors.html:86
-msgid "Django Girls"
-msgstr ""
+#: templates/sponsors.html:84
+msgid "Bronzoví sponzori"
+msgstr "Silver sponsors"
 
-#: templates/sponsors.html:118
-msgid "Partners"
-msgstr ""
+#: templates/sponsors.html:121
+msgid "Django Girls sponzori"
+msgstr "Django Girls sponsors"
 
-#: templates/sponsors.html:130
+#: templates/sponsors.html:158
+msgid "Partneri konferencie"
+msgstr "Partners"
+
+#: templates/sponsors.html:171
 msgid ""
 "Fakulta informatiky a informačných technológií (FIIT) je jednou zo "
 "siedmich fakúlt Slovenskej technickej univerzity v Bratislave (STU). FIIT"
 " STU pokrýva komplexne oblasť informatiky a informačných technológií "
 "(IIT) vo výskume a vzdelávaní. Je prvou fakultou na Slovensku s takýmto "
-"poslaním. Napriek tomu, že ide o fakultu novú, STU má vo vzdelávaní a "
-"výskume v oblasti IIT dlhodobé skúsenosti a dosiahla celý rad významných "
-"výsledkov."
+"poslaním."
 msgstr ""
 "Faculty of Informatics and Information Technologies (FIIT) is one of the "
 "seven faculties of the Slovak University of Technology in Bratislava "
@@ -867,12 +861,9 @@ msgstr ""
 "technologies (IIT) in both research and education. FIIT is the first "
 "faculty in the Slovak Republic with such mission. In spite of the fact, "
 "that FIIT is a new faculty, SUT has long-term experiences in the area of "
-"IIT and has achieved several substantial results in this area. A base for"
-" the FIIT formation was the place of work, which guaranteed education and"
-" research in IIT at the Slovak University of Technology till origination "
-"of the Faculty of Informatics and Information Technologies."
+"IIT and has achieved several substantial results in this area."
 
-#: templates/sponsors.html:141
+#: templates/sponsors.html:184
 msgid ""
 "Cieľom tohto portálu je informovať. Informuje dievčatá, ich rodičov, "
 "verejnosť o tom, že vo svete IT je skvelé mať ženy. Prináša profily "
@@ -882,7 +873,7 @@ msgid ""
 "akciách pre dievčatá, kam sa môžu pridať."
 msgstr ""
 
-#: templates/sponsors.html:152
+#: templates/sponsors.html:196
 msgid ""
 "Našim cieľom je poskytovať inovatívnu platformu pre stretávanie sa s "
 "ľuďmi a výmenu informácií pre tých, ktorí sa zaujímajú o hacking, 3D "
@@ -894,10 +885,6 @@ msgstr ""
 "gathering space and resources for those devoted to hacking, 3D printing, "
 "electronics, arduino, programming, security, life-hacking, travelling, "
 "freedom-seeking and networking with like minds."
-
-#: templates/sponsors.html:153
-msgid "Našim cieľom je jednoducho vyhľadávať múdrych ľudí a rásť spolu s nimi."
-msgstr "Our mission is to gather smart people and grow together with them."
 
 #: templates/spy.html:4
 msgid "SPy o. z."
@@ -1194,10 +1181,4 @@ msgstr "objectives of SPy."
 #: templates/tickets.html:67
 msgid "viac o našich cieľoch"
 msgstr "more about our vision and objectives"
-
-#~ msgid ""
-#~ msgstr ""
-
-#~ msgid "Progressbar - Zdieľanie. Skúmanie. Učenie. Vytváranie"
-#~ msgstr ""
 

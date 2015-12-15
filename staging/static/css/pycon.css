@@ -22,6 +22,18 @@ body {
   padding-bottom: 2px;
 }
 
+.right-nav h4 {
+  font-size: 15px;
+}
+
+.right-nav h5 {
+  font-size: 14px;
+}
+
+.right-nav h6 {
+  font-size: 12px;
+}
+
 mark.partners {
   background-color: #ADD8E6;
 }
@@ -35,7 +47,7 @@ mark.bronze {
 }
 
 mark.silver {
-  background-color: #E5E4E2;
+  background-color: #C0C0C0;
 }
 
 mark.gold {
@@ -46,9 +58,21 @@ mark.platinum {
   background-color: #E5E4E2;
 }
 
+.sponsors h2 {
+  margin-bottom: 20px;
+}
+
+.sponsors h2:not(:first-child) {
+  margin-top: 40px;
+}
+
 .sbox {
-  height: 450px;
+  min-height: 320px;
   overflow: auto;
+}
+
+.sbox .caption .text-justify {
+  font-size: 12px;
 }
 
 .right-nav img {

@@ -1,6 +1,20 @@
 <!-- right_nav -->
 
 <div class="text-center right-nav">
+  <h4><mark class="platinum">{{ _('Platinoví sponzori:') }}</mark></h4>
+  <ul class="list-unstyled">
+    <li>
+    <a href="https://www.erigones.com/#pyconsk" target="_blank">
+      <img src="{{ url_for('static', filename='images/sponsors/erigones-logo.svg') }}" alt="Erigones" style="width:230px" />
+      <br>
+      Erigones
+    </a>
+    </li>
+  </ul>
+
+  <br>
+  <hr>
+
   <h5><mark class="gold">{{ _('Zlatí sponzori:') }}</mark></h5>
   <ul class="list-unstyled">
     <li>
@@ -11,7 +25,10 @@
     </a>
     </li>
   </ul>
+
   <br>
+  <hr>
+
   <h6><mark class="silver">{{ _('Strieborní sponzori:') }}</mark></h6>
   <ul class="list-unstyled">
     <li>
@@ -22,13 +39,6 @@
     </a>
     </li>
   </ul>
-
-  <hr>
-
-  <h6>{{ _('Sponzor virtuálneho datacentra:') }}</h6>
-  <a href="https://www.erigones.com/#pyconsk" target="_blank">
-    <img src="{{ url_for('static', filename='images/sponsors/erigones-logo.svg') }}" alt="Erigones" style="width:130px" />
-  </a>
 </div>
 <!-- right_nav end -->
 
