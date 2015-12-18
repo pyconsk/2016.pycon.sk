@@ -5,7 +5,7 @@ from flask.ext.babel import Babel, gettext
 
 app = Flask(__name__, static_url_path='/static')
 app.config['BABEL_DEFAULT_LOCALE'] = 'sk'
-app.jinja_options = {'extensions': ['jinja2.ext.with_']}
+app.jinja_options = {'extensions': ['jinja2.ext.with_', 'jinja2.ext.i18n']}
 babel = Babel(app)
 
 LOGO_PYCON = 'images/pycon_sk_logo_notext.svg'
