@@ -12,23 +12,24 @@ LOGO_PYCON = 'images/pycon_sk_logo_notext.svg'
 LOGO_MEETUP_BA = 'images/bratislava_logo.svg'
 LANGS = ('en', 'sk')
 SITEMAP = {
-    'sitemap.xml': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2015-11-11T11:11:11+00:00'},
-    'index.html': {'prio': '1', 'freq': 'daily', 'lastmod': '2015-10-26T22:05:00+00:00'},
+    'sitemap.xml': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2015-12-18T10:53:24+00:00'},
+    'index.html': {'prio': '1', 'freq': 'daily', 'lastmod': '2015-12-18T10:24:12+00:00'},
     'sponsoring.html': {'prio': '0.9', 'freq': 'weekly', 'lastmod': '2015-10-26T22:05:00+00:00'},
-    'sponsors.html': {'prio': '0.9', 'freq': 'weekly', 'lastmod': '2015-12-10T23:43:42+00:00'},
+    'sponsors.html': {'prio': '0.9', 'freq': 'weekly', 'lastmod': '2015-12-18T10:24:12+00:00'},
     'speaking.html': {'prio': '0.9', 'freq': 'weekly', 'lastmod': '2015-10-26T22:05:00+00:00'},
     'speakers.html': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2015-10-31T23:45:00+00:00'},
     'tickets.html': {'prio': '1', 'freq': 'daily', 'lastmod': '2015-10-26T22:00:05+00:00'},
     'getting-here.html': {'prio': '0.66', 'freq': 'weekly', 'lastmod': '2015-11-17T12:00:05+00:00'},
     'spy.html': {'prio': '0.75', 'freq': 'monthly', 'lastmod': '2015-09-10T20:00:00+00:00'},
     'code-of-conduct.html': {'prio': '0.75', 'freq': 'monthly', 'lastmod': '2015-09-10T20:00:00+00:00'},
-    'meetup.html': {'prio': '0.66', 'freq': 'weekly', 'lastmod': '2015-10-26T22:56:48+00:00'},
+    'meetup.html': {'prio': '0.66', 'freq': 'weekly', 'lastmod': '2015-12-18T10:53:24+00:00'},
     'ba-01-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2015-06-29T20:06:00+00:00'},
     'ba-02-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2015-07-26T20:07:00+00:00'},
     'ba-03-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2015-08-26T20:08:00+00:00'},
     'ba-04-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2015-09-26T20:09:00+00:00'},
-    'ba-05-meetup.html': {'prio': '0.4', 'freq': 'weekly', 'lastmod': '2015-10-26T20:10:00+00:00'},
-    'ba-06-meetup.html': {'prio': '0.6', 'freq': 'daily', 'lastmod': '2015-11-11T11:11:11+00:00'},
+    'ba-05-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2015-10-26T20:10:00+00:00'},
+    'ba-06-meetup.html': {'prio': '0.4', 'freq': 'weekly', 'lastmod': '2015-11-11T11:11:11+00:00'},
+    'ba-07-meetup.html': {'prio': '0.6', 'freq': 'daily', 'lastmod': '2015-12-18T10:53:24+00:00'},
     'thank-you.html': {'prio': '0.1', 'freq': 'yearly', 'lastmod': '2015-07-10T20:00:00+00:00'},
 }
 LDJSON = {
@@ -340,8 +341,8 @@ def ba_meetup_03():
       },
       "performer": [{
         "@type": "Person",
-        "name": u"Tomáš Pytlíček",
-        "sameAs": "https://plus.google.com/+Tom%C3%A1%C5%A1Pytl%C3%AD%C4%8Dek/posts"
+        "name": u"Tomáš Pytel",
+        "sameAs": "https://sk.linkedin.com/in/tomáš-pytel-80956698"
         }
       ],
       "workPerformed": {
@@ -486,12 +487,8 @@ def ba_meetup_06():
       },
       "performer": [{
         "@type": "Person",
-        "name": u"Daniel Kontšek",
-        "sameAs": "https://sk.linkedin.com/in/danielkontsek"
-        },{
-        "@type": "Person",
-        "name": "Richard Kellner",
-        "sameAs": "https://sk.linkedin.com/in/richardkellner"
+        "name": u"Juraj Bubniak",
+        "sameAs": "https://sk.linkedin.com/in/jurajbubniak"
         }
       ],
       "workPerformed": {
@@ -513,6 +510,56 @@ def ba_meetup_06():
       }
     }
     return render_template('ba-06-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
+                                                                          ld_json=LDJSON_EVENT))
+
+
+@app.route('/<lang_code>/ba-07-meetup.html')
+def ba_meetup_07():
+    lang =  get_locale()
+    LDJSON_EVENT = {
+      "@context": "http://schema.org",
+      "@type": "Event",
+      "name": u"Siedmy Bratislavský Python Meetup",
+      "startDate": "2016-01-12T18:00:00+01:00",
+      "endDate" : "2016-01-12T22:00:00+01:00",
+      "url": "https://pycon.sk/"+ lang +"/ba-07-meetup.html",
+      "sameAs": "https://www.facebook.com/events/1686942358205368/",
+      "location": {
+        "@type": "Place",
+        "sameAs": "https://progressbar.sk",
+        "name": "Progressbar",
+        "address": u"Michalská 3, Bratislava"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "EUR"
+      },
+      "performer": [{
+        "@type": "Person",
+        "name": u"Andrej Mošať",
+        "sameAs": "https://sk.linkedin.com/in/mosat"
+        }
+      ],
+      "workPerformed": {
+        "@type": "CreativeWork",
+        "name": u"Siedmy Bratislavský Python Meetup",
+        "creator": {
+          "@type": "Organization",
+          "name": "SPy o.z.",
+          "url": "https://pycon.sk/"+ lang +"/spy.html",
+          "logo": "https://pycon.sk/static/images/pycon_sk_logo200_notext.png",
+          "sameAs": [
+            "https://facebook.com/pyconsk",
+            "https://twitter.com/pyconsk",
+            "https://www.linkedin.com/company/spy-o--z-",
+            "https://github.com/pyconsk",
+            "https://pyconsk.slack.com"
+          ],
+        }
+      }
+    }
+    return render_template('ba-07-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
                                                                           ld_json=LDJSON_EVENT))
 
 
