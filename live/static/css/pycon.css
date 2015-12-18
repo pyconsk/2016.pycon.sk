@@ -22,8 +22,32 @@ body {
   padding-bottom: 2px;
 }
 
+.right-nav h4 {
+  font-size: 15px;
+}
+
+.right-nav h5 {
+  font-size: 14px;
+}
+
+.right-nav h6 {
+  font-size: 12px;
+}
+
+mark.partners {
+  background-color: #ADD8E6;
+}
+mark.django-girls {
+  background-color: #346854;
+  color: #ffffff;
+}
+
+mark.bronze {
+  background-color: #CD7F32;
+}
+
 mark.silver {
-  background-color: #E5E4E2;
+  background-color: #C0C0C0;
 }
 
 mark.gold {
@@ -32,6 +56,23 @@ mark.gold {
 
 mark.platinum {
   background-color: #E5E4E2;
+}
+
+.sponsors h2 {
+  margin-bottom: 20px;
+}
+
+.sponsors h2:not(:first-child) {
+  margin-top: 40px;
+}
+
+.sbox {
+  min-height: 320px;
+  overflow: auto;
+}
+
+.sbox .caption .text-justify {
+  font-size: 12px;
 }
 
 .right-nav img {
@@ -69,4 +110,8 @@ footer li {
   margin: 0;
   color: #999;
   font-size: 11px;
+}
+
+.logo {
+  height: 75px;
 }
