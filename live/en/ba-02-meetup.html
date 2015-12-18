@@ -35,7 +35,7 @@
   
   
   <link rel="alternate" href="https://pycon.sk/sk/ba-02-meetup.html" hreflang="sk">
-  <link rel="stylesheet" href="../static/css/pycon.css?v=1448140902">
+  <link rel="stylesheet" href="../static/css/pycon.css?v=1450193368">
   <link rel="icon" href="../static/images/favicon.ico" sizes="16x16">
 </head>
 <body>
@@ -45,7 +45,7 @@
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <img class="navbar-brand navbar-logo" src="../static/images/bratislava_logo.png" alt="">
+        <img class="navbar-brand navbar-logo" src="../static/images/bratislava_logo.svg" alt="">
         <a href="index.html" class="navbar-brand">PyCon SK</a>
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
           <span class="icon-bar"></span>
@@ -109,17 +109,41 @@
     <!-- right_nav -->
 
 <div class="text-center right-nav">
+  <h4><mark class="platinum">Platinum sponsors:</mark></h4>
+  <ul class="list-unstyled">
+    <li>
+    <a href="https://www.redhat.com/#pyconsk" target="_blank">
+      <img src="../static/images/sponsors/redhat-logo.svg" alt="Red Hat" style="width:230px" />
+      <br>
+      Red Hat
+    </a>
+    </li>
+    <li>
+    <a href="https://www.erigones.com/#pyconsk" target="_blank">
+      <img src="../static/images/sponsors/erigones-logo.svg" alt="Erigones" style="width:230px" />
+      <br>
+      Erigones
+    </a>
+    </li>
+  </ul>
+
+  <br>
+  <hr>
+
   <h5><mark class="gold">Gold sponsors:</mark></h5>
   <ul class="list-unstyled">
     <li>
     <a href="https://www.python.org/psf/#pyconsk" target="_blank">
-      <img src="../static/images/sponsors/psf-logo.png" alt="PSF" style="width:200px" />
+      <img src="../static/images/sponsors/psf-logo.svg" alt="PSF" style="width:200px" />
       <br>
       Python Software Foundation
     </a>
     </li>
   </ul>
+
   <br>
+  <hr>
+
   <h6><mark class="silver">Silver sponsors:</mark></h6>
   <ul class="list-unstyled">
     <li>
@@ -128,37 +152,6 @@
       <br>
       GridMarkets
     </a>
-    </li>
-  </ul>
-
-  <hr>
-
-  <h6>Virtual datacenter sponsor:</h6>
-  <a href="https://www.erigones.com/#pyconsk" target="_blank">
-    <img src="../static/images/sponsors/erigones-logo.png" alt="Erigones" style="width:130px" />
-  </a>
-
-  <hr>
-
-  <h6>Partner konferencie:</h6>
-  <a href="http://www.fiit.stuba.sk/#pyconsk" target="_blank">
-    <img src="../static/images/sponsors/fiit-stu-logo.png" alt="FIIT STU" style="width:130px" />
-  </a>
-
-  <hr>
-
-  <h6>Friends:</h6>
-  <ul class="list-unstyled">
-    <li>
-      <a href="https://progressbar.sk/#pyconsk" target="_blank">
-        <img src="../static/images/partners/progressbar.png" alt="Progressbar" style="width:120px" />
-      </a>
-    </li>
-    <li>&nbsp;</li>
-    <li>
-      <a href="http://www.ajtyvit.sk/#pyconsk" target="_blank">
-        <img src="../static/images/partners/ajtyvit.png" alt="Aj Ty v IT" style="height:60px" />
-      </a>
     </li>
   </ul>
 </div>
@@ -192,6 +185,10 @@
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="../static/js/svgeezy.js"></script>
+  <script>
+    svgeezy.init(false, 'png');
+  </script>
   <script src="../static/js/bootstrap.min.js"></script>
   <!-- GA -->
   <script>
