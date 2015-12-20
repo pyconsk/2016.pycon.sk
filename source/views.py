@@ -20,6 +20,10 @@ SITEMAP = {
     'speakers.html': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2015-10-31T23:45:00+00:00'},
     'tickets.html': {'prio': '1', 'freq': 'daily', 'lastmod': '2015-10-26T22:00:05+00:00'},
     'getting-here.html': {'prio': '0.66', 'freq': 'weekly', 'lastmod': '2015-11-17T12:00:05+00:00'},
+    'django-girls.html': {'prio': '0.75', 'freq': 'weekly', 'lastmod':
+        '2015-12-21T00:42:45+00:00'},
+
+
     'spy.html': {'prio': '0.75', 'freq': 'monthly', 'lastmod': '2015-09-10T20:00:00+00:00'},
     'code-of-conduct.html': {'prio': '0.75', 'freq': 'monthly', 'lastmod': '2015-09-10T20:00:00+00:00'},
     'meetup.html': {'prio': '0.66', 'freq': 'weekly', 'lastmod': '2015-12-18T10:53:24+00:00'},
