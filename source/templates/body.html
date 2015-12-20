@@ -65,6 +65,9 @@
               <li><a href="{{ url_for('speaking', lang_code=lang_code) }}">{{ _('Prednášanie') }}</a></li>
             </ul>
           </li>
+          <li{% if li_workshop %} class="{{ li_workshop }}"{% endif %}>
+            <a href="{{ url_for('django_girls', lang_code=lang_code) }}">{{ _('Workshop') }}</a>
+          </li>
           <li{% if li_sponsoring %} class="{{ li_sponsoring }}"{% endif %}>
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ _('Sponzori') }} <span class="caret"></span></a>
             <ul class="dropdown-menu">

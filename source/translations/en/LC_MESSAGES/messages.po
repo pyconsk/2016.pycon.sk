@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-12-20 14:01+0100\n"
+"POT-Creation-Date: 2015-12-21 00:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -155,34 +155,38 @@ msgid "Prednášanie"
 msgstr "Speaking"
 
 #: templates/body.html:69
+msgid "Workshop"
+msgstr "Workshop"
+
+#: templates/body.html:72 templates/django-girls.html:62
 msgid "Sponzori"
 msgstr "Sponsors"
 
-#: templates/body.html:71 templates/sponsors.html:6
+#: templates/body.html:74 templates/sponsors.html:6
 msgid "Naši sponzori"
 msgstr "Our Sponsors"
 
-#: templates/body.html:72
+#: templates/body.html:75
 msgid "Sponzorovanie"
 msgstr "Sponsorship"
 
-#: templates/body.html:76 templates/code-of-conduct.html:5
+#: templates/body.html:79 templates/code-of-conduct.html:5
 msgid "Kódex správania"
 msgstr "Code of Conduct"
 
-#: templates/body.html:79
+#: templates/body.html:82
 msgid "Meetup"
 msgstr ""
 
-#: templates/body.html:82
+#: templates/body.html:85
 msgid "Občianske združenie"
 msgstr "Civic association"
 
-#: templates/body.html:102
+#: templates/body.html:105
 msgid "Preskočiť na začiatok"
 msgstr "Back to top"
 
-#: templates/body.html:110
+#: templates/body.html:113
 msgid "E-mailová konferencia"
 msgstr "Mailing list"
 
@@ -305,6 +309,172 @@ msgstr ""
 "Harassment, sexist, racist or otherwise demeaning jokes are improper at "
 "our meetings. We will not tolerate any harassment of participants of "
 "meetups in any form."
+
+#: templates/django-girls.html:5 templates/django-girls.html:57
+msgid "Django Girls"
+msgstr "Django Girls"
+
+#: templates/django-girls.html:7
+msgid ""
+"Vytvor si vlastnú web aplikáciu. Workshop pre ženy, kde sa naučíš "
+"programovať."
+msgstr ""
+"Build your own web application. Workshop for women, where you will learn "
+"program."
+
+#: templates/django-girls.html:16
+msgid "O workshope"
+msgstr "About workshop"
+
+#: templates/django-girls.html:17
+msgid ""
+"Ak si dievča a chceš sa naučiť, ako vyvíjať web stránky, máme pre teba "
+"dobrú správu. Organizujeme jednodňový workshop pre začiatočníčky! "
+"Uskutoční sa 13. marca 2016 v Bratislave, počas prvého PyConu na "
+"Slovenku."
+msgstr ""
+"If you are a female and you want to learn how to make websites, we have "
+"good news for you! We are holding a one-day workshop for beginners! The "
+"workshop will take place on 13th of March in Bratislava, during the "
+"inaugural PyCon."
+
+#: templates/django-girls.html:18
+msgid ""
+"Veríme v budúcnosť žien v IT odvetví a chceme ti dať možnosť naučiť sa "
+"programovať a stať sa jednou z nás – programátoriek. <b>Workshop je úplne"
+" zdarma</b>, no ak si napriek tomu nemôžeš dovoliť prísť, ale si "
+"motivovaná sa učiť a následne zdieľať svoje vedomosti, máme pre teba "
+"grantový program na cestovné a ubytovanie."
+msgstr ""
+"We believe that IT industry will greatly benefit from bringing more women"
+" into technology. We want to give you an opportunity to learn how to "
+"program and become one of us - female programmers. <b>Workshop is free of"
+" charge</b> and if you can’t afford come, but you are very motivated to "
+"learn and then share your knowledge with others, we have some funds to "
+"help you out with your travel costs and accommodation."
+
+#: templates/django-girls.html:21
+msgid "Prihlás sa"
+msgstr "Apply for a pass"
+
+#: templates/django-girls.html:22
+msgid ""
+"Ak si žena vieš slovensky, alebo anglicky a máš vlastný počítač, môžeš sa"
+" prihlásiť. Nepotrebuješ žiadne predchádzajúce znalosti – workshop je "
+"určený pre začiatočníčky."
+msgstr ""
+"If you are a woman, you know Slovak or English and have a laptop - you "
+"can apply for a pass! You don’t need to know any technical stuff - "
+"workshops are for people who are new to programming."
+
+#: templates/django-girls.html:23
+msgid ""
+"Prihlásiť sa je možné do 14. februára. Najneskôr 1. marca dostaneš "
+"potvrdenie, či si bola na vybratá alebo nie."
+msgstr ""
+"Application process closes on February 14th and you'll be informed about "
+"acceptance or rejection by March 1st (or sooner)."
+
+#: templates/django-girls.html:24
+msgid "Registruj sa"
+msgstr "Register"
+
+#: templates/django-girls.html:28
+msgid "Často kladené otázky"
+msgstr "Frequently asked questions "
+
+#: templates/django-girls.html:31
+msgid "Čo potrebujem vedieť o vývoji web stránok alebo programovaní?"
+msgstr "Do I need to know anything about websites or programming?"
+
+#: templates/django-girls.html:32
+msgid ""
+"Nič! Workshop je pre začiatočníkov a nepotrebuješ žiadne predchádzajúce "
+"skúsenosti. Na druhú stranu, určite sa môžeš prihlásiť, ak už máš nejaké "
+"základy (vieš čo je HTML alebo CSS)"
+msgstr ""
+"No! Workshops are for beginners. You don’t need to know anything about "
+"it. However, if you have a little bit of technical knowledge (i.e. you "
+"know what HTML or CSS are) you still can apply!"
+
+#: templates/django-girls.html:34
+msgid "Mám si doniesť vlastný počítač?"
+msgstr "Should I bring my own laptop?"
+
+#: templates/django-girls.html:35
+msgid ""
+"Áno. Nemáme žiadny hardvér, očakávame, že si prinesieš vlastný počítač (s"
+" nabíjačkou). Je dôležité aby si si vzala domov všetky materiály, ktoré "
+"vytvoríš počas workshopu."
+msgstr ""
+"Yes. We have no hardware, so we expect you to bring your computer with "
+"you. It is also important for us that you will take home everything "
+"you’ll write and create during workshops."
+
+#: templates/django-girls.html:37
+msgid "Musím si niečo nainštalovať na môj počítač?"
+msgstr "Do I need to have something installed on my laptop?"
+
+#: templates/django-girls.html:38
+msgid ""
+"Bolo by dobré mať nainštalované Django ešte pred workshopom, no nie je to"
+" podmienka. Naši mentori ti s tým radi pomôžu priamo na workshope."
+msgstr ""
+"It would be helpful to have Django installed before workshops, but "
+"wouldn't expect you to install anything on your own. We will make sure "
+"that one of our coaches will help you out with this task."
+
+#: templates/django-girls.html:40
+msgid "Bude sa počas workshopu podáva aj strava?"
+msgstr "Is food provided?"
+
+#: templates/django-girls.html:41
+msgid ""
+"Áno. Vďaka PyCon SK a sponzorom bude počas workshopu podávaný obed, káva "
+"a občerstvenie."
+msgstr ""
+"Yes. Thanks to PyCon SK and sponsors, snacks, coffee and lunch will be "
+"served during the workshop."
+
+#: templates/django-girls.html:53
+msgid "Staň sa mentor"
+msgstr "Be a Mentor"
+
+#: templates/django-girls.html:54
+#, fuzzy
+msgid ""
+"Budeme radi, ak sa k nám pridáš a staneš sa mentorom. Pošli nám email na "
+"<a "
+"href=\"mailto:bratislava@djangogirls.org\">bratislava@djangogirls.org</a>"
+" a napíš nám niečo o sebe... <br />My sa ozveme späť :)"
+msgstr ""
+"We would be delighted if you would like to join us as a mentor! Send us "
+"an email <a "
+"href=\"mailto:bratislava@djangogirls.org\">bratislava@djangogirls.org</a>,"
+" and tell us a little bit about yourself...<br />We will contact you :)"
+
+#: templates/django-girls.html:58
+msgid ""
+"Django Girls workshop na konferencii PyCon SK je súčasťou medzinárodnej "
+"iniciatívy <a href=\"https://www.djangogirls.org/#pyconsk\" "
+"title=\"Django Girls\" target=\"_blank\">Django Girls</a>. Je to "
+"nezisková organizácia, ktorej učebné materiály využívajú dobrovoľníci na "
+"výučbu programovania po celom svete."
+msgstr ""
+"Django Girls at PyCon SK is a part of bigger initiative: <a "
+"href=\"https://www.djangogirls.org/#pyconsk\" title=\"Django Girls\" "
+"target=\"_blank\">Django Girls</a>. It is a non-profit organization and "
+"events are organized by volunteers in different places of the world."
+
+#: templates/django-girls.html:63
+msgid ""
+"Nemohli by sme tu byť bez podpori od úžasných ľudí a spoločností, ktorí "
+"poskytli peniaze, vedomosti a svoj čas, aby nám pomohli uskutočniť tento "
+"workshop."
+msgstr ""
+"We couldn't be here without the support from amazing people and "
+"organizations who donated money, knowledge and time to help us make this "
+"a reality."
 
 #: templates/getting-here.html:11
 msgid "Ako sa sem dostať?"
@@ -445,10 +615,11 @@ msgstr ""
 "Bratislava on 11th - 13th March, 2016</strong>."
 
 #: templates/index.html:27
+#, fuzzy, python-format
 msgid ""
 "Veľmi sa tešíme, že vám môžeme oznámiť, že okrem dvoch dní zaujímavých "
-"prednášok, budeme organizovať aj workshopy, ktoré budú vhodné aj pre "
-"úplných začiatočníkov."
+"prednášok, budeme organizovať aj <a href=\"%(url)s\">Django Girls</a> "
+"workshop, ktorý bude vhodný aj pre úplné začiatočníčky."
 msgstr ""
 "We are happy to announce that apart from two days of interesting talks, "
 "we will be organizing workshops that will be suitable for absolute "
@@ -1352,19 +1523,5 @@ msgid "viac o našich cieľoch"
 msgstr "more about our vision and objectives"
 
 #~ msgid ""
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Prvý meetup v novom roku začneme "
-#~ "minimalisticky. <a "
-#~ "href=\"https://sk.linkedin.com/in/mosat\" title=\"Profil "
-#~ "Anderj Mošať na LinkedIn\" "
-#~ "target=\"_blank\">Anderj Mošať</a> nám príde "
-#~ "predstaviť <a href=\"https://micropython.org/\" "
-#~ "title=\"Python pre mikrocontroleri\" "
-#~ "target=\"_blank\">MicroPython</a>, povieme si prečo"
-#~ " je vlastne micro a na čo je"
-#~ " dobré mať MicroPython keď máme "
-#~ "štandardný Python."
 #~ msgstr ""
 

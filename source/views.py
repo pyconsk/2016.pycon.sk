@@ -197,6 +197,11 @@ def thank_you():
     return render_template('thank-you.html', **_get_template_variables())
 
 
+@app.route('/<lang_code>/django-girls.html')
+def django_girls():
+    return render_template('django-girls.html', **_get_template_variables(li_workshop='active'))
+
+
 @app.route('/<lang_code>/meetup.html')
 def meetup():
     return render_template('meetup.html', **_get_template_variables(li_meetup='active'))

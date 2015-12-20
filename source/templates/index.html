@@ -24,7 +24,7 @@
     {% if lang_code=='sk' %}<p class="text-center lead"><small>Tlačová správa v <a href="{{ url_for('static', filename='tlacova_sprava.pdf') }}"> PDF <span class="glyphicon glyphicon-download-alt"></span></a></small></p>{% endif %}
     <br>
 
-    <p>{{ _('Veľmi sa tešíme, že vám môžeme oznámiť, že okrem dvoch dní zaujímavých prednášok, budeme organizovať aj workshopy, ktoré budú vhodné aj pre úplných začiatočníkov.') }}</p>
+    <p>{{ _('Veľmi sa tešíme, že vám môžeme oznámiť, že okrem dvoch dní zaujímavých prednášok, budeme organizovať aj <a href="%(url)s">Django Girls</a> workshop, ktorý bude vhodný aj pre úplné začiatočníčky.', url=url_for('django_girls', lang_code=lang_code)) }}</p>
 
     <div class="image text-center">
       <img src="{{ url_for('static', filename='images/pycon/6967347999_105bba91a3_z.jpg') }}" alt="" class="img-responsive center-block">
