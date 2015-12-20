@@ -67,12 +67,62 @@ mark.platinum {
 }
 
 .sbox {
-  min-height: 320px;
-  overflow: auto;
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border 0.2s ease-in-out 0s;
+  height: 320px;
 }
 
-.sbox .caption .text-justify {
+.sbox-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid #999;
+  border-radius: 4px;
+  z-index: 1;
+  display: none;
+}
+
+a.sbox:hover > .sbox-inner {
+  display: block;
+}
+
+.sdesc {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  color: #fff;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding: 6px;
+}
+
+.sdesc .text-justify {
   font-size: 12px;
+}
+
+.slogo {
+  display: block;
+  position: absolute;
+  z-index: 0;
+  width: 80%; /* set this individually for every image */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 .right-nav img {
@@ -112,6 +162,3 @@ footer li {
   font-size: 11px;
 }
 
-.logo {
-  height: 75px;
-}
