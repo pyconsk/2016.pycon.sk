@@ -901,7 +901,7 @@ msgstr ""
 msgid ""
 "Ďakujeme všetkým sponzorom, bez ktorých by nebolo možné usporiadať túto "
 "úžasnú konferenciu."
-msgstr ""
+msgstr "We thank all the sponsors, without whom it would not be possible to organize this amazing conference."
 
 #: templates/sponsors.html:15
 msgid "Platinoví sponzori"
