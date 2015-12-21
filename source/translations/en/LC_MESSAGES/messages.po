@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-12-21 19:45+0100\n"
+"POT-Creation-Date: 2015-12-21 21:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -425,7 +425,7 @@ msgstr ""
 "that one of our coaches will help you out with this task."
 
 #: templates/django-girls.html:40
-msgid "Bude sa počas workshopu podáva aj strava?"
+msgid "Bude sa počas workshopu podávať aj strava?"
 msgstr "Is food provided?"
 
 #: templates/django-girls.html:41
@@ -635,9 +635,11 @@ msgstr ""
 msgid ""
 "Vstupenky si taktiež môžete kúpiť priamo na internetovej stránke "
 "%(tito_link)s v prípade, že sa Vám Tito widget nezobrazuje správne."
-msgstr "You can also buy tickets directly on the %(tito_link)s website in case the tito widget is not displayed correctly."
+msgstr ""
+"You can also buy tickets directly on the %(tito_link)s website in case "
+"the tito widget is not displayed correctly."
 
-#: templates/index.html:41
+#: templates/index.html:43
 msgid ""
 "Ak máte záujem prispieť, stať sa dobrovoľníkom, alebo akokoľvek inak "
 "pomôcť s organizáciou PyConu (ktorý je kompletne organizovaný "
@@ -647,7 +649,7 @@ msgstr ""
 " PyCon SK (which is run entirely by volunteers) we'd be happy to talk "
 "with you and discuss your ideas."
 
-#: templates/index.html:42
+#: templates/index.html:44
 #, python-format
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
@@ -1529,12 +1531,5 @@ msgid "viac o našich cieľoch"
 msgstr "more about our vision and objectives"
 
 #~ msgid ""
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Vstupenky si môžete taktiež kúpiť priamo"
-#~ " na internetových stránke %(tito_link)s v"
-#~ " prípade, že sa Vám Tito widget "
-#~ "nezobrazuje správne."
 #~ msgstr ""
 

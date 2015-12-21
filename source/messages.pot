@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-12-21 19:45+0100\n"
+"POT-Creation-Date: 2015-12-21 21:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -360,7 +360,7 @@ msgid ""
 msgstr ""
 
 #: templates/django-girls.html:40
-msgid "Bude sa počas workshopu podáva aj strava?"
+msgid "Bude sa počas workshopu podávať aj strava?"
 msgstr ""
 
 #: templates/django-girls.html:41
@@ -550,14 +550,14 @@ msgid ""
 "%(tito_link)s v prípade, že sa Vám Tito widget nezobrazuje správne."
 msgstr ""
 
-#: templates/index.html:41
+#: templates/index.html:43
 msgid ""
 "Ak máte záujem prispieť, stať sa dobrovoľníkom, alebo akokoľvek inak "
 "pomôcť s organizáciou PyConu (ktorý je kompletne organizovaný "
 "dobrovoľníkmi), budeme radi ak sa nám ozvete."
 msgstr ""
 
-#: templates/index.html:42
+#: templates/index.html:44
 #, python-format
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
