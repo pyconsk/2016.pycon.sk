@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-12-21 00:33+0100\n"
+"POT-Creation-Date: 2015-12-21 09:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -308,8 +308,8 @@ msgstr ""
 
 #: templates/django-girls.html:22
 msgid ""
-"Ak si žena vieš slovensky, alebo anglicky a máš vlastný počítač, môžeš sa"
-" prihlásiť. Nepotrebuješ žiadne predchádzajúce znalosti – workshop je "
+"Ak si žena, vieš slovensky, alebo anglicky a máš vlastný počítač, môžeš "
+"sa prihlásiť. Nepotrebuješ žiadne predchádzajúce znalosti – workshop je "
 "určený pre začiatočníčky."
 msgstr ""
 
@@ -335,7 +335,7 @@ msgstr ""
 msgid ""
 "Nič! Workshop je pre začiatočníkov a nepotrebuješ žiadne predchádzajúce "
 "skúsenosti. Na druhú stranu, určite sa môžeš prihlásiť, ak už máš nejaké "
-"základy (vieš čo je HTML alebo CSS)"
+"základy (vieš, čo je HTML alebo CSS)"
 msgstr ""
 
 #: templates/django-girls.html:34
@@ -345,7 +345,7 @@ msgstr ""
 #: templates/django-girls.html:35
 msgid ""
 "Áno. Nemáme žiadny hardvér, očakávame, že si prinesieš vlastný počítač (s"
-" nabíjačkou). Je dôležité aby si si vzala domov všetky materiály, ktoré "
+" nabíjačkou). Je dôležité, aby si si vzala domov všetky materiály, ktoré "
 "vytvoríš počas workshopu."
 msgstr ""
 
