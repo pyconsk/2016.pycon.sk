@@ -12,7 +12,8 @@
     <p class="lead">{{ _('Predaj vstupeniek bol spustený.') }} {{ _('Môžete využiť šancu zakúpiť si lístok za zvýhodnenú cenu.') }}</p>
 
     <p class="text-justify">
-      <tito-widget event="pyconsk/2016"></tito-widget>
+    <tito-widget event="pyconsk/2016"></tito-widget>
+    {{ _('Vstupenky si taktiež môžete kúpiť priamo na internetovej stránke %(tito_link)s v prípade, že sa Vám Tito widget nezobrazuje správne.', tito_link='<a href="https://ti.to/pyconsk/2016">https://ti.to/pyconsk/2016</a>'|safe) }}
     </p>
     <p class="text-justify">{{ _('Kúpou lístka vyjadrujete súhlas s dodržiavaním kódexu správania.') }}</p>
 

@@ -31,11 +31,14 @@
       <p class="image-caption"><a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">CC</a> by <a href="https://www.flickr.com/photos/jaaaarel/6967347999/" target="_blank">Taavi Burns</a></p>
     </div>
 
-    <br>
+    <hr>
     <p>
-      <a href="{{ url_for('tickets', lang_code=lang_code) }}">{{ _('Vstupenky') }}</a> {{ _('sú už v predaji, môžete si ich zakúpiť za zvýhodnenú cenu.') }} <br />
-      <tito-widget event="pyconsk/2016"></tito-widget>
+    <a href="{{ url_for('tickets', lang_code=lang_code) }}">{{ _('Vstupenky') }}</a> {{ _('sú už v predaji, môžete si ich zakúpiť za zvýhodnenú cenu.') }} <br />
+    <tito-widget event="pyconsk/2016"></tito-widget>
+    {{ _('Vstupenky si taktiež môžete kúpiť priamo na internetovej stránke %(tito_link)s v prípade, že sa Vám Tito widget nezobrazuje správne.', tito_link='<a href="https://ti.to/pyconsk/2016">https://ti.to/pyconsk/2016</a>'|safe) }}
     </p>
+
+    <hr>
 
     <p>{{ _('Ak máte záujem prispieť, stať sa dobrovoľníkom, alebo akokoľvek inak pomôcť s organizáciou PyConu (ktorý je kompletne organizovaný dobrovoľníkmi), budeme radi ak sa nám ozvete.') }}</p>
     <p>{{ _('Medzičasom sa môžete prísť pozrieť na naše pravidelné <a href="%(url)s">meetupy</a>.', url=url_for('meetup', lang_code=lang_code)) }}</p>

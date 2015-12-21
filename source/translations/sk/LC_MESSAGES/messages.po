@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-12-21 11:03+0100\n"
+"POT-Creation-Date: 2015-12-21 19:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -399,22 +399,22 @@ msgid ""
 "workshop."
 msgstr ""
 
-#: templates/getting-here.html:11
+#: templates/getting-here.html:6
 msgid "Ako sa sem dostať?"
 msgstr ""
 
-#: templates/getting-here.html:12
+#: templates/getting-here.html:7
 msgid ""
 "Ste skvelý. Už máte lístok na konferenciu a potrebujete zistiť ako sa sem"
 " dostať? Manuál na tejto stránke vysvetľuje možnosti ako prísť na "
 "konferenciu."
 msgstr ""
 
-#: templates/getting-here.html:14
+#: templates/getting-here.html:9
 msgid "Cestovanie"
 msgstr ""
 
-#: templates/getting-here.html:16
+#: templates/getting-here.html:11
 msgid ""
 "Bratislava patrí medzi najmladšie hlavné mestá Európy. Napriek tomu je to"
 " mesto s bohatou históriou slobodného kráľovského korunovačného mesta, v "
@@ -423,11 +423,11 @@ msgid ""
 " ako sa sem dostať."
 msgstr ""
 
-#: templates/getting-here.html:19
+#: templates/getting-here.html:14
 msgid "Letecky"
 msgstr ""
 
-#: templates/getting-here.html:21
+#: templates/getting-here.html:16
 msgid ""
 "Letecky môžete prísť priamo do Bratislavy, avšak viac leteckých "
 "spoločností lieta do Viedne, ktorá je vzdialená iba 60 kilomertov. Medzi "
@@ -435,11 +435,11 @@ msgid ""
 "priama autobusová linka."
 msgstr ""
 
-#: templates/getting-here.html:24
+#: templates/getting-here.html:19
 msgid "Vlakom alebo autobusom"
 msgstr ""
 
-#: templates/getting-here.html:26
+#: templates/getting-here.html:21
 msgid ""
 "Bratislava ako hlavné mesto má veľmi dobré vlakové spojenie na veľa "
 "veľkých miest v celej Európe. Všetky susedné hlavné mestá Viedň, Praha, "
@@ -447,55 +447,55 @@ msgid ""
 "autobusová doprava z okolitých krajín je bezproblémová."
 msgstr ""
 
-#: templates/getting-here.html:29
+#: templates/getting-here.html:24
 msgid "Autom"
 msgstr ""
 
-#: templates/getting-here.html:31
+#: templates/getting-here.html:26
 msgid ""
 "Z Viedňe smerom na letisko Schwechat po diaľnici A4, odbočťe na ďiaľnicu "
 "A6, ktorá vedie až na Slovensko do Bratislavy."
 msgstr ""
 
-#: templates/getting-here.html:32
+#: templates/getting-here.html:27
 msgid ""
 "Z Budapešti po diaľnici M1 smerom na Gyor, neskôr odbočte na M15 smerom "
 "na Slovensko do Bratislavy."
 msgstr ""
 
-#: templates/getting-here.html:33
+#: templates/getting-here.html:28
 msgid ""
 "Z Prahy po diaľnici D1 do Brna, tam odbočťe na D2, ktorá vedie až na "
 "Slovensko a potom do Bratislavy."
 msgstr ""
 
-#: templates/getting-here.html:34
+#: templates/getting-here.html:29
 msgid ""
 "Z Varšavy po diaľnici A1 smerom na Katowice, odťial na Slovensko do Čadce"
 " po ceste prvej triedy až do Žiliny odťiaľ po diaľnici D1 do Bratislavy."
 msgstr ""
 
-#: templates/getting-here.html:37
+#: templates/getting-here.html:32
 msgid "Po Bratislave"
 msgstr ""
 
-#: templates/getting-here.html:39
+#: templates/getting-here.html:34
 msgid "Ako sa odsať na konferenciu. Parkovacích miest bude dosť."
 msgstr ""
 
-#: templates/getting-here.html:42
+#: templates/getting-here.html:37
 msgid "MHD"
 msgstr ""
 
-#: templates/getting-here.html:44
+#: templates/getting-here.html:39
 msgid "Cestovné lístky. Električky, autobus."
 msgstr ""
 
-#: templates/getting-here.html:47
+#: templates/getting-here.html:42
 msgid "Sprievodca"
 msgstr ""
 
-#: templates/getting-here.html:49
+#: templates/getting-here.html:44
 #, python-format
 msgid ""
 "'Vedeli ste že, Bratislava je mesto, kde nájdete ozajstný život? Ak ste "
@@ -508,11 +508,11 @@ msgid ""
 "pre návštevníkov</a>, kde nájdete aj udalosti, ktoré sa práve odohrávajú."
 msgstr ""
 
-#: templates/getting-here.html:52
+#: templates/getting-here.html:47
 msgid "Ubytovanie"
 msgstr ""
 
-#: templates/getting-here.html:54
+#: templates/getting-here.html:49
 msgid ""
 "Väčšina rečníkov, bude ubytovaných v hotely Ibis v centre Bratislavy. "
 "Pokiaľ by ste mali záujem o ubytovanie, vieme niekoľkým návštevníkom "
@@ -545,14 +545,21 @@ msgstr ""
 msgid "sú už v predaji, môžete si ich zakúpiť za zvýhodnenú cenu."
 msgstr ""
 
-#: templates/index.html:40
+#: templates/index.html:38 templates/tickets.html:16
+#, python-format
+msgid ""
+"Vstupenky si taktiež môžete kúpiť priamo na internetovej stránke "
+"%(tito_link)s v prípade, že sa Vám Tito widget nezobrazuje správne."
+msgstr ""
+
+#: templates/index.html:41
 msgid ""
 "Ak máte záujem prispieť, stať sa dobrovoľníkom, alebo akokoľvek inak "
 "pomôcť s organizáciou PyConu (ktorý je kompletne organizovaný "
 "dobrovoľníkmi), budeme radi ak sa nám ozvete."
 msgstr ""
 
-#: templates/index.html:41
+#: templates/index.html:42
 #, python-format
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
@@ -1106,128 +1113,128 @@ msgstr ""
 msgid "Môžete využiť šancu zakúpiť si lístok za zvýhodnenú cenu."
 msgstr ""
 
-#: templates/tickets.html:17
+#: templates/tickets.html:18
 msgid "Kúpou lístka vyjadrujete súhlas s dodržiavaním kódexu správania."
 msgstr ""
 
-#: templates/tickets.html:19
+#: templates/tickets.html:20
 msgid "Kde sa uskutoční konferencia?"
 msgstr ""
 
-#: templates/tickets.html:27
+#: templates/tickets.html:28
 msgid "Ako sa dostať na FIIT STU"
 msgstr ""
 
-#: templates/tickets.html:27
+#: templates/tickets.html:28
 msgid "Ako sa tam dostať"
 msgstr ""
 
-#: templates/tickets.html:30
+#: templates/tickets.html:31
 msgid "Aký lístok si mám kúpiť?"
 msgstr ""
 
-#: templates/tickets.html:32
+#: templates/tickets.html:33
 msgid "Supporter"
 msgstr ""
 
-#: templates/tickets.html:32
+#: templates/tickets.html:33
 msgid ""
 "Lístok je určený pre účastníkov, ktorí chcú aby ich meno (firma) bolo "
 "zverejnené v zozname podporovateľov na našom webe."
 msgstr ""
 
-#: templates/tickets.html:33
+#: templates/tickets.html:34
 msgid "Standard"
 msgstr ""
 
-#: templates/tickets.html:33
+#: templates/tickets.html:34
 msgid "Lístok je určený pre všetkých účastníkov konferencie."
 msgstr ""
 
-#: templates/tickets.html:34
+#: templates/tickets.html:35
 msgid "Student"
 msgstr ""
 
-#: templates/tickets.html:34
+#: templates/tickets.html:35
 msgid ""
 "Lístok je určený pre študentov. Nezabudnite si so sebou na registráciu "
 "priniesť platný študentský preukaz (ISIC)."
 msgstr ""
 
-#: templates/tickets.html:37
+#: templates/tickets.html:38
 msgid "Je aj iná možnosť ako sa dostať na PyCon?"
 msgstr ""
 
-#: templates/tickets.html:39
+#: templates/tickets.html:40
 msgid ""
 "Spustili sme štipendijný program, ktorý umožní niektorým návštevníkom "
 "prísť na PyCon zadarmo. Napíšte nám, prečo by sme práve Vám mali dať "
 "vstupenku."
 msgstr ""
 
-#: templates/tickets.html:40
+#: templates/tickets.html:41
 msgid ""
 "Ak máte menej ako 18 rokov a prídete v sprievode rodiča, stačí ak si "
 "lístok zakúpi iba rodič, no musíte sa nám ozvať aby sme vystavili "
 "vstupenku aj pre dieťa."
 msgstr ""
 
-#: templates/tickets.html:41
+#: templates/tickets.html:42
 msgid ""
 "Pre sociálne znevýhodnených účastníkov máme pripravený grantový program. "
 "Napíšte nám ak máte záujem sa ho zúčastniť."
 msgstr ""
 
-#: templates/tickets.html:44
+#: templates/tickets.html:45
 msgid "Čo všetko mám v lístku?"
 msgstr ""
 
-#: templates/tickets.html:47
+#: templates/tickets.html:48
 msgid "Dva dni prednášok."
 msgstr ""
 
-#: templates/tickets.html:48
+#: templates/tickets.html:49
 msgid "Obed počas oboch dní konferencie."
 msgstr ""
 
-#: templates/tickets.html:49
+#: templates/tickets.html:50
 msgid "Kávu a koláčik počas prestávok."
 msgstr ""
 
-#: templates/tickets.html:50
+#: templates/tickets.html:51
 msgid "Tričko a tašku plnú prekvapení."
 msgstr ""
 
-#: templates/tickets.html:51
+#: templates/tickets.html:52
 msgid "Pozvánka na piatkovú neformálnu party."
 msgstr ""
 
-#: templates/tickets.html:55
+#: templates/tickets.html:56
 msgid "Ponúkate množstevné zľavy?"
 msgstr ""
 
-#: templates/tickets.html:57
+#: templates/tickets.html:58
 msgid ""
 "Ak máte záujem kúpiť viac ako 10 lístkov kontaktujete nás emailom na "
 "info@pycon.sk."
 msgstr ""
 
-#: templates/tickets.html:60
+#: templates/tickets.html:61
 msgid "Nemám PayPal, je možné kúpiť vstupenku inak ako cez Tito?"
 msgstr ""
 
-#: templates/tickets.html:62
+#: templates/tickets.html:63
 msgid ""
 "Akceptujeme aj bankový prevod, prípadne Bitcoin. Napíšte nám, o aké "
 "lístky máte záujem a po pripísaní sumy na náš účet Vám vystavíme a "
 "pošleme emailom vstupenku."
 msgstr ""
 
-#: templates/tickets.html:65
+#: templates/tickets.html:66
 msgid "Kam idú všetky peniaze za lístky?"
 msgstr ""
 
-#: templates/tickets.html:67
+#: templates/tickets.html:68
 msgid ""
 "PyCon je kompletne organizovaný dobrovoľníkmi. Veríme, že organizovať "
 "takéto konferencie je potrebné, aby propagovali programovanie a Open "
@@ -1238,11 +1245,11 @@ msgid ""
 "programovania všeobecne, prečítajte si"
 msgstr ""
 
-#: templates/tickets.html:67
+#: templates/tickets.html:68
 msgid "ciele SPy o.z."
 msgstr ""
 
-#: templates/tickets.html:67
+#: templates/tickets.html:68
 msgid "viac o našich cieľoch"
 msgstr ""
 
@@ -1250,10 +1257,9 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Nemohli by sme tu byť bez podpori"
-#~ " od úžasných ľudí a spoločností, "
-#~ "ktorí poskytli peniaze, vedomosti a svoj"
-#~ " čas, aby nám pomohli uskutočniť "
-#~ "tento workshop."
+#~ "Vstupenky si môžete taktiež kúpiť priamo"
+#~ " na internetových stránke %(tito_link)s v"
+#~ " prípade, že sa Vám Tito widget "
+#~ "nezobrazuje správne."
 #~ msgstr ""
 
