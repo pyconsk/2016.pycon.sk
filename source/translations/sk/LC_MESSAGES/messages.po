@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-12-21 21:42+0100\n"
+"POT-Creation-Date: 2015-12-22 12:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -279,8 +279,8 @@ msgstr ""
 
 #: templates/django-girls.html:7
 msgid ""
-"Vytvor si vlastnú web aplikáciu. Workshop pre ženy, kde sa naučíš "
-"programovať."
+"Vytvor si vlastnú web aplikáciu. Workshop pre ženy, na ktorom sa naučíš "
+"programovať v Pythone."
 msgstr ""
 
 #: templates/django-girls.html:16
@@ -1257,5 +1257,11 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Bude sa počas workshopu podáva aj strava?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Vytvor si vlastnú web aplikáciu. "
+#~ "Workshop pre ženy, na ktorom sa "
+#~ "naučíš programovať."
 #~ msgstr ""
 
