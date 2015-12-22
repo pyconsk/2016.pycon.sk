@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-12-22 12:14+0100\n"
+"POT-Creation-Date: 2015-12-22 12:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -972,10 +972,14 @@ msgid "Django Girls sponzori"
 msgstr ""
 
 #: templates/sponsors.html:179
+msgid "Mediálni partneri"
+msgstr ""
+
+#: templates/sponsors.html:217
 msgid "Partneri konferencie"
 msgstr ""
 
-#: templates/sponsors.html:192
+#: templates/sponsors.html:230
 msgid ""
 "Fakulta informatiky a informačných technológií (FIIT) je jednou zo "
 "siedmich fakúlt Slovenskej technickej univerzity v Bratislave (STU). FIIT"
@@ -984,7 +988,7 @@ msgid ""
 "poslaním."
 msgstr ""
 
-#: templates/sponsors.html:205
+#: templates/sponsors.html:243
 msgid ""
 "Cieľom tohto portálu je informovať. Informuje dievčatá, ich rodičov, "
 "verejnosť o tom, že vo svete IT je skvelé mať ženy. Prináša profily "
@@ -994,7 +998,7 @@ msgid ""
 "akciách pre dievčatá, kam sa môžu pridať."
 msgstr ""
 
-#: templates/sponsors.html:218
+#: templates/sponsors.html:256
 msgid ""
 "Našim cieľom je poskytovať inovatívnu platformu pre stretávanie sa s "
 "ľuďmi a výmenu informácií pre tých, ktorí sa zaujímajú o hacking, 3D "
@@ -1347,11 +1351,5 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Bude sa počas workshopu podáva aj strava?"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Vytvor si vlastnú web aplikáciu. "
-#~ "Workshop pre ženy, na ktorom sa "
-#~ "naučíš programovať."
 #~ msgstr ""
 
