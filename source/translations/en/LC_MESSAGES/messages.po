@@ -621,8 +621,7 @@ msgid ""
 "workshop, ktorý bude vhodný aj pre úplné začiatočníčky."
 msgstr ""
 "We are happy to announce that apart from two days of interesting talks, "
-"we will be organizing workshops that will be suitable for absolute "
-"beginners."
+"we will be organizing a <a href=\"%(url)s\">Django Girls</a> workshop, which will be suitable for absolute beginners."
 
 #: templates/index.html:36
 msgid "sú už v predaji, môžete si ich zakúpiť za zvýhodnenú cenu."
