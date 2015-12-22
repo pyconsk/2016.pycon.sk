@@ -1228,6 +1228,7 @@ msgid ""
 "zaujímavých pozíciach v rôznych spoločnostiach.Prináša informácie o "
 "akciách pre dievčatá, kam sa môžu pridať."
 msgstr ""
+"The aim of AJ Ty v IT is to attract more young girls into IT study and bring them information about possibilities they have in IT sector. The AJ Ty v IT portal informs girls, their parents, and the public about the importance and the positive impact of having women in IT.  Girls can also find information and sign up to events and workshops that are happening in their region."
 
 #: templates/sponsors.html:256
 msgid ""
