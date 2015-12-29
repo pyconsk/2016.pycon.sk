@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-12-22 12:45+0100\n"
+"POT-Creation-Date: 2015-12-29 20:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -128,17 +128,15 @@ msgstr "PyCon is coming to Slovakia!"
 
 #: templates/body.html:9 templates/body.html:17 templates/body.html:21
 msgid ""
-"Nenechaj si újsť prvý PyCon SK - 11-13.03.2016 v Bratislave. Teraz si "
-"môžeš kúpiť vstupenky za zvyhodnenú cenu."
-msgstr ""
-"Do not miss the very first PyCon SK - 11-13.03.2016 in Bratislava. Buy "
-"your early bird ticket now!"
+"Nenechaj si újsť prvý PyCon SK - 11-13.03.2016 v Bratislave. Využi "
+"poslednú šancu a kúp si vstupenky za zvyhodnenú cenu."
+msgstr "Do not miss the very first PyCon SK - 11-13.03.2016 in Bratislava. Buy your ticket now!"
 
 #: templates/body.html:42
 msgid "Preskočiť na hlavný obsah"
 msgstr "Back to home page"
 
-#: templates/body.html:59 templates/index.html:36 templates/tickets.html:11
+#: templates/body.html:59 templates/tickets.html:11
 msgid "Vstupenky"
 msgstr "Tickets"
 
@@ -625,10 +623,14 @@ msgstr ""
 "which will be suitable for absolute beginners."
 
 #: templates/index.html:36
-msgid "sú už v predaji, môžete si ich zakúpiť za zvýhodnenú cenu."
-msgstr ""
-"We have launched the ticket presale, you can buy specially priced early "
-"bird tickets."
+msgid "Vstupenky sú už v predaji."
+msgstr "The tickets are on sale now."
+
+#: templates/index.html:36 templates/tickets.html:12
+msgid ""
+"Do <strong>24. januára 2016</strong> môžete využiť šancu zakúpiť si "
+"lístok za zvýhodnenú cenu."
+msgstr "You have the opportunity to purchase discounted tickets until <strong>Sunday, January 24, 2016</strong>!"
 
 #: templates/index.html:38 templates/tickets.html:16
 #, python-format
@@ -1228,7 +1230,12 @@ msgid ""
 "zaujímavých pozíciach v rôznych spoločnostiach.Prináša informácie o "
 "akciách pre dievčatá, kam sa môžu pridať."
 msgstr ""
-"The aim of AJ Ty v IT is to attract more young girls into IT study and bring them information about possibilities they have in IT sector. The AJ Ty v IT portal informs girls, their parents, and the public about the importance and the positive impact of having women in IT.  Girls can also find information and sign up to events and workshops that are happening in their region."
+"The aim of AJ Ty v IT is to attract more young girls into IT study and "
+"bring them information about possibilities they have in IT sector. The AJ"
+" Ty v IT portal informs girls, their parents, and the public about the "
+"importance and the positive impact of having women in IT.  Girls can also"
+" find information and sign up to events and workshops that are happening "
+"in their region."
 
 #: templates/sponsors.html:256
 msgid ""
@@ -1365,10 +1372,6 @@ msgstr ""
 #: templates/tickets.html:12
 msgid "Predaj vstupeniek bol spustený."
 msgstr "Registration is now open."
-
-#: templates/tickets.html:12
-msgid "Môžete využiť šancu zakúpiť si lístok za zvýhodnenú cenu."
-msgstr "You have the opportunity to purchase discounted tickets!"
 
 #: templates/tickets.html:18
 msgid "Kúpou lístka vyjadrujete súhlas s dodržiavaním kódexu správania."
@@ -1534,7 +1537,4 @@ msgstr "objectives of SPy."
 #: templates/tickets.html:68
 msgid "viac o našich cieľoch"
 msgstr "more about our vision and objectives"
-
-#~ msgid ""
-#~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-12-22 12:45+0100\n"
+"POT-Creation-Date: 2015-12-29 20:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -129,15 +129,15 @@ msgstr ""
 
 #: templates/body.html:9 templates/body.html:17 templates/body.html:21
 msgid ""
-"Nenechaj si újsť prvý PyCon SK - 11-13.03.2016 v Bratislave. Teraz si "
-"môžeš kúpiť vstupenky za zvyhodnenú cenu."
+"Nenechaj si újsť prvý PyCon SK - 11-13.03.2016 v Bratislave. Využi "
+"poslednú šancu a kúp si vstupenky za zvyhodnenú cenu."
 msgstr ""
 
 #: templates/body.html:42
 msgid "Preskočiť na hlavný obsah"
 msgstr ""
 
-#: templates/body.html:59 templates/index.html:36 templates/tickets.html:11
+#: templates/body.html:59 templates/tickets.html:11
 msgid "Vstupenky"
 msgstr ""
 
@@ -542,7 +542,13 @@ msgid ""
 msgstr ""
 
 #: templates/index.html:36
-msgid "sú už v predaji, môžete si ich zakúpiť za zvýhodnenú cenu."
+msgid "Vstupenky sú už v predaji."
+msgstr ""
+
+#: templates/index.html:36 templates/tickets.html:12
+msgid ""
+"Do <strong>24. januára 2016</strong> môžete využiť šancu zakúpiť si "
+"lístok za zvýhodnenú cenu."
 msgstr ""
 
 #: templates/index.html:38 templates/tickets.html:16
@@ -1113,10 +1119,6 @@ msgstr ""
 msgid "Predaj vstupeniek bol spustený."
 msgstr ""
 
-#: templates/tickets.html:12
-msgid "Môžete využiť šancu zakúpiť si lístok za zvýhodnenú cenu."
-msgstr ""
-
 #: templates/tickets.html:18
 msgid "Kúpou lístka vyjadrujete súhlas s dodržiavaním kódexu správania."
 msgstr ""
@@ -1351,5 +1353,18 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Bude sa počas workshopu podáva aj strava?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Nenechaj si újsť prvý PyCon SK -"
+#~ " 11-13.03.2016 v Bratislave. Teraz si "
+#~ "môžeš kúpiť vstupenky za zvyhodnenú "
+#~ "cenu."
+#~ msgstr ""
+
+#~ msgid "sú už v predaji, môžete si ich zakúpiť za zvýhodnenú cenu."
+#~ msgstr ""
+
+#~ msgid "Môžete využiť šancu zakúpiť si lístok za zvýhodnenú cenu."
 #~ msgstr ""
 
