@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-12-29 20:27+0100\n"
+"POT-Creation-Date: 2015-12-31 08:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -289,8 +289,8 @@ msgstr ""
 msgid ""
 "Ak si dievča a chceš sa naučiť, ako vyvíjať web stránky, máme pre teba "
 "dobrú správu. Organizujeme jednodňový workshop pre začiatočníčky! "
-"Uskutoční sa 13. marca 2016 v Bratislave, počas prvého PyConu na "
-"Slovenku."
+"Uskutoční sa v <strong>nedeľu, 13. marca 2016 v Bratislave</strong>, "
+"počas prvého PyConu na Slovensku."
 msgstr ""
 
 #: templates/django-girls.html:18
@@ -300,6 +300,13 @@ msgid ""
 " zdarma</b>, no ak si napriek tomu nemôžeš dovoliť prísť, ale si "
 "motivovaná sa učiť a následne zdieľať svoje vedomosti, máme pre teba "
 "grantový program na cestovné a ubytovanie."
+msgstr ""
+
+#: templates/django-girls.html:18
+#, python-format
+msgid ""
+"Ak sa chceš zúčastniť aj na konferencii v piatok resp. v sobotu je "
+"potrebné si zakúpiť <a href=\"%(url)s\">vstupenku</a>."
 msgstr ""
 
 #: templates/django-girls.html:21

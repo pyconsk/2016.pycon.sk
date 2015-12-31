@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-12-29 20:27+0100\n"
+"POT-Creation-Date: 2015-12-31 08:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -130,7 +130,9 @@ msgstr "PyCon is coming to Slovakia!"
 msgid ""
 "Nenechaj si újsť prvý PyCon SK - 11-13.03.2016 v Bratislave. Využi "
 "poslednú šancu a kúp si vstupenky za zvyhodnenú cenu."
-msgstr "Do not miss the very first PyCon SK - 11-13.03.2016 in Bratislava. Buy your ticket now!"
+msgstr ""
+"Do not miss the very first PyCon SK - 11-13.03.2016 in Bratislava. Buy "
+"your ticket now!"
 
 #: templates/body.html:42
 msgid "Preskočiť na hlavný obsah"
@@ -328,13 +330,13 @@ msgstr "About workshop"
 msgid ""
 "Ak si dievča a chceš sa naučiť, ako vyvíjať web stránky, máme pre teba "
 "dobrú správu. Organizujeme jednodňový workshop pre začiatočníčky! "
-"Uskutoční sa 13. marca 2016 v Bratislave, počas prvého PyConu na "
-"Slovenku."
+"Uskutoční sa v <strong>nedeľu, 13. marca 2016 v Bratislave</strong>, "
+"počas prvého PyConu na Slovensku."
 msgstr ""
 "If you are a female and you want to learn how to make websites, we have "
 "good news for you! We are holding a one-day workshop for beginners! The "
-"workshop will take place on 13th of March in Bratislava, during the "
-"inaugural PyCon."
+"workshop will take place on <strong>Sunday, 13th of March in Bratislava</strong>, during the "
+"inaugural PyCon Slovakia."
 
 #: templates/django-girls.html:18
 msgid ""
@@ -350,6 +352,13 @@ msgstr ""
 " charge</b> and if you can’t afford come, but you are very motivated to "
 "learn and then share your knowledge with others, we have some funds to "
 "help you out with your travel costs and accommodation."
+
+#: templates/django-girls.html:18
+#, python-format
+msgid ""
+"Ak sa chceš zúčastniť aj na konferencii v piatok resp. v sobotu je "
+"potrebné si zakúpiť <a href=\"%(url)s\">vstupenku</a>."
+msgstr "If you would like to attend the conference on Friday or/and Saturday it is necessary to buy a <a href=\"%(url)s\">ticket</a>."
 
 #: templates/django-girls.html:21
 msgid "Prihlás sa"
@@ -630,7 +639,9 @@ msgstr "The tickets are on sale now."
 msgid ""
 "Do <strong>24. januára 2016</strong> môžete využiť šancu zakúpiť si "
 "lístok za zvýhodnenú cenu."
-msgstr "You have the opportunity to purchase discounted tickets until <strong>Sunday, January 24, 2016</strong>!"
+msgstr ""
+"You have the opportunity to purchase discounted tickets until "
+"<strong>Sunday, January 24, 2016</strong>!"
 
 #: templates/index.html:38 templates/tickets.html:16
 #, python-format
