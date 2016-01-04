@@ -60,7 +60,8 @@
 
     <h3>{{ _('Nemám PayPal, je možné kúpiť vstupenku inak ako cez Tito?') }}</h3>
     <p class="text-justify">
-      {{ _('Akceptujeme aj bankový prevod, prípadne Bitcoin. Napíšte nám, o aké lístky máte záujem a po pripísaní sumy na náš účet Vám vystavíme a pošleme emailom vstupenku.') }}
+      {{ _('Akceptujeme aj bankový prevod, prípadne Bitcoin. Napíšte nám, o aké lístky máte záujem, zašleme Vám variabilný symbol a po pripísaní sumy na náš účet Vám vystavíme a pošleme emailom vstupenku.') }}<br />
+      {{ _('Bankové spojenie nájdete na stránkach') }} <a href="{{ url_for('spy', lang_code=lang_code) }}" title="{{ _('SPy o.z.') }}">{{ _('našeho občianského združenia') }}</a>.
     </p> 
 
     <h3>{{ _('Kam idú všetky peniaze za lístky?') }}</h3>

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-12-31 08:44+0100\n"
+"POT-Creation-Date: 2016-01-04 15:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -335,8 +335,8 @@ msgid ""
 msgstr ""
 "If you are a female and you want to learn how to make websites, we have "
 "good news for you! We are holding a one-day workshop for beginners! The "
-"workshop will take place on <strong>Sunday, 13th of March in Bratislava</strong>, during the "
-"inaugural PyCon Slovakia."
+"workshop will take place on <strong>Sunday, 13th of March in "
+"Bratislava</strong>, during the inaugural PyCon Slovakia."
 
 #: templates/django-girls.html:18
 msgid ""
@@ -358,7 +358,9 @@ msgstr ""
 msgid ""
 "Ak sa chceš zúčastniť aj na konferencii v piatok resp. v sobotu je "
 "potrebné si zakúpiť <a href=\"%(url)s\">vstupenku</a>."
-msgstr "If you would like to attend the conference on Friday or/and Saturday it is necessary to buy a <a href=\"%(url)s\">ticket</a>."
+msgstr ""
+"If you would like to attend the conference on Friday or/and Saturday it "
+"is necessary to buy a <a href=\"%(url)s\">ticket</a>."
 
 #: templates/django-girls.html:21
 msgid "Prihlás sa"
@@ -1322,46 +1324,40 @@ msgid "IČO"
 msgstr "ID"
 
 #: templates/spy.html:22
-msgid "Číslo účtu"
-msgstr "Bank account"
+msgid "Adresa"
+msgstr "Address"
+
+#: templates/spy.html:22
+msgid "Slovenská Republika"
+msgstr "Slovak Republic"
 
 #: templates/spy.html:23
-msgid "IBAN"
-msgstr ""
+msgid "Názov účtu"
+msgstr "Account name"
 
 #: templates/spy.html:24
+msgid "Názov banky"
+msgstr "Bank name"
+
+#: templates/spy.html:25
+msgid "Číslo účtu EUR (SK)"
+msgstr "Bank account EUR (SK)"
+
+#: templates/spy.html:26
+msgid "Číslo účtu EUR (CZ)"
+msgstr "Bank account EUR (CZ)"
+
+#: templates/spy.html:27
+msgid "Číslo účtu EUR (IBAN / medzinárodné)"
+msgstr "Bank account EUR (IBAN / international)"
+
+#: templates/spy.html:28
 msgid "SWIFT/BIC"
 msgstr ""
 
-#: templates/spy.html:25
+#: templates/spy.html:29
 msgid "Stanovy"
 msgstr "Bylaws"
-
-#: templates/spy.html:29
-msgid "Ak sa chceš stať našim členom, vyplň nasledujúci formulár:"
-msgstr ""
-"If you would like to become our member, please fill out the following "
-"form:"
-
-#: templates/spy.html:33
-msgid "Tvoje meno"
-msgstr "Your name"
-
-#: templates/spy.html:36
-msgid "Tvoj e-mail"
-msgstr "Your e-mail"
-
-#: templates/spy.html:39
-msgid "Niečo o tebe"
-msgstr "Something about you"
-
-#: templates/spy.html:42
-msgid "Odoslané údaje sa nikde nezverejňujú."
-msgstr "Submitted data are never disclosed."
-
-#: templates/spy.html:44
-msgid "Odoslať registráciu"
-msgstr "Submit registration"
 
 #: templates/thank-you.html:5
 msgid "Ďakujeme za záujem"
@@ -1511,18 +1507,30 @@ msgstr "I don't use PayPal, is there any other way to buy a ticket?"
 #: templates/tickets.html:63
 msgid ""
 "Akceptujeme aj bankový prevod, prípadne Bitcoin. Napíšte nám, o aké "
-"lístky máte záujem a po pripísaní sumy na náš účet Vám vystavíme a "
-"pošleme emailom vstupenku."
+"lístky máte záujem, zašleme Vám variabilný symbol a po pripísaní sumy na "
+"náš účet Vám vystavíme a pošleme emailom vstupenku."
 msgstr ""
 "We also accept wire transfer, or Bitcoin. Please send us a list of "
-"tickets you are interested in and after we receive the payment, we will "
+"tickets you are interested in, we will send you variable symbol and after we receive the payment, we will "
 "issue and send the requested tickets to you by email."
 
-#: templates/tickets.html:66
+#: templates/tickets.html:64
+msgid "Bankové spojenie nájdete na stránkach"
+msgstr "Bank details are listed on pages of "
+
+#: templates/tickets.html:64
+msgid "SPy o.z."
+msgstr "SPy o.z."
+
+#: templates/tickets.html:64
+msgid "našeho občianského združenia"
+msgstr "our civic association"
+
+#: templates/tickets.html:67
 msgid "Kam idú všetky peniaze za lístky?"
 msgstr "Where does the money from tickets go?"
 
-#: templates/tickets.html:68
+#: templates/tickets.html:69
 msgid ""
 "PyCon je kompletne organizovaný dobrovoľníkmi. Veríme, že organizovať "
 "takéto konferencie je potrebné, aby propagovali programovanie a Open "
@@ -1541,11 +1549,38 @@ msgstr ""
 "association was created to support Python and programming in general, you"
 " can read "
 
-#: templates/tickets.html:68
+#: templates/tickets.html:69
 msgid "ciele SPy o.z."
 msgstr "objectives of SPy."
 
-#: templates/tickets.html:68
+#: templates/tickets.html:69
 msgid "viac o našich cieľoch"
 msgstr "more about our vision and objectives"
+
+#~ msgid "IBAN"
+#~ msgstr ""
+
+#~ msgid "Ak sa chceš stať našim členom, vyplň nasledujúci formulár:"
+#~ msgstr ""
+
+#~ msgid "Tvoje meno"
+#~ msgstr "Your name"
+
+#~ msgid "Tvoj e-mail"
+#~ msgstr "Your e-mail"
+
+#~ msgid "Niečo o tebe"
+#~ msgstr "Something about you"
+
+#~ msgid "Odoslané údaje sa nikde nezverejňujú."
+#~ msgstr "Submitted data are never disclosed."
+
+#~ msgid "Odoslať registráciu"
+#~ msgstr "Submit registration"
+
+#~ msgid "Slovak Republic"
+#~ msgstr ""
+
+#~ msgid "Číslo účtu EUR (IBAN / international)"
+#~ msgstr ""
 

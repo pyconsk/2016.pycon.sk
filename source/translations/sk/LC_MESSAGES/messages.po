@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-12-31 08:44+0100\n"
+"POT-Creation-Date: 2016-01-04 15:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -1074,43 +1074,39 @@ msgid "IČO"
 msgstr ""
 
 #: templates/spy.html:22
-msgid "Číslo účtu"
+msgid "Adresa"
+msgstr ""
+
+#: templates/spy.html:22
+msgid "Slovenská Republika"
 msgstr ""
 
 #: templates/spy.html:23
-msgid "IBAN"
+msgid "Názov účtu"
 msgstr ""
 
 #: templates/spy.html:24
-msgid "SWIFT/BIC"
+msgid "Názov banky"
 msgstr ""
 
 #: templates/spy.html:25
-msgid "Stanovy"
+msgid "Číslo účtu EUR (SK)"
+msgstr ""
+
+#: templates/spy.html:26
+msgid "Číslo účtu EUR (CZ)"
+msgstr ""
+
+#: templates/spy.html:27
+msgid "Číslo účtu EUR (IBAN / medzinárodné)"
+msgstr ""
+
+#: templates/spy.html:28
+msgid "SWIFT/BIC"
 msgstr ""
 
 #: templates/spy.html:29
-msgid "Ak sa chceš stať našim členom, vyplň nasledujúci formulár:"
-msgstr ""
-
-#: templates/spy.html:33
-msgid "Tvoje meno"
-msgstr ""
-
-#: templates/spy.html:36
-msgid "Tvoj e-mail"
-msgstr ""
-
-#: templates/spy.html:39
-msgid "Niečo o tebe"
-msgstr ""
-
-#: templates/spy.html:42
-msgid "Odoslané údaje sa nikde nezverejňujú."
-msgstr ""
-
-#: templates/spy.html:44
-msgid "Odoslať registráciu"
+msgid "Stanovy"
 msgstr ""
 
 #: templates/thank-you.html:5
@@ -1245,15 +1241,27 @@ msgstr ""
 #: templates/tickets.html:63
 msgid ""
 "Akceptujeme aj bankový prevod, prípadne Bitcoin. Napíšte nám, o aké "
-"lístky máte záujem a po pripísaní sumy na náš účet Vám vystavíme a "
-"pošleme emailom vstupenku."
+"lístky máte záujem, zašleme Vám variabilný symbol a po pripísaní sumy na "
+"náš účet Vám vystavíme a pošleme emailom vstupenku."
 msgstr ""
 
-#: templates/tickets.html:66
+#: templates/tickets.html:64
+msgid "Bankové spojenie nájdete na stránkach"
+msgstr ""
+
+#: templates/tickets.html:64
+msgid "SPy o.z."
+msgstr ""
+
+#: templates/tickets.html:64
+msgid "našeho občianského združenia"
+msgstr ""
+
+#: templates/tickets.html:67
 msgid "Kam idú všetky peniaze za lístky?"
 msgstr ""
 
-#: templates/tickets.html:68
+#: templates/tickets.html:69
 msgid ""
 "PyCon je kompletne organizovaný dobrovoľníkmi. Veríme, že organizovať "
 "takéto konferencie je potrebné, aby propagovali programovanie a Open "
@@ -1264,11 +1272,11 @@ msgid ""
 "programovania všeobecne, prečítajte si"
 msgstr ""
 
-#: templates/tickets.html:68
+#: templates/tickets.html:69
 msgid "ciele SPy o.z."
 msgstr ""
 
-#: templates/tickets.html:68
+#: templates/tickets.html:69
 msgid "viac o našich cieľoch"
 msgstr ""
 
@@ -1284,12 +1292,33 @@ msgstr ""
 #~ msgid "Môžete využiť šancu zakúpiť si lístok za zvýhodnenú cenu."
 #~ msgstr ""
 
-#~ msgid ""
-#~ "Ak si dievča a chceš sa naučiť,"
-#~ " ako vyvíjať web stránky, máme pre"
-#~ " teba dobrú správu. Organizujeme jednodňový"
-#~ " workshop pre začiatočníčky! Uskutoční sa"
-#~ " 13. marca 2016 v Bratislave, počas"
-#~ " prvého PyConu na Slovenku."
+#~ msgid "Číslo účtu"
+#~ msgstr ""
+
+#~ msgid "IBAN"
+#~ msgstr ""
+
+#~ msgid "Ak sa chceš stať našim členom, vyplň nasledujúci formulár:"
+#~ msgstr ""
+
+#~ msgid "Tvoje meno"
+#~ msgstr ""
+
+#~ msgid "Tvoj e-mail"
+#~ msgstr ""
+
+#~ msgid "Niečo o tebe"
+#~ msgstr ""
+
+#~ msgid "Odoslané údaje sa nikde nezverejňujú."
+#~ msgstr ""
+
+#~ msgid "Odoslať registráciu"
+#~ msgstr ""
+
+#~ msgid "Slovak Republic"
+#~ msgstr ""
+
+#~ msgid "Číslo účtu EUR (IBAN / international)"
 #~ msgstr ""
 
