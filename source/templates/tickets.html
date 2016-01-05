@@ -53,6 +53,16 @@
       </ul>
     </p>
 
+    <h3>{{ _('Aký bude program konferencie?') }}</h3>
+    <p class="text-justify">
+      <ul>
+        <li>{{ _('Piatok') }} - {{ _('prednášky v slovenčine, resp. češtine') }}.</li>
+        <li>{{ _('Sobota') }} - {{ _('prednášky v angličtine') }}.</li>
+        <li>{{ _('Nedeľa') }} - {{ _('<a href="%(url)s">Django Girls</a> workshop (samostatná registrácia, PyCon SK lístok nie je potrebný)', url=url_for('django_girls', lang_code=lang_code)) }}.</li>
+      </ul>
+      {{ _('Podrobný program konferencie zverejníme už čoskoro.') }}
+    </p>
+
     <h3>{{ _('Ponúkate množstevné zľavy?') }}</h3>
     <p class="text-justify">
       {{ _('Ak máte záujem kúpiť viac ako 10 lístkov kontaktujete nás emailom na info@pycon.sk.') }}

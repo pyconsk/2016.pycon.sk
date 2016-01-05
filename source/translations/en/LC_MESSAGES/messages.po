@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-04 15:14+0100\n"
+"POT-Creation-Date: 2016-01-05 22:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -626,12 +626,13 @@ msgstr ""
 #, python-format
 msgid ""
 "Veľmi sa tešíme, že vám môžeme oznámiť, že okrem dvoch dní zaujímavých "
-"prednášok, budeme organizovať aj <a href=\"%(url)s\">Django Girls</a> "
-"workshop, ktorý bude vhodný aj pre úplné začiatočníčky."
+"prednášok (piatok - slovenský deň, sobota - anglický deň), budeme "
+"organizovať aj <a href=\"%(url)s\">Django Girls</a> workshop (nedeľa), "
+"ktorý bude vhodný aj pre úplné začiatočníčky."
 msgstr ""
-"We are happy to announce that apart from two days of interesting talks, "
-"we will be organizing a <a href=\"%(url)s\">Django Girls</a> workshop, "
-"which will be suitable for absolute beginners."
+"We are happy to announce that apart from two days of interesting talks (Friday - Slovak day, Saturday - English day), "
+"we will be organizing a <a href=\"%(url)s\">Django Girls</a> workshop "
+"(Sunday), which will be suitable for absolute beginners."
 
 #: templates/index.html:36
 msgid "Vstupenky sú už v predaji."
@@ -1489,10 +1490,47 @@ msgid "Pozvánka na piatkovú neformálnu party."
 msgstr "invitation for Friday's informal party"
 
 #: templates/tickets.html:56
+msgid "Aký bude program konferencie?"
+msgstr "What will the conference program look like?"
+
+#: templates/tickets.html:59
+msgid "Piatok"
+msgstr "Friday"
+
+#: templates/tickets.html:59
+msgid "prednášky v slovenčine, resp. češtine"
+msgstr "talks in Slovak or Czech"
+
+#: templates/tickets.html:60
+msgid "Sobota"
+msgstr "Saturday"
+
+#: templates/tickets.html:60
+msgid "prednášky v angličtine"
+msgstr "talks in English"
+
+#: templates/tickets.html:61
+msgid "Nedeľa"
+msgstr "Sunday"
+
+#: templates/tickets.html:61
+#, python-format
+msgid ""
+"<a href=\"%(url)s\">Django Girls</a> workshop (samostatná registrácia, "
+"PyCon SK lístok nie je potrebný)"
+msgstr ""
+"<a href=\"%(url)s\">Django Girls</a> workshop (separate registration, can"
+" be attended without a PyCon SK ticket)"
+
+#: templates/tickets.html:63
+msgid "Podrobný program konferencie zverejníme už čoskoro."
+msgstr "We are going to publish a detailed conference program soon."
+
+#: templates/tickets.html:66
 msgid "Ponúkate množstevné zľavy?"
 msgstr "Do you offer group discounts?"
 
-#: templates/tickets.html:58
+#: templates/tickets.html:68
 msgid ""
 "Ak máte záujem kúpiť viac ako 10 lístkov kontaktujete nás emailom na "
 "info@pycon.sk."
@@ -1500,37 +1538,38 @@ msgstr ""
 "If you would like to buy more than 10 tickets please contact us by email "
 "at info@pycon.sk."
 
-#: templates/tickets.html:61
+#: templates/tickets.html:71
 msgid "Nemám PayPal, je možné kúpiť vstupenku inak ako cez Tito?"
 msgstr "I don't use PayPal, is there any other way to buy a ticket?"
 
-#: templates/tickets.html:63
+#: templates/tickets.html:73
 msgid ""
 "Akceptujeme aj bankový prevod, prípadne Bitcoin. Napíšte nám, o aké "
 "lístky máte záujem, zašleme Vám variabilný symbol a po pripísaní sumy na "
 "náš účet Vám vystavíme a pošleme emailom vstupenku."
 msgstr ""
 "We also accept wire transfer, or Bitcoin. Please send us a list of "
-"tickets you are interested in, we will send you variable symbol and after we receive the payment, we will "
-"issue and send the requested tickets to you by email."
+"tickets you are interested in, we will send you variable symbol and after"
+" we receive the payment, we will issue and send the requested tickets to "
+"you by email."
 
-#: templates/tickets.html:64
+#: templates/tickets.html:74
 msgid "Bankové spojenie nájdete na stránkach"
 msgstr "Bank details are listed on pages of "
 
-#: templates/tickets.html:64
+#: templates/tickets.html:74
 msgid "SPy o.z."
 msgstr "SPy o.z."
 
-#: templates/tickets.html:64
+#: templates/tickets.html:74
 msgid "našeho občianského združenia"
 msgstr "our civic association"
 
-#: templates/tickets.html:67
+#: templates/tickets.html:77
 msgid "Kam idú všetky peniaze za lístky?"
 msgstr "Where does the money from tickets go?"
 
-#: templates/tickets.html:69
+#: templates/tickets.html:79
 msgid ""
 "PyCon je kompletne organizovaný dobrovoľníkmi. Veríme, že organizovať "
 "takéto konferencie je potrebné, aby propagovali programovanie a Open "
@@ -1549,11 +1588,11 @@ msgstr ""
 "association was created to support Python and programming in general, you"
 " can read "
 
-#: templates/tickets.html:69
+#: templates/tickets.html:79
 msgid "ciele SPy o.z."
 msgstr "objectives of SPy."
 
-#: templates/tickets.html:69
+#: templates/tickets.html:79
 msgid "viac o našich cieľoch"
 msgstr "more about our vision and objectives"
 
