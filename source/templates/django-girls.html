@@ -6,7 +6,7 @@
 
     <p class="lead">{{ _('Vytvor si vlastnú web aplikáciu. Workshop pre ženy, na ktorom sa naučíš programovať v Pythone.') }}</p>
     <p class="text-center">
-      <a href="https://www.djangogirls.org/bratislava/#pyconsk" title="Django Girls" target="_blank">
+      <a href="https://www.djangogirls.org/bratislava{% if lang_code == 'sk'%}_sk{% endif %}/#pyconsk" title="Django Girls" target="_blank">
         <img src="{{ url_for('static', filename='images/partners/django-girls.svg') }}" alt="Django Girls" />
       </a>
     </p>
@@ -21,7 +21,7 @@
         <h2>{{ _('Prihlás sa') }}</h2>
         <p class="text-justify">{{ _('Ak si žena, vieš slovensky, alebo anglicky a máš vlastný počítač, môžeš sa prihlásiť. Nepotrebuješ žiadne predchádzajúce znalosti – workshop je určený pre začiatočníčky.') }}</p>
         <p class="text-justify">{{ _('Prihlásiť sa je možné do 14. februára. Najneskôr 1. marca dostaneš potvrdenie, či si bola na vybratá alebo nie.') }}</p>
-        <p class="text-center"><a class="btn btn-default btn-lg btn-block btn-warning" href="https://djangogirls.org/bratislava/apply/#pyconsk" role="button">{{ _('Registruj sa') }}</a></p>
+        <p class="text-center"><a class="btn btn-default btn-lg btn-block btn-warning" href="https://djangogirls.org/bratislava{% if lang_code == 'sk'%}_sk{% endif %}/apply/#pyconsk" role="button" target="_blank">{{ _('Registruj sa') }}</a></p>
       </div>
     </div>
 
