@@ -15,7 +15,7 @@
    id="svg3536"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="logo_pycon_sk.svg">
+   sodipodi:docname="pycon_sk_logo_notext.svg">
   <defs
      id="defs3538" />
   <sodipodi:namedview
@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="50.470791"
-     inkscape:cy="203.08673"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="243.88232"
+     inkscape:cy="160.06635"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g158"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1016"
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -172,7 +172,8 @@
            style="fill:#3e7aab"
            id="path148" />
         <g
-           id="g150">
+           id="g150"
+           transform="translate(0.00750611,0.05254278)">
           <path
              inkscape:connector-curvature="0"
              d="m 86.691,855.696 c 0,0 -0.205,-13.603 13.696,-13.696 13.647,-0.091 13.695,-13.696 13.695,-13.696 l 0,-10.652 c 0,-7.559 -6.137,-10.652 -13.695,-10.652 -7.559,0 -13.696,3.093 -13.696,10.652 l 0,10.652 -3.208,0 -7.444,0 c -7.559,0 -10.652,6.137 -10.652,13.696 0,7.559 3.093,13.696 10.652,13.696 l 10.652,0 z"
@@ -185,9 +186,9 @@
              style="fill:#ffffff"
              id="circle154" />
           <rect
-             x="87.568001"
-             y="827.211"
-             width="10"
+             x="86.216759"
+             y="827.43341"
+             width="11.358751"
              height="2"
              style="fill:#ffffff"
              id="rect156" />
@@ -212,8 +213,8 @@
              id="circle164" />
           <rect
              x="102.304"
-             y="854.802"
-             width="11"
+             y="854.56848"
+             width="12.94259"
              height="2"
              style="fill:#ffffff"
              id="rect166" />
