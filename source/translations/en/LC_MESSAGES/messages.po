@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-05 22:07+0100\n"
+"POT-Creation-Date: 2016-01-07 21:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -630,9 +630,10 @@ msgid ""
 "organizovať aj <a href=\"%(url)s\">Django Girls</a> workshop (nedeľa), "
 "ktorý bude vhodný aj pre úplné začiatočníčky."
 msgstr ""
-"We are happy to announce that apart from two days of interesting talks (Friday - Slovak day, Saturday - English day), "
-"we will be organizing a <a href=\"%(url)s\">Django Girls</a> workshop "
-"(Sunday), which will be suitable for absolute beginners."
+"We are happy to announce that apart from two days of interesting talks "
+"(Friday - Slovak day, Saturday - English day), we will be organizing a <a"
+" href=\"%(url)s\">Django Girls</a> workshop (Sunday), which will be "
+"suitable for absolute beginners."
 
 #: templates/index.html:36
 msgid "Vstupenky sú už v predaji."
@@ -1213,15 +1214,28 @@ msgstr ""
 msgid "Django Girls sponzori"
 msgstr "Django Girls sponsors"
 
-#: templates/sponsors.html:179
+#: templates/sponsors.html:180
+msgid ""
+"Skypicker.com je inovatívny celosvetový vyhľadávač leteniek, ktorý sa "
+"zameriava na kombinácie nespolupracujúcich aerolinek, kde je schopný "
+"vďaka vlastnému vyspelému technickému riešeniu vyhľadávať unikátne "
+"letecké spojenia a cenové ponuky leteniek, ktoré následne predáva so "
+"zárukou na nadväzujúce lety."
+msgstr ""
+"Skypicker is the ultimate money-saving online tool for booking flights. "
+"Skypicker’s unique technology is based on data collection and a complex, "
+"proprietary algorithm that integrates low-cost flights with major "
+"airlines to create new unique routes often 50 to 90&#37; cheaper than published fares."
+
+#: templates/sponsors.html:192
 msgid "Mediálni partneri"
 msgstr "Media partners"
 
-#: templates/sponsors.html:217
+#: templates/sponsors.html:230
 msgid "Partneri konferencie"
 msgstr "Partners"
 
-#: templates/sponsors.html:230
+#: templates/sponsors.html:243
 msgid ""
 "Fakulta informatiky a informačných technológií (FIIT) je jednou zo "
 "siedmich fakúlt Slovenskej technickej univerzity v Bratislave (STU). FIIT"
@@ -1235,7 +1249,7 @@ msgstr ""
 "technologies (IIT) in both research and education. FIIT is the first "
 "faculty in the Slovak Republic with such mission."
 
-#: templates/sponsors.html:243
+#: templates/sponsors.html:256
 msgid ""
 "Cieľom tohto portálu je informovať. Informuje dievčatá, ich rodičov, "
 "verejnosť o tom, že vo svete IT je skvelé mať ženy. Prináša profily "
@@ -1251,7 +1265,7 @@ msgstr ""
 " find information and sign up to events and workshops that are happening "
 "in their region."
 
-#: templates/sponsors.html:256
+#: templates/sponsors.html:269
 msgid ""
 "Našim cieľom je poskytovať inovatívnu platformu pre stretávanie sa s "
 "ľuďmi a výmenu informácií pre tých, ktorí sa zaujímajú o hacking, 3D "
