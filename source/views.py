@@ -595,13 +595,11 @@ def sitemap():
                 for lang in LANGS:
                     alternate = []
                     for alt_lang in LANGS:
-                        print alt_lang, lang, alt_lang != lang
                         if alt_lang != lang:
                             alternate.append({
                                 'lang': alt_lang,
                                 'url': domain + rule.rule.replace('<lang_code>', alt_lang)
                                 })
-                    print alternate
 
                     pages.append({
                         'loc': domain + rule.rule.replace('<lang_code>', lang),

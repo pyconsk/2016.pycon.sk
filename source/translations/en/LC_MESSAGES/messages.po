@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-07 21:14+0100\n"
+"POT-Creation-Date: 2016-01-08 09:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -446,7 +446,7 @@ msgstr ""
 "served during the workshop."
 
 #: templates/django-girls.html:53
-msgid "Staň sa mentor"
+msgid "Staň sa mentorom"
 msgstr "Be a Mentor"
 
 #: templates/django-girls.html:54
@@ -776,29 +776,7 @@ msgstr ""
 "team, and has been involved in organising numerous Python/Django "
 "conferences, including DjangoCon Europe 2015 and PyCon Namibia 2016."
 
-#: templates/speakers.html:69
-msgid "Webový vývojár z Francúzska žijúci v Budapešti."
-msgstr "Web developer from France based in Budapest, Hungary."
-
-#: templates/speakers.html:69
-msgid ""
-"Milovník všetkého, čo je Python a <a "
-"href=\"https://www.djangoproject.com/\" target=\"_blank\" title=\"Django "
-"umožní vytvárať Webové aplikácie rýchlejšie s menej kódom.\">Django</a>."
-msgstr ""
-"Lover of all things Python and <a href=\"https://www.djangoproject.com/\""
-" target=\"_blank\" title=\"Django makes it easier to build better Web "
-"apps more quickly and with less code.\">Django</a>."
-
-#: templates/speakers.html:69
-msgid "Má zlú vlastnosť premeniť všetko čo začne na konferenciu."
-msgstr "Has a bad habbit of turning everything he does into a conference."
-
-#: templates/speakers.html:69
-msgid "Pevne verí v globálnu emojifikáciu."
-msgstr "Firm believer in global emojification."
-
-#: templates/speakers.html:84
+#: templates/speakers.html:70
 msgid ""
 "Vývojár slobodného softvéru a administrátor z Islandu. Programuje od "
 "polovice 90. rokov, vrátanie šesťročného boja so spamom a vírusmi a tri "
@@ -1225,7 +1203,8 @@ msgstr ""
 "Skypicker is the ultimate money-saving online tool for booking flights. "
 "Skypicker’s unique technology is based on data collection and a complex, "
 "proprietary algorithm that integrates low-cost flights with major "
-"airlines to create new unique routes often 50 to 90&#37; cheaper than published fares."
+"airlines to create new unique routes often 50 to 90&#37; cheaper than "
+"published fares."
 
 #: templates/sponsors.html:192
 msgid "Mediálni partneri"
@@ -1636,4 +1615,26 @@ msgstr "more about our vision and objectives"
 
 #~ msgid "Číslo účtu EUR (IBAN / international)"
 #~ msgstr ""
+
+#~ msgid "Webový vývojár z Francúzska žijúci v Budapešti."
+#~ msgstr "Web developer from France based in Budapest, Hungary."
+
+#~ msgid ""
+#~ "Milovník všetkého, čo je Python a "
+#~ "<a href=\"https://www.djangoproject.com/\" "
+#~ "target=\"_blank\" title=\"Django umožní vytvárať "
+#~ "Webové aplikácie rýchlejšie s menej "
+#~ "kódom.\">Django</a>."
+#~ msgstr ""
+#~ "Lover of all things Python and <a"
+#~ " href=\"https://www.djangoproject.com/\" target=\"_blank\""
+#~ " title=\"Django makes it easier to "
+#~ "build better Web apps more quickly "
+#~ "and with less code.\">Django</a>."
+
+#~ msgid "Má zlú vlastnosť premeniť všetko čo začne na konferenciu."
+#~ msgstr "Has a bad habbit of turning everything he does into a conference."
+
+#~ msgid "Pevne verí v globálnu emojifikáciu."
+#~ msgstr "Firm believer in global emojification."
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-07 21:14+0100\n"
+"POT-Creation-Date: 2016-01-08 09:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -377,7 +377,7 @@ msgid ""
 msgstr ""
 
 #: templates/django-girls.html:53
-msgid "Staň sa mentor"
+msgid "Staň sa mentorom"
 msgstr ""
 
 #: templates/django-girls.html:54
@@ -650,26 +650,7 @@ msgid ""
 "projekty\">Aldryn</a> a iných zábavných Django projektoch."
 msgstr ""
 
-#: templates/speakers.html:69
-msgid "Webový vývojár z Francúzska žijúci v Budapešti."
-msgstr ""
-
-#: templates/speakers.html:69
-msgid ""
-"Milovník všetkého, čo je Python a <a "
-"href=\"https://www.djangoproject.com/\" target=\"_blank\" title=\"Django "
-"umožní vytvárať Webové aplikácie rýchlejšie s menej kódom.\">Django</a>."
-msgstr ""
-
-#: templates/speakers.html:69
-msgid "Má zlú vlastnosť premeniť všetko čo začne na konferenciu."
-msgstr ""
-
-#: templates/speakers.html:69
-msgid "Pevne verí v globálnu emojifikáciu."
-msgstr ""
-
-#: templates/speakers.html:84
+#: templates/speakers.html:70
 msgid ""
 "Vývojár slobodného softvéru a administrátor z Islandu. Programuje od "
 "polovice 90. rokov, vrátanie šesťročného boja so spamom a vírusmi a tri "
