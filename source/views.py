@@ -167,7 +167,7 @@ def tickets():
 
 @app.route('/<lang_code>/getting-here.html')
 def getting_here():
-    return render_template('getting-here.html', **_get_template_variables(li_tickets='active'))
+    return render_template('getting-here.html', **_get_template_variables(li_getting_here='active'))
 
 
 @app.route('/<lang_code>/code-of-conduct.html')

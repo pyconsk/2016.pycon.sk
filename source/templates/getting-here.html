@@ -3,51 +3,131 @@
 {% block content %}
 <div class="row">
   <div class="col-md-8">
+
     <h1>{{ _('Ako sa sem dostať?') }}</h1>
     <p class="lead">{{ _('Ste skvelý. Už máte lístok na konferenciu a potrebujete zistiť ako sa sem dostať? Manuál na tejto stránke vysvetľuje možnosti ako prísť na konferenciu.') }}</p>
 
-    <h2>{{ _('Cestovanie') }}</h2>
-    <p class="text-justify"> 
-      {{ _('Bratislava patrí medzi najmladšie hlavné mestá Európy. Napriek tomu je to mesto s bohatou históriou slobodného kráľovského korunovačného mesta, v čase keď sa nazývala Prešporkom (Pozsony, Pressburg). Bratislava je významný dopravný uzol v stredoeurópskom regióne a tak máte veľa možností ako sa sem dostať.') }}
-    </p>
+    <div class="row">
+      <div class="col-md-12">
+        <h2>{{ _('Cestovanie') }}</h2>
+        <p class="text-justify">
+          {{ _('Bratislava patrí medzi najmladšie hlavné mestá Európy. Napriek tomu je to mesto s bohatou históriou slobodného kráľovského korunovačného mesta, v čase keď sa nazývala Prešporkom (Pozsony, Pressburg). Bratislava je významný dopravný uzol v stredoeurópskom regióne a tak máte veľa možností ako sa sem dostať.') }}
+        </p>
+      </div>
+    </div>
 
-    <h3>{{ _('Letecky') }}</h3>
-    <p class="text-justify">
-      {{ _('Letecky môžete prísť priamo do Bratislavy, avšak viac leteckých spoločností lieta do Viedne, ktorá je vzdialená iba 60 kilomertov. Medzi rakúskym letiskom Schwechat a centrom Bratislavy, premáva pravidelná a priama autobusová linka.') }}
-    </p>
-    
-    <h3>{{ _('Vlakom alebo autobusom') }}</h3>
-    <p class="text-justify">
-      {{ _('Bratislava ako hlavné mesto má veľmi dobré vlakové spojenie na veľa veľkých miest v celej Európe. Všetky susedné hlavné mestá Viedň, Praha, Budapešť, Varšava aj Kiev majú priame vlakové spojenie. Taktiež autobusová doprava z okolitých krajín je bezproblémová.') }}
-    </p>
+    <div class="row" id="fly">
+      <div class="col-md-12 text-justify">
+        <h3>{{ _('Letecky') }}</h3>
+        <p>{{ _('Ak cestujete do Bratislavy, môžete letieť na Bratislavské letisko (kód letiska: BTS) alebo na letisko Vedeň (kód letiska: VIE). Medzi Viedeňským letiskom a Bratislavou premáva priame autobusové spojenie, každú hodinu a je lacné (jednosmerná jazda stojí okolo 7 euro). Letisko Viedeň má väčší výber letov ako Bratislavské.') }}</p>
+        <p class="text-justify">{{ _('Dve spoločnosti prevádzkujú autobusovú prepravu medzi viedenským letiskom a Bratislavou: SlovakLines (červené autobusy) a Blaguss (strieborné autobusy). Blaguss je rýchlejší a aj trochu lacnejší, avšak SlovakLines Vás vezmú priamo na <a href="#bus-train">autobusovú stanicu</a>. <a href="http://www.eurolines.sk/fileadmin/user_upload/cestovne_poriadky/mal_new/wien_new.pdf" target="_blank" title="Rozpis spojov">Rozpis na stránke</a>.') }}</p>
+      </div>
+    </div>
 
-    <h3>{{ _('Autom') }}</h3>
-    <p class="text-justify">
-      {{ _('Z Viedňe smerom na letisko Schwechat po diaľnici A4, odbočťe na ďiaľnicu A6, ktorá vedie až na Slovensko do Bratislavy.') }}<br /> 
-      {{ _('Z Budapešti po diaľnici M1 smerom na Gyor, neskôr odbočte na M15 smerom na Slovensko do Bratislavy.') }}<br />
-      {{ _('Z Prahy po diaľnici D1 do Brna, tam odbočťe na D2, ktorá vedie až na Slovensko a potom do Bratislavy.') }}<br />
-      {{ _('Z Varšavy po diaľnici A1 smerom na Katowice, odťial na Slovensko do Čadce po ceste prvej triedy až do Žiliny odťiaľ po diaľnici D1 do Bratislavy.') }}
-    </p>
+    <div class="row" id="bus-train">
+      <div class="col-md-6 text-justify">
+        <h3>{{ _('Autobusom') }}</h3>
+        <p>{{ _('Všetky susedné hlavné mestá Viedeň, Praha, Budapešť, Varšava aj Kiev majú priame autobusové spojenie.') }}</p>
+        <p>{{ _('Keď dorazíte na Bratislavskú autobusovú stanicu (Mlinské Nivy), musíte prejst cez terminál až k hlavnému vchodu. Odbočte do ľava a kráčajte približne 70 metrov k rušnej ulici. Na vašej strane ulice (pravej strane) sa nachádzajú zastávky <a href="#public-transport">mestskej hromadnej dopravy</a>.') }}</p>
+      </div>
 
-    <h2>{{ _('Po Bratislave') }}</h2>
-    <p class="text-justify">
-      {{ _('Ako sa odsať na konferenciu. Parkovacích miest bude dosť.') }}
-    </p>
+      <div class="col-md-6 text-justify">
+        <h3>{{ _('Vlakom') }}</h3>
+        <p>{{ _('Všetky susedné hlavné mestá Viedeň, Praha, Budapešť, Varšava aj Kiev majú priame vlakové spojenie.') }}</p>
+        <p>{{ _('Keď dorazíte na Bratislavskú vlakovú stanicu, musíte prejsť cez staničnú budovu k hlavnému vchodu. Asi 100 metrov oproti hlavnému vchodu (po vašej pravej strane) sa nachádzajú zastávky <a href="#public-transport">mestskej hromadnej dopravy</a>.') }}</p>
+      </div>
+    </div>
 
-    <h3>{{ _('MHD') }}</h3>
-    <p class="text-justify">
-      {{ _('Cestovné lístky. Električky, autobus.') }}
-    </p>
+    <div class="row" id="car">
+      <div class="col-md-12 text-justify">
+        <h3 id="car">{{ _('Autom') }}</h3>
+        <ul>
+          <li>{{ _('Z Viedňe smerom na letisko Schwechat po diaľnici A4, odbočťe na ďiaľnicu A6, ktorá vedie až na Slovensko do Bratislavy.') }}</li>
+          <li>{{ _('Z Budapešti po diaľnici M1 smerom na Gyor, neskôr odbočte na M15 smerom na Slovensko do Bratislavy.') }}</li>
+          <li>{{ _('Z Prahy po diaľnici D1 do Brna, tam odbočťe na D2, ktorá vedie až na Slovensko a potom do Bratislavy.') }}</li>
+          <li>{{ _('Z Varšavy po diaľnici A1 smerom na Katowice, odťial na Slovensko do Čadce po ceste prvej triedy až do Žiliny odťiaľ po diaľnici D1 do Bratislavy.') }}</li>
+        </ul>
+      </div>
+    </div>
+{#
+    <div class="row" id="accomodation">
+      <div class="col-md-12 text-justify">
+        <h2 >{{ _('Ubytovanie') }}</h2>
+        <p>{{ _('To get to the conference hotel (Ibis):') }}<br />
+        {{ _('From bus station you need to take trolley bus 208 towards the city center (bus stop "Hodžovo námestie"). You can either walk from there (for approx. 7 minutes) or change to a tram.') }}
+        </p>
+      </div>
+    </div>
+#}
+    <div class="row" id="getting-around">
+      <div class="col-md-12 text-justify">
+        <h2>{{ _('Konferencia') }}</h2>
+        <h3>{{ _('Autom') }}</h3>
+        <ul>
+          <li>{{ _('zo smeru BRNO -> BRATISLAVA z diaľnice D-2, E65 po Lamačskej ceste tunelom Sitina (alebo cez Patrónku) odbočiť doprava do Mlynskej doliny') }}</li>
+          <li>{{ _('zo smeru NITRA, ŽILINA -> BRATISLAVA z diaľnice D-1, E75 pokračovať v smere Wien, Györ, Brno, odbočiť na most Lafranconi - smer Brno do Mlynskej doliny') }}</li>
+          <li>{{ _('zo smeru VIEDEŇ -> BRATISLAVA z cesty E58 (hranica) smer Brno na most Lafranconi, odbočiť do Mlynskej doliny') }}</li>
+          <li>{{ _('Pre pohodlnú cestu použite GPS a použite navigáciu na adresu: Bratislava, Ilkovičova 2, Fakulta informatiky a informačných technológií') }}</li>
+        </ul>
+        <p>{{ _('Ak cestujete autom, bude dostatok parkovacích miest dostupných pred budovou konferencie.') }}</p>
+      </div>
+    </div>
 
-    <h3>{{ _('Sprievodca') }}</h3>
-    <p class="text-justify">
-    {% trans lang_code=lang_code %}'Vedeli ste že, Bratislava je mesto, kde nájdete ozajstný život? Ak ste sa rozhodli ostať v Bratislave o niekoľko dní dlhšie, pozrite si <a href="http://mpba.sk/{{ lang_code }}" title="M_P_ BA: alternatívnu mapu Bratislavy">M_P_ BA</a> (alternatívnu mapu Bratislavy), kde nájdete súpis obľúbených miest obyvateľov Bratislavy s ich autentickými odporúčaniami a subjektívnymi názormi. Prípadne si môžete pozrieť <a href="http://www.visitbratislava.com/">oficialne stránky mesta, určené pre návštevníkov</a>, kde nájdete aj udalosti, ktoré sa práve odohrávajú.{% endtrans %}
-    </p>
-    
-    <h2>{{ _('Ubytovanie') }}</h2>
-    <p class="text-justify">
-      {{ _('Väčšina rečníkov, bude ubytovaných v hotely Ibis v centre Bratislavy. Pokiaľ by ste mali záujem o ubytovanie, vieme niekoľkým návštevníkom vybaviť zľavnené ubytovanie v tomto hotely. Ak by ste mali záujem pošlite nám mail na <a href="mailto:info@pycon.sk">info@pycon.sk</a> a my pre Vás skúsime vybaviť ubytovanie za lepšiu cenu.') }}
-    </p>
+    <div class="row" id="public-transport">
+      <div class="col-md-12 text-justify">
+        <h3>{{ _('MHD') }}</h3>
+        <p>{{ _('Aby ste sa dostali na konfereciu <strong>z autobusovej stanice</strong>, nastúpte na autobus č. 70 smerom “Most SNP” na vystúpte na zastávke “Most SNP”. Cesta trvá zvyčajne 5 minút, v závislosti od premávky. Tu <strong>máte niekoľko možností prestúpiť</strong>') }}
+          <ul><li>{{ _('na autobus č. 30 alebo 37, vystúpiť na zastávke “ZOO”. Cesta trvá zvyčajne 5-7 minút, v závislosti od premávky.') }}</li></ul>
+          {{ _('alebo') }}
+          <ul><li>{{ _('na autobus č. 28 alebo 29 alebo električku č. 4, 5, 6 alebo 9 a vystúpiťe na zastávke “Botanická záhrada”. Cesta trvá zvyčajne 6-9 minút, v závislosti od premávky.') }}</li></ul>
+        </p>
+        <p>{{ _('Aby ste sa dostali na konferenciu <strong>z vlakovej stanice</strong>, nastúpte do autobusu č. 32 smerom  “Dlhé diely”, a vystúpte na zastávke “ZOO”. Cesta trvá zvyčajne 12-15 minút, v závislosti od premávky.
+') }}</p>
+        <p>{{ _('Aby ste sa dostali na konferenciu <strong>z hotela</strong>, musíte ísť na zastávku "Zochova" a nastúpiť na autobus 31 alebo 39 smerom “Cintorín Slávičie údolie” a  a vystúpiťe na zastávke “ZOO”. Cesta trvá zvyčajne 8-10 minút, v závislosti od premávky.
+') }}</p>
+        <p>{{ _('Od zastávok autobusu budú umiestnené značky až ku konferencií, avšak pozrite si prosím Google Street View v predstihu aby ste vedeli kam idete.') }}</p>
+      </div>
+    </div>
+
+    <div class="row" id="tickets">
+      <div class="col-md-6 text-justify">
+        <h3>{{ _('Lístok na MHD') }}</h3>
+        {% if lang_code == "sk" %}
+        <p>{% trans dpb_url='http://www.dpb.sk/pre-cestujucich/cestovny-listok/' %}Lístky si môžete kúpiť v žltých prístrojoch, ktoré akceptujú euro mince, alebo PNS. Je viacero možností aký lístok si kúpiť, môžete si zakúpiť 90 centový lístok, ktorý je platný 30 minút ale tiež je možnosť zakúpiť si 24 alebo 72 hodinový lístok. Pokiaľ máte platný lístok môžete slobodne prestupovať medzi autobusmi a električkami. Keď nastúpite do autobusu alebo električky, musíte si označiť cestovný lístok. Keď je označný je platný 30 minút, resp. čas aký lístok ste si zakúpili. Môžete prestúpiť do iného autobusu, alebo električky (pri prestupe listok znova NEoznačujte, lístok sa označuje iba pri prvej jazde). Študenti s ISIC si môžu kúpiť zľavnené listky, pre viac informácií navštívte <a href="{{ dpb_url }}" title="stránka Dopravný podnik Bratislava" target="_blank">stránku Dopravného podniku Bratislavy</a>.{% endtrans %}</p>
+        {% else %}
+        <p>{% trans dpb_url='http://www.dpb.sk/en/passengers/ticket/' %}Lístky si môžete kúpiť v žltých prístrojoch, ktoré akceptujú euro mince, alebo PNS. Je viacero možností aký lístok si kúpiť, môžete si zakúpiť 90 centový lístok, ktorý je platný 30 minút ale tiež je možnosť zakúpiť si 24 alebo 72 hodinový lístok. Pokiaľ máte platný lístok môžete slobodne prestupovať medzi autobusmi a električkami. Keď nastúpite do autobusu alebo električky, musíte si označiť cestovný lístok. Keď je označný je platný 30 minút, resp. čas aký lístok ste si zakúpili. Môžete prestúpiť do iného autobusu, alebo električky (pri prestupe listok znova NEoznačujte, lístok sa označuje iba pri prvej jazde). Študenti s ISIC si môžu kúpiť zľavnené listky, pre viac informácií navštívte <a href="{{ dpb_url }}" title="stránka Dopravný podnik Bratislava" target="_blank">stránku Dopravného podniku Bratislavy</a>.{% endtrans %}</p>
+        {% endif %}
+      </div>
+
+      <div class="col-md-6 text-justify">
+        <h3>{{ _('SMS lístok') }}</h3>
+        {% if lang_code == "sk" %}
+        <p>{% trans dpb_url='http://www.dpb.sk/pre-cestujucich/listok-cez-sms/' %}Pokiaľ máte telefón so slovenským operátorom (zahraničné SIM karty toto nepodporujú) je možné zakúpiť lístok zaslaním prázdnej SMS na číslo 1100 obdržíte spiatočnú SMS s cestovným lístkom približne do 2 minút. Cena SMS lístka je 1 EURO a platí 70 minút. Dôležité: NENASTUPUJTE do autobusu či električky hneď po odoslaní SMS, ale až keď vám príde spätná sms s lístkom / potvrdením. Pre viac informácií navštívte <a href="{{ dpb_url }}" title="stránka Dopravný podnik Bratislava" target="_blank">stránku Dopravného podniku Bratislavy</a>.{% endtrans %}
+        {% else %}
+        <p>{% trans dpb_url='http://www.dpb.sk/en/passengers/ticket-through-sms/' %}Pokiaľ máte telefón so slovenským operátorom (zahraničné SIM karty toto nepodporujú) je možné zakúpiť lístok zaslaním prázdnej SMS na číslo 1100 obdržíte spiatočnú SMS s cestovným lístkom približne do 2 minút. Cena SMS lístka je 1 EURO a platí 70 minút. Dôležité: NENASTUPUJTE do autobusu či električky hneď po odoslaní SMS, ale až keď vám príde spätná sms s lístkom / potvrdením. Pre viac informácií navštívte <a href="{{ dpb_url }}" title="stránka Dopravný podnik Bratislava" target="_blank">stránku Dopravného podniku Bratislavy</a>.{% endtrans %}
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="row" id="other">
+      <div class="col-md-12 text-justify">
+        <h3>{{ _('Iné možnosti dopravy') }}</h3>
+        <p>{{ _('V Bratislave je niekoľko online taxi služieb: Uber, Hopin...') }}</p>
+        <p>{{ _('Môžete tiež použiť štandardnú Taxi službu, avšak dajte si pozor aby bol taxík privolaný telefónom. Pokiaľ iba “nastúpite” do taxíka stojaceho na ulici, jazda bude niekoľkonásobne drahšia.') }}</p>
+      </div>
+    </div>
+
+    <div class="row" id="travel-guide">
+      <div class="col-md-12 text-justify">
+        <h3>{{ _('Sprievodca') }}</h3>
+        <p>{% trans lang_code=lang_code %}V Bratislave sa môžete popri konferencii zabaviť a získať množstvo zážitkov. Ak ste sa rozhodli ostať v Bratislave o niekoľko dní dlhšie, pozrite si <a href="http://mpba.sk/{{ lang_code }}" title="M_P_ BA: alternatívnu mapu Bratislavy" target="_blank">M_P_ BA</a> (alternatívnu mapu Bratislavy), kde nájdete súpis obľúbených miest obyvateľov Bratislavy s ich autentickými odporúčaniami a subjektívnymi názormi.{% endtrans %}</p>
+        {% if lang_code == "sk" %}
+        <p>{% trans ba_guide_url='http://www.visitbratislava.com/sk' %}Prípadne si môžete pozrieť <a href="{{ ba_guide_url }}" title="stránky mesta pre návštevníkov" target="_blank">oficialne stránky mesta, určené pre návštevníkov</a>, kde nájdete aj iné udalosti, ktoré sa práve odohrávajú.{% endtrans %}</p>
+        {% else %}
+        <p>{% trans ba_guide_url='http://www.visitbratislava.com/' %}Prípadne si môžete pozrieť <a href="{{ ba_guide_url }}" title="stránky mesta pre návštevníkov" target="_blank">oficialne stránky mesta, určené pre návštevníkov</a>, kde nájdete aj iné udalosti, ktoré sa práve odohrávajú.{% endtrans %}</p>
+        {% endif %}
+      </div>
+    </div>
   </div>
 
   <div class="col-md-4">
