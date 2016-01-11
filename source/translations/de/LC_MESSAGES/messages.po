@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-11 17:18+0100\n"
+"POT-Creation-Date: 2016-01-11 17:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -37,14 +37,14 @@ msgstr ""
 #: templates/ba-01-meetup.html:14 templates/ba-02-meetup.html:12
 #: templates/ba-03-meetup.html:12 templates/ba-04-meetup.html:12
 #: templates/ba-05-meetup.html:12 templates/ba-06-meetup.html:14
-#: templates/ba-07-meetup.html:14 templates/spy.html:18
+#: templates/ba-07-meetup.html:17 templates/spy.html:18
 msgid "Kontakt"
 msgstr ""
 
 #: templates/ba-01-meetup.html:15 templates/ba-02-meetup.html:13
 #: templates/ba-03-meetup.html:13 templates/ba-04-meetup.html:13
 #: templates/ba-05-meetup.html:13 templates/ba-06-meetup.html:15
-#: templates/ba-07-meetup.html:15
+#: templates/ba-07-meetup.html:18
 msgid "Organizátor"
 msgstr ""
 
@@ -112,13 +112,23 @@ msgstr ""
 
 #: templates/ba-07-meetup.html:12
 msgid ""
-"Andrej so sebou prinesie microcontroller vlastnej výroby a spravíme si na"
-" ňom hello world tutorial. Ak sa zaujímate o Internet of Things, ale "
-"neviete kde začať, alebo sa chcete dozvedieť ako si začať vyrábať doma "
+"Andrej so sebou prinesie <a href=\"http://wipy.io/\" "
+"target=\"_blank\">WiPy</a> a <a "
+"href=\"https://micropython.org/store/#/store\" "
+"target=\"_blank\">PyBoard</a>, porozpráva o vývoji hardwaru v "
+"micropythone. Ukáže workflow vývoja zariadení, základné schémy, a na "
+"záver zostrojí budík. Ak sa zaujímate o Internet of Things, ale neviete "
+"kde začať, alebo sa chcete dozvedieť ako si začať vyrábať doma "
 "jednoúčelové zariadenia, tento meetup Vás určite zaujme."
 msgstr ""
 
-#: templates/ba-07-meetup.html:13
+#: templates/ba-07-meetup.html:14
+msgid ""
+"Jeden štastlivec, ktorý bude dávať pozor, bude mať šancu vyhrať vývojový "
+"kit s micropythonom na prototypovanie."
+msgstr ""
+
+#: templates/ba-07-meetup.html:16
 msgid "Tešíme sa na Vás na stretnutí."
 msgstr ""
 
@@ -1629,12 +1639,13 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Aby ste sa dostali na konferenciu "
-#~ "<strong>z hotela</strong>, musíte ísť na "
-#~ "zastávku \"Zochova\" a nastúpiť na "
-#~ "autobus 31 alebo 39 smerom “Cintorín "
-#~ "Slávičie údolie” a  a vystúpiťe na "
-#~ "zastávke “ZOO”. Cesta trvá zvyčajne 8-10"
-#~ " minút, v závislosti od premávky."
+#~ "Andrej so sebou prinesie microcontroller "
+#~ "vlastnej výroby a spravíme si na "
+#~ "ňom hello world tutorial. Ak sa "
+#~ "zaujímate o Internet of Things, ale "
+#~ "neviete kde začať, alebo sa chcete "
+#~ "dozvedieť ako si začať vyrábať doma "
+#~ "jednoúčelové zariadenia, tento meetup Vás "
+#~ "určite zaujme."
 #~ msgstr ""
 
