@@ -1,13 +1,13 @@
 # Slovak translations for PROJECT.
-# Copyright (C) 2015 ORGANIZATION
+# Copyright (C) 2016 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-10 14:06+0100\n"
+"POT-Creation-Date: 2016-01-11 15:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.1.1\n"
+"Generated-By: Babel 2.2.0\n"
 
 #: templates/ba-01-meetup.html:6
 msgid "Prvý Bratislavský Python Meetup"
@@ -440,7 +440,7 @@ msgstr ""
 
 #: templates/getting-here.html:22
 msgid ""
-"Ak cestujete do Bratislavy, môžete letieť na Bratislavské letisko (kód "
+"Ak cestujete do Bratislavy, môžete letieť na bratislavské letisko (kód "
 "letiska: BTS) alebo na letisko Vedeň (kód letiska: VIE). Medzi Viedeňským"
 " letiskom a Bratislavou premáva priame autobusové spojenie, každú hodinu "
 "a je lacné (jednosmerná jazda stojí okolo 7 euro). Letisko Viedeň má "
@@ -449,8 +449,8 @@ msgstr ""
 
 #: templates/getting-here.html:23
 msgid ""
-"Dve spoločnosti prevádzkujú autobusovú prepravu medzi viedenským letiskom"
-" a Bratislavou: SlovakLines (červené autobusy) a Blaguss (strieborné "
+"Medzi  viedenským letiskom a Bratislavou prevádzkujú autobusovú prepravu "
+"dve spoločnosti: SlovakLines (červené autobusy) a Blaguss (strieborné "
 "autobusy). Blaguss je rýchlejší a aj trochu lacnejší, avšak SlovakLines "
 "Vás vezmú priamo na <a href=\"#bus-train\">autobusovú stanicu</a>. <a "
 "href=\"http://www.eurolines.sk/fileadmin/user_upload/cestovne_poriadky/mal_new/wien_new.pdf\""
@@ -463,8 +463,8 @@ msgstr ""
 
 #: templates/getting-here.html:30
 msgid ""
-"Všetky susedné hlavné mestá Viedeň, Praha, Budapešť, Varšava aj Kiev majú"
-" priame autobusové spojenie."
+"Všetky susedné hlavné mestá Viedeň, Praha, Budapešť, Varšava aj Kyjev "
+"majú priame autobusové spojenie."
 msgstr ""
 
 #: templates/getting-here.html:31
@@ -482,8 +482,8 @@ msgstr ""
 
 #: templates/getting-here.html:36
 msgid ""
-"Všetky susedné hlavné mestá Viedeň, Praha, Budapešť, Varšava aj Kiev majú"
-" priame vlakové spojenie."
+"Všetky susedné hlavné mestá Viedeň, Praha, Budapešť, Varšava aj Kyjev "
+"majú priame vlakové spojenie."
 msgstr ""
 
 #: templates/getting-here.html:37
@@ -1171,6 +1171,10 @@ msgid ""
 "zmýšľajúcich ľudí."
 msgstr ""
 
+#: templates/sponsors.html:281
+msgid "Podporovatelia konferencie"
+msgstr ""
+
 #: templates/spy.html:4
 msgid "SPy o. z."
 msgstr ""
@@ -1530,40 +1534,40 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Lístky si môžete kúpiť v žltých "
-#~ "prístrojoch, ktoré akceptujú euro mince, "
-#~ "alebo PNS. Je viacero možností aký "
-#~ "lístok si kúpiť, môžete si zakúpiť "
-#~ "90 centový lístok, ktorý je platný "
-#~ "30 minút ale tiež je možnosť "
-#~ "zakúpiť si 24 alebo 72 hodinový "
-#~ "lístok. Pokiaľ máte platný lístok môžete"
-#~ " slobodne prestupovať medzi autobusmi a "
-#~ "električkami. Keď nastúpite do autobusu "
-#~ "alebo električky, musíte si označiť "
-#~ "cestovný lístok. Keď je označný je "
-#~ "platný 30 minút, resp. čas aký "
-#~ "lístok ste si zakúpili. Môžete prestúpiť"
-#~ " do iného autobusu, alebo električky "
-#~ "(pri prestupe listok znova NEoznačujte, "
-#~ "lístok sa označuje iba pri prvej "
-#~ "jazde). Študenti s ISIC si môžu "
-#~ "kúpiť zľavnené listky, pre viac "
-#~ "informácií navštívte stránke Dopravného "
-#~ "podniku Bratislavy."
+#~ "Ak cestujete do Bratislavy, môžete "
+#~ "letieť na Bratislavské letisko (kód "
+#~ "letiska: BTS) alebo na letisko Vedeň "
+#~ "(kód letiska: VIE). Medzi Viedeňským "
+#~ "letiskom a Bratislavou premáva priame "
+#~ "autobusové spojenie, každú hodinu a je"
+#~ " lacné (jednosmerná jazda stojí okolo "
+#~ "7 euro). Letisko Viedeň má väčší "
+#~ "výber letov ako Bratislavské."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Pokiaľ máte telefón so slovenským "
-#~ "operátorom (zahraničné SIM karty toto "
-#~ "nepodporujú) je možné zakúpiť lístok "
-#~ "zaslaním prázdnej SMS na číslo 1100 "
-#~ "obdržíte spiatočnú SMS s cestovným "
-#~ "lístkom približne do 2 minút. Cena "
-#~ "SMS lístka je 1 EURO a platí "
-#~ "70 minút. Dôležité: NENASTUPUJTE do "
-#~ "autobusu či električky hneď po odoslaní"
-#~ " SMS, ale až keď vám príde "
-#~ "spätná sms s lístkom / potvrdením."
+#~ "Dve spoločnosti prevádzkujú autobusovú "
+#~ "prepravu medzi viedenským letiskom a "
+#~ "Bratislavou: SlovakLines (červené autobusy) a"
+#~ " Blaguss (strieborné autobusy). Blaguss je"
+#~ " rýchlejší a aj trochu lacnejší, "
+#~ "avšak SlovakLines Vás vezmú priamo na"
+#~ " <a href=\"#bus-train\">autobusovú stanicu</a>."
+#~ " <a "
+#~ "href=\"http://www.eurolines.sk/fileadmin/user_upload/cestovne_poriadky/mal_new/wien_new.pdf\""
+#~ " target=\"_blank\" title=\"Rozpis spojov\">Rozpis "
+#~ "na stránke</a>."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Všetky susedné hlavné mestá Viedeň, "
+#~ "Praha, Budapešť, Varšava aj Kiev majú"
+#~ " priame autobusové spojenie."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Všetky susedné hlavné mestá Viedeň, "
+#~ "Praha, Budapešť, Varšava aj Kiev majú"
+#~ " priame vlakové spojenie."
 #~ msgstr ""
 
