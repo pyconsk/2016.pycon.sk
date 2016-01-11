@@ -8,19 +8,49 @@
     <p class="lead">{{ _('Ste skvelý. Už máte lístok na konferenciu a potrebujete zistiť ako sa sem dostať? Manuál na tejto stránke vysvetľuje možnosti ako prísť na konferenciu.') }}</p>
 
     <div class="row">
+      <div class="col-md-12 text-center">
+
+        <div class="btn-group btn-group-justified" role="group">
+          <div class="btn-group" role="group">
+            <a href="#to-ba" type="button" class="btn btn-default">{{ _('Cestovanie do Bratislavy') }}</a>
+          </div>
+          <div class="btn-group" role="group">
+            <a href="#in-ba" type="button" class="btn btn-default">{{ _('Cestovanie po Bratislave') }}</a>
+          </div>
+          {#
+          <div class="btn-group" role="group">
+            <a href="#map" type="button" class="btn btn-default">{{ _('Mapa') }}</a>
+          </div>
+          #}
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row" id="to-ba"> 
       <div class="col-md-12">
-        <h2>{{ _('Cestovanie') }}</h2>
+        <h2>{{ _('Cestovanie do Bratislavy') }}</h2>
         <p class="text-justify">
           {{ _('Bratislava patrí medzi najmladšie hlavné mestá Európy. Napriek tomu je to mesto s bohatou históriou slobodného kráľovského korunovačného mesta, v čase keď sa nazývala Prešporkom (Pozsony, Pressburg). Bratislava je významný dopravný uzol v stredoeurópskom regióne a tak máte veľa možností ako sa sem dostať.') }}
         </p>
       </div>
     </div>
 
-    <div class="row" id="fly">
-      <div class="col-md-12 text-justify">
+    <div class="row" id="fly-car">
+      <div class="col-md-6 text-justify">
         <h3>{{ _('Letecky') }}</h3>
         <p>{{ _('Ak cestujete do Bratislavy, môžete letieť na bratislavské letisko (kód letiska: BTS) alebo na letisko Vedeň (kód letiska: VIE). Medzi Viedeňským letiskom a Bratislavou premáva priame autobusové spojenie, každú hodinu a je lacné (jednosmerná jazda stojí okolo 7 euro). Letisko Viedeň má väčší výber letov ako Bratislavské.') }}</p>
         <p class="text-justify">{{ _('Medzi  viedenským letiskom a Bratislavou prevádzkujú autobusovú prepravu dve spoločnosti: SlovakLines (červené autobusy) a Blaguss (strieborné autobusy). Blaguss je rýchlejší a aj trochu lacnejší, avšak SlovakLines Vás vezmú priamo na <a href="#bus-train">autobusovú stanicu</a>. <a href="http://www.eurolines.sk/fileadmin/user_upload/cestovne_poriadky/mal_new/wien_new.pdf" target="_blank" title="Rozpis spojov">Rozpis na stránke</a>.') }}</p>
+      </div>
+
+      <div class="col-md-6 text-justify">
+        <h3 id="car">{{ _('Autom') }}</h3>
+        <ul>
+          <li>{{ _('Z Viedňe smerom na letisko Schwechat po diaľnici A4, odbočťe na ďiaľnicu A6, ktorá vedie až na Slovensko do Bratislavy.') }}</li>
+          <li>{{ _('Z Budapešti po diaľnici M1 smerom na Gyor, neskôr odbočte na M15 smerom na Slovensko do Bratislavy.') }}</li>
+          <li>{{ _('Z Prahy po diaľnici D1 do Brna, tam odbočťe na D2, ktorá vedie až na Slovensko a potom do Bratislavy.') }}</li>
+          <li>{{ _('Z Varšavy po diaľnici A1 smerom na Katowice, odťial na Slovensko do Čadce po ceste prvej triedy až do Žiliny odťiaľ po diaľnici D1 do Bratislavy.') }}</li>
+        </ul>
       </div>
     </div>
 
@@ -37,18 +67,6 @@
         <p>{{ _('Keď dorazíte na Bratislavskú vlakovú stanicu, musíte prejsť cez staničnú budovu k hlavnému vchodu. Asi 100 metrov oproti hlavnému vchodu (po vašej pravej strane) sa nachádzajú zastávky <a href="#public-transport">mestskej hromadnej dopravy</a>.') }}</p>
       </div>
     </div>
-
-    <div class="row" id="car">
-      <div class="col-md-12 text-justify">
-        <h3 id="car">{{ _('Autom') }}</h3>
-        <ul>
-          <li>{{ _('Z Viedňe smerom na letisko Schwechat po diaľnici A4, odbočťe na ďiaľnicu A6, ktorá vedie až na Slovensko do Bratislavy.') }}</li>
-          <li>{{ _('Z Budapešti po diaľnici M1 smerom na Gyor, neskôr odbočte na M15 smerom na Slovensko do Bratislavy.') }}</li>
-          <li>{{ _('Z Prahy po diaľnici D1 do Brna, tam odbočťe na D2, ktorá vedie až na Slovensko a potom do Bratislavy.') }}</li>
-          <li>{{ _('Z Varšavy po diaľnici A1 smerom na Katowice, odťial na Slovensko do Čadce po ceste prvej triedy až do Žiliny odťiaľ po diaľnici D1 do Bratislavy.') }}</li>
-        </ul>
-      </div>
-    </div>
 {#
     <div class="row" id="accomodation">
       <div class="col-md-12 text-justify">
@@ -59,9 +77,9 @@
       </div>
     </div>
 #}
-    <div class="row" id="getting-around">
+    <div class="row" id="in-ba">
       <div class="col-md-12 text-justify">
-        <h2>{{ _('Konferencia') }}</h2>
+        <h2>{{ _('Cestovanie po Bratislave a na konferenciu') }}</h2>
         <h3>{{ _('Autom') }}</h3>
         <ul>
           <li>{{ _('zo smeru BRNO -> BRATISLAVA z diaľnice D-2, E65 po Lamačskej ceste tunelom Sitina (alebo cez Patrónku) odbočiť doprava do Mlynskej doliny') }}</li>
