@@ -508,16 +508,16 @@ msgid ""
 " dostať? Manuál na tejto stránke vysvetľuje možnosti ako prísť na "
 "konferenciu."
 msgstr ""
-"You are great. You already have conference ticket and need to find out "
-"howto get here? This page explain possibilities how to get to conference."
+"You are great. You already have a conference ticket and need to find out "
+"howto get here? This page explains possibilities how to get to conference."
 
 #: templates/getting-here.html:15 templates/getting-here.html:32
 msgid "Cestovanie do Bratislavy"
-msgstr "Travel to Bratislava"
+msgstr "Travelling to Bratislava"
 
 #: templates/getting-here.html:18
 msgid "Cestovanie po Bratislave"
-msgstr "Travel in Bratislava"
+msgstr "Travelling in Bratislava"
 
 #: templates/getting-here.html:34
 msgid ""
