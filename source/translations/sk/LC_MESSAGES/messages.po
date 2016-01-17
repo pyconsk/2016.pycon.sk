@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-12 17:51+0100\n"
+"POT-Creation-Date: 2016-01-17 00:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -471,7 +471,7 @@ msgid ""
 " target=\"_blank\" title=\"Rozpis spojov\">Rozpis na stránke</a>."
 msgstr ""
 
-#: templates/getting-here.html:47 templates/getting-here.html:83
+#: templates/getting-here.html:47 templates/getting-here.html:73
 msgid "Autom"
 msgstr ""
 
@@ -536,46 +536,46 @@ msgid ""
 "transport\">mestskej hromadnej dopravy</a>."
 msgstr ""
 
-#: templates/getting-here.html:82
+#: templates/getting-here.html:72
 msgid "Cestovanie po Bratislave a na konferenciu"
 msgstr ""
 
-#: templates/getting-here.html:85
+#: templates/getting-here.html:75
 msgid ""
 "zo smeru BRNO -> BRATISLAVA z diaľnice D-2, E65 po Lamačskej ceste "
 "tunelom Sitina (alebo cez Patrónku) odbočiť doprava do Mlynskej doliny"
 msgstr ""
 
-#: templates/getting-here.html:86
+#: templates/getting-here.html:76
 msgid ""
 "zo smeru NITRA, ŽILINA -> BRATISLAVA z diaľnice D-1, E75 pokračovať v "
 "smere Wien, Györ, Brno, odbočiť na most Lafranconi - smer Brno do "
 "Mlynskej doliny"
 msgstr ""
 
-#: templates/getting-here.html:87
+#: templates/getting-here.html:77
 msgid ""
 "zo smeru VIEDEŇ -> BRATISLAVA z cesty E58 (hranica) smer Brno na most "
 "Lafranconi, odbočiť do Mlynskej doliny"
 msgstr ""
 
-#: templates/getting-here.html:88
+#: templates/getting-here.html:78
 msgid ""
 "Pre pohodlnú cestu použite GPS a použite navigáciu na adresu: Bratislava,"
 " Ilkovičova 2, Fakulta informatiky a informačných technológií"
 msgstr ""
 
-#: templates/getting-here.html:90
+#: templates/getting-here.html:80
 msgid ""
 "Ak cestujete autom, bude dostatok parkovacích miest dostupných pred "
 "budovou konferencie."
 msgstr ""
 
-#: templates/getting-here.html:96
+#: templates/getting-here.html:86
 msgid "MHD"
 msgstr ""
 
-#: templates/getting-here.html:101
+#: templates/getting-here.html:91
 msgid ""
 "Aby ste sa dostali na konfereciu <strong>z autobusovej stanice</strong>, "
 "nastúpte na autobus č. 70 smerom “Most SNP” na vystúpte na zastávke “Most"
@@ -583,31 +583,31 @@ msgid ""
 "<strong>máte niekoľko možností prestúpiť</strong>"
 msgstr ""
 
-#: templates/getting-here.html:102
+#: templates/getting-here.html:92
 msgid ""
 "na autobus č. 30 alebo 37, vystúpiť na zastávke “ZOO”. Cesta trvá "
 "zvyčajne 5-7 minút, v závislosti od premávky."
 msgstr ""
 
-#: templates/getting-here.html:103
+#: templates/getting-here.html:93
 msgid "alebo"
 msgstr ""
 
-#: templates/getting-here.html:104
+#: templates/getting-here.html:94
 msgid ""
 "na autobus č. 28 alebo 29 alebo električku č. 4, 5, 6 alebo 9 a vystúpiťe"
 " na zastávke “Botanická záhrada”. Cesta trvá zvyčajne 6-9 minút, v "
 "závislosti od premávky."
 msgstr ""
 
-#: templates/getting-here.html:110
+#: templates/getting-here.html:100
 msgid ""
 "Aby ste sa dostali na konferenciu <strong>z vlakovej stanice</strong>, "
 "nastúpte do autobusu č. 32 smerom  “Dlhé diely”, a vystúpte na zastávke "
 "“ZOO”. Cesta trvá zvyčajne 12-15 minút, v závislosti od premávky."
 msgstr ""
 
-#: templates/getting-here.html:112
+#: templates/getting-here.html:102
 msgid ""
 "Aby ste sa dostali na konferenciu <strong>z hotela Ibis</strong>, musíte "
 "ísť na zastávku \"Zochova\" a nastúpiť na autobus 31 alebo 39 smerom "
@@ -615,18 +615,18 @@ msgid ""
 "zvyčajne 8-10 minút, v závislosti od premávky."
 msgstr ""
 
-#: templates/getting-here.html:116
+#: templates/getting-here.html:106
 msgid ""
 "Od zastávok autobusu budú umiestnené značky až ku konferencií, avšak "
 "pozrite si prosím Google Street View v predstihu aby ste vedeli kam "
 "idete."
 msgstr ""
 
-#: templates/getting-here.html:122
+#: templates/getting-here.html:112
 msgid "Lístok na MHD"
 msgstr ""
 
-#: templates/getting-here.html:124 templates/getting-here.html:126
+#: templates/getting-here.html:114 templates/getting-here.html:116
 #, python-format
 msgid ""
 "Lístky si môžete kúpiť v žltých prístrojoch, ktoré akceptujú euro mince, "
@@ -643,11 +643,11 @@ msgid ""
 "target=\"_blank\">stránku Dopravného podniku Bratislavy</a>."
 msgstr ""
 
-#: templates/getting-here.html:131
+#: templates/getting-here.html:121
 msgid "SMS lístok"
 msgstr ""
 
-#: templates/getting-here.html:133 templates/getting-here.html:135
+#: templates/getting-here.html:123 templates/getting-here.html:125
 #, python-format
 msgid ""
 "Pokiaľ máte telefón so slovenským operátorom (zahraničné SIM karty toto "
@@ -660,26 +660,40 @@ msgid ""
 "target=\"_blank\">stránku Dopravného podniku Bratislavy</a>."
 msgstr ""
 
-#: templates/getting-here.html:142
+#: templates/getting-here.html:132
 msgid "Iné možnosti dopravy"
 msgstr ""
 
-#: templates/getting-here.html:143
+#: templates/getting-here.html:133
 msgid "V Bratislave je niekoľko online taxi služieb: Uber, Hopin..."
 msgstr ""
 
-#: templates/getting-here.html:144
+#: templates/getting-here.html:134
 msgid ""
 "Môžete tiež použiť štandardnú Taxi službu, avšak dajte si pozor aby bol "
 "taxík privolaný telefónom. Pokiaľ iba “nastúpite” do taxíka stojaceho na "
 "ulici, jazda bude niekoľkonásobne drahšia."
 msgstr ""
 
-#: templates/getting-here.html:150
+#: templates/getting-here.html:140
+msgid "Ubytovanie"
+msgstr ""
+
+#: templates/getting-here.html:141
+msgid ""
+"V Bratislave je veľa možností na ubytovanie od coach surfingu, či airbnb,"
+" cez hostely až hostelov až po päť hviezdičkové hotely. I keď v čase "
+"konferencie nie je turistická sezóna doporučujeme zabezpečiť si "
+"ubytovanie v predstihu. Najbližší hotel ku konferencií je hotel Družba. "
+"Väčšina rečníkov bude ubytovaných v hoteli Ibis v centre mesta. V tomto "
+"istom hotely budeme mať aj sobotňajšiu spoločenskú večeru."
+msgstr ""
+
+#: templates/getting-here.html:148
 msgid "Sprievodca"
 msgstr ""
 
-#: templates/getting-here.html:151
+#: templates/getting-here.html:149
 #, python-format
 msgid ""
 "V Bratislave sa môžete popri konferencii zabaviť a získať množstvo "
@@ -691,7 +705,7 @@ msgid ""
 "názormi."
 msgstr ""
 
-#: templates/getting-here.html:153 templates/getting-here.html:155
+#: templates/getting-here.html:151 templates/getting-here.html:153
 #, python-format
 msgid ""
 "Prípadne si môžete pozrieť <a href=\"%(ba_guide_url)s\" title=\"stránky "
@@ -1552,19 +1566,5 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Cestovanie"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Medzi  viedenským letiskom a Bratislavou "
-#~ "prevádzkujú autobusovú prepravu dve "
-#~ "spoločnosti: SlovakLines (červené autobusy) a"
-#~ " Blaguss (strieborné autobusy). Blaguss je"
-#~ " rýchlejší a aj trochu lacnejší, "
-#~ "avšak SlovakLines Vás vezmú priamo na"
-#~ " <a href=\"#bus-train\">autobusovú stanicu</a>."
-#~ " <a "
-#~ "href=\"http://www.eurolines.sk/fileadmin/user_upload/cestovne_poriadky/mal_new/wien_new.pdf\""
-#~ " target=\"_blank\" title=\"Rozpis spojov\">Rozpis "
-#~ "na stránke</a>."
 #~ msgstr ""
 
