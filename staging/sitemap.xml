@@ -45,9 +45,9 @@
                  hreflang="sk"
                  href="https://pycon.sk/sk/getting-here.html"
                  />
-		<lastmod>2015-11-17T12:00:05+00:00</lastmod>
+		<lastmod>2016-01-18T12:00:05+00:00</lastmod>
 		<changefreq>weekly</changefreq>
-		<priority>0.66</priority>
+		<priority>0.75</priority>
     </url>
     <url>
 		
@@ -57,9 +57,9 @@
                  hreflang="en"
                  href="https://pycon.sk/en/getting-here.html"
                  />
-		<lastmod>2015-11-17T12:00:05+00:00</lastmod>
+		<lastmod>2016-01-18T12:00:05+00:00</lastmod>
 		<changefreq>weekly</changefreq>
-		<priority>0.66</priority>
+		<priority>0.75</priority>
     </url>
     <url>
 		
@@ -71,7 +71,7 @@
                  />
 		<lastmod>2015-12-21T00:42:45+00:00</lastmod>
 		<changefreq>weekly</changefreq>
-		<priority>0.75</priority>
+		<priority>0.66</priority>
     </url>
     <url>
 		
@@ -83,7 +83,7 @@
                  />
 		<lastmod>2015-12-21T00:42:45+00:00</lastmod>
 		<changefreq>weekly</changefreq>
-		<priority>0.75</priority>
+		<priority>0.66</priority>
     </url>
     <url>
 		
@@ -214,8 +214,8 @@
                  href="https://pycon.sk/sk/ba-06-meetup.html"
                  />
 		<lastmod>2015-11-11T11:11:11+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.4</priority>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
     </url>
     <url>
 		
@@ -226,8 +226,8 @@
                  href="https://pycon.sk/en/ba-06-meetup.html"
                  />
 		<lastmod>2015-11-11T11:11:11+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.4</priority>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
     </url>
     <url>
 		
@@ -237,9 +237,9 @@
                  hreflang="sk"
                  href="https://pycon.sk/sk/ba-07-meetup.html"
                  />
-		<lastmod>2015-12-18T10:53:24+00:00</lastmod>
-		<changefreq>daily</changefreq>
-		<priority>0.6</priority>
+		<lastmod>2016-01-17T12:22:22+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.4</priority>
     </url>
     <url>
 		
@@ -249,9 +249,9 @@
                  hreflang="en"
                  href="https://pycon.sk/en/ba-07-meetup.html"
                  />
-		<lastmod>2015-12-18T10:53:24+00:00</lastmod>
-		<changefreq>daily</changefreq>
-		<priority>0.6</priority>
+		<lastmod>2016-01-17T12:22:22+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.4</priority>
     </url>
     <url>
 		
@@ -431,7 +431,7 @@
                  />
 		<lastmod>2015-12-18T10:53:24+00:00</lastmod>
 		<changefreq>weekly</changefreq>
-		<priority>0.66</priority>
+		<priority>0.6</priority>
     </url>
     <url>
 		
@@ -443,7 +443,7 @@
                  />
 		<lastmod>2015-12-18T10:53:24+00:00</lastmod>
 		<changefreq>weekly</changefreq>
-		<priority>0.66</priority>
+		<priority>0.6</priority>
     </url>
     <url>
 		
