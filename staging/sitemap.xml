@@ -255,6 +255,30 @@
     </url>
     <url>
 		
+		<loc>https://pycon.sk/en/ba-08-meetup.html</loc>
+		<xhtml:link 
+                 rel="alternate"
+                 hreflang="sk"
+                 href="https://pycon.sk/sk/ba-08-meetup.html"
+                 />
+		<lastmod>2016-01-18T10:53:24+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.6</priority>
+    </url>
+    <url>
+		
+		<loc>https://pycon.sk/sk/ba-08-meetup.html</loc>
+		<xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://pycon.sk/en/ba-08-meetup.html"
+                 />
+		<lastmod>2016-01-18T10:53:24+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.6</priority>
+    </url>
+    <url>
+		
 		<loc>https://pycon.sk/en/sponsoring.html</loc>
 		<xhtml:link 
                  rel="alternate"

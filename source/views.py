@@ -34,6 +34,7 @@ SITEMAP = {
     'ba-05-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2015-10-26T20:10:00+00:00'},
     'ba-06-meetup.html': {'prio': '0.4', 'freq': 'weekly', 'lastmod': '2015-11-11T11:11:11+00:00'},
     'ba-07-meetup.html': {'prio': '0.6', 'freq': 'daily', 'lastmod': '2015-12-18T10:53:24+00:00'},
+    'ba-08-meetup.html': {'prio': '0.6', 'freq': 'daily', 'lastmod': '2016-01-18T10:53:24+00:00'},
     'thank-you.html': {'prio': '0.1', 'freq': 'yearly', 'lastmod': '2015-07-10T20:00:00+00:00'},
 }
 LDJSON = {
@@ -570,6 +571,11 @@ def ba_meetup_07():
     }
     return render_template('ba-07-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
                                                                           ld_json=LDJSON_EVENT))
+
+
+@app.route('/<lang_code>/ba-08-meetup.html')
+def ba_meetup_08():
+    return render_template('ba-08-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active'))
 
 
 @app.route('/sitemap.xml', methods=['GET'])
