@@ -147,7 +147,7 @@ msgid ""
 "hovoriť o pojmoch ako škálovateľnosť, zero down time deployments, "
 "continuous integration, continuous deployment a oboznámi nás s "
 "osvedčenými postupmi v oblasti nasadenia Pythonových aplikácii na "
-"produkčné serveri."
+"produkčné servery."
 msgstr ""
 
 #: templates/ba-08-meetup.html:14
