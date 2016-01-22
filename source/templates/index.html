@@ -1,8 +1,6 @@
 {% extends "body.html" %}
 
 {% block header%}
-  <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1'>
-  <script src='https://js.tito.io/v1' async></script>
   <link rel="canonical" href="https://pycon.sk{{ url_for('index', lang_code=lang_code) }}">
 {% endblock %}
 
@@ -26,6 +24,8 @@
 
     <p>{{ _('Veľmi sa tešíme, že vám môžeme oznámiť, že okrem dvoch dní zaujímavých prednášok (piatok - slovenský deň, sobota - anglický deň), budeme organizovať aj <a href="%(url)s">Django Girls</a> workshop (nedeľa), ktorý bude vhodný aj pre úplné začiatočníčky.', url=url_for('django_girls', lang_code=lang_code)) }}</p>
 
+    <p>{{ _('V najbližšej dobe budeme zverejnovať mená rečníkov, ktorí vystúpia na konferencii. Môžete sa tešiť na skvelých domácich a zahraničných rečníkov.') }}</p>
+
     <div class="image text-center">
       <img src="{{ url_for('static', filename='images/pycon/6967347999_105bba91a3_z.jpg') }}" alt="" class="img-responsive center-block">
       <p class="image-caption"><a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">CC</a> by <a href="https://www.flickr.com/photos/jaaaarel/6967347999/" target="_blank">Taavi Burns</a></p>
@@ -33,9 +33,7 @@
 
     <hr>
     <p>
-    <a href="{{ url_for('tickets', lang_code=lang_code) }}">{{ _('Vstupenky sú už v predaji.') }}</a> {{ _('Do <strong>24. januára 2016</strong> môžete využiť šancu zakúpiť si lístok za zvýhodnenú cenu.') }}<br />
-    <tito-widget event="pyconsk/2016"></tito-widget>
-    {{ _('Vstupenky si taktiež môžete kúpiť priamo na internetovej stránke %(tito_link)s v prípade, že sa Vám Tito widget nezobrazuje správne.', tito_link='<a href="https://ti.to/pyconsk/2016">https://ti.to/pyconsk/2016</a>'|safe) }}
+    <a href="{{ url_for('tickets', lang_code=lang_code) }}">{{ _('Vstupenky sú momentálne vypredané.') }}</a> {{ _('Pracujeme na tom, aby sme mohli dať ešte niekoľko vstupeniek do predaja.') }}<br />
     </p>
 
     <hr>
@@ -47,7 +45,5 @@
   <div class="col-md-4">
     {% include 'right_nav.html' %}
   </div>
-  <div class="hide"><a href="{{ url_for('sponsoring', lang_code=lang_code) }}"></a></div>
-  <div class="hide"><a href="{{ url_for('thank_you', lang_code=lang_code) }}"></a></div>
 </div>
 {% endblock %}

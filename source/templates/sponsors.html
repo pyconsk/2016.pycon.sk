@@ -4,7 +4,11 @@
 <div class="row">
   <div class="col-md-12">
     <h1>{{ _('Naši sponzori') }}</h1>
-    <p class="lead">{{ _('Ďakujeme všetkým sponzorom, bez ktorých by nebolo možné usporiadať túto úžasnú konferenciu.') }}</p>
+    <p class="lead">
+    {{ _('Ďakujeme všetkým sponzorom, bez ktorých by nebolo možné usporiadať túto úžasnú konferenciu.') }}
+    <br/>
+    <a href="{{ url_for('sponsoring', lang_code=lang_code) }}">{{ _('Prečo sa stať sponzorom?') }}</a>
+    </p>
   </div>
 </div>
 

@@ -27,8 +27,8 @@ if [ -d "${FLASK_URL}" ]; then
 	rm -rf "${FLASK_URL}"
 fi
 
-wget http://"${FLASK_URL}"/sitemap.xml --output-document=sitemap.xml && \
-wget -mkEp http://"${FLASK_URL}"/sk/index.html
+wget -nv http://"${FLASK_URL}"/sitemap.xml --output-document=sitemap.xml && \
+wget -mkEpnv http://"${FLASK_URL}"/sk/index.html
 
 if [ $? -eq 0 ]; then
 	cd "${TMP_DIR}/${FLASK_URL}" || exit 3

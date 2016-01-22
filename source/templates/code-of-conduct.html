@@ -30,5 +30,12 @@
     {% include 'right_nav.html' %}
   </div>
 
+  {# Pages that should be crawled by wget, but have no links pointing to them #}
+  <div class="hide">
+    <a href="{{ url_for('speaking', lang_code=lang_code) }}"></a>
+    <a href="{{ url_for('sponsoring', lang_code=lang_code) }}"></a>
+    <a href="{{ url_for('thank_you', lang_code=lang_code) }}"></a>
+  </div>
+
 </div>
 {% endblock %}

@@ -13,12 +13,12 @@ LOGO_MEETUP_BA = 'images/bratislava_logo.svg'
 LANGS = ('en', 'sk')
 SITEMAP = {
     'sitemap.xml': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2015-12-18T10:53:24+00:00'},
-    'index.html': {'prio': '1', 'freq': 'daily', 'lastmod': '2015-12-18T10:24:12+00:00'},
+    'index.html': {'prio': '1', 'freq': 'daily', 'lastmod': '2016-01-22T10:24:12+00:00'},
     'sponsoring.html': {'prio': '0.9', 'freq': 'weekly', 'lastmod': '2015-10-26T22:05:00+00:00'},
     'sponsors.html': {'prio': '0.9', 'freq': 'weekly', 'lastmod': '2015-12-18T10:24:12+00:00'},
     'speaking.html': {'prio': '0.9', 'freq': 'weekly', 'lastmod': '2015-10-26T22:05:00+00:00'},
     'speakers.html': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2015-10-31T23:45:00+00:00'},
-    'tickets.html': {'prio': '1', 'freq': 'daily', 'lastmod': '2015-10-26T22:00:05+00:00'},
+    'tickets.html': {'prio': '1', 'freq': 'daily', 'lastmod': '2016-01-22T22:00:05+00:00'},
     'getting-here.html': {'prio': '0.75', 'freq': 'weekly', 'lastmod': '2016-01-18T12:00:05+00:00'},
     'django-girls.html': {'prio': '0.66', 'freq': 'weekly', 'lastmod': '2015-12-21T00:42:45+00:00'},
     'spy.html': {'prio': '0.75', 'freq': 'monthly', 'lastmod': '2015-09-10T20:00:00+00:00'},
