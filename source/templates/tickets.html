@@ -43,23 +43,21 @@
     </p>
 
     <h3>{{ _('Čo všetko mám v lístku?') }}</h3>
-    <p class="text-justify">
-      <ul>
-        <li>{{ _('Dva dni prednášok.') }}</li>
-        <li>{{ _('Obed počas oboch dní konferencie.') }}</li>
-        <li>{{ _('Kávu a koláčik počas prestávok.') }}</li>
-        <li>{{ _('Tričko a tašku plnú prekvapení.') }}</li>
-        <li>{{ _('Pozvánka na piatkovú neformálnu party.') }}</li> 
-      </ul>
-    </p>
+    <ul class="text-justify">
+      <li>{{ _('Dva dni prednášok.') }}</li>
+      <li>{{ _('Obed počas oboch dní konferencie.') }}</li>
+      <li>{{ _('Kávu a koláčik počas prestávok.') }}</li>
+      <li>{{ _('Tričko a tašku plnú prekvapení.') }}</li>
+      <li>{{ _('Pozvánka na piatkovú neformálnu party.') }}</li> 
+    </ul>
 
     <h3>{{ _('Aký bude program konferencie?') }}</h3>
+    <ul class="text-justify">
+      <li>{{ _('Piatok') }} - {{ _('prednášky v slovenčine, resp. češtine') }}.</li>
+      <li>{{ _('Sobota') }} - {{ _('prednášky v angličtine') }}.</li>
+      <li>{{ _('Nedeľa') }} - {{ _('<a href="%(url)s">Django Girls</a> workshop (samostatná registrácia, PyCon SK lístok nie je potrebný)', url=url_for('django_girls', lang_code=lang_code)) }}.</li>
+    </ul>
     <p class="text-justify">
-      <ul>
-        <li>{{ _('Piatok') }} - {{ _('prednášky v slovenčine, resp. češtine') }}.</li>
-        <li>{{ _('Sobota') }} - {{ _('prednášky v angličtine') }}.</li>
-        <li>{{ _('Nedeľa') }} - {{ _('<a href="%(url)s">Django Girls</a> workshop (samostatná registrácia, PyCon SK lístok nie je potrebný)', url=url_for('django_girls', lang_code=lang_code)) }}.</li>
-      </ul>
       {{ _('Podrobný program konferencie zverejníme už čoskoro.') }}
     </p>
 
