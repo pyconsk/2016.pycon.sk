@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-22 22:17+0100\n"
+"POT-Creation-Date: 2016-01-24 14:21+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -197,7 +197,7 @@ msgstr ""
 msgid "Workshop"
 msgstr ""
 
-#: templates/body.html:71 templates/django-girls.html:62
+#: templates/body.html:71 templates/django-girls.html:60
 msgid "Sponzori"
 msgstr ""
 
@@ -305,7 +305,7 @@ msgid ""
 "stretnutia v akejkoľvek forme."
 msgstr ""
 
-#: templates/django-girls.html:5 templates/django-girls.html:57
+#: templates/django-girls.html:5 templates/django-girls.html:55
 msgid "Django Girls"
 msgstr ""
 
@@ -368,53 +368,53 @@ msgstr ""
 msgid "Často kladené otázky"
 msgstr ""
 
-#: templates/django-girls.html:31
+#: templates/django-girls.html:30
 msgid "Čo potrebujem vedieť o vývoji web stránok alebo programovaní?"
 msgstr ""
 
-#: templates/django-girls.html:32
+#: templates/django-girls.html:31
 msgid ""
 "Nič! Workshop je pre začiatočníkov a nepotrebuješ žiadne predchádzajúce "
 "skúsenosti. Na druhú stranu, určite sa môžeš prihlásiť, ak už máš nejaké "
 "základy (vieš, čo je HTML alebo CSS)"
 msgstr ""
 
-#: templates/django-girls.html:34
+#: templates/django-girls.html:33
 msgid "Mám si doniesť vlastný počítač?"
 msgstr ""
 
-#: templates/django-girls.html:35
+#: templates/django-girls.html:34
 msgid ""
 "Áno. Nemáme žiadny hardvér, očakávame, že si prinesieš vlastný počítač (s"
 " nabíjačkou). Je dôležité, aby si si vzala domov všetky materiály, ktoré "
 "vytvoríš počas workshopu."
 msgstr ""
 
-#: templates/django-girls.html:37
+#: templates/django-girls.html:36
 msgid "Musím si niečo nainštalovať na môj počítač?"
 msgstr ""
 
-#: templates/django-girls.html:38
+#: templates/django-girls.html:37
 msgid ""
 "Bolo by dobré mať nainštalované Django ešte pred workshopom, no nie je to"
 " podmienka. Naši mentori ti s tým radi pomôžu priamo na workshope."
 msgstr ""
 
-#: templates/django-girls.html:40
+#: templates/django-girls.html:39
 msgid "Bude sa počas workshopu podávať aj strava?"
 msgstr ""
 
-#: templates/django-girls.html:41
+#: templates/django-girls.html:40
 msgid ""
 "Áno. Vďaka PyCon SK a sponzorom bude počas workshopu podávaný obed, káva "
 "a občerstvenie."
 msgstr ""
 
-#: templates/django-girls.html:53
+#: templates/django-girls.html:51
 msgid "Staň sa mentorom"
 msgstr ""
 
-#: templates/django-girls.html:54
+#: templates/django-girls.html:52
 msgid ""
 "Budeme radi, ak sa k nám pridáš a staneš sa mentorom. Pošli nám email na "
 "<a "
@@ -422,7 +422,7 @@ msgid ""
 " a napíš nám niečo o sebe... <br />My sa ozveme späť :)"
 msgstr ""
 
-#: templates/django-girls.html:58
+#: templates/django-girls.html:56
 msgid ""
 "Django Girls workshop na konferencii PyCon SK je súčasťou medzinárodnej "
 "iniciatívy <a href=\"https://www.djangogirls.org/#pyconsk\" "
@@ -431,7 +431,7 @@ msgid ""
 "výučbu programovania po celom svete."
 msgstr ""
 
-#: templates/django-girls.html:63
+#: templates/django-girls.html:61
 msgid ""
 "Nemohli by sme tu byť bez podpory od úžasných ľudí a spoločností, ktorí "
 "poskytli peniaze, vedomosti a svoj čas, aby nám pomohli uskutočniť tento "
@@ -457,11 +457,11 @@ msgstr ""
 msgid "Cestovanie po Bratislave"
 msgstr ""
 
-#: templates/getting-here.html:21 templates/getting-here.html:137
+#: templates/getting-here.html:21 templates/getting-here.html:136
 msgid "Mapa"
 msgstr ""
 
-#: templates/getting-here.html:24 templates/getting-here.html:144
+#: templates/getting-here.html:24 templates/getting-here.html:143
 msgid "Ubytovanie"
 msgstr ""
 
@@ -624,14 +624,14 @@ msgid ""
 "závislosti od premávky."
 msgstr ""
 
-#: templates/getting-here.html:102
+#: templates/getting-here.html:101
 msgid ""
 "Aby ste sa dostali na konferenciu <strong>z vlakovej stanice</strong>, "
 "nastúpte do autobusu č. 32 smerom na “Dlhé diely” a vystúpte na zastávke "
 "“ZOO”. Cesta trvá zvyčajne 12-15 minút, v závislosti od premávky."
 msgstr ""
 
-#: templates/getting-here.html:104
+#: templates/getting-here.html:103
 msgid ""
 "Aby ste sa dostali na konferenciu <strong>z hotela Ibis</strong>, musíte "
 "ísť na zastávku “Zochova” a nastúpiť na autobus 31 alebo 39 smerom "
@@ -639,18 +639,18 @@ msgid ""
 "zvyčajne 8-10 minút, v závislosti od premávky."
 msgstr ""
 
-#: templates/getting-here.html:108
+#: templates/getting-here.html:107
 msgid ""
 "Od zastávok autobusu budú umiestnené značky až ku konferencií, avšak "
 "pozrite si prosím Google Street View v predstihu aby ste vedeli kam "
 "idete."
 msgstr ""
 
-#: templates/getting-here.html:114
+#: templates/getting-here.html:113
 msgid "Lístok na MHD"
 msgstr ""
 
-#: templates/getting-here.html:116
+#: templates/getting-here.html:115
 #, python-format
 msgid ""
 "Lístky si môžete kúpiť v žltých prístrojoch, ktoré akceptujú euro mince, "
@@ -667,11 +667,11 @@ msgid ""
 "target=\"_blank\">stránku Dopravného podniku Bratislavy</a>."
 msgstr ""
 
-#: templates/getting-here.html:121
+#: templates/getting-here.html:120
 msgid "SMS lístok"
 msgstr ""
 
-#: templates/getting-here.html:122
+#: templates/getting-here.html:121
 #, python-format
 msgid ""
 "Pokiaľ máte telefón so slovenským operátorom (zahraničné SIM karty toto "
@@ -684,22 +684,22 @@ msgid ""
 "target=\"_blank\">stránku Dopravného podniku Bratislavy</a>."
 msgstr ""
 
-#: templates/getting-here.html:129
+#: templates/getting-here.html:128
 msgid "Iné možnosti dopravy"
 msgstr ""
 
-#: templates/getting-here.html:130
+#: templates/getting-here.html:129
 msgid "V Bratislave je niekoľko online taxi služieb: Uber, Hopin..."
 msgstr ""
 
-#: templates/getting-here.html:131
+#: templates/getting-here.html:130
 msgid ""
 "Môžete tiež použiť štandardnú Taxi službu, avšak dajte si pozor aby bol "
 "taxík privolaný telefónom. Pokiaľ iba “nastúpite” do taxíka stojaceho na "
 "ulici, jazda bude niekoľkonásobne drahšia."
 msgstr ""
 
-#: templates/getting-here.html:145
+#: templates/getting-here.html:144
 msgid ""
 "V Bratislave je veľa možností na ubytovanie od coach surfingu, či Airbnb,"
 " cez hostely až po päť hviezdičkové hotely. I keď v čase konferencie nie "
@@ -709,11 +709,11 @@ msgid ""
 " aj sobotňajšiu spoločenskú večeru."
 msgstr ""
 
-#: templates/getting-here.html:152
+#: templates/getting-here.html:151
 msgid "Sprievodca"
 msgstr ""
 
-#: templates/getting-here.html:153
+#: templates/getting-here.html:152
 #, python-format
 msgid ""
 "V Bratislave sa môžete popri konferencii zabaviť a získať množstvo "
@@ -725,7 +725,7 @@ msgid ""
 "názormi."
 msgstr ""
 
-#: templates/getting-here.html:154
+#: templates/getting-here.html:153
 #, python-format
 msgid ""
 "Prípadne si môžete pozrieť <a href=\"%(ba_guide_url)s\" title=\"stránky "
@@ -889,6 +889,16 @@ msgid ""
 " IT rodiny a aj vďaka tomu sa vybrala touto cestou. Neznáša zlý kód a "
 "zastaralé technológie. Spoluorganizuje stretnutia Bratislavského Scala "
 "meetupu."
+msgstr ""
+
+#: templates/speakers.html:110
+msgid ""
+"Büsra pracuje pre Ericsson R&amp;D v Budapešti ako Cloud System Engineer."
+" Zaujíma sa o back-end development, cloud, big data a nové technológie. "
+"Má skúsenosti s Python, OpenStack, Zabbix, Rsyslog, a Ansible. Je veľkým "
+"fanúšikom Pythonu! Taktiež je zakladateľka sociálneho podnikania na <a "
+"href=\"http://bikokorec.com/\" target=\"_blank\">bikokorec.com</a> a "
+"bloggerka. Miluje programovanie, fotenie a blogovanie."
 msgstr ""
 
 #: templates/speaking.html:5
@@ -1436,99 +1446,99 @@ msgstr ""
 msgid "Čo všetko mám v lístku?"
 msgstr ""
 
-#: templates/tickets.html:48
+#: templates/tickets.html:47
 msgid "Dva dni prednášok."
 msgstr ""
 
-#: templates/tickets.html:49
+#: templates/tickets.html:48
 msgid "Obed počas oboch dní konferencie."
 msgstr ""
 
-#: templates/tickets.html:50
+#: templates/tickets.html:49
 msgid "Kávu a koláčik počas prestávok."
 msgstr ""
 
-#: templates/tickets.html:51
+#: templates/tickets.html:50
 msgid "Tričko a tašku plnú prekvapení."
 msgstr ""
 
-#: templates/tickets.html:52
+#: templates/tickets.html:51
 msgid "Pozvánka na piatkovú neformálnu party."
 msgstr ""
 
-#: templates/tickets.html:56
+#: templates/tickets.html:54
 msgid "Aký bude program konferencie?"
 msgstr ""
 
-#: templates/tickets.html:59
+#: templates/tickets.html:56
 msgid "Piatok"
 msgstr ""
 
-#: templates/tickets.html:59
+#: templates/tickets.html:56
 msgid "prednášky v slovenčine, resp. češtine"
 msgstr ""
 
-#: templates/tickets.html:60
+#: templates/tickets.html:57
 msgid "Sobota"
 msgstr ""
 
-#: templates/tickets.html:60
+#: templates/tickets.html:57
 msgid "prednášky v angličtine"
 msgstr ""
 
-#: templates/tickets.html:61
+#: templates/tickets.html:58
 msgid "Nedeľa"
 msgstr ""
 
-#: templates/tickets.html:61
+#: templates/tickets.html:58
 #, python-format
 msgid ""
 "<a href=\"%(url)s\">Django Girls</a> workshop (samostatná registrácia, "
 "PyCon SK lístok nie je potrebný)"
 msgstr ""
 
-#: templates/tickets.html:63
+#: templates/tickets.html:61
 msgid "Podrobný program konferencie zverejníme už čoskoro."
 msgstr ""
 
-#: templates/tickets.html:66
+#: templates/tickets.html:64
 msgid "Ponúkate množstevné zľavy?"
 msgstr ""
 
-#: templates/tickets.html:68
+#: templates/tickets.html:66
 msgid ""
 "Ak máte záujem kúpiť viac ako 10 lístkov kontaktujete nás emailom na "
 "info@pycon.sk."
 msgstr ""
 
-#: templates/tickets.html:71
+#: templates/tickets.html:69
 msgid "Nemám PayPal, je možné kúpiť vstupenku inak ako cez Tito?"
 msgstr ""
 
-#: templates/tickets.html:73
+#: templates/tickets.html:71
 msgid ""
 "Akceptujeme aj bankový prevod, prípadne Bitcoin. Napíšte nám, o aké "
 "lístky máte záujem, zašleme Vám variabilný symbol a po pripísaní sumy na "
 "náš účet Vám vystavíme a pošleme emailom vstupenku."
 msgstr ""
 
-#: templates/tickets.html:74
+#: templates/tickets.html:72
 msgid "Bankové spojenie nájdete na stránkach"
 msgstr ""
 
-#: templates/tickets.html:74
+#: templates/tickets.html:72
 msgid "SPy o.z."
 msgstr ""
 
-#: templates/tickets.html:74
+#: templates/tickets.html:72
 msgid "našeho občianského združenia"
 msgstr ""
 
-#: templates/tickets.html:77
+#: templates/tickets.html:75
 msgid "Kam idú všetky peniaze za lístky?"
 msgstr ""
 
-#: templates/tickets.html:79
+#: templates/tickets.html:77
 msgid ""
 "PyCon je kompletne organizovaný dobrovoľníkmi. Veríme, že organizovať "
 "takéto konferencie je potrebné, aby propagovali programovanie a Open "
@@ -1539,11 +1549,11 @@ msgid ""
 "programovania všeobecne, prečítajte si"
 msgstr ""
 
-#: templates/tickets.html:79
+#: templates/tickets.html:77
 msgid "ciele SPy o.z."
 msgstr ""
 
-#: templates/tickets.html:79
+#: templates/tickets.html:77
 msgid "viac o našich cieľoch"
 msgstr ""
 
@@ -1722,5 +1732,19 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Sponzorovanie"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Büsra pracuje pre Ericsson R&amp!D v "
+#~ "Budapešti ako Cloud System Engineer. "
+#~ "Zaujíma sa o back-end development, "
+#~ "cloud, big data a nové technológie. "
+#~ "Má skúsenosti s Python, OpenStack, "
+#~ "Zabbix, Rsyslog, a Ansible. Je veľkým"
+#~ " fanúšikom Pythonu! Taktiež je zakladateľka"
+#~ " sociálneho podnikania na <a "
+#~ "href=\"http://bikokorec.com/\" "
+#~ "target=\"_blank\">bikokorec.com</a> a bloggerka. "
+#~ "Miluje programovanie, fotenie a blogovanie."
 #~ msgstr ""
 
