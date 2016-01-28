@@ -9,7 +9,7 @@ app.jinja_options = {'extensions': ['jinja2.ext.with_', 'jinja2.ext.i18n']}
 babel = Babel(app)
 
 LOGO_PYCON = 'images/logo/pycon.svg'
-LOGO_MEETUP_BA = 'images/bratislava_logo.svg'
+LOGO_MEETUP_BA = 'images/logo/bratislava_logo.svg'
 LANGS = ('en', 'sk')
 SITEMAP = {
     'sitemap.xml': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2015-12-18T10:53:24+00:00'},
