@@ -40,6 +40,9 @@ if [ $? -eq 0 ]; then
 	# Regenerate symlinks
 	ln -s static/download files
 
+	# Classic favicon.ico location
+	ln -s static/images/favicon.ico .
+
     # Get mtime of main CSS
 	VERSION=$(stat --format=%Y static/css/pycon.css 2> /dev/null || stat -f%m static/css/pycon.css)
     find . -type f -name "*.html" | xargs sed -i.old "s#css/pycon.css\"#css/pycon.css?v=${VERSION}\"#"
