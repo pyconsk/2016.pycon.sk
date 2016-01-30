@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-25 20:57+0100\n"
+"POT-Creation-Date: 2016-01-30 12:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -444,9 +444,9 @@ msgstr ""
 
 #: templates/getting-here.html:8
 msgid ""
-"Ste skvelý. Už máte lístok na konferenciu a potrebujete zistiť ako sa sem"
-" dostať? Manuál na tejto stránke vysvetľuje možnosti ako prísť na "
-"konferenciu."
+"Ste skvelý. Už máte lístok na konferenciu a potrebujete zistiť možnosti "
+"dopravy? Na tejto stránke nájdete kompletnú informáciu o tom, ako sa na "
+"konferenciu dostanete."
 msgstr ""
 
 #: templates/getting-here.html:15 templates/getting-here.html:33
@@ -467,11 +467,10 @@ msgstr ""
 
 #: templates/getting-here.html:35
 msgid ""
-"Bratislava patrí medzi najmladšie hlavné mestá Európy. Napriek tomu je to"
-" mesto s bohatou históriou slobodného kráľovského korunovačného mesta z "
-"obdobia keď sa nazývala Prešporkom (Pozsony, Pressburg). Bratislava je "
-"významný dopravný uzol v stredoeurópskom regióne a tak máte veľa možností"
-" ako sa sem dostať."
+"Bratislava patrí medzi najmladšie hlavné mestá Európy. Napriek tomu má "
+"bohatú históriu slobodného kráľovského korunovačného mesta. Vtedy bola "
+"ešte Prešporkom nazývaná. Dnes je Bratislava významný dopravný uzol v "
+"strednej Európe a možností, ako sa sem dostať, je neúrekom."
 msgstr ""
 
 #: templates/getting-here.html:42
@@ -1223,6 +1222,14 @@ msgstr ""
 
 #: templates/sponsors.html:262
 msgid "Mediálni partneri"
+msgstr ""
+
+#: templates/sponsors.html:275
+msgid ""
+"Startitup je najpopulárnejší a najprogresívnejšie rastúci tech/startup "
+"portál na Slovensku a v Čechách, ktorý informuje, inšpiruje a zabáva "
+"digitálnu generáciu. Startitup je považovaný za jedno z "
+"najkredibilnejších nezávislých médií na Slovensku."
 msgstr ""
 
 #: templates/sponsors.html:300
