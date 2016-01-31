@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-31 17:11+0100\n"
+"POT-Creation-Date: 2016-01-31 18:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -1021,7 +1021,7 @@ msgid ""
 " tými, ktorí sa zaujímajú o \"výpočtové veci\"."
 msgstr "Works with Python's scientific stack on a daily basis at the Austria"
 
-#: templates/speakers.html:27
+#: templates/speakers.html:26
 msgid ""
 "Telekomunikačný inžinier. Milovník Pythonu od 1996, vývojar jadra od "
 "2008, konzultant od 2012. Zakladateľ Pythonových používateľských skupín v"
@@ -1035,7 +1035,7 @@ msgstr ""
 "Python, Security and almost anything interesting, including podcasting "
 "and geocaching."
 
-#: templates/speakers.html:40
+#: templates/speakers.html:41
 msgid ""
 "Cory je open source Python vývojár pracujúci na plný úväzok pre <a "
 "href=\"https://www.hpe.com/\" target=\"_blank\" title=\"Hewlett Packard "
@@ -1063,7 +1063,7 @@ msgstr ""
 " projects for working with HTTP and HTTP/2. He loves computer networks, "
 "film and TV, and travel."
 
-#: templates/speakers.html:55
+#: templates/speakers.html:54
 msgid ""
 "Vývojár slobodného softvéru a administrátor z Islandu. Programuje od "
 "polovice 90. rokov, vrátanie šesťročného boja so spamom a vírusmi a tri "
@@ -1094,7 +1094,7 @@ msgstr ""
 "in mere seconds\">PageKite</a>  and <a href=\"https://www.mailpile.is/\" "
 "target=\"_blank\" title=\"MailPile is an e-mail client\">Mailpile</a>."
 
-#: templates/speakers.html:68
+#: templates/speakers.html:69
 msgid ""
 "Büsra pracuje pre Ericsson R&amp;D v Budapešti ako Cloud System Engineer."
 " Zaujíma sa o back-end development, cloud, big data a nové technológie. "
@@ -1111,7 +1111,21 @@ msgstr ""
 "target=\"_blank\">bikokorec.com</a> and a blogger. She loves coding, "
 "taking photos, and blogging."
 
-#: templates/speakers.html:82
+#: templates/speakers.html:81
+msgid ""
+"Robí s pythonom na dennej báze posledných 5 rokov. Vo <a "
+"href=\"https://www.vnet.sk/\" target=\"_blank\" title=\"Vnet\">Vnete</a> "
+"je zodpovedný za rozvoj interných aplikácií a automatizáciu procesov "
+"spoločnosti. Má záujem o back-end vývoj, internet vecí, bezpečnosti IT a "
+"je nadšenec open source technológií."
+msgstr ""
+"Working with Python on daily basis for last 5 years. At <a "
+"href=\"https://www.vnet.sk/\" target=\"_blank\" title=\"Vnet\">Vnet</a> he is "
+"responsible for developing internal applications and automation of "
+"company's processes. He is interested in back-end developement, IoT, IT "
+"security and enthusiastic about open source technologies."
+
+#: templates/speakers.html:95
 msgid ""
 "Svetlana sa venuje programovaniu v Pythone a Djangu v spoločnosti <a "
 "href=\"http://thebrainity.com/\" target=\"_blank\">Brainity</a>, kde "
@@ -1127,7 +1141,26 @@ msgstr ""
 "She likes the new technology, UI/UX and tries to optimize each task and "
 "program as much as possible."
 
-#: templates/speakers.html:94
+#: templates/speakers.html:107
+msgid ""
+"Tatiana začala programovať v roku 2002. Prešla od vyvoja lekárskych "
+"zobrazovacích aplikácií až na odporúčacie platformy pomocou webovej "
+"sémantiky - väčšinou pomocou pythonu. Potom, čo pracovala pre "
+"ministerstvo vedy a technológie Brazílie a najväčšej mediálnej "
+"spoločnosťi Latinskej Ameriky (Globo), sa presťahovala do Londýna a "
+"pracuje pre <a href=\"http://www.ef.edu/\" target=\"_blank\" "
+"title=\"Education First\">Education First</a> (EF), vyvíja vzdelávacie "
+"aplikácie."
+msgstr ""
+"Tatiana started programming in 2002. She already developed from medical "
+"imaging applications to recommendation platforms empowered by web "
+"semantic - mostly using Python. After having worked for the Ministry of "
+"Science and Technology of Brazil and the largest media company of Latin "
+"America (Globo), she current lives in London and works for <a "
+"href=\"http://www.ef.edu/\" target=\"_blank\" title=\"Education "
+"First\">Education Firsti</a> (EF), developing educational applications."
+
+#: templates/speakers.html:121
 msgid ""
 "Daniele bol organizátorom Django víkendu v Cardiffe a aj členom "
 "organizačnej komisie DjangoCon Europe 2014 a jej predsedom v roku 2015. "
@@ -1151,7 +1184,7 @@ msgstr ""
 "team, and has been involved in organising numerous Python/Django "
 "conferences, including DjangoCon Europe 2015 and PyCon Namibia 2016."
 
-#: templates/speakers.html:108
+#: templates/speakers.html:133
 msgid ""
 "Matúš je PhD študent na Fakulte matematiky, fyziky a informatiky "
 "Univerzity Komenského v Bratislave. Venuje sa skúmaniu kvantových javov v"
@@ -1167,7 +1200,7 @@ msgstr ""
 "physicist needs: communication with measurement devices, data collection "
 "and processing, simulations."
 
-#: templates/speakers.html:120
+#: templates/speakers.html:147
 msgid ""
 "Michael pracuje pre Red Hat v týme Open Source a štandardy, zaujíma sa o "
 "infraštruktúrne problémy rôznych komunít ako systémový administrátor. "
@@ -1175,7 +1208,7 @@ msgid ""
 "nerozpráva po konferenciach o slobodnom softvéry."
 msgstr "Michael works on the Open Source and Standards team at Red Hat"
 
-#: templates/speakers.html:135
+#: templates/speakers.html:160
 msgid ""
 "Andrea sa venuje vývoju serverových aplikácií od roku 2012. Pochádza z IT"
 " rodiny a aj vďaka tomu sa vybrala touto cestou. Neznáša zlý kód a "
@@ -1187,7 +1220,7 @@ msgstr ""
 "dislikes bad code and old technologies. Furthermore, she is one of the "
 "organizers of Bratislava Scala meetup."
 
-#: templates/speakers.html:148
+#: templates/speakers.html:175
 msgid ""
 "Nicholas je klasicky vyškolený hudobník, absolvent filozofie, učiteľ, "
 "spisovateľ a vývojár softvéru. Spolupracuje s nadáciou Python Software "
