@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-30 12:39+0100\n"
+"POT-Creation-Date: 2016-01-31 13:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -802,20 +802,15 @@ msgstr ""
 msgid "Strieborní sponzori:"
 msgstr ""
 
+#: templates/right_nav.html:66 templates/sponsors.html:237
+msgid "Hlavný mediálny partner"
+msgstr ""
+
 #: templates/speakers.html:6
 msgid "Rečníci, ktorí vystúpia na PyCon SK 2016."
 msgstr ""
 
-#: templates/speakers.html:15
-msgid ""
-"Nicholas je klasicky vyškolený hudobník, absolvent filozofie, učiteľ, "
-"spisovateľ a vývojár softvéru. Spolupracuje s nadáciou Python Software "
-"Foundation, ktorá mu udelila ocenenie komunity za jeho prácu v oblasti "
-"vzdelávania. Je jednoducho taký ako táto biografia: stručný, čestný a "
-"plný užitočných informácií."
-msgstr ""
-
-#: templates/speakers.html:30
+#: templates/speakers.html:16
 msgid ""
 "Telekomunikačný inžinier. Milovník Pythonu od 1996, vývojar jadra od "
 "2008, konzultant od 2012. Zakladateľ Pythonových používateľských skupín v"
@@ -824,7 +819,7 @@ msgid ""
 "geocachingu."
 msgstr ""
 
-#: templates/speakers.html:43
+#: templates/speakers.html:29
 msgid ""
 "Cory je open source Python vývojár pracujúci na plný úväzok pre <a "
 "href=\"https://www.hpe.com/\" target=\"_blank\" title=\"Hewlett Packard "
@@ -840,22 +835,7 @@ msgid ""
 "televíziu a cestovanie."
 msgstr ""
 
-#: templates/speakers.html:57
-msgid ""
-"Daniele bol organizátorom Django víkendu v Cardiffe a aj členom "
-"organizačnej komisie DjangoCon Europe 2014 a jej predsedom v roku 2015. "
-"Tiež bol jedným z hlavných organizátorov Python Namibia 2015, prvej "
-"Python konferencie v Namíbií. Je vývojár jadra v Django projekte a "
-"pracuje pre <a href=\"http://www.divio.com/\" target=\"_blank\" "
-"title=\"Divio\">Divio</a>. V Divio pracuje na <a href=\"http://www"
-".django-cms.org/\" target=\"_blank\" title=\"Django CMS - Ľahko "
-"použiteľné pre editorov a aj vývojárov\">Django CMS</a>, <a "
-"href=\"http://www.aldryn.com/\" target=\"_blank\" title=\"Aldryn - "
-"Najjednoduchší spôsob ako postaviť a spravovať django CMS "
-"projekty\">Aldryn</a> a iných zábavných Django projektoch."
-msgstr ""
-
-#: templates/speakers.html:70
+#: templates/speakers.html:43
 msgid ""
 "Vývojár slobodného softvéru a administrátor z Islandu. Programuje od "
 "polovice 90. rokov, vrátanie šesťročného boja so spamom a vírusmi a tri "
@@ -872,7 +852,17 @@ msgid ""
 "target=\"_blank\" title=\"MailPile je e-mailový klient\">MailePile</a>."
 msgstr ""
 
-#: templates/speakers.html:84
+#: templates/speakers.html:58
+msgid ""
+"Büsra pracuje pre Ericsson R&amp;D v Budapešti ako Cloud System Engineer."
+" Zaujíma sa o back-end development, cloud, big data a nové technológie. "
+"Má skúsenosti s Python, OpenStack, Zabbix, Rsyslog, a Ansible. Je veľkým "
+"fanúšikom Pythonu! Taktiež je zakladateľka sociálneho podnikania na <a "
+"href=\"http://bikokorec.com/\" target=\"_blank\">bikokorec.com</a> a "
+"bloggerka. Miluje programovanie, fotenie a blogovanie."
+msgstr ""
+
+#: templates/speakers.html:71
 msgid ""
 "Svetlana sa venuje programovaniu v Pythone a Djangu v spoločnosti <a "
 "href=\"http://thebrainity.com/\" target=\"_blank\">Brainity</a>, kde "
@@ -882,7 +872,32 @@ msgid ""
 "zoptimalizovať."
 msgstr ""
 
-#: templates/speakers.html:96
+#: templates/speakers.html:84
+msgid ""
+"Daniele bol organizátorom Django víkendu v Cardiffe a aj členom "
+"organizačnej komisie DjangoCon Europe 2014 a jej predsedom v roku 2015. "
+"Tiež bol jedným z hlavných organizátorov Python Namibia 2015, prvej "
+"Python konferencie v Namíbií. Je vývojár jadra v Django projekte a "
+"pracuje pre <a href=\"http://www.divio.com/\" target=\"_blank\" "
+"title=\"Divio\">Divio</a>. V Divio pracuje na <a href=\"http://www"
+".django-cms.org/\" target=\"_blank\" title=\"Django CMS - Ľahko "
+"použiteľné pre editorov a aj vývojárov\">Django CMS</a>, <a "
+"href=\"http://www.aldryn.com/\" target=\"_blank\" title=\"Aldryn - "
+"Najjednoduchší spôsob ako postaviť a spravovať django CMS "
+"projekty\">Aldryn</a> a iných zábavných Django projektoch."
+msgstr ""
+
+#: templates/speakers.html:97
+msgid ""
+"Matúš je PhD študent na Fakulte matematiky, fyziky a informatiky "
+"Univerzity Komenského v Bratislave. Venuje sa skúmaniu kvantových javov v"
+" mezoskopických štruktúrach vysokofrekvenčnými metódami pri "
+"milikelvinových tepolotách. Python  používa v laboratóriách na všetko, čo"
+" ako fyzik potrebuje: komunikáciu s meracími prístrojmi, zber a "
+"vyhodnocovanie dát, simulácie."
+msgstr ""
+
+#: templates/speakers.html:109
 msgid ""
 "Andrea sa venuje vývoju serverových aplikácií od roku 2012. Pochádza z IT"
 " rodiny a aj vďaka tomu sa vybrala touto cestou. Neznáša zlý kód a "
@@ -890,14 +905,13 @@ msgid ""
 "meetupu."
 msgstr ""
 
-#: templates/speakers.html:110
+#: templates/speakers.html:123
 msgid ""
-"Büsra pracuje pre Ericsson R&amp;D v Budapešti ako Cloud System Engineer."
-" Zaujíma sa o back-end development, cloud, big data a nové technológie. "
-"Má skúsenosti s Python, OpenStack, Zabbix, Rsyslog, a Ansible. Je veľkým "
-"fanúšikom Pythonu! Taktiež je zakladateľka sociálneho podnikania na <a "
-"href=\"http://bikokorec.com/\" target=\"_blank\">bikokorec.com</a> a "
-"bloggerka. Miluje programovanie, fotenie a blogovanie."
+"Nicholas je klasicky vyškolený hudobník, absolvent filozofie, učiteľ, "
+"spisovateľ a vývojár softvéru. Spolupracuje s nadáciou Python Software "
+"Foundation, ktorá mu udelila ocenenie komunity za jeho prácu v oblasti "
+"vzdelávania. Je jednoducho taký ako táto biografia: stručný, čestný a "
+"plný užitočných informácií."
 msgstr ""
 
 #: templates/speaking.html:5
@@ -1214,10 +1228,6 @@ msgid ""
 "vďaka vlastnému vyspelému technickému riešeniu vyhľadávať unikátne "
 "letecké spojenia a cenové ponuky leteniek, ktoré následne predáva so "
 "zárukou na nadväzujúce lety."
-msgstr ""
-
-#: templates/sponsors.html:237
-msgid "Hlavný mediálny partner"
 msgstr ""
 
 #: templates/sponsors.html:262

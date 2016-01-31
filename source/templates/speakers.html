@@ -6,20 +6,6 @@
     <p class="lead">{{ _('Rečníci, ktorí vystúpia na PyCon SK 2016.') }}</p>
 
     <div class="row">
-      <div class="col-md-9 text-justify"><h3>Nicholas H. Tollervey <small>(UK)</small></h3>
-        <p>
-        <a href="http://ntoll.org/" target="_blank" title="Nicholas Blog">Blog</a>,
-        <a href="https://twitter.com/ntoll" target="_blank" title="Nicholas Twitter">@ntoll</a>
-        </p>
-        <p>
-        {{ _('Nicholas je klasicky vyškolený hudobník, absolvent filozofie, učiteľ, spisovateľ a vývojár softvéru. Spolupracuje s nadáciou Python Software Foundation, ktorá mu udelila ocenenie komunity za jeho prácu v oblasti vzdelávania. Je jednoducho taký ako táto biografia: stručný, čestný a plný užitočných informácií.') }}
-        </p>
-      </div>
-      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_nicholas.png') }}" alt="Nicholas H.Tollervey" class="img-thumbnail" /></div>
-    </div>
-
-    <hr />
-    <div class="row">
       <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_jesus.jpg') }}" alt="Jesús Cea Avión" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Jesús Cea Avión <small>(ES)</small></h3>
         <p>
@@ -31,8 +17,8 @@
         </p>
       </div>
     </div>
-
     <hr />
+    
     <div class="row">
       <div class="col-md-9 text-justify"><h3>Cory Benfield <small>(UK)</small></h3>
         <p>
@@ -45,21 +31,8 @@
       </div>
       <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_cory.png') }}" alt="Cory Benfield" class="img-thumbnail" /></div>
     </div>
-
     <hr />
-    <div class="row">
-      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_daniele.png') }}" alt="Daniele Procida" class="img-thumbnail" /></div>
-      <div class="col-md-9 text-justify"><h3>Daniele Procida <small>(UK)</small></h3>
-        <p>
-        <a href="https://twitter.com/evildmp" target="_blank" title="Twitter">@evildmp</a>
-        </p>
-        <p>
-        {{ _('Daniele bol organizátorom Django víkendu v Cardiffe a aj členom organizačnej komisie DjangoCon Europe 2014 a jej predsedom v roku 2015. Tiež bol jedným z hlavných organizátorov Python Namibia 2015, prvej Python konferencie v Namíbií. Je vývojár jadra v Django projekte a pracuje pre <a href="http://www.divio.com/" target="_blank" title="Divio">Divio</a>. V Divio pracuje na <a href="http://www.django-cms.org/" target="_blank" title="Django CMS - Ľahko použiteľné pre editorov a aj vývojárov">Django CMS</a>, <a href="http://www.aldryn.com/" target="_blank" title="Aldryn - Najjednoduchší spôsob ako postaviť a spravovať django CMS projekty">Aldryn</a> a iných zábavných Django projektoch.') }}
-        </p>
-      </div>
-    </div>
 
-    <hr />
     <div class="row">
       <div class="col-md-9 text-justify"><h3>Bjarni Runar Einarsson <small>(IS)</small></h3>
         <p>
@@ -72,8 +45,22 @@
       </div>
       <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_bjarni.png') }}" alt="Bjarni Runar Einarsson" class="img-thumbnail" /></div>
     </div>
-    
     <hr />
+
+    <div class="row">
+      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_busra.png') }}" alt="Büşra Köken" class="img-thumbnail" /></div>
+      <div class="col-md-9 text-justify"><h3>Büşra Köken <small>(TR)</small></h3>
+        <p>
+        <a href="https://hu.linkedin.com/in/busrakoken/en" target="_blank" title="LinkedIn">LinkedIn</a>,
+        <a href="https://twitter.com/busrakoken" target="_blank" title="Twitter">@busrakoken</a>
+        </p>
+        <p>
+        {{ _('Büsra pracuje pre Ericsson R&amp;D v Budapešti ako Cloud System Engineer. Zaujíma sa o back-end development, cloud, big data a nové technológie. Má skúsenosti s Python, OpenStack, Zabbix, Rsyslog, a Ansible. Je veľkým fanúšikom Pythonu! Taktiež je zakladateľka sociálneho podnikania na <a href="http://bikokorec.com/" target="_blank">bikokorec.com</a> a bloggerka. Miluje programovanie, fotenie a blogovanie.') }}
+        </p>
+      </div>
+    </div>
+    <hr />
+
     <div class="row">
       <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_svetlana.png') }}" alt="Svetlana Margetová" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Svetlana Margetová <small>(SK)</small></h3>
@@ -85,32 +72,64 @@
         </p>
       </div>
     </div>
-
     <hr />
+
+    <div class="row">
+      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_daniele.png') }}" alt="Daniele Procida" class="img-thumbnail" /></div>
+      <div class="col-md-9 text-justify"><h3>Daniele Procida <small>(UK)</small></h3>
+        <p>
+        <a href="https://twitter.com/evildmp" target="_blank" title="Twitter">@evildmp</a>
+        </p>
+        <p>
+        {{ _('Daniele bol organizátorom Django víkendu v Cardiffe a aj členom organizačnej komisie DjangoCon Europe 2014 a jej predsedom v roku 2015. Tiež bol jedným z hlavných organizátorov Python Namibia 2015, prvej Python konferencie v Namíbií. Je vývojár jadra v Django projekte a pracuje pre <a href="http://www.divio.com/" target="_blank" title="Divio">Divio</a>. V Divio pracuje na <a href="http://www.django-cms.org/" target="_blank" title="Django CMS - Ľahko použiteľné pre editorov a aj vývojárov">Django CMS</a>, <a href="http://www.aldryn.com/" target="_blank" title="Aldryn - Najjednoduchší spôsob ako postaviť a spravovať django CMS projekty">Aldryn</a> a iných zábavných Django projektoch.') }}
+        </p>
+      </div>
+    </div>
+    <hr />
+    
+    <div class="row">
+      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_matus.png') }}" alt="Matúš Rehák" class="img-thumbnail" /></div>
+      <div class="col-md-9 text-justify"><h3>Matúš Rehák <small>(SK)</small></h3>
+        <p>
+        <a href="https://sk.linkedin.com/in/matus-rehak-3b6b1725" target="_blank" title="LinkedIn">LinkedIn</a>
+        </p>
+        <p>
+        {{ _('Matúš je PhD študent na Fakulte matematiky, fyziky a informatiky Univerzity Komenského v Bratislave. Venuje sa skúmaniu kvantových javov v mezoskopických štruktúrach vysokofrekvenčnými metódami pri milikelvinových tepolotách. Python  používa v laboratóriách na všetko, čo ako fyzik potrebuje: komunikáciu s meracími prístrojmi, zber a vyhodnocovanie dát, simulácie.') }}
+        </p>
+      </div>
+    </div>
+    <hr />
+
     <div class="row">
       <div class="col-md-9 text-justify"><h3>Andrea Šteňová <small>(SK)</small></h3>
-        {# <p>
+        <p>
         <a href="https://www.linkedin.com/in/andrea-%C5%A1te%C5%88ov%C3%A1-3b92b050" target="_blank" title="LinkedIn">LinkedIn</a>
-        </p> #}
+        </p>
         <p>
         {{ _('Andrea sa venuje vývoju serverových aplikácií od roku 2012. Pochádza z IT rodiny a aj vďaka tomu sa vybrala touto cestou. Neznáša zlý kód a zastaralé technológie. Spoluorganizuje stretnutia Bratislavského Scala meetupu.') }}
         </p>
       </div>
       <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_andrea.png') }}" alt="Andrea" class="img-thumbnail" /></div>
     </div>
-
     <hr />
+
     <div class="row">
-      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_busra.png') }}" alt="Büşra Köken" class="img-thumbnail" /></div>
-      <div class="col-md-9 text-justify"><h3>Büşra Köken <small>(TR)</small></h3>
+      <div class="col-md-9 text-justify"><h3>Nicholas H. Tollervey <small>(UK)</small></h3>
         <p>
-        <a href="https://twitter.com/busrakoken" target="_blank" title="Twitter">@busrakoken</a>
+        <a href="http://ntoll.org/" target="_blank" title="Nicholas Blog">Blog</a>,
+        <a href="https://twitter.com/ntoll" target="_blank" title="Nicholas Twitter">@ntoll</a>
         </p>
         <p>
-        {{ _('Büsra pracuje pre Ericsson R&amp;D v Budapešti ako Cloud System Engineer. Zaujíma sa o back-end development, cloud, big data a nové technológie. Má skúsenosti s Python, OpenStack, Zabbix, Rsyslog, a Ansible. Je veľkým fanúšikom Pythonu! Taktiež je zakladateľka sociálneho podnikania na <a href="http://bikokorec.com/" target="_blank">bikokorec.com</a> a bloggerka. Miluje programovanie, fotenie a blogovanie.') }}
+        {{ _('Nicholas je klasicky vyškolený hudobník, absolvent filozofie, učiteľ, spisovateľ a vývojár softvéru. Spolupracuje s nadáciou Python Software Foundation, ktorá mu udelila ocenenie komunity za jeho prácu v oblasti vzdelávania. Je jednoducho taký ako táto biografia: stručný, čestný a plný užitočných informácií.') }}
         </p>
       </div>
+      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_nicholas.png') }}" alt="Nicholas H.Tollervey" class="img-thumbnail" /></div>
     </div>
+    <hr />
+
+
+
+
 
   </div>
 
