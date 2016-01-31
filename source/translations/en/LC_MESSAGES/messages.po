@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-31 13:14+0100\n"
+"POT-Creation-Date: 2016-01-31 15:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -1053,7 +1053,7 @@ msgstr ""
 " projects for working with HTTP and HTTP/2. He loves computer networks, "
 "film and TV, and travel."
 
-#: templates/speakers.html:43
+#: templates/speakers.html:44
 msgid ""
 "Vývojár slobodného softvéru a administrátor z Islandu. Programuje od "
 "polovice 90. rokov, vrátanie šesťročného boja so spamom a vírusmi a tri "
@@ -1084,7 +1084,7 @@ msgstr ""
 "in mere seconds\">PageKite</a>  and <a href=\"https://www.mailpile.is/\" "
 "target=\"_blank\" title=\"MailPile is an e-mail client\">Mailpile</a>."
 
-#: templates/speakers.html:58
+#: templates/speakers.html:57
 msgid ""
 "Büsra pracuje pre Ericsson R&amp;D v Budapešti ako Cloud System Engineer."
 " Zaujíma sa o back-end development, cloud, big data a nové technológie. "
@@ -1117,7 +1117,7 @@ msgstr ""
 "She likes the new technology, UI/UX and tries to optimize each task and "
 "program as much as possible."
 
-#: templates/speakers.html:84
+#: templates/speakers.html:83
 msgid ""
 "Daniele bol organizátorom Django víkendu v Cardiffe a aj členom "
 "organizačnej komisie DjangoCon Europe 2014 a jej predsedom v roku 2015. "
@@ -1169,7 +1169,7 @@ msgstr ""
 "dislikes bad code and old technologies. Furthermore, she is one of the "
 "organizers of Bratislava Scala meetup."
 
-#: templates/speakers.html:123
+#: templates/speakers.html:124
 msgid ""
 "Nicholas je klasicky vyškolený hudobník, absolvent filozofie, učiteľ, "
 "spisovateľ a vývojár softvéru. Spolupracuje s nadáciou Python Software "
@@ -1551,7 +1551,7 @@ msgstr ""
 
 #: templates/sponsors.html:147
 msgid "Bronzoví sponzori"
-msgstr "Platinum sponsors"
+msgstr "Bronze sponsors"
 
 #: templates/sponsors.html:160
 msgid ""
