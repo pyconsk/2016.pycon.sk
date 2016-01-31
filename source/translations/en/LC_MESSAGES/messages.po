@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-31 15:57+0100\n"
+"POT-Creation-Date: 2016-01-31 16:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -1159,6 +1159,18 @@ msgstr ""
 
 #: templates/speakers.html:109
 msgid ""
+"Michael pracuje pre Red Hat v týme Open Source a štandardy, zaujíma sa o "
+"infraštruktúrne problémy rôznych komunít ako systémový administrátor. "
+"Dlho ročný python vývojár, žijúci v Paríži, v prípade že necestuje a "
+"nerozpráva po konferenciach o slobodnom softvéry."
+msgstr ""
+"Michael works on the Open Source and Standards team at Red Hat,
+focusing on infrastructure issues of various communities as a system
+administrator . A long time packager and python coder, he lives in Paris
+when he is not traveling to speak at free software events around."
+
+#: templates/speakers.html:124
+msgid ""
 "Andrea sa venuje vývoju serverových aplikácií od roku 2012. Pochádza z IT"
 " rodiny a aj vďaka tomu sa vybrala touto cestou. Neznáša zlý kód a "
 "zastaralé technológie. Spoluorganizuje stretnutia Bratislavského Scala "
@@ -1169,7 +1181,7 @@ msgstr ""
 "dislikes bad code and old technologies. Furthermore, she is one of the "
 "organizers of Bratislava Scala meetup."
 
-#: templates/speakers.html:124
+#: templates/speakers.html:137
 msgid ""
 "Nicholas je klasicky vyškolený hudobník, absolvent filozofie, učiteľ, "
 "spisovateľ a vývojár softvéru. Spolupracuje s nadáciou Python Software "
