@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-31 18:15+0100\n"
+"POT-Creation-Date: 2016-01-31 18:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -1011,7 +1011,7 @@ msgstr "Main media partner"
 msgid "Rečníci, ktorí vystúpia na PyCon SK 2016."
 msgstr "Some of the speakers who will speak at PyCon SK 2016."
 
-#: templates/speakers.html:13
+#: templates/speakers.html:12
 msgid ""
 "Pracuje s python na dennej báze na Rakúskom Technologickom Inštitúte, "
 "rieši výskumné otázky ohľadom dátovej analízy a (štatistickým) "
@@ -1021,7 +1021,25 @@ msgid ""
 " tými, ktorí sa zaujímajú o \"výpočtové veci\"."
 msgstr "Works with Python's scientific stack on a daily basis at the Austria"
 
-#: templates/speakers.html:26
+#: templates/speakers.html:24
+msgid ""
+"Je programátor na voľnej nohe, pracujúci na enterprise softvéri 10 rokov,"
+" v poslednej zamestnáva subdodávateľov a poskytuje outsourcing malých "
+"vývojárskych tímov.<br>\n"
+"        Objavil Python v roku 2008 a od vtedy je jeho primárny jazyk. "
+"Tiež sa zaujíma o softvérový crowdfunding.<br>\n"
+"        Má rád veľa (vonkajších) športov, obľúbené je lietanie bez motora"
+" (plachtenie)."
+msgstr ""
+"He is a freelance programmer mostly working on enterprise software for 10"
+" years, recently recruiting subcontractors and providing outsourcing of "
+"small developer teams.<br>\n"
+"        He discovered Python in 2008 and it's been my primary language "
+"ever since. I'm also very much interested in software crowdfunding.<br>\n"
+"        He likes a lot of (outdoor) sports, the favourite being flying "
+"without engine (gliding)."
+
+#: templates/speakers.html:39
 msgid ""
 "Telekomunikačný inžinier. Milovník Pythonu od 1996, vývojar jadra od "
 "2008, konzultant od 2012. Zakladateľ Pythonových používateľských skupín v"
@@ -1035,7 +1053,7 @@ msgstr ""
 "Python, Security and almost anything interesting, including podcasting "
 "and geocaching."
 
-#: templates/speakers.html:41
+#: templates/speakers.html:54
 msgid ""
 "Cory je open source Python vývojár pracujúci na plný úväzok pre <a "
 "href=\"https://www.hpe.com/\" target=\"_blank\" title=\"Hewlett Packard "
@@ -1063,7 +1081,7 @@ msgstr ""
 " projects for working with HTTP and HTTP/2. He loves computer networks, "
 "film and TV, and travel."
 
-#: templates/speakers.html:54
+#: templates/speakers.html:67
 msgid ""
 "Vývojár slobodného softvéru a administrátor z Islandu. Programuje od "
 "polovice 90. rokov, vrátanie šesťročného boja so spamom a vírusmi a tri "
@@ -1094,7 +1112,7 @@ msgstr ""
 "in mere seconds\">PageKite</a>  and <a href=\"https://www.mailpile.is/\" "
 "target=\"_blank\" title=\"MailPile is an e-mail client\">Mailpile</a>."
 
-#: templates/speakers.html:69
+#: templates/speakers.html:82
 msgid ""
 "Büsra pracuje pre Ericsson R&amp;D v Budapešti ako Cloud System Engineer."
 " Zaujíma sa o back-end development, cloud, big data a nové technológie. "
@@ -1111,7 +1129,7 @@ msgstr ""
 "target=\"_blank\">bikokorec.com</a> and a blogger. She loves coding, "
 "taking photos, and blogging."
 
-#: templates/speakers.html:81
+#: templates/speakers.html:94
 msgid ""
 "Robí s pythonom na dennej báze posledných 5 rokov. Vo <a "
 "href=\"https://www.vnet.sk/\" target=\"_blank\" title=\"Vnet\">Vnete</a> "
@@ -1125,7 +1143,7 @@ msgstr ""
 "company's processes. He is interested in back-end developement, IoT, IT "
 "security and enthusiastic about open source technologies."
 
-#: templates/speakers.html:95
+#: templates/speakers.html:108
 msgid ""
 "Svetlana sa venuje programovaniu v Pythone a Djangu v spoločnosti <a "
 "href=\"http://thebrainity.com/\" target=\"_blank\">Brainity</a>, kde "
@@ -1141,7 +1159,7 @@ msgstr ""
 "She likes the new technology, UI/UX and tries to optimize each task and "
 "program as much as possible."
 
-#: templates/speakers.html:107
+#: templates/speakers.html:120
 msgid ""
 "Tatiana začala programovať v roku 2002. Prešla od vyvoja lekárskych "
 "zobrazovacích aplikácií až na odporúčacie platformy pomocou webovej "
@@ -1160,7 +1178,7 @@ msgstr ""
 "href=\"http://www.ef.edu/\" target=\"_blank\" title=\"Education "
 "First\">Education Firsti</a> (EF), developing educational applications."
 
-#: templates/speakers.html:121
+#: templates/speakers.html:134
 msgid ""
 "Daniele bol organizátorom Django víkendu v Cardiffe a aj členom "
 "organizačnej komisie DjangoCon Europe 2014 a jej predsedom v roku 2015. "
@@ -1184,7 +1202,7 @@ msgstr ""
 "team, and has been involved in organising numerous Python/Django "
 "conferences, including DjangoCon Europe 2015 and PyCon Namibia 2016."
 
-#: templates/speakers.html:133
+#: templates/speakers.html:146
 msgid ""
 "Matúš je PhD študent na Fakulte matematiky, fyziky a informatiky "
 "Univerzity Komenského v Bratislave. Venuje sa skúmaniu kvantových javov v"
@@ -1200,7 +1218,7 @@ msgstr ""
 "physicist needs: communication with measurement devices, data collection "
 "and processing, simulations."
 
-#: templates/speakers.html:147
+#: templates/speakers.html:160
 msgid ""
 "Michael pracuje pre Red Hat v týme Open Source a štandardy, zaujíma sa o "
 "infraštruktúrne problémy rôznych komunít ako systémový administrátor. "
@@ -1208,7 +1226,7 @@ msgid ""
 "nerozpráva po konferenciach o slobodnom softvéry."
 msgstr "Michael works on the Open Source and Standards team at Red Hat"
 
-#: templates/speakers.html:160
+#: templates/speakers.html:173
 msgid ""
 "Andrea sa venuje vývoju serverových aplikácií od roku 2012. Pochádza z IT"
 " rodiny a aj vďaka tomu sa vybrala touto cestou. Neznáša zlý kód a "
@@ -1220,7 +1238,7 @@ msgstr ""
 "dislikes bad code and old technologies. Furthermore, she is one of the "
 "organizers of Bratislava Scala meetup."
 
-#: templates/speakers.html:175
+#: templates/speakers.html:188
 msgid ""
 "Nicholas je klasicky vyškolený hudobník, absolvent filozofie, učiteľ, "
 "spisovateľ a vývojár softvéru. Spolupracuje s nadáciou Python Software "
@@ -1234,7 +1252,7 @@ msgstr ""
 "He's just like this biography: concise, honest and full of useful "
 "information."
 
-#: templates/speakers.html:188
+#: templates/speakers.html:201
 msgid ""
 "Je softvérový inžinier v <a href=\"https://www.redhat.com/\" "
 "target=\"_blank\" title=\"Red Hat\">Red Hat</a>. Keď nepíše Python kód, "
@@ -1243,9 +1261,9 @@ msgid ""
 "konferencií."
 msgstr ""
 "He's a software engineer at <a href=\"https://www.redhat.com/\" "
-"target=\"_blank\" title=\"Red Hat\">Red Hat</a>. When I'm not writing Python code, I
-help organize<a href=\"http://pyvo.cz/\" target=\"_blank\" "
-"title=\"PyVo\">meetups</a>, mentor PyLadies, and attend conferences."
+"target=\"_blank\" title=\"Red Hat\">Red Hat</a>. When I'm not writing "
+"Python code, title=\"PyVo\">meetups</a>, mentor PyLadies, and attend "
+"conferences."
 
 #: templates/speaking.html:5
 msgid "Výzva na predloženie návrhov"
