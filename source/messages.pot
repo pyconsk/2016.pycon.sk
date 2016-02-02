@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-31 18:51+0100\n"
+"POT-Creation-Date: 2016-02-02 15:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.1.1\n"
+"Generated-By: Babel 2.2.0\n"
 
 #: templates/ba-01-meetup.html:6
 msgid "Prvý Bratislavský Python Meetup"
@@ -455,11 +455,11 @@ msgstr ""
 msgid "Cestovanie po Bratislave"
 msgstr ""
 
-#: templates/getting-here.html:21 templates/getting-here.html:136
+#: templates/getting-here.html:21 templates/getting-here.html:137
 msgid "Mapa"
 msgstr ""
 
-#: templates/getting-here.html:24 templates/getting-here.html:143
+#: templates/getting-here.html:24 templates/getting-here.html:144
 msgid "Ubytovanie"
 msgstr ""
 
@@ -669,11 +669,15 @@ msgid "SMS lístok"
 msgstr ""
 
 #: templates/getting-here.html:121
-#, python-format
 msgid ""
 "Pokiaľ máte telefón so slovenským operátorom (zahraničné SIM karty toto "
 "nepodporujú) je možné zakúpiť lístok zaslaním prázdnej SMS na číslo 1100,"
-" pričom obdržíte spiatočnú SMS s cestovným lístkom približne do 2 minút. "
+" pričom obdržíte spiatočnú SMS s cestovným lístkom približne do 2 minút."
+msgstr ""
+
+#: templates/getting-here.html:122
+#, python-format
+msgid ""
 "Cena SMS lístka je 1 EURO a platí 70 minút. Dôležité: NENASTUPUJTE do "
 "autobusu či električky hneď po odoslaní SMS, ale až keď vám príde spätná "
 "sms s lístkom / potvrdením. Pre viac informácií navštívte <a "
@@ -681,22 +685,22 @@ msgid ""
 "target=\"_blank\">stránku Dopravného podniku Bratislavy</a>."
 msgstr ""
 
-#: templates/getting-here.html:128
+#: templates/getting-here.html:129
 msgid "Iné možnosti dopravy"
 msgstr ""
 
-#: templates/getting-here.html:129
+#: templates/getting-here.html:130
 msgid "V Bratislave je niekoľko online taxi služieb: Uber, Hopin..."
 msgstr ""
 
-#: templates/getting-here.html:130
+#: templates/getting-here.html:131
 msgid ""
 "Môžete tiež použiť štandardnú Taxi službu, avšak dajte si pozor aby bol "
 "taxík privolaný telefónom. Pokiaľ iba “nastúpite” do taxíka stojaceho na "
 "ulici, jazda bude niekoľkonásobne drahšia."
 msgstr ""
 
-#: templates/getting-here.html:144
+#: templates/getting-here.html:145
 msgid ""
 "V Bratislave je veľa možností na ubytovanie od coach surfingu, či Airbnb,"
 " cez hostely až po päť hviezdičkové hotely. I keď v čase konferencie nie "
@@ -706,11 +710,11 @@ msgid ""
 " aj sobotňajšiu spoločenskú večeru."
 msgstr ""
 
-#: templates/getting-here.html:151
+#: templates/getting-here.html:152
 msgid "Sprievodca"
 msgstr ""
 
-#: templates/getting-here.html:152
+#: templates/getting-here.html:153
 #, python-format
 msgid ""
 "V Bratislave sa môžete popri konferencii zabaviť a získať množstvo "
@@ -722,7 +726,7 @@ msgid ""
 "názormi."
 msgstr ""
 
-#: templates/getting-here.html:153
+#: templates/getting-here.html:154
 #, python-format
 msgid ""
 "Prípadne si môžete pozrieť <a href=\"%(ba_guide_url)s\" title=\"stránky "
