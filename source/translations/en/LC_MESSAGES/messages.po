@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-02 17:14+0100\n"
+"POT-Creation-Date: 2016-02-03 11:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -652,7 +652,11 @@ msgid ""
 "približne 70 metroch sa dostanete k zastávkam <a href=\"#public-"
 "transport\">mestskej hromadnej dopravy</a>."
 msgstr ""
-"Once you arrive at the Bratislava train station (Bratislava hlavná stanica), you'll need to walk through the terminal towards its main entrance. Directly in front of the main entrance you'll find all your <a href=\"#public-transport\">public transportation</a> options on your right hand side."
+"Once you arrive at the Bratislava train station (Bratislava hlavná "
+"stanica), you'll need to walk through the terminal towards its main "
+"entrance. Directly in front of the main entrance you'll find all your <a "
+"href=\"#public-transport\">public transportation</a> options on your "
+"right hand side."
 
 #: templates/getting-here.html:66
 msgid "Vlakom"
@@ -664,7 +668,8 @@ msgid ""
 "Budapešti, Varšavy aj Kyjeva, sa priamo do Bratislavy možno dostať aj "
 "vlakom."
 msgstr ""
-"All neighboring capital cities Vienna, Prague, Budapest, Warsaw and Kiev have direct train connections."
+"All neighboring capital cities Vienna, Prague, Budapest, Warsaw and Kiev "
+"have direct train connections."
 
 #: templates/getting-here.html:68
 msgid ""
@@ -673,14 +678,17 @@ msgid ""
 " nižšie, sa nachádzajú zastávky <a href=\"#public-transport\">mestskej "
 "hromadnej dopravy</a>."
 msgstr ""
-"Once you arrive at the Bratislava train station (Bratislava hlavná stanica), you'll need to walk through the terminal towards its main entrance. Directly in front of the main entrance you'll find all your <a href=\"#public-transport\">public transportation</a> options on your right hand side."
+"Once you arrive at the Bratislava train station (Bratislava hlavná "
+"stanica), you'll need to walk through the terminal towards its main "
+"entrance. Directly in front of the main entrance you'll find all your <a "
+"href=\"#public-transport\">public transportation</a> options on your "
+"right hand side."
 
 #: templates/getting-here.html:74
 msgid "Cestovanie po Bratislave a na konferenciu"
 msgstr "Travelling around Bratislava and to the conference"
 
 #: templates/getting-here.html:77
-#, fuzzy
 msgid ""
 "Zo smeru BRNO -> BRATISLAVA: z diaľnice D-2 (E65) po Lamačskej ceste "
 "tunelom Sitina (alebo cez Patrónku), potom odbočte doprava do Mlynskej "
@@ -691,7 +699,6 @@ msgstr ""
 "Mlynská dolina."
 
 #: templates/getting-here.html:78
-#, fuzzy
 msgid ""
 "Zo smeru NITRA, ŽILINA -> BRATISLAVA: z diaľnice D-1 (E75) pokračujte v "
 "smere Wien, Györ, Brno, potom odbočte na most Lafranconi (smer Brno) do "
@@ -702,7 +709,6 @@ msgstr ""
 "Lafranconi bridge - direction towards Brno and Mlynská dolina."
 
 #: templates/getting-here.html:79
-#, fuzzy
 msgid ""
 "Zo smeru VIEDEŇ -> BRATISLAVA: z cesty E58 (štátna hranica) pokračujte v "
 "smere Brno na most Lafranconi, potom odbočte do Mlynskej doliny."
@@ -711,7 +717,6 @@ msgstr ""
 "direction Brno to Lafranconi bridge, turn towards Mlynská dolina."
 
 #: templates/getting-here.html:80
-#, fuzzy
 msgid ""
 "Pre pohodlnejšiu cestu odporúčame použiť GPS navigáciu, ktorá vás môže "
 "doviesť priamo na miesto konferencie: Bratislava, Ilkovičova 2, Fakulta "
@@ -722,7 +727,6 @@ msgstr ""
 "coordinates: 48.153429, 17.071716"
 
 #: templates/getting-here.html:82
-#, fuzzy
 msgid "Pred budovou konferencie sú zabezpečené voľné parkovacie miesta."
 msgstr ""
 "If you travel by car, there will be plenty of parking space available in "
@@ -733,7 +737,6 @@ msgid "MHD"
 msgstr "Public transport"
 
 #: templates/getting-here.html:93
-#, fuzzy
 msgid ""
 "Aby ste sa dostali na konferenciu <strong>z autobusovej stanice</strong>,"
 " nastúpte na autobus č. 70 smerom na “Most SNP” a vystúpte na zastávke "
@@ -746,7 +749,6 @@ msgstr ""
 "several options to change</strong>"
 
 #: templates/getting-here.html:94
-#, fuzzy
 msgid ""
 "nastúpiť na autobus č. 30 alebo 37 a vystúpiť na zastávke “ZOO”. Cesta "
 "trvá približne 5-7 minút, v závislosti od premávky."
@@ -759,7 +761,6 @@ msgid "alebo"
 msgstr "or"
 
 #: templates/getting-here.html:96
-#, fuzzy
 msgid ""
 "nastúpiť na autobus č. 28 alebo 29, prípadne električky č. 4, 5, 6 alebo "
 "9, a vystúpiť na zastávke “Botanická záhrada”. Cesta by mala trvať "
@@ -769,7 +770,6 @@ msgstr ""
 "“Botanická záhrada”. The ride takes 6-9 minutes, depending on traffic."
 
 #: templates/getting-here.html:101
-#, fuzzy
 msgid ""
 "Aby ste sa dostali na konferenciu <strong>z hlavnej stanice</strong>, "
 "nastúpte na autobus č. 32 smerom na “Dlhé diely” a vystúpte na zastávke "
@@ -780,7 +780,6 @@ msgstr ""
 "ride takes 12-15 minutes, depending on traffic."
 
 #: templates/getting-here.html:103
-#, fuzzy
 msgid ""
 "Aby ste sa dostali na konferenciu <strong>z hotela Ibis</strong>, "
 "prejdite peši na zastávku “Zochova” a nastúpte na autobus č. 31 alebo 39 "
@@ -799,6 +798,9 @@ msgid ""
 "okolie miesta konferencie na Google Street View. Získate dobrú predstavu "
 "o tom, kam by ste sa mali dostať."
 msgstr ""
+"There will be signs from the bus stop leading towards the venue. Please "
+"check out \"Google Street View\" beforehand to be sure where you're going"
+" and what you'll be looking for."
 
 #: templates/getting-here.html:113
 msgid "Lístok na MHD"
@@ -820,6 +822,19 @@ msgid ""
 "href=\"%(dpb_url)s\" title=\"stránka Dopravný podnik Bratislava\" "
 "target=\"_blank\">stránke Dopravného podniku mesta Bratislavy</a>."
 msgstr ""
+"You can buy tickets from the yellow vending machines or kiosks. They "
+"accept Euro coins. Alternatively you can also purchase tickets in "
+"newsstands. There are a wide variety of tickets, you can buy a 90-cent "
+"ticket that is valid for only 30 minutes or there are 24- or 72-hour "
+"tickets. You can change buses and trams freely with any valid ticket. You"
+" need to stamp, (have the ticket validated)  in the machine once you "
+"enter the bus or tram. Once the ticket is stamped, it is valid for 30 "
+"minutes or whatever time frame you've purchased. You can change to "
+"another bus or tram (but do NOT mark the ticket again, only do it the "
+"first time you get on). Students with ISIC cards can buy discounted "
+"tickets, more information on <a href=\"%(dpb_url)s\" title=\"Bratislava "
+"Public Transport website\" target=\"_blank\">Bratislava Public Transport "
+"website</a>."
 
 #: templates/getting-here.html:120
 msgid "SMS lístok"
@@ -831,9 +846,13 @@ msgid ""
 "službu nepodporujú) je možné kúpiť lístok na bratislavskú MHD aj zaslaním"
 " prázdnej SMS na číslo 1100. Po chvíli dostanete SMS s cestovným lístkom."
 msgstr ""
+"If you are using a phone with a Slovak carrier (SIM cards from other "
+"countries do not support this) you can buy tickets by sending empty SMS "
+"to number 1100 and you will receive SMS with the ticket in about 2 "
+"minutes."
 
 #: templates/getting-here.html:122
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Cena SMS lístka je 1 EUR a platí 70 minút. Dôležité: NENASTUPUJTE do "
 "autobusu (električky) hneď po odoslaní SMS, ale až po tom, keď dostanete "
@@ -848,21 +867,16 @@ msgstr ""
 "target=\"_blank\">Bratislava Public Transport website</a>."
 
 #: templates/getting-here.html:129
-#, fuzzy
 msgid "Ďalšie možnosti dopravy"
 msgstr "Other transport options"
 
 #: templates/getting-here.html:130
-#, fuzzy
 msgid ""
 "V Bratislave môžete využiť niekoľko online taxi služieb, napr. Uber alebo"
 " Hopin."
-msgstr ""
-"There are several Uber-like services operating in Bratislava: Uber, "
-"Hopin..."
+msgstr "There are several Uber-like services operating in Bratislava: Uber, Hopin."
 
 #: templates/getting-here.html:131
-#, fuzzy
 msgid ""
 "Vybrať si môžete aj štandardnú taxi službu. Určite si ale taxík "
 "privolajte telefónom. Ak by ste nastúpili do taxíka, ktorý stojí a čaká "
@@ -882,13 +896,19 @@ msgid ""
 "Družba. Väčšina rečníkov bude ubytovaných v hoteli Ibis v centre mesta, "
 "kde sa v sobotu bude konať aj spoločenská večera."
 msgstr ""
+"There are plenty of opportunities for accommodation in Bratislava. From "
+"coach surfing, Airbnb to hostels and five star hotels. Even though it is "
+"not the main tourist season, we advise you to book your accommodations in"
+" advance. The closest hotel to conference is Hotel Družba. Most of the "
+"speakers will stay in Hotel Ibis in the town center. The hotel Ibis will "
+"also host the Saturday night dinner."
 
 #: templates/getting-here.html:152
 msgid "Sprievodca"
 msgstr "Guide"
 
 #: templates/getting-here.html:153
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "V Bratislave sa popri konferencii môžete aj zabaviť a získať jedinečné "
 "zážitky. Ak sa rozhodnete ostať v Bratislave o niekoľko dní dlhšie, "
@@ -2155,110 +2175,4 @@ msgstr "more about our vision and objectives"
 
 #~ msgid "Sponzorovanie"
 #~ msgstr "Sponsorship"
-
-#~ msgid ""
-#~ "Od zastávok autobusu budú umiestnené "
-#~ "značky až ku konferencií, avšak pozrite"
-#~ " si prosím Google Street View v "
-#~ "predstihu aby ste vedeli kam idete."
-#~ msgstr ""
-#~ "There will be signs from the bus"
-#~ " stop leading towards the venue. "
-#~ "Please check out \"Google Street View\""
-#~ " beforehand to be sure where you're"
-#~ " going and what you'll be looking "
-#~ "for."
-
-#~ msgid ""
-#~ "Lístky si môžete kúpiť v žltých "
-#~ "prístrojoch, ktoré akceptujú euro mince, "
-#~ "alebo v PNS. Je viacero možností "
-#~ "aký lístok si kúpiť, môžete si "
-#~ "zakúpiť 90 centový lístok, ktorý je "
-#~ "platný 30 minút ale tiež je "
-#~ "možnosť zakúpiť si 24 alebo 72 "
-#~ "hodinový lístok. Pokiaľ máte platný "
-#~ "lístok môžete slobodne prestupovať medzi "
-#~ "autobusmi a električkami. Keď nastúpite "
-#~ "do autobusu alebo električky, musíte si"
-#~ " označiť cestovný lístok. Keď je "
-#~ "označný je platný 30 minút, resp. "
-#~ "čas podľa typu lístka, ktorý ste "
-#~ "si zakúpili. Môžete prestúpiť do iného"
-#~ " autobusu, alebo električky (pri prestupe"
-#~ " listok znova NEoznačujte, lístok sa "
-#~ "označuje iba pri prvej jazde). Študenti"
-#~ " s ISIC si môžu kúpiť zľavnené "
-#~ "listky, pre viac informácií navštívte <a"
-#~ " href=\"%(dpb_url)s\" title=\"stránka Dopravný "
-#~ "podnik Bratislava\" target=\"_blank\">stránku "
-#~ "Dopravného podniku Bratislavy</a>."
-#~ msgstr ""
-#~ "You can buy tickets from the "
-#~ "yellow vending machines or kiosks. They"
-#~ " accept Euro coins. Alternatively you "
-#~ "can also purchase tickets in newsstands."
-#~ " There are a wide variety of "
-#~ "tickets, you can buy a 90-cent "
-#~ "ticket that is valid for only 30"
-#~ " minutes or there are 24- or "
-#~ "72-hour tickets. You can change buses"
-#~ " and trams freely with any valid "
-#~ "ticket. You need to stamp, (have "
-#~ "the ticket validated)  in the machine"
-#~ " once you enter the bus or "
-#~ "tram. Once the ticket is stamped, "
-#~ "it is valid for 30 minutes or "
-#~ "whatever time frame you've purchased. "
-#~ "You can change to another bus or"
-#~ " tram (but do NOT mark the "
-#~ "ticket again, only do it the first"
-#~ " time you get on). Students with "
-#~ "ISIC cards can buy discounted tickets,"
-#~ " more information on <a "
-#~ "href=\"%(dpb_url)s\" title=\"Bratislava Public "
-#~ "Transport website\" target=\"_blank\">Bratislava "
-#~ "Public Transport website</a>."
-
-#~ msgid ""
-#~ "Pokiaľ máte telefón so slovenským "
-#~ "operátorom (zahraničné SIM karty toto "
-#~ "nepodporujú) je možné zakúpiť lístok "
-#~ "zaslaním prázdnej SMS na číslo 1100, "
-#~ "pričom obdržíte spiatočnú SMS s "
-#~ "cestovným lístkom približne do 2 minút."
-#~ msgstr ""
-#~ "If you are using a phone with "
-#~ "a Slovak carrier (SIM cards from "
-#~ "other countries do not support this) "
-#~ "you can buy tickets by sending "
-#~ "empty SMS to number 1100 and you"
-#~ " will receive SMS with the ticket "
-#~ "in about 2 minutes."
-
-#~ msgid ""
-#~ "V Bratislave je veľa možností na "
-#~ "ubytovanie od coach surfingu, či Airbnb,"
-#~ " cez hostely až po päť hviezdičkové"
-#~ " hotely. I keď v čase konferencie "
-#~ "nie je turistická sezóna doporučujeme "
-#~ "zabezpečiť si ubytovanie v predstihu. "
-#~ "Najbližší hotel ku konferencií je hotel"
-#~ " Družba. Väčšina rečníkov bude ubytovaných"
-#~ " v hoteli Ibis v centre mesta. "
-#~ "V tomto istom hotely budeme mať aj"
-#~ " sobotňajšiu spoločenskú večeru."
-#~ msgstr ""
-#~ "There are plenty of opportunities for"
-#~ " accommodation in Bratislava. From coach"
-#~ " surfing, Airbnb to hostels and five"
-#~ " star hotels. Even though it is "
-#~ "not the main tourist season, we "
-#~ "advise you to book your accommodations"
-#~ " in advance. The closest hotel to "
-#~ "conference is Hotel Družba. Most of "
-#~ "the speakers will stay in Hotel "
-#~ "Ibis in the town center. The hotel"
-#~ " Ibis will also host the Saturday "
-#~ "night dinner."
 
