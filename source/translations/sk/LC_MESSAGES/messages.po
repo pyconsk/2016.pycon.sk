@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-03 22:48+0100\n"
+"POT-Creation-Date: 2016-02-03 23:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -977,7 +977,22 @@ msgid ""
 "meetupu."
 msgstr ""
 
-#: templates/speakers.html:201
+#: templates/speakers.html:200
+msgid ""
+"Martina je softvérovou inžinierkou s 10+ ročnou praxou vyvíjania "
+"enterprise-level softvéru. Posledné štyri roky pracuje ako vývojárka pre "
+"JP Morgan Chase, kde využíva python na tvorbu systémov a aplikácií, ktoré"
+" umožňujú exekúciu obchodov, analýzu cien a obchodného rizika pre "
+"špecifickú oblasť. Martininou vášňou je posilniť úlohu žien v "
+"technologických pozíciách ako aj inšpirovať dievčatá, aby vstúpili do IT "
+"sveta. Martina je členkou poradného výboru <a "
+"href=\"http://www.ajtyvit.sk/\" target=\"_blank\" title=\"Aj Ty v IT\">Aj"
+" Ty v IT</a>. Pridala sa k iniciatíve, ktorá podporuje na ceste za "
+"informatikou práve dievčatá, aby sa nenechali zmiasť skreslenými "
+"predstavami o IT branži na Slovensku."
+msgstr ""
+
+#: templates/speakers.html:213
 msgid ""
 "Nicholas je klasicky vyškolený hudobník, absolvent filozofie, učiteľ, "
 "spisovateľ a vývojár softvéru. Spolupracuje s nadáciou Python Software "
@@ -986,7 +1001,7 @@ msgid ""
 "plný užitočných informácií."
 msgstr ""
 
-#: templates/speakers.html:214
+#: templates/speakers.html:227
 msgid ""
 "Je softvérový inžinier v <a href=\"https://www.redhat.com/\" "
 "target=\"_blank\" title=\"Red Hat\">Red Hat</a>. Keď nepíše Python kód, "
