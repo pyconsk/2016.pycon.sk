@@ -1,4 +1,4 @@
-﻿# Translations template for PROJECT.
+# Translations template for PROJECT.
 # Copyright (C) 2016 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-03 11:24+0100\n"
+"POT-Creation-Date: 2016-02-03 22:36+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.1.1\n"
 
 #: templates/ba-01-meetup.html:6
 msgid "Prvý Bratislavský Python Meetup"
@@ -759,32 +759,34 @@ msgstr ""
 #: templates/index.html:25
 #, python-format
 msgid ""
-"Veľmi sa tešíme, že vám môžeme oznámiť, že okrem dvoch dní zaujímavých "
-"prednášok (piatok - slovenský deň, sobota - anglický deň), budeme "
-"organizovať aj <a href=\"%(url)s\">Django Girls</a> workshop (nedeľa), "
+"Veľmi sa tešíme, že vám môžeme oznámiť dobrú správu: okrem dvoch dní "
+"zaujímavých prednášok (piatok - slovenský deň, sobota - anglický deň), na"
+" vás čaká aj <a href=\"%(url)s\">Django Girls</a> workshop (nedeľa), "
 "ktorý bude vhodný aj pre úplné začiatočníčky."
 msgstr ""
 
 #: templates/index.html:27
 msgid ""
-"V najbližšej dobe budeme zverejnovať mená rečníkov, ktorí vystúpia na "
-"konferencii. Môžete sa tešiť na skvelých domácich a zahraničných "
-"rečníkov."
+"Postupne zverejňujeme mená rečníkov, ktorí vystúpia na konferencii. "
+"Môžete sa tešiť na zaujímavé vystúpenia skvelých domácich a zahraničných "
+"hostí."
 msgstr ""
 
 #: templates/index.html:36 templates/tickets.html:12
 msgid "Vstupenky sú momentálne vypredané."
 msgstr ""
 
-#: templates/index.html:36 templates/tickets.html:12
-msgid "Pracujeme na tom, aby sme mohli dať ešte niekoľko vstupeniek do predaja."
+#: templates/index.html:36
+msgid ""
+"Pracujeme však na tom, aby sme mohli pridať do predaja ešte niekoľko "
+"ďalších."
 msgstr ""
 
 #: templates/index.html:41
 msgid ""
-"Ak máte záujem prispieť, stať sa dobrovoľníkom, alebo akokoľvek inak "
-"pomôcť s organizáciou PyConu (ktorý je kompletne organizovaný "
-"dobrovoľníkmi), budeme radi ak sa nám ozvete."
+"Ak máte záujem prispieť, stať sa dobrovoľníkom alebo akokoľvek inak "
+"pomôcť s organizáciou PyCon SK (ktorý je kompletne organizovaný "
+"dobrovoľníkmi), budeme radi, ak sa nám ozvete."
 msgstr ""
 
 #: templates/index.html:42
@@ -1447,6 +1449,10 @@ msgstr ""
 msgid ""
 "Medzičasom sa môžeš prihlásiť do <a href=\"%(url)s\">e-mailovej "
 "konferencie</a> a dať nám o sebe vedieť."
+msgstr ""
+
+#: templates/tickets.html:12
+msgid "Pracujeme na tom, aby sme mohli dať ešte niekoľko vstupeniek do predaja."
 msgstr ""
 
 #: templates/tickets.html:16
