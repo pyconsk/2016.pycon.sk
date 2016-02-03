@@ -22,9 +22,9 @@
     {% if lang_code=='sk' %}<p class="text-center lead"><small>Tlačová správa v <a href="{{ url_for('static', filename='tlacova_sprava.pdf') }}"> PDF <span class="glyphicon glyphicon-download-alt"></span></a></small></p>{% endif %}
     <br>
 
-    <p>{{ _('Veľmi sa tešíme, že vám môžeme oznámiť, že okrem dvoch dní zaujímavých prednášok (piatok - slovenský deň, sobota - anglický deň), budeme organizovať aj <a href="%(url)s">Django Girls</a> workshop (nedeľa), ktorý bude vhodný aj pre úplné začiatočníčky.', url=url_for('django_girls', lang_code=lang_code)) }}</p>
+    <p>{{ _('Veľmi sa tešíme, že vám môžeme oznámiť dobrú správu: okrem dvoch dní zaujímavých prednášok (piatok - slovenský deň, sobota - anglický deň), na vás čaká aj <a href="%(url)s">Django Girls</a> workshop (nedeľa), ktorý bude vhodný aj pre úplné začiatočníčky.', url=url_for('django_girls', lang_code=lang_code)) }}</p>
 
-    <p>{{ _('V najbližšej dobe budeme zverejnovať mená rečníkov, ktorí vystúpia na konferencii. Môžete sa tešiť na skvelých domácich a zahraničných rečníkov.') }}</p>
+    <p>{{ _('Postupne zverejňujeme mená rečníkov, ktorí vystúpia na konferencii. Môžete sa tešiť na zaujímavé vystúpenia skvelých domácich a zahraničných hostí.') }}</p>
 
     <div class="image text-center">
       <img src="{{ url_for('static', filename='images/pycon/6967347999_105bba91a3_z.jpg') }}" alt="" class="img-responsive center-block">
@@ -33,12 +33,12 @@
 
     <hr>
     <p>
-    <a href="{{ url_for('tickets', lang_code=lang_code) }}">{{ _('Vstupenky sú momentálne vypredané.') }}</a> {{ _('Pracujeme na tom, aby sme mohli dať ešte niekoľko vstupeniek do predaja.') }}<br />
+    <a href="{{ url_for('tickets', lang_code=lang_code) }}">{{ _('Vstupenky sú momentálne vypredané.') }}</a> {{ _('Pracujeme však na tom, aby sme mohli pridať do predaja ešte niekoľko ďalších.') }}<br />
     </p>
 
     <hr>
 
-    <p>{{ _('Ak máte záujem prispieť, stať sa dobrovoľníkom, alebo akokoľvek inak pomôcť s organizáciou PyConu (ktorý je kompletne organizovaný dobrovoľníkmi), budeme radi ak sa nám ozvete.') }}</p>
+    <p>{{ _('Ak máte záujem prispieť, stať sa dobrovoľníkom alebo akokoľvek inak pomôcť s organizáciou PyCon SK (ktorý je kompletne organizovaný dobrovoľníkmi), budeme radi, ak sa nám ozvete.') }}</p>
     <p>{{ _('Medzičasom sa môžete prísť pozrieť na naše pravidelné <a href="%(url)s">meetupy</a>.', url=url_for('meetup', lang_code=lang_code)) }}</p>
   </div>
 
