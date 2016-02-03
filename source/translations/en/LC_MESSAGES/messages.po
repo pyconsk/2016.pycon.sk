@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-04 00:04+0100\n"
+"POT-Creation-Date: 2016-02-04 00:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -1161,6 +1161,25 @@ msgstr ""
 
 #: templates/speakers.html:95
 msgid ""
+"Adam pracuje pre spoločnosť ktorá zastupuje <a "
+"href=\"https://www.aldebaran.com/en\" target=\"_blank\" title=\"Aldebaran"
+" Robotics\">Aldebaran Robotics</a> na Slovensku. Jeho hlavným cieľom je "
+"motivovať mladých ľudí do programovania a informatiky. Python používa pri"
+" tvorbe aplikácií pre humanoidné platformy ako NAO, Papper a Romeo. Vo "
+"voľnom čase sa venuje svojmu projektu <a "
+"href=\"http://smartgrowbox.com/\" target=\"_blank\" "
+"title=\"SmartGrowBox\">SmartGrowBox</a>."
+msgstr ""
+"Adam works for a company which represents <a "
+"href=\"https://www.aldebaran.com/en\" target=\"_blank\" title=\"Aldebaran"
+" Robotics\">Aldebaran Robotics</a> in Slovakia. His main goal is to "
+"motivate young people to programming and informatics. Adam uses Python to"
+" form applications for humanoid platforms NAO, Papper and Romeo. In his "
+"free time he devotes himself to his project <a "
+"href=\"http://smartgrowbox.com/\" target=\"_blank\">SmartGrowBox</a>."
+
+#: templates/speakers.html:108
+msgid ""
 "Věroš pracuje z Brna pre spoločnosť <a href=\"http://inuits.eu\" "
 "title=\"Inuits\" target=\"_blank\">Inuits</a>, kde sa stará o správu a "
 "nasadzovanie serverov a aplikácií. Python stretol niekedy v minulom "
@@ -1173,7 +1192,7 @@ msgstr ""
 "sometime in the last century and has stayed with it. He is torn between "
 "Dev and Ops and believe in DevOps (whatever it means)."
 
-#: templates/speakers.html:107
+#: templates/speakers.html:120
 msgid ""
 "Django vývojár v <a href=\"http://djangostars.com/\" target=\"_blank\" "
 "title=\"DjangoStars\">DjangoStars</a>. Má záujem o funkcionálne "
@@ -1183,7 +1202,7 @@ msgstr ""
 " title=\"Django Stars\">DjangoStars</a>. Interested in functional "
 "programming and testing as a way to measure the code quality."
 
-#: templates/speakers.html:122
+#: templates/speakers.html:135
 msgid ""
 "Büsra pracuje pre Ericsson R&amp;D v Budapešti ako Cloud System Engineer."
 " Zaujíma sa o back-end development, cloud, big data a nové technológie. "
@@ -1200,7 +1219,7 @@ msgstr ""
 "target=\"_blank\">bikokorec.com</a> and a blogger. She loves coding, "
 "taking photos, and blogging."
 
-#: templates/speakers.html:134
+#: templates/speakers.html:147
 msgid ""
 "Robí s pythonom na dennej báze posledných 5 rokov. Vo <a "
 "href=\"https://www.vnet.sk/\" target=\"_blank\" title=\"Vnet\">Vnete</a> "
@@ -1214,7 +1233,7 @@ msgstr ""
 "company's processes. He is interested in back-end developement, IoT, IT "
 "security and enthusiastic about open source technologies."
 
-#: templates/speakers.html:148
+#: templates/speakers.html:161
 msgid ""
 "Svetlana sa venuje programovaniu v Pythone a Djangu v spoločnosti <a "
 "href=\"http://thebrainity.com/\" target=\"_blank\">Brainity</a>, kde "
@@ -1230,7 +1249,7 @@ msgstr ""
 "She likes the new technology, UI/UX and tries to optimize each task and "
 "program as much as possible."
 
-#: templates/speakers.html:160
+#: templates/speakers.html:173
 msgid ""
 "Tatiana začala programovať v roku 2002. Prešla od vyvoja lekárskych "
 "zobrazovacích aplikácií až na odporúčacie platformy pomocou webovej "
@@ -1249,7 +1268,7 @@ msgstr ""
 "href=\"http://www.ef.edu/\" target=\"_blank\" title=\"Education "
 "First\">Education Firsti</a> (EF), developing educational applications."
 
-#: templates/speakers.html:174
+#: templates/speakers.html:187
 msgid ""
 "Daniele bol organizátorom Django víkendu v Cardiffe a aj členom "
 "organizačnej komisie DjangoCon Europe 2014 a jej predsedom v roku 2015. "
@@ -1273,7 +1292,7 @@ msgstr ""
 "team, and has been involved in organising numerous Python/Django "
 "conferences, including DjangoCon Europe 2015 and PyCon Namibia 2016."
 
-#: templates/speakers.html:186
+#: templates/speakers.html:199
 msgid ""
 "Matúš je PhD študent na Fakulte matematiky, fyziky a informatiky "
 "Univerzity Komenského v Bratislave. Venuje sa skúmaniu kvantových javov v"
@@ -1289,7 +1308,7 @@ msgstr ""
 "physicist needs: communication with measurement devices, data collection "
 "and processing, simulations."
 
-#: templates/speakers.html:200
+#: templates/speakers.html:213
 msgid ""
 "Michael pracuje pre <a href=\"https://redhat.com\" target=\"_blank\" "
 "title=\"Red Hat\">Red Hat</a> v týme Open Source a štandardy, zaujíma sa "
@@ -1303,7 +1322,7 @@ msgstr ""
 "system administrator . A long time packager and python coder, he lives in"
 " Paris when he is not traveling to speak at free software events around"
 
-#: templates/speakers.html:213
+#: templates/speakers.html:226
 msgid ""
 "Andrea sa venuje vývoju serverových aplikácií od roku 2012. Pochádza z IT"
 " rodiny a aj vďaka tomu sa vybrala touto cestou. Neznáša zlý kód a "
@@ -1315,7 +1334,7 @@ msgstr ""
 "dislikes bad code and old technologies. Furthermore, she is one of the "
 "organizers of Bratislava Scala meetup."
 
-#: templates/speakers.html:227
+#: templates/speakers.html:240
 msgid ""
 "Martina je softvérovou inžinierkou s 10+ ročnou praxou vyvíjania "
 "enterprise-level softvéru. Posledné štyri roky pracuje ako vývojárka pre "
@@ -1339,7 +1358,7 @@ msgstr ""
 "for-profit organization <a href=\"http://www.ajtyvit.sk/\" "
 "target=\"_blank\" title=\"Aj Ty v IT\">Aj Ty v IT</a>."
 
-#: templates/speakers.html:240
+#: templates/speakers.html:253
 msgid ""
 "Nicholas je klasicky vyškolený hudobník, absolvent filozofie, učiteľ, "
 "spisovateľ a vývojár softvéru. Spolupracuje s nadáciou Python Software "
@@ -1353,7 +1372,7 @@ msgstr ""
 "He's just like this biography: concise, honest and full of useful "
 "information."
 
-#: templates/speakers.html:255
+#: templates/speakers.html:268
 msgid ""
 "Je softvérový inžinier v <a href=\"https://www.redhat.com/\" "
 "target=\"_blank\" title=\"Red Hat\">Red Hat</a>. Keď nepíše Python kód, "

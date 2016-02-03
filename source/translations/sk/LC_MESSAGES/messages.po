@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-04 00:04+0100\n"
+"POT-Creation-Date: 2016-02-04 00:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -901,6 +901,18 @@ msgstr ""
 
 #: templates/speakers.html:95
 msgid ""
+"Adam pracuje pre spoločnosť ktorá zastupuje <a "
+"href=\"https://www.aldebaran.com/en\" target=\"_blank\" title=\"Aldebaran"
+" Robotics\">Aldebaran Robotics</a> na Slovensku. Jeho hlavným cieľom je "
+"motivovať mladých ľudí do programovania a informatiky. Python používa pri"
+" tvorbe aplikácií pre humanoidné platformy ako NAO, Papper a Romeo. Vo "
+"voľnom čase sa venuje svojmu projektu <a "
+"href=\"http://smartgrowbox.com/\" target=\"_blank\" "
+"title=\"SmartGrowBox\">SmartGrowBox</a>."
+msgstr ""
+
+#: templates/speakers.html:108
+msgid ""
 "Věroš pracuje z Brna pre spoločnosť <a href=\"http://inuits.eu\" "
 "title=\"Inuits\" target=\"_blank\">Inuits</a>, kde sa stará o správu a "
 "nasadzovanie serverov a aplikácií. Python stretol niekedy v minulom "
@@ -908,14 +920,14 @@ msgid ""
 "(whatever it means)."
 msgstr ""
 
-#: templates/speakers.html:107
+#: templates/speakers.html:120
 msgid ""
 "Django vývojár v <a href=\"http://djangostars.com/\" target=\"_blank\" "
 "title=\"DjangoStars\">DjangoStars</a>. Má záujem o funkcionálne "
 "programovanie a testovanie ako spôsob merania kvality kódu."
 msgstr ""
 
-#: templates/speakers.html:122
+#: templates/speakers.html:135
 msgid ""
 "Büsra pracuje pre Ericsson R&amp;D v Budapešti ako Cloud System Engineer."
 " Zaujíma sa o back-end development, cloud, big data a nové technológie. "
@@ -925,7 +937,7 @@ msgid ""
 "bloggerka. Miluje programovanie, fotenie a blogovanie."
 msgstr ""
 
-#: templates/speakers.html:134
+#: templates/speakers.html:147
 msgid ""
 "Robí s pythonom na dennej báze posledných 5 rokov. Vo <a "
 "href=\"https://www.vnet.sk/\" target=\"_blank\" title=\"Vnet\">Vnete</a> "
@@ -934,7 +946,7 @@ msgid ""
 "je nadšenec open source technológií."
 msgstr ""
 
-#: templates/speakers.html:148
+#: templates/speakers.html:161
 msgid ""
 "Svetlana sa venuje programovaniu v Pythone a Djangu v spoločnosti <a "
 "href=\"http://thebrainity.com/\" target=\"_blank\">Brainity</a>, kde "
@@ -944,7 +956,7 @@ msgid ""
 "zoptimalizovať."
 msgstr ""
 
-#: templates/speakers.html:160
+#: templates/speakers.html:173
 msgid ""
 "Tatiana začala programovať v roku 2002. Prešla od vyvoja lekárskych "
 "zobrazovacích aplikácií až na odporúčacie platformy pomocou webovej "
@@ -956,7 +968,7 @@ msgid ""
 "aplikácie."
 msgstr ""
 
-#: templates/speakers.html:174
+#: templates/speakers.html:187
 msgid ""
 "Daniele bol organizátorom Django víkendu v Cardiffe a aj členom "
 "organizačnej komisie DjangoCon Europe 2014 a jej predsedom v roku 2015. "
@@ -971,7 +983,7 @@ msgid ""
 "projekty\">Aldryn</a> a iných zábavných Django projektoch."
 msgstr ""
 
-#: templates/speakers.html:186
+#: templates/speakers.html:199
 msgid ""
 "Matúš je PhD študent na Fakulte matematiky, fyziky a informatiky "
 "Univerzity Komenského v Bratislave. Venuje sa skúmaniu kvantových javov v"
@@ -981,7 +993,7 @@ msgid ""
 "vyhodnocovanie dát, simulácie."
 msgstr ""
 
-#: templates/speakers.html:200
+#: templates/speakers.html:213
 msgid ""
 "Michael pracuje pre <a href=\"https://redhat.com\" target=\"_blank\" "
 "title=\"Red Hat\">Red Hat</a> v týme Open Source a štandardy, zaujíma sa "
@@ -990,7 +1002,7 @@ msgid ""
 "nerozpráva po konferenciach o slobodnom softvéry."
 msgstr ""
 
-#: templates/speakers.html:213
+#: templates/speakers.html:226
 msgid ""
 "Andrea sa venuje vývoju serverových aplikácií od roku 2012. Pochádza z IT"
 " rodiny a aj vďaka tomu sa vybrala touto cestou. Neznáša zlý kód a "
@@ -998,7 +1010,7 @@ msgid ""
 "meetupu."
 msgstr ""
 
-#: templates/speakers.html:227
+#: templates/speakers.html:240
 msgid ""
 "Martina je softvérovou inžinierkou s 10+ ročnou praxou vyvíjania "
 "enterprise-level softvéru. Posledné štyri roky pracuje ako vývojárka pre "
@@ -1013,7 +1025,7 @@ msgid ""
 "predstavami o IT branži na Slovensku."
 msgstr ""
 
-#: templates/speakers.html:240
+#: templates/speakers.html:253
 msgid ""
 "Nicholas je klasicky vyškolený hudobník, absolvent filozofie, učiteľ, "
 "spisovateľ a vývojár softvéru. Spolupracuje s nadáciou Python Software "
@@ -1022,7 +1034,7 @@ msgid ""
 "plný užitočných informácií."
 msgstr ""
 
-#: templates/speakers.html:255
+#: templates/speakers.html:268
 msgid ""
 "Je softvérový inžinier v <a href=\"https://www.redhat.com/\" "
 "target=\"_blank\" title=\"Red Hat\">Red Hat</a>. Keď nepíše Python kód, "
