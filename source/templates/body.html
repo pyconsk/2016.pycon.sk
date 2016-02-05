@@ -45,8 +45,10 @@
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <a href="{{ url_for('index', lang_code=lang_code) }}"><img class="navbar-brand navbar-logo" src="{{ url_for('static', filename=logo) }}" alt="PyCon SK Home" ></a>
-        <a href="{{ url_for('index', lang_code=lang_code) }}" class="navbar-brand">{{ title }}</a>
+        <a href="{{ url_for('index', lang_code=lang_code) }}">
+          <img class="navbar-brand navbar-logo" src="{{ url_for('static', filename=logo) }}" alt="PyCon SK Home" >
+          <span class="navbar-brand">{{ title }}</span>
+        </a>
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
