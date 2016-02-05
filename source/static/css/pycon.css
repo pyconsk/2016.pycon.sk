@@ -22,6 +22,22 @@ body {
   padding-bottom: 2px;
 }
 
+.lang-nav {
+  float: right !important;
+}
+
+@media (max-width: 767px) {
+  .lang-nav {
+    float: none !important;
+  }
+  .lang-nav > li > a {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-right: 20px;
+    text-align: right;
+  }
+}
+
 .right-nav h4 {
   font-size: 15px;
 }
@@ -135,7 +151,9 @@ a.sbox:hover > .sbox-inner {
 }
 
 footer {
-  margin: 5em 0;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  margin: 2em 0;
 }
 
 footer li {

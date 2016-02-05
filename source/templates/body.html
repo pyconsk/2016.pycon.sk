@@ -56,15 +56,22 @@
         </button>
       </div>
       <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav pull-right lang-nav">
+          {% if lang_code == 'sk' %}
+          <li><a href="{{ request.path|replace('/'+lang_code, '/en', 1) }}" title="Switch to english language" hreflang="en"><img src="{{ url_for('static', filename='images/lang/uk.png') }}" alt="english language"></a></li>
+          {% else %}
+          <li><a href="{{ request.path|replace('/'+lang_code, '/sk', 1) }}" title="Prepnúť na slovenský jazyk" hreflang="sk"><img src="{{ url_for('static', filename='images/lang/sk.png') }}" alt="slovenský jazyk"></a></li>
+          {% endif %}
+        </ul>
         <ul class="nav navbar-nav">
           <li{% if li_tickets %} class="{{ li_tickets }}"{% endif %}>
             <a href="{{ url_for('tickets', lang_code=lang_code) }}">{{ _('Vstupenky') }}</a>
           </li>
           <li{% if li_getting_here %} class="{{ li_getting_here }}"{% endif %}>
-            <a href="{{ url_for('getting_here', lang_code=lang_code) }}">{{ _('Konferencia') }}</a>
+            <a href="{{ url_for('getting_here', lang_code=lang_code) }}">{{ _('Miesto konania') }}</a>
             </li>
-          <li>
-            <a{% if li_speaking %} class="{{ li_speaking }}"{% endif %} href="{{ url_for('speakers', lang_code=lang_code) }}">{{ _('Rečníci') }}</a>
+          <li {% if li_speaking %} class="{{ li_speaking }}"{% endif %}>
+            <a href="{{ url_for('speakers', lang_code=lang_code) }}">{{ _('Rečníci') }}</a>
           </li>
           <li{% if li_workshop %} class="{{ li_workshop }}"{% endif %}>
             <a href="{{ url_for('django_girls', lang_code=lang_code) }}">{{ _('Workshop') }}</a>
@@ -72,19 +79,12 @@
           <li{% if li_sponsoring %} class="{{ li_sponsoring }}"{% endif %}>
             <a href="{{ url_for('sponsors', lang_code=lang_code) }}">{{ _('Sponzori') }}</a>
           </li>
-          <li{% if li_coc %} class="{{ li_coc }}"{% endif %}>
-            <a href="{{ url_for('code_of_conduct', lang_code=lang_code) }}">{{ _('Kódex správania') }}</a>
-          </li>
           <li{% if li_meetup %} class="{{ li_meetup }}"{% endif %}>
             <a href="{{ url_for('meetup', lang_code=lang_code) }}">{{ _('Meetup') }}</a>
           </li>
-          <li{% if li_spy %} class="{{ li_spy }}"{% endif %}>
-            <a href="{{ url_for('spy', lang_code=lang_code) }}">{{ _('Občianske združenie') }}</a>
+          <li{% if li_coc %} class="{{ li_coc }}"{% endif %}>
+            <a href="{{ url_for('code_of_conduct', lang_code=lang_code) }}">{{ _('Kódex správania') }}</a>
           </li>
-        </ul>
-        <ul class="nav navbar-nav pull-right lang-nav">
-          {% if lang_code != 'en' %}<li><a href="{{ request.path|replace('/'+lang_code, '/en', 1) }}" title="Switch to english language" hreflang="en"><img src="{{ url_for('static', filename='images/lang/uk.png') }}" alt="english language"></a></li>{% endif %}
-          {% if lang_code != 'sk' %}<li><a href="{{ request.path|replace('/'+lang_code, '/sk', 1) }}" title="Prepnúť na slovenský jazyk" hreflang="sk"><img src="{{ url_for('static', filename='images/lang/sk.png') }}" alt="slovenský jazyk"></a></li>{% endif %}
         </ul>
       </div>
     </div>
@@ -99,16 +99,16 @@
       <div class="row">
         <div class="col-md-12">
           <ul class="list-unstyled">
-            <li class="pull-right"><a href="#top">{{ _('Preskočiť na začiatok') }}</a></li>
+            {# <li class="pull-right"><a href="#top">{{ _('Preskočiť na začiatok') }}</a></li> #}
             <li><a href="https://facebook.com/pyconsk">Facebook</a></li>
             <li><a href="https://twitter.com/pyconsk">Twitter</a></li>
             <li><a href="https://www.linkedin.com/company/spy-o--z-">LinkedIn</a></li>
             <li><a href="https://plus.google.com/u/0/b/114745643590416178453/114745643590416178453/posts">Google+</a></li>
             <li><a href="https://pyconsk.slack.com">Slack</a></li>
             <li><a href="https://github.com/pyconsk">GitHub</a></li>
-            <li><a href="mailto:info%40pycon.sk"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> info@pycon.sk</a></li>
+            <li><a href="{{ url_for('spy', lang_code=lang_code) }}">{{ _('Občianske združenie') }}</a></li>
             <li><a href="https://lists.pycon.sk/listinfo"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> {{ _('E-mailová konferencia') }}</a></li>
-            <li><a href="{{ url_for('static', filename='meetup.ics') }}"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> meetup.ics</a></li>
+            <li><a href="mailto:info%40pycon.sk"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> info@pycon.sk</a></li>
             <li class="hide"><a href="/sitemap.xml">sitemap.xml</a></li>
           </ul>
           {% block footer %}{% endblock %}
