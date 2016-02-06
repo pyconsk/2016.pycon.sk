@@ -293,6 +293,7 @@
     </div>
     <hr />
 
+{#
     <div class="row">
       <div class="col-md-9 text-justify"><h3>Johannes Wachs <small>(DE)</small></h3>
         <p>
@@ -304,12 +305,13 @@
       </div>
       <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_johannes.png') }}" alt="Johannes Wachs" class="img-thumbnail" /></div>
     </div>
-
- 
-  </div>
+#}
+    
+  </div>  {# col-md-8 #}
 
   <div class="col-md-4">
     {% include 'right_nav.html' %}
   </div>
-</div>
+
+</div>  {# row #}
 {% endblock %}
