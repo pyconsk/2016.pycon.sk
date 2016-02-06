@@ -3,28 +3,30 @@
 {% block content %}
 <div class="row">
   <div class="col-md-8">
-
     <h1>{{ _('Ako sa sem dostať?') }}</h1>
     <p class="lead">{{ _('Ste skvelý. Už máte lístok na konferenciu a potrebujete zistiť možnosti dopravy? Na tejto stránke nájdete kompletnú informáciu o tom, ako sa na konferenciu dostanete.') }}</p>
 
     <div class="row">
-      <div class="col-md-12 text-center">
+      <div class="col-md-12">
+        <ul class="">
+          <li><a href="#address">{{ _('Adresa') }}</a></li>
+          <li><a href="#to-ba">{{ _('Cestovanie do Bratislavy') }}</a></li>
+          <li><a href="#in-ba">{{ _('Cestovanie po Bratislave') }}</a></li>
+          <li><a href="#map">{{ _('Mapa') }}</a></li>
+          <li><a href="#accomodation">{{ _('Ubytovanie') }}</a></li>
+        </ul>
+      </div>
+    </div>
 
-        <div class="btn-group btn-group-justified" role="group">
-          <div class="btn-group" role="group">
-            <a href="#to-ba" class="btn btn-default">{{ _('Cestovanie do Bratislavy') }}</a>
-          </div>
-          <div class="btn-group" role="group">
-            <a href="#in-ba" class="btn btn-default">{{ _('Cestovanie po Bratislave') }}</a>
-          </div>
-          <div class="btn-group" role="group">
-            <a href="#map" class="btn btn-default">{{ _('Mapa') }}</a>
-          </div>
-          <div class="btn-group" role="group">
-            <a href="#accomodation" class="btn btn-default">{{ _('Ubytovanie') }}</a>
-          </div>
-        </div>
-
+    <div class="row" id="address"> 
+      <div class="col-md-12">
+        <h2>{{ _('Adresa') }}</h2>
+        <p class="text-justify">
+        {{ _('Slovenská technická univerzita v Bratislave') }}<br />
+        {{ _('Fakulta informatiky a informačných technológií') }}<br />
+        Ilkovičova 2<br />
+        842 16 Bratislava 4
+        </p>
       </div>
     </div>
 
