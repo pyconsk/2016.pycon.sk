@@ -139,6 +139,11 @@ def index():
     return render_template('index.html', **_get_template_variables(ld_json=LDJSON_EVENT))
 
 
+@app.route('/<lang_code>/console.html')
+def console():
+    return render_template('console.html', **_get_template_variables(li_meetup='active'))
+
+
 @app.route('/<lang_code>/speakers.html')
 def speakers():
     return render_template('speakers.html', **_get_template_variables(li_speaking='active'))

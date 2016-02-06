@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-05 23:33+0100\n"
+"POT-Creation-Date: 2016-02-06 00:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -179,39 +179,43 @@ msgstr ""
 msgid "Preskočiť na hlavný obsah"
 msgstr ""
 
-#: templates/body.html:59 templates/tickets.html:11
+#: templates/body.html:68 templates/tickets.html:11
 msgid "Vstupenky"
 msgstr ""
 
-#: templates/body.html:62
+#: templates/body.html:71
 msgid "Miesto konania"
 msgstr ""
 
-#: templates/body.html:65 templates/speakers.html:5
+#: templates/body.html:74 templates/speakers.html:5
 msgid "Rečníci"
 msgstr ""
 
-#: templates/body.html:68
+#: templates/body.html:77
 msgid "Workshop"
 msgstr ""
 
-#: templates/body.html:71 templates/django-girls.html:60
+#: templates/body.html:80 templates/django-girls.html:60
 msgid "Sponzori"
 msgstr ""
 
-#: templates/body.html:74
+#: templates/body.html:83 templates/body.html:85
 msgid "Meetup"
 msgstr ""
 
-#: templates/body.html:77 templates/code-of-conduct.html:5
+#: templates/body.html:86
+msgid "Vyskúšaj Python"
+msgstr ""
+
+#: templates/body.html:90 templates/code-of-conduct.html:5
 msgid "Kódex správania"
 msgstr ""
 
-#: templates/body.html:104
+#: templates/body.html:113
 msgid "Občianske združenie"
 msgstr ""
 
-#: templates/body.html:105
+#: templates/body.html:114
 msgid "E-mailová konferencia"
 msgstr ""
 

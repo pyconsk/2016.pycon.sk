@@ -80,7 +80,11 @@
             <a href="{{ url_for('sponsors', lang_code=lang_code) }}">{{ _('Sponzori') }}</a>
           </li>
           <li{% if li_meetup %} class="{{ li_meetup }}"{% endif %}>
-            <a href="{{ url_for('meetup', lang_code=lang_code) }}">{{ _('Meetup') }}</a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ _('Meetup') }} <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ url_for('meetup', lang_code=lang_code) }}">{{ _('Meetup') }}</a></li>
+              <li><a href="{{ url_for('console', lang_code=lang_code) }}">{{ _('Vyskúšaj Python') }}</a></li>
+            </ul>
           </li>
           <li{% if li_coc %} class="{{ li_coc }}"{% endif %}>
             <a href="{{ url_for('code_of_conduct', lang_code=lang_code) }}">{{ _('Kódex správania') }}</a>

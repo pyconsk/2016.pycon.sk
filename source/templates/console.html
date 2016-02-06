@@ -1,0 +1,13 @@
+{% extends "body.html" %}
+{% block header %}
+<script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/3.2.4/www/src/brython.js"></script>
+{% endblock%}
+
+{% block content %}
+<textarea id="code" class="codearea" rows="20" spellcheck="false"></textarea>
+
+<script type="text/python3" src="{{ url_for('static', filename='python/console.py') }}" id="__main__"></script>
+<script type="text/javascript">
+  window.onload=brython;
+</script>
+{% endblock %}

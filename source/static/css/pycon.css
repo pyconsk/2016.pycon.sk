@@ -185,3 +185,15 @@ footer li {
   font-size: 11px;
 }
 
+.codearea{
+  background-color:#000;
+  color:#fff;
+  font-family:'Oxygen Mono', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace;
+  font-size:14px;
+  overflow:auto
+}
+
+textarea{
+  height:100%;
+  width:98%
+}
