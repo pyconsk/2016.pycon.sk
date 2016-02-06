@@ -218,6 +218,7 @@ body {
 */
 
 .navbar-default {background-color:#f4f4f4;border-width:0;z-index:5;}
+.navbar-default .navbar-nav > li > a {border-bottom: 2px solid transparent;}
 .navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > li:hover > a {border:0 solid #4285f4;border-bottom-width:2px;font-weight:800;background-color:transparent;}
 .navbar-default .navbar-nav.lang-nav > .active > a,.navbar-default .navbar-nav.lang-nav > li:hover > a {
   font-weight: normal;
