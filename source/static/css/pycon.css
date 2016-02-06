@@ -38,6 +38,11 @@ body {
   }
 }
 
+.right-nav h3, .right-nav h4, .right-nav h5, .right-nav h6 {
+  border: none;
+  padding-bottom: 0;
+}
+
 .right-nav h4 {
   font-size: 15px;
 }
@@ -151,9 +156,10 @@ a.sbox:hover > .sbox-inner {
 }
 
 footer {
-  border-top: 1px solid #eee;
+  border-top: 2px solid #eee;
   padding-top: 20px;
-  margin: 2em 0;
+  margin-top: 3em;
+  margin-bottom: 1em;
 }
 
 footer li {
@@ -219,10 +225,8 @@ body {
 
 .navbar-default {background-color:#f4f4f4;border-width:0;z-index:5;}
 .navbar-default .navbar-nav > li > a {border-bottom: 2px solid transparent;}
-.navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > li:hover > a {border:0 solid #4285f4;border-bottom-width:2px;font-weight:800;background-color:transparent;}
-.navbar-default .navbar-nav.lang-nav > .active > a,.navbar-default .navbar-nav.lang-nav > li:hover > a {
-  font-weight: normal;
-}
+.navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > li:hover > a {border:0 solid #4285f4;border-bottom-width:2px;background-color:transparent;color:#000;text-shadow:0px 1px 1px rgba(0, 0, 0, 0.4)}
+.navbar-default .navbar-nav.lang-nav > .active > a,.navbar-default .navbar-nav.lang-nav > li:hover > a {font-weight: normal;}
 .navbar-default .dropdown-menu {background-color:#ffffff;}
 .navbar-default .dropdown-menu li > a {padding-left:30px;}
 
