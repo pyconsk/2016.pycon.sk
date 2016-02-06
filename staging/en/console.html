@@ -33,13 +33,15 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
   
+<script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/3.2.4/www/src/brython.js"></script>
+
   
-  <link rel="alternate" href="https://pycon.sk/sk/speaking.html" hreflang="sk">
+  <link rel="alternate" href="https://pycon.sk/sk/console.html" hreflang="sk">
   <link rel="stylesheet" href="../static/css/pycon.css?v=1454715591">
   <link rel="icon" href="../static/images/favicon.ico" sizes="16x16">
 </head>
 <body>
-  <a href="speaking.html#content" class="sr-only sr-only-focusable">Back to home page</a>
+  <a href="console.html#content" class="sr-only sr-only-focusable">Back to home page</a>
 
   
   <div class="navbar navbar-default navbar-fixed-top">
@@ -58,7 +60,7 @@
       <div class="navbar-collapse collapse" id="navbar-main">
         <ul class="nav navbar-nav pull-right lang-nav">
           
-          <li><a href="../sk/speaking.html" title="Prepnúť na slovenský jazyk" hreflang="sk"><img src="../static/images/lang/sk.png" alt="slovenský jazyk"></a></li>
+          <li><a href="../sk/console.html" title="Prepnúť na slovenský jazyk" hreflang="sk"><img src="../static/images/lang/sk.png" alt="slovenský jazyk"></a></li>
           
         </ul>
         <ul class="nav navbar-nav">
@@ -68,7 +70,7 @@
           <li>
             <a href="getting-here.html">Venue</a>
             </li>
-          <li  class="active">
+          <li >
             <a href="speakers.html">Speakers</a>
           </li>
           <li>
@@ -77,8 +79,8 @@
           <li>
             <a href="sponsors.html">Sponsors</a>
           </li>
-          <li>
-            <a href="speaking.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meetup <span class="caret"></span></a>
+          <li class="active">
+            <a href="console.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meetup <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="meetup.html">Meetup</a></li>
               <li><a href="console.html">Try Python</a></li>
@@ -96,136 +98,12 @@
   <div class="container" id="content" role="main">
     <!-- content -->
     
-<div class="row">
-  <div class="col-md-8">
-    <h1>Call for proposals</h1>
+<textarea id="code" class="codearea" rows="20" spellcheck="false"></textarea>
 
-    <p class="lead">The Call For Proposals is closed!</p>
-
-    <div class="image text-center">
-      <img src="../static/images/pycon/13826318145_fb6a818604_z.jpg" alt="" class="img-responsive center-block">
-      <p class="image-caption"><a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">CC</a> by <a href="https://www.flickr.com/photos/jaaaarel/13826318145" target="_blank">Taavi Burns</a></p>
-    </div>
-
-    <p class="text-justify">
-    PyCon is organized by the Python community and for the Python community. You're coming to the event, and that makes you part of the community. If you've done something that you think other people might be interested in, or that you think they should know about, please do consider telling us about it. We don't just want to hear from the experts or famous names - other perspectives are just as valuable, so don't let the idea that you're not expert or famous enough stop you. This is your invitation to submit talk proposal if you haven't speak at the conference before. <strong>First-time speakers</strong> talk proposals are preferred.
-    </p>
-
-    <h2>Where to submit your proposal</h2>
-    <p class="text-justify">
-    We are glad you are interested in giving a talk at PyCon SK 2016! Send us your talk proposal with short abstract to:
-    </p>
-    <p class="text-center"><strong><a href="mailto:info@pycon.sk">info@pycon.sk</a></strong></p>
-    <p class="text-justify">
-    Don't hesitate to submit more than one proposal. <strong>The deadline for submissions is the end of 24th January 2016.</strong> Due to the competitive selection process, we encourage prospective speakers to submit their proposals as early as possible.
-    </p>
-
-    <h2>Guidelines for Proposal Submission</h2>
-    <p class="text-justify">
-    There is no official restriction on the topic that you propose for a talk session. Talks about Python or the Python community are most likely to line up with the interests of PyCon's audience, and a key consideration that the talk selection committee will be thinking about is your talk's ability to draw an audience. You may propose more than one, but the committee will ask you to choose only one talk if more than one of your proposals is accepted.
-    </p>
-
-    <div>
-      <span class="glyphicon glyphicon-blackboard pull-left icon-large" aria-hidden="true"></span>
-      <h3>Talks</h3>
-      <p class="text-justify">
-      Most talks are 30 minutes long, but we do offer a limited number of 45-minute slots for important topics that promise to benefit from a more extensive treatment.
-      </p>
-    </div>
-
-    <div>
-      <span class="glyphicon glyphicon-scissors pull-left icon-large" aria-hidden="true"></span>
-      <h3>Workshops</h3>
-      <p class="text-justify">
-      As with the talks, we are looking for tutorials that can grow this community at any level! We aim for tutorials that will advance Python, advance this community, and shape the future. As tutorials are longer than talks and are in an interactive classroom-like setting, they require much more preparation. 
-      </p>
-    </div>
-  </div>
-
-  <div class="col-md-4">
-    <!-- right_nav -->
-
-<div class="text-center right-nav">
-  <h4><mark class="platinum">Platinum sponsors:</mark></h4>
-  <ul class="list-unstyled">
-    <li>
-    <a href="https://www.redhat.com/#pyconsk" target="_blank">
-      <img src="../static/images/sponsors/redhat-logo.svg" alt="Red Hat" style="width:230px" />
-    </a>
-    </li>
-    <li>
-    <a href="https://www.erigones.com/#pyconsk" target="_blank">
-      <img src="../static/images/sponsors/erigones-logo.svg" alt="Erigones" style="width:230px" />
-    </a>
-    </li>
-  </ul>
-
-  <br>
-  <hr>
-
-  <h5><mark class="gold">Gold sponsors:</mark></h5>
-  <ul class="list-unstyled">
-    <li>
-    <a href="https://www.python.org/psf/#pyconsk" target="_blank">
-      <img src="../static/images/sponsors/psf-logo.svg" alt="PSF" style="width:200px" />
-    </a>
-    <br>
-    <br>
-    </li>
-    <li>
-    <a href="https://www.eset.com/#pyconsk" target="_blank">
-      <img src="../static/images/sponsors/eset-logo.svg" alt="Eset" style="width:170px" />
-    </a>
-    </li>
-  </ul>
-
-  <br>
-  <hr>
-
-  <h6><mark class="silver">Silver sponsors:</mark></h6>
-  <ul class="list-unstyled">
-    <li>
-    <a href="https://www.gridmarkets.com/#pyconsk" target="_blank">
-      <img src="../static/images/sponsors/gridmarkets-logo.png" alt="GridMarkets" style="width:130px" />
-    </a>
-    <br>
-    <br>
-    </li>
-    <li>
-    <a href="https://www.vnet.sk/#pyconsk" target="_blank">
-      <img src="../static/images/sponsors/vnet-logo.png" alt="VNET" style="width:130px" />
-    </a>
-    <br>
-    <br>
-    </li>
-    <li>
-    <a href="https://www.websupport.sk/#pyconsk" target="_blank">
-      <img src="../static/images/sponsors/websupport-logo.png" alt="WebSupport" style="height:60px" />
-    </a>
-    </li>
-  </ul>
-
-  <br>
-  <hr>
-
-  <h6><mark class="media-partners">Main media partner</mark></h6>
-  <ul class="list-unstyled">
-    <li>
-    <a href="http://www.pcrevue.sk/#pyconsk" target="_blank">
-      <img src="../static/images/partners/pc-revue.png" alt="PC REVUE" style="width:130px" />
-    </a>
-    </li>
-  </ul>
-
-  <hr>
-
-  <p><a href="sponsors.html">All Sponsors</a></p>
-
-</div>
-<!-- right_nav end -->
-
-  </div>
-</div>
+<script type="text/python3" src="../static/python/console.py" id="__main__"></script>
+<script type="text/javascript">
+  window.onload=brython;
+</script>
 
     <!-- content end -->
     <footer>

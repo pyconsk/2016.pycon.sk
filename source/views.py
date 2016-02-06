@@ -32,6 +32,7 @@ SITEMAP = {
     'ba-06-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2015-11-11T11:11:11+00:00'},
     'ba-07-meetup.html': {'prio': '0.4', 'freq': 'weekly', 'lastmod': '2016-01-17T12:22:22+00:00'},
     'ba-08-meetup.html': {'prio': '0.6', 'freq': 'daily', 'lastmod': '2016-01-18T10:53:24+00:00'},
+    'console.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2016-02-05T11:11:11+00:00'},
     'thank-you.html': {'prio': '0.1', 'freq': 'yearly', 'lastmod': '2015-07-10T20:00:00+00:00'},
 }
 LDJSON = {

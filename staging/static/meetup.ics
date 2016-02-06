@@ -102,7 +102,7 @@ UID:675dc56060f241e0b70a6d157a915xc4
 DTSTART:20160311T080000Z
 DTEND:20160313T150000Z
 GEO:48.1442784;17.1065933
-DESCRIPTION:Prvý slovenský PyCon, lístky sú už v predpredaji za výhodnú cenu. Viac info na https://pycon.sk
+DESCRIPTION:Prvý slovenský PyCon. Viac info na https://pycon.sk
 END:VEVENT
 
 END:VCALENDAR

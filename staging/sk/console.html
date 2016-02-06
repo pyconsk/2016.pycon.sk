@@ -33,20 +33,22 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
   
-  <link rel="alternate" href="https://pycon.sk/en/ba-07-meetup.html" hreflang="en">
+<script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/3.2.4/www/src/brython.js"></script>
+
+  <link rel="alternate" href="https://pycon.sk/en/console.html" hreflang="en">
   
   <link rel="stylesheet" href="../static/css/pycon.css?v=1454715591">
   <link rel="icon" href="../static/images/favicon.ico" sizes="16x16">
 </head>
 <body>
-  <a href="ba-07-meetup.html#content" class="sr-only sr-only-focusable">Preskočiť na hlavný obsah</a>
+  <a href="console.html#content" class="sr-only sr-only-focusable">Preskočiť na hlavný obsah</a>
 
   
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
         <a href="index.html">
-          <img class="navbar-brand navbar-logo" src="../static/images/logo/bratislava_logo.svg" alt="PyCon SK Home" >
+          <img class="navbar-brand navbar-logo" src="../static/images/logo/pycon.svg" alt="PyCon SK Home" >
           <span class="navbar-brand">PyCon SK</span>
         </a>
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
@@ -58,7 +60,7 @@
       <div class="navbar-collapse collapse" id="navbar-main">
         <ul class="nav navbar-nav pull-right lang-nav">
           
-          <li><a href="../en/ba-07-meetup.html" title="Switch to english language" hreflang="en"><img src="../static/images/lang/uk.png" alt="english language"></a></li>
+          <li><a href="../en/console.html" title="Switch to english language" hreflang="en"><img src="../static/images/lang/uk.png" alt="english language"></a></li>
           
         </ul>
         <ul class="nav navbar-nav">
@@ -78,7 +80,7 @@
             <a href="sponsors.html">Sponzori</a>
           </li>
           <li class="active">
-            <a href="ba-07-meetup.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meetup <span class="caret"></span></a>
+            <a href="console.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meetup <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="meetup.html">Meetup</a></li>
               <li><a href="console.html">Vyskúšaj Python</a></li>
@@ -96,112 +98,12 @@
   <div class="container" id="content" role="main">
     <!-- content -->
     
-<div class="row">
-  <div class="col-md-8">
-    <div class="jumbotron">
-      <h1>Siedmy Bratislavský Python Meetup</h1>
-      <h2><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 12. január 2016 – 18:00</h2>
-      <h2><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> <a href="https://progressbar.sk/calendar/" title="Kalendár ProgressBaru">ProgressBar Hackerspace,<br>Michalská 3, Bratislava</a></h2>
-    </div>
+<textarea id="code" class="codearea" rows="20" spellcheck="false"></textarea>
 
-    <p class="text-justify">Prvý meetup v novom roku začneme minimalisticky. <a href="https://sk.linkedin.com/in/mosat" title="Profil Andrej Mošať na LinkedIn" target="_blank">Andrej Mošať</a> nám príde predstaviť <a href="https://micropython.org/" title="Python pre mikrocontroleri" target="_blank">MicroPython</a>, povieme si prečo je vlastne micro a na čo je dobré mať MicroPython keď máme štandardný Python.</p>
-    <p class="text-justify">Andrej so sebou prinesie <a href="http://wipy.io/" target="_blank">WiPy</a> a <a href="https://micropython.org/store/#/store" target="_blank">PyBoard</a>, porozpráva o vývoji hardwaru v micropythone. Ukáže workflow vývoja zariadení, základné schémy, a na záver zostrojí budík. Ak sa zaujímate o Internet of Things, ale neviete kde začať, alebo sa chcete dozvedieť ako si začať vyrábať doma jednoúčelové zariadenia, tento meetup Vás určite zaujme.</p>
-    <p class="text-justify">
-    Jeden štastlivec, ktorý bude dávať pozor, bude mať šancu vyhrať vývojový kit s micropythonom na prototypovanie.
-    </p>
-    <p class="text-justify">Tešíme sa na Vás na stretnutí.</p>
-    <p>Kontakt: <a href="mailto:meetup@pycon.sk?subject=Siedmy%20Bratislavský%20Python%20Meetup" title="Bratislava Python Meetup Email">meetup@pycon.sk</a></p>
-    <p>Organizátor: <a href="spy.html" title="">SPy o.z.</a></p>
-    <p class="text-center">
-      <iframe width="640" height="360" src="https://www.youtube.com/embed/dQYnJVSsd8Q" frameborder="0" allowfullscreen></iframe>
-    </p>
- 
-  </div>
-
-  <div class="col-md-4">
-    <!-- right_nav -->
-
-<div class="text-center right-nav">
-  <h4><mark class="platinum">Platinoví sponzori:</mark></h4>
-  <ul class="list-unstyled">
-    <li>
-    <a href="https://www.redhat.com/#pyconsk" target="_blank">
-      <img src="../static/images/sponsors/redhat-logo.svg" alt="Red Hat" style="width:230px" />
-    </a>
-    </li>
-    <li>
-    <a href="https://www.erigones.com/#pyconsk" target="_blank">
-      <img src="../static/images/sponsors/erigones-logo.svg" alt="Erigones" style="width:230px" />
-    </a>
-    </li>
-  </ul>
-
-  <br>
-  <hr>
-
-  <h5><mark class="gold">Zlatí sponzori:</mark></h5>
-  <ul class="list-unstyled">
-    <li>
-    <a href="https://www.python.org/psf/#pyconsk" target="_blank">
-      <img src="../static/images/sponsors/psf-logo.svg" alt="PSF" style="width:200px" />
-    </a>
-    <br>
-    <br>
-    </li>
-    <li>
-    <a href="https://www.eset.com/#pyconsk" target="_blank">
-      <img src="../static/images/sponsors/eset-logo.svg" alt="Eset" style="width:170px" />
-    </a>
-    </li>
-  </ul>
-
-  <br>
-  <hr>
-
-  <h6><mark class="silver">Strieborní sponzori:</mark></h6>
-  <ul class="list-unstyled">
-    <li>
-    <a href="https://www.gridmarkets.com/#pyconsk" target="_blank">
-      <img src="../static/images/sponsors/gridmarkets-logo.png" alt="GridMarkets" style="width:130px" />
-    </a>
-    <br>
-    <br>
-    </li>
-    <li>
-    <a href="https://www.vnet.sk/#pyconsk" target="_blank">
-      <img src="../static/images/sponsors/vnet-logo.png" alt="VNET" style="width:130px" />
-    </a>
-    <br>
-    <br>
-    </li>
-    <li>
-    <a href="https://www.websupport.sk/#pyconsk" target="_blank">
-      <img src="../static/images/sponsors/websupport-logo.png" alt="WebSupport" style="height:60px" />
-    </a>
-    </li>
-  </ul>
-
-  <br>
-  <hr>
-
-  <h6><mark class="media-partners">Hlavný mediálny partner</mark></h6>
-  <ul class="list-unstyled">
-    <li>
-    <a href="http://www.pcrevue.sk/#pyconsk" target="_blank">
-      <img src="../static/images/partners/pc-revue.png" alt="PC REVUE" style="width:130px" />
-    </a>
-    </li>
-  </ul>
-
-  <hr>
-
-  <p><a href="sponsors.html">Všetci sponzori</a></p>
-
-</div>
-<!-- right_nav end -->
-        
-  </div>
-</div>
+<script type="text/python3" src="../static/python/console.py" id="__main__"></script>
+<script type="text/javascript">
+  window.onload=brython;
+</script>
 
     <!-- content end -->
     <footer>
@@ -247,7 +149,7 @@
 
   
   <script type="application/ld+json">
-  {"@context": "http://schema.org", "@type": "Event", "endDate": "2016-01-12T22:00:00+01:00", "location": {"@type": "Place", "address": "Michalsk\u00e1 3, Bratislava", "name": "Progressbar", "sameAs": "https://progressbar.sk"}, "name": "Siedmy Bratislavsk\u00fd Python Meetup", "offers": {"@type": "Offer", "price": 0, "priceCurrency": "EUR"}, "performer": [{"@type": "Person", "name": "Andrej Mo\u0161a\u0165", "sameAs": "https://sk.linkedin.com/in/mosat"}], "sameAs": "https://www.facebook.com/events/1686942358205368/", "startDate": "2016-01-12T18:00:00+01:00", "url": "https://pycon.sk/sk/ba-07-meetup.html", "workPerformed": {"@type": "CreativeWork", "creator": {"@type": "Organization", "logo": "https://pycon.sk/static/images/pycon_sk_logo200_notext.png", "name": "SPy o.z.", "sameAs": ["https://facebook.com/pyconsk", "https://twitter.com/pyconsk", "https://www.linkedin.com/company/spy-o--z-", "https://github.com/pyconsk", "https://pyconsk.slack.com"], "url": "https://pycon.sk/sk/spy.html"}, "name": "Siedmy Bratislavsk\u00fd Python Meetup"}}
+  {"@context": "http://schema.org", "@type": "Organization", "logo": "https://pycon.sk/static/images/pycon_sk_logo200_notext.png", "name": "PyCon SK", "sameAs": ["https://facebook.com/pyconsk", "https://twitter.com/pyconsk", "https://www.linkedin.com/company/spy-o--z-", "https://github.com/pyconsk", "https://pyconsk.slack.com"], "url": "https://pycon.sk"}
   </script>
   
 </body>
