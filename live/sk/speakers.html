@@ -25,7 +25,6 @@
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="../static/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../static/css/bootstrap-theme.min.css">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -33,9 +32,10 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
   
+  
   <link rel="alternate" href="https://pycon.sk/en/speakers.html" hreflang="en">
   
-  <link rel="stylesheet" href="../static/css/pycon.css?v=1451416630">
+  <link rel="stylesheet" href="../static/css/pycon.css?v=1454770865">
   <link rel="icon" href="../static/images/favicon.ico" sizes="16x16">
 </head>
 <body>
@@ -45,8 +45,10 @@
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <img class="navbar-brand navbar-logo" src="../static/images/logo/pycon.svg" alt="">
-        <a href="index.html" class="navbar-brand">PyCon SK</a>
+        <a href="index.html">
+          <img class="navbar-brand navbar-logo" src="../static/images/logo/pycon.svg" alt="PyCon SK Home" >
+          <span class="navbar-brand">PyCon SK</span>
+        </a>
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -54,15 +56,20 @@
         </button>
       </div>
       <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav pull-right lang-nav">
+          
+          <li><a href="../en/speakers.html" title="Switch to english language" hreflang="en"><img src="../static/images/lang/uk.png" alt="english language"></a></li>
+          
+        </ul>
         <ul class="nav navbar-nav">
           <li>
             <a href="tickets.html">Vstupenky</a>
           </li>
           <li>
-            <a href="getting-here.html">Konferencia</a>
+            <a href="getting-here.html">Miesto konania</a>
             </li>
-          <li>
-            <a class="active" href="speakers.html">Rečníci</a>
+          <li  class="active">
+            <a href="speakers.html">Rečníci</a>
           </li>
           <li>
             <a href="django-girls.html">Workshop</a>
@@ -71,18 +78,15 @@
             <a href="sponsors.html">Sponzori</a>
           </li>
           <li>
+            <a href="speakers.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meetup <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="meetup.html">Meetup</a></li>
+              <li><a href="console.html">Vyskúšaj Python</a></li>
+            </ul>
+          </li>
+          <li>
             <a href="code-of-conduct.html">Kódex správania</a>
           </li>
-          <li>
-            <a href="meetup.html">Meetup</a>
-          </li>
-          <li>
-            <a href="spy.html">Občianske združenie</a>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav pull-right lang-nav">
-          <li><a href="../en/speakers.html" title="Switch to english language" hreflang="en"><img src="../static/images/lang/uk.png" alt="english language"></a></li>
-          
         </ul>
       </div>
     </div>
@@ -95,8 +99,32 @@
 <div class="row">
   <div class="col-md-8">
     <h1>Rečníci</h1>
-    <p class="lead">Rečníci, ktorí vystúpia na PyCon SK 2016.</p>
+    <p class="lead">Stručné vizitky hostí, ktorí vystúpia na PyCon SK 2016.</p>
 
+    <div class="row">
+      <div class="col-md-3"><img src="../static/images/speakers/avatar_claus.png" alt="Claus Aichinger" class="img-thumbnail" /></div>
+      <div class="col-md-9 text-justify"><h3>Claus Aichinger <small>(AT)</small></h3>
+        <p>&nbsp;</p>
+        <p>
+        Python využíva denne v Rakúskom technologickom inštitúte, kde rieši výskumné otázky v oblasti analýzy dát a štatistických modelov. Kým sa stal fanúšikom Pythonu, bol nadšeným užívateľom MATLABu. Musel sa však vysporiadať s problémami, na ktoré narazí užívateľ v snahe vytvoriť nové a komplexné prostredie. Preto sa rád podelí o skúsenosti s každým, kto sa zaujíma o "výpočtové veci".
+        </p>
+      </div>
+    </div>
+    <hr />
+
+    <div class="row">
+      <div class="col-md-9 text-justify"><h3>Tibor Arpas <small>(SK)</small></h3>
+        <p>&nbsp;</p>
+        <p>
+        Programátor na voľnej nohe s 10-ročnými skúsenosťami s tvorbou firemných aplikácií (enterprise software). Aktuálne zamestnáva subdodávateľov a poskytuje outsourcing malých vývojárskych tímov.<br>
+        Jazyk Python objavil v roku 2008 a odvtedy je to jeho primárny programovací jazyk. Zaujíma sa aj o softvérový crowdfunding.<br>
+        Má rád outdoorové športy, obľubuje lietanie bez motora (plachtenie).
+        </p>
+      </div>
+      <div class="col-md-3"><img src="../static/images/speakers/avatar_tibor.png" alt="Tibor Arpas" class="img-thumbnail" /></div>
+    </div>
+    <hr />
+ 
     <div class="row">
       <div class="col-md-3"><img src="../static/images/speakers/avatar_jesus.jpg" alt="Jesús Cea Avión" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Jesús Cea Avión <small>(ES)</small></h3>
@@ -105,25 +133,52 @@
         <a href="https://twitter.com/jcea" target="_blank" title="Jesús Twitter">@jces</a>
         </p>
         <p>
-        Telekomunikačný inžinier. Milovník Pythonu od 1996, vývojar jadra od 2008, konzultant od 2012. Zakladateľ Pythonových používateľských skupín v Madride a Vigu a Španielskej Python asociácie. Medzi jeho záľuby patrí Python, bezpečnosť a takmer čokoľvek zaujímavé, vrátane podcastov a geocachingu.
+        Telekomunikačný inžinier, od roku 1996 aj milovník Pythonu. Vývojar jadra od roku 2008, konzultant od roku 2012. Zakladateľ pythonových používateľských skupín v Madride a Vigu a španielskej Python asociácie. Medzi jeho záľuby patrí Python (samozrejme), bezpečnosť a prakticky všetko zaujímavé, vrátane podcastov a geocachingu.
         </p>
       </div>
     </div>
     <hr />
-    
+
     <div class="row">
+      <div class="col-md-9 text-justify"><h3>Miroslav Beka <small>(SK)</small></h3>
+        <p>&nbsp;</p>
+        <p>
+        Vyštudoval aplikovanú informatiku na FMFI UK. Pri písaní diplomovej práce používal python a bolo to prvé stretnutie s vývojom väčšej aplikácie. Po škole pracoval ako web developer na startupe v holandsku, kde nazbieral množstvo skúsenosti v Ruby on Rails a Javascripte. Po tejto skúsenosti nastúpil do <a href="https://www.eset.com/sk/" target="_blank" title="Eset">ESETu</a> ako test automation engineer, kde som venoval automatizácií testovaniu pomocou robot frameworkui. Po niekoľkých rokoch zmenil zamestnanie do firmy <a href="https://www.kistler.com/sk/en/" target="_blank" title="Kistler">Kistler</a>, kde momentálne pracuje na podobných veciach.
+        </p>
+      </div>
+      <div class="col-md-3"><img src="../static/images/speakers/avatar_miro.png" alt="Miroslav Beka" class="img-thumbnail" /></div>
+    </div>
+    <hr />
+
+    <div class="row">
+      <div class="col-md-3"><img src="../static/images/speakers/avatar_cory.png" alt="Cory Benfield" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Cory Benfield <small>(UK)</small></h3>
         <p>
-        <a href="https://lukasa.co.uk/" target="_blank" title="Cory Bloh">Blog</a>,
+        <a href="https://lukasa.co.uk/" target="_blank" title="Cory Blog">Blog</a>,
         <a href="https://twitter.com/Lukasaoz" target="_blank" title="Cory Twitter">@Lukasaoz</a>
         </p>
         <p>
-        Cory je open source Python vývojár pracujúci na plný úväzok pre <a href="https://www.hpe.com/" target="_blank" title="Hewlett Packard Enterprise">HPE</a> v Python HTTP komunite. Prispievateľ do jadra knižníc <a href="http://docs.python-requests.org/en/latest/" target="_blank" title="Requests: HTTP pre Ľudí">Requests</a>, <a href="https://urllib3.readthedocs.org/en/latest/" target="_blank" title="HTTP knižnica s bezpečným poolovaním vlákien, postovaním súborov a viac.">urllib3</a> a hlavný správca <a href="https://hyper.readthedocs.org/en/latest/" target="_blank" title="Hyper: HTTP/2 Klient pre Python">Hyper projektu</a> - skupiny nástrojov na prácu s HTTP a HTTP/2. Má rád počítačové siete, filmy, televíziu a cestovanie.
+        Cory je open source Python vývojár, pracuje pre <a href="https://www.hpe.com/" target="_blank" title="Hewlett Packard Enterprise">HPE</a> v Python HTTP komunite. Prispieva do jadra knižníc <a href="http://docs.python-requests.org/en/latest/" target="_blank" title="Requests: HTTP pre Ľudí">Requests</a>, <a href="https://urllib3.readthedocs.org/en/latest/" target="_blank" title="HTTP knižnica s bezpečným poolovaním vlákien, postovaním súborov a viac.">urllib3</a> a je hlavným správcom <a href="https://hyper.readthedocs.org/en/latest/" target="_blank" title="Hyper: HTTP/2 Klient pre Python">Hyper projektu</a> - skupiny nástrojov na prácu s HTTP a HTTP/2. Má rád počítačové siete, filmy, televíziu a cestovanie.
         </p>
       </div>
-      <div class="col-md-3"><img src="../static/images/speakers/avatar_cory.png" alt="Cory Benfield" class="img-thumbnail" /></div>
     </div>
     <hr />
+
+    <div class="row">
+      <div class="col-md-9 text-justify"><h3>Rodolfo Carvalho <small>(BR)</small></h3>
+        <p>
+        <a href="http://rodolfocarvalho.net/" target="_blank" title="Rodolfo Blog">Blog</a>,
+        <a href="https://twitter.com/201" target="_blank" title="Rodolfo Twitter">@201</a>
+        </p>
+        <p>
+        Rodolfo je dlho ročný Pythonista pôvodom z Rio de Janeiro v Brazílii. Jeho zvedavosť a chtivosť ho zaviedla do mnohých miest. Žil a navštevoval softvérové komunity v Lisabone, Pekingu, Krakove a teraz v Brne. V súčasnej dobe pracuje na <a href="https://www.openshift.com/" target="_blank" title="OpenShift">OpenShift</a>, open source PaaS v <a href="https://redhat.com" target="_blank" title="Red Hat">Red Hat.</a>
+        </p>
+      </div>
+      <div class="col-md-3"><img src="../static/images/speakers/avatar_rodolfo.png" alt="Rodolfo Carvalho" class="img-thumbnail" /></div>
+    </div>
+    <hr />
+
+    
 
     <div class="row">
       <div class="col-md-3"><img src="../static/images/speakers/avatar_bjarni.png" alt="Bjarni Runar Einarsson" class="img-thumbnail" /></div>
@@ -133,23 +188,75 @@
         <a href="https://twitter.com/HerraBRE" target="_blank" title="Twitter">@HerraBRE</a>
         </p>
         <p>
-        Vývojár slobodného softvéru a administrátor z Islandu. Programuje od polovice 90. rokov, vrátanie šesťročného boja so spamom a vírusmi a tri roky v zákulisí v tíme zaručujúcom spoľahlivosť webu Google. Po celý čas bol a je slobodný softvér a digitálna sloboda Bjarniho veľká záľuba, pričom v roku 2010 získal cenu <a href="https://fsfe.org/news/2010/news-20101108-01.en.html" target="_blank" title="Developer z Islandu vyznamenaný Nordic Free Software cenou">Nordic Free Software</a> za jeho zásluhy. Od roku 2009 Bjarni pracuje na plný úväzok ako vývojár na svojich projektoch <a href="https://pagekite.net/" target="_blank" title="PageKite vyrobí lokálnu stránku alebo SSH server verejne prístupný v momente">PageKite</a> a <a href="https://www.mailpile.is/" target="_blank" title="MailPile je e-mailový klient">MailePile</a>.
+        Vývojár slobodného softvéru a administrátor z Islandu. Programuje od polovice 90. rokov, šesť rokov venoval boju so spamom a vírusmi a tri roky tímu, ktorý garantoval spoľahlivosť webu Google. Po celý čas je slobodný softvér a digitálna sloboda Bjarniho veľká záľuba. Za svoje zásluhy získal v roku 2010 cenu <a href="https://fsfe.org/news/2010/news-20101108-01.en.html" target="_blank" title="Developer z Islandu vyznamenaný Nordic Free Software cenou">Nordic Free Software</a>. Od roku 2009 pracuje na plný úväzok ako vývojár na projektoch <a href="https://pagekite.net/" target="_blank" title="PageKite vyrobí lokálnu stránku alebo SSH server verejne prístupný v momente">PageKite</a> a <a href="https://www.mailpile.is/" target="_blank" title="MailPile je e-mailový klient">MailePile</a>.
         </p>
       </div>
     </div>
     <hr />
 
     <div class="row">
+      <div class="col-md-9 text-justify"><h3>Adam Gluch <small>(SK)</small></h3>
+        <p>
+        <a href="http://www.adamgluch.sk" target="_blank" title="Adam Web">Web</a>
+        </p>
+        <p>
+        Adam pracuje pre spoločnosť ktorá zastupuje <a href="https://www.aldebaran.com/en" target="_blank" title="Aldebaran Robotics">Aldebaran Robotics</a> na Slovensku. Jeho hlavným cieľom je motivovať mladých ľudí do programovania a informatiky. Python používa pri tvorbe aplikácií pre humanoidné platformy ako NAO, Papper a Romeo. Vo voľnom čase sa venuje svojmu projektu <a href="http://smartgrowbox.com/" target="_blank" title="SmartGrowBox">SmartGrowBox</a>.
+        </p>
+      </div>
+      <div class="col-md-3"><img src="../static/images/speakers/avatar_adam.png" alt="Adam Gluch" class="img-thumbnail" /></div>
+    </div>
+    <hr />
+
+    <div class="row">
+      <div class="col-md-3"><img src="../static/images/speakers/avatar_veros.png" alt="Věroš Kaplan" class="img-thumbnail" /></div>
+      <div class="col-md-9 text-justify"><h3>Věroš Kaplan <small>(CZ)</small></h3>
+        <p>
+        <a href="https://twitter.com/verosk" target="_blank" title="Twitter">@verosk</a>
+        </p>
+        <p>
+        Věroš pracuje z Brna pre spoločnosť <a href="http://inuits.eu" title="Inuits" target="_blank">Inuits</a>, kde sa stará o správu a nasadzovanie serverov a aplikácií. Python stretol niekedy v minulom storočí a už u neho ostal. Je rozpoltený mezi Dev a Ops a verí v DevOps (whatever it means).
+        </p>
+      </div>
+    </div>
+    <hr />
+
+    <div class="row">
+      <div class="col-md-9 text-justify"><h3>Максим Харандзюк <small>(Max Kharandziuk) (UA)</small></h3>
+        <p>
+        <a href="https://www.linkedin.com/in/max-kharandziuk-47a4b642" target="_blank" title="LinkedIn">LinkedIn</a>
+        </p>
+        <p>
+        Django vývojár v <a href="http://djangostars.com/" target="_blank" title="DjangoStars">DjangoStars</a>. Zaujíma sa o funkcionálne programovanie a testovanie ako spôsob merania kvality kódu.
+        </p>
+      </div>
+      <div class="col-md-3"><img src="../static/images/speakers/avatar_max.png" alt="Максим Харандзюк (Max Kharandziuk)" class="img-thumbnail" /></div>
+    </div>
+    <hr />
+
+    <div class="row">
+      <div class="col-md-3"><img src="../static/images/speakers/avatar_busra.png" alt="Büşra Köken" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Büşra Köken <small>(TR)</small></h3>
         <p>
         <a href="https://hu.linkedin.com/in/busrakoken/en" target="_blank" title="LinkedIn">LinkedIn</a>,
         <a href="https://twitter.com/busrakoken" target="_blank" title="Twitter">@busrakoken</a>
         </p>
         <p>
-        Büsra pracuje pre Ericsson R&amp;D v Budapešti ako Cloud System Engineer. Zaujíma sa o back-end development, cloud, big data a nové technológie. Má skúsenosti s Python, OpenStack, Zabbix, Rsyslog, a Ansible. Je veľkým fanúšikom Pythonu! Taktiež je zakladateľka sociálneho podnikania na <a href="http://bikokorec.com/" target="_blank">bikokorec.com</a> a bloggerka. Miluje programovanie, fotenie a blogovanie.
+        Büsra pracuje pre Ericsson R&amp;D v Budapešti ako Cloud System Engineer. Zaujíma sa o back-end development, cloud, big data a nové technológie. Má skúsenosti s Pythonom, OpenStack, Zabbix, Rsyslog, a Ansible. Je veľkým fanúšikom Pythonu! Je zakladateľka sociálneho podnikania na <a href="http://bikokorec.com/" target="_blank">bikokorec.com</a> a bloggerka. Miluje programovanie, fotenie a blogovanie.
         </p>
       </div>
-      <div class="col-md-3"><img src="../static/images/speakers/avatar_busra.png" alt="Büşra Köken" class="img-thumbnail" /></div>
+    </div>
+    <hr />
+
+    <div class="row">
+      <div class="col-md-9 text-justify"><h3>Michal Kuffa <small>(SK)</small></h3>
+        <p>
+        <a href="https://sk.linkedin.com/in/michalkuffa" target="_blank" title="LinkedIn">LinkedIn</a>,
+        </p>
+        <p>
+        S Python pracuje posledných päť rokov denne. Vo <a href="https://www.vnet.sk/" target="_blank" title="Vnet">Vnete</a> je zodpovedný za rozvoj interných aplikácií a automatizáciu procesov spoločnosti. Má záujem o back-end vývoj, internet vecí, bezpečnosti IT a je nadšenec open source technológií.
+        </p>
+      </div>
+      <div class="col-md-3"><img src="../static/images/speakers/avatar_michal.png" alt="Michal Kuffa" class="img-thumbnail" /></div>
     </div>
     <hr />
 
@@ -160,27 +267,39 @@
         <a href="https://twitter.com/Mandragora258" target="_blank" title="Twitter">@Mandragora258</a>
         </p>
         <p>
-        Svetlana sa venuje programovaniu v Pythone a Djangu v spoločnosti <a href="http://thebrainity.com/" target="_blank">Brainity</a>, kde vyvíja hlavne backendové riešenia pre mobilné aplikácie. Vo voľnom čase sa venuje vývoju mobilných aplikácií pre platformu iOS. Má rada nové technológie, UI/UX a snaží sa každú úlohu a program čo najviac zoptimalizovať.
+        Programovaniu v Pythone a Djangu sa venuje v spoločnosti <a href="http://thebrainity.com/" target="_blank">Brainity</a>, kde vyvíja najmä backendové riešenia pre mobilné aplikácie. Vo voľnom čase sa venuje vývoju mobilných aplikácií pre platformu iOS. Má rada nové technológie, UI/UX a tendenciu optimalizovať každú úlohu a program do maximálnej miery.
         </p>
       </div>
     </div>
     <hr />
 
     <div class="row">
+      <div class="col-md-9 text-justify"><h3>Tatiana Al-Chueyr Martins <small>(BR)</small></h3>
+        <p>
+        <a href="https://twitter.com/tati_alchueyr" target="_blank" title="Twitter">@tati_alchueyr</a>
+        </p>
+        <p>
+        Tatiana začala programovať v roku 2002. Od vývoja lekárskych zobrazovacích aplikácií sa dostala až k odporúčacím platformám využívajúcich webovú sémantiku (väčšinou pomocou Pythonu). Pracovala pre brazílske ministerstvo vedy a technológie, aj pre najväčšiu mediálnu spoločnosť v Latinskej Amerike (Globo). Neskôr sa presťahovala do Londýna, pracuje pre <a href="http://www.ef.edu/" target="_blank" title="Education First">Education First</a> (EF), kde vyvíja vzdelávacie aplikácie.
+        </p>
+      </div>
+      <div class="col-md-3"><img src="../static/images/speakers/avatar_tatiana.png" alt="Tatiana Al-Chueyr Martins" class="img-thumbnail" /></div>
+    </div>
+    <hr />
+ 
+    <div class="row">
+      <div class="col-md-3"><img src="../static/images/speakers/avatar_daniele.png" alt="Daniele Procida" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Daniele Procida <small>(UK)</small></h3>
         <p>
         <a href="https://twitter.com/evildmp" target="_blank" title="Twitter">@evildmp</a>
         </p>
         <p>
-        Daniele bol organizátorom Django víkendu v Cardiffe a aj členom organizačnej komisie DjangoCon Europe 2014 a jej predsedom v roku 2015. Tiež bol jedným z hlavných organizátorov Python Namibia 2015, prvej Python konferencie v Namíbií. Je vývojár jadra v Django projekte a pracuje pre <a href="http://www.divio.com/" target="_blank" title="Divio">Divio</a>. V Divio pracuje na <a href="http://www.django-cms.org/" target="_blank" title="Django CMS - Ľahko použiteľné pre editorov a aj vývojárov">Django CMS</a>, <a href="http://www.aldryn.com/" target="_blank" title="Aldryn - Najjednoduchší spôsob ako postaviť a spravovať django CMS projekty">Aldryn</a> a iných zábavných Django projektoch.
+        Daniele bol organizátorom Django víkendu v Cardiffe, členom organizačnej komisie DjangoCon Europe 2014 a v roku 2015 aj jej predsedom. Bol i jedným z hlavných organizátorov Python Namibia 2015, prvej Python konferencie v Namíbií. Je vývojárom jadra v Django projekte, pracuje pre <a href="http://www.divio.com/" target="_blank" title="Divio">Divio</a> na <a href="http://www.django-cms.org/" target="_blank" title="Django CMS - Ľahko použiteľné pre editorov a aj vývojárov">Django CMS</a>, <a href="http://www.aldryn.com/" target="_blank" title="Aldryn - Najjednoduchší spôsob ako postaviť a spravovať django CMS projekty">Aldryn</a> a ďalších zábavných Django projektoch.
         </p>
       </div>
-      <div class="col-md-3"><img src="../static/images/speakers/avatar_daniele.png" alt="Daniele Procida" class="img-thumbnail" /></div>
     </div>
     <hr />
     
     <div class="row">
-      <div class="col-md-3"><img src="../static/images/speakers/avatar_matus.png" alt="Matúš Rehák" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Matúš Rehák <small>(SK)</small></h3>
         <p>
         <a href="https://sk.linkedin.com/in/matus-rehak-3b6b1725" target="_blank" title="LinkedIn">LinkedIn</a>
@@ -189,8 +308,22 @@
         Matúš je PhD študent na Fakulte matematiky, fyziky a informatiky Univerzity Komenského v Bratislave. Venuje sa skúmaniu kvantových javov v mezoskopických štruktúrach vysokofrekvenčnými metódami pri milikelvinových tepolotách. Python  používa v laboratóriách na všetko, čo ako fyzik potrebuje: komunikáciu s meracími prístrojmi, zber a vyhodnocovanie dát, simulácie.
         </p>
       </div>
+      <div class="col-md-3"><img src="../static/images/speakers/avatar_matus.png" alt="Matúš Rehák" class="img-thumbnail" /></div>
     </div>
     <hr />
+    
+    <div class="row">
+      <div class="col-md-3"><img src="../static/images/speakers/avatar_michael.png" alt="Michael Scherer" class="img-thumbnail" /></div>
+      <div class="col-md-9 text-justify"><h3>Michael Scherer <small>(FR)</small></h3>
+        <p>
+        <a href="https://community.redhat.com/blog/author/misc/" target="_blank" title="Blog">Blog</a>
+        </p>
+        <p>Michael pracuje pre <a href="https://redhat.com" target="_blank" title="Red Hat">Red Hat</a> v týme Open Source a štandardy, zaujíma sa o infraštruktúrne problémy rôznych komunít ako systémový administrátor. Dlhoročný vývojár v Pythone žije v Paríži (ak práve necestuje alebo nediskutuje na konferenciách o slobodnom softvéri).
+        </p>
+      </div>
+    </div>
+    <hr />
+
 
     <div class="row">
       <div class="col-md-9 text-justify"><h3>Andrea Šteňová <small>(SK)</small></h3>
@@ -198,7 +331,7 @@
         <a href="https://www.linkedin.com/in/andrea-%C5%A1te%C5%88ov%C3%A1-3b92b050" target="_blank" title="LinkedIn">LinkedIn</a>
         </p>
         <p>
-        Andrea sa venuje vývoju serverových aplikácií od roku 2012. Pochádza z IT rodiny a aj vďaka tomu sa vybrala touto cestou. Neznáša zlý kód a zastaralé technológie. Spoluorganizuje stretnutia Bratislavského Scala meetupu.
+        Andrea sa venuje vývoju serverových aplikácií od roku 2012. Pochádza z IT rodiny a aj vďaka tomu sa vybrala touto cestou. Neznáša zlý kód a zastaralé technológie. Spoluorganizuje stretnutia bratislavského Scala meetupu.
         </p>
       </div>
       <div class="col-md-3"><img src="../static/images/speakers/avatar_andrea.png" alt="Andrea" class="img-thumbnail" /></div>
@@ -206,24 +339,49 @@
     <hr />
 
     <div class="row">
-      <div class="col-md-3"><img src="../static/images/speakers/avatar_nicholas.png" alt="Nicholas H.Tollervey" class="img-thumbnail" /></div>
+      <div class="col-md-3"><img src="../static/images/speakers/avatar_martina.png" alt="Martina" class="img-thumbnail" /></div>
+      <div class="col-md-9 text-justify"><h3>Martina Šturdíková <small>(SK)</small></h3>
+        <p>
+        <a href="https://www.linkedin.com/in/martinasturdikova" target="_blank" title="LinkedIn">LinkedIn</a>
+        </p>
+        <p>
+        Martina je softvérovou inžinierkou s 10+ ročnou praxou vyvíjania enterprise-level softvéru. Posledné štyri roky pracuje ako vývojárka pre JP Morgan Chase, kde využíva python na tvorbu systémov a aplikácií, ktoré umožňujú exekúciu obchodov, analýzu cien a obchodného rizika pre špecifickú oblasť. Martininou vášňou je posilniť úlohu žien v technologických pozíciách ako aj inšpirovať dievčatá, aby vstúpili do IT sveta. Martina je členkou poradného výboru <a href="http://www.ajtyvit.sk/" target="_blank" title="Aj Ty v IT">Aj Ty v IT</a>. Pridala sa k iniciatíve, ktorá podporuje na ceste za informatikou práve dievčatá, aby sa nenechali zmiasť skreslenými predstavami o IT branži na Slovensku.
+        </p>
+      </div>
+    </div>
+    <hr />
+
+    <div class="row">
       <div class="col-md-9 text-justify"><h3>Nicholas H. Tollervey <small>(UK)</small></h3>
         <p>
         <a href="http://ntoll.org/" target="_blank" title="Nicholas Blog">Blog</a>,
         <a href="https://twitter.com/ntoll" target="_blank" title="Nicholas Twitter">@ntoll</a>
         </p>
         <p>
-        Nicholas je klasicky vyškolený hudobník, absolvent filozofie, učiteľ, spisovateľ a vývojár softvéru. Spolupracuje s nadáciou Python Software Foundation, ktorá mu udelila ocenenie komunity za jeho prácu v oblasti vzdelávania. Je jednoducho taký ako táto biografia: stručný, čestný a plný užitočných informácií.
+        Nicholas študoval klasickú hudbu, absolvoval filozofiu, bol učiteľom, spisovateľom aj vývojárom softvéru. Spolupracuje s nadáciou Python Software Foundation, od ktorej získal ocenenie komunity za prácu v oblasti vzdelávania. Je jednoducho taký ako táto biografia: stručný, čestný a plný užitočných informácií.
+        </p>
+      </div>
+      <div class="col-md-3"><img src="../static/images/speakers/avatar_nicholas.png" alt="Nicholas H.Tollervey" class="img-thumbnail" /></div>
+    </div>
+    <hr />
+
+    <div class="row">
+      <div class="col-md-3"><img src="../static/images/speakers/avatar_petr.png" alt="Petr Viktorin" class="img-thumbnail" /></div>
+      <div class="col-md-9 text-justify"><h3>Petr Viktorin <small>(CZ)</small></h3>
+        <p>
+        <a href="http://encukou.cz/blog/" target="_blank" title="Petrs Blog">Blog</a>,
+        <a href="https://twitter.com/encukou" target="_blank" title="Petrs Twitter">@encukou</a>
+        </p>
+        <p>
+        Je softvérový inžinier v <a href="https://www.redhat.com/" target="_blank" title="Red Hat">Red Hat</a>. Keď práve nepíše kód v Pythone, pomáha organizovať <a href="http://pyvo.cz/" target="_blank" title="PyVo">meetupy</a>, mentoruje PyLadies, alebo je na zaujímavej konferencii.
         </p>
       </div>
     </div>
     <hr />
 
 
-
-
-
-  </div>
+    
+  </div>  
 
   <div class="col-md-4">
     <!-- right_nav -->
@@ -300,27 +458,32 @@
     </li>
   </ul>
 
+  <hr>
+
+  <p><a href="sponsors.html">Všetci sponzori</a></p>
+
 </div>
 <!-- right_nav end -->
 
   </div>
-</div>
+
+</div>  
 
     <!-- content end -->
     <footer>
       <div class="row">
         <div class="col-md-12">
           <ul class="list-unstyled">
-            <li class="pull-right"><a href="speakers.html#top">Preskočiť na začiatok</a></li>
+            
             <li><a href="https://facebook.com/pyconsk">Facebook</a></li>
             <li><a href="https://twitter.com/pyconsk">Twitter</a></li>
             <li><a href="https://www.linkedin.com/company/spy-o--z-">LinkedIn</a></li>
             <li><a href="https://plus.google.com/u/0/b/114745643590416178453/114745643590416178453/posts">Google+</a></li>
             <li><a href="https://pyconsk.slack.com">Slack</a></li>
             <li><a href="https://github.com/pyconsk">GitHub</a></li>
-            <li><a href="mailto:info%40pycon.sk"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> info@pycon.sk</a></li>
+            <li><a href="spy.html">Občianske združenie</a></li>
             <li><a href="https://lists.pycon.sk/listinfo"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> E-mailová konferencia</a></li>
-            <li><a href="../static/meetup.ics"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> meetup.ics</a></li>
+            <li><a href="mailto:info%40pycon.sk"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> info@pycon.sk</a></li>
             <li class="hide"><a href="../sitemap.xml">sitemap.xml</a></li>
           </ul>
           

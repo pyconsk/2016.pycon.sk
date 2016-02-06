@@ -25,7 +25,6 @@
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="../static/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../static/css/bootstrap-theme.min.css">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -33,9 +32,10 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
   
+  
   <link rel="alternate" href="https://pycon.sk/en/getting-here.html" hreflang="en">
   
-  <link rel="stylesheet" href="../static/css/pycon.css?v=1451416630">
+  <link rel="stylesheet" href="../static/css/pycon.css?v=1454770865">
   <link rel="icon" href="../static/images/favicon.ico" sizes="16x16">
 </head>
 <body>
@@ -45,8 +45,10 @@
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <img class="navbar-brand navbar-logo" src="../static/images/logo/pycon.svg" alt="">
-        <a href="index.html" class="navbar-brand">PyCon SK</a>
+        <a href="index.html">
+          <img class="navbar-brand navbar-logo" src="../static/images/logo/pycon.svg" alt="PyCon SK Home" >
+          <span class="navbar-brand">PyCon SK</span>
+        </a>
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -54,14 +56,19 @@
         </button>
       </div>
       <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav pull-right lang-nav">
+          
+          <li><a href="../en/getting-here.html" title="Switch to english language" hreflang="en"><img src="../static/images/lang/uk.png" alt="english language"></a></li>
+          
+        </ul>
         <ul class="nav navbar-nav">
           <li>
             <a href="tickets.html">Vstupenky</a>
           </li>
           <li class="active">
-            <a href="getting-here.html">Konferencia</a>
+            <a href="getting-here.html">Miesto konania</a>
             </li>
-          <li>
+          <li >
             <a href="speakers.html">Rečníci</a>
           </li>
           <li>
@@ -71,18 +78,15 @@
             <a href="sponsors.html">Sponzori</a>
           </li>
           <li>
+            <a href="getting-here.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meetup <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="meetup.html">Meetup</a></li>
+              <li><a href="console.html">Vyskúšaj Python</a></li>
+            </ul>
+          </li>
+          <li>
             <a href="code-of-conduct.html">Kódex správania</a>
           </li>
-          <li>
-            <a href="meetup.html">Meetup</a>
-          </li>
-          <li>
-            <a href="spy.html">Občianske združenie</a>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav pull-right lang-nav">
-          <li><a href="../en/getting-here.html" title="Switch to english language" hreflang="en"><img src="../static/images/lang/uk.png" alt="english language"></a></li>
-          
         </ul>
       </div>
     </div>
@@ -94,28 +98,30 @@
     
 <div class="row">
   <div class="col-md-8">
-
     <h1>Ako sa sem dostať?</h1>
     <p class="lead">Ste skvelý. Už máte lístok na konferenciu a potrebujete zistiť možnosti dopravy? Na tejto stránke nájdete kompletnú informáciu o tom, ako sa na konferenciu dostanete.</p>
 
     <div class="row">
-      <div class="col-md-12 text-center">
+      <div class="col-md-12">
+        <ul class="">
+          <li><a href="getting-here.html#address">Adresa</a></li>
+          <li><a href="getting-here.html#to-ba">Cestovanie do Bratislavy</a></li>
+          <li><a href="getting-here.html#in-ba">Cestovanie po Bratislave</a></li>
+          <li><a href="getting-here.html#map">Mapa</a></li>
+          <li><a href="getting-here.html#accomodation">Ubytovanie</a></li>
+        </ul>
+      </div>
+    </div>
 
-        <div class="btn-group btn-group-justified" role="group">
-          <div class="btn-group" role="group">
-            <a href="getting-here.html#to-ba" class="btn btn-default">Cestovanie do Bratislavy</a>
-          </div>
-          <div class="btn-group" role="group">
-            <a href="getting-here.html#in-ba" class="btn btn-default">Cestovanie po Bratislave</a>
-          </div>
-          <div class="btn-group" role="group">
-            <a href="getting-here.html#map" class="btn btn-default">Mapa</a>
-          </div>
-          <div class="btn-group" role="group">
-            <a href="getting-here.html#accomodation" class="btn btn-default">Ubytovanie</a>
-          </div>
-        </div>
-
+    <div class="row" id="address"> 
+      <div class="col-md-12">
+        <h2>Adresa</h2>
+        <p class="text-justify">
+        Slovenská technická univerzita v Bratislave<br />
+        Fakulta informatiky a informačných technológií<br />
+        Ilkovičova 2<br />
+        842 16 Bratislava 4
+        </p>
       </div>
     </div>
 
@@ -203,12 +209,14 @@
       <div class="col-md-6 text-justify">
         <h3>Lístok na MHD</h3>
         <p>
-        Lístky na MHD si môžete kúpiť v žltých automatoch, ktoré akceptujú euro mince, alebo v stánkoch PNS. Na výber cestovného lístka budete mať viacero možností. Za 90 centov si môžete kúpiť lístok, ktorý bude platný 30 minút po označení v autobuse alebo električke. Alternatívou je 24- alebo 72-hodinový lístok. S platným lístkom môžete prestupovať medzi autobusmi a električkami bez akýchkoľvek obmedzení. Po nastúpení do autobusu (električky) si lístok musíte označiť. Jeho platnosť sa začína počítať od momentu označenia. Ak s platným cestovným lístkom prestúpite do iného autobusu (električky), lístok už neoznačujte. Študenti ISIC môžu využiť zľavnené listky. Bližšie informáciie nájdete na <a href="http://www.dpb.sk/pre-cestujucich/cestovny-listok/" title="stránka Dopravný podnik Bratislava" target="_blank">stránke Dopravného podniku mesta Bratislavy</a>.</p>
+        Lístky na MHD si môžete kúpiť v žltých automatoch, ktoré akceptujú euro mince, alebo v stánkoch PNS. Na výber cestovného lístka budete mať viacero možností. Za 90 centov si môžete kúpiť lístok, ktorý bude platný 30 minút po označení v autobuse alebo električke. Alternatívou je 24- alebo 72-hodinový lístok. S platným lístkom môžete prestupovať medzi autobusmi a električkami bez akýchkoľvek obmedzení. Po nastúpení do autobusu (električky) si lístok musíte označiť. Jeho platnosť sa začína počítať od momentu označenia. Ak s platným cestovným lístkom prestúpite do iného autobusu (električky), lístok už neoznačujte. Študenti ISIC môžu využiť zľavnené listky. Bližšie informáciie nájdete na <a href="http://www.dpb.sk/pre-cestujucich/cestovny-listok/" title="stránka Dopravný podnik Bratislava" target="_blank">stránke Dopravného podniku mesta Bratislavy</a>.
+        </p>
       </div>
 
       <div class="col-md-6 text-justify">
         <h3>SMS lístok</h3>
-        <p>S mobilným telefónom od slovenského operátora (zahraničné SIM karty túto službu nepodporujú) je možné kúpiť lístok na bratislavskú MHD aj zaslaním prázdnej SMS na číslo 1100. Po chvíli dostanete SMS s cestovným lístkom. Cena SMS lístka je 1 EUR a platí 70 minút. Dôležité: NENASTUPUJTE do autobusu (električky) hneď po odoslaní SMS, ale až po tom, keď dostanete spätnú SMS s cestovným lístkom. Podrobnejšie informácie nájdete na <a href="http://www.dpb.sk/pre-cestujucich/listok-cez-sms/" title="stránka Dopravný podnik Bratislava" target="_blank">stránke Dopravného podniku mesta Bratislavy</a>.
+        <p>S mobilným telefónom od slovenského operátora (zahraničné SIM karty túto službu nepodporujú) je možné kúpiť lístok na bratislavskú MHD aj zaslaním prázdnej SMS na číslo 1100. Po chvíli dostanete SMS s cestovným lístkom.</p> 
+        <p>Cena SMS lístka je 1 EUR a platí 70 minút. Dôležité: NENASTUPUJTE do autobusu (električky) hneď po odoslaní SMS, ale až po tom, keď dostanete spätnú SMS s cestovným lístkom. Podrobnejšie informácie nájdete na <a href="http://www.dpb.sk/pre-cestujucich/listok-cez-sms/" title="stránka Dopravný podnik Bratislava" target="_blank">stránke Dopravného podniku mesta Bratislavy</a>.
         </p>
       </div>
     </div>
@@ -249,7 +257,7 @@
     <!-- right_nav -->
 
 <div class="text-center right-nav">
-  <h4><mark class="platinum">Platinoví sponzori</mark></h4>
+  <h4><mark class="platinum">Platinoví sponzori:</mark></h4>
   <ul class="list-unstyled">
     <li>
     <a href="https://www.redhat.com/#pyconsk" target="_blank">
@@ -266,7 +274,7 @@
   <br>
   <hr>
 
-  <h5><mark class="gold">Zlatí sponzori</mark></h5>
+  <h5><mark class="gold">Zlatí sponzori:</mark></h5>
   <ul class="list-unstyled">
     <li>
     <a href="https://www.python.org/psf/#pyconsk" target="_blank">
@@ -285,7 +293,7 @@
   <br>
   <hr>
 
-  <h6><mark class="silver">Strieborní sponzori</mark></h6>
+  <h6><mark class="silver">Strieborní sponzori:</mark></h6>
   <ul class="list-unstyled">
     <li>
     <a href="https://www.gridmarkets.com/#pyconsk" target="_blank">
@@ -320,6 +328,10 @@
     </li>
   </ul>
 
+  <hr>
+
+  <p><a href="sponsors.html">Všetci sponzori</a></p>
+
 </div>
 <!-- right_nav end -->
 
@@ -331,16 +343,16 @@
       <div class="row">
         <div class="col-md-12">
           <ul class="list-unstyled">
-            <li class="pull-right"><a href="getting-here.html#top">Preskočiť na začiatok</a></li>
+            
             <li><a href="https://facebook.com/pyconsk">Facebook</a></li>
             <li><a href="https://twitter.com/pyconsk">Twitter</a></li>
             <li><a href="https://www.linkedin.com/company/spy-o--z-">LinkedIn</a></li>
             <li><a href="https://plus.google.com/u/0/b/114745643590416178453/114745643590416178453/posts">Google+</a></li>
             <li><a href="https://pyconsk.slack.com">Slack</a></li>
             <li><a href="https://github.com/pyconsk">GitHub</a></li>
-            <li><a href="mailto:info%40pycon.sk"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> info@pycon.sk</a></li>
+            <li><a href="spy.html">Občianske združenie</a></li>
             <li><a href="https://lists.pycon.sk/listinfo"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> E-mailová konferencia</a></li>
-            <li><a href="../static/meetup.ics"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> meetup.ics</a></li>
+            <li><a href="mailto:info%40pycon.sk"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> info@pycon.sk</a></li>
             <li class="hide"><a href="../sitemap.xml">sitemap.xml</a></li>
           </ul>
           

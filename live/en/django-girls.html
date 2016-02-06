@@ -25,7 +25,6 @@
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="../static/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../static/css/bootstrap-theme.min.css">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -35,7 +34,8 @@
   
   
   <link rel="alternate" href="https://pycon.sk/sk/django-girls.html" hreflang="sk">
-  <link rel="stylesheet" href="../static/css/pycon.css?v=1451416630">
+  
+  <link rel="stylesheet" href="../static/css/pycon.css?v=1454770865">
   <link rel="icon" href="../static/images/favicon.ico" sizes="16x16">
 </head>
 <body>
@@ -45,8 +45,10 @@
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <img class="navbar-brand navbar-logo" src="../static/images/logo/pycon.svg" alt="">
-        <a href="index.html" class="navbar-brand">PyCon SK</a>
+        <a href="index.html">
+          <img class="navbar-brand navbar-logo" src="../static/images/logo/pycon.svg" alt="PyCon SK Home" >
+          <span class="navbar-brand">PyCon SK</span>
+        </a>
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -54,14 +56,19 @@
         </button>
       </div>
       <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav pull-right lang-nav">
+          
+          <li><a href="../sk/django-girls.html" title="Prepnúť na slovenský jazyk" hreflang="sk"><img src="../static/images/lang/sk.png" alt="slovenský jazyk"></a></li>
+          
+        </ul>
         <ul class="nav navbar-nav">
           <li>
             <a href="tickets.html">Tickets</a>
           </li>
           <li>
-            <a href="getting-here.html">Conference</a>
+            <a href="getting-here.html">Venue</a>
             </li>
-          <li>
+          <li >
             <a href="speakers.html">Speakers</a>
           </li>
           <li class="active">
@@ -71,18 +78,15 @@
             <a href="sponsors.html">Sponsors</a>
           </li>
           <li>
+            <a href="django-girls.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meetup <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="meetup.html">Meetup</a></li>
+              <li><a href="console.html">Try Python</a></li>
+            </ul>
+          </li>
+          <li>
             <a href="code-of-conduct.html">Code of Conduct</a>
           </li>
-          <li>
-            <a href="meetup.html">Meetup</a>
-          </li>
-          <li>
-            <a href="spy.html">Civic association</a>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav pull-right lang-nav">
-          
-          <li><a href="../sk/django-girls.html" title="Prepnúť na slovenský jazyk" hreflang="sk"><img src="../static/images/lang/sk.png" alt="slovenský jazyk"></a></li>
         </ul>
       </div>
     </div>
@@ -233,6 +237,10 @@
     </li>
   </ul>
 
+  <hr>
+
+  <p><a href="sponsors.html">All Sponsors</a></p>
+
 </div>
 <!-- right_nav end -->
 
@@ -245,16 +253,16 @@
       <div class="row">
         <div class="col-md-12">
           <ul class="list-unstyled">
-            <li class="pull-right"><a href="django-girls.html#top">Back to top</a></li>
+            
             <li><a href="https://facebook.com/pyconsk">Facebook</a></li>
             <li><a href="https://twitter.com/pyconsk">Twitter</a></li>
             <li><a href="https://www.linkedin.com/company/spy-o--z-">LinkedIn</a></li>
             <li><a href="https://plus.google.com/u/0/b/114745643590416178453/114745643590416178453/posts">Google+</a></li>
             <li><a href="https://pyconsk.slack.com">Slack</a></li>
             <li><a href="https://github.com/pyconsk">GitHub</a></li>
-            <li><a href="mailto:info%40pycon.sk"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> info@pycon.sk</a></li>
+            <li><a href="spy.html">Civic association</a></li>
             <li><a href="https://lists.pycon.sk/listinfo"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Mailing list</a></li>
-            <li><a href="../static/meetup.ics"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> meetup.ics</a></li>
+            <li><a href="mailto:info%40pycon.sk"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> info@pycon.sk</a></li>
             <li class="hide"><a href="../sitemap.xml">sitemap.xml</a></li>
           </ul>
           

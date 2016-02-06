@@ -399,6 +399,30 @@
     </url>
     <url>
 		
+		<loc>https://pycon.sk/en/console.html</loc>
+		<xhtml:link 
+                 rel="alternate"
+                 hreflang="sk"
+                 href="https://pycon.sk/sk/console.html"
+                 />
+		<lastmod>2016-02-05T11:11:11+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+    </url>
+    <url>
+		
+		<loc>https://pycon.sk/sk/console.html</loc>
+		<xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://pycon.sk/en/console.html"
+                 />
+		<lastmod>2016-02-05T11:11:11+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+    </url>
+    <url>
+		
 		<loc>https://pycon.sk/en/tickets.html</loc>
 		<xhtml:link 
                  rel="alternate"

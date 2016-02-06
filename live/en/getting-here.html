@@ -10,7 +10,7 @@
 
   <!-- You Promised Me Mars Colonies. Instead, I Got Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://pycon.sk/static/images/pycon_sk_logo200_notext.png">
+  <meta property="og:image" content="https://pycon.sk/static/images/logo/pycon_sk_logo200_notext.png">
   <meta property="og:url" content="https://pycon.sk/en">
   <meta property="og:title" content="PyCon SK 2016 - 11-13.03.2016, Bratislava">
   <meta property="og:site_name" content="pycon.sk">
@@ -20,12 +20,11 @@
   <meta name="twitter:title" content="PyCon SK 2016 - 11-13.03.2016, Bratislava">
   <meta name="twitter:description" content="PyCon is coming to Slovakia! PyCon SK is a community-organized conference for the Python programming language, which will be held in Bratislava on 11th - 13th March, 2016.">
   <meta name="twitter:url" content="https://pycon.sk/en">
-  <meta name="twitter:image" content="https://pycon.sk/static/images/pycon_sk_logo200_notext.png">
+  <meta name="twitter:image" content="https://pycon.sk/static/images/logo/pycon_sk_logo200_notext.png">
   <meta name="google-site-verification" content="W8iyFASCV4ptNkWc9_EEu-uRuQ5UBtH1ulvKndInaJM">
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="../static/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../static/css/bootstrap-theme.min.css">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -35,7 +34,8 @@
   
   
   <link rel="alternate" href="https://pycon.sk/sk/getting-here.html" hreflang="sk">
-  <link rel="stylesheet" href="../static/css/pycon.css?v=1450784706">
+  
+  <link rel="stylesheet" href="../static/css/pycon.css?v=1454770865">
   <link rel="icon" href="../static/images/favicon.ico" sizes="16x16">
 </head>
 <body>
@@ -45,8 +45,10 @@
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <img class="navbar-brand navbar-logo" src="../static/images/logo/pycon.svg" alt="">
-        <a href="index.html" class="navbar-brand">PyCon SK</a>
+        <a href="index.html">
+          <img class="navbar-brand navbar-logo" src="../static/images/logo/pycon.svg" alt="PyCon SK Home" >
+          <span class="navbar-brand">PyCon SK</span>
+        </a>
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -54,14 +56,19 @@
         </button>
       </div>
       <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav pull-right lang-nav">
+          
+          <li><a href="../sk/getting-here.html" title="Prepnúť na slovenský jazyk" hreflang="sk"><img src="../static/images/lang/sk.png" alt="slovenský jazyk"></a></li>
+          
+        </ul>
         <ul class="nav navbar-nav">
           <li>
             <a href="tickets.html">Tickets</a>
           </li>
           <li class="active">
-            <a href="getting-here.html">Conference</a>
+            <a href="getting-here.html">Venue</a>
             </li>
-          <li>
+          <li >
             <a href="speakers.html">Speakers</a>
           </li>
           <li>
@@ -71,18 +78,15 @@
             <a href="sponsors.html">Sponsors</a>
           </li>
           <li>
+            <a href="getting-here.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meetup <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="meetup.html">Meetup</a></li>
+              <li><a href="console.html">Try Python</a></li>
+            </ul>
+          </li>
+          <li>
             <a href="code-of-conduct.html">Code of Conduct</a>
           </li>
-          <li>
-            <a href="meetup.html">Meetup</a>
-          </li>
-          <li>
-            <a href="spy.html">Civic association</a>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav pull-right lang-nav">
-          
-          <li><a href="../sk/getting-here.html" title="Prepnúť na slovenský jazyk" hreflang="sk"><img src="../static/images/lang/sk.png" alt="slovenský jazyk"></a></li>
         </ul>
       </div>
     </div>
@@ -94,28 +98,30 @@
     
 <div class="row">
   <div class="col-md-8">
-
     <h1>How to get here?</h1>
     <p class="lead">You are great! You already have a conference ticket and need to find out how to get here? This page explains possibilities how to get to the conference.</p>
 
     <div class="row">
-      <div class="col-md-12 text-center">
+      <div class="col-md-12">
+        <ul class="">
+          <li><a href="getting-here.html#address">Address</a></li>
+          <li><a href="getting-here.html#to-ba">Travelling to Bratislava</a></li>
+          <li><a href="getting-here.html#in-ba">Travelling in Bratislava</a></li>
+          <li><a href="getting-here.html#map">Map</a></li>
+          <li><a href="getting-here.html#accomodation">Accommodation</a></li>
+        </ul>
+      </div>
+    </div>
 
-        <div class="btn-group btn-group-justified" role="group">
-          <div class="btn-group" role="group">
-            <a href="getting-here.html#to-ba" class="btn btn-default">Travelling to Bratislava</a>
-          </div>
-          <div class="btn-group" role="group">
-            <a href="getting-here.html#in-ba" class="btn btn-default">Travelling in Bratislava</a>
-          </div>
-          <div class="btn-group" role="group">
-            <a href="getting-here.html#map" class="btn btn-default">Map</a>
-          </div>
-          <div class="btn-group" role="group">
-            <a href="getting-here.html#accomodation" class="btn btn-default">Accommodation</a>
-          </div>
-        </div>
-
+    <div class="row" id="address"> 
+      <div class="col-md-12">
+        <h2>Address</h2>
+        <p class="text-justify">
+        Slovak University of Technology in Bratislava<br />
+        Faculty of Informatics and Information Technologies<br />
+        Ilkovičova 2<br />
+        842 16 Bratislava 4
+        </p>
       </div>
     </div>
 
@@ -123,7 +129,7 @@
       <div class="col-md-12">
         <h2>Travelling to Bratislava</h2>
         <p class="text-justify">
-          Bratislava is one of the youngest capital cities in Europe. Nevertheless, it is a city with a rich history of the free royal coronation city, in those times it was called Prešpork (Pozsony, Pressburg). Bratislava is a major transport hub in Central Europe, so you have plenty of options to get here.
+          Bratislava patrí medzi najmladšie hlavné mestá Európy. Napriek tomu má bohatú históriu slobodného kráľovského korunovačného mesta. Vtedy bola ešte Prešporkom nazývaná. Dnes je Bratislava významný dopravný uzol v strednej Európe a možností, ako sa sem dostať, je neúrekom.
         </p>
       </div>
     </div>
@@ -138,11 +144,7 @@
       <div class="col-md-6 text-justify">
         <h3 id="car">By car</h3>
         <ul>
-<<<<<<< HEAD
-          <li>From Vienna, take highway A4, heading to Schwechat airport, when possible take the exit that leads to highway A6, which is heads towards Bratislava.</li>
-=======
           <li>From Vienna, take highway A4, heading to Schwechat airport, when possible take the exit that leads to highway A6, which heads towards Bratislava.</li>
->>>>>>> b863ac96a5bfe547872cca60ddf57209e3539c07
           <li>From Budapest, take highway M1 heading to Gyor, follow this route until you see signs for highway M15 headed to Slovakia and Bratislava.</li>
           <li>From Prague, take highway D1 to Brno, once in Brno take highway D2 heading to Slovakia and Bratislava.</li>
           <li>From Warsaw, take highway A1 heading to Katowice. From there follow the road for Čadca, Slovakia. Take this road all the way to Žilina, then switch to highway D1 to Bratislava.</li>
@@ -169,10 +171,10 @@
         <h2>Travelling around Bratislava and to the conference</h2>
         <h3>By car</h3>
         <ul>
-          <li>Coming from direction BRNO -> BRATISLAVA from highway D-2, E65 to Lamačská road during Sitina tunnel (or via Patrónka) turn right to Mlynská dolina.</li>
+          <li>Coming from the direction of BRNO -> BRATISLAVA from highway D-2, E65 to Lamačská road during Sitina tunnel (or via Patrónka) turn right to Mlynská dolina.</li>
           <li>Coming from the direction of NITRA, ŽILINA -> BRATISLAVA from highway D-1, E75 continue in the direction of Wien, Györ, Brno, turn on the Lafranconi bridge - direction towards Brno and Mlynská dolina.</li>
           <li>Coming from the direction of VIEDEŇ -> BRATISLAVA from road E58 (border) direction Brno to Lafranconi bridge, turn towards Mlynská dolina.</li>
-          <li>For your convenience, please use a GPS and navigate to: Bratislava, Ilkovičova 2, (Faculty of Informatics and Information Technologies), coordinates: 48.153429, 17.071716.</li>
+          <li>For your convenience, please use a GPS and navigate to: Bratislava, Ilkovičova 2, (Faculty of Informatics and Information Technologies), coordinates: 48.153429, 17.071716</li>
         </ul>
         <p>If you travel by car, there will be plenty of parking space available in front of the conference center.</p>
       </div>
@@ -188,14 +190,14 @@
             <p>To get to the conference venue <strong>from bus station</strong>, take bus number 70 towards “Most SNP” and get off at stop “Most SNP”. The ride takes about 5 minutes, depending on the traffic. <strong>You have several options to change</strong></p>
             <ul><li>bus number 30 or 37 and get off at stop “ZOO”. The ride takes 5-7 minutes again depending on traffic.</li></ul>
             <p>or</p>
-            <ul><li>bus number 28 or 29 or tram number 4, 5, 6 or 9 and get off at stop “Botanická záhrada”. The ride takes 6-9 minutes, subject to traffic.</li></ul>
+            <ul><li>bus number 28 or 29 or tram number 4, 5, 6 or 9 and get off at stop “Botanická záhrada”. The ride takes 6-9 minutes, depending on traffic.</li></ul>
           </div>
 
           <div class="col-md-6 text-justify">
 
             <p>To get to the conference venue <strong>from the train station</strong>, take bus number 32 towards “Dlhé diely” and get off at stop “ZOO”. The ride takes 12-15 minutes, depending on traffic.</p>
             <hr />
-            <p>To get to the conference venue <strong>from the hotel Ibis</strong>, you need to go to the stop “Zochova” and take bus number 31 or 39 towards “Cintorín Slávičie údolie” and get off at the stop “ZOO”. The ride takes 8-10 minutes subject to traffic. </p>
+            <p>To get to the conference venue <strong>from the hotel Ibis</strong>, you need to go to the stop “Zochova” and take bus number 31 or 39 towards “Cintorín Slávičie údolie” and get off at the stop “ZOO”. The ride takes 8-10 minutes depending on the traffic.</p>
           </div>
         </div>
 
@@ -207,31 +209,22 @@
       <div class="col-md-6 text-justify">
         <h3>Public transport tickets</h3>
         <p>
-<<<<<<< HEAD
-        You can buy tickets from the yellow vending machines or kiosks. They accept Euro coins. Alternatively you can also purchase tickets in newsstands. There are a wide variety of tickets, you can buy a 90-cent ticket that is valid for only 30 minutes or there are 24 to 72 hour tickets. You can change buses and trams freely with any valid ticket. You need to stamp, (have the ticket validated)  in the machine once you enter the bus or tram. Once the ticket is stamped, it is valid for 30 minutes or whatever time frame you've purchased. You can change to another bus or tram (but do NOT mark the ticket again, only do it the first time you get on). Students with ISIC cards can buy discounted tickets, more information on <a href="http://www.dpb.sk/en/passengers/ticket/" title="Bratislava Public Transport website" target="_blank">Bratislava Public Transport website</a>.
-=======
         You can buy tickets from the yellow vending machines or kiosks. They accept Euro coins. Alternatively you can also purchase tickets in newsstands. There are a wide variety of tickets, you can buy a 90-cent ticket that is valid for only 30 minutes or there are 24- or 72-hour tickets. You can change buses and trams freely with any valid ticket. You need to stamp, (have the ticket validated)  in the machine once you enter the bus or tram. Once the ticket is stamped, it is valid for 30 minutes or whatever time frame you've purchased. You can change to another bus or tram (but do NOT mark the ticket again, only do it the first time you get on). Students with ISIC cards can buy discounted tickets, more information on <a href="http://www.dpb.sk/en/passengers/ticket/" title="Bratislava Public Transport website" target="_blank">Bratislava Public Transport website</a>.
->>>>>>> b863ac96a5bfe547872cca60ddf57209e3539c07
         </p>
       </div>
 
       <div class="col-md-6 text-justify">
         <h3>SMS ticket</h3>
-<<<<<<< HEAD
-        <p>If you are using a phone with a Slovak carrier (SIM cards from other countries do not support this) you can buy tickets by sending empty SMS to number 1100 and you will receive SMS with the ticket in about 2 minutes. </p>
-		<p>Price for the SMS ticket is EUR 1 and the ticket is valid for 70 minutes. Important: DO NOT enter the bus or tram after you send the SMS, ONLY get on after you receive the confirmation SMS. More information on <a href="http://www.dpb.sk/en/passengers/ticket-through-sms/" title="Bratislava Public Transport website" target="_blank">Bratislava Public Transport website</a>.
+        <p>If you are using a phone with a Slovak carrier (SIM cards from other countries do not support this) you can buy tickets by sending empty SMS to number 1100 and you will receive SMS with the ticket in about 2 minutes.</p> 
+        <p>Price for the SMS ticket is EUR 1 and the ticket is valid for 70 minutes. Important: DO NOT enter the bus or tram after you send the SMS, ONLY get on after you receive the confirmation SMS. More information on <a href="http://www.dpb.sk/en/passengers/ticket-through-sms/" title="Bratislava Public Transport website" target="_blank">Bratislava Public Transport website</a>.
         </p>
-=======
-        <p>If you are using a phone with a Slovak carrier (SIM cards from other countries do not support this) you can buy tickets by sending empty SMS to number 1100 and you will receive SMS with the ticket in about 2 minutes.</p>
-        <p>Price for the SMS ticket is EUR 1 and the ticket is valid for 70 minutes. Important: DO NOT enter the bus or tram after you send the SMS, ONLY get on after you receive the confirmation SMS. More information on <a href="http://www.dpb.sk/en/passengers/ticket-through-sms/" title="Bratislava Public Transport website" target="_blank">Bratislava Public Transport website</a>.</p>
->>>>>>> b863ac96a5bfe547872cca60ddf57209e3539c07
       </div>
     </div>
 
     <div class="row" id="other">
       <div class="col-md-12 text-justify">
         <h3>Other transport options</h3>
-        <p>There are several Uber-like services operating in Bratislava: Uber, Hopin...</p>
+        <p>There are several Uber-like services operating in Bratislava: Uber, Hopin.</p>
         <p>You can also take a regular taxi, however be aware that it's best to order a taxi directly from your phone to your exact location. If you just “step in” a taxi on the street, the ride will be several times more expensive.</p>
       </div>
     </div>
@@ -321,8 +314,24 @@
       <img src="../static/images/sponsors/websupport-logo.png" alt="WebSupport" style="height:60px" />
     </a>
     </li>
-
   </ul>
+
+  <br>
+  <hr>
+
+  <h6><mark class="media-partners">Main media partner</mark></h6>
+  <ul class="list-unstyled">
+    <li>
+    <a href="http://www.pcrevue.sk/#pyconsk" target="_blank">
+      <img src="../static/images/partners/pc-revue.png" alt="PC REVUE" style="width:130px" />
+    </a>
+    </li>
+  </ul>
+
+  <hr>
+
+  <p><a href="sponsors.html">All Sponsors</a></p>
+
 </div>
 <!-- right_nav end -->
 
@@ -334,16 +343,16 @@
       <div class="row">
         <div class="col-md-12">
           <ul class="list-unstyled">
-            <li class="pull-right"><a href="getting-here.html#top">Back to top</a></li>
+            
             <li><a href="https://facebook.com/pyconsk">Facebook</a></li>
             <li><a href="https://twitter.com/pyconsk">Twitter</a></li>
             <li><a href="https://www.linkedin.com/company/spy-o--z-">LinkedIn</a></li>
             <li><a href="https://plus.google.com/u/0/b/114745643590416178453/114745643590416178453/posts">Google+</a></li>
             <li><a href="https://pyconsk.slack.com">Slack</a></li>
             <li><a href="https://github.com/pyconsk">GitHub</a></li>
-            <li><a href="mailto:info%40pycon.sk"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> info@pycon.sk</a></li>
+            <li><a href="spy.html">Civic association</a></li>
             <li><a href="https://lists.pycon.sk/listinfo"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Mailing list</a></li>
-            <li><a href="../static/meetup.ics"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> meetup.ics</a></li>
+            <li><a href="mailto:info%40pycon.sk"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> info@pycon.sk</a></li>
             <li class="hide"><a href="../sitemap.xml">sitemap.xml</a></li>
           </ul>
           
