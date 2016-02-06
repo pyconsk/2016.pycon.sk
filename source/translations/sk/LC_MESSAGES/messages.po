@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-06 01:49+0100\n"
+"POT-Creation-Date: 2016-02-06 16:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.1.1\n"
+"Generated-By: Babel 2.2.0\n"
 
 #: templates/ba-01-meetup.html:6
 msgid "Prvý Bratislavský Python Meetup"
@@ -177,47 +177,47 @@ msgid ""
 "Python, ktorá sa uskutoční 11. 3. 2016 až 13. 3. 2016 v Bratislave."
 msgstr ""
 
-#: templates/body.html:42
+#: templates/body.html:44
 msgid "Preskočiť na hlavný obsah"
 msgstr ""
 
-#: templates/body.html:68 templates/tickets.html:11
+#: templates/body.html:70 templates/tickets.html:11
 msgid "Vstupenky"
 msgstr ""
 
-#: templates/body.html:71
+#: templates/body.html:73
 msgid "Miesto konania"
 msgstr ""
 
-#: templates/body.html:74 templates/speakers.html:5
+#: templates/body.html:76 templates/speakers.html:5
 msgid "Rečníci"
 msgstr ""
 
-#: templates/body.html:77
+#: templates/body.html:79
 msgid "Workshop"
 msgstr ""
 
-#: templates/body.html:80 templates/django-girls.html:60
+#: templates/body.html:82 templates/django-girls.html:60
 msgid "Sponzori"
 msgstr ""
 
-#: templates/body.html:83 templates/body.html:85
+#: templates/body.html:85 templates/body.html:87
 msgid "Meetup"
 msgstr ""
 
-#: templates/body.html:86
+#: templates/body.html:88
 msgid "Vyskúšaj Python"
 msgstr ""
 
-#: templates/body.html:90 templates/code-of-conduct.html:5
+#: templates/body.html:92 templates/code-of-conduct.html:5
 msgid "Kódex správania"
 msgstr ""
 
-#: templates/body.html:113
+#: templates/body.html:115
 msgid "Občianske združenie"
 msgstr ""
 
-#: templates/body.html:114
+#: templates/body.html:116
 msgid "E-mailová konferencia"
 msgstr ""
 
@@ -842,7 +842,7 @@ msgstr ""
 msgid "Stručné vizitky hostí, ktorí vystúpia na PyCon SK 2016."
 msgstr ""
 
-#: templates/speakers.html:12
+#: templates/speakers.html:13
 msgid ""
 "Python využíva denne v Rakúskom technologickom inštitúte, kde rieši "
 "výskumné otázky v oblasti analýzy dát a štatistických modelov. Kým sa "
@@ -852,7 +852,7 @@ msgid ""
 " zaujíma o \"výpočtové veci\"."
 msgstr ""
 
-#: templates/speakers.html:24
+#: templates/speakers.html:23
 msgid ""
 "Programátor na voľnej nohe s 10-ročnými skúsenosťami s tvorbou firemných "
 "aplikácií (enterprise software). Aktuálne zamestnáva subdodávateľov a "
@@ -863,7 +863,7 @@ msgid ""
 "(plachtenie)."
 msgstr ""
 
-#: templates/speakers.html:39
+#: templates/speakers.html:40
 msgid ""
 "Telekomunikačný inžinier, od roku 1996 aj milovník Pythonu. Vývojar jadra"
 " od roku 2008, konzultant od roku 2012. Zakladateľ pythonových "
@@ -872,7 +872,7 @@ msgid ""
 "všetko zaujímavé, vrátane podcastov a geocachingu."
 msgstr ""
 
-#: templates/speakers.html:51
+#: templates/speakers.html:50
 msgid ""
 "Vyštudoval aplikovanú informatiku na FMFI UK. Pri písaní diplomovej práce"
 " používal python a bolo to prvé stretnutie s vývojom väčšej aplikácie. Po"
@@ -886,7 +886,7 @@ msgid ""
 "na podobných veciach."
 msgstr ""
 
-#: templates/speakers.html:64
+#: templates/speakers.html:65
 msgid ""
 "Cory je open source Python vývojár, pracuje pre <a "
 "href=\"https://www.hpe.com/\" target=\"_blank\" title=\"Hewlett Packard "
@@ -902,7 +902,7 @@ msgid ""
 "televíziu a cestovanie."
 msgstr ""
 
-#: templates/speakers.html:79
+#: templates/speakers.html:78
 msgid ""
 "Rodolfo je dlho ročný Pythonista pôvodom z Rio de Janeiro v Brazílii. "
 "Jeho zvedavosť a chtivosť ho zaviedla do mnohých miest. Žil a navštevoval"
@@ -913,18 +913,7 @@ msgid ""
 "Hat.</a>"
 msgstr ""
 
-#: templates/speakers.html:89
-msgid ""
-"Petra is a senior software developer at <a href=\"https://google.com\" "
-"title=\"Google\" target=\"_blank\">Google</a> San Francisco. In her "
-"almost 11 years at Google, Petra has worked on Search, Gmail frontend, "
-"and her current project is Android Pay. Petra loves coding, taking "
-"photos, making stopmotion videos (she is the <a "
-"href=\"http://www.stopmotionista.com\" "
-"target=\"_blank\">stopmotionista.com</a>) and traveling."
-msgstr ""
-
-#: templates/speakers.html:105
+#: templates/speakers.html:106
 msgid ""
 "Vývojár slobodného softvéru a administrátor z Islandu. Programuje od "
 "polovice 90. rokov, šesť rokov venoval boju so spamom a vírusmi a tri "
@@ -941,7 +930,7 @@ msgid ""
 "e-mailový klient\">MailePile</a>."
 msgstr ""
 
-#: templates/speakers.html:117
+#: templates/speakers.html:118
 msgid ""
 "Adam pracuje pre spoločnosť ktorá zastupuje <a "
 "href=\"https://www.aldebaran.com/en\" target=\"_blank\" title=\"Aldebaran"
@@ -953,7 +942,7 @@ msgid ""
 "title=\"SmartGrowBox\">SmartGrowBox</a>."
 msgstr ""
 
-#: templates/speakers.html:131
+#: templates/speakers.html:132
 msgid ""
 "Věroš pracuje z Brna pre spoločnosť <a href=\"http://inuits.eu\" "
 "title=\"Inuits\" target=\"_blank\">Inuits</a>, kde sa stará o správu a "
@@ -962,14 +951,14 @@ msgid ""
 "(whatever it means)."
 msgstr ""
 
-#: templates/speakers.html:143
+#: templates/speakers.html:144
 msgid ""
 "Django vývojár v <a href=\"http://djangostars.com/\" target=\"_blank\" "
 "title=\"DjangoStars\">DjangoStars</a>. Zaujíma sa o funkcionálne "
 "programovanie a testovanie ako spôsob merania kvality kódu."
 msgstr ""
 
-#: templates/speakers.html:158
+#: templates/speakers.html:159
 msgid ""
 "Büsra pracuje pre Ericsson R&amp;D v Budapešti ako Cloud System Engineer."
 " Zaujíma sa o back-end development, cloud, big data a nové technológie. "
@@ -979,7 +968,7 @@ msgid ""
 "bloggerka. Miluje programovanie, fotenie a blogovanie."
 msgstr ""
 
-#: templates/speakers.html:170
+#: templates/speakers.html:171
 msgid ""
 "S Python pracuje posledných päť rokov denne. Vo <a "
 "href=\"https://www.vnet.sk/\" target=\"_blank\" title=\"Vnet\">Vnete</a> "
@@ -988,7 +977,7 @@ msgid ""
 "je nadšenec open source technológií."
 msgstr ""
 
-#: templates/speakers.html:184
+#: templates/speakers.html:185
 msgid ""
 "Programovaniu v Pythone a Djangu sa venuje v spoločnosti <a "
 "href=\"http://thebrainity.com/\" target=\"_blank\">Brainity</a>, kde "
@@ -998,7 +987,7 @@ msgid ""
 "maximálnej miery."
 msgstr ""
 
-#: templates/speakers.html:196
+#: templates/speakers.html:197
 msgid ""
 "Tatiana začala programovať v roku 2002. Od vývoja lekárskych "
 "zobrazovacích aplikácií sa dostala až k odporúčacím platformám "
@@ -1010,7 +999,7 @@ msgid ""
 "vzdelávacie aplikácie."
 msgstr ""
 
-#: templates/speakers.html:210
+#: templates/speakers.html:211
 msgid ""
 "Daniele bol organizátorom Django víkendu v Cardiffe, členom organizačnej "
 "komisie DjangoCon Europe 2014 a v roku 2015 aj jej predsedom. Bol i "
@@ -1025,7 +1014,7 @@ msgid ""
 "projektoch."
 msgstr ""
 
-#: templates/speakers.html:222
+#: templates/speakers.html:223
 msgid ""
 "Matúš je PhD študent na Fakulte matematiky, fyziky a informatiky "
 "Univerzity Komenského v Bratislave. Venuje sa skúmaniu kvantových javov v"
@@ -1035,7 +1024,7 @@ msgid ""
 "vyhodnocovanie dát, simulácie."
 msgstr ""
 
-#: templates/speakers.html:235
+#: templates/speakers.html:236
 msgid ""
 "Michael pracuje pre <a href=\"https://redhat.com\" target=\"_blank\" "
 "title=\"Red Hat\">Red Hat</a> v týme Open Source a štandardy, zaujíma sa "
@@ -1044,7 +1033,7 @@ msgid ""
 "nediskutuje na konferenciách o slobodnom softvéri)."
 msgstr ""
 
-#: templates/speakers.html:248
+#: templates/speakers.html:249
 msgid ""
 "Andrea sa venuje vývoju serverových aplikácií od roku 2012. Pochádza z IT"
 " rodiny a aj vďaka tomu sa vybrala touto cestou. Neznáša zlý kód a "
@@ -1052,7 +1041,7 @@ msgid ""
 "meetupu."
 msgstr ""
 
-#: templates/speakers.html:262
+#: templates/speakers.html:263
 msgid ""
 "Martina je softvérovou inžinierkou s 10+ ročnou praxou vyvíjania "
 "enterprise-level softvéru. Posledné štyri roky pracuje ako vývojárka pre "
@@ -1067,7 +1056,7 @@ msgid ""
 "predstavami o IT branži na Slovensku."
 msgstr ""
 
-#: templates/speakers.html:275
+#: templates/speakers.html:276
 msgid ""
 "Nicholas študoval klasickú hudbu, absolvoval filozofiu, bol učiteľom, "
 "spisovateľom aj vývojárom softvéru. Spolupracuje s nadáciou Python "
@@ -1076,23 +1065,13 @@ msgid ""
 "čestný a plný užitočných informácií."
 msgstr ""
 
-#: templates/speakers.html:290
+#: templates/speakers.html:291
 msgid ""
 "Je softvérový inžinier v <a href=\"https://www.redhat.com/\" "
 "target=\"_blank\" title=\"Red Hat\">Red Hat</a>. Keď práve nepíše kód v "
 "Pythone, pomáha organizovať <a href=\"http://pyvo.cz/\" target=\"_blank\""
 " title=\"PyVo\">meetupy</a>, mentoruje PyLadies, alebo je na zaujímavej "
 "konferencii."
-msgstr ""
-
-#: templates/speakers.html:302
-msgid ""
-"Johannes is a PhD student at the Center for Network Science at Central "
-"European University. He is also affiliated with the Corruption Research "
-"Center Budapest, a nonprofit using data driven methods to investigate "
-"corruption risks in government. He has used network science as a "
-"consultant for Bondweaver, advising firms on internal communication and "
-"collaboration. Python is his preferred ecosystem in all these roles."
 msgstr ""
 
 #: templates/speaking.html:5
@@ -1859,18 +1838,5 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Stručné vizitky hostí, ktorí vystúpia na PyCon SK 2016"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Petra is a senior software developer "
-#~ "at <a href=\"https://google.com\" title=\"Google\""
-#~ " target=\"_blank\">Google</a> San Francisco. In"
-#~ " her almost 11 years at Google, "
-#~ "Petra has worked on Search, Gmail "
-#~ "frontend, and her current project is "
-#~ "Android Pay. Petra loves coding, taking"
-#~ " photos, making stopmotion videos (she "
-#~ "is the <a href=\"stopmotionista.com\" "
-#~ "target=\"_blank\">stopmotionista.com</a>) and traveling."
 #~ msgstr ""
 
