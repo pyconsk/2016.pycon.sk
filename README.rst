@@ -1,7 +1,17 @@
 PyCon SK and Slovak Python User Group Website
 #############################################
 
-PyCon SK website, build in Flask from which static HTML is generated.
+PyCon SK website, built with Flask from which static HTML is generated.
+
+
+Project structure
+-----------------
+
+3 folders:
+
+* ``source`` - the Flask app, templates, static files, translations (make your changes here)
+* ``staging`` - static HTML, generated from the ``source`` (do NOT edit anything in here)
+* ``live`` - static HTML, created by copying the ``staging`` folder (do NOT edit anything in here)
 
 
 Installation
@@ -12,7 +22,7 @@ Installation
 	git clone git@github.com:pyconsk/pycon.sk.git
 	cd pycon.sk/source
 
-- run initialization script (creates virtualenvs and install requirements)::
+- run initialization script (creates a virtual environment and installs all requirements)::
 
 	make init
 
@@ -32,7 +42,7 @@ Translations
 
 	make messages
 
-- files that needs to be translated are generated into directory::
+- files that need to be translated are generated into directory::
 
 	translations/
 
@@ -41,8 +51,8 @@ Translations
 	make compile
 
 
-Static site generation
-----------------------
+Static site
+-----------
 
 - generating staging site::
 
@@ -52,11 +62,11 @@ Static site generation
 
 	python -m SimpleHTTPServer 5000
 
-- update live site from code in staging site:
+- update live site from code in staging site::
 
 	make live
 
-If you find some bug please do report it, or send us merge request with fix, thanks.
+If you find some bug please do report it, or send us a merge request with a fix, thanks.
 
 Links
 -----
