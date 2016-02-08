@@ -82,21 +82,18 @@
     </div>
     <hr />
 
-    {#
     <div class="row">
+      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_petra.png') }}" alt="Petra Cross" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Petra Cross <small>(USA)</small></h3>
         <p>&nbsp;</p>
         <p>
-        {{ _('Petra is a senior software developer at <a href="https://google.com" title="Google" target="_blank">Google</a> San Francisco. In her almost 11 years at Google, Petra has worked on Search, Gmail frontend, and her current project is Android Pay. Petra loves coding, taking photos, making stopmotion videos (she is the <a href="http://www.stopmotionista.com" target="_blank">stopmotionista.com</a>) and traveling.') }}
+        {{ _('Petra je senior software developer v <a href="https://google.com" title="Google" target="_blank"> Google </a> San Francisco. Počas takmer 11 rokov v spoločnosti Google, Petra pracovala na vyhľadávaní, Gmail frontende a jej súčasný projekt je Android Pay. Petra miluje kódovanie, fotenie, a výrobu StopMotion videa (ona je <a href="http://www.stopmotionista.com" target="_blank">stopmotionista.com</a>) a cestovanie.') }}
         </p>
       </div>
-      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_petra.png') }}" alt="Petra Cross" class="img-thumbnail" /></div>
     </div>
     <hr />
-    #}
 
     <div class="row">
-      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_bjarni.png') }}" alt="Bjarni Runar Einarsson" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Bjarni Runar Einarsson <small>(IS)</small></h3>
         <p>
         <a href="http://bre.klaki.net/" target="_blank" title="Blog">Blog</a>,
@@ -106,10 +103,12 @@
         {{ _('Vývojár slobodného softvéru a administrátor z Islandu. Programuje od polovice 90. rokov, šesť rokov venoval boju so spamom a vírusmi a tri roky tímu, ktorý garantoval spoľahlivosť webu Google. Po celý čas je slobodný softvér a digitálna sloboda Bjarniho veľká záľuba. Za svoje zásluhy získal v roku 2010 cenu <a href="https://fsfe.org/news/2010/news-20101108-01.en.html" target="_blank" title="Developer z Islandu vyznamenaný Nordic Free Software cenou">Nordic Free Software</a>. Od roku 2009 pracuje na plný úväzok ako vývojár na projektoch <a href="https://pagekite.net/" target="_blank" title="PageKite vyrobí lokálnu stránku alebo SSH server verejne prístupný v momente">PageKite</a> a <a href="https://www.mailpile.is/" target="_blank" title="MailPile je e-mailový klient">MailePile</a>.') }}
         </p>
       </div>
+      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_bjarni.png') }}" alt="Bjarni Runar Einarsson" class="img-thumbnail" /></div>
     </div>
     <hr />
 
     <div class="row">
+      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_adam.png') }}" alt="Adam Gluch" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Adam Gluch <small>(SK)</small></h3>
         <p>
         <a href="http://www.adamgluch.sk" target="_blank" title="Adam Web">Web</a>
@@ -118,18 +117,30 @@
         {{ _('Adam pracuje pre spoločnosť ktorá zastupuje <a href="https://www.aldebaran.com/en" target="_blank" title="Aldebaran Robotics">Aldebaran Robotics</a> na Slovensku. Jeho hlavným cieľom je motivovať mladých ľudí do programovania a informatiky. Python používa pri tvorbe aplikácií pre humanoidné platformy ako NAO, Papper a Romeo. Vo voľnom čase sa venuje svojmu projektu <a href="http://smartgrowbox.com/" target="_blank" title="SmartGrowBox">SmartGrowBox</a>.') }}
         </p>
       </div>
-      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_adam.png') }}" alt="Adam Gluch" class="img-thumbnail" /></div>
     </div>
     <hr />
 
     <div class="row">
-      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_veros.png') }}" alt="Věroš Kaplan" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Věroš Kaplan <small>(CZ)</small></h3>
         <p>
         <a href="https://twitter.com/verosk" target="_blank" title="Twitter">@verosk</a>
         </p>
         <p>
         {{ _('Věroš pracuje z Brna pre spoločnosť <a href="http://inuits.eu" title="Inuits" target="_blank">Inuits</a>, kde sa stará o správu a nasadzovanie serverov a aplikácií. Python stretol niekedy v minulom storočí a už u neho ostal. Je rozpoltený mezi Dev a Ops a verí v DevOps (whatever it means).') }}
+        </p>
+      </div>
+      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_veros.png') }}" alt="Věroš Kaplan" class="img-thumbnail" /></div>
+    </div>
+    <hr />
+
+    <div class="row">
+      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_miso.png') }}" alt="Michal Kaukič" class="img-thumbnail" /></div>
+      <div class="col-md-9 text-justify"><h3>Michal Kaukič <small>(SK)</small></h3>
+        <p>
+        <a href="http://feelmath.eu" target="_blank" title="Mišo Web">Web</a>
+        </p>
+        <p>
+        {{ _('Učím (a učím sa) štyri desaťročia, väčšinou v Žiline. Od 1994 mi stačí Linux, cez Pascal a C som došiel k Pythonu, ktorému teraz málokedy dávam košom. Mal by som byť matematik, ale krásu rád objavujem aj v rozmýšľaní, kreslení si a hraní sa s počítačmi.') }}
         </p>
       </div>
     </div>
@@ -202,6 +213,33 @@
     <hr />
  
     <div class="row">
+      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_peter.png') }}" alt="Peter Matkovski" class="img-thumbnail" /></div>
+      <div class="col-md-9 text-justify"><h3>Peter Matkovski <small>(SK)</small></h3>
+        <p>
+        <a href="https://www.linkedin.com/in/pmatkovski" target="_blank" title="LinkedIn">LinkedIn</a>
+        </p>
+        <p>
+        {{ _('Peter používa Python z perspektívy útočníka pri práci etického hackera pre spoločnosť ESET. S Pythonom ako bezpečnostným nástrojom sa zoznámil v rámci riešenia kryptografie na STU FEI a pokračoval s ním aj na pozícií analytika bezpečnostného softvéru v ESETe.<br>
+Peter organizuje prednášky pre širokú verejnosť o praktickej bezpečnosti a šifrovaní s názvom Cryptoparty v Bratislavskom hackerspace Progressbar.') }}
+        </p>
+      </div>
+    </div>
+    <hr />
+ 
+    <div class="row">
+      <div class="col-md-9 text-justify"><h3>Andrej Mošať <small>(SK)</small></h3>
+        <p>
+        <a href="https://twitter.com/amosat" target="_blank" title="Twitter">@amosat</a>
+        </p>
+        <p>
+        {{ _('Andrej sa venuje výskumu a vývoju ergonomických zariadení, ktoré merajú zdravie ľudského tela pomocou svetla, chemických reakcií a elektriny. Nástroje tvorí spolu s tímom mladých ľudí v elektronickom a chemickom laboratóriu. Okrem iného vytvoril <a href="http://myspectral.com" target="_blank" title="myspectral">spektrometer</a>, ktorý sa dostal na obežnú dráhu z medzinárodnej vesmírnej stanice. Jedným z najuniverzálnejších nástrojov je <a href="http://micropython.org" target="_blank" title="micropython">micropython</a>, operačný systém pre mikrokontrolery, ktoré sa dnes používajú od kávovarov až po rakety a planetárne roboty. Jeho sen je vytvoriť medický trikorder pre prvého astronauta pristávajúceho na Marse.') }}
+        </p>
+      </div>
+      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_andrej.png') }}" alt="Andrej Mošať" class="img-thumbnail" /></div>
+    </div>
+    <hr />
+ 
+    <div class="row">
       <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_daniele.png') }}" alt="Daniele Procida" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Daniele Procida <small>(UK)</small></h3>
         <p>
@@ -226,7 +264,7 @@
       <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_matus.png') }}" alt="Matúš Rehák" class="img-thumbnail" /></div>
     </div>
     <hr />
-    
+ 
     <div class="row">
       <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_michael.png') }}" alt="Michael Scherer" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Michael Scherer <small>(FR)</small></h3>
@@ -239,8 +277,34 @@
     </div>
     <hr />
 
+    {#  
+    <div class="row">
+      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_tomas.png') }}" alt="Tomáš Sirný" class="img-thumbnail" /></div>
+      <div class="col-md-9 text-justify"><h3>Tomáš Sirný <small>(SK)</small></h3>
+        <p>
+        <a href="" target="_blank" title=""></a>
+        </p>
+        <p>{{ _('Tomáš') }}
+        </p>
+      </div>
+    </div>
+    <hr />
+    #}
 
     <div class="row">
+      <div class="col-md-9 text-justify"><h3>Jakub Ševcech <small>(SK)</small></h3>
+        <p>
+        &nbsp;
+        </p>
+        <p>{{ _('Jakub je PhD študent na Slovenskej Technickej Univerzite v Bratislave, kde získal aj svoj inžiniersky titul v odbore Softvérové inžinierstvo. V súčasnosti učí kurz Funkcionálneho a logického programovania na univerzite. Užíval si spoluprácu na startupe Sli.do. Profesionálne sa zaujíma o analýzu dát, data science, spracovanie BigData a strojové učenie. V súkromí o turistiku, cestovanie a cyklistiku.') }}
+        </p>
+      </div>
+      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_jakub.png') }}" alt="Jakub Ševcech" class="img-thumbnail" /></div>
+    </div>
+    <hr />
+
+    <div class="row">
+      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_andrea.png') }}" alt="Andrea" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Andrea Šteňová <small>(SK)</small></h3>
         <p>
         <a href="https://www.linkedin.com/in/andrea-%C5%A1te%C5%88ov%C3%A1-3b92b050" target="_blank" title="LinkedIn">LinkedIn</a>
@@ -249,12 +313,10 @@
         {{ _('Andrea sa venuje vývoju serverových aplikácií od roku 2012. Pochádza z IT rodiny a aj vďaka tomu sa vybrala touto cestou. Neznáša zlý kód a zastaralé technológie. Spoluorganizuje stretnutia bratislavského Scala meetupu.') }}
         </p>
       </div>
-      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_andrea.png') }}" alt="Andrea" class="img-thumbnail" /></div>
     </div>
     <hr />
 
     <div class="row">
-      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_martina.png') }}" alt="Martina" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Martina Šturdíková <small>(SK)</small></h3>
         <p>
         <a href="https://www.linkedin.com/in/martinasturdikova" target="_blank" title="LinkedIn">LinkedIn</a>
@@ -263,10 +325,12 @@
         {{ _('Martina je softvérovou inžinierkou s 10+ ročnou praxou vyvíjania enterprise-level softvéru. Posledné štyri roky pracuje ako vývojárka pre JP Morgan Chase, kde využíva python na tvorbu systémov a aplikácií, ktoré umožňujú exekúciu obchodov, analýzu cien a obchodného rizika pre špecifickú oblasť. Martininou vášňou je posilniť úlohu žien v technologických pozíciách ako aj inšpirovať dievčatá, aby vstúpili do IT sveta. Martina je členkou poradného výboru <a href="http://www.ajtyvit.sk/" target="_blank" title="Aj Ty v IT">Aj Ty v IT</a>. Pridala sa k iniciatíve, ktorá podporuje na ceste za informatikou práve dievčatá, aby sa nenechali zmiasť skreslenými predstavami o IT branži na Slovensku.') }}
         </p>
       </div>
+      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_martina.png') }}" alt="Martina" class="img-thumbnail" /></div>
     </div>
     <hr />
 
     <div class="row">
+      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_nicholas.png') }}" alt="Nicholas H.Tollervey" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Nicholas H. Tollervey <small>(UK)</small></h3>
         <p>
         <a href="http://ntoll.org/" target="_blank" title="Nicholas Blog">Blog</a>,
@@ -276,12 +340,10 @@
         {{ _('Nicholas študoval klasickú hudbu, absolvoval filozofiu, bol učiteľom, spisovateľom aj vývojárom softvéru. Spolupracuje s nadáciou Python Software Foundation, od ktorej získal ocenenie komunity za prácu v oblasti vzdelávania. Je jednoducho taký ako táto biografia: stručný, čestný a plný užitočných informácií.') }}
         </p>
       </div>
-      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_nicholas.png') }}" alt="Nicholas H.Tollervey" class="img-thumbnail" /></div>
     </div>
     <hr />
 
     <div class="row">
-      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_petr.png') }}" alt="Petr Viktorin" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Petr Viktorin <small>(CZ)</small></h3>
         <p>
         <a href="http://encukou.cz/blog/" target="_blank" title="Petrs Blog">Blog</a>,
@@ -291,22 +353,21 @@
         {{ _('Je softvérový inžinier v <a href="https://www.redhat.com/" target="_blank" title="Red Hat">Red Hat</a>. Keď práve nepíše kód v Pythone, pomáha organizovať <a href="http://pyvo.cz/" target="_blank" title="PyVo">meetupy</a>, mentoruje PyLadies, alebo je na zaujímavej konferencii.') }}
         </p>
       </div>
+      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_petr.png') }}" alt="Petr Viktorin" class="img-thumbnail" /></div>
     </div>
     <hr />
 
-{#
     <div class="row">
+      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_johannes.png') }}" alt="Johannes Wachs" class="img-thumbnail" /></div>
       <div class="col-md-9 text-justify"><h3>Johannes Wachs <small>(DE)</small></h3>
         <p>
         <a href="https://twitter.com/johannes_wachs" target="_blank" title="Johannes Twitter">@johannes_wachs</a>
         </p>
         <p>
-        {{ _('Johannes is a PhD student at the Center for Network Science at Central European University. He is also affiliated with the Corruption Research Center Budapest, a nonprofit using data driven methods to investigate corruption risks in government. He has used network science as a consultant for Bondweaver, advising firms on internal communication and collaboration. Python is his preferred ecosystem in all these roles.') }}
+        {{ _('Johannes je doktorand v Centre pre sieťové vedy na Stredoeurópskej univerzite. Tiež spolupracuje s Centrom pre výskup korupcie v Budapešti, nezisková organizácia, ktorá používa dátovo riadené metódy vyšetrovania korupčných rizík vo vláde. Využil na vedecké poznatky o sieťach ako poradca pre Boneweaver, radí firmám ohľadne internej komunikácie a spolupráce. Python je jeho preferovaný ekosystém vo všetkých týchto rolách.') }}
         </p>
       </div>
-      <div class="col-md-3"><img src="{{ url_for('static', filename='images/speakers/avatar_johannes.png') }}" alt="Johannes Wachs" class="img-thumbnail" /></div>
     </div>
-#}
     
   </div>  {# col-md-8 #}
 
