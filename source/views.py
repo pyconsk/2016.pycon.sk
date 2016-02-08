@@ -137,7 +137,7 @@ def index():
         }
       }
     }
-    return render_template('index.html', **_get_template_variables(ld_json=LDJSON_EVENT))
+    return render_template('index.html', **_get_template_variables(ld_json=LDJSON_EVENT, li_index='active'))
 
 
 @app.route('/<lang_code>/console.html')
