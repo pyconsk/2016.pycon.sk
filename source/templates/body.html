@@ -46,7 +46,7 @@
   {% block navbar %}
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <div class="navbar-header">
+      <div class="navbar-header {{ li_index }}">
         <a href="{{ url_for('index', lang_code=lang_code) }}">
           <img class="navbar-brand navbar-logo" src="{{ url_for('static', filename=logo) }}" alt="PyCon SK Home" >
           <span class="navbar-brand">{{ title }}</span>
