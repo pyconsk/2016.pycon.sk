@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-06 16:35+0100\n"
+"POT-Creation-Date: 2016-02-08 11:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -913,7 +913,18 @@ msgid ""
 "Hat.</a>"
 msgstr ""
 
-#: templates/speakers.html:106
+#: templates/speakers.html:90
+msgid ""
+"Petra je senior software developer v <a href=\"https://google.com\" "
+"title=\"Google\" target=\"_blank\"> Google </a> San Francisco. Počas "
+"takmer 11 rokov v spoločnosti Google, Petra pracovala na vyhľadávaní, "
+"Gmail frontende a jej súčasný projekt je Android Pay. Petra miluje "
+"kódovanie, fotenie, a výrobu StopMotion videa (ona je <a "
+"href=\"http://www.stopmotionista.com\" "
+"target=\"_blank\">stopmotionista.com</a>) a cestovanie."
+msgstr ""
+
+#: templates/speakers.html:103
 msgid ""
 "Vývojár slobodného softvéru a administrátor z Islandu. Programuje od "
 "polovice 90. rokov, šesť rokov venoval boju so spamom a vírusmi a tri "
@@ -930,7 +941,7 @@ msgid ""
 "e-mailový klient\">MailePile</a>."
 msgstr ""
 
-#: templates/speakers.html:118
+#: templates/speakers.html:117
 msgid ""
 "Adam pracuje pre spoločnosť ktorá zastupuje <a "
 "href=\"https://www.aldebaran.com/en\" target=\"_blank\" title=\"Aldebaran"
@@ -942,7 +953,7 @@ msgid ""
 "title=\"SmartGrowBox\">SmartGrowBox</a>."
 msgstr ""
 
-#: templates/speakers.html:132
+#: templates/speakers.html:129
 msgid ""
 "Věroš pracuje z Brna pre spoločnosť <a href=\"http://inuits.eu\" "
 "title=\"Inuits\" target=\"_blank\">Inuits</a>, kde sa stará o správu a "
@@ -951,14 +962,22 @@ msgid ""
 "(whatever it means)."
 msgstr ""
 
-#: templates/speakers.html:144
+#: templates/speakers.html:143
+msgid ""
+"Učím (a učím sa) štyri desaťročia, väčšinou v Žiline. Od 1994 mi stačí "
+"Linux, cez Pascal a C som došiel k Pythonu, ktorému teraz málokedy dávam "
+"košom. Mal by som byť matematik, ale krásu rád objavujem aj v rozmýšľaní,"
+" kreslení si a hraní sa s počítačmi."
+msgstr ""
+
+#: templates/speakers.html:155
 msgid ""
 "Django vývojár v <a href=\"http://djangostars.com/\" target=\"_blank\" "
 "title=\"DjangoStars\">DjangoStars</a>. Zaujíma sa o funkcionálne "
 "programovanie a testovanie ako spôsob merania kvality kódu."
 msgstr ""
 
-#: templates/speakers.html:159
+#: templates/speakers.html:170
 msgid ""
 "Büsra pracuje pre Ericsson R&amp;D v Budapešti ako Cloud System Engineer."
 " Zaujíma sa o back-end development, cloud, big data a nové technológie. "
@@ -968,7 +987,7 @@ msgid ""
 "bloggerka. Miluje programovanie, fotenie a blogovanie."
 msgstr ""
 
-#: templates/speakers.html:171
+#: templates/speakers.html:182
 msgid ""
 "S Python pracuje posledných päť rokov denne. Vo <a "
 "href=\"https://www.vnet.sk/\" target=\"_blank\" title=\"Vnet\">Vnete</a> "
@@ -977,7 +996,7 @@ msgid ""
 "je nadšenec open source technológií."
 msgstr ""
 
-#: templates/speakers.html:185
+#: templates/speakers.html:196
 msgid ""
 "Programovaniu v Pythone a Djangu sa venuje v spoločnosti <a "
 "href=\"http://thebrainity.com/\" target=\"_blank\">Brainity</a>, kde "
@@ -987,7 +1006,7 @@ msgid ""
 "maximálnej miery."
 msgstr ""
 
-#: templates/speakers.html:197
+#: templates/speakers.html:208
 msgid ""
 "Tatiana začala programovať v roku 2002. Od vývoja lekárskych "
 "zobrazovacích aplikácií sa dostala až k odporúčacím platformám "
@@ -999,7 +1018,32 @@ msgid ""
 "vzdelávacie aplikácie."
 msgstr ""
 
-#: templates/speakers.html:211
+#: templates/speakers.html:222
+msgid ""
+"Peter používa Python z perspektívy útočníka pri práci etického hackera "
+"pre spoločnosť ESET. S Pythonom ako bezpečnostným nástrojom sa zoznámil v"
+" rámci riešenia kryptografie na STU FEI a pokračoval s ním aj na pozícií "
+"analytika bezpečnostného softvéru v ESETe.<br>\n"
+"Peter organizuje prednášky pre širokú verejnosť o praktickej bezpečnosti "
+"a šifrovaní s názvom Cryptoparty v Bratislavskom hackerspace Progressbar."
+msgstr ""
+
+#: templates/speakers.html:235
+msgid ""
+"Andrej sa venuje výskumu a vývoju ergonomických zariadení, ktoré merajú "
+"zdravie ľudského tela pomocou svetla, chemických reakcií a elektriny. "
+"Nástroje tvorí spolu s tímom mladých ľudí v elektronickom a chemickom "
+"laboratóriu. Okrem iného vytvoril <a href=\"http://myspectral.com\" "
+"target=\"_blank\" title=\"myspectral\">spektrometer</a>, ktorý sa dostal "
+"na obežnú dráhu z medzinárodnej vesmírnej stanice. Jedným z "
+"najuniverzálnejších nástrojov je <a href=\"http://micropython.org\" "
+"target=\"_blank\" title=\"micropython\">micropython</a>, operačný systém "
+"pre mikrokontrolery, ktoré sa dnes používajú od kávovarov až po rakety a "
+"planetárne roboty. Jeho sen je vytvoriť medický trikorder pre prvého "
+"astronauta pristávajúceho na Marse."
+msgstr ""
+
+#: templates/speakers.html:249
 msgid ""
 "Daniele bol organizátorom Django víkendu v Cardiffe, členom organizačnej "
 "komisie DjangoCon Europe 2014 a v roku 2015 aj jej predsedom. Bol i "
@@ -1014,7 +1058,7 @@ msgid ""
 "projektoch."
 msgstr ""
 
-#: templates/speakers.html:223
+#: templates/speakers.html:261
 msgid ""
 "Matúš je PhD študent na Fakulte matematiky, fyziky a informatiky "
 "Univerzity Komenského v Bratislave. Venuje sa skúmaniu kvantových javov v"
@@ -1024,7 +1068,7 @@ msgid ""
 "vyhodnocovanie dát, simulácie."
 msgstr ""
 
-#: templates/speakers.html:236
+#: templates/speakers.html:274
 msgid ""
 "Michael pracuje pre <a href=\"https://redhat.com\" target=\"_blank\" "
 "title=\"Red Hat\">Red Hat</a> v týme Open Source a štandardy, zaujíma sa "
@@ -1033,7 +1077,17 @@ msgid ""
 "nediskutuje na konferenciách o slobodnom softvéri)."
 msgstr ""
 
-#: templates/speakers.html:249
+#: templates/speakers.html:299
+msgid ""
+"Jakub je PhD študent na Slovenskej Technickej Univerzite v Bratislave, "
+"kde získal aj svoj inžiniersky titul v odbore Softvérové inžinierstvo. V "
+"súčasnosti učí kurz Funkcionálneho a logického programovania na "
+"univerzite. Užíval si spoluprácu na startupe Sli.do. Profesionálne sa "
+"zaujíma o analýzu dát, data science, spracovanie BigData a strojové "
+"učenie. V súkromí o turistiku, cestovanie a cyklistiku."
+msgstr ""
+
+#: templates/speakers.html:313
 msgid ""
 "Andrea sa venuje vývoju serverových aplikácií od roku 2012. Pochádza z IT"
 " rodiny a aj vďaka tomu sa vybrala touto cestou. Neznáša zlý kód a "
@@ -1041,7 +1095,7 @@ msgid ""
 "meetupu."
 msgstr ""
 
-#: templates/speakers.html:263
+#: templates/speakers.html:325
 msgid ""
 "Martina je softvérovou inžinierkou s 10+ ročnou praxou vyvíjania "
 "enterprise-level softvéru. Posledné štyri roky pracuje ako vývojárka pre "
@@ -1056,7 +1110,7 @@ msgid ""
 "predstavami o IT branži na Slovensku."
 msgstr ""
 
-#: templates/speakers.html:276
+#: templates/speakers.html:340
 msgid ""
 "Nicholas študoval klasickú hudbu, absolvoval filozofiu, bol učiteľom, "
 "spisovateľom aj vývojárom softvéru. Spolupracuje s nadáciou Python "
@@ -1065,13 +1119,24 @@ msgid ""
 "čestný a plný užitočných informácií."
 msgstr ""
 
-#: templates/speakers.html:291
+#: templates/speakers.html:353
 msgid ""
 "Je softvérový inžinier v <a href=\"https://www.redhat.com/\" "
 "target=\"_blank\" title=\"Red Hat\">Red Hat</a>. Keď práve nepíše kód v "
 "Pythone, pomáha organizovať <a href=\"http://pyvo.cz/\" target=\"_blank\""
 " title=\"PyVo\">meetupy</a>, mentoruje PyLadies, alebo je na zaujímavej "
 "konferencii."
+msgstr ""
+
+#: templates/speakers.html:367
+msgid ""
+"Johannes je doktorand v Centre pre sieťové vedy na Stredoeurópskej "
+"univerzite. Tiež spolupracuje s Centrom pre výskup korupcie v Budapešti, "
+"nezisková organizácia, ktorá používa dátovo riadené metódy vyšetrovania "
+"korupčných rizík vo vláde. Využil na vedecké poznatky o sieťach ako "
+"poradca pre Boneweaver, radí firmám ohľadne internej komunikácie a "
+"spolupráce. Python je jeho preferovaný ekosystém vo všetkých týchto "
+"rolách."
 msgstr ""
 
 #: templates/speaking.html:5
