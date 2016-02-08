@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-08 11:38+0100\n"
+"POT-Creation-Date: 2016-02-09 00:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.1.1\n"
 
 #: templates/ba-01-meetup.html:6
 msgid "Prvý Bratislavský Python Meetup"
@@ -1077,7 +1077,19 @@ msgid ""
 "nediskutuje na konferenciách o slobodnom softvéri)."
 msgstr ""
 
-#: templates/speakers.html:299
+#: templates/speakers.html:283
+msgid ""
+"backend programátor so záujmom o big data a machine learning, ktorý sa "
+"učí byť data scientistom. Používa Python a Django na vývoj webových "
+"služieb a ich backendových častí už viac ako 5 rokov. Časom sa dostal aj "
+"k spracovavaniu a ukladaniu väčších dát.<br> \n"
+"        Začalo to použitím Elasticsearchu na vyhľadávanie vo filmovej "
+"databázi a neskôr iných typov dát.  V súčasnosti s tým pokračuje "
+"využívaním Hadoopu a Sparku pri vývoji produktov pre klientov vramci "
+"firmy Exponea."
+msgstr ""
+
+#: templates/speakers.html:297
 msgid ""
 "Jakub je PhD študent na Slovenskej Technickej Univerzite v Bratislave, "
 "kde získal aj svoj inžiniersky titul v odbore Softvérové inžinierstvo. V "
@@ -1087,7 +1099,7 @@ msgid ""
 "učenie. V súkromí o turistiku, cestovanie a cyklistiku."
 msgstr ""
 
-#: templates/speakers.html:313
+#: templates/speakers.html:309
 msgid ""
 "Andrea sa venuje vývoju serverových aplikácií od roku 2012. Pochádza z IT"
 " rodiny a aj vďaka tomu sa vybrala touto cestou. Neznáša zlý kód a "
@@ -1095,7 +1107,7 @@ msgid ""
 "meetupu."
 msgstr ""
 
-#: templates/speakers.html:325
+#: templates/speakers.html:323
 msgid ""
 "Martina je softvérovou inžinierkou s 10+ ročnou praxou vyvíjania "
 "enterprise-level softvéru. Posledné štyri roky pracuje ako vývojárka pre "
@@ -1110,7 +1122,7 @@ msgid ""
 "predstavami o IT branži na Slovensku."
 msgstr ""
 
-#: templates/speakers.html:340
+#: templates/speakers.html:336
 msgid ""
 "Nicholas študoval klasickú hudbu, absolvoval filozofiu, bol učiteľom, "
 "spisovateľom aj vývojárom softvéru. Spolupracuje s nadáciou Python "
@@ -1119,7 +1131,7 @@ msgid ""
 "čestný a plný užitočných informácií."
 msgstr ""
 
-#: templates/speakers.html:353
+#: templates/speakers.html:351
 msgid ""
 "Je softvérový inžinier v <a href=\"https://www.redhat.com/\" "
 "target=\"_blank\" title=\"Red Hat\">Red Hat</a>. Keď práve nepíše kód v "
@@ -1128,7 +1140,7 @@ msgid ""
 "konferencii."
 msgstr ""
 
-#: templates/speakers.html:367
+#: templates/speakers.html:363
 msgid ""
 "Johannes je doktorand v Centre pre sieťové vedy na Stredoeurópskej "
 "univerzite. Tiež spolupracuje s Centrom pre výskup korupcie v Budapešti, "
