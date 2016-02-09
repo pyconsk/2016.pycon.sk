@@ -37,6 +37,7 @@
   {% else %}
   <link rel="alternate" href="https://pycon.sk{{ request.path|replace('/'+lang_code, '/sk', 1) }}" hreflang="sk">
   {% endif %}
+  <link rel="canonical" href="https://pycon.sk{{ request.path }}" />
   <link rel="stylesheet" href="{{ url_for('static', filename='css/pycon.css') }}">
   <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}" sizes="16x16">
 </head>
