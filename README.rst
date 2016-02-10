@@ -4,6 +4,12 @@ PyCon SK and Slovak Python User Group Website
 PyCon SK website, built with Flask from which static HTML is generated.
 
 
+Contributing
+------------
+
+If you'd like to contribute to the project, please `check the issues <https://github.com/pyconsk/pycon.sk/issues>`_ to see what we are working on.
+
+
 Project structure
 -----------------
 
