@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-10 21:25+0100\n"
+"POT-Creation-Date: 2016-02-12 13:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Prvý Bratislavský Python Meetup"
 msgstr "First Bratislava Python Meetup"
 
-#: templates/ba-01-meetup.html:7 templates/meetup.html:51
+#: templates/ba-01-meetup.html:7 templates/meetup.html:57
 msgid "7. júl 2015 – 18:00"
 msgstr "7th July 2015 – 18:00"
 
@@ -33,18 +33,18 @@ msgstr "7th July 2015 – 18:00"
 msgid "Kalendár ProgressBaru"
 msgstr "ProgressBar Calendar"
 
-#: templates/ba-01-meetup.html:14 templates/ba-02-meetup.html:12
-#: templates/ba-03-meetup.html:12 templates/ba-04-meetup.html:12
-#: templates/ba-05-meetup.html:12 templates/ba-06-meetup.html:14
-#: templates/ba-07-meetup.html:17 templates/ba-08-meetup.html:15
-#: templates/spy.html:18
-msgid "Kontakt"
-msgstr "Contact"
-
 #: templates/ba-01-meetup.html:15 templates/ba-02-meetup.html:13
 #: templates/ba-03-meetup.html:13 templates/ba-04-meetup.html:13
 #: templates/ba-05-meetup.html:13 templates/ba-06-meetup.html:15
 #: templates/ba-07-meetup.html:18 templates/ba-08-meetup.html:16
+#: templates/spy.html:18
+msgid "Kontakt"
+msgstr "Contact"
+
+#: templates/ba-01-meetup.html:16 templates/ba-02-meetup.html:14
+#: templates/ba-03-meetup.html:14 templates/ba-04-meetup.html:14
+#: templates/ba-05-meetup.html:14 templates/ba-06-meetup.html:16
+#: templates/ba-07-meetup.html:19 templates/ba-08-meetup.html:17
 msgid "Organizátor"
 msgstr "Event organiser"
 
@@ -52,7 +52,7 @@ msgstr "Event organiser"
 msgid "Druhý Bratislavský Python Meetup"
 msgstr "Second Bratislava Python Meetup"
 
-#: templates/ba-02-meetup.html:7 templates/meetup.html:47
+#: templates/ba-02-meetup.html:7 templates/meetup.html:53
 msgid "4. august 2015 – 18:00"
 msgstr "4th August 2015  – 18:00"
 
@@ -60,7 +60,7 @@ msgstr "4th August 2015  – 18:00"
 msgid "Tretí Bratislavský Python Meetup"
 msgstr "Third Bratislava Python Meetup"
 
-#: templates/ba-03-meetup.html:7 templates/meetup.html:42
+#: templates/ba-03-meetup.html:7 templates/meetup.html:48
 msgid "8. september 2015 – 18:00"
 msgstr "8th September 2015 – 18:00"
 
@@ -68,7 +68,7 @@ msgstr "8th September 2015 – 18:00"
 msgid "Štvrtý Bratislavský Python Meetup"
 msgstr "Fourth Bratislava Python Meetup"
 
-#: templates/ba-04-meetup.html:7 templates/meetup.html:37
+#: templates/ba-04-meetup.html:7 templates/meetup.html:43
 msgid "6. október 2015 – 18:00"
 msgstr "6th October 2015 – 18:00"
 
@@ -76,7 +76,7 @@ msgstr "6th October 2015 – 18:00"
 msgid "Piaty Bratislavský Python Meetup"
 msgstr "Fifth Bratislava Python Meetup"
 
-#: templates/ba-05-meetup.html:7 templates/meetup.html:32
+#: templates/ba-05-meetup.html:7 templates/meetup.html:38
 msgid "10. november 2015 – 18:00"
 msgstr "10th November 2015 – 18:00"
 
@@ -84,11 +84,11 @@ msgstr "10th November 2015 – 18:00"
 msgid "Šiesty Bratislavský Python Meetup"
 msgstr "Sixth Bratislava Python Meetup"
 
-#: templates/ba-06-meetup.html:7 templates/meetup.html:27
+#: templates/ba-06-meetup.html:7 templates/meetup.html:33
 msgid "8. december 2015 – 18:00"
 msgstr "8th December 2015 – 18:00"
 
-#: templates/ba-06-meetup.html:14
+#: templates/ba-06-meetup.html:15
 msgid "Bratislava Python Meetup Email"
 msgstr "Bratislava Python Meetup Email"
 
@@ -96,7 +96,7 @@ msgstr "Bratislava Python Meetup Email"
 msgid "Siedmy Bratislavský Python Meetup"
 msgstr "Seventh Bratislava Python Meetup"
 
-#: templates/ba-07-meetup.html:7 templates/meetup.html:22
+#: templates/ba-07-meetup.html:7 templates/meetup.html:28
 msgid "12. január 2016 – 18:00"
 msgstr "12th January 2016 – 18:00"
 
@@ -116,10 +116,10 @@ msgid ""
 "target=\"_blank\">WiPy</a> a <a "
 "href=\"https://micropython.org/store/#/store\" "
 "target=\"_blank\">PyBoard</a>, porozpráva o vývoji hardwaru v "
-"micropythone. Ukáže workflow vývoja zariadení, základné schémy a na "
+"micropythone. Ukáže workflow vývoja zariadení, základné schémy, a na "
 "záver zostrojí budík. Ak sa zaujímate o Internet of Things, ale neviete "
 "kde začať, alebo sa chcete dozvedieť ako si začať vyrábať doma "
-"jednoúčelové zariadenia, tento meetup vás určite zaujme."
+"jednoúčelové zariadenia, tento meetup Vás určite zaujme."
 msgstr ""
 
 #: templates/ba-07-meetup.html:14
@@ -136,7 +136,7 @@ msgstr "We are looking forward to seeing you at the meetup."
 msgid "Ôsmy Bratislavský Python Meetup"
 msgstr "Eighth Bratislava Python Meetup"
 
-#: templates/ba-08-meetup.html:7 templates/meetup.html:17
+#: templates/ba-08-meetup.html:7 templates/meetup.html:23
 msgid "9. február 2016 – 18:00"
 msgstr "9th February 2016 – 18:00"
 
@@ -159,7 +159,7 @@ msgstr "Language"
 msgid "slovenčina"
 msgstr "Slovak"
 
-#: templates/ba-08-meetup.html:20
+#: templates/ba-08-meetup.html:21
 msgid ""
 "V marci všetko naše úsilie zameriame na PyCon, takže marcový meetup "
 "vynecháme a <strong>ďalšie stretnutie bude v apríli</strong>."
@@ -1016,9 +1016,39 @@ msgid ""
 "href=\"%(url)s\">meetupy</a>."
 msgstr "In the meantime you can visit our regular <a href=\"%(url)s\">meetups</a>."
 
-#: templates/meetup.html:16 templates/meetup.html:21 templates/meetup.html:26
-#: templates/meetup.html:31 templates/meetup.html:36 templates/meetup.html:41
-#: templates/meetup.html:46 templates/meetup.html:50
+#: templates/meetup.html:7
+msgid ""
+"Ďakujeme všetkým, ktorí sa zúčastňujú na pravidelných stretnutiach a "
+"tešíme sa na vás na ďalšom meetupe. Python meetup je stretnutie ľudí, "
+"ktoré nejakým spôsobom súvisí s programovacím jazykom Python. Momentálne "
+"sa konajú pravidelné meetupy v Bratislave, <u>každý prvý pracovný utorok "
+"v mesiaci</u>. Pokiaľ by ste chceli zorganizovať meetup vo vašom meste, "
+"neváhajte nás kontaktovať a radi vám pomôžeme."
+msgstr ""
+
+#: templates/meetup.html:9
+msgid "<strong>Vstup na meetupy je bezplatný</strong>."
+msgstr "<strong>Admission is free of charge</strong>"
+
+#: templates/meetup.html:11
+msgid ""
+"Približný čas trvania meetupov: dve hodiny (cca hodina prezentácia, "
+"hodina alebo viac diskusia)."
+msgstr "Approximate duration: two hours (one hour presentation, one hour or more: discussion)."
+
+#: templates/meetup.html:13
+#, python-format
+msgid ""
+"Miesto konania: <a href=\"%(url_pb)s\" target=\"_blank\">ProgressBar "
+"hackerspace</a>, Michalská 3 (centrum Bratislavy). Neďaleké zastávky MHD:"
+" <a href=\"%(url_zochova)s\" target=\"_blank\">Zochova</a>, <a "
+"href=\"%(url_kapucinska)s\" target=\"_blank\">Kapucínska</a>, neďaleké "
+"platené parkovanie: <a href=\"%(url_ppg)s\" target=\"_blank\">Uršulínska</a>, <a href=\"%(url_carlton)s\" target=\"_blank\">Hotel Carlton</a>, <a href=\"%(url_park_inn)s\" target=\"_blank\">Hotel Park Inn</a>."
+msgstr "Location: <a href=\"%(url_pb)s\" target=\"_blank\">ProgressBar hackerspace</a>, Michalská 3 (center of Bratislava). Nearby public transportation stops: <a href=\"%(url_zochova)s\" target=\"_blank\">Zochova</a>, <a href=\"%(url_kapucinska)s\" target=\"_blank\">Kapucínska</a>, nearby paid parking: <a href=\"%(url_ppg)s\" target=\"_blank\">Uršulínska</a>, <a href=\"%(url_carlton)s\" target=\"_blank\">Hotel Carlton</a>, <a href=\"%(url_park_inn)s\" target=\"_blank\">Hotel Park Inn</a>."
+
+#: templates/meetup.html:22 templates/meetup.html:27 templates/meetup.html:32
+#: templates/meetup.html:37 templates/meetup.html:42 templates/meetup.html:47
+#: templates/meetup.html:52 templates/meetup.html:56
 #, python-format
 msgid "%(num)s Bratislavský Python Meetup"
 msgstr "%(num)s Bratislava Python Meetup"
@@ -1048,7 +1078,6 @@ msgid "Stručné vizitky hostí, ktorí vystúpia na PyCon SK 2016."
 msgstr "Some of the speakers who will speak at PyCon SK 2016."
 
 #: templates/speakers.html:13
-#, fuzzy
 msgid ""
 "S Python pracuje denne v <a href=\"http://www.ait.ac.at\" "
 "target=\"_blank\">Rakúskom technologickom inštitúte</a>, kde rieši "
@@ -1061,16 +1090,16 @@ msgid ""
 "Preto sa rád podelí o skúsenosti s každým, kto sa zaujíma o "
 "<em>\"výpočtové veci\"</em>."
 msgstr ""
-"At <a href=\"http://www.ait.ac.at\" target=\"_blank\">AIT</a>, I work "
+"At <a href=\"http://www.ait.ac.at\" target=\"_blank\">AIT</a>, he works "
 "with <a href=\"http://scipy.org\" target=\"_blank\">Python's scientific "
 "stack</a> on a daily basis to deal with research questions requiring data"
 " analysis and (statistical) modeling tasks. Before becoming a Python "
-"enthusiast I was a <a href=\"http://mathworks.com/products/matlab\" "
-"target=\"_blank\">MATLAB</a> user and know about the difficulties one "
+"enthusiast he was a <a href=\"http://mathworks.com/products/matlab\" "
+"target=\"_blank\">MATLAB</a> user and knows about the difficulties one "
 "encounters when trying to enter such a rich and complex environment. "
 "However, Python is not only fun to learn and to program but it is indeed "
 "a very competitive choice for addressing scientific questions. Therefore,"
-" I would like to share my experience with those who are interested in "
+" he would like to share his experience with those who are interested in "
 "<em>computing stuff</em>."
 
 #: templates/speakers.html:23
@@ -1119,15 +1148,15 @@ msgid ""
 "href=\"https://www.kistler.com/sk/en/\" target=\"_blank\" "
 "title=\"Kistler\">Kistler</a>."
 msgstr ""
-"He graduated from Comenius University, majoring in Applied Informatics. Python helped him "
-" with his master thesis and this was the first time he used it for "
-"a development of a larger application. After graduation he had worked as a web "
-"developer for a Netherland-based startup, where he gained authentic work experiences"
-" with Ruby on Rails and JavaScript. Later he moved on to join"
-"<a href=\"https://www.eset.com/sk/\" target=\"_blank\" "
-"title=\"Eset\">ESET</a> as test automation engineer, where he was "
-"dedicated to testing automation using a robot frameworku. After several "
-"years he decided to change his job again. He's chosen <a "
+"He graduated from Comenius University, majoring in Applied Informatics. "
+"Python helped him  with his master thesis and this was the first time he "
+"used it for a development of a larger application. After graduation he "
+"had worked as a web developer for a Netherland-based startup, where he "
+"gained authentic work experiences with Ruby on Rails and JavaScript. "
+"Later he moved on to join<a href=\"https://www.eset.com/sk/\" "
+"target=\"_blank\" title=\"Eset\">ESET</a> as test automation engineer, "
+"where he was dedicated to testing automation using a robot frameworku. "
+"After several years he decided to change his job again. He's chosen <a "
 "href=\"https://www.kistler.com/sk/en/\" target=\"_blank\" "
 "title=\"Kistler\">Kistler</a>, where he works on similar projects."
 
@@ -1265,10 +1294,11 @@ msgid ""
 "košom. Mal by byť matematik, ale krásu rád objavuje aj v rozmýšľaní, "
 "kreslení si a hraní sa s počítačmi."
 msgstr ""
-"He has been teaching (and learning) for four decades, mostly in Žilina (northern Slovakia)."
-"A heavy Linux user since 1994. He came across Python when working with Pascal and C."
-"Today, Python is his programming language of choice. Although he's supposed to be a mathematician,"
-"he loves to explore beauty in thinking, drawing and fiddling with computers."
+"He has been teaching (and learning) for four decades, mostly in Žilina "
+"(northern Slovakia).A heavy Linux user since 1994. He came across Python "
+"when working with Pascal and C.Today, Python is his programming language "
+"of choice. Although he's supposed to be a mathematician,he loves to "
+"explore beauty in thinking, drawing and fiddling with computers."
 
 #: templates/speakers.html:155
 msgid ""
@@ -2403,4 +2433,19 @@ msgstr "more about our vision and objectives"
 
 #~ msgid "Preskočiť na začiatok"
 #~ msgstr "Back to top"
+
+#~ msgid ""
+#~ "Andrej so sebou prinesie <a "
+#~ "href=\"http://wipy.io/\" target=\"_blank\">WiPy</a> a "
+#~ "<a href=\"https://micropython.org/store/#/store\" "
+#~ "target=\"_blank\">PyBoard</a>, porozpráva o vývoji"
+#~ " hardwaru v micropythone. Ukáže workflow"
+#~ " vývoja zariadení, základné schémy a "
+#~ "na záver zostrojí budík. Ak sa "
+#~ "zaujímate o Internet of Things, ale "
+#~ "neviete kde začať, alebo sa chcete "
+#~ "dozvedieť ako si začať vyrábať doma "
+#~ "jednoúčelové zariadenia, tento meetup vás "
+#~ "určite zaujme."
+#~ msgstr ""
 

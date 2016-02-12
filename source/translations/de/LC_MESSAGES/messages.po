@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-10 21:25+0100\n"
+"POT-Creation-Date: 2016-02-12 13:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Prvý Bratislavský Python Meetup"
 msgstr ""
 
-#: templates/ba-01-meetup.html:7 templates/meetup.html:51
+#: templates/ba-01-meetup.html:7 templates/meetup.html:57
 msgid "7. júl 2015 – 18:00"
 msgstr ""
 
@@ -34,18 +34,18 @@ msgstr ""
 msgid "Kalendár ProgressBaru"
 msgstr ""
 
-#: templates/ba-01-meetup.html:14 templates/ba-02-meetup.html:12
-#: templates/ba-03-meetup.html:12 templates/ba-04-meetup.html:12
-#: templates/ba-05-meetup.html:12 templates/ba-06-meetup.html:14
-#: templates/ba-07-meetup.html:17 templates/ba-08-meetup.html:15
-#: templates/spy.html:18
-msgid "Kontakt"
-msgstr ""
-
 #: templates/ba-01-meetup.html:15 templates/ba-02-meetup.html:13
 #: templates/ba-03-meetup.html:13 templates/ba-04-meetup.html:13
 #: templates/ba-05-meetup.html:13 templates/ba-06-meetup.html:15
 #: templates/ba-07-meetup.html:18 templates/ba-08-meetup.html:16
+#: templates/spy.html:18
+msgid "Kontakt"
+msgstr ""
+
+#: templates/ba-01-meetup.html:16 templates/ba-02-meetup.html:14
+#: templates/ba-03-meetup.html:14 templates/ba-04-meetup.html:14
+#: templates/ba-05-meetup.html:14 templates/ba-06-meetup.html:16
+#: templates/ba-07-meetup.html:19 templates/ba-08-meetup.html:17
 msgid "Organizátor"
 msgstr ""
 
@@ -53,7 +53,7 @@ msgstr ""
 msgid "Druhý Bratislavský Python Meetup"
 msgstr ""
 
-#: templates/ba-02-meetup.html:7 templates/meetup.html:47
+#: templates/ba-02-meetup.html:7 templates/meetup.html:53
 msgid "4. august 2015 – 18:00"
 msgstr ""
 
@@ -61,7 +61,7 @@ msgstr ""
 msgid "Tretí Bratislavský Python Meetup"
 msgstr ""
 
-#: templates/ba-03-meetup.html:7 templates/meetup.html:42
+#: templates/ba-03-meetup.html:7 templates/meetup.html:48
 msgid "8. september 2015 – 18:00"
 msgstr ""
 
@@ -69,7 +69,7 @@ msgstr ""
 msgid "Štvrtý Bratislavský Python Meetup"
 msgstr ""
 
-#: templates/ba-04-meetup.html:7 templates/meetup.html:37
+#: templates/ba-04-meetup.html:7 templates/meetup.html:43
 msgid "6. október 2015 – 18:00"
 msgstr ""
 
@@ -77,7 +77,7 @@ msgstr ""
 msgid "Piaty Bratislavský Python Meetup"
 msgstr ""
 
-#: templates/ba-05-meetup.html:7 templates/meetup.html:32
+#: templates/ba-05-meetup.html:7 templates/meetup.html:38
 msgid "10. november 2015 – 18:00"
 msgstr ""
 
@@ -85,11 +85,11 @@ msgstr ""
 msgid "Šiesty Bratislavský Python Meetup"
 msgstr ""
 
-#: templates/ba-06-meetup.html:7 templates/meetup.html:27
+#: templates/ba-06-meetup.html:7 templates/meetup.html:33
 msgid "8. december 2015 – 18:00"
 msgstr ""
 
-#: templates/ba-06-meetup.html:14
+#: templates/ba-06-meetup.html:15
 msgid "Bratislava Python Meetup Email"
 msgstr ""
 
@@ -97,7 +97,7 @@ msgstr ""
 msgid "Siedmy Bratislavský Python Meetup"
 msgstr ""
 
-#: templates/ba-07-meetup.html:7 templates/meetup.html:22
+#: templates/ba-07-meetup.html:7 templates/meetup.html:28
 msgid "12. január 2016 – 18:00"
 msgstr ""
 
@@ -137,7 +137,7 @@ msgstr ""
 msgid "Ôsmy Bratislavský Python Meetup"
 msgstr ""
 
-#: templates/ba-08-meetup.html:7 templates/meetup.html:17
+#: templates/ba-08-meetup.html:7 templates/meetup.html:23
 msgid "9. február 2016 – 18:00"
 msgstr ""
 
@@ -160,7 +160,7 @@ msgstr ""
 msgid "slovenčina"
 msgstr ""
 
-#: templates/ba-08-meetup.html:20
+#: templates/ba-08-meetup.html:21
 msgid ""
 "V marci všetko naše úsilie zameriame na PyCon, takže marcový meetup "
 "vynecháme a <strong>ďalšie stretnutie bude v apríli</strong>."
@@ -811,9 +811,42 @@ msgid ""
 "href=\"%(url)s\">meetupy</a>."
 msgstr ""
 
-#: templates/meetup.html:16 templates/meetup.html:21 templates/meetup.html:26
-#: templates/meetup.html:31 templates/meetup.html:36 templates/meetup.html:41
-#: templates/meetup.html:46 templates/meetup.html:50
+#: templates/meetup.html:7
+msgid ""
+"Ďakujeme všetkým, ktorí sa zúčastňujú na pravidelných stretnutiach a "
+"tešíme sa na vás na ďalšom meetupe. Python meetup je stretnutie ľudí, "
+"ktoré nejakým spôsobom súvisí s programovacím jazykom Python. Momentálne "
+"sa konajú pravidelné meetupy v Bratislave, <u>každý prvý pracovný utorok "
+"v mesiaci</u>. Pokiaľ by ste chceli zorganizovať meetup vo vašom meste, "
+"neváhajte nás kontaktovať a radi vám pomôžeme."
+msgstr ""
+
+#: templates/meetup.html:9
+msgid "<strong>Vstup na meetupy je bezplatný</strong>."
+msgstr ""
+
+#: templates/meetup.html:11
+msgid ""
+"Približný čas trvania meetupov: dve hodiny (cca hodina prezentácia, "
+"hodina alebo viac diskusia)."
+msgstr ""
+
+#: templates/meetup.html:13
+#, python-format
+msgid ""
+"Miesto konania: <a href=\"%(url_pb)s\" target=\"_blank\">ProgressBar "
+"hackerspace</a>, Michalská 3 (centrum Bratislavy). Neďaleké zastávky MHD:"
+" <a href=\"%(url_zochova)s\" target=\"_blank\">Zochova</a>, <a "
+"href=\"%(url_kapucinska)s\" target=\"_blank\">Kapucínska</a>, neďaleké "
+"platené parkovanie: <a href=\"%(url_ppg)s\" "
+"target=\"_blank\">Uršulínska</a>, <a href=\"%(url_carlton)s\" "
+"target=\"_blank\">Hotel Carlton</a>, <a href=\"%(url_park_inn)s\" "
+"target=\"_blank\">Hotel Park Inn</a>."
+msgstr ""
+
+#: templates/meetup.html:22 templates/meetup.html:27 templates/meetup.html:32
+#: templates/meetup.html:37 templates/meetup.html:42 templates/meetup.html:47
+#: templates/meetup.html:52 templates/meetup.html:56
 #, python-format
 msgid "%(num)s Bratislavský Python Meetup"
 msgstr ""

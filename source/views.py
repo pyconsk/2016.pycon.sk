@@ -10,7 +10,7 @@ babel = Babel(app)
 
 LOGO_PYCON = 'images/logo/pycon.svg'
 LOGO_MEETUP_BA = 'images/logo/bratislava_logo.svg'
-LOGO_GITHUB = 'images/logo/GitHub-Mark-32px.png'
+
 LANGS = ('en', 'sk')
 SITEMAP = {
     'sitemap.xml': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2015-12-18T10:53:24+00:00'},
@@ -271,7 +271,6 @@ def ba_meetup_01():
       }
     }
     return render_template('ba-01-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
-                                                                          logo_github=LOGO_GITHUB,
                                                                           ld_json=LDJSON_EVENT))
 
 
@@ -326,7 +325,6 @@ def ba_meetup_02():
       }
     }
     return render_template('ba-02-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
-                                                                          logo_github=LOGO_GITHUB,
                                                                           ld_json=LDJSON_EVENT))
 
 
@@ -377,7 +375,6 @@ def ba_meetup_03():
       }
     }
     return render_template('ba-03-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
-                                                                          logo_github=LOGO_GITHUB,
                                                                           ld_json=LDJSON_EVENT))
 
 
@@ -427,7 +424,6 @@ def ba_meetup_04():
       }
     }
     return render_template('ba-04-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
-                                                                          logo_github=LOGO_GITHUB,
                                                                           ld_json=LDJSON_EVENT))
 
 
@@ -478,7 +474,6 @@ def ba_meetup_05():
       }
     }
     return render_template('ba-05-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
-                                                                          logo_github=LOGO_GITHUB,
                                                                           ld_json=LDJSON_EVENT))
 
 
@@ -529,7 +524,6 @@ def ba_meetup_06():
       }
     }
     return render_template('ba-06-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
-                                                                          logo_github=LOGO_GITHUB,
                                                                           ld_json=LDJSON_EVENT))
 
 
@@ -580,7 +574,6 @@ def ba_meetup_07():
       }
     }
     return render_template('ba-07-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
-                                                                          logo_github=LOGO_GITHUB,
                                                                           ld_json=LDJSON_EVENT))
 
 
@@ -631,7 +624,6 @@ def ba_meetup_08():
       }
     }
     return render_template('ba-08-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
-                                                                          logo_github=LOGO_GITHUB,
                                                                           ld_json=LDJSON_EVENT))
 
 
