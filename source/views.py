@@ -102,21 +102,21 @@ def index():
         "@type" : "Offer",
         "name" : "Supporter Early Bird",
         "category" : "presale",
-        "price" : "50",
+        "price" : "70",
         "priceCurrency" : "EUR",
         "url" : "https://ti.to/pyconsk/2016"
       },{
         "@type" : "Offer",
         "name" : "Standard Early Bird",
         "category" : "presale",
-        "price" : "20",
+        "price" : "30",
         "priceCurrency" : "EUR",
         "url" : "https://ti.to/pyconsk/2016"
       },{
         "@type" : "Offer",
         "name" : "Student Early Bird",
         "category" : "presale",
-        "price" : "10",
+        "price" : "15",
         "priceCurrency" : "EUR",
         "url" : "https://ti.to/pyconsk/2016"
       }],

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-12 14:01+0100\n"
+"POT-Creation-Date: 2016-02-15 10:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -197,7 +197,7 @@ msgstr ""
 msgid "Workshop"
 msgstr ""
 
-#: templates/body.html:83 templates/django-girls.html:60
+#: templates/body.html:83 templates/django-girls.html:62
 msgid "Sponzori"
 msgstr ""
 
@@ -305,7 +305,7 @@ msgid ""
 "stretnutia v akejkoľvek forme."
 msgstr ""
 
-#: templates/django-girls.html:5 templates/django-girls.html:55
+#: templates/django-girls.html:5 templates/django-girls.html:57
 msgid "Django Girls"
 msgstr ""
 
@@ -360,61 +360,57 @@ msgid ""
 "potvrdenie, či si bola na vybratá alebo nie."
 msgstr ""
 
-#: templates/django-girls.html:24
-msgid "Registruj sa"
-msgstr ""
-
-#: templates/django-girls.html:28
+#: templates/django-girls.html:30
 msgid "Často kladené otázky"
 msgstr ""
 
-#: templates/django-girls.html:30
+#: templates/django-girls.html:32
 msgid "Čo potrebujem vedieť o vývoji web stránok alebo programovaní?"
 msgstr ""
 
-#: templates/django-girls.html:31
+#: templates/django-girls.html:33
 msgid ""
 "Nič! Workshop je pre začiatočníkov a nepotrebuješ žiadne predchádzajúce "
 "skúsenosti. Na druhú stranu, určite sa môžeš prihlásiť, ak už máš nejaké "
 "základy (vieš, čo je HTML alebo CSS)"
 msgstr ""
 
-#: templates/django-girls.html:33
+#: templates/django-girls.html:35
 msgid "Mám si doniesť vlastný počítač?"
 msgstr ""
 
-#: templates/django-girls.html:34
+#: templates/django-girls.html:36
 msgid ""
 "Áno. Nemáme žiadny hardvér, očakávame, že si prinesieš vlastný počítač (s"
 " nabíjačkou). Je dôležité, aby si si vzala domov všetky materiály, ktoré "
 "vytvoríš počas workshopu."
 msgstr ""
 
-#: templates/django-girls.html:36
+#: templates/django-girls.html:38
 msgid "Musím si niečo nainštalovať na môj počítač?"
 msgstr ""
 
-#: templates/django-girls.html:37
+#: templates/django-girls.html:39
 msgid ""
 "Bolo by dobré mať nainštalované Django ešte pred workshopom, no nie je to"
 " podmienka. Naši mentori ti s tým radi pomôžu priamo na workshope."
 msgstr ""
 
-#: templates/django-girls.html:39
+#: templates/django-girls.html:41
 msgid "Bude sa počas workshopu podávať aj strava?"
 msgstr ""
 
-#: templates/django-girls.html:40
+#: templates/django-girls.html:42
 msgid ""
 "Áno. Vďaka PyCon SK a sponzorom bude počas workshopu podávaný obed, káva "
 "a občerstvenie."
 msgstr ""
 
-#: templates/django-girls.html:51
+#: templates/django-girls.html:53
 msgid "Staň sa mentorom"
 msgstr ""
 
-#: templates/django-girls.html:52
+#: templates/django-girls.html:54
 msgid ""
 "Budeme radi, ak sa k nám pridáš a staneš sa mentorom. Pošli nám email na "
 "<a "
@@ -422,7 +418,7 @@ msgid ""
 " a napíš nám niečo o sebe... <br />My sa ozveme späť :)"
 msgstr ""
 
-#: templates/django-girls.html:56
+#: templates/django-girls.html:58
 msgid ""
 "Django Girls workshop na konferencii PyCon SK je súčasťou medzinárodnej "
 "iniciatívy <a href=\"https://www.djangogirls.org/#pyconsk\" "
@@ -431,7 +427,7 @@ msgid ""
 "výučbu programovania po celom svete."
 msgstr ""
 
-#: templates/django-girls.html:61
+#: templates/django-girls.html:63
 msgid ""
 "Nemohli by sme tu byť bez podpory od úžasných ľudí a spoločností, ktorí "
 "poskytli peniaze, vedomosti a svoj čas, aby nám pomohli uskutočniť tento "
@@ -470,11 +466,11 @@ msgstr ""
 msgid "Ubytovanie"
 msgstr ""
 
-#: templates/getting-here.html:25 templates/tickets.html:22
+#: templates/getting-here.html:25 templates/tickets.html:24
 msgid "Slovenská technická univerzita v Bratislave"
 msgstr ""
 
-#: templates/getting-here.html:26 templates/tickets.html:23
+#: templates/getting-here.html:26 templates/tickets.html:25
 msgid "Fakulta informatiky a informačných technológií"
 msgstr ""
 
@@ -788,13 +784,7 @@ msgid ""
 msgstr ""
 
 #: templates/index.html:36 templates/tickets.html:12
-msgid "Vstupenky sú momentálne vypredané."
-msgstr ""
-
-#: templates/index.html:36
-msgid ""
-"Pracujeme však na tom, aby sme mohli pridať do predaja ešte niekoľko "
-"ďalších."
+msgid "Vstupenky sú opäť v predaji."
 msgstr ""
 
 #: templates/index.html:41
@@ -863,7 +853,7 @@ msgstr ""
 msgid "Strieborní sponzori:"
 msgstr ""
 
-#: templates/right_nav.html:66 templates/sponsors.html:237
+#: templates/right_nav.html:66 templates/sponsors.html:281
 msgid "Hlavný mediálny partner"
 msgstr ""
 
@@ -1436,7 +1426,7 @@ msgstr ""
 msgid "Zlatí sponzori"
 msgstr ""
 
-#: templates/sponsors.html:70 templates/sponsors.html:212
+#: templates/sponsors.html:70 templates/sponsors.html:243
 msgid ""
 "Python Software Foundation je nezisková organizácia, ktorá sa aktívne "
 "venuje presadzovaniu a podpore programovacieho jazyka Python. PSF "
@@ -1485,17 +1475,17 @@ msgid ""
 "distribúciu Fedora."
 msgstr ""
 
-#: templates/sponsors.html:173
+#: templates/sponsors.html:186
 msgid ""
 "PyCharm 5 predstavuje vynikajúci vývojársky nástroj pre Python, web a "
 "vedeckých vývojarov. PyCharm ponúka jedinečný zážitok z programovania."
 msgstr ""
 
-#: templates/sponsors.html:199
+#: templates/sponsors.html:230
 msgid "Django Girls sponzori"
 msgstr ""
 
-#: templates/sponsors.html:225
+#: templates/sponsors.html:256
 msgid ""
 "Skypicker.com je inovatívny celosvetový vyhľadávač leteniek, ktorý sa "
 "zameriava na kombinácie nespolupracujúcich aerolinek, kde je schopný "
@@ -1504,11 +1494,11 @@ msgid ""
 "zárukou na nadväzujúce lety."
 msgstr ""
 
-#: templates/sponsors.html:262
+#: templates/sponsors.html:306
 msgid "Mediálni partneri"
 msgstr ""
 
-#: templates/sponsors.html:275
+#: templates/sponsors.html:319
 msgid ""
 "Startitup je najpopulárnejší a najprogresívnejšie rastúci tech/startup "
 "portál na Slovensku a v Čechách, ktorý informuje, inšpiruje a zabáva "
@@ -1516,11 +1506,11 @@ msgid ""
 "najkredibilnejších nezávislých médií na Slovensku."
 msgstr ""
 
-#: templates/sponsors.html:300
+#: templates/sponsors.html:344
 msgid "Partneri konferencie"
 msgstr ""
 
-#: templates/sponsors.html:313
+#: templates/sponsors.html:357
 msgid ""
 "Fakulta informatiky a informačných technológií (FIIT) je jednou zo "
 "siedmich fakúlt Slovenskej technickej univerzity v Bratislave (STU). FIIT"
@@ -1529,7 +1519,7 @@ msgid ""
 "poslaním."
 msgstr ""
 
-#: templates/sponsors.html:326
+#: templates/sponsors.html:370
 msgid ""
 "Cieľom tohto portálu je informovať. Informuje dievčatá, ich rodičov, "
 "verejnosť o tom, že vo svete IT je skvelé mať ženy. Prináša profily "
@@ -1539,7 +1529,7 @@ msgid ""
 "akciách pre dievčatá, kam sa môžu pridať."
 msgstr ""
 
-#: templates/sponsors.html:339
+#: templates/sponsors.html:383
 msgid ""
 "Našim cieľom je poskytovať inovatívnu platformu pre stretávanie sa s "
 "ľuďmi a výmenu informácií pre tých, ktorí sa zaujímajú o hacking, 3D "
@@ -1643,185 +1633,191 @@ msgid ""
 msgstr ""
 
 #: templates/tickets.html:12
-msgid "Pracujeme na tom, aby sme mohli dať ešte niekoľko vstupeniek do predaja."
+msgid ""
+"Podarilo sa zabezpečiť novú aulu na Fakulte informatiky a informačných "
+"technológií."
 msgstr ""
 
-#: templates/tickets.html:16
+#: templates/tickets.html:14
+msgid "Predaj lístkov sa opätovne spustí v pondelok, 15. februára o 12:00 CET."
+msgstr ""
+
+#: templates/tickets.html:18
 #, python-format
 msgid ""
 "Vstupenky si taktiež môžete kúpiť priamo na internetovej stránke "
 "%(tito_link)s v prípade, že sa Vám Tito widget nezobrazuje správne."
 msgstr ""
 
-#: templates/tickets.html:18
+#: templates/tickets.html:20
 msgid "Kúpou lístka vyjadrujete súhlas s dodržiavaním kódexu správania."
 msgstr ""
 
-#: templates/tickets.html:20
+#: templates/tickets.html:22
 msgid "Kde sa uskutoční konferencia?"
 msgstr ""
 
-#: templates/tickets.html:28
+#: templates/tickets.html:30
 msgid "Ako sa dostať na FIIT STU"
 msgstr ""
 
-#: templates/tickets.html:28
+#: templates/tickets.html:30
 msgid "Ako sa tam dostať"
 msgstr ""
 
-#: templates/tickets.html:31
+#: templates/tickets.html:33
 msgid "Aký lístok si mám kúpiť?"
 msgstr ""
 
-#: templates/tickets.html:33
+#: templates/tickets.html:35
 msgid "Supporter"
 msgstr ""
 
-#: templates/tickets.html:33
+#: templates/tickets.html:35
 msgid ""
 "Lístok je určený pre účastníkov, ktorí chcú aby ich meno (firma) bolo "
 "zverejnené v zozname podporovateľov na našom webe."
 msgstr ""
 
-#: templates/tickets.html:34
+#: templates/tickets.html:36
 msgid "Standard"
 msgstr ""
 
-#: templates/tickets.html:34
+#: templates/tickets.html:36
 msgid "Lístok je určený pre všetkých účastníkov konferencie."
 msgstr ""
 
-#: templates/tickets.html:35
+#: templates/tickets.html:37
 msgid "Student"
 msgstr ""
 
-#: templates/tickets.html:35
+#: templates/tickets.html:37
 msgid ""
 "Lístok je určený pre študentov. Nezabudnite si so sebou na registráciu "
 "priniesť platný študentský preukaz (ISIC)."
 msgstr ""
 
-#: templates/tickets.html:38
+#: templates/tickets.html:40
 msgid "Je aj iná možnosť ako sa dostať na PyCon?"
 msgstr ""
 
-#: templates/tickets.html:40
+#: templates/tickets.html:42
 msgid ""
 "Spustili sme štipendijný program, ktorý umožní niektorým návštevníkom "
 "prísť na PyCon zadarmo. Napíšte nám, prečo by sme práve Vám mali dať "
 "vstupenku."
 msgstr ""
 
-#: templates/tickets.html:41
+#: templates/tickets.html:43
 msgid ""
 "Ak máte menej ako 18 rokov a prídete v sprievode rodiča, stačí ak si "
 "lístok zakúpi iba rodič, no musíte sa nám ozvať aby sme vystavili "
 "vstupenku aj pre dieťa."
 msgstr ""
 
-#: templates/tickets.html:42
+#: templates/tickets.html:44
 msgid ""
 "Pre sociálne znevýhodnených účastníkov máme pripravený grantový program. "
 "Napíšte nám ak máte záujem sa ho zúčastniť."
 msgstr ""
 
-#: templates/tickets.html:45
+#: templates/tickets.html:47
 msgid "Čo všetko mám v lístku?"
 msgstr ""
 
-#: templates/tickets.html:47
+#: templates/tickets.html:49
 msgid "Dva dni prednášok."
 msgstr ""
 
-#: templates/tickets.html:48
+#: templates/tickets.html:50
 msgid "Obed počas oboch dní konferencie."
 msgstr ""
 
-#: templates/tickets.html:49
+#: templates/tickets.html:51
 msgid "Kávu a koláčik počas prestávok."
 msgstr ""
 
-#: templates/tickets.html:50
+#: templates/tickets.html:52
 msgid "Tričko a tašku plnú prekvapení."
 msgstr ""
 
-#: templates/tickets.html:51
+#: templates/tickets.html:53
 msgid "Pozvánka na piatkovú neformálnu party."
 msgstr ""
 
-#: templates/tickets.html:54
+#: templates/tickets.html:56
 msgid "Aký bude program konferencie?"
 msgstr ""
 
-#: templates/tickets.html:56
+#: templates/tickets.html:58
 msgid "Piatok"
 msgstr ""
 
-#: templates/tickets.html:56
+#: templates/tickets.html:58
 msgid "prednášky v slovenčine, resp. češtine"
 msgstr ""
 
-#: templates/tickets.html:57
+#: templates/tickets.html:59
 msgid "Sobota"
 msgstr ""
 
-#: templates/tickets.html:57
+#: templates/tickets.html:59
 msgid "prednášky v angličtine"
 msgstr ""
 
-#: templates/tickets.html:58
+#: templates/tickets.html:60
 msgid "Nedeľa"
 msgstr ""
 
-#: templates/tickets.html:58
+#: templates/tickets.html:60
 #, python-format
 msgid ""
 "<a href=\"%(url)s\">Django Girls</a> workshop (samostatná registrácia, "
 "PyCon SK lístok nie je potrebný)"
 msgstr ""
 
-#: templates/tickets.html:61
+#: templates/tickets.html:63
 msgid "Podrobný program konferencie zverejníme už čoskoro."
 msgstr ""
 
-#: templates/tickets.html:64
+#: templates/tickets.html:66
 msgid "Ponúkate množstevné zľavy?"
 msgstr ""
 
-#: templates/tickets.html:66
+#: templates/tickets.html:68
 msgid ""
 "Ak máte záujem kúpiť viac ako 10 lístkov kontaktujete nás emailom na "
 "info@pycon.sk."
 msgstr ""
 
-#: templates/tickets.html:69
+#: templates/tickets.html:71
 msgid "Nemám PayPal, je možné kúpiť vstupenku inak ako cez Tito?"
 msgstr ""
 
-#: templates/tickets.html:71
+#: templates/tickets.html:73
 msgid ""
 "Akceptujeme aj bankový prevod, prípadne Bitcoin. Napíšte nám, o aké "
 "lístky máte záujem, zašleme Vám variabilný symbol a po pripísaní sumy na "
 "náš účet Vám vystavíme a pošleme emailom vstupenku."
 msgstr ""
 
-#: templates/tickets.html:72
+#: templates/tickets.html:74
 msgid "Bankové spojenie nájdete na stránkach"
 msgstr ""
 
-#: templates/tickets.html:72
+#: templates/tickets.html:74
 msgid "SPy o.z."
 msgstr ""
 
-#: templates/tickets.html:72
+#: templates/tickets.html:74
 msgid "našeho občianského združenia"
 msgstr ""
 
-#: templates/tickets.html:75
+#: templates/tickets.html:77
 msgid "Kam idú všetky peniaze za lístky?"
 msgstr ""
 
-#: templates/tickets.html:77
+#: templates/tickets.html:79
 msgid ""
 "PyCon je kompletne organizovaný dobrovoľníkmi. Veríme, že organizovať "
 "takéto konferencie je potrebné, aby propagovali programovanie a Open "
@@ -1832,11 +1828,11 @@ msgid ""
 "programovania všeobecne, prečítajte si"
 msgstr ""
 
-#: templates/tickets.html:77
+#: templates/tickets.html:79
 msgid "ciele SPy o.z."
 msgstr ""
 
-#: templates/tickets.html:77
+#: templates/tickets.html:79
 msgid "viac o našich cieľoch"
 msgstr ""
 
@@ -2038,16 +2034,12 @@ msgstr ""
 #~ msgid "Stručné vizitky hostí, ktorí vystúpia na PyCon SK 2016"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "Petra je senior software developer v "
-#~ "<a href=\"https://google.com\" title=\"Google\" "
-#~ "target=\"_blank\"> Google </a> v San "
-#~ "Francisco. Počas takmer 11 rokov v "
-#~ "Google pracovala na vyhľadávaní, Gmail "
-#~ "frontende, jej súčasný projekt je "
-#~ "Android Pay. Petra miluje kódovanie, "
-#~ "fototografovanie a výrobu StopMotion videa "
-#~ "(je <a href=\"http://www.stopmotionista.com\" "
-#~ "target=\"_blank\">stopmotionista.com</a>) a cestovanie."
+#~ msgid "Registruj sa"
+#~ msgstr ""
+
+#~ msgid "Vstupenky sú momentálne vypredané."
+#~ msgstr ""
+
+#~ msgid "Vstupenky budú opäť v predaji."
 #~ msgstr ""
 
