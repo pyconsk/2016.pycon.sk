@@ -21,9 +21,10 @@
 
     <p class="text-justify lead"><small>{% trans link=url_for('president', lang_code=lang_code) %}Veľmi sa tešíme, že vám môžeme oznámiť dobrú správu: Premiérový ročník konferencie PyCon SK sa uskutoční <a href="{{ link }}">pod záštitou prezidenta SR Andreja Kisku</a>.{% endtrans %}</small></p>
 
-    <p class="text-justify">{{ _('Po úspešnom uvedení vo viac ako 40 krajinách sveta prichádza po prvýkrát na Slovensko. Prednášky budú rozdelené na piatok - slovenský deň a sobotu - anglický deň. Nedeľa bude určená workshopom, budete mať možnosť zúčastniť sa Python Clinic, kde sa budete môcť porozprávať s niektorými rečníkmi podrobnejšie o ich téme, alebo si prakticky odskúšať niektoré Python technológie na vlastnej klávesnici. Taktiež sme pripravili <a href="%(url)s">Django Girls</a> workshop, ktorý bude vhodný aj pre úplné začiatočníčky.', url=url_for('django_girls', lang_code=lang_code)) }} {% if lang_code=='sk' %}{{ _('Tlačová správa v') }} <a href="{{ url_for('static', filename='tlacova_sprava.pdf') }}"> PDF <span class="glyphicon glyphicon-download-alt"></span></a></p>{% endif %}
-    
-    <p class="text-center lead"><a href="{{ url_for('tickets', lang_code=lang_code) }}">{{ _('Vstupenky sú opäť v predaji.') }}</a></p>
+    <p class="text-justify">{{ _('Po úspešnom uvedení vo viac ako 40 krajinách sveta prichádza po prvýkrát na Slovensko. Prednášky budú rozdelené na piatok - slovenský deň a sobotu - anglický deň. Nedeľa bude určená workshopom a Python Clinic, kde sa budete môcť porozprávať s niektorými rečníkmi podrobnejšie o ich téme, alebo si prakticky odskúšať niektoré Python technológie na vlastnej klávesnici. Taktiež sme pripravili <a href="%(url)s">Django Girls</a> workshop, ktorý bude vhodný aj pre úplné začiatočníčky.', url=url_for('django_girls', lang_code=lang_code)) }} {% if lang_code=='sk' %}{{ _('Tlačová správa v') }} <a href="{{ url_for('static', filename='tlacova_sprava.pdf') }}"> PDF <span class="glyphicon glyphicon-download-alt"></span></a></p>{% endif %}
+
+    <br>
+    <p class="text-center lead"><a href="{{ url_for('tickets', lang_code=lang_code) }}">{{ _('Vstupenky sú opäť v predaji!') }}</a></p>
 
     <p>{{ _('Zverejnili sme mená rečníkov, ktorí vystúpia na konferencii. Môžete sa tešiť na zaujímavé vystúpenia skvelých domácich a zahraničných hostí.') }} {{ _('Čoskoro zverejníme aj zoznam prednášok a čas ich konania.') }}</p>
 

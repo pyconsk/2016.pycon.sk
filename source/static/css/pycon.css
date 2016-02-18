@@ -92,13 +92,23 @@ mark.platinum {
   margin-top: 40px;
 }
 
-.sbox {
+.sbox, .sline {
   display: block;
   padding: 0;
   margin: 0;
   border: 1px solid #ddd;
   border-radius: 4px;
   transition: border 0.2s ease-in-out 0s;
+}
+
+.sline {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.sbox {
   height: 320px;
 }
 

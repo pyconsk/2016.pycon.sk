@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-18 19:29+0100\n"
+"POT-Creation-Date: 2016-02-18 21:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -285,7 +285,7 @@ msgid ""
 msgstr ""
 
 #: templates/code-of-conduct.html:22
-msgid "Slovenská Python Komunita"
+msgid "Slovenská Python komunita"
 msgstr ""
 
 #: templates/code-of-conduct.html:23
@@ -780,12 +780,11 @@ msgstr ""
 msgid ""
 "Po úspešnom uvedení vo viac ako 40 krajinách sveta prichádza po prvýkrát "
 "na Slovensko. Prednášky budú rozdelené na piatok - slovenský deň a sobotu"
-" - anglický deň. Nedeľa bude určená workshopom, budete mať možnosť "
-"zúčastniť sa Python Clinic, kde sa budete môcť porozprávať s niektorými "
-"rečníkmi podrobnejšie o ich téme, alebo si prakticky odskúšať niektoré "
-"Python technológie na vlastnej klávesnici. Taktiež sme pripravili <a "
-"href=\"%(url)s\">Django Girls</a> workshop, ktorý bude vhodný aj pre "
-"úplné začiatočníčky."
+" - anglický deň. Nedeľa bude určená workshopom a Python Clinic, kde sa "
+"budete môcť porozprávať s niektorými rečníkmi podrobnejšie o ich téme, "
+"alebo si prakticky odskúšať niektoré Python technológie na vlastnej "
+"klávesnici. Taktiež sme pripravili <a href=\"%(url)s\">Django Girls</a> "
+"workshop, ktorý bude vhodný aj pre úplné začiatočníčky."
 msgstr ""
 
 #: templates/index.html:24
@@ -793,28 +792,28 @@ msgstr ""
 msgid "Tlačová správa v"
 msgstr ""
 
-#: templates/index.html:26 templates/tickets.html:12
-msgid "Vstupenky sú opäť v predaji."
+#: templates/index.html:27
+msgid "Vstupenky sú opäť v predaji!"
 msgstr ""
 
-#: templates/index.html:28
+#: templates/index.html:29
 msgid ""
 "Zverejnili sme mená rečníkov, ktorí vystúpia na konferencii. Môžete sa "
 "tešiť na zaujímavé vystúpenia skvelých domácich a zahraničných hostí."
 msgstr ""
 
-#: templates/index.html:28
+#: templates/index.html:29
 msgid "Čoskoro zverejníme aj zoznam prednášok a čas ich konania."
 msgstr ""
 
-#: templates/index.html:37
+#: templates/index.html:38
 msgid ""
 "Ak máte záujem prispieť, stať sa dobrovoľníkom alebo akokoľvek inak "
 "pomôcť s organizáciou PyCon SK (ktorý je kompletne organizovaný "
 "dobrovoľníkmi), budeme radi, ak sa nám ozvete."
 msgstr ""
 
-#: templates/index.html:38
+#: templates/index.html:39
 #, python-format
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
@@ -1616,6 +1615,10 @@ msgid ""
 "zmýšľajúcich ľudí."
 msgstr ""
 
+#: templates/sponsors.html:395
+msgid "Podporovatelia konferencie"
+msgstr ""
+
 #: templates/spy.html:4
 msgid "SPy o. z."
 msgstr ""
@@ -1708,6 +1711,10 @@ msgstr ""
 msgid ""
 "Medzičasom sa môžeš prihlásiť do <a href=\"%(url)s\">e-mailovej "
 "konferencie</a> a dať nám o sebe vedieť."
+msgstr ""
+
+#: templates/tickets.html:12
+msgid "Vstupenky sú opäť v predaji."
 msgstr ""
 
 #: templates/tickets.html:12
@@ -2027,23 +2034,9 @@ msgstr ""
 #~ msgid "Vstupenky budú opäť v predaji."
 #~ msgstr ""
 
-#~ msgid ""
-#~ "Veľmi sa tešíme, že vám môžeme "
-#~ "oznámiť dobrú správu: okrem dvoch dní"
-#~ " zaujímavých prednášok (piatok - slovenský"
-#~ " deň, sobota - anglický deň) na "
-#~ "vás čaká aj <a href=\"%(url)s\">Django "
-#~ "Girls</a> workshop (nedeľa), ktorý bude "
-#~ "vhodný aj pre úplné začiatočníčky."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Postupne zverejňujeme mená rečníkov, ktorí "
-#~ "vystúpia na konferencii. Môžete sa tešiť"
-#~ " na zaujímavé vystúpenia skvelých domácich"
-#~ " a zahraničných hostí."
-#~ msgstr ""
-
 #~ msgid "Predaj lístkov sa opätovne spustí v pondelok, 15. februára o 12:00 CET."
+#~ msgstr ""
+
+#~ msgid "Slovenská Python Komunita"
 #~ msgstr ""
 

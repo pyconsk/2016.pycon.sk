@@ -4,7 +4,7 @@ SOURCE_DIR="$(cd "$(dirname "$0")/.." ; pwd -P)"
 TMP_DIR="/tmp"
 GIT_ROOT="${SOURCE_DIR}/.."
 STAGING_DIR="staging"
-FLASK_URL="127.0.0.1:5000"
+FLASK_URL="127.0.0.1:9999"
 
 # Go to flask templated site activate envs and run flask dev server
 cd "${SOURCE_DIR}"
@@ -12,7 +12,7 @@ cd "${SOURCE_DIR}"
 if [ -f envs/bin/activate ]; then
 	trap 'pkill -P $(jobs -pr) 2> /dev/null' SIGINT SIGTERM EXIT
 	source envs/bin/activate
-	python views.py &
+	FLASK_PORT=9999 python views.py &
 	echo "Running wget --mirror in 3 seconds..."
 	sleep 3
 else

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-18 19:29+0100\n"
+"POT-Creation-Date: 2016-02-18 21:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -315,7 +315,7 @@ msgstr ""
 "guidelines will come naturally."
 
 #: templates/code-of-conduct.html:22
-msgid "Slovenská Python Komunita"
+msgid "Slovenská Python komunita"
 msgstr "Slovak Python Community"
 
 #: templates/code-of-conduct.html:23
@@ -969,53 +969,51 @@ msgid ""
 "konferencie PyCon SK sa uskutoční <a href=\"%(link)s\">pod záštitou "
 "prezidenta SR Andreja Kisku</a>."
 msgstr ""
-"We are very happy to anounce good news: Inaugural PyCon SK conference will be <a href=\"%(link)s\">under Andrej Kiska patronage,"
-"president of Slovak Republic</a>."
+"We are very happy to anounce good news: Inaugural PyCon SK conference "
+"will be <a href=\"%(link)s\">under Andrej Kiska patronage,president of "
+"Slovak Republic</a>."
 
 #: templates/index.html:24
 #, python-format
 msgid ""
 "Po úspešnom uvedení vo viac ako 40 krajinách sveta prichádza po prvýkrát "
 "na Slovensko. Prednášky budú rozdelené na piatok - slovenský deň a sobotu"
-" - anglický deň. Nedeľa bude určená workshopom, budete mať možnosť "
-"zúčastniť sa Python Clinic, kde sa budete môcť porozprávať s niektorými "
-"rečníkmi podrobnejšie o ich téme, alebo si prakticky odskúšať niektoré "
-"Python technológie na vlastnej klávesnici. Taktiež sme pripravili <a "
-"href=\"%(url)s\">Django Girls</a> workshop, ktorý bude vhodný aj pre "
-"úplné začiatočníčky."
+" - anglický deň. Nedeľa bude určená workshopom a Python Clinic, kde sa "
+"budete môcť porozprávať s niektorými rečníkmi podrobnejšie o ich téme, "
+"alebo si prakticky odskúšať niektoré Python technológie na vlastnej "
+"klávesnici. Taktiež sme pripravili <a href=\"%(url)s\">Django Girls</a> "
+"workshop, ktorý bude vhodný aj pre úplné začiatočníčky."
 msgstr ""
-"After successful organization in more than 40 countries, for the first time in"
-"Slovakia. Lectures will be held on Friday - Slovak day and Saturday"
-"- English day. Sunday will be determined for workshops, you will be able to"
-"participate in Python Clinic, where you will be able to talk to some of the"
-"speakers in more detail about their topic or practically test some"
-"Python technologies. We have also prepared a <a "
-"href=\"%(url)s\">Django Girls</a> workshop, that will be suitable for"
-"complete beginners."
+"After successful organization in more than 40 countries, PyCon is coming "
+"to Slovakia. Lectures will be held on Friday - Slovak day and Saturday - "
+"English day. On Sunday, there will be workshops and Python Clinic where "
+"you will be able to talk to some of the speakers about their talk or "
+"practice some Python technologies. We have also prepared a <a "
+"href=\"%(url)s\">Django Girls</a> workshop, which will be suitable for "
+"absolute beginners."
 
 #: templates/index.html:24
 #: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:21
 msgid "Tlačová správa v"
 msgstr "Press release in"
 
-#: templates/index.html:26 templates/tickets.html:12
-msgid "Vstupenky sú opäť v predaji."
-msgstr "Tickets are for sale again."
+#: templates/index.html:27
+msgid "Vstupenky sú opäť v predaji!"
+msgstr "Tickets are for sale again!"
 
-#: templates/index.html:28
+#: templates/index.html:29
 msgid ""
 "Zverejnili sme mená rečníkov, ktorí vystúpia na konferencii. Môžete sa "
 "tešiť na zaujímavé vystúpenia skvelých domácich a zahraničných hostí."
 msgstr ""
-"We have published names of speakers, who will "
-"give a talk at the conference. You can look forward to great local and "
-"foreign speakers."
+"We have published names of speakers, who will give a talk at the "
+"conference. You can look forward to great local and foreign speakers."
 
-#: templates/index.html:28
+#: templates/index.html:29
 msgid "Čoskoro zverejníme aj zoznam prednášok a čas ich konania."
 msgstr "We will publish list of talks and conference schedule soon."
 
-#: templates/index.html:37
+#: templates/index.html:38
 msgid ""
 "Ak máte záujem prispieť, stať sa dobrovoľníkom alebo akokoľvek inak "
 "pomôcť s organizáciou PyCon SK (ktorý je kompletne organizovaný "
@@ -1025,7 +1023,7 @@ msgstr ""
 " PyCon SK (which is run entirely by volunteers) we'd be happy to talk "
 "with you and discuss your ideas."
 
-#: templates/index.html:38
+#: templates/index.html:39
 #, python-format
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
@@ -2136,6 +2134,10 @@ msgstr ""
 "electronics, arduino, programming, security, life-hacking, travelling, "
 "freedom-seeking and networking with like minds."
 
+#: templates/sponsors.html:395
+msgid "Podporovatelia konferencie"
+msgstr "Supporters"
+
 #: templates/spy.html:4
 msgid "SPy o. z."
 msgstr "SPy o. z."
@@ -2244,6 +2246,10 @@ msgid ""
 msgstr ""
 "In the meantime you can subscribe to our <a href=\"%(url)s\">mailing "
 "list</a> and tell us something about you."
+
+#: templates/tickets.html:12
+msgid "Vstupenky sú opäť v predaji."
+msgstr "Tickets are for sale again."
 
 #: templates/tickets.html:12
 msgid ""
@@ -2530,23 +2536,6 @@ msgstr "more about our vision and objectives"
 
 #~ msgid "Vstupenky sú momentálne vypredané."
 #~ msgstr "All tickets are sold out."
-
-#~ msgid ""
-#~ "Veľmi sa tešíme, že vám môžeme "
-#~ "oznámiť dobrú správu: okrem dvoch dní"
-#~ " zaujímavých prednášok (piatok - slovenský"
-#~ " deň, sobota - anglický deň) na "
-#~ "vás čaká aj <a href=\"%(url)s\">Django "
-#~ "Girls</a> workshop (nedeľa), ktorý bude "
-#~ "vhodný aj pre úplné začiatočníčky."
-#~ msgstr ""
-#~ "We are happy to announce that "
-#~ "apart from two days of interesting "
-#~ "talks (Friday - Slovak day, Saturday "
-#~ "- English day), we will be "
-#~ "organizing a <a href=\"%(url)s\">Django "
-#~ "Girls</a> workshop (Sunday), which will "
-#~ "be suitable for absolute beginners."
 
 #~ msgid "Predaj lístkov sa opätovne spustí v pondelok, 15. februára o 12:00 CET."
 #~ msgstr "The ticket sale will relaunch on Monday, February 15th at 12:00 PM CET"

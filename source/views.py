@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf8 -*-
+import os
 from flask import Flask, g, request, send_from_directory, render_template, abort, make_response
 from flask.ext.babel import Babel, gettext
 
@@ -677,4 +678,4 @@ def sitemap():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host=os.environ.get('FLASK_HOST', '127.0.0.1'), port=int(os.environ.get('FLASK_PORT', 5000)))
