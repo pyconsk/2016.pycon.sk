@@ -24,6 +24,7 @@ SITEMAP = {
     'django-girls.html': {'prio': '0.66', 'freq': 'weekly', 'lastmod': '2015-12-21T00:42:45+00:00'},
     'spy.html': {'prio': '0.75', 'freq': 'monthly', 'lastmod': '2015-09-10T20:00:00+00:00'},
     'code-of-conduct.html': {'prio': '0.75', 'freq': 'monthly', 'lastmod': '2015-09-10T20:00:00+00:00'},
+    'pod-zastitou-prezidenta-slovenskej-republiky.html': {'prio': '0.9', 'freq': 'monthly', 'lastmod': '2016-02-18T19:00:00+00:00'},
     'meetup.html': {'prio': '0.6', 'freq': 'weekly', 'lastmod': '2015-12-18T10:53:24+00:00'},
     'ba-01-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2015-06-29T20:06:00+00:00'},
     'ba-02-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2015-07-26T20:07:00+00:00'},
@@ -31,8 +32,8 @@ SITEMAP = {
     'ba-04-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2015-09-26T20:09:00+00:00'},
     'ba-05-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2015-10-26T20:10:00+00:00'},
     'ba-06-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2015-11-11T11:11:11+00:00'},
-    'ba-07-meetup.html': {'prio': '0.4', 'freq': 'weekly', 'lastmod': '2016-01-17T12:22:22+00:00'},
-    'ba-08-meetup.html': {'prio': '0.6', 'freq': 'daily', 'lastmod': '2016-01-18T10:53:24+00:00'},
+    'ba-07-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2016-01-17T12:22:22+00:00'},
+    'ba-08-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2016-01-18T10:53:24+00:00'},
     'console.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2016-02-05T11:11:11+00:00'},
     'thank-you.html': {'prio': '0.1', 'freq': 'yearly', 'lastmod': '2015-07-10T20:00:00+00:00'},
 }
@@ -178,6 +179,10 @@ def getting_here():
 @app.route('/<lang_code>/code-of-conduct.html')
 def code_of_conduct():
     return render_template('code-of-conduct.html', **_get_template_variables(li_coc='active'))
+
+@app.route('/<lang_code>/pod-zastitou-prezidenta-slovenskej-republiky.html')
+def president():
+    return render_template('pod-zastitou-prezidenta-slovenskej-republiky.html', **_get_template_variables(li_index='active'))
 
 
 @app.route('/<lang_code>/spy.html')

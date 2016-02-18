@@ -1,0 +1,27 @@
+{% extends "body.html" %}
+
+{% block content %}
+<div class="row">
+  <div class="col-md-12">
+    <h1>{{ _('PyCon SK odštartuje pod záštitou prezidenta SR Andreja Kisku') }}</h1>
+
+    <p class="lead">
+    {{ _('Na konferencii vystúpi takmer 30 hostí, zastúpenie bude mať aj Google, Red Hat či JP Morgan Chase') }}
+    </p>
+
+    <p class="text-justify">{{ _('BRATISLAVA - Premiérový ročník konferencie PyCon SK sa uskutoční pod záštitou prezidenta SR Andreja Kisku. O prevzatí patronátu nad podujatím informovala organizátorov konferencie kancelária prezidenta.') }}</p>
+
+    <p class="text-justify">{{ _('Konferencie PyCon sú organizované komunitou priaznivcov programovacieho jazyka Python, ktorý patrí medzi najpopulárnejšie jazyky na svete. Dosiaľ boli zorganizované vo viac ako 40 krajinách sveta. “Prevzatie záštity nad slovenskou konferenciou PyCon je úžasným povzbudením pre všetkých dobrovoľníkov, ktorí stoja za jej prípravou. Je to motivácia, ale aj záväzok pripraviť podujatie hodné takéhoto patronátu,” hovorí Richard Kellner z občianskeho združenia SPy, ktoré sa usiluje o popularizáciu programovania najmä medzi deťmi a mladými ľudmi.') }}</p>
+
+    <p class="text-justify">{{ _('Prvý ročník konferencie PyCon SK sa uskutoční v dňoch 11. až 13. marca 2016. Účasť na nej potvrdili takmer tri desiatky domácich a zahraničných hostí, ktorí vystúpia s vlastnými prezentáciami. Zastúpenie medzi nimi budú mať zvučné mená korporátneho sveta, vrátane spoločností Google, Red Hat a JP Morgan Chase. Program konferencie ale pamätá aj na tých, ktorí sa programovaniu nevenujú profesionálne. “Súčasťou konferencie bude aj Django Girls workshop, ktorý je určený pre dievčatá a ženy bez akýchkoľvek nárokov na znalosti počítačových jazykov. Počas workshopu získajú pod vedením skúsených mentorov nielen základné znalosti jazyka Python, ale počas jedného dňa ich budú môcť využiť aj na vytvorenie vlastnej webovej aplikácie,” dodáva R. Kellner.') }}</p>
+
+    <p class="text-justify">{{ _('Lístky na konferenciu PyCon SK sú dostupné výlučne na stránke podujatia') }} (<a href="{{ url_for('tickets', lang_code=lang_code) }}">www.pycon.sk</a>).</p>
+
+    <p class="text-justify">{{ _('Dekrét v') }} <a href="{{ url_for('static', filename='PyCon_SK_pod_zastitou_prezidenta_SR.pdf') }}"> PDF <span class="glyphicon glyphicon-download-alt"></span></a></p>
+    <p class="text-justify">{{ _('Tlačová správa v') }} <a href="{{ url_for('static', filename='tlacova_sprava_zastita_prezidenta_SR.pdf') }}"> PDF <span class="glyphicon glyphicon-download-alt"></span></a></p>
+
+  </div>
+</div>
+
+{% endblock %}
+
