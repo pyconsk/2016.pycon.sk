@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-19 09:12+0100\n"
+"POT-Creation-Date: 2016-02-21 13:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1542,6 +1542,12 @@ msgid ""
 "Projekt Fedora je spojenie nadšencov open source softvérovej komunity z "
 "rôznych kútov sveta. Tento projekt buduje komunity a vytvára linuxovú "
 "distribúciu Fedora."
+msgstr ""
+
+#: templates/sponsors.html:173
+msgid ""
+"Interaktívna aplikácia na kladenie otázok a hlasovanie, ktorá sa dá "
+"jednoducho využiť na vaše podujatie alebo meeting."
 msgstr ""
 
 #: templates/sponsors.html:186
