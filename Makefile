@@ -13,24 +13,24 @@ help:
 	@echo "  push       push all branches to remote repository"
 
 init:
-	@../bin/init-envs.sh
+	@bin/init-envs.sh
 
 messages:
-	@pybabel extract -F babel.cfg -o messages.pot .
-	@pybabel update -i messages.pot -d translations
+	@cd src && pybabel extract -F babel.cfg -o messages.pot .
+	@cd src && pybabel update -i messages.pot -d translations
 
 compile:
-	@pybabel compile -d translations
+	@cd src && pybabel compile -d translations
 
 staging:
-	@../bin/staging-gen.sh
+	@bin/staging-gen.sh
 
 live:
-	@../bin/live-copy.sh
+	@bin/live-copy.sh
 
 pull:
-	@../bin/pull-all.sh
+	@bin/pull-all.sh
 
 push:
-	@../bin/push-all.sh
+	@bin/push-all.sh
 
