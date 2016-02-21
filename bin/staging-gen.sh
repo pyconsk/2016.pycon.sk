@@ -39,7 +39,7 @@ if [[ -n "${GIT_STATUS}" ]]; then
 fi
 
 # Fetch sha1 commit hashes
-MASTER_COMMIT="$(git rev-list --format=%s%b --max-count=1 HEAD)"
+MASTER_COMMIT="$(git rev-list --format=%n%s%b --max-count=1 HEAD)"
 PYCON_CSS_COMMIT="$(git rev-list --max-count=1 --abbrev-commit HEAD src/static/css/pycon.css)"
 
 # Go to flask templated site activate envs and run flask dev server
