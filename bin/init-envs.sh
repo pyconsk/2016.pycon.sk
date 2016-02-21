@@ -2,8 +2,9 @@
 
 set -e
 
-SOURCE_DIR="$(cd "$(dirname "$0")/.." ; pwd -P)"
-cd "${SOURCE_DIR}"
+GIT_ROOT="$(cd "$(dirname "$0")/.." ; pwd -P)"
+cd "${GIT_ROOT}"
+
 virtualenv envs
 source envs/bin/activate
 pip install -r doc/requirements.txt
