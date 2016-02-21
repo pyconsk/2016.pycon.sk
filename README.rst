@@ -13,11 +13,11 @@ If you'd like to contribute to the project, please `check the issues <https://gi
 Project structure
 -----------------
 
-3 folders:
+**3 branches**:
 
-* ``source`` - the Flask app, templates, static files, translations (make your changes here)
-* ``staging`` - static HTML, generated from the ``source`` (do NOT edit anything in here)
-* ``live`` - static HTML, created by copying the ``staging`` folder (do NOT edit anything in here)
+- ``master`` - the Flask app, templates, static files, translations (make your changes in the ``src`` folder)
+- ``staging`` - static HTML, generated from the app in ``master`` branch (do NOT edit anything in here)
+- ``live`` - static HTML, created by pushing the ``staging`` branch into ``live`` branch (do NOT edit anything in here)
 
 
 Installation
@@ -25,20 +25,20 @@ Installation
 
 - clone repository locally::
 
-	git clone git@github.com:pyconsk/pycon.sk.git
-	cd pycon.sk/source
+    git clone git@github.com:pyconsk/pycon.sk.git
+    cd pycon.sk/src
 
 - run initialization script (creates a virtual environment and installs all requirements)::
 
-	make init
+    make init
 
 - activate virtual environments::
 
-	source envs/bin/activate
+    source envs/bin/activate
 
 - start flask server, and you can view it in browser (http://127.0.0.1:5000)::
 
-	python views.py
+    python views.py
 
 
 Translations
@@ -46,31 +46,36 @@ Translations
 
 - collect messages for translation::
 
-	make messages
+    make messages
 
 - files that need to be translated are generated into directory::
 
-	translations/
+    translations/
 
 - compiling translated messages::
 
-	make compile
+    make compile
 
 
 Static site
 -----------
 
-- generating staging site::
+- generating staging site (updates the staging branch)::
 
-	make staging
+    make staging
 
-- start local webserver, and you can view it in browser (http://127.0.0.1:5000)::
+- update live site by pushing staging branch into the live branch::
 
-	python -m SimpleHTTPServer 5000
+    make live
 
-- update live site from code in staging site::
 
-	make live
+Publish
+-------
+
+- push all branches to remote repository::
+
+    make publish
+
 
 If you find some bug please do report it, or send us a merge request with a fix, thanks.
 
