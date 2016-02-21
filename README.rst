@@ -69,12 +69,16 @@ Static site
     make live
 
 
-Publish
--------
+Pull & Push
+-----------
+
+- update all branches from remote repository::
+
+    make pull
 
 - push all branches to remote repository::
 
-    make publish
+    make push
 
 
 If you find some bug please do report it, or send us a merge request with a fix, thanks.

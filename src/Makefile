@@ -7,9 +7,10 @@ help:
 	@echo "  init       initialize virtual enviroment and install requirements"
 	@echo "  messages   extract translation strings and update translation catalogs"
 	@echo "  compile    compile translation catalogs"
-	@echo "  staging    generate staging site html files"
-	@echo "  live       replace live site with staging site"
-	@echo "  publish    push changes stored in git to production server"
+	@echo "  staging    generate static html files in staging branch"
+	@echo "  live       push staging branch into live branch"
+	@echo "  pull       pull all branches from remote repository"
+	@echo "  push       push all branches to remote repository"
 
 init:
 	@../bin/init-envs.sh
@@ -27,6 +28,9 @@ staging:
 live:
 	@../bin/live-copy.sh
 
-publish:
-	@git push --all
+pull:
+	@../bin/pull-all.sh
+
+push:
+	@../bin/push-all.sh
 
