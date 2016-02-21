@@ -29,7 +29,6 @@ if [[ -n "${GIT_STATUS}" ]]; then
 	case "${yn}" in
 		y|Y)
 			STASH_REQUIRED="true"
-			break
 			;;
 		*)
 			echo "Doing nothing."
@@ -46,6 +45,7 @@ PYCON_CSS_COMMIT="$(git rev-list --max-count=1 --abbrev-commit HEAD src/static/c
 source envs/bin/activate
 cd "${SOURCE_DIR}"
 
+export FLASK_PORT
 trap 'pkill -P $(jobs -pr) 2> /dev/null' SIGINT SIGTERM EXIT
 python views.py &
 echo "Running wget --mirror in 3 seconds..."
