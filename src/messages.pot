@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-21 13:19+0100\n"
+"POT-Creation-Date: 2016-02-22 07:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -786,7 +786,7 @@ msgid ""
 msgstr ""
 
 #: templates/index.html:24
-#: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:21
+#: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:19
 msgid "Tlačová správa v"
 msgstr ""
 
@@ -862,20 +862,20 @@ msgstr ""
 msgid "PyCon SK odštartuje pod záštitou prezidenta SR Andreja Kisku"
 msgstr ""
 
-#: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:9
+#: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:8
 msgid ""
 "Na konferencii vystúpi takmer 30 hostí, zastúpenie bude mať aj Google, "
 "Red Hat či JP Morgan Chase"
 msgstr ""
 
-#: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:12
+#: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:10
 msgid ""
 "BRATISLAVA - Premiérový ročník konferencie PyCon SK sa uskutoční pod "
 "záštitou prezidenta SR Andreja Kisku. O prevzatí patronátu nad podujatím "
 "informovala organizátorov konferencie kancelária prezidenta."
 msgstr ""
 
-#: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:14
+#: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:12
 msgid ""
 "Konferencie PyCon sú organizované komunitou priaznivcov programovacieho "
 "jazyka Python, ktorý patrí medzi najpopulárnejšie jazyky na svete. Dosiaľ"
@@ -887,7 +887,7 @@ msgid ""
 "programovania najmä medzi deťmi a mladými ľudmi."
 msgstr ""
 
-#: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:16
+#: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:14
 msgid ""
 "Prvý ročník konferencie PyCon SK sa uskutoční v dňoch 11. až 13. marca "
 "2016. Účasť na nej potvrdili takmer tri desiatky domácich a zahraničných "
@@ -902,11 +902,11 @@ msgid ""
 "vlastnej webovej aplikácie,” dodáva R. Kellner."
 msgstr ""
 
-#: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:18
+#: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:16
 msgid "Lístky na konferenciu PyCon SK sú dostupné výlučne na stránke podujatia"
 msgstr ""
 
-#: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:20
+#: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:18
 msgid "Dekrét v"
 msgstr ""
 
@@ -918,11 +918,11 @@ msgstr ""
 msgid "Zlatí sponzori:"
 msgstr ""
 
-#: templates/right_nav.html:40
+#: templates/right_nav.html:47
 msgid "Strieborní sponzori:"
 msgstr ""
 
-#: templates/right_nav.html:66 templates/sponsors.html:281
+#: templates/right_nav.html:66 templates/sponsors.html:280
 msgid "Hlavný mediálny partner"
 msgstr ""
 
@@ -1495,7 +1495,7 @@ msgstr ""
 msgid "Zlatí sponzori"
 msgstr ""
 
-#: templates/sponsors.html:70 templates/sponsors.html:243
+#: templates/sponsors.html:70 templates/sponsors.html:242
 msgid ""
 "Python Software Foundation je nezisková organizácia, ktorá sa aktívne "
 "venuje presadzovaniu a podpore programovacieho jazyka Python. PSF "
@@ -1504,11 +1504,21 @@ msgid ""
 " zároveň každoročne usporiadáva severoamerickú konferenciu PyCon."
 msgstr ""
 
-#: templates/sponsors.html:96
+#: templates/sponsors.html:83
+msgid ""
+"Sme spoločnosť s bohatými skúsenosťami s poskytovaním komplexných "
+"telekomunikačných riešení, od garantovaného internetového pripojenia, cez"
+" cloudové služby, webhosting, až po hlasové riešenia. V špičkových "
+"technologických priestoroch našich  3 dátových centier sa tím VNET "
+"špecialistov stará o rast zákazníckych projektov počas celého ich "
+"životného cyklu."
+msgstr ""
+
+#: templates/sponsors.html:108
 msgid "Strieborní sponzori"
 msgstr ""
 
-#: templates/sponsors.html:109
+#: templates/sponsors.html:121
 msgid ""
 "GridMarkets je medzinárodný startup zameraný na \"ekonomiku zdieľania\", "
 "ktorý pôsobí v Singapure a Malajzii a operuje z niekoľkých medzinárodných"
@@ -1519,48 +1529,38 @@ msgid ""
 "výpočtovo náročných úlohách."
 msgstr ""
 
-#: templates/sponsors.html:122
-msgid ""
-"Sme spoločnosť s bohatými skúsenosťami s poskytovaním komplexných "
-"telekomunikačných riešení, od garantovaného internetového pripojenia, cez"
-" cloudové služby, webhosting, až po hlasové riešenia. V špičkových "
-"technologických priestoroch našich  3 dátových centier sa tím VNET "
-"špecialistov stará o rast zákazníckych projektov počas celého ich "
-"životného cyklu."
-msgstr ""
-
-#: templates/sponsors.html:135
+#: templates/sponsors.html:134
 msgid "Websupport"
 msgstr ""
 
-#: templates/sponsors.html:147
+#: templates/sponsors.html:146
 msgid "Bronzoví sponzori"
 msgstr ""
 
-#: templates/sponsors.html:160
+#: templates/sponsors.html:159
 msgid ""
 "Projekt Fedora je spojenie nadšencov open source softvérovej komunity z "
 "rôznych kútov sveta. Tento projekt buduje komunity a vytvára linuxovú "
 "distribúciu Fedora."
 msgstr ""
 
-#: templates/sponsors.html:173
+#: templates/sponsors.html:172
 msgid ""
 "Interaktívna aplikácia na kladenie otázok a hlasovanie, ktorá sa dá "
 "jednoducho využiť na vaše podujatie alebo meeting."
 msgstr ""
 
-#: templates/sponsors.html:186
+#: templates/sponsors.html:185
 msgid ""
 "PyCharm 5 predstavuje vynikajúci vývojársky nástroj pre Python, web a "
 "vedeckých vývojarov. PyCharm ponúka jedinečný zážitok z programovania."
 msgstr ""
 
-#: templates/sponsors.html:230
+#: templates/sponsors.html:229
 msgid "Django Girls sponzori"
 msgstr ""
 
-#: templates/sponsors.html:256
+#: templates/sponsors.html:255
 msgid ""
 "Skypicker.com je inovatívny celosvetový vyhľadávač leteniek, ktorý sa "
 "zameriava na kombinácie nespolupracujúcich aerolinek, kde je schopný "
@@ -1569,11 +1569,11 @@ msgid ""
 "zárukou na nadväzujúce lety."
 msgstr ""
 
-#: templates/sponsors.html:306
+#: templates/sponsors.html:305
 msgid "Mediálni partneri"
 msgstr ""
 
-#: templates/sponsors.html:319
+#: templates/sponsors.html:318
 msgid ""
 "Startitup je najpopulárnejší a najprogresívnejšie rastúci tech/startup "
 "portál na Slovensku a v Čechách, ktorý informuje, inšpiruje a zabáva "
@@ -1581,11 +1581,11 @@ msgid ""
 "najkredibilnejších nezávislých médií na Slovensku."
 msgstr ""
 
-#: templates/sponsors.html:344
+#: templates/sponsors.html:343
 msgid "Partneri konferencie"
 msgstr ""
 
-#: templates/sponsors.html:357
+#: templates/sponsors.html:356
 msgid ""
 "Fakulta informatiky a informačných technológií (FIIT) je jednou zo "
 "siedmich fakúlt Slovenskej technickej univerzity v Bratislave (STU). FIIT"
@@ -1594,7 +1594,7 @@ msgid ""
 "poslaním."
 msgstr ""
 
-#: templates/sponsors.html:370
+#: templates/sponsors.html:369
 msgid ""
 "Cieľom tohto portálu je informovať. Informuje dievčatá, ich rodičov, "
 "verejnosť o tom, že vo svete IT je skvelé mať ženy. Prináša profily "
@@ -1604,7 +1604,7 @@ msgid ""
 "akciách pre dievčatá, kam sa môžu pridať."
 msgstr ""
 
-#: templates/sponsors.html:383
+#: templates/sponsors.html:382
 msgid ""
 "Našim cieľom je poskytovať inovatívnu platformu pre stretávanie sa s "
 "ľuďmi a výmenu informácií pre tých, ktorí sa zaujímajú o hacking, 3D "
@@ -1613,7 +1613,7 @@ msgid ""
 "zmýšľajúcich ľudí."
 msgstr ""
 
-#: templates/sponsors.html:395
+#: templates/sponsors.html:394
 msgid "Podporovatelia konferencie"
 msgstr ""
 
