@@ -7,6 +7,7 @@ STAGING_DIR="web"
 FLASK_PORT="9999"
 FLASK_URL="127.0.0.1:${FLASK_PORT}"
 STASH_REQUIRED=""
+DRY_RUN=""
 
 cd "${GIT_ROOT}"
 
@@ -16,6 +17,11 @@ which wget > /dev/null || echo 128
 if [[ ! -f envs/bin/activate ]]; then
 	echo "ENVS not found!"
 	exit 1
+fi
+
+if [[ "${1}" == "-n" || "${1}" == "--dry-run" ]]; then
+	DRY_RUN="true"
+	echo "* Dry run *"
 fi
 
 # Check whether we have some uncommited changes
@@ -83,6 +89,14 @@ if [[ -n "${PYCON_CSS_COMMIT}" ]]; then
 fi
 
 cd "${GIT_ROOT}"
+
+# Stop here if a dry run was requested
+if [[ -n "${DRY_RUN}" ]]; then
+	echo
+	echo "Dry run was requested."
+	echo "The result can be found in: ${TMP_DIR}/${FLASK_URL}"
+	exit 0
+fi
 
 # Stash uncommited changes if needed
 [[ -n "${STASH_REQUIRED}" ]] && git stash
