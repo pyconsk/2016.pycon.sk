@@ -362,6 +362,10 @@ tr.event {
   cursor: pointer;
 }
 
+tr.event-registration > td, tr.event-lunch > td {
+  background-color: #EEFFFF;
+}
+
 #event-details .modal-body {
   padding-bottom: 40px;
 }
