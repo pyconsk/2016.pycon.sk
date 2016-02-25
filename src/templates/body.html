@@ -73,7 +73,7 @@
           <li{% if li_getting_here %} class="{{ li_getting_here }}"{% endif %}>
             <a href="{{ url_for('getting_here', lang_code=lang_code) }}">{{ _('Miesto konania') }}</a>
             </li>
-          <li{% if li_workshop %} class="{{ li_schedule }}"{% endif %}>
+          <li{% if li_schedule %} class="{{ li_schedule }}"{% endif %}>
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ _('Program') }} <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li class="{{ li_schedule_fri }}"><a href="{{ url_for('schedule_fri', lang_code=lang_code) }}">{{ _('Piatok, 11. 3.') }}</a></li>
