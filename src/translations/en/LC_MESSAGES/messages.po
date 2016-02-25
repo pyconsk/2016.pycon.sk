@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-25 22:30+0100\n"
+"POT-Creation-Date: 2016-02-25 22:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -1665,17 +1665,31 @@ msgid ""
 "dátových tokov a ako naplno využiť vlastnosť (skoro) okamžitej odozvy "
 "Netflow na vytvorenie NIDS so všetkými súvisiacimi datami poruke a "
 "pripravenými na diagnostiku."
-msgstr "Netflow exporters provide extremely important information about what is going on in your network almost in real time. As the network grows, to store and analyze collected flow information starts to be a tedious task. &lt;br&gt;&lt;br&gt; The purpose of this talk is to outline how to use open source technologies to move from RRD files as a mean of storage of flow data and take full advantage of Netflow&apos;s (almost) real time nature to create NIDS with all the related data right at hand, visualized and ready to be diagnosed."
+msgstr ""
+"Netflow exporters provide extremely important information about what is "
+"going on in your network almost in real time. As the network grows, to "
+"store and analyze collected flow information starts to be a tedious task."
+" &lt;br&gt;&lt;br&gt; The purpose of this talk is to outline how to use "
+"open source technologies to move from RRD files as a mean of storage of "
+"flow data and take full advantage of Netflow&apos;s (almost) real time "
+"nature to create NIDS with all the related data right at hand, visualized"
+" and ready to be diagnosed."
 
 #: templates/schedule-saturday.html:341
 msgid ""
+"Počnúc od jednoduchých blogov a monolitických Django aplikácií, až po "
+"sofistikované architektúry mikro služieb; Je váš produkt pripravený "
+"využiť možnosti, ktoré prinášajú nové nástroje? &lt;br&gt;&lt;br&gt; V "
+"prednáške vám ukážem ako balíčkovať Pythonovské aplikácie do Docker "
+"kontajnerov pripravených na okamžité použitie a ako ich nasadiť a "
+"manažovať vo vašom vlastnom súkromnom cloude pomocou OpenShift."
+msgstr ""
 "From simple blogs and monolith Django web apps, up to sophisticated micro"
 " service architectures, is your product ready to leverage the "
 "opportunities brought by the new tools out there? &lt;br&gt;&lt;br&gt; In"
 " this talk I&apos;ll show how to package Python applications as ready-to-"
 "use Docker containers, and how to deploy and manage them in your own "
 "private cloud with OpenShift."
-msgstr "From simple blogs and monolith Django web apps, up to sophisticated micro service architectures, is your product ready to leverage the opportunities brought by the new tools out there? &lt;br&gt;&lt;br&gt; In this talk I&apos;ll show how to package Python applications as ready-to-use Docker containers, and how to deploy and manage them in your own private cloud with OpenShift."
 
 #: templates/schedule-saturday.html:363
 msgid ""
@@ -3074,76 +3088,4 @@ msgstr "objectives of SPy."
 #: templates/tickets.html:74
 msgid "viac o našich cieľoch"
 msgstr "more about our vision and objectives"
-
-#~ msgid "Tvoje meno"
-#~ msgstr "Your name"
-
-#~ msgid "Tvoj e-mail"
-#~ msgstr "Your e-mail"
-
-#~ msgid "Niečo o tebe"
-#~ msgstr "Something about you"
-
-#~ msgid "Odoslané údaje sa nikde nezverejňujú."
-#~ msgstr "Submitted data are never disclosed."
-
-#~ msgid "Odoslať registráciu"
-#~ msgstr "Submit registration"
-
-#~ msgid "Webový vývojár z Francúzska žijúci v Budapešti."
-#~ msgstr "Web developer from France based in Budapest, Hungary."
-
-#~ msgid "Má zlú vlastnosť premeniť všetko čo začne na konferenciu."
-#~ msgstr "Has a bad habbit of turning everything he does into a conference."
-
-#~ msgid "Pevne verí v globálnu emojifikáciu."
-#~ msgstr "Firm believer in global emojification."
-
-#~ msgid "Cestovanie"
-#~ msgstr "Travel"
-
-#~ msgid "Podporovatelia konferencie"
-#~ msgstr "Conference supporters"
-
-#~ msgid "Prednášanie"
-#~ msgstr "Speaking"
-
-#~ msgid "Predaj vstupeniek bol spustený."
-#~ msgstr "Registration is now open."
-
-#~ msgid "Sponzorovanie"
-#~ msgstr "Sponsorship"
-
-#~ msgid "Konferencia"
-#~ msgstr "Conference"
-
-#~ msgid "Preskočiť na začiatok"
-#~ msgstr "Back to top"
-
-#~ msgid ""
-#~ msgstr ""
-
-#~ msgid "Registruj sa"
-#~ msgstr "Register"
-
-#~ msgid "Vstupenky sú momentálne vypredané."
-#~ msgstr "All tickets are sold out."
-
-#~ msgid "Predaj lístkov sa opätovne spustí v pondelok, 15. februára o 12:00 CET."
-#~ msgstr "The ticket sale will relaunch on Monday, February 15th at 12:00 PM CET"
-
-#~ msgid "Workshop"
-#~ msgstr "Workshop"
-
-#~ msgid "Vstupenky sú opäť v predaji!"
-#~ msgstr "Tickets are for sale again!"
-
-#~ msgid "Čoskoro zverejníme aj zoznam prednášok a čas ich konania."
-#~ msgstr "We will publish list of talks and conference schedule soon."
-
-#~ msgid "Podrobný program konferencie zverejníme už čoskoro."
-#~ msgstr "We are going to publish a detailed conference program soon."
-
-#~ msgid "Obed"
-#~ msgstr "Lunch"
 
