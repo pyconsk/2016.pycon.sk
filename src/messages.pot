@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-25 20:53+0100\n"
+"POT-Creation-Date: 2016-02-25 21:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1063,7 +1063,7 @@ msgstr ""
 
 #: templates/schedule-friday.html:121 templates/schedule-saturday.html:122
 #: templates/schedule-saturday.html:320 templates/schedule-sunday.html:66
-msgid "Obed"
+msgid "Obedná prestávka"
 msgstr ""
 
 #: templates/schedule-friday.html:142
