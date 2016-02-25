@@ -39,6 +39,30 @@
     </url>
     <url>
 		
+		<loc>https://pycon.sk/en/schedule-saturday.html</loc>
+		<xhtml:link 
+                 rel="alternate"
+                 hreflang="sk"
+                 href="https://pycon.sk/sk/schedule-saturday.html"
+                 />
+		<lastmod>2016-02-22T23:45:00+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.9</priority>
+    </url>
+    <url>
+		
+		<loc>https://pycon.sk/sk/schedule-saturday.html</loc>
+		<xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://pycon.sk/en/schedule-saturday.html"
+                 />
+		<lastmod>2016-02-22T23:45:00+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.9</priority>
+    </url>
+    <url>
+		
 		<loc>https://pycon.sk/en/code-of-conduct.html</loc>
 		<xhtml:link 
                  rel="alternate"
@@ -60,6 +84,54 @@
 		<lastmod>2015-09-10T20:00:00+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.75</priority>
+    </url>
+    <url>
+		
+		<loc>https://pycon.sk/en/schedule-friday.html</loc>
+		<xhtml:link 
+                 rel="alternate"
+                 hreflang="sk"
+                 href="https://pycon.sk/sk/schedule-friday.html"
+                 />
+		<lastmod>2016-02-22T23:45:00+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.9</priority>
+    </url>
+    <url>
+		
+		<loc>https://pycon.sk/sk/schedule-friday.html</loc>
+		<xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://pycon.sk/en/schedule-friday.html"
+                 />
+		<lastmod>2016-02-22T23:45:00+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.9</priority>
+    </url>
+    <url>
+		
+		<loc>https://pycon.sk/en/schedule-sunday.html</loc>
+		<xhtml:link 
+                 rel="alternate"
+                 hreflang="sk"
+                 href="https://pycon.sk/sk/schedule-sunday.html"
+                 />
+		<lastmod>2016-02-22T23:45:00+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.9</priority>
+    </url>
+    <url>
+		
+		<loc>https://pycon.sk/sk/schedule-sunday.html</loc>
+		<xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://pycon.sk/en/schedule-sunday.html"
+                 />
+		<lastmod>2016-02-22T23:45:00+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.9</priority>
     </url>
     <url>
 		

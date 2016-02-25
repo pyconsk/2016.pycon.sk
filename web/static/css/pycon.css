@@ -201,7 +201,7 @@ footer li {
   font-size: 11px;
 }
 
-.codearea{
+.codearea {
   background-color:#000;
   color:#fff;
   font-family:'Oxygen Mono', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace;
@@ -209,16 +209,176 @@ footer li {
   overflow:auto
 }
 
-textarea{
-  height:100%;
-  width:98%
+textarea {
+  height: 100%;
+  width: 98%;
 }
 
 .logo-scale {
-  height:1.5em;
-  width:auto;
+  height: 1.5em;
+  width: auto;
 }
 
+.col-md-6.narrow {
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+ul.vertical-list li.active a, ul.vertical-list li.active a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul.vertical-list {
+  display: table;
+  margin-bottom: 30px;
+  padding-left: 2px;
+}
+
+ul.vertical-list li {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.talk-data {
+  padding-right: 5px;
+}
+
+.table-side > tbody > tr > td, .table-side > tbody > tr > th {
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+.table-side > tbody > tr > th {
+  width: 80px;
+}
+
+.talk-abstract {
+  padding-right: 5px;
+}
+
+.talk-abstract ul {
+  padding-left: 20px;
+}
+
+.modal-header h3, .modal-header h4, .modal-header h5 {
+  border: none;
+  padding-bottom: 0;
+}
+
+.modal-transparent .modal-content {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid #999;
+  color: #fff;
+}
+
+.modal-transparent .close {
+  color: #fff;
+  text-shadow: 0 1px 0 #000;
+}
+
+.modal-transparent .modal-content .modal-header {
+  border-bottom-color: #999;
+}
+
+.modal-transparent .modal-content .modal-footer {
+  border-top-color: #999;
+}
+
+table.schedule > thead > tr > th .room {
+  font-size: 16px;
+}
+
+table.schedule {
+  border: 2px solid #ddd;
+}
+
+table.schedule > thead > tr > th {
+  vertical-align: middle;
+}
+
+table.schedule > thead > tr > th {
+  height: 30px;
+}
+
+table.schedule > tbody > tr > td > div {
+  margin: 0;
+  padding: 0;
+}
+
+table.schedule > thead > tr > th:first-child , table.schedule > tbody > tr > td:first-child {
+  width: 60px;
+}
+
+table.schedule .time {
+  height: 44px;
+  width: 54px;
+  font-weight: bold;
+}
+
+table.schedule .lang {
+  height: 16px;
+  font-size: 12px;
+}
+
+table.schedule .talk {
+  font-weight: bold;
+  height: 40px;
+}
+
+table.schedule .talk.oneline {
+  height: 24px;
+}
+
+table.schedule tr.event .talk {
+  color: #337ab7;
+}
+
+table.schedule .speaker {
+  height: 20px;
+}
+
+table.schedule .speaker small {
+  line-height: 3px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  table.schedule .speaker {
+    text-align: right !important;
+  }
+}
+
+@media (max-width: 400px) {
+  table.schedule .speaker {
+    text-align: right !important;
+  }
+}
+
+tr.event {
+  cursor: pointer;
+}
+
+#event-details .modal-body {
+  padding-bottom: 40px;
+}
+
+#event-details .modal-footer h3 {
+  font-size: 18px;
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
+#event-details .modal-footer p {
+  font-size: 12px;
+}
+
+#speaker-bio .img-thumbnail {
+  max-height: 120px;
+}
 
 /*
 A custom Bootstrap 3.2 'Google Plus style' theme
@@ -245,8 +405,11 @@ body {
 .navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > li:hover > a {border:0 solid #4285f4;border-bottom-width:2px;background-color:transparent;color:#000;text-shadow:0px 1px 1px rgba(0, 0, 0, 0.4)}
 .navbar-default .navbar-nav.lang-nav > .active > a,.navbar-default .navbar-nav.lang-nav > li:hover > a {font-weight: normal;}
 .navbar-default .navbar-header.active > a .navbar-brand, .navbar-default .navbar-header:hover > a .navbar-brand {color:#000; text-shadow:0px 1px 1px rgba(0, 0, 0, 0.2)}
-.navbar-default .dropdown-menu {background-color:#ffffff;}
-.navbar-default .dropdown-menu li > a {padding-left:30px;}
+.navbar-default .dropdown-menu {background-color:rgba(244, 244, 244, 0.9); z-index:5;}
+.navbar-default .dropdown-menu li > a {padding-left:20px;}
+.navbar-default .dropdown-menu li.active > a, .navbar-default .dropdown-menu li > a:hover {
+  background-color:rgba(66, 133, 244, 0.9);
+}
 
 .header {background-color:#ffffff;border-width:0;}
 .header .navbar-collapse {background-color:#ffffff;}
@@ -300,12 +463,6 @@ h3,h4,h5 {
  border:0 solid #efefef; 
  border-bottom-width:1px;
  padding-bottom:10px;
-}
-.modal-dialog {
- width: 450px;
-}
-.modal-footer {
- border-width:0;
 }
 .dropdown-menu {
  background-color:#f4f4f4;

@@ -38,7 +38,7 @@
   <link rel="alternate" href="https://pycon.sk/sk/index.html" hreflang="sk">
   
   <link rel="canonical" href="https://pycon.sk/en/index.html" />
-  <link rel="stylesheet" href="../static/css/pycon.css?v=c189cfc">
+  <link rel="stylesheet" href="../static/css/pycon.css?v=46247de">
   <link rel="icon" href="../static/images/favicon.ico" sizes="16x16">
 </head>
 <body>
@@ -58,7 +58,7 @@
           <span class="icon-bar"></span>
         </button>
       </div>
-      <div class="navbar-collapse collapse" id="navbar-main">
+      <div class="navbar-collapse collapse hidden-print" id="navbar-main">
         <ul class="nav navbar-nav pull-right lang-nav">
           
           <li><a href="../sk/index.html" title="Prepnúť na slovenský jazyk" hreflang="sk"><img src="../static/images/lang/sk.png" alt="slovenský jazyk"></a></li>
@@ -71,24 +71,29 @@
           <li>
             <a href="getting-here.html">Venue</a>
             </li>
+          <li>
+            <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedule <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li class=""><a href="schedule-friday.html">Friday, 11<sup>th</sup></a></li>
+              <li class=""><a href="schedule-saturday.html">Saturday, 12<sup>th</sup></a></li>
+              <li class=""><a href="schedule-sunday.html">Sunday, 13<sup>th</sup></a></li>
+            </ul>
+          </li>
           <li >
             <a href="speakers.html">Speakers</a>
-          </li>
-          <li>
-            <a href="django-girls.html">Workshop</a>
           </li>
           <li>
             <a href="sponsors.html">Sponsors</a>
           </li>
           <li>
-            <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meetup <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="meetup.html">Meetup</a></li>
-              <li><a href="console.html">Try Python</a></li>
-            </ul>
+            <a href="code-of-conduct.html">Code of Conduct</a>
           </li>
           <li>
-            <a href="code-of-conduct.html">Code of Conduct</a>
+            <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meetup <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li class=""><a href="meetup.html">Meetup</a></li>
+              <li class=""><a href="console.html">Try out Python</a></li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -115,12 +120,10 @@
 
     <p class="text-justify lead"><small>We are very happy to anounce good news: Inaugural PyCon SK conference will be held <a href="pod-zastitou-prezidenta-slovenskej-republiky.html">under the patronage of Andrej Kiska, President of Slovak Republic</a>.</small></p>
 
-    <p class="text-justify">After successful organization in more than 40 countries, PyCon is coming to Slovakia. Lectures will be held on Friday - Slovak day and Saturday - English day. On Sunday, there will be workshops and Python Clinic where you will be able to talk to some of the speakers about their talk or practice some Python technologies. We have also prepared a <a href="django-girls.html">Django Girls</a> workshop, which will be suitable for absolute beginners. 
+    <p class="text-justify">After successful organization in more than 40 countries, PyCon is coming to Slovakia. Lectures will be held on <a href="schedule-friday.html">Friday - Slovak day</a> and <a href="schedule-saturday.html">Saturday - English day</a>. On <a href="schedule-sunday.html">Sunday</a>, there will be workshops and Python Clinic where you will be able to talk to some of the speakers about their talk or practice some Python technologies. We have also prepared a <a href="django-girls.html">Django Girls</a> workshop, which will be suitable for absolute beginners.
+    </p>
 
     <br>
-    <p class="text-center lead"><a href="tickets.html">Tickets are for sale again!</a></p>
-
-    <p>We have published names of speakers, who will give a talk at the conference. You can look forward to great local and foreign speakers. We will publish list of talks and conference schedule soon.</p>
 
     <div class="image text-center">
       <img src="../static/images/pycon/6967347999_105bba91a3_z.jpg" alt="" class="img-responsive center-block">
@@ -136,7 +139,7 @@
   <div class="col-md-4">
     <!-- right_nav -->
 
-<div class="text-center right-nav">
+<div class="text-center right-nav hidden-print">
   <h4><mark class="platinum">Platinum sponsors:</mark></h4>
   <ul class="list-unstyled">
     <li>
@@ -219,7 +222,7 @@
 </div>
 
     <!-- content end -->
-    <footer>
+    <footer class="hidden-print">
       <div class="row">
         <div class="col-md-12">
           <ul class="list-unstyled">
@@ -238,6 +241,11 @@
           
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-12">
+          <small class="text-center"><a href="https://www.python.org/psf/trademarks/pycon/" target="_blank">PyCon™</a> je ochranná známka <a href="https://www.python.org/psf-landing/" target="_blank">Python Software foundation</a> pre celosvetové konferenčné aktivity.</small>
+        </div>
+      </div>
     </footer>
   </div> <!-- container end -->
 
@@ -246,6 +254,7 @@
   <script src="../static/js/svgeezy.min.js"></script>
   <script>svgeezy.init(false, 'png');</script>
   <script src="../static/js/bootstrap.min.js"></script>
+  
   <!-- GA -->
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
