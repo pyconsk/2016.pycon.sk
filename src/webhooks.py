@@ -65,6 +65,7 @@ def verify_signature(secret):
 @verify_signature(SECRET)
 def push():
     data = request.json
+    branch = data.get('ref').split('/')[-1]
 
     try:
         head_commit = data['head_commit']['id']
@@ -73,7 +74,7 @@ def push():
         head_commit = ''
         cmd_id = str(time.time())
 
-    if execute(cmd_id, [UPDATE_CMD, head_commit], stdin=json_dumps(data).encode('utf-8')):
+    if execute(cmd_id, [UPDATE_CMD, branch, head_commit], stdin=json_dumps(data).encode('utf-8')):
         return 'ok'
     else:
         return '!!'
