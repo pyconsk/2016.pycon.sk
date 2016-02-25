@@ -224,18 +224,18 @@ textarea {
   padding-left: 2px;
 }
 
-ul.vertical-list li.active a, ul.vertical-list li.active a {
+ul.horizontal-list li.active a, ul.horizontal-list li.active a {
   color: #000;
   text-decoration: none;
 }
 
-ul.vertical-list {
+ul.horizontal-list {
   display: table;
   margin-bottom: 30px;
   padding-left: 2px;
 }
 
-ul.vertical-list li {
+ul.horizontal-list li {
   display: table-cell;
   vertical-align: middle;
   padding-right: 20px;
