@@ -53,9 +53,9 @@
 
     <h3>{{ _('Aký bude program konferencie?') }}</h3>
     <ul class="text-justify">
-      <li><a href="url_friday=url_for('schedule_fri', lang_code=lang_code)">{{ _('Piatok') }}</a> - {{ _('prednášky v slovenčine, resp. češtine') }}.</li>
-      <li><a href="url_friday=url_for('schedule_sat', lang_code=lang_code)">{{ _('Sobota') }}</a> - {{ _('prednášky v angličtine') }}.</li>
-      <li><a href="url_friday=url_for('schedule_sun', lang_code=lang_code)">{{ _('Nedeľa') }}</a> - {{ _('Python Clinic, spontánne workshopy a šprinty') }}.</li>
+      <li><a href="{{ url_for('schedule_fri', lang_code=lang_code) }}">{{ _('Piatok') }}</a> - {{ _('prednášky v slovenčine, resp. češtine') }}.</li>
+      <li><a href="{{ url_for('schedule_sat', lang_code=lang_code) }}">{{ _('Sobota') }}</a> - {{ _('prednášky v angličtine') }}.</li>
+      <li><a href="{{ url_for('schedule_sun', lang_code=lang_code) }}">{{ _('Nedeľa') }}</a> - {{ _('Python Clinic, spontánne workshopy a šprinty') }}.</li>
     </ul>
 
     <h3>{{ _('Ponúkate množstevné zľavy?') }}</h3>
