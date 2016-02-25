@@ -1,0 +1,406 @@
+{% extends "body.html" %}
+
+{% block content %}
+<div class="row">
+  <div class="col-md-8">
+    <h1>{{ _('Program') }}</h1>
+    <p class="lead">{{ _('Sobota, 12. februára 2016') }}</p>
+
+    <div class="row">
+      <div class="col-md-12">
+        {% include "schedule-days.html" %}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 narrow">
+        <table class="table table-striped table-hover schedule">
+          <tbody>
+            <tr class="event-dummy">
+              <td>
+                <div class="time">8:00</div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk">{{ _('Registrácia') }}</div>
+                <div class="speaker">{{ _('<a href="%(url)s">Hlavný vchod FIIT STU</a>', url=url_for('getting_here', lang_code=lang_code)) }}</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 narrow">
+        <table class="table table-striped table-hover schedule">
+
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center"><span class="room">{{ _('Veľká aula') }}</span> ({{ _('miestnosť') }} -1.61)</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="event-dummy">
+              <td>
+                <div class="time">9:00</div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="20" data-abstract="">Opening</div>
+                <div class="speaker" data-id=""></div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">9:20</div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="{{ _('Veľa energie sa investovalo, aby Python fungoval v školskom prostredí. Táto prednáška popisuje tieto snahy a vysvetľuje prečo je v našom záujme podporovať a podieľať sa na Pythone vo vzdelávaní. Súčasťou bude programovanie naživo a praktické demonštrácie. Môže sa niečo pokaziť?') }}">Teach, Learn, Program</div>
+                <div class="speaker" data-id="nick-tollervey">Nick Tollervey</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">10:00</div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="{{ _('Táto prednáška predstaví niektoré z výziev vývoja slobodného softvéru z pohľadu vývojára, ktorý zo softvéru žije. Založené na skúsenostiach autora pri programovaní &lt;a href=&quot;https://pagekite.net/&quot; target=&quot;_blank&quot;&gt;PageKite&lt;/a&gt; a &lt;a href=&quot;https://www.mailpile.is/&quot; target=&quot;_blank&quot;&gt;Mailpile&lt;/a&gt;, ktoré sú k dispozícii zdarma.') }}">Can Free Software be a full time job?</div>
+                <div class="speaker" data-id="bjarni-runar-einarsson">Bjarni Runar Einarsson</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">10:35</div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="{{ _('Jedna z mnohých výhod Pythonu je jeho neuveriteľná ponuka rôznych knižníc. Štandardná knižnica je už sama o sebe dobrá a ak vezmeme do úvahy ekosystém z tretích strán, patrí Python k tomu najlepšiemu na svete. Aj napriek tomu, sa značné množstvo energie minulo, kým sme dospeli k tomuto stavu. Predstavte si HTTP ekosystém, ktorý má mnoho fantastických knižníc. Nanešťastie, tieto knižnice využívajú neuveriteľne málo už existujúceho kódu: rôzne HTTP knižnice nemajú väčšinou žiaden spoločný kód, hoci robia prakticky to isté. Toto sa niekedy stáva aj pri projektoch, ktoré by mali byť takmer identické, napríklad: requests a treq. &lt;br&gt;&lt;br&gt; Táto prednáška ukáže, že toto je spôsobené tým, že každá knižnica obsahuje vlastnú I/O vrstvu. Preskúma, ako tento problém vzniká a predostrie alternatívny prístup k tvorbe knižníc, ktorý má ohromné výhody oproti štadardnému prístupu. Ako príklady uvedie viacero projektov, na ktorých sa autor podieľal, vrátane jednej knižnice, o ktorej si myslí, že spĺňa navrhnuté štandardy. Taktiež ukáže, kde sa tento prístup využíva mimo Pythonu.') }}">Building Protocol Libraries The Right Way</div>
+                <div class="speaker" data-id="cory-benfield">Cory Benfield</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">11:20</div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="{{ _('Odhaduje sa, že len v USA softvérové projekty, ktoré nevyšli, alebo majú problémy vyplytvajú 60-70 mld USD za rok. Za tieto peniaze môžete vypustiť 100-krát raketoplán, zhotoviť a vypustiť 24 GPS družíc, a vyvinúť Boeing 777 od úplného začiatku a ešte vám stále pár miliárd ostane. &lt;br&gt;&lt;br&gt; V tejto prednáške nebudem analyzovať, čo robia tieto firmy zle. Namiesto toho sa pokúsim vysvetliť ako Google znižuje náklady vývoja a súčasne urýchľuje vydávanie nových verzií a neustále poskytovanie vysokokvalitného softvéru pre našich používateľov. Budem hovoriť o viacerých metodológiách vývoja softvéru a tiež špecifikách toho, čo robia dennodenne tímy v Google.') }}">Behind The Scenes Of Day-To-Day Software Development At Google</div>
+                <div class="speaker" data-id="petra-cross">Petra Cross</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">12:00</div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="Part of my job title is Documentation Manager. When I explain this to a programmer outside the Python/Django community, the reaction can be anything from bewilderment to a kind of mild horror. When I mention it to a Python/Django programmer, the response is usually: Oh, cool. &lt;br&gt;&lt;br&gt; In fact, one secret of Django&apos;s success is the quality of its documentation, and everyone who uses Django is quick to note this. &lt;br&gt;&lt;br&gt; The returns on Django&apos;s investment have been substantial, but some of them are also surprising. &lt;br&gt;&lt;br&gt; The documentation has clearly been key to the quality of the code itself, but also (less obviously) to the development of Django as a community project, and even the professional development of programmers who adopt Django. &lt;br&gt;&lt;br&gt; I&apos;ll discuss how Django has achieved it, and how any project can easily win the same benefits.">Documentation-driven development: lessons from the Django Project</div>
+                <div class="speaker" data-id="daniele-procida">Daniele Procida</div>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+
+        <table class="table table-striped table-hover schedule">
+          <tbody>
+            <tr class="event-dummy">
+              <td>
+                <div class="time">12:30</div>
+                <div class="lang"></div>
+              </td>
+              <td>
+                <div class="talk">{{ _('Obed') }}</div>
+                <div class="speaker"></div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table class="table table-striped table-hover schedule">
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center"><span class="room">{{ _('Veľká aula') }}</span> ({{ _('miestnosť') }} -1.61)</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">13:30</div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="45" data-abstract="Some applications in the market assist users to correct different writing mistakes, including spelling and grammar errors. However, very rarely these tools are used by school teachers. For most of them, it is still time consuming and tedious to correct (beginners) student essays. &lt;br&gt;&lt;br&gt; This talk will introduce some challenges in automatic English text correction. The objective is to present how it is possible to use Python libraries (scikit-learn, SciPy and NumPy) for spotting English mistakes such as: articles, capitalization and spelling. &lt;br&gt;&lt;br&gt; In order to train and test the classifier, an open dataset will be used: EF-Cambridge Open Language Dataset (https://corpus.mml.cam.ac.uk/efcamdat/). This will allow participants to reproduce all the steps. &lt;br&gt;&lt;br&gt; During the presentation, the accuracy of the implementation will be compared to at least one commercial application. It will be discussed how this kind of work can bring value to existing educational applications. Limitations and further steps will also be discussed. &lt;br&gt;&lt;br&gt; This presentation is a successive work from the cooperation of Education First (language teaching institution) engineers and University of Cambridge language researchers.">Automatic English Text Correction</div>
+                <div class="speaker" data-id="tatiana-al-chueyr-martins">Tatiana Al-Chueyr Martins</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">14:25</div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="{{ _('Hlavným problémom TDD je, že je to len ďalší marketingový výraz. Je mnoho článkov, ktoré popisujú výhody TDD, ale nikto nepopisuje ako a kde začať. &lt;br&gt;&lt;br&gt; Väčšina kníh na túto tému popisuje ideálny svet s neobmedzenými zdrojmi a kolegami ktorý sú ochotní si túto metodológiu osvojiť. Avšak zákazníci sú chamtiví a manažéri sú neochotní strácať čas na &quot;zbytočnú&quot; prácu. Moja téma sa týka praktických aspektov TDD. Popisuje kde začať, ako prekonať odpor prostredia a ako zväčšiť testovaciu sadu. Navyše skoro všetky myšlienky su podložené reálnými príkladmi reálneho kódu.') }}">Painless Testing with Django</div>
+                <div class="speaker" data-id="max-kharandziuk">Max Kharandziuk</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">15:00</div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="{{ _('Preskúmame Python a získame nástroje, vďaka ktorým sa staneme lepšími Pythonistami. &lt;br&gt;&lt;br&gt; Naučíme sa niektoré mierne pokročilé koncepty a vyhneme sa niektorým často sa opakujúcim Pythonským chytákom (gotchas).') }}">Python – What you didn’t know you didn’t know…</div>
+                <div class="speaker" data-id="martina-sturdikova">Martina Sturdikova {{ _('a') }} Laura Munn</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">15:45</div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="TODO">TODO</div>
+                <div class="speaker" data-id="jesus-cea-avion">Jesús Cea Avión</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">16:25</div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="While more and more code is written and connected on the internet, security have never been so important for software. However, security is often relegated as a 2nd thought and solution to scale it had to be found by the industry theses days. &lt;br&gt;&lt;br&gt; A proven strategy is to use automatic static code analysis, a technique applied by tools such as Coverty or Clang, and mostly used for C code. &lt;br&gt;&lt;br&gt; But not all softwares are written in C, so this talk will present bandit, a tool to detect dangerous python code, and will explain the different types of flaws developers have to keep in mind when writing code, and why static code analysis is not a silver bullet, but just one of the numerous way we can improve security.">Python application security auditing with bandit</div>
+                <div class="speaker" data-id="michael-scherer">Michael Scherer</div>
+              </td>
+            </tr>
+
+            <tr class="event-dummy">
+              <td>
+                <div class="time">17:05</div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="50" data-abstract="">Lightning talks</div>
+                <div class="speaker" data-id=""></div>
+              </td>
+            </tr>
+
+            <tr class="event-dummy">
+              <td>
+                <div class="time"></div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="5" data-abstract="">Thank you</div>
+                <div class="speaker" data-id=""></div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table class="table table-striped table-hover schedule">
+          <tbody>
+            <tr class="event">
+              <td>
+                <div class="time">20:00</div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk oneline" data-duration="???" data-abstract="You can join some of the speakers, volunteers and attendees at the Saturday evening dinner. The price of the ticket includes hot and cold buffet suitable for vegetarians and also meat lovers. Dinner will be held in an informal style so you can grab your food and talk to other Pythonians (and repeat until all plates are empty). Afterwards, there will be a dessert available to make the evening sweeter. However, don’t forget to bring some money as drinks will not be included. The Dinner will be held at Nervosa restaurant (http://www.nervosa.sk/). Ticket is not valid for conference entry.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;a href=&quot;{{ url_for('tickets', lang_code=lang_code) }}&quot;&gt;  Buy ticket now!  &lt;/a&gt;">Dinner @ Nervosa restaurant</div>
+                <div class="speaker"><small>{{ _('Vstupenky na večeru sa predaváju samostatne na stránke vstupeniek.') }}</small></div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>  {# inner col 6 #}
+
+      <div class="col-md-6 narrow">
+        <table class="table table-striped table-hover schedule">
+
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center"><span class="room">{{ _('Babbageova učebňa') }}</span> ({{ _('miestnosť') }} -1.57)</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="event-dummy">  {# opening @ main track #}
+              <td>
+                <div class="time"></div>
+                <div class="lang"></div>
+              </td>
+              <td>
+                <div class="talk" data-duration="" data-abstract=""></div>
+                <div class="speaker" data-id=""></div>
+              </td>
+            </tr>
+
+            <tr class="event-dummy">  {# keynote @ main track #}
+              <td>
+                <div class="time"></div>
+                <div class="lang"></div>
+              </td>
+              <td>
+                <div class="talk" data-duration="" data-abstract=""></div>
+                <div class="speaker" data-id=""></div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">10:00</div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="45" data-abstract="{{ _('Získate rýchly prehľad o možnostiach použitia Pythonu vo vedeckých aplikáciach a aké problémy sa dajú pomocou neho riešiť. &lt;br&gt;&lt;br&gt; Za posledné roky sa vedecké balíčky v Pythone vyvinuli do serióznej Open Source alternatívy uznávaným a plateným systémom ako MATLAB, alebo špecializovaným riešeniam ako R. Avšak široká ponuka balíčkov a možností je často mätúca pre neskúsených uživateľov - táto prednáška chce takýmto ľudom pomôcť sa zorietovať. &lt;br&gt;&lt;br&gt;Konkrétne sa dozviete: &lt;ul&gt; &lt;li&gt;Prečo robiť vedecké výpočty v Pythone? (Motivácia)&lt;/li&gt; &lt;li&gt;Aké vedecké balíčky Python ponúka? (Zaujimavé balíčky/knižnice)&lt;/li&gt; &lt;li&gt;Kto ich používa? (Firmy/aplikácie ktoré využívajú vedecké balíčky)&lt;/li&gt; &lt;li&gt;Ako môžem začať? (Scientific Python distribúcie)&lt;/li&gt; &lt;li&gt;Je to naozaj také jednoduché? (Áno! Ukážky)&lt;/li&gt; &lt;/ul&gt;') }}">Scientific Computing with Python</div>
+                <div class="speaker" data-id="claus-aichinger">Claus Aichinger</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">10:55</div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="{{ _('Siete majú v sebe zakódované zložité informacie o rôznych typoch interakcií. Pozrieme sa ako sieťová perspektíva môže odhaliť vzácnu informaciu o korupcii vo verejnom obstarávaní, internej spolupráci v medzinárodnom podniku a tón kampane na Twitter-y, to všetko pomocou fenomenálnej NetworkX knižnice. NetworkX je veľmi produktívna a aktívne udržiavaná knižnica, ktorá si dobre rozumie s inými knižnicami a prostrediami. Dedí mnohé silné stránky Pythonu ako rýchle prototypovanie a ľahko sa dá naučiť. Taktiež si povieme o alternatívach ako graph-tool a igraph.') }}">Analyzing Networks In Python</div>
+                <div class="speaker" data-id="johannes-wachs">Johannes Wachs</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">11:35</div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="Netflow exporters provide extremely important information about what is going on in your network almost in real time. As the network grows, to store and analyze collected flow information starts to be a tedious task. &lt;br&gt;&lt;br&gt; The purpose of this talk is to outline how to use open source technologies to move from RRD files as a mean of storage of flow data and take full advantage of Netflow&apos;s (almost) real time nature to create NIDS with all the related data right at hand, visualized and ready to be diagnosed.">Building Netflow based NIDS out of open source components</div>
+                <div class="speaker" data-id="michal-kuffa">Michal Kuffa</div>
+              </td>
+            </tr>
+
+            <tr class="event-dummy">  {# last talk before lunch @ main track #}
+              <td>
+                <div class="time"></div>
+                <div class="lang"></div>
+              </td>
+              <td>
+                <div class="talk" data-duration="" data-abstract=""></div>
+                <div class="speaker" data-id=""></div>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+
+        <table class="table table-striped table-hover schedule">
+          <tbody>
+            <tr class="event-dummy">
+              <td>
+                <div class="time">12:05</div>
+                <div class="lang"></div>
+              </td>
+              <td>
+                <div class="talk">{{ _('Obed') }}</div>
+                <div class="speaker"></div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table class="table table-striped table-hover schedule">
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center"><span class="room">{{ _('Babbageova učebňa') }}</span> ({{ _('miestnosť') }} -1.57)</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">13:05</div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="45" data-abstract="From simple blogs and monolith Django web apps, up to sophisticated micro service architectures, is your product ready to leverage the opportunities brought by the new tools out there? &lt;br&gt;&lt;br&gt; In this talk I&apos;ll show how to package Python applications as ready-to-use Docker containers, and how to deploy and manage them in your own private cloud with OpenShift.">Building and Deploying containerized Python Apps in the Cloud</div>
+                <div class="speaker" data-id="rodolfo-carvalho">Rodolfo Carvalho</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">14:00</div>
+                <div class="lang">EN</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="Python is used in a wide variety of application domains in these days and it is growing day by day. Automation of jobs, big data mining, developing libraries to use APIs easily... &lt;br&gt;&lt;br&gt; Ansible is a popular orchestration and configuration management tool written in Python. It automates cloud provisioning, application deployment, intra-service orchestration. Ansible uses modules to run its tasks and these modules can be written in Python. &lt;br&gt;&lt;br&gt; Hadoop is a map-reduce framework which simplifies the processing of data sets distributed across clusters of servers. &lt;br&gt;&lt;br&gt; In this talk, I am going to show how Ansible works with the modules written in Python and run the Ansible application to create servers on the cloud environment, install a Hadoop cluster on the created servers. I am going to use DigitalOcean as a cloud infrastructure provider. After having the environment, I am going to run a distributed job written in Python on the created cluster. At the end, I am going to destroy remote environment with Ansible. &lt;br&gt;&lt;br&gt; As a result, automating an actual distributed task in Python, from creation of the environment to collection of the result will be experienced by the attendees.">Automating Distributed Tasks with Python on a Cloud Environment</div>
+                <div class="speaker" data-id="busra-koken">Büşra Köken</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">14:45</div>
+                <div class="lang">CZ</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="{{ _('Vagrant je nástroj, který umí rychle spouštět, nasazovat a ničit virtuální stroje. Pokud ho použijeme třeba při testování aplikace, vyhneme se oblíbenému problému &quot;Ale na mém počítači aplikace funguje&quot;. &lt;br&gt;&lt;br&gt; Ukážeme si, jak se Vagrant dá použít, jak ho použít pro Python a jak ho zneužít pro deployment.') }}">{{ _('Vagrant - koniec ságy "U mňa to funguje"') }}</div>
+                <div class="speaker" data-id="veros-kaplan">Věroš Kaplan</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">15:25</div>
+                <div class="lang">SK</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="{{ _('Hadoop a Spark umožňujú pohodlne spracovávať veľké množstvá dát. Na príklade personalizovaných emailov predvediem čo znamená spracovanie dát a ako môže vyzerať následné použitie spracovaných dát. &lt;br&gt;&lt;br&gt; Ďalej ukážem aké výhody predstavuje použitie Pythonu na riadenie celého procesu, využitie knižníc a nástrojov ako Pandas, SciPy a IPython notebook.') }}">{{ _('Personalizované emaily pomocou Pythonu a Sparku') }}</div>
+                <div class="speaker" data-id="tomas-sirny">Tomáš Sirný</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">16:15</div>
+                <div class="lang">SK</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="40" data-abstract="{{ _('&lt;ul&gt; &lt;li&gt;Demonštrácia jednoduchého merania.&lt;/li&gt; &lt;li&gt;Štandardne používané komunikačné rozhrania (ethernet, GPIB, RS-232,...).&lt;/li&gt; &lt;li&gt;High-end prístroje podporujúce VISA + modul pyVISA.&lt;/li&gt; &lt;li&gt;Ako využit Python ctypes na vytvorenie wrappera pre drivere daného prístroja.&lt;/li&gt; &lt;li&gt;Veci okolo meraní ako ukladanie dát, zobrazovanie a pod.&lt;/li&gt; &lt;/ul&gt;') }}">{{ _('Automatizácia meraní pomocou Pythonu') }}</div>
+                <div class="speaker" data-id="matus-rehak">Matúš Rehák</div>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>  {# inner col 6 #}
+
+    </div>  {# row #}
+  </div> {# outer col 8 #}
+
+  <div class="col-md-4">
+    {% include 'right_nav.html' %}
+  </div>
+
+</div>
+{% endblock %}
+
+{% block scripts %}
+{% include "schedule-js.html" %}
+{% endblock %}

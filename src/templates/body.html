@@ -58,7 +58,7 @@
           <span class="icon-bar"></span>
         </button>
       </div>
-      <div class="navbar-collapse collapse" id="navbar-main">
+      <div class="navbar-collapse collapse hidden-print" id="navbar-main">
         <ul class="nav navbar-nav pull-right lang-nav">
           {% if lang_code == 'sk' %}
           <li><a href="{{ request.path|replace('/'+lang_code, '/en', 1) }}" title="Switch to english language" hreflang="en"><img src="{{ url_for('static', filename='images/lang/uk.png') }}" alt="english language"></a></li>
@@ -73,24 +73,29 @@
           <li{% if li_getting_here %} class="{{ li_getting_here }}"{% endif %}>
             <a href="{{ url_for('getting_here', lang_code=lang_code) }}">{{ _('Miesto konania') }}</a>
             </li>
+          <li{% if li_workshop %} class="{{ li_schedule }}"{% endif %}>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ _('Program') }} <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li class="{{ li_schedule_fri }}"><a href="{{ url_for('schedule_fri', lang_code=lang_code) }}">{{ _('Piatok, 11. 3.') }}</a></li>
+              <li class="{{ li_schedule_sat }}"><a href="{{ url_for('schedule_sat', lang_code=lang_code) }}">{{ _('Sobota, 12. 3.') }}</a></li>
+              <li class="{{ li_schedule_sun }}"><a href="{{ url_for('schedule_sun', lang_code=lang_code) }}">{{ _('Nedeľa, 13. 3.') }}</a></li>
+            </ul>
+          </li>
           <li {% if li_speaking %} class="{{ li_speaking }}"{% endif %}>
             <a href="{{ url_for('speakers', lang_code=lang_code) }}">{{ _('Rečníci') }}</a>
-          </li>
-          <li{% if li_workshop %} class="{{ li_workshop }}"{% endif %}>
-            <a href="{{ url_for('django_girls', lang_code=lang_code) }}">{{ _('Workshop') }}</a>
           </li>
           <li{% if li_sponsoring %} class="{{ li_sponsoring }}"{% endif %}>
             <a href="{{ url_for('sponsors', lang_code=lang_code) }}">{{ _('Sponzori') }}</a>
           </li>
-          <li{% if li_meetup %} class="{{ li_meetup }}"{% endif %}>
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ _('Meetup') }} <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="{{ url_for('meetup', lang_code=lang_code) }}">{{ _('Meetup') }}</a></li>
-              <li><a href="{{ url_for('console', lang_code=lang_code) }}">{{ _('Vyskúšaj Python') }}</a></li>
-            </ul>
-          </li>
           <li{% if li_coc %} class="{{ li_coc }}"{% endif %}>
             <a href="{{ url_for('code_of_conduct', lang_code=lang_code) }}">{{ _('Kódex správania') }}</a>
+          </li>
+          <li{% if li_meetup %} class="{{ li_meetup }}{{ li_console }}"{% endif %}>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ _('Meetup') }} <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li class="{{ li_meetup }}"><a href="{{ url_for('meetup', lang_code=lang_code) }}">{{ _('Meetup') }}</a></li>
+              <li class="{{ li_console }}"><a href="{{ url_for('console', lang_code=lang_code) }}">{{ _('Vyskúšaj Python') }}</a></li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -102,7 +107,7 @@
     <!-- content -->
     {% block content %}{% endblock %}
     <!-- content end -->
-    <footer>
+    <footer class="hidden-print">
       <div class="row">
         <div class="col-md-12">
           <ul class="list-unstyled">
@@ -121,6 +126,11 @@
           {% block footer %}{% endblock %}
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-12">
+          <small class="text-center">{{ _('<a href="https://www.python.org/psf/trademarks/pycon/" target="_blank">PyCon™</a> je ochranná známka <a href="https://www.python.org/psf-landing/" target="_blank">Python Software foundation</a> pre celosvetové konferenčné aktivity.') }}</small>
+        </div>
+      </div>
     </footer>
   </div> <!-- container end -->
 
@@ -129,6 +139,7 @@
   <script src="{{ url_for('static', filename='js/svgeezy.min.js') }}"></script>
   <script>svgeezy.init(false, 'png');</script>
   <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+  {% block scripts %}{% endblock %}
   <!-- GA -->
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

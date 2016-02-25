@@ -20,6 +20,9 @@ SITEMAP = {
     'sponsors.html': {'prio': '0.9', 'freq': 'weekly', 'lastmod': '2015-12-18T10:24:12+00:00'},
     'speaking.html': {'prio': '0.9', 'freq': 'weekly', 'lastmod': '2015-10-26T22:05:00+00:00'},
     'speakers.html': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2015-10-31T23:45:00+00:00'},
+    'schedule-friday.html': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2016-02-22T23:45:00+00:00'},
+    'schedule-saturday.html': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2016-02-22T23:45:00+00:00'},
+    'schedule-sunday.html': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2016-02-22T23:45:00+00:00'},
     'tickets.html': {'prio': '1', 'freq': 'daily', 'lastmod': '2016-01-22T22:00:05+00:00'},
     'getting-here.html': {'prio': '0.75', 'freq': 'weekly', 'lastmod': '2016-01-18T12:00:05+00:00'},
     'django-girls.html': {'prio': '0.66', 'freq': 'weekly', 'lastmod': '2015-12-21T00:42:45+00:00'},
@@ -145,7 +148,7 @@ def index():
 
 @app.route('/<lang_code>/console.html')
 def console():
-    return render_template('console.html', **_get_template_variables(li_meetup='active'))
+    return render_template('console.html', **_get_template_variables(li_console='active'))
 
 
 @app.route('/<lang_code>/speakers.html')
@@ -180,6 +183,31 @@ def getting_here():
 @app.route('/<lang_code>/code-of-conduct.html')
 def code_of_conduct():
     return render_template('code-of-conduct.html', **_get_template_variables(li_coc='active'))
+
+
+@app.route('/<lang_code>/schedule-friday.html')
+def schedule_fri():
+    return render_template('schedule-friday.html', **_get_template_variables(
+        li_schedule='active',
+        li_schedule_fri='active'
+    ))
+
+
+@app.route('/<lang_code>/schedule-saturday.html')
+def schedule_sat():
+    return render_template('schedule-saturday.html', **_get_template_variables(
+        li_schedule='active',
+        li_schedule_sat='active'
+    ))
+
+
+@app.route('/<lang_code>/schedule-sunday.html')
+def schedule_sun():
+    return render_template('schedule-sunday.html', **_get_template_variables(
+        li_schedule='active',
+        li_schedule_sun='active'
+    ))
+
 
 @app.route('/<lang_code>/pod-zastitou-prezidenta-slovenskej-republiky.html')
 def president():

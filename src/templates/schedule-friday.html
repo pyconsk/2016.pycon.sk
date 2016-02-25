@@ -1,0 +1,232 @@
+{% extends "body.html" %}
+
+{% block content %}
+<div class="row">
+  <div class="col-md-8">
+    <h1>{{ _('Program') }}</h1>
+    <p class="lead">{{ _('Piatok, 11. februára 2016') }}</p>
+
+    <div class="row">
+      <div class="col-md-12">
+        {% include "schedule-days.html" %}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 narrow">
+        <table class="table table-striped table-hover schedule">
+          <tbody>
+            <tr class="event-dummy">
+              <td>
+                <div class="time">8:00</div>
+                <div class="lang">SK</div>
+              </td>
+              <td>
+                <div class="talk">{{ _('Registrácia') }}</div>
+                <div class="speaker">{{ _('<a href="%(url)s">Hlavný vchod FIIT STU</a>', url=url_for('getting_here', lang_code=lang_code)) }}</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 narrow">
+        <table class="table table-striped table-hover schedule">
+
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center"><span class="room">{{ _('Veľká aula') }}</span> ({{ _('miestnosť') }} -1.61)</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="event-dummy">
+              <td>
+                <div class="time">9:00</div>
+                <div class="lang">SK</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="20" data-abstract="">{{ _('Otvorenie konferencie') }}</div>
+                <div class="speaker" data-id=""></div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">9:20</div>
+                <div class="lang">CZ</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="{{ _('Každý z vás už asi někdy použil příkaz `import`. Víte ale, co *přesně* dělá? Jak se ze podle jména modulu najde správný soubor, a jak se z textového souboru stane modul? Věděli jste, že Python umí importovat ze ZIP archivů nebo spouštět adresáře? Chcete se dozvědět jak vznikají cyklické importy a jak jim zamezit? &lt;br&gt; Odpovědi hledejte na této přednášce.') }}">{{ _('Ako funguje import') }}</div>
+                <div class="speaker" data-id="petr-viktorin">Petr Viktorin</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">10:00</div>
+                <div class="lang">SK</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="{{ _('Funkcionálne programovanie poskytuje iný pohľad na dáta a aj štruktúru programu. Pôvodne odsunuté na akademické pôdy, avšak v poslednej dobe sa využitie funkcionálneho programovania rozširuje, hlavne vďaka jeho užitočnosti v distribuovaných systémoch. Príklady funckionálnych vlastností kódu sú použitie immutable premenných, rekurzií, pattern matchingu, či funkcií vyšieho rádu, čo pre začiatočníkov môže byť zložité na porozumenie. V tomto talku si priblížime niektoré z vlastností funkcionálneho programovania a ich využitie v jazyku Python.') }}">{{ _('Základy funkcionálneho programovania (aj v Pythone)') }}</div>
+                <div class="speaker" data-id="andrea-stenova">Andrea Šteňová</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">10:40</div>
+                <div class="lang">SK</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="{{ _('Micropython je minimálna implementácia Pythonu 3 na embedded procesoroch ako ARM, x86. Umožňuje vývojárom rýchlo a efektívne písať kód priamo pre hardware bez nutnosti kompilácie. &lt;br&gt;&lt;br&gt; Výhoda interpretovaného jazyka je teda hlavne v odstánení času kompilácie. Chyby sa zobrazujú priamo pri výkone, odozva je okamžitá. Medzi nevýhody patria zvýšená náročnosť na pamäť a neplánované pauzy vo vykonávaní kódu kvôli garbage collectoru. &lt;br&gt;&lt;br&gt; Predstavím vývojové platformy, na ktorých bežia interpretované jazyky, ich výhody a nevýhody. V hlavnej časti prednášky sa budeme venovať základným ukážkam vývoja hardwaru na príkladoch prepínačov, LEDiek, potenciometrov a prerušení.') }}">{{ _('MicroPython') }}</div>
+                <div class="speaker" data-id="andrej-mosat">Andrej Mošať</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">11:25</div>
+                <div class="lang">SK</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="{{ _('Veľké organizácie tradične používali jazyky ako C++, .NET a Java na vývoj enterprise aplikácií. “Skriptovacie” jazyky ako napríklad Python sa považovali za riskantné. Neboli dostatočne robustné a nástroje okolo nich (frameworky) poriadne ešte ani neexistovali. Doba sa však zmenila a z Pythonu sa stal jazyk, obklopený obrovskou open source komunitou, ktorá sa stará o udržiavanie tohto ekosystému. Čoraz častejšie vidíme dynamické jazyky použité pre vývoj web aplikácií. Čo sa ale skrýva za pojmom enterprise alebo produkčná web aplikácia? Tieto aplikácie by mali spĺňať niekoľko vlastností. Škálovateľnosť, zero down time deployments, krátke release cykly a mnoho ďalších vlastností.') }}">{{ _('virtualenv, flask, vagrant a pod.') }}</div>
+                <div class="speaker" data-id="miroslav-beka">Miroslav Beka</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">12:05</div>
+                <div class="lang">SK</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="{{ _('IPython - krátka história, až k Jupyteru. Jupyterhub NB server, využitie. &lt;br&gt;&lt;br&gt; Ukážky notebookov, grafika cez Matplotlib a Bokeh, GUI prvky (ipywidgets), OSM mapy cez Folium.') }}">{{ _('Jupyter notebook doma, v škole, všade') }}</div>
+                <div class="speaker" data-id="michal-kaukic">Michal Kaukič</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table class="table table-striped table-hover schedule">
+          <tbody>
+            <tr class="event-dummy">
+              <td>
+                <div class="time">12:35</div>
+                <div class="lang"></div>
+              </td>
+              <td>
+                <div class="talk">{{ _('Obed') }}</div>
+                <div class="speaker"></div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table class="table table-striped table-hover schedule">
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center"><span class="room">{{ _('Veľká aula') }}</span> ({{ _('miestnosť') }} -1.61)</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">13:35</div>
+                <div class="lang">SK</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="45" data-abstract="{{ _('&lt;ul&gt; &lt;li&gt;Naprogramovanie jednoduchého malvéru v Pythone. Vyrobíme trojského koňa s reverzným shellom pre Windows.&lt;/li&gt; &lt;li&gt;Zapojenie viacerých trojských koní do botnetovej siete pomocou Twitter a Gmail.&lt;/li&gt; &lt;li&gt;Možnosti ako sa proti takémuto niečomu dá bániť po technickej stránke – opät pomocou Pythonu.&lt;/li&gt; &lt;/ul&gt;') }}">{{ _('Python a malware') }}</div>
+                <div class="speaker" data-id="peter-matkovski">Peter Matkovski</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">14:30</div>
+                <div class="lang">SK</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="{{ _('React je výborná JavaScript knižnica na vytváranie uživateľských rozhraní. Ak ju chcete použiť v Djangu, alebo inom Python framework-u, existujú návrhové vzory (design patterns) a zaužívané spôsoby (best practices), ktoré fungovali v mojom prípade a použili sme ich v práci. &lt;br&gt;&lt;br&gt; Keď sme vytvárali Single Page aplikáciu za použitia React a Django, museli sme sa zamyslieť nad tým ako urobíme API, ako budeme pracovať so šablónami (templates), ako sa postavíme k bezpečnosti, ako zabezpečíme rýchlosť a znovu-použiteľnosť nášho API pre mobilné aplikácie. &lt;br&gt;&lt;br&gt; Ukážem vám ako používať tieto technológie, rozdiel medzi MVC a SPA vývojom, zaužívané spôsoby a dobré nástroje pre veľké projekty. &lt;br&gt;&lt;br&gt; Ak rozmýšľate o použití JavaScriptu vo vašom projekte, dám vám tipy a rady, ktoré vám budú nápomocné.') }}">{{ _('Django, Django REST Framework, React') }}</div>
+                <div class="speaker" data-id="svetlana-margetova">Svetlana Margetová</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">15:10</div>
+                <div class="lang">SK</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="35" data-abstract="{{ _('Cieľ: Informovať o možnosti programovania platformy NAO cez programovací jazyk Python. &lt;br&gt;&lt;br&gt; Úvod: Motivovanie mladých ľudí do informatiky a práce s programovacím jazykom. Ukážky na platforme NAO.') }}">{{ _('Robot NAO - Programovanie NAO cez Python') }}</div>
+                <div class="speaker" data-id="adam-gluch">Adam Gluch</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">16:00</div>
+                <div class="lang">SK</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="{{ _('Uživatelia a obzvlášť vývojari, nenávidia čakanie. Výpočtová technika sa prispôsobila a skoro nikdy nečakáme aby počítač niečo vykonal dlhšie ako 10 sekúnd. Jedna veľká výnimka je spustenie testovacej sady, ktorá na mnohých projektoch trvá MINÚTY. Je to neuveriteľne rozptyľujúce, frustrujúce a ťaha to dolu so sebou celý koncept automatických testov. &lt;br&gt;&lt;br&gt; Predstavím techniku a nástroj (py.test plugin pod názvom &quot;testmon&quot;), ktorý automaticky označí len testy, ktorých sa dotkli posledné zmeny. Znie to príliš dobre aby to bola pravda? Python vývojari s právom podozrievajú každý nástroj, ktorý sa snaží byť príliš múdry keď ide o ich zdrojový kód. Automatické dopľnenie kódu a vyhľadávanie symbolov nemusí byť na 100&#37; spoľahlivé, ale špárať sa v testovacej sade? Ukážem, že môžeme výrazne znížiť čas trvania automatických testov bez straty spoľahlivosti.') }}">{{ _('Spojenie py.test, coverage.py a ast.py, ktoré posúva TDD vývoj na novú úroveň') }}</div>
+                <div class="speaker" data-id="tibor-arpas">Tibor Arpáš</div>
+              </td>
+            </tr>
+
+            <tr class="event" data-toggle="dropdown">
+              <td>
+                <div class="time">16:40</div>
+                <div class="lang">SK</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="30" data-abstract="{{ _('Tipy a triky na používanie funkcionálnych vlastností Pythonu, rýchlokurz. &lt;br&gt;&lt;br&gt; Ktoré techniky má zmysel používať, ktoré nie, kde je v nich elegancia a ako zlepšujú prehľadnosť, znovu-použitelnosť a testovatelnosť kódu. &lt;br&gt;&lt;br&gt; Prednáška je vhodná hlavne pre začiatočníkov a stredne pokročilých používateľov Pythonu.') }}">{{ _('Tipy a triky na používanie funkcionálnych vlastností Pythonu') }}</div>
+                <div class="speaker" data-id="jakub-sevcech">Jakub Ševcech</div>
+              </td>
+            </tr>
+
+            <tr class="event-dummy">
+              <td>
+                <div class="time">17:20</div>
+                <div class="lang">SK</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="20" data-abstract="">Lightning talks</div>
+                <div class="speaker" data-id=""></div>
+              </td>
+            </tr>
+
+            <tr class="event-dummy">
+              <td>
+                <div class="time"></div>
+                <div class="lang">SK</div>
+              </td>
+              <td>
+                <div class="talk" data-duration="5" data-abstract="">{{ _('Poďakovanie') }}</div>
+                <div class="speaker" data-id=""></div>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>  {# inner col 6 #}
+
+      <div class="col-md-6 narrow">
+      </div>
+
+    </div>  {# row #}
+  </div> {# outer col 8 #}
+
+  <div class="col-md-4">
+    {% include 'right_nav.html' %}
+  </div>
+
+</div>
+{% endblock %}
+
+{% block scripts %}
+{% include "schedule-js.html" %}
+{% endblock %}

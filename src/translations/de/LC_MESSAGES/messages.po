@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-22 07:38+0100\n"
+"POT-Creation-Date: 2016-02-25 20:53+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -152,7 +152,7 @@ msgid ""
 "produkčné servery."
 msgstr ""
 
-#: templates/ba-08-meetup.html:14
+#: templates/ba-08-meetup.html:14 templates/schedule-js.html:18
 msgid "Jazyk"
 msgstr ""
 
@@ -189,36 +189,57 @@ msgstr ""
 msgid "Miesto konania"
 msgstr ""
 
-#: templates/body.html:77 templates/speakers.html:5
-msgid "Rečníci"
+#: templates/body.html:77 templates/schedule-friday.html:6
+#: templates/schedule-saturday.html:6 templates/schedule-sunday.html:6
+msgid "Program"
+msgstr ""
+
+#: templates/body.html:79
+msgid "Piatok, 11. 3."
 msgstr ""
 
 #: templates/body.html:80
-msgid "Workshop"
+msgid "Sobota, 12. 3."
 msgstr ""
 
-#: templates/body.html:83 templates/django-girls.html:62
+#: templates/body.html:81
+msgid "Nedeľa, 13. 3."
+msgstr ""
+
+#: templates/body.html:85 templates/speakers.html:5
+msgid "Rečníci"
+msgstr ""
+
+#: templates/body.html:88 templates/django-girls.html:62
 msgid "Sponzori"
 msgstr ""
 
-#: templates/body.html:86 templates/body.html:88
-msgid "Meetup"
-msgstr ""
-
-#: templates/body.html:89
-msgid "Vyskúšaj Python"
-msgstr ""
-
-#: templates/body.html:93 templates/code-of-conduct.html:5
+#: templates/body.html:91 templates/code-of-conduct.html:5
 msgid "Kódex správania"
 msgstr ""
 
-#: templates/body.html:116
+#: templates/body.html:94 templates/body.html:96
+msgid "Meetup"
+msgstr ""
+
+#: templates/body.html:97
+msgid "Vyskúšaj Python"
+msgstr ""
+
+#: templates/body.html:121
 msgid "Občianske združenie"
 msgstr ""
 
-#: templates/body.html:117
+#: templates/body.html:122
 msgid "E-mailová konferencia"
+msgstr ""
+
+#: templates/body.html:131
+msgid ""
+"<a href=\"https://www.python.org/psf/trademarks/pycon/\" "
+"target=\"_blank\">PyCon™</a> je ochranná známka <a "
+"href=\"https://www.python.org/psf-landing/\" target=\"_blank\">Python "
+"Software foundation</a> pre celosvetové konferenčné aktivity."
 msgstr ""
 
 #: templates/code-of-conduct.html:7
@@ -779,41 +800,30 @@ msgstr ""
 #, python-format
 msgid ""
 "Po úspešnom uvedení vo viac ako 40 krajinách sveta prichádza po prvýkrát "
-"na Slovensko. Prednášky budú rozdelené na piatok - slovenský deň a sobotu"
-" - anglický deň. Nedeľa bude určená workshopom a Python Clinic, kde sa "
-"budete môcť porozprávať s niektorými rečníkmi podrobnejšie o ich téme, "
-"alebo si prakticky odskúšať niektoré Python technológie na vlastnej "
-"klávesnici. Taktiež sme pripravili <a href=\"%(url)s\">Django Girls</a> "
-"workshop, ktorý bude vhodný aj pre úplné začiatočníčky."
+"na Slovensko. Prednášky budú rozdelené na <a "
+"href=\"%(url_friday)s\">piatok - slovenský deň</a> a <a "
+"href=\"%(url_saturday)s\">sobotu - anglický deň</a>. <a "
+"href=\"%(url_sunday)s\">Nedeľa</a> bude určená workshopom a Python "
+"Clinic, kde sa budete môcť porozprávať s niektorými rečníkmi podrobnejšie"
+" o ich téme, alebo si prakticky odskúšať niektoré Python technológie na "
+"vlastnej klávesnici. Taktiež sme pripravili <a "
+"href=\"%(url_djangogirls)s\">Django Girls</a> workshop, ktorý bude vhodný"
+" aj pre úplné začiatočníčky."
 msgstr ""
 
-#: templates/index.html:24
+#: templates/index.html:29
 #: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:19
 msgid "Tlačová správa v"
 msgstr ""
 
-#: templates/index.html:27
-msgid "Vstupenky sú opäť v predaji!"
-msgstr ""
-
-#: templates/index.html:29
-msgid ""
-"Zverejnili sme mená rečníkov, ktorí vystúpia na konferencii. Môžete sa "
-"tešiť na zaujímavé vystúpenia skvelých domácich a zahraničných hostí."
-msgstr ""
-
-#: templates/index.html:29
-msgid "Čoskoro zverejníme aj zoznam prednášok a čas ich konania."
-msgstr ""
-
-#: templates/index.html:38
+#: templates/index.html:40
 msgid ""
 "Ak máte záujem prispieť, stať sa dobrovoľníkom alebo akokoľvek inak "
 "pomôcť s organizáciou PyCon SK (ktorý je kompletne organizovaný "
 "dobrovoľníkmi), budeme radi, ak sa nám ozvete."
 msgstr ""
 
-#: templates/index.html:39
+#: templates/index.html:41
 #, python-format
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
@@ -930,6 +940,402 @@ msgstr ""
 
 #: templates/right_nav.html:77
 msgid "Všetci sponzori"
+msgstr ""
+
+#: templates/schedule-days.html:2 templates/schedule-friday.html:7
+msgid "Piatok, 11. februára 2016"
+msgstr ""
+
+#: templates/schedule-days.html:3 templates/schedule-saturday.html:7
+msgid "Sobota, 12. februára 2016"
+msgstr ""
+
+#: templates/schedule-days.html:4 templates/schedule-sunday.html:7
+msgid "Nedeľa, 13. februára 2016"
+msgstr ""
+
+#: templates/schedule-days.html:7
+msgid "Zmena programu vyhradená."
+msgstr ""
+
+#: templates/schedule-friday.html:25 templates/schedule-saturday.html:25
+#: templates/schedule-sunday.html:25
+msgid "Registrácia"
+msgstr ""
+
+#: templates/schedule-friday.html:26 templates/schedule-saturday.html:26
+#: templates/schedule-sunday.html:26
+#, python-format
+msgid "<a href=\"%(url)s\">Hlavný vchod FIIT STU</a>"
+msgstr ""
+
+#: templates/schedule-friday.html:40 templates/schedule-friday.html:131
+#: templates/schedule-saturday.html:40 templates/schedule-saturday.html:132
+msgid "Veľká aula"
+msgstr ""
+
+#: templates/schedule-friday.html:40 templates/schedule-friday.html:131
+#: templates/schedule-saturday.html:40 templates/schedule-saturday.html:132
+#: templates/schedule-saturday.html:238 templates/schedule-saturday.html:330
+#: templates/schedule-sunday.html:40 templates/schedule-sunday.html:76
+#: templates/schedule-sunday.html:100
+msgid "miestnosť"
+msgstr ""
+
+#: templates/schedule-friday.html:51
+msgid "Otvorenie konferencie"
+msgstr ""
+
+#: templates/schedule-friday.html:62
+msgid ""
+"Každý z vás už asi někdy použil příkaz `import`. Víte ale, co *přesně* "
+"dělá? Jak se ze podle jména modulu najde správný soubor, a jak se z "
+"textového souboru stane modul? Věděli jste, že Python umí importovat ze "
+"ZIP archivů nebo spouštět adresáře? Chcete se dozvědět jak vznikají "
+"cyklické importy a jak jim zamezit? &lt;br&gt; Odpovědi hledejte na této "
+"přednášce."
+msgstr ""
+
+#: templates/schedule-friday.html:62
+msgid "Ako funguje import"
+msgstr ""
+
+#: templates/schedule-friday.html:73
+msgid ""
+"Funkcionálne programovanie poskytuje iný pohľad na dáta a aj štruktúru "
+"programu. Pôvodne odsunuté na akademické pôdy, avšak v poslednej dobe sa "
+"využitie funkcionálneho programovania rozširuje, hlavne vďaka jeho "
+"užitočnosti v distribuovaných systémoch. Príklady funckionálnych "
+"vlastností kódu sú použitie immutable premenných, rekurzií, pattern "
+"matchingu, či funkcií vyšieho rádu, čo pre začiatočníkov môže byť zložité"
+" na porozumenie. V tomto talku si priblížime niektoré z vlastností "
+"funkcionálneho programovania a ich využitie v jazyku Python."
+msgstr ""
+
+#: templates/schedule-friday.html:73
+msgid "Základy funkcionálneho programovania (aj v Pythone)"
+msgstr ""
+
+#: templates/schedule-friday.html:84
+msgid ""
+"Micropython je minimálna implementácia Pythonu 3 na embedded procesoroch "
+"ako ARM, x86. Umožňuje vývojárom rýchlo a efektívne písať kód priamo pre "
+"hardware bez nutnosti kompilácie. &lt;br&gt;&lt;br&gt; Výhoda "
+"interpretovaného jazyka je teda hlavne v odstánení času kompilácie. Chyby"
+" sa zobrazujú priamo pri výkone, odozva je okamžitá. Medzi nevýhody "
+"patria zvýšená náročnosť na pamäť a neplánované pauzy vo vykonávaní kódu "
+"kvôli garbage collectoru. &lt;br&gt;&lt;br&gt; Predstavím vývojové "
+"platformy, na ktorých bežia interpretované jazyky, ich výhody a nevýhody."
+" V hlavnej časti prednášky sa budeme venovať základným ukážkam vývoja "
+"hardwaru na príkladoch prepínačov, LEDiek, potenciometrov a prerušení."
+msgstr ""
+
+#: templates/schedule-friday.html:84
+msgid "MicroPython"
+msgstr ""
+
+#: templates/schedule-friday.html:95
+msgid ""
+"Veľké organizácie tradične používali jazyky ako C++, .NET a Java na vývoj"
+" enterprise aplikácií. “Skriptovacie” jazyky ako napríklad Python sa "
+"považovali za riskantné. Neboli dostatočne robustné a nástroje okolo nich"
+" (frameworky) poriadne ešte ani neexistovali. Doba sa však zmenila a z "
+"Pythonu sa stal jazyk, obklopený obrovskou open source komunitou, ktorá "
+"sa stará o udržiavanie tohto ekosystému. Čoraz častejšie vidíme dynamické"
+" jazyky použité pre vývoj web aplikácií. Čo sa ale skrýva za pojmom "
+"enterprise alebo produkčná web aplikácia? Tieto aplikácie by mali spĺňať "
+"niekoľko vlastností. Škálovateľnosť, zero down time deployments, krátke "
+"release cykly a mnoho ďalších vlastností."
+msgstr ""
+
+#: templates/schedule-friday.html:95
+msgid "virtualenv, flask, vagrant a pod."
+msgstr ""
+
+#: templates/schedule-friday.html:106
+msgid ""
+"IPython - krátka história, až k Jupyteru. Jupyterhub NB server, využitie."
+" &lt;br&gt;&lt;br&gt; Ukážky notebookov, grafika cez Matplotlib a Bokeh, "
+"GUI prvky (ipywidgets), OSM mapy cez Folium."
+msgstr ""
+
+#: templates/schedule-friday.html:106
+msgid "Jupyter notebook doma, v škole, všade"
+msgstr ""
+
+#: templates/schedule-friday.html:121 templates/schedule-saturday.html:122
+#: templates/schedule-saturday.html:320 templates/schedule-sunday.html:66
+msgid "Obed"
+msgstr ""
+
+#: templates/schedule-friday.html:142
+msgid ""
+"&lt;ul&gt; &lt;li&gt;Naprogramovanie jednoduchého malvéru v Pythone. "
+"Vyrobíme trojského koňa s reverzným shellom pre Windows.&lt;/li&gt; "
+"&lt;li&gt;Zapojenie viacerých trojských koní do botnetovej siete pomocou "
+"Twitter a Gmail.&lt;/li&gt; &lt;li&gt;Možnosti ako sa proti takémuto "
+"niečomu dá bániť po technickej stránke – opät pomocou Pythonu.&lt;/li&gt;"
+" &lt;/ul&gt;"
+msgstr ""
+
+#: templates/schedule-friday.html:142
+msgid "Python a malware"
+msgstr ""
+
+#: templates/schedule-friday.html:153
+msgid ""
+"React je výborná JavaScript knižnica na vytváranie uživateľských "
+"rozhraní. Ak ju chcete použiť v Djangu, alebo inom Python framework-u, "
+"existujú návrhové vzory (design patterns) a zaužívané spôsoby (best "
+"practices), ktoré fungovali v mojom prípade a použili sme ich v práci. "
+"&lt;br&gt;&lt;br&gt; Keď sme vytvárali Single Page aplikáciu za použitia "
+"React a Django, museli sme sa zamyslieť nad tým ako urobíme API, ako "
+"budeme pracovať so šablónami (templates), ako sa postavíme k bezpečnosti,"
+" ako zabezpečíme rýchlosť a znovu-použiteľnosť nášho API pre mobilné "
+"aplikácie. &lt;br&gt;&lt;br&gt; Ukážem vám ako používať tieto "
+"technológie, rozdiel medzi MVC a SPA vývojom, zaužívané spôsoby a dobré "
+"nástroje pre veľké projekty. &lt;br&gt;&lt;br&gt; Ak rozmýšľate o použití"
+" JavaScriptu vo vašom projekte, dám vám tipy a rady, ktoré vám budú "
+"nápomocné."
+msgstr ""
+
+#: templates/schedule-friday.html:153
+msgid "Django, Django REST Framework, React"
+msgstr ""
+
+#: templates/schedule-friday.html:164
+msgid ""
+"Cieľ: Informovať o možnosti programovania platformy NAO cez programovací "
+"jazyk Python. &lt;br&gt;&lt;br&gt; Úvod: Motivovanie mladých ľudí do "
+"informatiky a práce s programovacím jazykom. Ukážky na platforme NAO."
+msgstr ""
+
+#: templates/schedule-friday.html:164
+msgid "Robot NAO - Programovanie NAO cez Python"
+msgstr ""
+
+#: templates/schedule-friday.html:175
+msgid ""
+"Uživatelia a obzvlášť vývojari, nenávidia čakanie. Výpočtová technika sa "
+"prispôsobila a skoro nikdy nečakáme aby počítač niečo vykonal dlhšie ako "
+"10 sekúnd. Jedna veľká výnimka je spustenie testovacej sady, ktorá na "
+"mnohých projektoch trvá MINÚTY. Je to neuveriteľne rozptyľujúce, "
+"frustrujúce a ťaha to dolu so sebou celý koncept automatických testov. "
+"&lt;br&gt;&lt;br&gt; Predstavím techniku a nástroj (py.test plugin pod "
+"názvom &quot;testmon&quot;), ktorý automaticky označí len testy, ktorých "
+"sa dotkli posledné zmeny. Znie to príliš dobre aby to bola pravda? Python"
+" vývojari s právom podozrievajú každý nástroj, ktorý sa snaží byť príliš "
+"múdry keď ide o ich zdrojový kód. Automatické dopľnenie kódu a "
+"vyhľadávanie symbolov nemusí byť na 100&#37; spoľahlivé, ale špárať sa v "
+"testovacej sade? Ukážem, že môžeme výrazne znížiť čas trvania "
+"automatických testov bez straty spoľahlivosti."
+msgstr ""
+
+#: templates/schedule-friday.html:175
+msgid ""
+"Spojenie py.test, coverage.py a ast.py, ktoré posúva TDD vývoj na novú "
+"úroveň"
+msgstr ""
+
+#: templates/schedule-friday.html:186
+msgid ""
+"Tipy a triky na používanie funkcionálnych vlastností Pythonu, rýchlokurz."
+" &lt;br&gt;&lt;br&gt; Ktoré techniky má zmysel používať, ktoré nie, kde "
+"je v nich elegancia a ako zlepšujú prehľadnosť, znovu-použitelnosť a "
+"testovatelnosť kódu. &lt;br&gt;&lt;br&gt; Prednáška je vhodná hlavne pre "
+"začiatočníkov a stredne pokročilých používateľov Pythonu."
+msgstr ""
+
+#: templates/schedule-friday.html:186
+msgid "Tipy a triky na používanie funkcionálnych vlastností Pythonu"
+msgstr ""
+
+#: templates/schedule-friday.html:208
+msgid "Poďakovanie"
+msgstr ""
+
+#: templates/schedule-js.html:16
+msgid "Začiatok"
+msgstr ""
+
+#: templates/schedule-js.html:17
+msgid "Miestnosť"
+msgstr ""
+
+#: templates/schedule-js.html:19
+msgid "Rečník"
+msgstr ""
+
+#: templates/schedule-saturday.html:62
+msgid ""
+"Veľa energie sa investovalo, aby Python fungoval v školskom prostredí. "
+"Táto prednáška popisuje tieto snahy a vysvetľuje prečo je v našom záujme "
+"podporovať a podieľať sa na Pythone vo vzdelávaní. Súčasťou bude "
+"programovanie naživo a praktické demonštrácie. Môže sa niečo pokaziť?"
+msgstr ""
+
+#: templates/schedule-saturday.html:73
+msgid ""
+"Táto prednáška predstaví niektoré z výziev vývoja slobodného softvéru z "
+"pohľadu vývojára, ktorý zo softvéru žije. Založené na skúsenostiach "
+"autora pri programovaní &lt;a href=&quot;https://pagekite.net/&quot; "
+"target=&quot;_blank&quot;&gt;PageKite&lt;/a&gt; a &lt;a "
+"href=&quot;https://www.mailpile.is/&quot; "
+"target=&quot;_blank&quot;&gt;Mailpile&lt;/a&gt;, ktoré sú k dispozícii "
+"zdarma."
+msgstr ""
+
+#: templates/schedule-saturday.html:84
+msgid ""
+"Jedna z mnohých výhod Pythonu je jeho neuveriteľná ponuka rôznych "
+"knižníc. Štandardná knižnica je už sama o sebe dobrá a ak vezmeme do "
+"úvahy ekosystém z tretích strán, patrí Python k tomu najlepšiemu na "
+"svete. Aj napriek tomu, sa značné množstvo energie minulo, kým sme "
+"dospeli k tomuto stavu. Predstavte si HTTP ekosystém, ktorý má mnoho "
+"fantastických knižníc. Nanešťastie, tieto knižnice využívajú neuveriteľne"
+" málo už existujúceho kódu: rôzne HTTP knižnice nemajú väčšinou žiaden "
+"spoločný kód, hoci robia prakticky to isté. Toto sa niekedy stáva aj pri "
+"projektoch, ktoré by mali byť takmer identické, napríklad: requests a "
+"treq. &lt;br&gt;&lt;br&gt; Táto prednáška ukáže, že toto je spôsobené "
+"tým, že každá knižnica obsahuje vlastnú I/O vrstvu. Preskúma, ako tento "
+"problém vzniká a predostrie alternatívny prístup k tvorbe knižníc, ktorý "
+"má ohromné výhody oproti štadardnému prístupu. Ako príklady uvedie "
+"viacero projektov, na ktorých sa autor podieľal, vrátane jednej knižnice,"
+" o ktorej si myslí, že spĺňa navrhnuté štandardy. Taktiež ukáže, kde sa "
+"tento prístup využíva mimo Pythonu."
+msgstr ""
+
+#: templates/schedule-saturday.html:95
+msgid ""
+"Odhaduje sa, že len v USA softvérové projekty, ktoré nevyšli, alebo majú "
+"problémy vyplytvajú 60-70 mld USD za rok. Za tieto peniaze môžete "
+"vypustiť 100-krát raketoplán, zhotoviť a vypustiť 24 GPS družíc, a "
+"vyvinúť Boeing 777 od úplného začiatku a ešte vám stále pár miliárd "
+"ostane. &lt;br&gt;&lt;br&gt; V tejto prednáške nebudem analyzovať, čo "
+"robia tieto firmy zle. Namiesto toho sa pokúsim vysvetliť ako Google "
+"znižuje náklady vývoja a súčasne urýchľuje vydávanie nových verzií a "
+"neustále poskytovanie vysokokvalitného softvéru pre našich používateľov. "
+"Budem hovoriť o viacerých metodológiách vývoja softvéru a tiež "
+"špecifikách toho, čo robia dennodenne tímy v Google."
+msgstr ""
+
+#: templates/schedule-saturday.html:154
+msgid ""
+"Hlavným problémom TDD je, že je to len ďalší marketingový výraz. Je mnoho"
+" článkov, ktoré popisujú výhody TDD, ale nikto nepopisuje ako a kde "
+"začať. &lt;br&gt;&lt;br&gt; Väčšina kníh na túto tému popisuje ideálny "
+"svet s neobmedzenými zdrojmi a kolegami ktorý sú ochotní si túto "
+"metodológiu osvojiť. Avšak zákazníci sú chamtiví a manažéri sú neochotní "
+"strácať čas na &quot;zbytočnú&quot; prácu. Moja téma sa týka praktických "
+"aspektov TDD. Popisuje kde začať, ako prekonať odpor prostredia a ako "
+"zväčšiť testovaciu sadu. Navyše skoro všetky myšlienky su podložené "
+"reálnými príkladmi reálneho kódu."
+msgstr ""
+
+#: templates/schedule-saturday.html:165
+msgid ""
+"Preskúmame Python a získame nástroje, vďaka ktorým sa staneme lepšími "
+"Pythonistami. &lt;br&gt;&lt;br&gt; Naučíme sa niektoré mierne pokročilé "
+"koncepty a vyhneme sa niektorým často sa opakujúcim Pythonským chytákom "
+"(gotchas)."
+msgstr ""
+
+#: templates/schedule-saturday.html:166
+msgid "a"
+msgstr ""
+
+#: templates/schedule-saturday.html:225
+msgid "Vstupenky na večeru sa predaváju samostatne na stránke vstupeniek."
+msgstr ""
+
+#: templates/schedule-saturday.html:238 templates/schedule-saturday.html:330
+#: templates/schedule-sunday.html:100
+msgid "Babbageova učebňa"
+msgstr ""
+
+#: templates/schedule-saturday.html:271
+msgid ""
+"Získate rýchly prehľad o možnostiach použitia Pythonu vo vedeckých "
+"aplikáciach a aké problémy sa dajú pomocou neho riešiť. "
+"&lt;br&gt;&lt;br&gt; Za posledné roky sa vedecké balíčky v Pythone "
+"vyvinuli do serióznej Open Source alternatívy uznávaným a plateným "
+"systémom ako MATLAB, alebo špecializovaným riešeniam ako R. Avšak široká "
+"ponuka balíčkov a možností je často mätúca pre neskúsených uživateľov - "
+"táto prednáška chce takýmto ľudom pomôcť sa zorietovať. "
+"&lt;br&gt;&lt;br&gt;Konkrétne sa dozviete: &lt;ul&gt; &lt;li&gt;Prečo "
+"robiť vedecké výpočty v Pythone? (Motivácia)&lt;/li&gt; &lt;li&gt;Aké "
+"vedecké balíčky Python ponúka? (Zaujimavé balíčky/knižnice)&lt;/li&gt; "
+"&lt;li&gt;Kto ich používa? (Firmy/aplikácie ktoré využívajú vedecké "
+"balíčky)&lt;/li&gt; &lt;li&gt;Ako môžem začať? (Scientific Python "
+"distribúcie)&lt;/li&gt; &lt;li&gt;Je to naozaj také jednoduché? (Áno! "
+"Ukážky)&lt;/li&gt; &lt;/ul&gt;"
+msgstr ""
+
+#: templates/schedule-saturday.html:282
+msgid ""
+"Siete majú v sebe zakódované zložité informacie o rôznych typoch "
+"interakcií. Pozrieme sa ako sieťová perspektíva môže odhaliť vzácnu "
+"informaciu o korupcii vo verejnom obstarávaní, internej spolupráci v "
+"medzinárodnom podniku a tón kampane na Twitter-y, to všetko pomocou "
+"fenomenálnej NetworkX knižnice. NetworkX je veľmi produktívna a aktívne "
+"udržiavaná knižnica, ktorá si dobre rozumie s inými knižnicami a "
+"prostrediami. Dedí mnohé silné stránky Pythonu ako rýchle prototypovanie "
+"a ľahko sa dá naučiť. Taktiež si povieme o alternatívach ako graph-tool a"
+" igraph."
+msgstr ""
+
+#: templates/schedule-saturday.html:363
+msgid ""
+"Vagrant je nástroj, který umí rychle spouštět, nasazovat a ničit "
+"virtuální stroje. Pokud ho použijeme třeba při testování aplikace, "
+"vyhneme se oblíbenému problému &quot;Ale na mém počítači aplikace "
+"funguje&quot;. &lt;br&gt;&lt;br&gt; Ukážeme si, jak se Vagrant dá použít,"
+" jak ho použít pro Python a jak ho zneužít pro deployment."
+msgstr ""
+
+#: templates/schedule-saturday.html:363
+msgid "Vagrant - koniec ságy \"U mňa to funguje\""
+msgstr ""
+
+#: templates/schedule-saturday.html:374
+msgid ""
+"Hadoop a Spark umožňujú pohodlne spracovávať veľké množstvá dát. Na "
+"príklade personalizovaných emailov predvediem čo znamená spracovanie dát "
+"a ako môže vyzerať následné použitie spracovaných dát. "
+"&lt;br&gt;&lt;br&gt; Ďalej ukážem aké výhody predstavuje použitie Pythonu"
+" na riadenie celého procesu, využitie knižníc a nástrojov ako Pandas, "
+"SciPy a IPython notebook."
+msgstr ""
+
+#: templates/schedule-saturday.html:374
+msgid "Personalizované emaily pomocou Pythonu a Sparku"
+msgstr ""
+
+#: templates/schedule-saturday.html:385
+msgid ""
+"&lt;ul&gt; &lt;li&gt;Demonštrácia jednoduchého merania.&lt;/li&gt; "
+"&lt;li&gt;Štandardne používané komunikačné rozhrania (ethernet, GPIB, "
+"RS-232,...).&lt;/li&gt; &lt;li&gt;High-end prístroje podporujúce VISA + "
+"modul pyVISA.&lt;/li&gt; &lt;li&gt;Ako využit Python ctypes na vytvorenie"
+" wrappera pre drivere daného prístroja.&lt;/li&gt; &lt;li&gt;Veci okolo "
+"meraní ako ukladanie dát, zobrazovanie a pod.&lt;/li&gt; &lt;/ul&gt;"
+msgstr ""
+
+#: templates/schedule-saturday.html:385
+msgid "Automatizácia meraní pomocou Pythonu"
+msgstr ""
+
+#: templates/schedule-sunday.html:40 templates/schedule-sunday.html:76
+msgid "Turingova učebňa"
+msgstr ""
+
+#: templates/schedule-sunday.html:51 templates/schedule-sunday.html:87
+#: templates/tickets.html:58
+msgid "Python Clinic, spontánne workshopy a šprinty"
+msgstr ""
+
+#: templates/schedule-sunday.html:112
+msgid "Len pre registrovaných účastníkov. Registrácie sú uzavreté."
 msgstr ""
 
 #: templates/speakers.html:6
@@ -1850,55 +2256,44 @@ msgstr ""
 msgid "Nedeľa"
 msgstr ""
 
-#: templates/tickets.html:58
-#, python-format
-msgid ""
-"<a href=\"%(url)s\">Django Girls</a> workshop (samostatná registrácia, "
-"PyCon SK lístok nie je potrebný)"
-msgstr ""
-
 #: templates/tickets.html:61
-msgid "Podrobný program konferencie zverejníme už čoskoro."
-msgstr ""
-
-#: templates/tickets.html:64
 msgid "Ponúkate množstevné zľavy?"
 msgstr ""
 
-#: templates/tickets.html:66
+#: templates/tickets.html:63
 msgid ""
 "Ak máte záujem kúpiť viac ako 10 lístkov kontaktujete nás emailom na "
 "info@pycon.sk."
 msgstr ""
 
-#: templates/tickets.html:69
+#: templates/tickets.html:66
 msgid "Nemám PayPal, je možné kúpiť vstupenku inak ako cez Tito?"
 msgstr ""
 
-#: templates/tickets.html:71
+#: templates/tickets.html:68
 msgid ""
 "Akceptujeme aj bankový prevod, prípadne Bitcoin. Napíšte nám, o aké "
 "lístky máte záujem, zašleme Vám variabilný symbol a po pripísaní sumy na "
 "náš účet Vám vystavíme a pošleme emailom vstupenku."
 msgstr ""
 
-#: templates/tickets.html:72
+#: templates/tickets.html:69
 msgid "Bankové spojenie nájdete na stránkach"
 msgstr ""
 
-#: templates/tickets.html:72
+#: templates/tickets.html:69
 msgid "SPy o.z."
 msgstr ""
 
-#: templates/tickets.html:72
+#: templates/tickets.html:69
 msgid "našeho občianského združenia"
 msgstr ""
 
-#: templates/tickets.html:75
+#: templates/tickets.html:72
 msgid "Kam idú všetky peniaze za lístky?"
 msgstr ""
 
-#: templates/tickets.html:77
+#: templates/tickets.html:74
 msgid ""
 "PyCon je kompletne organizovaný dobrovoľníkmi. Veríme, že organizovať "
 "takéto konferencie je potrebné, aby propagovali programovanie a Open "
@@ -1909,11 +2304,11 @@ msgid ""
 "programovania všeobecne, prečítajte si"
 msgstr ""
 
-#: templates/tickets.html:77
+#: templates/tickets.html:74
 msgid "ciele SPy o.z."
 msgstr ""
 
-#: templates/tickets.html:77
+#: templates/tickets.html:74
 msgid "viac o našich cieľoch"
 msgstr ""
 
@@ -2128,5 +2523,17 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Slovenská Python Komunita"
+#~ msgstr ""
+
+#~ msgid "Workshop"
+#~ msgstr ""
+
+#~ msgid "Vstupenky sú opäť v predaji!"
+#~ msgstr ""
+
+#~ msgid "Čoskoro zverejníme aj zoznam prednášok a čas ich konania."
+#~ msgstr ""
+
+#~ msgid "Podrobný program konferencie zverejníme už čoskoro."
 #~ msgstr ""
 

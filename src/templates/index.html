@@ -21,12 +21,14 @@
 
     <p class="text-justify lead"><small>{% trans link=url_for('president', lang_code=lang_code) %}Veľmi sa tešíme, že vám môžeme oznámiť dobrú správu: Premiérový ročník konferencie PyCon SK sa uskutoční <a href="{{ link }}">pod záštitou prezidenta SR Andreja Kisku</a>.{% endtrans %}</small></p>
 
-    <p class="text-justify">{{ _('Po úspešnom uvedení vo viac ako 40 krajinách sveta prichádza po prvýkrát na Slovensko. Prednášky budú rozdelené na piatok - slovenský deň a sobotu - anglický deň. Nedeľa bude určená workshopom a Python Clinic, kde sa budete môcť porozprávať s niektorými rečníkmi podrobnejšie o ich téme, alebo si prakticky odskúšať niektoré Python technológie na vlastnej klávesnici. Taktiež sme pripravili <a href="%(url)s">Django Girls</a> workshop, ktorý bude vhodný aj pre úplné začiatočníčky.', url=url_for('django_girls', lang_code=lang_code)) }} {% if lang_code=='sk' %}{{ _('Tlačová správa v') }} <a href="{{ url_for('static', filename='tlacova_sprava.pdf') }}"> PDF <span class="glyphicon glyphicon-download-alt"></span></a></p>{% endif %}
+    <p class="text-justify">{{ _('Po úspešnom uvedení vo viac ako 40 krajinách sveta prichádza po prvýkrát na Slovensko. Prednášky budú rozdelené na <a href="%(url_friday)s">piatok - slovenský deň</a> a <a href="%(url_saturday)s">sobotu - anglický deň</a>. <a href="%(url_sunday)s">Nedeľa</a> bude určená workshopom a Python Clinic, kde sa budete môcť porozprávať s niektorými rečníkmi podrobnejšie o ich téme, alebo si prakticky odskúšať niektoré Python technológie na vlastnej klávesnici. Taktiež sme pripravili <a href="%(url_djangogirls)s">Django Girls</a> workshop, ktorý bude vhodný aj pre úplné začiatočníčky.',
+    url_friday=url_for('schedule_fri', lang_code=lang_code),
+    url_saturday=url_for('schedule_sat', lang_code=lang_code),
+    url_sunday=url_for('schedule_sun', lang_code=lang_code),
+    url_djangogirls=url_for('django_girls', lang_code=lang_code)) }}
+    {% if lang_code=='sk' %}{{ _('Tlačová správa v') }} <a href="{{ url_for('static', filename='tlacova_sprava.pdf') }}"> PDF <span class="glyphicon glyphicon-download-alt"></span></a>{% endif %}</p>
 
     <br>
-    <p class="text-center lead"><a href="{{ url_for('tickets', lang_code=lang_code) }}">{{ _('Vstupenky sú opäť v predaji!') }}</a></p>
-
-    <p>{{ _('Zverejnili sme mená rečníkov, ktorí vystúpia na konferencii. Môžete sa tešiť na zaujímavé vystúpenia skvelých domácich a zahraničných hostí.') }} {{ _('Čoskoro zverejníme aj zoznam prednášok a čas ich konania.') }}</p>
 
     <div class="image text-center">
       <img src="{{ url_for('static', filename='images/pycon/6967347999_105bba91a3_z.jpg') }}" alt="" class="img-responsive center-block">

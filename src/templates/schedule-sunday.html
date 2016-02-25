@@ -1,0 +1,131 @@
+{% extends "body.html" %}
+
+{% block content %}
+<div class="row">
+  <div class="col-md-8">
+    <h1>{{ _('Program') }}</h1>
+    <p class="lead">{{ _('Nedeľa, 13. februára 2016') }}</p>
+
+    <div class="row">
+      <div class="col-md-12">
+        {% include "schedule-days.html" %}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 narrow">
+        <table class="table table-striped table-hover schedule">
+          <tbody>
+            <tr class="event-dummy">
+              <td>
+                <div class="time">8:30</div>
+                <div class="lang">EN/SK</div>
+              </td>
+              <td>
+                <div class="talk">{{ _('Registrácia') }}</div>
+                <div class="speaker">{{ _('<a href="%(url)s">Hlavný vchod FIIT STU</a>', url=url_for('getting_here', lang_code=lang_code)) }}</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 narrow">
+        <table class="table table-striped table-hover schedule">
+
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center"><span class="room">{{ _('Turingova učebňa') }}</span> ({{ _('miestnosť') }} -1.58)</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="event-dummy">
+              <td>
+                <div class="time">09:00</div>
+                <div class="lang">EN/SK</div>
+              </td>
+              <td>
+                <div class="talk">{{ _('Python Clinic, spontánne workshopy a šprinty') }}</div>
+                <div class="speaker"></div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table class="table table-striped table-hover schedule">
+          <tbody>
+            <tr class="event-dummy">
+              <td>
+                <div class="time">12:00</div>
+                <div class="lang"></div>
+              </td>
+              <td>
+                <div class="talk">{{ _('Obed') }}</div>
+                <div class="speaker"></div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table class="table table-striped table-hover schedule">
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center"><span class="room">{{ _('Turingova učebňa') }}</span> ({{ _('miestnosť') }} -1.58)</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="event-dummy">
+              <td>
+                <div class="time">13:00 - 17:00</div>
+                <div class="lang">EN/SK</div>
+              </td>
+              <td>
+                <div class="talk">{{ _('Python Clinic, spontánne workshopy a šprinty') }}</div>
+                <div class="speaker"></div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>  {# inner col 6 #}
+
+      <div class="col-md-6 narrow">
+        <table class="table table-striped table-hover schedule">
+
+          <thead>
+            <tr>
+              <th colspan="2" class="text-center"><span class="room">{{ _('Babbageova učebňa') }}</span> ({{ _('miestnosť') }} -1.57)</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr class="event-dummy">
+              <td>
+                <div class="time">08:30 - 17:00</div>
+                <div class="lang">EN/SK</div>
+              </td>
+              <td>
+                <div class="talk oneline"><a href="{{ url_for('django_girls', lang_code=lang_code) }}">Django Girls workshop</a></div>
+                <div class="speaker"><small>{{ _('Len pre registrovaných účastníkov. Registrácie sú uzavreté.') }}</small></div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>  {# inner col 6 #}
+
+    </div>  {# row #}
+  </div> {# outer col 8 #}
+
+  <div class="col-md-4">
+    {% include 'right_nav.html' %}
+  </div>
+
+</div>
+{% endblock %}
+
+{% block scripts %}
+{% include "schedule-js.html" %}
+{% endblock %}

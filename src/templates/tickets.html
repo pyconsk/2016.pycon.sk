@@ -53,13 +53,10 @@
 
     <h3>{{ _('Aký bude program konferencie?') }}</h3>
     <ul class="text-justify">
-      <li>{{ _('Piatok') }} - {{ _('prednášky v slovenčine, resp. češtine') }}.</li>
-      <li>{{ _('Sobota') }} - {{ _('prednášky v angličtine') }}.</li>
-      <li>{{ _('Nedeľa') }} - {{ _('<a href="%(url)s">Django Girls</a> workshop (samostatná registrácia, PyCon SK lístok nie je potrebný)', url=url_for('django_girls', lang_code=lang_code)) }}.</li>
+      <li><a href="url_friday=url_for('schedule_fri', lang_code=lang_code)">{{ _('Piatok') }}</a> - {{ _('prednášky v slovenčine, resp. češtine') }}.</li>
+      <li><a href="url_friday=url_for('schedule_sat', lang_code=lang_code)">{{ _('Sobota') }}</a> - {{ _('prednášky v angličtine') }}.</li>
+      <li><a href="url_friday=url_for('schedule_sun', lang_code=lang_code)">{{ _('Nedeľa') }}</a> - {{ _('Python Clinic, spontánne workshopy a šprinty') }}.</li>
     </ul>
-    <p class="text-justify">
-      {{ _('Podrobný program konferencie zverejníme už čoskoro.') }}
-    </p>
 
     <h3>{{ _('Ponúkate množstevné zľavy?') }}</h3>
     <p class="text-justify">
