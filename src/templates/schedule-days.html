@@ -4,4 +4,8 @@
   <li class="{{ li_schedule_sun }}"><a href="{{ url_for('schedule_sun', lang_code=lang_code) }}">{{ _('Nedeľa, 13.&nbsp;3.&nbsp;2016') }}</a></li>
 </ul>
 
+{% if li_schedule_fri and lang_code == "en" %}
+<div class="alert alert-info" role="alert">All lectures on Friday will be held in Slovak language.</div>
+{% endif %}
+
 <p>{{ _('Zmena programu vyhradená.') }}</p>
