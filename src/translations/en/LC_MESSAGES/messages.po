@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-26 09:23+0100\n"
+"POT-Creation-Date: 2016-02-27 00:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -1173,7 +1173,7 @@ msgstr "Saturday, 12<sup>th</sup>&nbsp;March&nbsp;2016"
 msgid "Nedeľa, 13.&nbsp;3.&nbsp;2016"
 msgstr "Sunday, 13<sup>th</sup>&nbsp;March&nbsp;2016"
 
-#: templates/schedule-days.html:7
+#: templates/schedule-days.html:11
 msgid "Zmena programu vyhradená."
 msgstr "This schedule is subject to change."
 
@@ -2129,6 +2129,25 @@ msgstr ""
 
 #: templates/speakers.html:249
 msgid ""
+"Laura pracuje ako analytik Global Technology v spoločnosti JP Morgan "
+"Chase v New Yorku. Po absolvovaní State University of New York v Oneonta "
+"sa zúčastnila letnej stáže v technologickom oddelení Major League "
+"Baseball. Po stáži sa Laura pridala k JP Morgan Chase. Vo svojom voľnom "
+"čase pracuje ako učiteľ v organizácii <a "
+"href=\"http://girlswhocode.com/\" target=\"_blank\" title=\"Girls Who "
+"Code\">Girls Who Code</a>, ktorá podporuje vzdelávanie dievčat v IT, "
+"hlavne v stredoškolskom veku. Má rada klavír a futbal."
+msgstr ""
+"Laura is an analyst in Global Technology at JP Morgan Chase in New "
+"York City. After graduation from State University of NY at Oneonta, she "
+"participated in a summer internship with Major League Baseball’s "
+"technology department. After her internship, Laura joined JP Morgan "
+"Chase. Laura, in her spare time, is a teacher for <a href=\"http://girlswhocode.com/\" target=\"_blank\" title=\"Girls Who Code\">Girls Who Code</a> "
+"organization which promotes rising females in technology, especially at "
+"the high school age. She also enjoys piano and soccer."
+
+#: templates/speakers.html:261
+msgid ""
 "Daniele bol organizátorom Django víkendu v Cardiffe, členom organizačnej "
 "komisie DjangoCon Europe 2014 a v roku 2015 aj jej predsedom. Bol i "
 "jedným z hlavných organizátorov Python Namibia 2015, prvej Python "
@@ -2151,7 +2170,7 @@ msgstr ""
 "team, and has been involved in organising numerous Python/Django "
 "conferences, including DjangoCon Europe 2015 and PyCon Namibia 2016."
 
-#: templates/speakers.html:261
+#: templates/speakers.html:275
 msgid ""
 "Matúš je PhD študent na Fakulte matematiky, fyziky a informatiky "
 "Univerzity Komenského v Bratislave. Venuje sa skúmaniu kvantových javov v"
@@ -2167,7 +2186,7 @@ msgstr ""
 "physicist needs: communication with measurement devices, data collection "
 "and processing, simulations."
 
-#: templates/speakers.html:274
+#: templates/speakers.html:286
 msgid ""
 "Michael pracuje pre <a href=\"https://redhat.com\" target=\"_blank\" "
 "title=\"Red Hat\">Red Hat</a> v tíme Open source a štandardy, zaujíma sa "
@@ -2181,7 +2200,7 @@ msgstr ""
 "system administrator . A long time packager and python coder, he lives in"
 " Paris when he is not traveling to speak at free software events around"
 
-#: templates/speakers.html:283
+#: templates/speakers.html:297
 msgid ""
 "Back-end programátor so záujmom o big data a machine learning, ktorého "
 "ďalšou métou je data science. Python a Django používa pri vývoji webových"
@@ -2192,7 +2211,7 @@ msgid ""
 "produktov pre klientov v rámci firmy Exponea."
 msgstr ""
 
-#: templates/speakers.html:297
+#: templates/speakers.html:309
 msgid ""
 "Jakub je PhD študent na Slovenskej technickej univerzite v Bratislave, "
 "kde získal aj svoj inžiniersky titul v odbore Softvérové inžinierstvo. V "
@@ -2208,7 +2227,7 @@ msgstr ""
 "data analysis, data science, BigData processing and machine learning. "
 "Privately in hiking, travelling and cycling."
 
-#: templates/speakers.html:309
+#: templates/speakers.html:323
 msgid ""
 "Andrea sa venuje vývoju serverových aplikácií od roku 2012. Pochádza z IT"
 " rodiny a aj vďaka tomu sa vybrala touto cestou. Neznáša zlý kód a "
@@ -2220,7 +2239,7 @@ msgstr ""
 "dislikes bad code and old technologies. Furthermore, she is one of the "
 "organizers of Bratislava Scala meetup."
 
-#: templates/speakers.html:323
+#: templates/speakers.html:335
 msgid ""
 "Martina je softvérovou inžinierkou s viac ako 10-ročnou praxou pri "
 "vyvíjaní enterprise-level softvéru. Posledné štyri roky pracuje ako "
@@ -2243,7 +2262,7 @@ msgstr ""
 "for-profit organization <a href=\"http://www.ajtyvit.sk/\" "
 "target=\"_blank\" title=\"Aj Ty v IT\">Aj Ty v IT</a>."
 
-#: templates/speakers.html:336
+#: templates/speakers.html:350
 msgid ""
 "Nicholas študoval klasickú hudbu, absolvoval filozofiu, bol učiteľom, "
 "spisovateľom aj vývojárom softvéru. Spolupracuje s nadáciou Python "
@@ -2257,7 +2276,7 @@ msgstr ""
 "He's just like this biography: concise, honest and full of useful "
 "information."
 
-#: templates/speakers.html:351
+#: templates/speakers.html:363
 msgid ""
 "Je softvérový inžinier v <a href=\"https://www.redhat.com/\" "
 "target=\"_blank\" title=\"Red Hat\">Red Hat</a>. Keď práve nepíše kód v "
@@ -2271,7 +2290,7 @@ msgstr ""
 "target=\"_blank\" title=\"PyVo\">meetups</a>, mentor PyLadies, and attend"
 " conferences."
 
-#: templates/speakers.html:363
+#: templates/speakers.html:377
 msgid ""
 "Johannes je doktorand v Centre pre sieťové vedy na Stredoeurópskej "
 "univerzite. Spolupracuje s Centrom pre výskum korupcie v Budapešti, "

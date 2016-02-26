@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-26 09:23+0100\n"
+"POT-Creation-Date: 2016-02-27 00:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -954,7 +954,7 @@ msgstr ""
 msgid "Nedeľa, 13.&nbsp;3.&nbsp;2016"
 msgstr ""
 
-#: templates/schedule-days.html:7
+#: templates/schedule-days.html:11
 msgid "Zmena programu vyhradená."
 msgstr ""
 
@@ -1586,6 +1586,18 @@ msgstr ""
 
 #: templates/speakers.html:249
 msgid ""
+"Laura pracuje ako analytik Global Technology v spoločnosti JP Morgan "
+"Chase v New Yorku. Po absolvovaní State University of New York v Oneonta "
+"sa zúčastnila letnej stáže v technologickom oddelení Major League "
+"Baseball. Po stáži sa Laura pridala k JP Morgan Chase. Vo svojom voľnom "
+"čase pracuje ako učiteľ v organizácii <a "
+"href=\"http://girlswhocode.com/\" target=\"_blank\" title=\"Girls Who "
+"Code\">Girls Who Code</a>, ktorá podporuje vzdelávanie dievčat v IT, "
+"hlavne v stredoškolskom veku. Má rada klavír a futbal."
+msgstr ""
+
+#: templates/speakers.html:261
+msgid ""
 "Daniele bol organizátorom Django víkendu v Cardiffe, členom organizačnej "
 "komisie DjangoCon Europe 2014 a v roku 2015 aj jej predsedom. Bol i "
 "jedným z hlavných organizátorov Python Namibia 2015, prvej Python "
@@ -1599,7 +1611,7 @@ msgid ""
 "projektoch."
 msgstr ""
 
-#: templates/speakers.html:261
+#: templates/speakers.html:275
 msgid ""
 "Matúš je PhD študent na Fakulte matematiky, fyziky a informatiky "
 "Univerzity Komenského v Bratislave. Venuje sa skúmaniu kvantových javov v"
@@ -1609,7 +1621,7 @@ msgid ""
 "vyhodnocovanie dát, simulácie."
 msgstr ""
 
-#: templates/speakers.html:274
+#: templates/speakers.html:286
 msgid ""
 "Michael pracuje pre <a href=\"https://redhat.com\" target=\"_blank\" "
 "title=\"Red Hat\">Red Hat</a> v tíme Open source a štandardy, zaujíma sa "
@@ -1618,7 +1630,7 @@ msgid ""
 "nediskutuje na konferenciách o slobodnom softvéri)."
 msgstr ""
 
-#: templates/speakers.html:283
+#: templates/speakers.html:297
 msgid ""
 "Back-end programátor so záujmom o big data a machine learning, ktorého "
 "ďalšou métou je data science. Python a Django používa pri vývoji webových"
@@ -1629,7 +1641,7 @@ msgid ""
 "produktov pre klientov v rámci firmy Exponea."
 msgstr ""
 
-#: templates/speakers.html:297
+#: templates/speakers.html:309
 msgid ""
 "Jakub je PhD študent na Slovenskej technickej univerzite v Bratislave, "
 "kde získal aj svoj inžiniersky titul v odbore Softvérové inžinierstvo. V "
@@ -1639,7 +1651,7 @@ msgid ""
 "turistiku, cestovanie a cyklistiku."
 msgstr ""
 
-#: templates/speakers.html:309
+#: templates/speakers.html:323
 msgid ""
 "Andrea sa venuje vývoju serverových aplikácií od roku 2012. Pochádza z IT"
 " rodiny a aj vďaka tomu sa vybrala touto cestou. Neznáša zlý kód a "
@@ -1647,7 +1659,7 @@ msgid ""
 "meetupu."
 msgstr ""
 
-#: templates/speakers.html:323
+#: templates/speakers.html:335
 msgid ""
 "Martina je softvérovou inžinierkou s viac ako 10-ročnou praxou pri "
 "vyvíjaní enterprise-level softvéru. Posledné štyri roky pracuje ako "
@@ -1661,7 +1673,7 @@ msgid ""
 "predstavy o IT branži na Slovensku."
 msgstr ""
 
-#: templates/speakers.html:336
+#: templates/speakers.html:350
 msgid ""
 "Nicholas študoval klasickú hudbu, absolvoval filozofiu, bol učiteľom, "
 "spisovateľom aj vývojárom softvéru. Spolupracuje s nadáciou Python "
@@ -1670,7 +1682,7 @@ msgid ""
 "čestný a plný užitočných informácií."
 msgstr ""
 
-#: templates/speakers.html:351
+#: templates/speakers.html:363
 msgid ""
 "Je softvérový inžinier v <a href=\"https://www.redhat.com/\" "
 "target=\"_blank\" title=\"Red Hat\">Red Hat</a>. Keď práve nepíše kód v "
@@ -1679,7 +1691,7 @@ msgid ""
 "konferencii."
 msgstr ""
 
-#: templates/speakers.html:363
+#: templates/speakers.html:377
 msgid ""
 "Johannes je doktorand v Centre pre sieťové vedy na Stredoeurópskej "
 "univerzite. Spolupracuje s Centrom pre výskum korupcie v Budapešti, "
@@ -2345,241 +2357,4 @@ msgstr ""
 #: templates/tickets.html:74
 msgid "viac o našich cieľoch"
 msgstr ""
-
-#~ msgid ""
-#~ msgstr ""
-
-#~ msgid "Rečníci, ktorí vystúpia na PyCon SK 2016"
-#~ msgstr ""
-
-#~ msgid "Možete využiť šancu zakúpiť si lístok za zvýhodnenú cenu."
-#~ msgstr ""
-
-#~ msgid "sú už v predaji, môžete si ich zakúpiť za zvyhodnenú cenu."
-#~ msgstr ""
-
-#~ msgid "Ak idete na túto konferenciu, tak ste súčasťou tejto komunity."
-#~ msgstr ""
-
-#~ msgid "Progressbar - Zdieľanie. Skúmanie. Učenie. Vytváranie"
-#~ msgstr ""
-
-#~ msgid "Naši Sponzori"
-#~ msgstr ""
-
-#~ msgid "Sponzor virtuálneho datacentra:"
-#~ msgstr ""
-
-#~ msgid "Partner konferencie:"
-#~ msgstr ""
-
-#~ msgid "Priatelia:"
-#~ msgstr ""
-
-#~ msgid "Zlatí"
-#~ msgstr ""
-
-#~ msgid "Strieborní"
-#~ msgstr ""
-
-#~ msgid "Bronzoví"
-#~ msgstr ""
-
-#~ msgid "Django Girls"
-#~ msgstr ""
-
-#~ msgid "Partners"
-#~ msgstr ""
-
-#~ msgid "Našim cieľom je jednoducho vyhľadávať múdrych ľudí a rásť spolu s nimi."
-#~ msgstr ""
-
-#~ msgid "%(num)s Bratislavský Python Meetup"
-#~ msgstr ""
-
-#~ msgid "12. január 2016 – 18:00 - Progressbar"
-#~ msgstr ""
-
-#~ msgid "8. december 2015 – 18:00 - Progressbar"
-#~ msgstr ""
-
-#~ msgid "10. november 2015 – 18:00 - Progressbar"
-#~ msgstr ""
-
-#~ msgid "6. október 2015 – 18:00 - Progressbar"
-#~ msgstr ""
-
-#~ msgid "8. september 2015 – 18:00 - Progressbar"
-#~ msgstr ""
-
-#~ msgid "4. august 2015 – 18:00 - Progressbar"
-#~ msgstr ""
-
-#~ msgid "7. júl 2015 – 18:00 - Progressbar"
-#~ msgstr ""
-
-#~ msgid "7 Júl 2015 – 18:00"
-#~ msgstr ""
-
-#~ msgid "Platinoví sponzori"
-#~ msgstr ""
-
-#~ msgid "Zlatí sponzori"
-#~ msgstr ""
-
-#~ msgid "Strieborní sponzori"
-#~ msgstr ""
-
-#~ msgid "Bronzoví sponzori"
-#~ msgstr ""
-
-#~ msgid "Django Girls sponzori"
-#~ msgstr ""
-
-#~ msgid "Partneri konferencie"
-#~ msgstr ""
-
-#~ msgid "Bude sa počas workshopu podáva aj strava?"
-#~ msgstr ""
-
-#~ msgid "sú už v predaji, môžete si ich zakúpiť za zvýhodnenú cenu."
-#~ msgstr ""
-
-#~ msgid "Môžete využiť šancu zakúpiť si lístok za zvýhodnenú cenu."
-#~ msgstr ""
-
-#~ msgid "Číslo účtu"
-#~ msgstr ""
-
-#~ msgid "IBAN"
-#~ msgstr ""
-
-#~ msgid "Ak sa chceš stať našim členom, vyplň nasledujúci formulár:"
-#~ msgstr ""
-
-#~ msgid "Tvoje meno"
-#~ msgstr ""
-
-#~ msgid "Tvoj e-mail"
-#~ msgstr ""
-
-#~ msgid "Niečo o tebe"
-#~ msgstr ""
-
-#~ msgid "Odoslané údaje sa nikde nezverejňujú."
-#~ msgstr ""
-
-#~ msgid "Odoslať registráciu"
-#~ msgstr ""
-
-#~ msgid "Slovak Republic"
-#~ msgstr ""
-
-#~ msgid "Číslo účtu EUR (IBAN / international)"
-#~ msgstr ""
-
-#~ msgid "Staň sa mentor"
-#~ msgstr ""
-
-#~ msgid "Webový vývojár z Francúzska žijúci v Budapešti."
-#~ msgstr ""
-
-#~ msgid "Má zlú vlastnosť premeniť všetko čo začne na konferenciu."
-#~ msgstr ""
-
-#~ msgid "Pevne verí v globálnu emojifikáciu."
-#~ msgstr ""
-
-#~ msgid "Vlakom alebo autobusom"
-#~ msgstr ""
-
-#~ msgid "Po Bratislave"
-#~ msgstr ""
-
-#~ msgid "Ako sa odsať na konferenciu. Parkovacích miest bude dosť."
-#~ msgstr ""
-
-#~ msgid "Cestovné lístky. Električky, autobus."
-#~ msgstr ""
-
-#~ msgid "Ubytovanie"
-#~ msgstr ""
-
-#~ msgid "Cestovanie"
-#~ msgstr ""
-
-#~ msgid "Podporovatelia konferencie"
-#~ msgstr ""
-
-#~ msgid "Prednášanie"
-#~ msgstr ""
-
-#~ msgid "Vstupenky sú už v predaji."
-#~ msgstr ""
-
-#~ msgid "Predaj vstupeniek bol spustený."
-#~ msgstr ""
-
-#~ msgid "Sponzorovanie"
-#~ msgstr ""
-
-#~ msgid "Pred budovou konferencie bude dostupných dostatok parkovacích miest."
-#~ msgstr ""
-
-#~ msgid "Iné možnosti dopravy"
-#~ msgstr ""
-
-#~ msgid "V Bratislave je niekoľko online taxi služieb: Uber, Hopin..."
-#~ msgstr ""
-
-#~ msgid "Rečníci, ktorí vystúpia na PyCon SK 2016."
-#~ msgstr ""
-
-#~ msgid "Konferencia"
-#~ msgstr ""
-
-#~ msgid "Preskočiť na začiatok"
-#~ msgstr ""
-
-#~ msgid "Stručné vizitky hostí, ktorí vystúpia na PyCon SK 2016"
-#~ msgstr ""
-
-#~ msgid "Registruj sa"
-#~ msgstr ""
-
-#~ msgid "Vstupenky sú momentálne vypredané."
-#~ msgstr ""
-
-#~ msgid "Vstupenky budú opäť v predaji."
-#~ msgstr ""
-
-#~ msgid "Predaj lístkov sa opätovne spustí v pondelok, 15. februára o 12:00 CET."
-#~ msgstr ""
-
-#~ msgid "Slovenská Python Komunita"
-#~ msgstr ""
-
-#~ msgid "Workshop"
-#~ msgstr ""
-
-#~ msgid "Vstupenky sú opäť v predaji!"
-#~ msgstr ""
-
-#~ msgid "Čoskoro zverejníme aj zoznam prednášok a čas ich konania."
-#~ msgstr ""
-
-#~ msgid "Podrobný program konferencie zverejníme už čoskoro."
-#~ msgstr ""
-
-#~ msgid "Obed"
-#~ msgstr ""
-
-#~ msgid "Piatok, 11. februára 2016"
-#~ msgstr ""
-
-#~ msgid "Sobota, 12. februára 2016"
-#~ msgstr ""
-
-#~ msgid "Nedeľa, 13. februára 2016"
-#~ msgstr ""
 
