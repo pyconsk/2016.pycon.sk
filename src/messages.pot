@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-25 22:39+0100\n"
+"POT-Creation-Date: 2016-02-26 09:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -940,20 +940,24 @@ msgstr ""
 msgid "Všetci sponzori"
 msgstr ""
 
-#: templates/schedule-days.html:2 templates/schedule-friday.html:7
-msgid "Piatok, 11. februára 2016"
+#: templates/schedule-days.html:2
+msgid "Piatok, 11.&nbsp;3.&nbsp;2016"
 msgstr ""
 
-#: templates/schedule-days.html:3 templates/schedule-saturday.html:7
-msgid "Sobota, 12. februára 2016"
+#: templates/schedule-days.html:3
+msgid "Sobota, 12.&nbsp;3.&nbsp;2016"
 msgstr ""
 
-#: templates/schedule-days.html:4 templates/schedule-sunday.html:7
-msgid "Nedeľa, 13. februára 2016"
+#: templates/schedule-days.html:4
+msgid "Nedeľa, 13.&nbsp;3.&nbsp;2016"
 msgstr ""
 
 #: templates/schedule-days.html:7
 msgid "Zmena programu vyhradená."
+msgstr ""
+
+#: templates/schedule-friday.html:7
+msgid "Piatok, 11. marca 2016"
 msgstr ""
 
 #: templates/schedule-friday.html:25 templates/schedule-saturday.html:25
@@ -1164,6 +1168,10 @@ msgstr ""
 msgid "Rečník"
 msgstr ""
 
+#: templates/schedule-saturday.html:7
+msgid "Sobota, 12. marca 2016"
+msgstr ""
+
 #: templates/schedule-saturday.html:62
 msgid ""
 "Veľa energie sa investovalo, aby Python fungoval v školskom prostredí. "
@@ -1343,6 +1351,10 @@ msgstr ""
 
 #: templates/schedule-saturday.html:385
 msgid "Automatizácia meraní pomocou Pythonu"
+msgstr ""
+
+#: templates/schedule-sunday.html:7
+msgid "Nedeľa, 13. marca 2016"
 msgstr ""
 
 #: templates/schedule-sunday.html:40 templates/schedule-sunday.html:76
