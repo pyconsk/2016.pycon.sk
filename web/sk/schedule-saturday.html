@@ -36,7 +36,7 @@
   <link rel="alternate" href="https://pycon.sk/en/schedule-saturday.html" hreflang="en">
   
   <link rel="canonical" href="https://pycon.sk/sk/schedule-saturday.html" />
-  <link rel="stylesheet" href="../static/css/pycon.css?v=93e0b76">
+  <link rel="stylesheet" href="../static/css/pycon.css?v=2097662">
   <link rel="icon" href="../static/images/favicon.ico" sizes="16x16">
 </head>
 <body>
@@ -272,7 +272,7 @@
               </td>
               <td>
                 <div class="talk" data-duration="30" data-abstract="Preskúmame Python a získame nástroje, vďaka ktorým sa staneme lepšími Pythonistami. &lt;br&gt;&lt;br&gt; Naučíme sa niektoré mierne pokročilé koncepty a vyhneme sa niektorým často sa opakujúcim Pythonským chytákom (gotchas).">Python – What you didn’t know you didn’t know…</div>
-                <div class="speaker" data-id="martina-sturdikova">Martina Sturdikova a Laura Munn</div>
+                <div class="speaker" data-id="martina-sturdikova" data-id2="laura-munn">Martina Šturdíková a Laura Munn</div>
               </td>
             </tr>
 
@@ -649,6 +649,7 @@
       </div>
       <div class="modal-footer">
         <div class="row" id="speaker-bio"></div>
+        <div class="row" id="speaker2-bio"></div>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
@@ -659,16 +660,27 @@
 var speakers_url = '/sk/speakers.html';
 var speakers_page = null;
 
-function update_speaker_bio(bio, speaker_id) {
-  var speaker_row;
+function update_speaker_bio(mod, speaker_id, speaker_id2) {
+  var speaker_row, speaker2_row;
+  var speaker_bio = mod.find('#speaker-bio');
+  var speaker2_bio = mod.find('#speaker2-bio');
 
-  bio.empty();
+  speaker_bio.empty();
+  speaker2_bio.empty();
 
   function update() {
-    speaker_row = speakers_page.find(speaker_id);
+    speaker_row = speakers_page.find('#' + speaker_id);
 
     if (speaker_row.length) {
-      bio.html(speaker_row.html());
+      speaker_bio.html(speaker_row.html());
+
+      if (speaker_id2) {
+        speaker2_row = speakers_page.find('#' + speaker_id2);
+
+        if (speaker2_row) {
+          speaker2_bio.html(speaker2_row.html());
+        }
+      }
     }
   }
 
@@ -687,7 +699,6 @@ function tr_click() {
   var tr = $(this);
   var talk = tr.find('div.talk');
   var speaker = tr.find('div.speaker');
-  var bio = mod.find('#speaker-bio');
 
   mod.find('#event-title').html(talk.html());
   mod.find('#event-desc').html(talk.data('abstract'));
@@ -696,7 +707,7 @@ function tr_click() {
   mod.find('#event-lang').html(tr.find('div.lang').html());
   mod.find('#event-room').html(tr.parent().parent().find('span.room:last').html());
 
-  update_speaker_bio(mod.find('#speaker-bio'), '#' + speaker.data('id'));
+  update_speaker_bio(mod, speaker.data('id'), speaker.data('id2'));
 
   // Here we go
   mod.modal('show');

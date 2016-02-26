@@ -388,7 +388,8 @@ tr.event-registration > td, tr.event-lunch > td {
   font-size: 12px;
 }
 
-#speaker-bio .img-thumbnail {
+#speaker-bio .img-thumbnail, #speaker2-bio .img-thumbnail {
+  margin-top: 10px;
   max-height: 120px;
 }
 
