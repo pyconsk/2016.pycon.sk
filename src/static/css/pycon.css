@@ -219,11 +219,6 @@ textarea {
   width: auto;
 }
 
-.col-md-6.narrow {
-  padding-right: 2px;
-  padding-left: 2px;
-}
-
 ul.horizontal-list li.active a, ul.horizontal-list li.active a {
   color: #000;
   text-decoration: none;
@@ -346,15 +341,28 @@ table.schedule .speaker small {
   line-height: 3px;
 }
 
+.col-md-6.narrow {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   table.schedule .speaker {
     text-align: right !important;
+  }
+  .col-md-6.narrow {
+    padding-right: 2px;
+    padding-left: 2px;
   }
 }
 
 @media (max-width: 400px) {
   table.schedule .speaker {
     text-align: right !important;
+  }
+  .col-md-6.narrow {
+    padding-right: 2px;
+    padding-left: 2px;
   }
 }
 
