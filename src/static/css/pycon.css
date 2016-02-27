@@ -272,9 +272,16 @@ ul.horizontal-list li {
 }
 
 .modal-transparent .close {
+  font-size: 30px;
   color: #fff;
+  opacity: 0.6;
   text-shadow: 0 1px 0 #000;
 }
+
+.modal-transparent .close:hover {
+  opacity: 0.9;
+}
+
 
 .modal-transparent .modal-content .modal-header {
   border-bottom-color: #999;
@@ -346,23 +353,20 @@ table.schedule .speaker small {
   padding-left: 10px;
 }
 
+
+/* save space on smaller screens */
 @media (min-width: 992px) and (max-width: 1199px) {
   table.schedule .speaker {
     text-align: right !important;
   }
   .col-md-6.narrow {
-    padding-right: 2px;
-    padding-left: 2px;
+    padding-right: 4px;
+    padding-left: 4px;
   }
 }
-
 @media (max-width: 400px) {
   table.schedule .speaker {
     text-align: right !important;
-  }
-  .col-md-6.narrow {
-    padding-right: 2px;
-    padding-left: 2px;
   }
 }
 
@@ -372,10 +376,6 @@ tr.event {
 
 tr.event-registration > td, tr.event-lunch > td {
   background-color: #EEFFFF;
-}
-
-#event-details .modal-body {
-  padding-bottom: 40px;
 }
 
 #event-details .modal-footer h3 {
