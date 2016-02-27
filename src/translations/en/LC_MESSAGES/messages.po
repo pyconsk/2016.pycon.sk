@@ -1163,15 +1163,15 @@ msgstr "All Sponsors"
 
 #: templates/schedule-days.html:2
 msgid "Piatok, 11.&nbsp;3.&nbsp;2016"
-msgstr "Friday, 11<sup>th</sup>&nbsp;March&nbsp;2016"
+msgstr "Friday, 11<sup>th</sup>&nbsp;March 2016"
 
 #: templates/schedule-days.html:3
 msgid "Sobota, 12.&nbsp;3.&nbsp;2016"
-msgstr "Saturday, 12<sup>th</sup>&nbsp;March&nbsp;2016"
+msgstr "Saturday, 12<sup>th</sup>&nbsp;March 2016"
 
 #: templates/schedule-days.html:4
 msgid "Nedeľa, 13.&nbsp;3.&nbsp;2016"
-msgstr "Sunday, 13<sup>th</sup>&nbsp;March&nbsp;2016"
+msgstr "Sunday, 13<sup>th</sup>&nbsp;March 2016"
 
 #: templates/schedule-days.html:11
 msgid "Zmena programu vyhradená."
