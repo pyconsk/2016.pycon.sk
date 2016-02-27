@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-27 14:04+0100\n"
+"POT-Creation-Date: 2016-02-27 19:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -1599,6 +1599,17 @@ msgstr ""
 #: templates/schedule-saturday.html:166
 msgid "a"
 msgstr "and"
+
+#: templates/schedule-saturday.html:176
+msgid ""
+"DTrace je dynamický sledovací framework schopný kompletne monitorovať "
+"živý systém bezpečne a s minimálnym vplyvom na výkon. V tejto prednáške "
+"budeme hovoriť o (neoficiálnych) DTrace-ových volaniach v Pythone a ako "
+"ich možno použiť na integrovanie Pythonských procesov do DTrace "
+"frameworku bez akýchkoľvek modifikácií. Monitorujte svoje Pythonové "
+"programy naživo a zdarma! Žiadne úpravy kódu, žiaden vplyv na výkon. "
+"Získajte prehľad o správaní Vášho systému."
+msgstr "DTrace is a dynamic tracing framework able to comprehensively monitor a complete live system, safely and with little performance impact. In this talk we will talk about (unofficial) DTrace probes in Python and how can you use them to integrate Python processes in the DTrace tracing framework as first class citizens without any modification at all. Live monitor your python programs for free!. No code changes, no performance impact. Get insights about the behavior of your system."
 
 #: templates/schedule-saturday.html:225
 msgid "Vstupenky na večeru sa predaváju samostatne na stránke vstupeniek."
