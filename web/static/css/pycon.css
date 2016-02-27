@@ -336,8 +336,22 @@ table.schedule .talk.oneline {
   height: 24px;
 }
 
+table.schedule tr.event {
+  cursor: pointer;
+}
+
 table.schedule tr.event .talk {
   color: #337ab7;
+  text-decoration: none;
+}
+
+table.schedule tr.event:hover .talk {
+  text-decoration: underline;
+  color: #23527c;
+}
+
+tr.event-registration > td, tr.event-lunch > td {
+  background-color: #EEFFFF;
 }
 
 table.schedule .speaker {
@@ -368,14 +382,6 @@ table.schedule .speaker small {
   table.schedule .speaker {
     text-align: right !important;
   }
-}
-
-tr.event {
-  cursor: pointer;
-}
-
-tr.event-registration > td, tr.event-lunch > td {
-  background-color: #EEFFFF;
 }
 
 #event-details .modal-footer h3 {
