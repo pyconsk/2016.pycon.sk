@@ -55,6 +55,7 @@ export FLASK_PORT
 trap 'pkill -P $(jobs -pr) 2> /dev/null' SIGINT SIGTERM EXIT
 python views.py &
 echo "Running wget --mirror in 3 seconds..."
+echo
 sleep 3
 
 # Store flask templated site as html into temp folder
@@ -67,6 +68,7 @@ fi
 # Wget mirror
 wget -nv http://"${FLASK_URL}"/sitemap.xml --output-document=sitemap.xml && \
 wget -mkEpnv http://"${FLASK_URL}"/sk/index.html
+echo
 
 if [[ $? -ne 0 ]]; then
 	echo "wget FAILED!"
@@ -89,10 +91,10 @@ if [[ -n "${PYCON_CSS_COMMIT}" ]]; then
 fi
 
 cd "${GIT_ROOT}"
+echo
 
 # Stop here if a dry run was requested
 if [[ -n "${DRY_RUN}" ]]; then
-	echo
 	echo "Dry run was requested."
 	echo "The result can be found in: ${TMP_DIR}/${FLASK_URL}"
 	exit 0
@@ -119,4 +121,6 @@ git commit -m "Updated from master ${MASTER_COMMIT}"
 git checkout master
 [[ -n "${STASH_REQUIRED}" ]] && git stash pop || true
 
+echo
+echo "All done."
 exit 0
