@@ -24,20 +24,20 @@ if [[ "${1}" == "-n" || "${1}" == "--dry-run" ]]; then
 	echo "* Dry run *"
 fi
 
-# Check whether we have some uncommited changes
+# Check whether we have some uncommitted changes
 GIT_STATUS="$(git status -s)"
 
 if [[ -n "${GIT_STATUS}" ]]; then
 	echo "${GIT_STATUS}"
 	echo
-	echo "There are some uncommited changes."
+	echo "There are some uncommitted changes."
 	read -p "Do you want to continue? [y/N]: " yn
 	case "${yn}" in
 		y|Y)
 			STASH_REQUIRED="true"
 			;;
 		*)
-			echo "Doing nothing."
+			echo "Aborting."
 			exit 1
 			;;
 	esac
@@ -100,7 +100,7 @@ if [[ -n "${DRY_RUN}" ]]; then
 	exit 0
 fi
 
-# Stash uncommited changes if needed
+# Stash uncommitted changes if needed
 [[ -n "${STASH_REQUIRED}" ]] && git stash
 
 # Go to staging branch
