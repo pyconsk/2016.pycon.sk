@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-27 19:33+0100\n"
+"POT-Creation-Date: 2016-02-28 13:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -980,7 +980,7 @@ msgstr ""
 
 #: templates/schedule-friday.html:40 templates/schedule-friday.html:131
 #: templates/schedule-saturday.html:40 templates/schedule-saturday.html:132
-#: templates/schedule-saturday.html:238 templates/schedule-saturday.html:330
+#: templates/schedule-saturday.html:238 templates/schedule-saturday.html:321
 #: templates/schedule-sunday.html:40 templates/schedule-sunday.html:76
 #: templates/schedule-sunday.html:100
 msgid "miestnosť"
@@ -1068,7 +1068,7 @@ msgid "Jupyter notebook doma, v škole, všade"
 msgstr ""
 
 #: templates/schedule-friday.html:121 templates/schedule-saturday.html:122
-#: templates/schedule-saturday.html:320 templates/schedule-sunday.html:66
+#: templates/schedule-saturday.html:309 templates/schedule-sunday.html:66
 msgid "Obedná prestávka"
 msgstr ""
 
@@ -1267,7 +1267,7 @@ msgstr ""
 msgid "Vstupenky na večeru sa predaváju samostatne na stránke vstupeniek."
 msgstr ""
 
-#: templates/schedule-saturday.html:238 templates/schedule-saturday.html:330
+#: templates/schedule-saturday.html:238 templates/schedule-saturday.html:321
 #: templates/schedule-sunday.html:100
 msgid "Babbageova učebňa"
 msgstr ""
@@ -1315,7 +1315,7 @@ msgid ""
 "pripravenými na diagnostiku."
 msgstr ""
 
-#: templates/schedule-saturday.html:341
+#: templates/schedule-saturday.html:332
 msgid ""
 "Počnúc od jednoduchých blogov a monolitických Django aplikácií, až po "
 "sofistikované architektúry mikro služieb; Je váš produkt pripravený "
@@ -1325,7 +1325,7 @@ msgid ""
 "manažovať vo vašom vlastnom súkromnom cloude pomocou OpenShift."
 msgstr ""
 
-#: templates/schedule-saturday.html:363
+#: templates/schedule-saturday.html:354
 msgid ""
 "Vagrant je nástroj, který umí rychle spouštět, nasazovat a ničit "
 "virtuální stroje. Pokud ho použijeme třeba při testování aplikace, "
@@ -1334,11 +1334,11 @@ msgid ""
 " jak ho použít pro Python a jak ho zneužít pro deployment."
 msgstr ""
 
-#: templates/schedule-saturday.html:363
+#: templates/schedule-saturday.html:354
 msgid "Vagrant - koniec ságy \"U mňa to funguje\""
 msgstr ""
 
-#: templates/schedule-saturday.html:374
+#: templates/schedule-saturday.html:365
 msgid ""
 "Hadoop a Spark umožňujú pohodlne spracovávať veľké množstvá dát. Na "
 "príklade personalizovaných emailov predvediem čo znamená spracovanie dát "
@@ -1348,11 +1348,11 @@ msgid ""
 "SciPy a IPython notebook."
 msgstr ""
 
-#: templates/schedule-saturday.html:374
+#: templates/schedule-saturday.html:365
 msgid "Personalizované emaily pomocou Pythonu a Sparku"
 msgstr ""
 
-#: templates/schedule-saturday.html:385
+#: templates/schedule-saturday.html:376
 msgid ""
 "&lt;ul&gt; &lt;li&gt;Demonštrácia jednoduchého merania.&lt;/li&gt; "
 "&lt;li&gt;Štandardne používané komunikačné rozhrania (ethernet, GPIB, "
@@ -1362,7 +1362,7 @@ msgid ""
 "meraní ako ukladanie dát, zobrazovanie a pod.&lt;/li&gt; &lt;/ul&gt;"
 msgstr ""
 
-#: templates/schedule-saturday.html:385
+#: templates/schedule-saturday.html:376
 msgid "Automatizácia meraní pomocou Pythonu"
 msgstr ""
 
@@ -1953,7 +1953,9 @@ msgstr ""
 msgid ""
 "Profesionálne virtualizačné služby a riešenia zo Slovenska, využívané "
 "firmami zaoberajúcimi sa vývojom softvéru a správou veľkých serverových "
-"fariem a škálovateľných serverových infraštruktúr."
+"fariem a škálovateľných serverových infraštruktúr. Náš produkt, Erigones "
+"SDDC, je určený na nasadenie, správu a automatizáciu cloudových "
+"datacentier a ich procesov."
 msgstr ""
 
 #: templates/sponsors.html:57
@@ -2368,4 +2370,12 @@ msgstr ""
 #: templates/tickets.html:74
 msgid "viac o našich cieľoch"
 msgstr ""
+
+#~ msgid ""
+#~ "Profesionálne virtualizačné služby a riešenia"
+#~ " zo Slovenska, využívané firmami "
+#~ "zaoberajúcimi sa vývojom softvéru a "
+#~ "správou veľkých serverových fariem a "
+#~ "škálovateľných serverových infraštruktúr."
+#~ msgstr ""
 

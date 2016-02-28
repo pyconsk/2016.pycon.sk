@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-27 19:33+0100\n"
+"POT-Creation-Date: 2016-02-28 13:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -1199,7 +1199,7 @@ msgstr "Large auditorium"
 
 #: templates/schedule-friday.html:40 templates/schedule-friday.html:131
 #: templates/schedule-saturday.html:40 templates/schedule-saturday.html:132
-#: templates/schedule-saturday.html:238 templates/schedule-saturday.html:330
+#: templates/schedule-saturday.html:238 templates/schedule-saturday.html:321
 #: templates/schedule-sunday.html:40 templates/schedule-sunday.html:76
 #: templates/schedule-sunday.html:100
 msgid "miestnosť"
@@ -1325,7 +1325,7 @@ msgid "Jupyter notebook doma, v škole, všade"
 msgstr "Jupyter notebook at home, in school, everywhere"
 
 #: templates/schedule-friday.html:121 templates/schedule-saturday.html:122
-#: templates/schedule-saturday.html:320 templates/schedule-sunday.html:66
+#: templates/schedule-saturday.html:309 templates/schedule-sunday.html:66
 msgid "Obedná prestávka"
 msgstr "Lunch break"
 
@@ -1609,13 +1609,20 @@ msgid ""
 "frameworku bez akýchkoľvek modifikácií. Monitorujte svoje Pythonové "
 "programy naživo a zdarma! Žiadne úpravy kódu, žiaden vplyv na výkon. "
 "Získajte prehľad o správaní Vášho systému."
-msgstr "DTrace is a dynamic tracing framework able to comprehensively monitor a complete live system, safely and with little performance impact. In this talk we will talk about (unofficial) DTrace probes in Python and how can you use them to integrate Python processes in the DTrace tracing framework as first class citizens without any modification at all. Live monitor your python programs for free!. No code changes, no performance impact. Get insights about the behavior of your system."
+msgstr ""
+"DTrace is a dynamic tracing framework able to comprehensively monitor a "
+"complete live system, safely and with little performance impact. In this "
+"talk we will talk about (unofficial) DTrace probes in Python and how can "
+"you use them to integrate Python processes in the DTrace tracing "
+"framework as first class citizens without any modification at all. Live "
+"monitor your python programs for free!. No code changes, no performance "
+"impact. Get insights about the behavior of your system."
 
 #: templates/schedule-saturday.html:225
 msgid "Vstupenky na večeru sa predaváju samostatne na stránke vstupeniek."
 msgstr "Tickets for the dinner are sold separately on the \"Tickets\" page."
 
-#: templates/schedule-saturday.html:238 templates/schedule-saturday.html:330
+#: templates/schedule-saturday.html:238 templates/schedule-saturday.html:321
 #: templates/schedule-sunday.html:100
 msgid "Babbageova učebňa"
 msgstr "Babbage lecture hall"
@@ -1694,7 +1701,7 @@ msgstr ""
 "nature to create NIDS with all the related data right at hand, visualized"
 " and ready to be diagnosed."
 
-#: templates/schedule-saturday.html:341
+#: templates/schedule-saturday.html:332
 msgid ""
 "Počnúc od jednoduchých blogov a monolitických Django aplikácií, až po "
 "sofistikované architektúry mikro služieb; Je váš produkt pripravený "
@@ -1710,7 +1717,7 @@ msgstr ""
 "use Docker containers, and how to deploy and manage them in your own "
 "private cloud with OpenShift."
 
-#: templates/schedule-saturday.html:363
+#: templates/schedule-saturday.html:354
 msgid ""
 "Vagrant je nástroj, který umí rychle spouštět, nasazovat a ničit "
 "virtuální stroje. Pokud ho použijeme třeba při testování aplikace, "
@@ -1724,11 +1731,11 @@ msgstr ""
 "&lt;br&gt;&lt;br&gt; We will show how we can use Vagrant with Python and "
 "for deployment."
 
-#: templates/schedule-saturday.html:363
+#: templates/schedule-saturday.html:354
 msgid "Vagrant - koniec ságy \"U mňa to funguje\""
 msgstr "Vagrant - End of \"It works on my machine\" saga"
 
-#: templates/schedule-saturday.html:374
+#: templates/schedule-saturday.html:365
 msgid ""
 "Hadoop a Spark umožňujú pohodlne spracovávať veľké množstvá dát. Na "
 "príklade personalizovaných emailov predvediem čo znamená spracovanie dát "
@@ -1744,11 +1751,11 @@ msgstr ""
 "manage the entire process and the use of libraries and tools such as "
 "Pandas, SciPy and IPython notebook."
 
-#: templates/schedule-saturday.html:374
+#: templates/schedule-saturday.html:365
 msgid "Personalizované emaily pomocou Pythonu a Sparku"
 msgstr "Personalised emails using Python and Spark"
 
-#: templates/schedule-saturday.html:385
+#: templates/schedule-saturday.html:376
 msgid ""
 "&lt;ul&gt; &lt;li&gt;Demonštrácia jednoduchého merania.&lt;/li&gt; "
 "&lt;li&gt;Štandardne používané komunikačné rozhrania (ethernet, GPIB, "
@@ -1765,7 +1772,7 @@ msgstr ""
 "related actions such as data storing, visualisation, etc.&lt;/li&gt; "
 "&lt;/ul&gt;"
 
-#: templates/schedule-saturday.html:385
+#: templates/schedule-saturday.html:376
 msgid "Automatizácia meraní pomocou Pythonu"
 msgstr "Automated measurements using Python"
 
@@ -2620,11 +2627,15 @@ msgstr ""
 msgid ""
 "Profesionálne virtualizačné služby a riešenia zo Slovenska, využívané "
 "firmami zaoberajúcimi sa vývojom softvéru a správou veľkých serverových "
-"fariem a škálovateľných serverových infraštruktúr."
+"fariem a škálovateľných serverových infraštruktúr. Náš produkt, Erigones "
+"SDDC, je určený na nasadenie, správu a automatizáciu cloudových "
+"datacentier a ich procesov."
 msgstr ""
 "Professional virtualization products and services from Slovakia. Used by "
 "companies focused on deploying and maintaining large server farms and "
-"scalable server infrastructures."
+"scalable server infrastructures. Our product, Erigones SDDC, is THE cloud"
+" management software used for deploying, maintaining and automating cloud"
+" data centers and their processes."
 
 #: templates/sponsors.html:57
 msgid "Zlatí sponzori"
