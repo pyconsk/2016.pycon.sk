@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-28 13:35+0100\n"
+"POT-Creation-Date: 2016-02-28 23:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -1152,6 +1152,27 @@ msgstr ""
 
 #: templates/schedule-friday.html:186
 msgid "Tipy a triky na používanie funkcionálnych vlastností Pythonu"
+msgstr ""
+
+#: templates/schedule-friday.html:197
+msgid ""
+"Lighting talk má len jedno pravidlo: 5 minút a "
+"stop.&lt;br&gt;&lt;br&gt;Chceš niečo povedať všetkým, ale nemáš dostatok "
+"materiálu na veľkú prednášku? Chceš poďakovať a vyjadriť podporu svojmu "
+"obľúbenému open source projektu? Chceš sa podeliť o komunitný príbeh "
+"(každý má rád príbehy!)? Chceš upozorniť na základy virtualenv, PyPI, "
+"import this a ďalšie veci, ktoré by mal každý vedieť? Potom lighting talk"
+" je určený práve pre pre teba!&lt;br&gt;Tieto mikro prednášky sú 5 "
+"minútové vystúpenia, ktoré sa konajú v rýchlom slede za sebou v hlavnej "
+"sále. Nie je však potrebné, aby tvoja prednáška trvala celých 5 "
+"minút.&lt;br&gt;&lt;br&gt;Lightning talk je málo stresu, veľa zábavy a "
+"povráva sa, že vznikli kedysi dávno práve na jednom z prvých PyCon-"
+"ov.&lt;br&gt;&lt;br&gt;&lt;small&gt;zdroj: "
+"https://us.pycon.org/2014/speaking/cfp/&lt;/small&gt;"
+msgstr ""
+
+#: templates/schedule-friday.html:198
+msgid "Príhlasiť sa na lighting talk budete môcť počas celého dňa."
 msgstr ""
 
 #: templates/schedule-friday.html:208
@@ -2378,10 +2399,5 @@ msgid "viac o našich cieľoch"
 msgstr ""
 
 #~ msgid ""
-#~ "Profesionálne virtualizačné služby a riešenia"
-#~ " zo Slovenska, využívané firmami "
-#~ "zaoberajúcimi sa vývojom softvéru a "
-#~ "správou veľkých serverových fariem a "
-#~ "škálovateľných serverových infraštruktúr."
 #~ msgstr ""
 
