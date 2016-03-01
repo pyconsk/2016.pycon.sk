@@ -1227,7 +1227,7 @@ msgstr ""
 
 #: templates/schedule-friday.html:62
 msgid "Ako funguje import"
-msgstr "How does import work"
+msgstr "How import works"
 
 #: templates/schedule-friday.html:73
 msgid ""
