@@ -218,7 +218,7 @@
               </td>
               <td>
                 <div class="talk oneline"><a href="https://djangogirls.org/bratislava/#schedule">Django Girls workshop</a></div>
-                <div class="speaker"><small>Len pre registrovaných účastníkov. Registrácie sú uzavreté.</small></div>
+                <div class="speaker"><small>Only for registered participants. Registration is closed.</small></div>
               </td>
             </tr>
           </tbody>
@@ -392,6 +392,10 @@ function update_speaker_bio(mod, speaker_id, speaker_id2) {
 
   speaker_bio.empty();
   speaker2_bio.empty();
+
+  if (!speaker_id) {
+    return false;
+  }
 
   function update() {
     speaker_row = speakers_page.find('#' + speaker_id);
