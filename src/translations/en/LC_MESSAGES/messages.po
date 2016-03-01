@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-28 23:13+0100\n"
+"POT-Creation-Date: 2016-03-01 01:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.1.1\n"
+"Generated-By: Babel 2.2.0\n"
 
 #: templates/ba-01-meetup.html:6
 msgid "Prvý Bratislavský Python Meetup"
@@ -2702,6 +2702,24 @@ msgstr ""
 "offer cutting-edge technology space for client equipment in 3 data "
 "centres."
 
+#: templates/sponsors.html:96
+msgid ""
+"Od roku 1987, ESET vyvíja oceňovaný bezpečnostný softvér, ktorý v "
+"súčasnosti pomáha viac ako 100 miliónov užívateľom užívať si bezpečnejšie"
+" technológie. Jeho široké portfólio bezpečnostných produktov pokrýva "
+"všetky populárne platformy a poskytuje firmám a spotrebiteľom po celom "
+"svete dokonalú rovnováhu výkonu a proaktívnej ochrany. Spoločnosť má "
+"zastúpenie v 180 krajinách sveta a regionálne pobočky v Bratislave, San "
+"Diegu, Singapure a Buenos Aires."
+msgstr ""
+"Since 1987, ESET has been developing award-winning security software that"
+" now helps over 100 million users to Enjoy Safer Technology. Its broad "
+"security product portfolio covers all popular platforms and provides "
+"businesses and consumers around the world with the perfect balance of "
+"performance and proactive protection. The company has a global sales "
+"network covering 180 countries, and regional offices in Bratislava, San "
+"Diego, Singapore and Buenos Aires."
+
 #: templates/sponsors.html:108
 msgid "Strieborní sponzori"
 msgstr "Silver sponsors"
@@ -2725,8 +2743,14 @@ msgstr ""
 "computationally complex problems."
 
 #: templates/sponsors.html:134
-msgid "Websupport"
+msgid ""
+"Hej, Python Backend Developer, poď sa baviť a manažovať stovky serverov, "
+"programovať REST API a využívať znalosti z Linuxu, Flask, SQLAlchemy, "
+"Celery, ZeroMQ a OpenStack k nám do WebSupportu."
 msgstr ""
+"Websupport is looking for Python Backend Developer who has experience "
+"with Linux administration and will be developing in REST api and use "
+"Flask, SQLAlchemy, Celey, ZeroMQ and OpenStack."
 
 #: templates/sponsors.html:146
 msgid "Bronzoví sponzori"
@@ -3175,4 +3199,7 @@ msgstr "objectives of SPy."
 #: templates/tickets.html:74
 msgid "viac o našich cieľoch"
 msgstr "more about our vision and objectives"
+
+#~ msgid "Websupport"
+#~ msgstr ""
 
