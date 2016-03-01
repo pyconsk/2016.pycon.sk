@@ -43,6 +43,10 @@ function update_speaker_bio(mod, speaker_id, speaker_id2) {
   speaker_bio.empty();
   speaker2_bio.empty();
 
+  if (!speaker_id) {
+    return false;
+  }
+
   function update() {
     speaker_row = speakers_page.find('#' + speaker_id);
 
