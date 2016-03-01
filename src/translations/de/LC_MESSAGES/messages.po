@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-01 01:19+0100\n"
+"POT-Creation-Date: 2016-03-01 15:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -1053,7 +1053,7 @@ msgid ""
 msgstr ""
 
 #: templates/schedule-friday.html:95
-msgid "virtualenv, flask, vagrant a pod."
+msgid "Virtualenv, Flask, Vagrant a pod."
 msgstr ""
 
 #: templates/schedule-friday.html:106
@@ -2477,4 +2477,7 @@ msgstr ""
 #: templates/tickets.html:74
 msgid "viac o našich cieľoch"
 msgstr ""
+
+#~ msgid "virtualenv, flask, vagrant a pod."
+#~ msgstr ""
 
