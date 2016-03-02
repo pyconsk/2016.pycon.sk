@@ -649,7 +649,6 @@
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-
 <script type="text/javascript">
 var speakers_url = '/en/speakers.html';
 var speakers_page = null;
@@ -697,13 +696,20 @@ function tr_click() {
   var tr = $(this);
   var talk = tr.find('div.talk');
   var speaker = tr.find('div.speaker');
+  var room;
 
   mod.find('#event-title').html(talk.html());
   mod.find('#event-desc').html(talk.data('abstract'));
   mod.find('#event-speaker').html(speaker.html());
   mod.find('#event-startime').html(tr.find('div.time').html() + ' ('+ talk.data('duration') +'&nbsp;min.)');
   mod.find('#event-lang').html(tr.find('div.lang').html());
-  mod.find('#event-room').html(tr.parent().parent().find('span.room:last').html());
+  room = tr.parent().parent().find('span.room:last');
+
+  if (room.length) {
+    mod.find('#event-room').html(room.html());
+  } else {
+    mod.find('#event-room').empty();
+  }
 
   update_speaker_bio(mod, speaker.data('id'), speaker.data('id2'));
 
