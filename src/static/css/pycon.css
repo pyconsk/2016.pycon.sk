@@ -99,6 +99,7 @@ mark.platinum {
   border: 1px solid #ddd;
   border-radius: 4px;
   transition: border 0.2s ease-in-out 0s;
+  margin-bottom: 10px;
 }
 
 .sline {
@@ -120,7 +121,7 @@ mark.platinum {
   right: 0;
   margin-left: 16px;
   margin-right: 16px;
-  margin-bottom: 1px;
+  margin-bottom: 11px;
   margin-top: 1px;
   padding: 0;
   background-color: rgba(0, 0, 0, 0.6);

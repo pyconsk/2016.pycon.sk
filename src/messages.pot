@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-02 21:19+0100\n"
+"POT-Creation-Date: 2016-03-02 21:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2030,14 +2030,13 @@ msgid "Platinoví sponzori"
 msgstr ""
 
 #: templates/sponsors.html:32
-#, python-format
 msgid ""
 "Red Hat je celosvetový líder v poskytovaní open source technológií, "
 "vrátane cloudu, virtualizácie, úschovy dát, Linuxu a middleware. Okrem "
 "enterprise softvérových produktov, taktiež ponúkame prvotriednu podporu "
 "našich riešení, školenia a konzultačné služby. Sme rýchlo rastúca "
-"spoločnosť, ktorá spolupracuje s viac ako 90% firiem z rebríčka Fortune "
-"500."
+"spoločnosť, ktorá spolupracuje s viac ako 90&#37; firiem z rebríčka "
+"Fortune 500."
 msgstr ""
 
 #: templates/sponsors.html:45
