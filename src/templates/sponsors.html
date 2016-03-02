@@ -29,7 +29,7 @@
         <div class="sdesc">
           <h3>Red Hat</h3>
           <p>www.redhat.com</p>
-          <p class="text-justify">{% trans %}Red Hat je rýchlo rastúca spoločnosť dodávajúca open source balík technológií, ktorému dôveruje viac ako 90&#37; firiem z rebríčka Fortune 500. Brno je hlavné technologické centrum Red Hat-u v regióne EMEA, kde sa pracuje na technológiách od middleware až po cloud. Podľa zoznamu Aon Hewitt je Red Hat Brno na treťiom mieste najlepších miest na prácu v Českej republike v roku 2014. Red Hat je miesto, kde sa stretávajú a pracujú ľudia, ktorí milujú open source.{% endtrans %}</p>
+          <p class="text-justify">{% trans %}Red Hat je celosvetový líder v poskytovaní open source technológií, vrátane cloudu, virtualizácie, úschovy dát, Linuxu a middleware. Okrem enterprise softvérových produktov, taktiež ponúkame prvotriednu podporu našich riešení, školenia a konzultačné služby. Sme rýchlo rastúca spoločnosť, ktorá spolupracuje s viac ako 90% firiem z rebríčka Fortune 500.{% endtrans %}</p>
         </div>
       </div>
     </a>
@@ -194,7 +194,20 @@
 
 <div class="row"> {# 2nd bronze row #}
 
-  <div class="col-md-4 col-md-offset-2">
+  <div class="col-md-4">
+    <a href="http://www.it-academy.sk/#pyconsk" target="_blank" class="sbox">
+      <img src="{{ url_for('static', filename='images/sponsors/it-academy-logo.png') }}" alt="IT Academy" class="slogo img-responsive center-block" style="width: 50%" />
+      <div class="sbox-inner">
+        <div class="sdesc">
+          <h3>IT Academy</h3>
+          <p>www.it-academy.sk</p>
+          <p class="text-justify"></p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="col-md-4">
     <a href="http://get.tech/#pyconsk" target="_blank" class="sbox">
       <img src="{{ url_for('static', filename='images/sponsors/radix-logo.svg') }}" alt="RADIX" class="slogo img-responsive center-block" style="width: 50%" />
       <div class="sbox-inner">
@@ -208,13 +221,13 @@
   </div>
 
   <div class="col-md-4">
-    <a href="http://www.it-academy.sk/#pyconsk" target="_blank" class="sbox">
-      <img src="{{ url_for('static', filename='images/sponsors/it-academy-logo.png') }}" alt="IT Academy" class="slogo img-responsive center-block" style="width: 50%" />
+    <a href="http://www.gopas.sk/#pyconsk" target="_blank" class="sbox">
+      <img src="{{ url_for('static', filename='images/sponsors/gopas-logo.svg') }}" alt="GOPAS" class="slogo img-responsive center-block" style="width: 50%" />
       <div class="sbox-inner">
         <div class="sdesc">
-          <h3>IT Academy</h3>
-          <p>www.it-academy.sk</p>
-          <p class="text-justify"></p>
+          <h3>GOPAS</h3>
+          <p>www.gopas.sk</p>
+          <p class="text-justify">{% trans %}Spoločnosť GOPAS je najväčším poskytovateľom školení v oblasti informačných technológií na českom aj slovenskom trhu. Jej odborné kurzy absolvuje ročne takmer 30 tisíc študentov, z ktorých väčšinu tvoria IT špecialisti. Aj napriek tomu, že pôsobí na pomerne malom trhu, patrí GOPAS k jedným z najväčších poskytovateľov IT školení v Európe.{% endtrans %}</p>
         </div>
       </div>
     </a>
@@ -346,7 +359,7 @@
 
 <div class="row">
 
-  <div class="col-md-4">
+  <div class="col-md-4 col-md-offset-2">
     <a href="http://www.fiit.stuba.sk/" target="_blank" class="sbox">
       <img src="{{ url_for('static', filename='images/partners/fiit-stu.svg') }}" alt="FIIT STU" class="slogo img-responsive center-block" style="width: 45%" />
       <div class="sbox-inner">
@@ -360,6 +373,22 @@
   </div>
 
   <div class="col-md-4">
+    <a href="http://www.how-know.sk/" target="_blank" class="sbox">
+      <img src="{{ url_for('static', filename='images/partners/howknow.svg') }}" alt="How Know" class="slogo img-responsive center-block" style="width: 45%" />
+      <div class="sbox-inner">
+        <div class="sdesc">
+          <h3>How-Know</h3>
+          <p>www.how-know.sk</p>
+          <p class="text-justify">{% trans %}Cieľom projektu How-Know je poskytnúť študentom najmä vysokých škôl možnosť zvyšovať úroveň svojich praktických a teoretických vedomostí nad rámec štandardných učebných osnov.{% endtrans %}</p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+</div> {# partners row 1 #}
+
+<div class="row">
+  <div class="col-md-4 col-md-offset-2">
     <a href="http://www.ajtyvit.sk/" target="_blank" class="sbox">
       <img src="{{ url_for('static', filename='images/partners/ajtyvit.svg') }}" alt="Aj Ty v IT" class="slogo img-responsive center-block" style="width: 60%" />
       <div class="sbox-inner">
@@ -385,7 +414,7 @@
     </a>
   </div>
 
-</div> {# partners row #}
+</div> {# partners row 2 #}
 
 <hr>
 
