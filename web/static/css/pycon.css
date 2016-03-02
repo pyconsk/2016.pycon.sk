@@ -347,12 +347,19 @@ table.schedule .slot-40 .time { height: 54px; } /* 44 + 10 */
 table.schedule .slot-45 .talk { height: 56px; } /* 40 + 16 */
 table.schedule .slot-45 .time { height: 60px; } /* 44 + 16 */
 
+table.schedule .slot-50 .talk { height: 62px; } /* 40 + 22 */
+table.schedule .slot-50 .time { height: 66px; } /* 44 + 22 */
+
 table.schedule .talk.oneline {
   height: 24px;
 }
 
-.track-2-time-synchronizer {
-  height: 40px;
+.track-2-time-synchronizer-1 {
+  height: 10px;
+}
+
+.track-2-time-synchronizer-2 {
+  height: 20px;
 }
 
 table.schedule tr.event {
