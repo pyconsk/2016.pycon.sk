@@ -317,7 +317,7 @@ table.schedule > thead > tr > th:first-child , table.schedule > tbody > tr > td:
 }
 
 table.schedule .time {
-  height: 44px;
+  height: 44px;  /* for a 30 min slot */
   width: 54px;
   font-weight: bold;
 }
@@ -329,11 +329,37 @@ table.schedule .lang {
 
 table.schedule .talk {
   font-weight: bold;
-  height: 40px;
+  height: 40px;  /* for a 30 min slot */
 }
+
+table.schedule .slot-5 .talk { height: 16px; } /* 40 - 14 */
+table.schedule .slot-5 .time { height: 20px; } /* 44 - 14 */
+
+table.schedule .slot-20 .talk { height: 30px; } /* 40 - 10 */
+table.schedule .slot-20 .time { height: 34px; } /* 44 - 10 */
+
+table.schedule .slot-35 .talk { height: 44px; } /* 40 + 4 */
+table.schedule .slot-35 .time { height: 48px; } /* 44 + 4 */
+
+table.schedule .slot-40 .talk { height: 50px; } /* 40 + 10 */
+table.schedule .slot-40 .time { height: 54px; } /* 44 + 10 */
+
+table.schedule .slot-45 .talk { height: 56px; } /* 40 + 16 */
+table.schedule .slot-45 .time { height: 60px; } /* 44 + 16 */
+
+table.schedule .slot-50 .talk { height: 62px; } /* 40 + 22 */
+table.schedule .slot-50 .time { height: 66px; } /* 44 + 22 */
 
 table.schedule .talk.oneline {
   height: 24px;
+}
+
+.track-2-time-synchronizer-1 {
+  height: 10px;
+}
+
+.track-2-time-synchronizer-2 {
+  height: 20px;
 }
 
 table.schedule tr.event {
