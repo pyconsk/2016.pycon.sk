@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-02 01:52+0100\n"
+"POT-Creation-Date: 2016-03-02 21:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -932,7 +932,7 @@ msgstr ""
 msgid "Strieborní sponzori:"
 msgstr ""
 
-#: templates/right_nav.html:66 templates/sponsors.html:280
+#: templates/right_nav.html:66 templates/sponsors.html:293
 msgid "Hlavný mediálny partner"
 msgstr ""
 
@@ -2031,13 +2031,12 @@ msgstr ""
 
 #: templates/sponsors.html:32
 msgid ""
-"Red Hat je rýchlo rastúca spoločnosť dodávajúca open source balík "
-"technológií, ktorému dôveruje viac ako 90&#37; firiem z rebríčka Fortune "
-"500. Brno je hlavné technologické centrum Red Hat-u v regióne EMEA, kde "
-"sa pracuje na technológiách od middleware až po cloud. Podľa zoznamu Aon "
-"Hewitt je Red Hat Brno na treťiom mieste najlepších miest na prácu v "
-"Českej republike v roku 2014. Red Hat je miesto, kde sa stretávajú a "
-"pracujú ľudia, ktorí milujú open source."
+"Red Hat je celosvetový líder v poskytovaní open source technológií, "
+"vrátane cloudu, virtualizácie, úschovy dát, Linuxu a middleware. Okrem "
+"enterprise softvérových produktov, taktiež ponúkame prvotriednu podporu "
+"našich riešení, školenia a konzultačné služby. Sme rýchlo rastúca "
+"spoločnosť, ktorá spolupracuje s viac ako 90&#37; firiem z rebríčka "
+"Fortune 500."
 msgstr ""
 
 #: templates/sponsors.html:45
@@ -2053,7 +2052,7 @@ msgstr ""
 msgid "Zlatí sponzori"
 msgstr ""
 
-#: templates/sponsors.html:70 templates/sponsors.html:242
+#: templates/sponsors.html:70 templates/sponsors.html:255
 msgid ""
 "Python Software Foundation je nezisková organizácia, ktorá sa aktívne "
 "venuje presadzovaniu a podpore programovacieho jazyka Python. PSF "
@@ -2128,11 +2127,20 @@ msgid ""
 "vedeckých vývojarov. PyCharm ponúka jedinečný zážitok z programovania."
 msgstr ""
 
-#: templates/sponsors.html:229
+#: templates/sponsors.html:230
+msgid ""
+"Spoločnosť GOPAS je najväčším poskytovateľom školení v oblasti "
+"informačných technológií na českom aj slovenskom trhu. Jej odborné kurzy "
+"absolvuje ročne takmer 30 tisíc študentov, z ktorých väčšinu tvoria IT "
+"špecialisti. Aj napriek tomu, že pôsobí na pomerne malom trhu, patrí "
+"GOPAS k jedným z najväčších poskytovateľov IT školení v Európe."
+msgstr ""
+
+#: templates/sponsors.html:242
 msgid "Django Girls sponzori"
 msgstr ""
 
-#: templates/sponsors.html:255
+#: templates/sponsors.html:268
 msgid ""
 "Skypicker.com je inovatívny celosvetový vyhľadávač leteniek, ktorý sa "
 "zameriava na kombinácie nespolupracujúcich aerolinek, kde je schopný "
@@ -2141,11 +2149,11 @@ msgid ""
 "zárukou na nadväzujúce lety."
 msgstr ""
 
-#: templates/sponsors.html:305
+#: templates/sponsors.html:318
 msgid "Mediálni partneri"
 msgstr ""
 
-#: templates/sponsors.html:318
+#: templates/sponsors.html:331
 msgid ""
 "Startitup je najpopulárnejší a najprogresívnejšie rastúci tech/startup "
 "portál na Slovensku a v Čechách, ktorý informuje, inšpiruje a zabáva "
@@ -2153,11 +2161,11 @@ msgid ""
 "najkredibilnejších nezávislých médií na Slovensku."
 msgstr ""
 
-#: templates/sponsors.html:343
+#: templates/sponsors.html:356
 msgid "Partneri konferencie"
 msgstr ""
 
-#: templates/sponsors.html:356
+#: templates/sponsors.html:369
 msgid ""
 "Fakulta informatiky a informačných technológií (FIIT) je jednou zo "
 "siedmich fakúlt Slovenskej technickej univerzity v Bratislave (STU). FIIT"
@@ -2166,7 +2174,14 @@ msgid ""
 "poslaním."
 msgstr ""
 
-#: templates/sponsors.html:369
+#: templates/sponsors.html:382
+msgid ""
+"Cieľom projektu How-Know je poskytnúť študentom najmä vysokých škôl "
+"možnosť zvyšovať úroveň svojich praktických a teoretických vedomostí nad "
+"rámec štandardných učebných osnov."
+msgstr ""
+
+#: templates/sponsors.html:398
 msgid ""
 "Cieľom tohto portálu je informovať. Informuje dievčatá, ich rodičov, "
 "verejnosť o tom, že vo svete IT je skvelé mať ženy. Prináša profily "
@@ -2176,7 +2191,7 @@ msgid ""
 "akciách pre dievčatá, kam sa môžu pridať."
 msgstr ""
 
-#: templates/sponsors.html:382
+#: templates/sponsors.html:411
 msgid ""
 "Našim cieľom je poskytovať inovatívnu platformu pre stretávanie sa s "
 "ľuďmi a výmenu informácií pre tých, ktorí sa zaujímajú o hacking, 3D "
@@ -2185,7 +2200,7 @@ msgid ""
 "zmýšľajúcich ľudí."
 msgstr ""
 
-#: templates/sponsors.html:394
+#: templates/sponsors.html:423
 msgid "Podporovatelia konferencie"
 msgstr ""
 
