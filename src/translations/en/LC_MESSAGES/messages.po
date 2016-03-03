@@ -2896,7 +2896,7 @@ msgid ""
 "Interaktívna aplikácia na kladenie otázok a hlasovanie, ktorá sa dá "
 "jednoducho využiť na vaše podujatie alebo meeting."
 msgstr ""
-"Audience Interaction Made Easy<br>Live Q&A, Polls and Slides Sharing for "
+"Audience Interaction Made Easy<br>Live Q&amp;A, Polls and Slides Sharing for "
 "Meetings & Events"
 
 #: templates/sponsors.html:185
