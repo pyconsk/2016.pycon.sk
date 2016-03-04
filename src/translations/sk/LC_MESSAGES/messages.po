@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-02 21:43+0100\n"
+"POT-Creation-Date: 2016-03-04 11:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -1302,10 +1302,6 @@ msgid ""
 "(gotchas)."
 msgstr ""
 
-#: templates/schedule-saturday.html:166
-msgid "a"
-msgstr ""
-
 #: templates/schedule-saturday.html:176
 msgid ""
 "DTrace je dynamický sledovací framework schopný kompletne monitorovať "
@@ -1690,18 +1686,6 @@ msgstr ""
 
 #: templates/speakers.html:249
 msgid ""
-"Laura pracuje ako analytik Global Technology v spoločnosti JP Morgan "
-"Chase v New Yorku. Po absolvovaní State University of New York v Oneonta "
-"sa zúčastnila letnej stáže v technologickom oddelení Major League "
-"Baseball. Po stáži sa Laura pridala k JP Morgan Chase. Vo svojom voľnom "
-"čase pracuje ako učiteľ v organizácii <a "
-"href=\"http://girlswhocode.com/\" target=\"_blank\" title=\"Girls Who "
-"Code\">Girls Who Code</a>, ktorá podporuje vzdelávanie dievčat v IT, "
-"hlavne v stredoškolskom veku. Má rada klavír a futbal."
-msgstr ""
-
-#: templates/speakers.html:261
-msgid ""
 "Daniele bol organizátorom Django víkendu v Cardiffe, členom organizačnej "
 "komisie DjangoCon Europe 2014 a v roku 2015 aj jej predsedom. Bol i "
 "jedným z hlavných organizátorov Python Namibia 2015, prvej Python "
@@ -1715,7 +1699,7 @@ msgid ""
 "projektoch."
 msgstr ""
 
-#: templates/speakers.html:275
+#: templates/speakers.html:261
 msgid ""
 "Matúš je PhD študent na Fakulte matematiky, fyziky a informatiky "
 "Univerzity Komenského v Bratislave. Venuje sa skúmaniu kvantových javov v"
@@ -1725,7 +1709,7 @@ msgid ""
 "vyhodnocovanie dát, simulácie."
 msgstr ""
 
-#: templates/speakers.html:286
+#: templates/speakers.html:274
 msgid ""
 "Michael pracuje pre <a href=\"https://redhat.com\" target=\"_blank\" "
 "title=\"Red Hat\">Red Hat</a> v tíme Open source a štandardy, zaujíma sa "
@@ -1734,7 +1718,7 @@ msgid ""
 "nediskutuje na konferenciách o slobodnom softvéri)."
 msgstr ""
 
-#: templates/speakers.html:297
+#: templates/speakers.html:283
 msgid ""
 "Back-end programátor so záujmom o big data a machine learning, ktorého "
 "ďalšou métou je data science. Python a Django používa pri vývoji webových"
@@ -1745,7 +1729,7 @@ msgid ""
 "produktov pre klientov v rámci firmy Exponea."
 msgstr ""
 
-#: templates/speakers.html:309
+#: templates/speakers.html:297
 msgid ""
 "Jakub je PhD študent na Slovenskej technickej univerzite v Bratislave, "
 "kde získal aj svoj inžiniersky titul v odbore Softvérové inžinierstvo. V "
@@ -1755,7 +1739,7 @@ msgid ""
 "turistiku, cestovanie a cyklistiku."
 msgstr ""
 
-#: templates/speakers.html:323
+#: templates/speakers.html:309
 msgid ""
 "Andrea sa venuje vývoju serverových aplikácií od roku 2012. Pochádza z IT"
 " rodiny a aj vďaka tomu sa vybrala touto cestou. Neznáša zlý kód a "
@@ -1763,7 +1747,7 @@ msgid ""
 "meetupu."
 msgstr ""
 
-#: templates/speakers.html:335
+#: templates/speakers.html:323
 msgid ""
 "Martina je softvérovou inžinierkou s viac ako 10-ročnou praxou pri "
 "vyvíjaní enterprise-level softvéru. Posledné štyri roky pracuje ako "
@@ -1777,7 +1761,7 @@ msgid ""
 "predstavy o IT branži na Slovensku."
 msgstr ""
 
-#: templates/speakers.html:350
+#: templates/speakers.html:336
 msgid ""
 "Nicholas študoval klasickú hudbu, absolvoval filozofiu, je učiteľom, "
 "spisovateľom aj vývojárom softvéru. Spolupracuje s nadáciou Python "
@@ -1786,7 +1770,7 @@ msgid ""
 "čestný a plný užitočných informácií."
 msgstr ""
 
-#: templates/speakers.html:363
+#: templates/speakers.html:351
 msgid ""
 "Je softvérový inžinier v <a href=\"https://www.redhat.com/\" "
 "target=\"_blank\" title=\"Red Hat\">Red Hat</a>. Keď práve nepíše kód v "
@@ -1795,7 +1779,7 @@ msgid ""
 "konferencii."
 msgstr ""
 
-#: templates/speakers.html:377
+#: templates/speakers.html:363
 msgid ""
 "Johannes je doktorand v Centre pre sieťové vedy na Stredoeurópskej "
 "univerzite. Spolupracuje s Centrom pre výskum korupcie v Budapešti, "
@@ -2503,5 +2487,25 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
+#~ msgstr ""
+
+#~ msgid "a"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Laura pracuje ako analytik Global "
+#~ "Technology v spoločnosti JP Morgan Chase"
+#~ " v New Yorku. Po absolvovaní State"
+#~ " University of New York v Oneonta "
+#~ "sa zúčastnila letnej stáže v "
+#~ "technologickom oddelení Major League Baseball."
+#~ " Po stáži sa Laura pridala k JP"
+#~ " Morgan Chase. Vo svojom voľnom čase"
+#~ " pracuje ako učiteľ v organizácii <a"
+#~ " href=\"http://girlswhocode.com/\" target=\"_blank\" "
+#~ "title=\"Girls Who Code\">Girls Who Code</a>,"
+#~ " ktorá podporuje vzdelávanie dievčat v "
+#~ "IT, hlavne v stredoškolskom veku. Má "
+#~ "rada klavír a futbal."
 #~ msgstr ""
 
