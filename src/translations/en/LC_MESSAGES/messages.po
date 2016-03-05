@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-04 11:33+0100\n"
+"POT-Creation-Date: 2016-03-05 16:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -992,7 +992,7 @@ msgid ""
 msgstr ""
 "We are very happy to anounce good news: Inaugural PyCon SK conference "
 "will be held <a href=\"%(link)s\">under the patronage of Andrej Kiska, "
-"the President of Slovak Republic</a>."
+"President of the Slovak Republic</a>."
 
 #: templates/index.html:24
 #, python-format
@@ -1734,9 +1734,9 @@ msgid "Vstupenky na večeru sa predaváju samostatne na stránke vstupeniek."
 msgstr "Tickets for the dinner are sold separately on the \"Tickets\" page."
 
 #: templates/schedule-saturday.html:238 templates/schedule-saturday.html:324
-#: templates/schedule-sunday.html:100
-msgid "Babbageova učebňa"
-msgstr "Babbage lecture hall"
+#: templates/schedule-sunday.html:40 templates/schedule-sunday.html:76
+msgid "Turingova učebňa"
+msgstr "Turing lecture hall"
 
 #: templates/schedule-saturday.html:271
 msgid ""
@@ -1935,14 +1935,14 @@ msgstr "Automated measurements using Python"
 msgid "Nedeľa, 13. marca 2016"
 msgstr "Sunday, 13<sup>th</sup> of March, 2016"
 
-#: templates/schedule-sunday.html:40 templates/schedule-sunday.html:76
-msgid "Turingova učebňa"
-msgstr "Turing lecture hall"
-
 #: templates/schedule-sunday.html:51 templates/schedule-sunday.html:87
 #: templates/tickets.html:58
 msgid "Python Clinic, spontánne workshopy a šprinty"
 msgstr "Python Clinic, spontaneous workshops and sprints"
+
+#: templates/schedule-sunday.html:100
+msgid "Babbageova učebňa"
+msgstr "Babbage lecture hall"
 
 #: templates/schedule-sunday.html:112
 msgid "Len pre registrovaných účastníkov. Registrácie sú uzavreté."
@@ -3327,34 +3327,5 @@ msgstr "more about our vision and objectives"
 #~ msgstr "and"
 
 #~ msgid ""
-#~ "Laura pracuje ako analytik Global "
-#~ "Technology v spoločnosti JP Morgan Chase"
-#~ " v New Yorku. Po absolvovaní State"
-#~ " University of New York v Oneonta "
-#~ "sa zúčastnila letnej stáže v "
-#~ "technologickom oddelení Major League Baseball."
-#~ " Po stáži sa Laura pridala k JP"
-#~ " Morgan Chase. Vo svojom voľnom čase"
-#~ " pracuje ako učiteľ v organizácii <a"
-#~ " href=\"http://girlswhocode.com/\" target=\"_blank\" "
-#~ "title=\"Girls Who Code\">Girls Who Code</a>,"
-#~ " ktorá podporuje vzdelávanie dievčat v "
-#~ "IT, hlavne v stredoškolskom veku. Má "
-#~ "rada klavír a futbal."
 #~ msgstr ""
-#~ "Laura is an analyst in Global "
-#~ "Technology at JP Morgan Chase in "
-#~ "New York City. After graduation from "
-#~ "State University of NY at Oneonta, "
-#~ "she participated in a summer internship"
-#~ " with Major League Baseball’s technology"
-#~ " department. After her internship, Laura"
-#~ " joined JP Morgan Chase. Laura, in"
-#~ " her spare time, is a teacher "
-#~ "for <a href=\"http://girlswhocode.com/\" "
-#~ "target=\"_blank\" title=\"Girls Who Code\">Girls "
-#~ "Who Code</a> organization which promotes "
-#~ "rising females in technology, especially "
-#~ "at the high school age. She also"
-#~ " enjoys piano and soccer."
 

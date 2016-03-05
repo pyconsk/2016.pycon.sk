@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-04 11:33+0100\n"
+"POT-Creation-Date: 2016-03-05 16:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1331,8 +1331,8 @@ msgid "Vstupenky na večeru sa predaváju samostatne na stránke vstupeniek."
 msgstr ""
 
 #: templates/schedule-saturday.html:238 templates/schedule-saturday.html:324
-#: templates/schedule-sunday.html:100
-msgid "Babbageova učebňa"
+#: templates/schedule-sunday.html:40 templates/schedule-sunday.html:76
+msgid "Turingova učebňa"
 msgstr ""
 
 #: templates/schedule-saturday.html:271
@@ -1457,13 +1457,13 @@ msgstr ""
 msgid "Nedeľa, 13. marca 2016"
 msgstr ""
 
-#: templates/schedule-sunday.html:40 templates/schedule-sunday.html:76
-msgid "Turingova učebňa"
-msgstr ""
-
 #: templates/schedule-sunday.html:51 templates/schedule-sunday.html:87
 #: templates/tickets.html:58
 msgid "Python Clinic, spontánne workshopy a šprinty"
+msgstr ""
+
+#: templates/schedule-sunday.html:100
+msgid "Babbageova učebňa"
 msgstr ""
 
 #: templates/schedule-sunday.html:112
