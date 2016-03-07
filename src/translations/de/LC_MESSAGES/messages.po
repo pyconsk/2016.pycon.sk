@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-05 16:02+0100\n"
+"POT-Creation-Date: 2016-03-07 06:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -934,7 +934,7 @@ msgstr ""
 msgid "Strieborní sponzori:"
 msgstr ""
 
-#: templates/right_nav.html:66 templates/sponsors.html:293
+#: templates/right_nav.html:66 templates/sponsors.html:325
 msgid "Hlavný mediálny partner"
 msgstr ""
 
@@ -1329,7 +1329,7 @@ msgid ""
 msgstr ""
 
 #: templates/schedule-saturday.html:225
-msgid "Vstupenky na večeru sa predaváju samostatne na stránke vstupeniek."
+msgid "Vstupenky na večeru sa predávajú samostatne na stránke vstupeniek."
 msgstr ""
 
 #: templates/schedule-saturday.html:238 templates/schedule-saturday.html:324
@@ -2038,7 +2038,7 @@ msgstr ""
 msgid "Zlatí sponzori"
 msgstr ""
 
-#: templates/sponsors.html:70 templates/sponsors.html:255
+#: templates/sponsors.html:70 templates/sponsors.html:287
 msgid ""
 "Python Software Foundation je nezisková organizácia, ktorá sa aktívne "
 "venuje presadzovaniu a podpore programovacieho jazyka Python. PSF "
@@ -2090,21 +2090,15 @@ msgid ""
 "Celery, ZeroMQ a OpenStack k nám do WebSupportu."
 msgstr ""
 
-#: templates/sponsors.html:146
-msgid "Bronzoví sponzori"
-msgstr ""
-
 #: templates/sponsors.html:159
-msgid ""
-"Projekt Fedora je spojenie nadšencov open source softvérovej komunity z "
-"rôznych kútov sveta. Tento projekt buduje komunity a vytvára linuxovú "
-"distribúciu Fedora."
+msgid "Bronzoví sponzori"
 msgstr ""
 
 #: templates/sponsors.html:172
 msgid ""
-"Interaktívna aplikácia na kladenie otázok a hlasovanie, ktorá sa dá "
-"jednoducho využiť na vaše podujatie alebo meeting."
+"Projekt Fedora je spojenie nadšencov open source softvérovej komunity z "
+"rôznych kútov sveta. Tento projekt buduje komunity a vytvára linuxovú "
+"distribúciu Fedora."
 msgstr ""
 
 #: templates/sponsors.html:185
@@ -2113,7 +2107,13 @@ msgid ""
 "vedeckých vývojarov. PyCharm ponúka jedinečný zážitok z programovania."
 msgstr ""
 
-#: templates/sponsors.html:230
+#: templates/sponsors.html:217
+msgid ""
+"Interaktívna aplikácia na kladenie otázok a hlasovanie, ktorá sa dá "
+"jednoducho využiť na vaše podujatie alebo meeting."
+msgstr ""
+
+#: templates/sponsors.html:262
 msgid ""
 "Spoločnosť GOPAS je najväčším poskytovateľom školení v oblasti "
 "informačných technológií na českom aj slovenskom trhu. Jej odborné kurzy "
@@ -2122,11 +2122,11 @@ msgid ""
 "GOPAS k jedným z najväčších poskytovateľov IT školení v Európe."
 msgstr ""
 
-#: templates/sponsors.html:242
+#: templates/sponsors.html:274
 msgid "Django Girls sponzori"
 msgstr ""
 
-#: templates/sponsors.html:268
+#: templates/sponsors.html:300
 msgid ""
 "Skypicker.com je inovatívny celosvetový vyhľadávač leteniek, ktorý sa "
 "zameriava na kombinácie nespolupracujúcich aerolinek, kde je schopný "
@@ -2135,11 +2135,11 @@ msgid ""
 "zárukou na nadväzujúce lety."
 msgstr ""
 
-#: templates/sponsors.html:318
+#: templates/sponsors.html:350
 msgid "Mediálni partneri"
 msgstr ""
 
-#: templates/sponsors.html:331
+#: templates/sponsors.html:363
 msgid ""
 "Startitup je najpopulárnejší a najprogresívnejšie rastúci tech/startup "
 "portál na Slovensku a v Čechách, ktorý informuje, inšpiruje a zabáva "
@@ -2147,11 +2147,11 @@ msgid ""
 "najkredibilnejších nezávislých médií na Slovensku."
 msgstr ""
 
-#: templates/sponsors.html:356
+#: templates/sponsors.html:388
 msgid "Partneri konferencie"
 msgstr ""
 
-#: templates/sponsors.html:369
+#: templates/sponsors.html:401
 msgid ""
 "Fakulta informatiky a informačných technológií (FIIT) je jednou zo "
 "siedmich fakúlt Slovenskej technickej univerzity v Bratislave (STU). FIIT"
@@ -2160,14 +2160,14 @@ msgid ""
 "poslaním."
 msgstr ""
 
-#: templates/sponsors.html:382
+#: templates/sponsors.html:414
 msgid ""
 "Cieľom projektu How-Know je poskytnúť študentom najmä vysokých škôl "
 "možnosť zvyšovať úroveň svojich praktických a teoretických vedomostí nad "
 "rámec štandardných učebných osnov."
 msgstr ""
 
-#: templates/sponsors.html:398
+#: templates/sponsors.html:430
 msgid ""
 "Cieľom tohto portálu je informovať. Informuje dievčatá, ich rodičov, "
 "verejnosť o tom, že vo svete IT je skvelé mať ženy. Prináša profily "
@@ -2177,7 +2177,7 @@ msgid ""
 "akciách pre dievčatá, kam sa môžu pridať."
 msgstr ""
 
-#: templates/sponsors.html:411
+#: templates/sponsors.html:443
 msgid ""
 "Našim cieľom je poskytovať inovatívnu platformu pre stretávanie sa s "
 "ľuďmi a výmenu informácií pre tých, ktorí sa zaujímajú o hacking, 3D "
@@ -2186,7 +2186,7 @@ msgid ""
 "zmýšľajúcich ľudí."
 msgstr ""
 
-#: templates/sponsors.html:423
+#: templates/sponsors.html:455
 msgid "Podporovatelia konferencie"
 msgstr ""
 
@@ -2484,5 +2484,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "a"
+#~ msgstr ""
+
+#~ msgid "Vstupenky na večeru sa predaváju samostatne na stránke vstupeniek."
 #~ msgstr ""
 

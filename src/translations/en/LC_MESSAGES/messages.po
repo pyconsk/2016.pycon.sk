@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-05 16:02+0100\n"
+"POT-Creation-Date: 2016-03-07 06:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -990,7 +990,7 @@ msgid ""
 "konferencie PyCon SK sa uskutoční <a href=\"%(link)s\">pod záštitou "
 "prezidenta SR Andreja Kisku</a>."
 msgstr ""
-"We are very happy to anounce good news: Inaugural PyCon SK conference "
+"We are very happy to announce the good news: Inaugural PyCon SK conference "
 "will be held <a href=\"%(link)s\">under the patronage of Andrej Kiska, "
 "President of the Slovak Republic</a>."
 
@@ -1013,9 +1013,9 @@ msgstr ""
 " Slovak day</a> and <a href=\"%(url_saturday)s\">Saturday - English "
 "day</a>. On <a href=\"%(url_sunday)s\">Sunday</a>, there will be "
 "workshops and Python Clinic where you will be able to talk to some of the"
-" speakers about their talk or practice some Python technologies. We have "
+" speakers about their talks or practice some Python technologies. We have "
 "also prepared a <a href=\"%(url_djangogirls)s\">Django Girls</a> "
-"workshop, which will be suitable for absolute beginners."
+"workshop which will be suitable for absolute beginners."
 
 #: templates/index.html:29
 #: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:19
@@ -1029,7 +1029,7 @@ msgid ""
 "dobrovoľníkmi), budeme radi, ak sa nám ozvete."
 msgstr ""
 "If you wish to support us, become a volunteer, or help with organizing of"
-" PyCon SK (which is run entirely by volunteers) we'd be happy to talk "
+" PyCon SK (which is entirely run by volunteers) we'd be happy to talk "
 "with you and discuss your ideas."
 
 #: templates/index.html:41
@@ -1037,7 +1037,7 @@ msgstr ""
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
 "href=\"%(url)s\">meetupy</a>."
-msgstr "In the meantime you can visit our regular <a href=\"%(url)s\">meetups</a>."
+msgstr "In the meantime you can attend our regular <a href=\"%(url)s\">meetups</a>."
 
 #: templates/meetup.html:7
 msgid ""
@@ -1153,7 +1153,7 @@ msgstr "Gold sponsors:"
 msgid "Strieborní sponzori:"
 msgstr "Silver sponsors:"
 
-#: templates/right_nav.html:66 templates/sponsors.html:293
+#: templates/right_nav.html:66 templates/sponsors.html:325
 msgid "Hlavný mediálny partner"
 msgstr "Main media partner"
 
@@ -1730,7 +1730,7 @@ msgstr ""
 "numerous way we can improve security."
 
 #: templates/schedule-saturday.html:225
-msgid "Vstupenky na večeru sa predaváju samostatne na stránke vstupeniek."
+msgid "Vstupenky na večeru sa predávajú samostatne na stránke vstupeniek."
 msgstr "Tickets for the dinner are sold separately on the \"Tickets\" page."
 
 #: templates/schedule-saturday.html:238 templates/schedule-saturday.html:324
@@ -2773,7 +2773,7 @@ msgstr ""
 msgid "Zlatí sponzori"
 msgstr "Gold sponsors"
 
-#: templates/sponsors.html:70 templates/sponsors.html:255
+#: templates/sponsors.html:70 templates/sponsors.html:287
 msgid ""
 "Python Software Foundation je nezisková organizácia, ktorá sa aktívne "
 "venuje presadzovaniu a podpore programovacieho jazyka Python. PSF "
@@ -2852,11 +2852,11 @@ msgstr ""
 "with Linux administration and will be developing in REST API and use "
 "Flask, SQLAlchemy, Celey, ZeroMQ and OpenStack."
 
-#: templates/sponsors.html:146
+#: templates/sponsors.html:159
 msgid "Bronzoví sponzori"
 msgstr "Bronze sponsors"
 
-#: templates/sponsors.html:159
+#: templates/sponsors.html:172
 msgid ""
 "Projekt Fedora je spojenie nadšencov open source softvérovej komunity z "
 "rôznych kútov sveta. Tento projekt buduje komunity a vytvára linuxovú "
@@ -2865,14 +2865,6 @@ msgstr ""
 "The Fedora Project is a partnership of free software community members "
 "from around the globe. The Fedora Project builds open source software "
 "communities and produces a Linux distribution called \"Fedora\"."
-
-#: templates/sponsors.html:172
-msgid ""
-"Interaktívna aplikácia na kladenie otázok a hlasovanie, ktorá sa dá "
-"jednoducho využiť na vaše podujatie alebo meeting."
-msgstr ""
-"Audience Interaction Made Easy<br>Live Q&amp;A, Polls and Slides Sharing "
-"for Meetings & Events"
 
 #: templates/sponsors.html:185
 msgid ""
@@ -2883,7 +2875,15 @@ msgstr ""
 "Python, Web and scientific development that work together smoothly to "
 "offer you a unique coding experience."
 
-#: templates/sponsors.html:230
+#: templates/sponsors.html:217
+msgid ""
+"Interaktívna aplikácia na kladenie otázok a hlasovanie, ktorá sa dá "
+"jednoducho využiť na vaše podujatie alebo meeting."
+msgstr ""
+"Audience Interaction Made Easy<br>Live Q&amp;A, Polls and Slides Sharing "
+"for Meetings & Events"
+
+#: templates/sponsors.html:262
 msgid ""
 "Spoločnosť GOPAS je najväčším poskytovateľom školení v oblasti "
 "informačných technológií na českom aj slovenskom trhu. Jej odborné kurzy "
@@ -2896,11 +2896,11 @@ msgstr ""
 " quite small market, GOPAS is one of the major IT training providers in "
 "Europe."
 
-#: templates/sponsors.html:242
+#: templates/sponsors.html:274
 msgid "Django Girls sponzori"
 msgstr "Django Girls sponsors"
 
-#: templates/sponsors.html:268
+#: templates/sponsors.html:300
 msgid ""
 "Skypicker.com je inovatívny celosvetový vyhľadávač leteniek, ktorý sa "
 "zameriava na kombinácie nespolupracujúcich aerolinek, kde je schopný "
@@ -2914,11 +2914,11 @@ msgstr ""
 "airlines to create new unique routes often 50 to 90&#37; cheaper than "
 "published fares."
 
-#: templates/sponsors.html:318
+#: templates/sponsors.html:350
 msgid "Mediálni partneri"
 msgstr "Media partners"
 
-#: templates/sponsors.html:331
+#: templates/sponsors.html:363
 msgid ""
 "Startitup je najpopulárnejší a najprogresívnejšie rastúci tech/startup "
 "portál na Slovensku a v Čechách, ktorý informuje, inšpiruje a zabáva "
@@ -2930,11 +2930,11 @@ msgstr ""
 "entertains the digital generation. Startitup is well known as one of the "
 "most credible, independent media in Slovakia."
 
-#: templates/sponsors.html:356
+#: templates/sponsors.html:388
 msgid "Partneri konferencie"
 msgstr "Partners"
 
-#: templates/sponsors.html:369
+#: templates/sponsors.html:401
 msgid ""
 "Fakulta informatiky a informačných technológií (FIIT) je jednou zo "
 "siedmich fakúlt Slovenskej technickej univerzity v Bratislave (STU). FIIT"
@@ -2948,7 +2948,7 @@ msgstr ""
 "technologies (IIT) in both research and education. FIIT is the first "
 "faculty in the Slovak Republic with such mission."
 
-#: templates/sponsors.html:382
+#: templates/sponsors.html:414
 msgid ""
 "Cieľom projektu How-Know je poskytnúť študentom najmä vysokých škôl "
 "možnosť zvyšovať úroveň svojich praktických a teoretických vedomostí nad "
@@ -2958,7 +2958,7 @@ msgstr ""
 "students to improve their practical skills in above average knowledge "
 "study requirements."
 
-#: templates/sponsors.html:398
+#: templates/sponsors.html:430
 msgid ""
 "Cieľom tohto portálu je informovať. Informuje dievčatá, ich rodičov, "
 "verejnosť o tom, že vo svete IT je skvelé mať ženy. Prináša profily "
@@ -2974,7 +2974,7 @@ msgstr ""
 " find information and sign up to events and workshops that are happening "
 "in their region."
 
-#: templates/sponsors.html:411
+#: templates/sponsors.html:443
 msgid ""
 "Našim cieľom je poskytovať inovatívnu platformu pre stretávanie sa s "
 "ľuďmi a výmenu informácií pre tých, ktorí sa zaujímajú o hacking, 3D "
@@ -2987,7 +2987,7 @@ msgstr ""
 "electronics, arduino, programming, security, life-hacking, travelling, "
 "freedom-seeking and networking with like minds."
 
-#: templates/sponsors.html:423
+#: templates/sponsors.html:455
 msgid "Podporovatelia konferencie"
 msgstr "Supporters"
 
