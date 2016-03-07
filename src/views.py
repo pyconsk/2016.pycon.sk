@@ -214,6 +214,11 @@ def president():
     return render_template('pod-zastitou-prezidenta-slovenskej-republiky.html', **_get_template_variables(li_index='active'))
 
 
+@app.route('/<lang_code>/slido-app.html')
+def slido_app():
+    return render_template('slido-app.html', **_get_template_variables(li_index='active'))
+
+
 @app.route('/<lang_code>/spy.html')
 def spy():
     lang =  get_locale()
