@@ -210,6 +210,17 @@ footer li {
   overflow:auto
 }
 
+iframe.seamless {
+  background-color: transparent;
+  border: 0px none transparent;
+  padding: 0px;
+  overflow: hidden;
+}
+
+iframe.slido-app {
+  min-height: 600px;
+}
+
 textarea {
   height: 100%;
   width: 98%;
