@@ -24,6 +24,11 @@
         {#
         <p class="text-center"><a class="btn btn-default btn-lg btn-block btn-warning" href="https://djangogirls.org/bratislava{% if lang_code == 'sk'%}_sk{% endif %}/apply/#pyconsk" role="button" target="_blank">{{ _('Registruj sa') }}</a></p>
         #}
+        <br />
+        {% if lang_code=='sk' %}
+        <p class="text-center"><a href="{{ url_for('static', filename='rozhovor_AJ_TY_V_IT.pdf') }}">{{ _('PyCon s AJ TY V IT a úspešnými IT manažérkami vo svete') }}</a></p>
+        {% endif %}
+
       </div>
     </div>
 
