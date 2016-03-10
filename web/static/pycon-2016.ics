@@ -73,8 +73,7 @@ DESCRIPTION:Language:SK\nSpeaker:Adam Gluch
 LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Spojenie py.test\, coverage.py a ast.py\, ktoré posúva TDD vývo
- j na novú úroveň
+SUMMARY:Spojenie py.test\, coverage.py a ast.py\, ktoré posúva TDD vývoj na novú úroveň
 DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T161000
 DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T165000
 DESCRIPTION:Language:SK\nSpeaker:Tibor Arpas
@@ -214,8 +213,7 @@ DESCRIPTION:Language:EN\nSpeaker:Tatiana Al-Chueyr Martins
 LOCATION:Turingova učebňa - Turing lecture hall\nmiestnosť/room 1.58
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Tvorba NIDS založenom na Netflow pomocou open-sourcových kompone
- ntov
+SUMMARY:Tvorba NIDS založenom na Netflow pomocou open-sourcových komponentov
 DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T115000
 DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T134500
 DESCRIPTION:Language:EN\nSpeaker:Michal Kuffa
@@ -273,9 +271,7 @@ BEGIN:VEVENT
 SUMMARY:Django Girls Workshop
 DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160313T083000
 DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160313T180000
-DESCRIPTION:Language:SK/EN\nOnly for registered participants.\nRegistratio
- n is closed.Len pre registrovaných účastníkov.\n Registrácie sú uzav
- reté.
+DESCRIPTION:Language:SK/EN\nOnly for registered participants. Registration is closed. Len pre registrovaných účastníkov. Registrácie sú uzavreté.
 LOCATION:Babbageova učebňa - Babbage lecture hall\nmiestnosť/room 1.57
 END:VEVENT
 END:VCALENDAR
