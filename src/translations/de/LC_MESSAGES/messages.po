@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-07 07:04+0100\n"
+"POT-Creation-Date: 2016-03-11 00:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -210,7 +210,7 @@ msgstr ""
 msgid "Rečníci"
 msgstr ""
 
-#: templates/body.html:88 templates/django-girls.html:62
+#: templates/body.html:88 templates/django-girls.html:67
 msgid "Sponzori"
 msgstr ""
 
@@ -326,7 +326,7 @@ msgid ""
 "stretnutia v akejkoľvek forme."
 msgstr ""
 
-#: templates/django-girls.html:5 templates/django-girls.html:57
+#: templates/django-girls.html:5 templates/django-girls.html:62
 msgid "Django Girls"
 msgstr ""
 
@@ -381,57 +381,61 @@ msgid ""
 "potvrdenie, či si bola na vybratá alebo nie."
 msgstr ""
 
-#: templates/django-girls.html:30
+#: templates/django-girls.html:29
+msgid "PyCon s AJ TY V IT a úspešnými IT manažérkami vo svete"
+msgstr ""
+
+#: templates/django-girls.html:35
 msgid "Často kladené otázky"
 msgstr ""
 
-#: templates/django-girls.html:32
+#: templates/django-girls.html:37
 msgid "Čo potrebujem vedieť o vývoji web stránok alebo programovaní?"
 msgstr ""
 
-#: templates/django-girls.html:33
+#: templates/django-girls.html:38
 msgid ""
 "Nič! Workshop je pre začiatočníkov a nepotrebuješ žiadne predchádzajúce "
 "skúsenosti. Na druhú stranu, určite sa môžeš prihlásiť, ak už máš nejaké "
 "základy (vieš, čo je HTML alebo CSS)"
 msgstr ""
 
-#: templates/django-girls.html:35
+#: templates/django-girls.html:40
 msgid "Mám si doniesť vlastný počítač?"
 msgstr ""
 
-#: templates/django-girls.html:36
+#: templates/django-girls.html:41
 msgid ""
 "Áno. Nemáme žiadny hardvér, očakávame, že si prinesieš vlastný počítač (s"
 " nabíjačkou). Je dôležité, aby si si vzala domov všetky materiály, ktoré "
 "vytvoríš počas workshopu."
 msgstr ""
 
-#: templates/django-girls.html:38
+#: templates/django-girls.html:43
 msgid "Musím si niečo nainštalovať na môj počítač?"
 msgstr ""
 
-#: templates/django-girls.html:39
+#: templates/django-girls.html:44
 msgid ""
 "Bolo by dobré mať nainštalované Django ešte pred workshopom, no nie je to"
 " podmienka. Naši mentori ti s tým radi pomôžu priamo na workshope."
 msgstr ""
 
-#: templates/django-girls.html:41
+#: templates/django-girls.html:46
 msgid "Bude sa počas workshopu podávať aj strava?"
 msgstr ""
 
-#: templates/django-girls.html:42
+#: templates/django-girls.html:47
 msgid ""
 "Áno. Vďaka PyCon SK a sponzorom bude počas workshopu podávaný obed, káva "
 "a občerstvenie."
 msgstr ""
 
-#: templates/django-girls.html:53
+#: templates/django-girls.html:58
 msgid "Staň sa mentorom"
 msgstr ""
 
-#: templates/django-girls.html:54
+#: templates/django-girls.html:59
 msgid ""
 "Budeme radi, ak sa k nám pridáš a staneš sa mentorom. Pošli nám email na "
 "<a "
@@ -439,7 +443,7 @@ msgid ""
 " a napíš nám niečo o sebe... <br />My sa ozveme späť :)"
 msgstr ""
 
-#: templates/django-girls.html:58
+#: templates/django-girls.html:63
 msgid ""
 "Django Girls workshop na konferencii PyCon SK je súčasťou medzinárodnej "
 "iniciatívy <a href=\"https://www.djangogirls.org/#pyconsk\" "
@@ -448,7 +452,7 @@ msgid ""
 "výučbu programovania po celom svete."
 msgstr ""
 
-#: templates/django-girls.html:63
+#: templates/django-girls.html:68
 msgid ""
 "Nemohli by sme tu byť bez podpory od úžasných ľudí a spoločností, ktorí "
 "poskytli peniaze, vedomosti a svoj čas, aby nám pomohli uskutočniť tento "
@@ -788,7 +792,15 @@ msgid ""
 "2016 v Bratislave</strong>."
 msgstr ""
 
-#: templates/index.html:22
+#: templates/index.html:14
+msgid ""
+"Môžete pozerať <a "
+"href=\"https://www.youtube.com/channel/UC8Tzn82aG4zdvtqlrfsLgSA\">live "
+"stream</a> a klásť otázky cez <a "
+"href=\"https://www.sli.do/6iroygww\">sli.do</a>."
+msgstr ""
+
+#: templates/index.html:23
 #, python-format
 msgid ""
 "Veľmi sa tešíme, že vám môžeme oznámiť dobrú správu: Premiérový ročník "
@@ -796,7 +808,7 @@ msgid ""
 "prezidenta SR Andreja Kisku</a>."
 msgstr ""
 
-#: templates/index.html:24
+#: templates/index.html:25
 #, python-format
 msgid ""
 "Po úspešnom uvedení vo viac ako 40 krajinách sveta prichádza po prvýkrát "
@@ -811,19 +823,19 @@ msgid ""
 " aj pre úplné začiatočníčky."
 msgstr ""
 
-#: templates/index.html:29
+#: templates/index.html:30
 #: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:19
 msgid "Tlačová správa v"
 msgstr ""
 
-#: templates/index.html:40
+#: templates/index.html:41
 msgid ""
 "Ak máte záujem prispieť, stať sa dobrovoľníkom alebo akokoľvek inak "
 "pomôcť s organizáciou PyCon SK (ktorý je kompletne organizovaný "
 "dobrovoľníkmi), budeme radi, ak sa nám ozvete."
 msgstr ""
 
-#: templates/index.html:41
+#: templates/index.html:42
 #, python-format
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
@@ -934,11 +946,11 @@ msgstr ""
 msgid "Strieborní sponzori:"
 msgstr ""
 
-#: templates/right_nav.html:66 templates/sponsors.html:325
+#: templates/right_nav.html:70 templates/sponsors.html:325
 msgid "Hlavný mediálny partner"
 msgstr ""
 
-#: templates/right_nav.html:77
+#: templates/right_nav.html:81
 msgid "Všetci sponzori"
 msgstr ""
 
