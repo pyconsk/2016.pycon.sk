@@ -11,9 +11,15 @@
 
     <p class="lead">{{ _('PyCon SK je komunitou organizovaná konferencia pre programovací jazyk Python.') }} {{ _('<strong>Prvý ročník</strong> sa uskutoční <strong>11. 3. 2016 až 13. 3. 2016 v Bratislave</strong>.') }}</p>
 
-    <p class="lead text-center">{{ _('Môžete pozerať <a href="https://www.youtube.com/watch?v=MXipa4G51og">live stream</a> a klásť otázky cez <a href="https://www.sli.do/6iroygww">sli.do</a>.') }}</p>
+    <div class="row">
+      <div class="col-lg-8 text-center">
+        <iframe width="510" height="315" src="https://www.youtube.com/embed/MXipa4G51og" frameborder="0" seamless="true" allowfullscreen></iframe>
+      </div>
+      <div class="col-lg-4 text-center">
+        <iframe src="https://www.sli.do/6iroygww" class="seamless slido-app" seamless="true"></iframe>
+      </div>
+    </div>
 
-    <br>
     <p class="lead">
       <a href="https://www.python.org/" target="_blank" title="Domovská stránka Pythonu">
         <img src="{{ url_for('static', filename='images/logo/pycon_long.svg') }}" alt="PyCon SK" class="img-responsive center-block">
@@ -29,6 +35,7 @@
     url_djangogirls=url_for('django_girls', lang_code=lang_code)) }}
     {% if lang_code=='sk' %}{{ _('Tlačová správa v') }} <a href="{{ url_for('static', filename='tlacova_sprava.pdf') }}"> PDF <span class="glyphicon glyphicon-download-alt"></span></a>{% endif %}</p>
 
+    {#
     <br>
 
     <div class="image text-center">
@@ -40,6 +47,7 @@
     
     <p>{{ _('Ak máte záujem prispieť, stať sa dobrovoľníkom alebo akokoľvek inak pomôcť s organizáciou PyCon SK (ktorý je kompletne organizovaný dobrovoľníkmi), budeme radi, ak sa nám ozvete.') }}</p>
     <p>{{ _('Medzičasom sa môžete prísť pozrieť na naše pravidelné <a href="%(url)s">meetupy</a>.', url=url_for('meetup', lang_code=lang_code)) }}</p>
+    #}
   </div>
 
   <div class="col-md-4">
