@@ -152,15 +152,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:V zákulisí každodenného vývoja softvéru v Google
 DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T135500
-DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T145000
-DESCRIPTION:Language:EN\nSpeaker:Petra Cross
-LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Bezbolestné testovanie s Djangom
-DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T145000
 DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T152500
-DESCRIPTION:Language:EN\nSpeaker:Max Kharandziuk
+DESCRIPTION:Language:EN\nSpeaker:Petra Cross
 LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
 END:VEVENT
 BEGIN:VEVENT
