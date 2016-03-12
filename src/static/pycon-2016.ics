@@ -136,7 +136,7 @@ DESCRIPTION:Language:EN\nSpeaker:Cory Benfield
 LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Vývoj založený na dokumentácii: Lekcie z projektu Django
+SUMMARY:Poets, programmers and Python
 DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T112000
 DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T120000
 DESCRIPTION:Language:EN\nSpeaker:Daniele Procida
