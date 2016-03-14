@@ -7,9 +7,9 @@
 {% block content %}
 <div class="row">
   <div class="col-md-8">
-    <h1>{{ _('PyCon prichádza na Slovensko!') }}</h1>
+    <h1>{{ _('Ďakujeme za účasť!') }}</h1>
 
-    <p class="lead">{{ _('PyCon SK je komunitou organizovaná konferencia pre programovací jazyk Python.') }} {{ _('<strong>Prvý ročník</strong> sa uskutoční <strong>11. 3. 2016 až 13. 3. 2016 v Bratislave</strong>.') }}</p>
+    <p class="lead">{{ _('PyCon SK je komunitou organizovaná konferencia pre programovací jazyk Python.') }} {{ _('<strong>Prvý ročník</strong> sa uskutočnil <strong>11. 3. 2016 až 13. 3. 2016 v Bratislave</strong>.') }}</p>
 
     <p class="lead">
       <a href="https://www.python.org/" target="_blank" title="Domovská stránka Pythonu">
@@ -17,9 +17,9 @@
       </a>
     </p>
 
-    <p class="text-justify lead"><small>{% trans link=url_for('president', lang_code=lang_code) %}Veľmi sa tešíme, že vám môžeme oznámiť dobrú správu: Premiérový ročník konferencie PyCon SK sa uskutoční <a href="{{ link }}">pod záštitou prezidenta SR Andreja Kisku</a>.{% endtrans %}</small></p>
+    <p class="text-justify lead"><small>{% trans link=url_for('president', lang_code=lang_code) %}Veľmi sa tešíme, že vám môžeme oznámiť dobrú správu: Premiérový ročník konferencie PyCon SK sa uskutočnil <a href="{{ link }}">pod záštitou prezidenta SR Andreja Kisku</a>.{% endtrans %}</small></p>
 
-    <p class="text-justify">{{ _('Po úspešnom uvedení vo viac ako 40 krajinách sveta prichádza po prvýkrát na Slovensko. Prednášky budú rozdelené na <a href="%(url_friday)s">piatok - slovenský deň</a> a <a href="%(url_saturday)s">sobotu - anglický deň</a>. <a href="%(url_sunday)s">Nedeľa</a> bude určená workshopom a Python Clinic, kde sa budete môcť porozprávať s niektorými rečníkmi podrobnejšie o ich téme, alebo si prakticky odskúšať niektoré Python technológie na vlastnej klávesnici. Taktiež sme pripravili <a href="%(url_djangogirls)s">Django Girls</a> workshop, ktorý bude vhodný aj pre úplné začiatočníčky.',
+    <p class="text-justify">{{ _('Po úspešnom uvedení vo viac ako 40 krajinách sveta bol po prvýkrát na Slovensku. Prednášky boli rozdelené na <a href="%(url_friday)s">piatok - slovenský deň</a> a <a href="%(url_saturday)s">sobotu - anglický deň</a>. <a href="%(url_sunday)s">Nedeľa</a> bola určená workshopom a Python Clinic, kde ste sa mohli porozprávať s niektorými rečníkmi podrobnejšie o ich téme, alebo si prakticky odskúšať niektoré Python technológie na vlastnej klávesnici. Taktiež sme prebehol <a href="%(url_djangogirls)s">Django Girls</a> workshop.',
     url_friday=url_for('schedule_fri', lang_code=lang_code),
     url_saturday=url_for('schedule_sat', lang_code=lang_code),
     url_sunday=url_for('schedule_sun', lang_code=lang_code),
@@ -36,7 +36,7 @@
     </div>
 
      #}
-    <p>{{ _('Ak máte záujem prispieť, stať sa dobrovoľníkom alebo akokoľvek inak pomôcť s organizáciou PyCon SK (ktorý je kompletne organizovaný dobrovoľníkmi), budeme radi, ak sa nám ozvete.') }}</p>
+    <p>{{ _('Ak máte záujem prispieť, stať sa dobrovoľníkom na budúci rok, alebo akokoľvek inak pomôcť s organizáciou PyCon SK (ktorý bol kompletne organizovaný dobrovoľníkmi), budeme radi, ak sa nám ozvete.') }}</p>
     <p>{{ _('Medzičasom sa môžete prísť pozrieť na naše pravidelné <a href="%(url)s">meetupy</a>.', url=url_for('meetup', lang_code=lang_code)) }}</p>
 
   </div>

@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-11 00:20+0100\n"
+"POT-Creation-Date: 2016-03-14 08:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.1.1\n"
+"Generated-By: Babel 2.2.0\n"
 
 #: templates/ba-01-meetup.html:6
 msgid "Prvý Bratislavský Python Meetup"
@@ -165,7 +165,6 @@ msgid ""
 msgstr ""
 
 #: templates/body.html:9 templates/body.html:17 templates/body.html:21
-#: templates/index.html:10
 msgid "PyCon prichádza na Slovensko!"
 msgstr ""
 
@@ -778,6 +777,10 @@ msgid ""
 "odohrávajú v Bratislave."
 msgstr ""
 
+#: templates/index.html:10
+msgid "Ďakujeme za účasť!"
+msgstr ""
+
 #: templates/index.html:12
 msgid ""
 "PyCon SK je komunitou organizovaná konferencia pre programovací jazyk "
@@ -786,53 +789,44 @@ msgstr ""
 
 #: templates/index.html:12
 msgid ""
-"<strong>Prvý ročník</strong> sa uskutoční <strong>11. 3. 2016 až 13. 3. "
+"<strong>Prvý ročník</strong> sa uskutočnil <strong>11. 3. 2016 až 13. 3. "
 "2016 v Bratislave</strong>."
 msgstr ""
 
-#: templates/index.html:14
-msgid ""
-"Môžete pozerať <a "
-"href=\"https://www.youtube.com/watch?v=MXipa4G51og\">live stream</a> a "
-"klásť otázky cez <a href=\"https://www.sli.do/6iroygww\">sli.do</a>."
-msgstr ""
-
-#: templates/index.html:23
+#: templates/index.html:20
 #, python-format
 msgid ""
 "Veľmi sa tešíme, že vám môžeme oznámiť dobrú správu: Premiérový ročník "
-"konferencie PyCon SK sa uskutoční <a href=\"%(link)s\">pod záštitou "
+"konferencie PyCon SK sa uskutočnil <a href=\"%(link)s\">pod záštitou "
 "prezidenta SR Andreja Kisku</a>."
 msgstr ""
 
-#: templates/index.html:25
+#: templates/index.html:22
 #, python-format
 msgid ""
-"Po úspešnom uvedení vo viac ako 40 krajinách sveta prichádza po prvýkrát "
-"na Slovensko. Prednášky budú rozdelené na <a "
-"href=\"%(url_friday)s\">piatok - slovenský deň</a> a <a "
-"href=\"%(url_saturday)s\">sobotu - anglický deň</a>. <a "
-"href=\"%(url_sunday)s\">Nedeľa</a> bude určená workshopom a Python "
-"Clinic, kde sa budete môcť porozprávať s niektorými rečníkmi podrobnejšie"
-" o ich téme, alebo si prakticky odskúšať niektoré Python technológie na "
-"vlastnej klávesnici. Taktiež sme pripravili <a "
-"href=\"%(url_djangogirls)s\">Django Girls</a> workshop, ktorý bude vhodný"
-" aj pre úplné začiatočníčky."
+"Po úspešnom uvedení vo viac ako 40 krajinách sveta bol po prvýkrát na "
+"Slovensku. Prednášky boli rozdelené na <a href=\"%(url_friday)s\">piatok "
+"- slovenský deň</a> a <a href=\"%(url_saturday)s\">sobotu - anglický "
+"deň</a>. <a href=\"%(url_sunday)s\">Nedeľa</a> bola určená workshopom a "
+"Python Clinic, kde ste sa mohli porozprávať s niektorými rečníkmi "
+"podrobnejšie o ich téme, alebo si prakticky odskúšať niektoré Python "
+"technológie na vlastnej klávesnici. Taktiež sme prebehol <a "
+"href=\"%(url_djangogirls)s\">Django Girls</a> workshop."
 msgstr ""
 
-#: templates/index.html:30
+#: templates/index.html:27
 #: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:19
 msgid "Tlačová správa v"
 msgstr ""
 
-#: templates/index.html:41
+#: templates/index.html:39
 msgid ""
-"Ak máte záujem prispieť, stať sa dobrovoľníkom alebo akokoľvek inak "
-"pomôcť s organizáciou PyCon SK (ktorý je kompletne organizovaný "
-"dobrovoľníkmi), budeme radi, ak sa nám ozvete."
+"Ak máte záujem prispieť, stať sa dobrovoľníkom na budúci rok, alebo "
+"akokoľvek inak pomôcť s organizáciou PyCon SK (ktorý bol kompletne "
+"organizovaný dobrovoľníkmi), budeme radi, ak sa nám ozvete."
 msgstr ""
 
-#: templates/index.html:42
+#: templates/index.html:40
 #, python-format
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
@@ -1244,25 +1238,6 @@ msgid ""
 "tento prístup využíva mimo Pythonu."
 msgstr ""
 
-#: templates/schedule-saturday.html:95
-msgid ""
-"Časť mojej pracovnej náplne zahŕňa pozíciu &lt;i&gt;správcu "
-"dokumentácie&lt;/i&gt;. Keď to poviem programátorovi, ktorý nepochádza z "
-"Python/Django komunity, jeho reakcia môže byť čokoľvek od údesu až k "
-"miernemu zdeseniu. Keď to spomeniem Python/Django programátorovi, jeho "
-"zvyčajná odpoveď je: husté. &lt;br&gt;&lt;br&gt; Jedno z tajomstiev "
-"úspechu Django projektu je v skutočnosti kvalita jeho dokumentácie a "
-"každý, kto používa Django, neváha a okamžite vám pripomenie tento fakt. "
-"&lt;br&gt;&lt;br&gt; Investícia projektu Django do dokumentácie dosiahla "
-"vysokú návratnosť a niektoré jej výsledky sú až prekvapivé. "
-"&lt;br&gt;&lt;br&gt; Dokumentácia bola zjavne kľúčom ku kvalite samotného"
-" kódu, ale tiež (menej samozrejme) k rozvoju Django ako komunitného "
-"projektu a dokonca, aj k profesijnému rozvoju programátorov, ktorí sa "
-"zžili s Djangom. &lt;br&gt;&lt;br&gt; Budem rozprávať o tom, ako to "
-"Django projekt dosiahol a ako každý projekt môže ľahko dosiahnúť rovnaké "
-"výhody."
-msgstr ""
-
 #: templates/schedule-saturday.html:106
 msgid ""
 "Siete majú v sebe zakódované zložité informácie o rôznych typoch "
@@ -1288,19 +1263,6 @@ msgid ""
 "vysokokvalitný softvér pre našich používateľov. Budem hovoriť o viacerých"
 " metodológiách vývoja softvéru a tiež špecifiká toho, čo dennodenne robia"
 " tímy v Google."
-msgstr ""
-
-#: templates/schedule-saturday.html:154
-msgid ""
-"Hlavným problémom TDD je, že je to len ďalší marketingový výraz. Existuje"
-" mnoho článkov, ktoré popisujú výhody TDD, ale nikto nepopisuje ako a kde"
-" začať. &lt;br&gt;&lt;br&gt; Väčšina kníh na túto tému zobrazuje ideálny "
-"svet s neobmedzenými zdrojmi a kolegami ktorí sú ochotní si túto "
-"metodológiu osvojiť. Avšak zákazníci sú chamtiví a manažéri sú neochotní "
-"márniť čas na &quot;zbytočnú&quot; prácu. Moja téma sa týka praktických "
-"aspektov TDD. Popisuje kde začať, ako prekonať odpor prostredia a ako "
-"zväčšiť testovaciu sadu. Navyše skoro všetky myšlienky sú podložené "
-"reálnymi príkladmi reálneho kódu."
 msgstr ""
 
 #: templates/schedule-saturday.html:165
