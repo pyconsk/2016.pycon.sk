@@ -17,9 +17,9 @@
       </a>
     </p>
 
-    <p class="text-justify lead"><small>{% trans link=url_for('president', lang_code=lang_code) %}Veľmi sa tešíme, že vám môžeme oznámiť dobrú správu: Premiérový ročník konferencie PyCon SK sa uskutočnil <a href="{{ link }}">pod záštitou prezidenta SR Andreja Kisku</a>.{% endtrans %}</small></p>
+    <p class="text-justify lead"><small>{% trans link=url_for('president', lang_code=lang_code) %}Premiérový ročník konferencie PyCon SK sa uskutočnil <a href="{{ link }}">pod záštitou prezidenta SR Andreja Kisku</a>.{% endtrans %}</small></p>
 
-    <p class="text-justify">{{ _('Po úspešnom uvedení vo viac ako 40 krajinách sveta bol po prvýkrát na Slovensku. Prednášky boli rozdelené na <a href="%(url_friday)s">piatok - slovenský deň</a> a <a href="%(url_saturday)s">sobotu - anglický deň</a>. <a href="%(url_sunday)s">Nedeľa</a> bola určená workshopom a Python Clinic, kde ste sa mohli porozprávať s niektorými rečníkmi podrobnejšie o ich téme, alebo si prakticky odskúšať niektoré Python technológie na vlastnej klávesnici. Taktiež sme prebehol <a href="%(url_djangogirls)s">Django Girls</a> workshop.',
+    <p class="text-justify">{{ _('Po úspešnom uvedení vo viac ako 40 krajinách sveta bol po prvýkrát na Slovensku. Prednášky boli rozdelené na <a href="%(url_friday)s">piatok - slovenský deň</a> a <a href="%(url_saturday)s">sobotu - anglický deň</a>. <a href="%(url_sunday)s">Nedeľa</a> bola určená workshopom a Python Clinic, kde ste sa mohli porozprávať s niektorými rečníkmi podrobnejšie o ich téme, alebo si prakticky odskúšať niektoré Python technológie na vlastnej klávesnici. Taktiež sa uskutočnil <a href="%(url_djangogirls)s">Django Girls</a> workshop.',
     url_friday=url_for('schedule_fri', lang_code=lang_code),
     url_saturday=url_for('schedule_sat', lang_code=lang_code),
     url_sunday=url_for('schedule_sun', lang_code=lang_code),
@@ -27,15 +27,7 @@
     {% if lang_code=='sk' %}{{ _('Tlačová správa v') }} <a href="{{ url_for('static', filename='tlacova_sprava.pdf') }}"> PDF <span class="glyphicon glyphicon-download-alt"></span></a>{% endif %}</p>
 
     <hr>
-    {#
-    <br>
 
-    <div class="image text-center">
-      <img src="{{ url_for('static', filename='images/pycon/6967347999_105bba91a3_z.jpg') }}" alt="" class="img-responsive center-block">
-      <p class="image-caption"><a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">CC</a> by <a href="https://www.flickr.com/photos/jaaaarel/6967347999/" target="_blank">Taavi Burns</a></p>
-    </div>
-
-     #}
     <p>{{ _('Ak máte záujem prispieť, stať sa dobrovoľníkom na budúci rok, alebo akokoľvek inak pomôcť s organizáciou PyCon SK (ktorý bol kompletne organizovaný dobrovoľníkmi), budeme radi, ak sa nám ozvete.') }}</p>
     <p>{{ _('Medzičasom sa môžete prísť pozrieť na naše pravidelné <a href="%(url)s">meetupy</a>.', url=url_for('meetup', lang_code=lang_code)) }}</p>
 

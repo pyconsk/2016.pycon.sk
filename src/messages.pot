@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-14 08:11+0100\n"
+"POT-Creation-Date: 2016-03-14 08:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.1.1\n"
 
 #: templates/ba-01-meetup.html:6
 msgid "Prvý Bratislavský Python Meetup"
@@ -796,9 +796,8 @@ msgstr ""
 #: templates/index.html:20
 #, python-format
 msgid ""
-"Veľmi sa tešíme, že vám môžeme oznámiť dobrú správu: Premiérový ročník "
-"konferencie PyCon SK sa uskutočnil <a href=\"%(link)s\">pod záštitou "
-"prezidenta SR Andreja Kisku</a>."
+"Premiérový ročník konferencie PyCon SK sa uskutočnil <a "
+"href=\"%(link)s\">pod záštitou prezidenta SR Andreja Kisku</a>."
 msgstr ""
 
 #: templates/index.html:22
@@ -810,7 +809,7 @@ msgid ""
 "deň</a>. <a href=\"%(url_sunday)s\">Nedeľa</a> bola určená workshopom a "
 "Python Clinic, kde ste sa mohli porozprávať s niektorými rečníkmi "
 "podrobnejšie o ich téme, alebo si prakticky odskúšať niektoré Python "
-"technológie na vlastnej klávesnici. Taktiež sme prebehol <a "
+"technológie na vlastnej klávesnici. Taktiež sa uskutočnil <a "
 "href=\"%(url_djangogirls)s\">Django Girls</a> workshop."
 msgstr ""
 
@@ -819,14 +818,14 @@ msgstr ""
 msgid "Tlačová správa v"
 msgstr ""
 
-#: templates/index.html:39
+#: templates/index.html:31
 msgid ""
 "Ak máte záujem prispieť, stať sa dobrovoľníkom na budúci rok, alebo "
 "akokoľvek inak pomôcť s organizáciou PyCon SK (ktorý bol kompletne "
 "organizovaný dobrovoľníkmi), budeme radi, ak sa nám ozvete."
 msgstr ""
 
-#: templates/index.html:40
+#: templates/index.html:32
 #, python-format
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
