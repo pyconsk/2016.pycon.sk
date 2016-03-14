@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-14 09:02+0100\n"
+"POT-Creation-Date: 2016-03-14 21:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -1107,17 +1107,6 @@ msgstr ""
 msgid "Django, Django REST Framework, React"
 msgstr ""
 
-#: templates/schedule-friday.html:164
-msgid ""
-"Cieľ: Informovať o možnosti programovania platformy NAO cez programovací "
-"jazyk Python. &lt;br&gt;&lt;br&gt; Úvod: Motivovanie mladých ľudí do "
-"informatiky a práce s programovacím jazykom. Ukážky na platforme NAO."
-msgstr ""
-
-#: templates/schedule-friday.html:164
-msgid "Robot NAO - Programovanie NAO cez Python"
-msgstr ""
-
 #: templates/schedule-friday.html:175
 msgid ""
 "Používatelia a obzvlášť vývojári nenávidia čakanie. Výpočtová technika sa"
@@ -1551,18 +1540,6 @@ msgstr ""
 
 #: templates/speakers.html:117
 msgid ""
-"Adam pracuje v spoločnosti, ktorá zastupuje <a "
-"href=\"https://www.aldebaran.com/en\" target=\"_blank\" title=\"Aldebaran"
-" Robotics\">Aldebaran Robotics</a> na Slovensku. Jeho hlavnou snahou je "
-"pritiahnuť mladých ľudí k programovaniu a informatike. Python používa pri"
-" tvorbe aplikácií pre humanoidné platformy ako NAO, Papper a Romeo. Vo "
-"voľnom čase sa venuje svojmu projektu <a "
-"href=\"http://smartgrowbox.com/\" target=\"_blank\" "
-"title=\"SmartGrowBox\">SmartGrowBox</a>."
-msgstr ""
-
-#: templates/speakers.html:129
-msgid ""
 "Věroš pracuje z Brna pre spoločnosť <a href=\"http://inuits.eu\" "
 "title=\"Inuits\" target=\"_blank\">Inuits</a>, v ktorej sa stará o správu"
 " a nasadzovanie serverov a aplikácií. S Pythonom sa zoznámil ešte v "
@@ -1570,7 +1547,7 @@ msgid ""
 "DevOps (nech to už znamená čokoľvek)."
 msgstr ""
 
-#: templates/speakers.html:143
+#: templates/speakers.html:129
 msgid ""
 "Učí (a učí sa) štyri desaťročia, väčšinou v Žiline. Od 1994 mu stačí "
 "Linux, cez Pascal a C sa dostal k Pythonu, ktorému teraz málokedy dáva "
@@ -1578,14 +1555,7 @@ msgid ""
 "kreslení si a hraní sa s počítačmi."
 msgstr ""
 
-#: templates/speakers.html:155
-msgid ""
-"Django vývojár v <a href=\"http://djangostars.com/\" target=\"_blank\" "
-"title=\"DjangoStars\">DjangoStars</a>. Zaujíma sa o funkcionálne "
-"programovanie a testovanie ako spôsob merania kvality kódu."
-msgstr ""
-
-#: templates/speakers.html:170
+#: templates/speakers.html:144
 msgid ""
 "Büsra pracuje pre Ericsson R&amp;D v Budapešti ako Cloud System Engineer."
 " Zaujíma sa o back-end development, cloud, big data a nové technológie. "
@@ -1595,7 +1565,7 @@ msgid ""
 "bloggerka. Miluje programovanie, fotenie a blogovanie."
 msgstr ""
 
-#: templates/speakers.html:182
+#: templates/speakers.html:156
 msgid ""
 "S Python pracuje posledných päť rokov každý deň. Vo <a "
 "href=\"https://www.vnet.sk/\" target=\"_blank\" title=\"Vnet\">Vnete</a> "
@@ -1604,7 +1574,7 @@ msgid ""
 "je nadšencom open source technológií."
 msgstr ""
 
-#: templates/speakers.html:196
+#: templates/speakers.html:170
 msgid ""
 "Programovaniu v Pythone a Djangu sa venuje v spoločnosti <a "
 "href=\"http://thebrainity.com/\" target=\"_blank\">Brainity</a>, kde "
@@ -1614,7 +1584,7 @@ msgid ""
 "maximálnej miery."
 msgstr ""
 
-#: templates/speakers.html:208
+#: templates/speakers.html:182
 msgid ""
 "Tatiana začala programovať v roku 2002. Od vývoja lekárskych "
 "zobrazovacích aplikácií sa dostala až k odporúčacím platformám "
@@ -1626,7 +1596,7 @@ msgid ""
 "vzdelávacie aplikácie."
 msgstr ""
 
-#: templates/speakers.html:222
+#: templates/speakers.html:196
 msgid ""
 "Peter používa Python z perspektívy útočníka pri práci etického hackera "
 "pre spoločnosť ESET. S Pythonom ako bezpečnostným nástrojom sa zoznámil "
@@ -1636,7 +1606,7 @@ msgid ""
 "šifrovaní s názvom Cryptoparty v bratislavskom hackerspace Progressbar."
 msgstr ""
 
-#: templates/speakers.html:235
+#: templates/speakers.html:209
 msgid ""
 "Andrej sa venuje výskumu a vývoju ergonomických zariadení, ktoré "
 "monitorujú zdravotný stav ľudského organizmu pomocou svetla, chemických "
@@ -1652,7 +1622,7 @@ msgid ""
 "astronauta pristávajúceho na Marse."
 msgstr ""
 
-#: templates/speakers.html:249
+#: templates/speakers.html:223
 msgid ""
 "Daniele bol organizátorom Django víkendu v Cardiffe, členom organizačnej "
 "komisie DjangoCon Europe 2014 a v roku 2015 aj jej predsedom. Bol i "
@@ -1667,7 +1637,7 @@ msgid ""
 "projektoch."
 msgstr ""
 
-#: templates/speakers.html:261
+#: templates/speakers.html:235
 msgid ""
 "Matúš je PhD študent na Fakulte matematiky, fyziky a informatiky "
 "Univerzity Komenského v Bratislave. Venuje sa skúmaniu kvantových javov v"
@@ -1677,7 +1647,7 @@ msgid ""
 "vyhodnocovanie dát, simulácie."
 msgstr ""
 
-#: templates/speakers.html:274
+#: templates/speakers.html:248
 msgid ""
 "Michael pracuje pre <a href=\"https://redhat.com\" target=\"_blank\" "
 "title=\"Red Hat\">Red Hat</a> v tíme Open source a štandardy, zaujíma sa "
@@ -1686,7 +1656,7 @@ msgid ""
 "nediskutuje na konferenciách o slobodnom softvéri)."
 msgstr ""
 
-#: templates/speakers.html:283
+#: templates/speakers.html:257
 msgid ""
 "Back-end programátor so záujmom o big data a machine learning, ktorého "
 "ďalšou métou je data science. Python a Django používa pri vývoji webových"
@@ -1697,7 +1667,7 @@ msgid ""
 "produktov pre klientov v rámci firmy Exponea."
 msgstr ""
 
-#: templates/speakers.html:297
+#: templates/speakers.html:271
 msgid ""
 "Jakub je PhD študent na Slovenskej technickej univerzite v Bratislave, "
 "kde získal aj svoj inžiniersky titul v odbore Softvérové inžinierstvo. V "
@@ -1707,7 +1677,7 @@ msgid ""
 "turistiku, cestovanie a cyklistiku."
 msgstr ""
 
-#: templates/speakers.html:309
+#: templates/speakers.html:283
 msgid ""
 "Andrea sa venuje vývoju serverových aplikácií od roku 2012. Pochádza z IT"
 " rodiny a aj vďaka tomu sa vybrala touto cestou. Neznáša zlý kód a "
@@ -1715,7 +1685,7 @@ msgid ""
 "meetupu."
 msgstr ""
 
-#: templates/speakers.html:323
+#: templates/speakers.html:297
 msgid ""
 "Martina je softvérovou inžinierkou s viac ako 10-ročnou praxou pri "
 "vyvíjaní enterprise-level softvéru. Posledné štyri roky pracuje ako "
@@ -1729,7 +1699,7 @@ msgid ""
 "predstavy o IT branži na Slovensku."
 msgstr ""
 
-#: templates/speakers.html:336
+#: templates/speakers.html:310
 msgid ""
 "Nicholas študoval klasickú hudbu, absolvoval filozofiu, je učiteľom, "
 "spisovateľom aj vývojárom softvéru. Spolupracuje s nadáciou Python "
@@ -1738,7 +1708,7 @@ msgid ""
 "čestný a plný užitočných informácií."
 msgstr ""
 
-#: templates/speakers.html:351
+#: templates/speakers.html:325
 msgid ""
 "Je softvérový inžinier v <a href=\"https://www.redhat.com/\" "
 "target=\"_blank\" title=\"Red Hat\">Red Hat</a>. Keď práve nepíše kód v "
@@ -1747,7 +1717,7 @@ msgid ""
 "konferencii."
 msgstr ""
 
-#: templates/speakers.html:363
+#: templates/speakers.html:337
 msgid ""
 "Johannes je doktorand v Centre pre sieťové vedy na Stredoeurópskej "
 "univerzite. Spolupracuje s Centrom pre výskum korupcie v Budapešti, "
@@ -2461,9 +2431,36 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "PyCon SK je komunitou organizovaná "
-#~ "konferencia pre programovací jazyk Python, "
-#~ "ktorá sa uskutoční 11. 3. 2016 až"
-#~ " 13. 3. 2016 v Bratislave."
+#~ "Cieľ: Informovať o možnosti programovania "
+#~ "platformy NAO cez programovací jazyk "
+#~ "Python. &lt;br&gt;&lt;br&gt; Úvod: Motivovanie "
+#~ "mladých ľudí do informatiky a práce "
+#~ "s programovacím jazykom. Ukážky na "
+#~ "platforme NAO."
+#~ msgstr ""
+
+#~ msgid "Robot NAO - Programovanie NAO cez Python"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Adam pracuje v spoločnosti, ktorá "
+#~ "zastupuje <a href=\"https://www.aldebaran.com/en\" "
+#~ "target=\"_blank\" title=\"Aldebaran Robotics\">Aldebaran"
+#~ " Robotics</a> na Slovensku. Jeho hlavnou"
+#~ " snahou je pritiahnuť mladých ľudí k"
+#~ " programovaniu a informatike. Python "
+#~ "používa pri tvorbe aplikácií pre "
+#~ "humanoidné platformy ako NAO, Papper a"
+#~ " Romeo. Vo voľnom čase sa venuje "
+#~ "svojmu projektu <a href=\"http://smartgrowbox.com/\""
+#~ " target=\"_blank\" title=\"SmartGrowBox\">SmartGrowBox</a>."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Django vývojár v <a "
+#~ "href=\"http://djangostars.com/\" target=\"_blank\" "
+#~ "title=\"DjangoStars\">DjangoStars</a>. Zaujíma sa o"
+#~ " funkcionálne programovanie a testovanie "
+#~ "ako spôsob merania kvality kódu."
 #~ msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-14 09:02+0100\n"
+"POT-Creation-Date: 2016-03-14 21:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -1381,20 +1381,6 @@ msgstr ""
 msgid "Django, Django REST Framework, React"
 msgstr ""
 
-#: templates/schedule-friday.html:164
-msgid ""
-"Cieľ: Informovať o možnosti programovania platformy NAO cez programovací "
-"jazyk Python. &lt;br&gt;&lt;br&gt; Úvod: Motivovanie mladých ľudí do "
-"informatiky a práce s programovacím jazykom. Ukážky na platforme NAO."
-msgstr ""
-"Goal: to inform about possibility of programming NAO platform using "
-"Python. &lt;br&gt;&lt;br&gt; Introduction: Motivating young people to IT "
-"and programming. Demonstrated on the NAO platform."
-
-#: templates/schedule-friday.html:164
-msgid "Robot NAO - Programovanie NAO cez Python"
-msgstr "Robot NAO - NAO Programming in Python"
-
 #: templates/schedule-friday.html:175
 msgid ""
 "Používatelia a obzvlášť vývojári nenávidia čakanie. Výpočtová technika sa"
@@ -2077,25 +2063,6 @@ msgstr ""
 
 #: templates/speakers.html:117
 msgid ""
-"Adam pracuje v spoločnosti, ktorá zastupuje <a "
-"href=\"https://www.aldebaran.com/en\" target=\"_blank\" title=\"Aldebaran"
-" Robotics\">Aldebaran Robotics</a> na Slovensku. Jeho hlavnou snahou je "
-"pritiahnuť mladých ľudí k programovaniu a informatike. Python používa pri"
-" tvorbe aplikácií pre humanoidné platformy ako NAO, Papper a Romeo. Vo "
-"voľnom čase sa venuje svojmu projektu <a "
-"href=\"http://smartgrowbox.com/\" target=\"_blank\" "
-"title=\"SmartGrowBox\">SmartGrowBox</a>."
-msgstr ""
-"Adam works for a company which represents <a "
-"href=\"https://www.aldebaran.com/en\" target=\"_blank\" title=\"Aldebaran"
-" Robotics\">Aldebaran Robotics</a> in Slovakia. His main goal is to "
-"motivate young people to programming and informatics. Adam uses Python to"
-" form applications for humanoid platforms NAO, Papper and Romeo. In his "
-"free time he devotes himself to his project <a "
-"href=\"http://smartgrowbox.com/\" target=\"_blank\">SmartGrowBox</a>."
-
-#: templates/speakers.html:129
-msgid ""
 "Věroš pracuje z Brna pre spoločnosť <a href=\"http://inuits.eu\" "
 "title=\"Inuits\" target=\"_blank\">Inuits</a>, v ktorej sa stará o správu"
 " a nasadzovanie serverov a aplikácií. S Pythonom sa zoznámil ešte v "
@@ -2108,7 +2075,7 @@ msgstr ""
 "sometime in the last century and has stayed with it. He is torn between "
 "Dev and Ops and believe in DevOps (whatever it means)."
 
-#: templates/speakers.html:143
+#: templates/speakers.html:129
 msgid ""
 "Učí (a učí sa) štyri desaťročia, väčšinou v Žiline. Od 1994 mu stačí "
 "Linux, cez Pascal a C sa dostal k Pythonu, ktorému teraz málokedy dáva "
@@ -2121,17 +2088,7 @@ msgstr ""
 "of choice. Although he's supposed to be a mathematician,he loves to "
 "explore beauty in thinking, drawing and fiddling with computers."
 
-#: templates/speakers.html:155
-msgid ""
-"Django vývojár v <a href=\"http://djangostars.com/\" target=\"_blank\" "
-"title=\"DjangoStars\">DjangoStars</a>. Zaujíma sa o funkcionálne "
-"programovanie a testovanie ako spôsob merania kvality kódu."
-msgstr ""
-"Django developer at <a href=\"http://djangostars.com/\" target=\"_blank\""
-" title=\"Django Stars\">DjangoStars</a>. Interested in functional "
-"programming and testing as a way to measure the code quality."
-
-#: templates/speakers.html:170
+#: templates/speakers.html:144
 msgid ""
 "Büsra pracuje pre Ericsson R&amp;D v Budapešti ako Cloud System Engineer."
 " Zaujíma sa o back-end development, cloud, big data a nové technológie. "
@@ -2148,7 +2105,7 @@ msgstr ""
 "target=\"_blank\">bikokorec.com</a> and a blogger. She loves coding, "
 "taking photos, and blogging."
 
-#: templates/speakers.html:182
+#: templates/speakers.html:156
 msgid ""
 "S Python pracuje posledných päť rokov každý deň. Vo <a "
 "href=\"https://www.vnet.sk/\" target=\"_blank\" title=\"Vnet\">Vnete</a> "
@@ -2162,7 +2119,7 @@ msgstr ""
 "company's processes. He is interested in back-end developement, IoT, IT "
 "security and enthusiastic about open source technologies."
 
-#: templates/speakers.html:196
+#: templates/speakers.html:170
 msgid ""
 "Programovaniu v Pythone a Djangu sa venuje v spoločnosti <a "
 "href=\"http://thebrainity.com/\" target=\"_blank\">Brainity</a>, kde "
@@ -2178,7 +2135,7 @@ msgstr ""
 "She likes the new technology, UI/UX and tries to optimize each task and "
 "program as much as possible."
 
-#: templates/speakers.html:208
+#: templates/speakers.html:182
 msgid ""
 "Tatiana začala programovať v roku 2002. Od vývoja lekárskych "
 "zobrazovacích aplikácií sa dostala až k odporúčacím platformám "
@@ -2197,7 +2154,7 @@ msgstr ""
 "href=\"http://www.ef.edu/\" target=\"_blank\" title=\"Education "
 "First\">Education Firsti</a> (EF), developing educational applications."
 
-#: templates/speakers.html:222
+#: templates/speakers.html:196
 msgid ""
 "Peter používa Python z perspektívy útočníka pri práci etického hackera "
 "pre spoločnosť ESET. S Pythonom ako bezpečnostným nástrojom sa zoznámil "
@@ -2215,7 +2172,7 @@ msgstr ""
 "practical security and encryption called Cryptoparty at hackerspace "
 "Progressbar in Bratislava."
 
-#: templates/speakers.html:235
+#: templates/speakers.html:209
 msgid ""
 "Andrej sa venuje výskumu a vývoju ergonomických zariadení, ktoré "
 "monitorujú zdravotný stav ľudského organizmu pomocou svetla, chemických "
@@ -2243,7 +2200,7 @@ msgstr ""
 "which allows for prototyping of electronic devices at unprecedented "
 "speeds. His dream is to create tricorder for the first man on Mars."
 
-#: templates/speakers.html:249
+#: templates/speakers.html:223
 msgid ""
 "Daniele bol organizátorom Django víkendu v Cardiffe, členom organizačnej "
 "komisie DjangoCon Europe 2014 a v roku 2015 aj jej predsedom. Bol i "
@@ -2267,7 +2224,7 @@ msgstr ""
 "team, and has been involved in organising numerous Python/Django "
 "conferences, including DjangoCon Europe 2015 and PyCon Namibia 2016."
 
-#: templates/speakers.html:261
+#: templates/speakers.html:235
 msgid ""
 "Matúš je PhD študent na Fakulte matematiky, fyziky a informatiky "
 "Univerzity Komenského v Bratislave. Venuje sa skúmaniu kvantových javov v"
@@ -2283,7 +2240,7 @@ msgstr ""
 "physicist needs: communication with measurement devices, data collection "
 "and processing, simulations."
 
-#: templates/speakers.html:274
+#: templates/speakers.html:248
 msgid ""
 "Michael pracuje pre <a href=\"https://redhat.com\" target=\"_blank\" "
 "title=\"Red Hat\">Red Hat</a> v tíme Open source a štandardy, zaujíma sa "
@@ -2297,7 +2254,7 @@ msgstr ""
 "system administrator . A long time packager and python coder, he lives in"
 " Paris when he is not traveling to speak at free software events around"
 
-#: templates/speakers.html:283
+#: templates/speakers.html:257
 msgid ""
 "Back-end programátor so záujmom o big data a machine learning, ktorého "
 "ďalšou métou je data science. Python a Django používa pri vývoji webových"
@@ -2308,7 +2265,7 @@ msgid ""
 "produktov pre klientov v rámci firmy Exponea."
 msgstr ""
 
-#: templates/speakers.html:297
+#: templates/speakers.html:271
 msgid ""
 "Jakub je PhD študent na Slovenskej technickej univerzite v Bratislave, "
 "kde získal aj svoj inžiniersky titul v odbore Softvérové inžinierstvo. V "
@@ -2324,7 +2281,7 @@ msgstr ""
 "data analysis, data science, BigData processing and machine learning. "
 "Privately in hiking, travelling and cycling."
 
-#: templates/speakers.html:309
+#: templates/speakers.html:283
 msgid ""
 "Andrea sa venuje vývoju serverových aplikácií od roku 2012. Pochádza z IT"
 " rodiny a aj vďaka tomu sa vybrala touto cestou. Neznáša zlý kód a "
@@ -2336,7 +2293,7 @@ msgstr ""
 "dislikes bad code and old technologies. Furthermore, she is one of the "
 "organizers of Bratislava Scala meetup."
 
-#: templates/speakers.html:323
+#: templates/speakers.html:297
 msgid ""
 "Martina je softvérovou inžinierkou s viac ako 10-ročnou praxou pri "
 "vyvíjaní enterprise-level softvéru. Posledné štyri roky pracuje ako "
@@ -2359,7 +2316,7 @@ msgstr ""
 "for-profit organization <a href=\"http://www.ajtyvit.sk/\" "
 "target=\"_blank\" title=\"Aj Ty v IT\">Aj Ty v IT</a>."
 
-#: templates/speakers.html:336
+#: templates/speakers.html:310
 msgid ""
 "Nicholas študoval klasickú hudbu, absolvoval filozofiu, je učiteľom, "
 "spisovateľom aj vývojárom softvéru. Spolupracuje s nadáciou Python "
@@ -2373,7 +2330,7 @@ msgstr ""
 "He's just like this biography: concise, honest and full of useful "
 "information."
 
-#: templates/speakers.html:351
+#: templates/speakers.html:325
 msgid ""
 "Je softvérový inžinier v <a href=\"https://www.redhat.com/\" "
 "target=\"_blank\" title=\"Red Hat\">Red Hat</a>. Keď práve nepíše kód v "
@@ -2387,7 +2344,7 @@ msgstr ""
 "target=\"_blank\" title=\"PyVo\">meetups</a>, mentor PyLadies, and attend"
 " conferences."
 
-#: templates/speakers.html:363
+#: templates/speakers.html:337
 msgid ""
 "Johannes je doktorand v Centre pre sieťové vedy na Stredoeurópskej "
 "univerzite. Spolupracuje s Centrom pre výskum korupcie v Budapešti, "
@@ -3274,4 +3231,61 @@ msgstr "more about our vision and objectives"
 
 #~ msgid "PyCon prichádza na Slovensko!"
 #~ msgstr "PyCon is coming to Slovakia!"
+
+#~ msgid ""
+#~ "Cieľ: Informovať o možnosti programovania "
+#~ "platformy NAO cez programovací jazyk "
+#~ "Python. &lt;br&gt;&lt;br&gt; Úvod: Motivovanie "
+#~ "mladých ľudí do informatiky a práce "
+#~ "s programovacím jazykom. Ukážky na "
+#~ "platforme NAO."
+#~ msgstr ""
+#~ "Goal: to inform about possibility of "
+#~ "programming NAO platform using Python. "
+#~ "&lt;br&gt;&lt;br&gt; Introduction: Motivating young"
+#~ " people to IT and programming. "
+#~ "Demonstrated on the NAO platform."
+
+#~ msgid "Robot NAO - Programovanie NAO cez Python"
+#~ msgstr "Robot NAO - NAO Programming in Python"
+
+#~ msgid ""
+#~ "Adam pracuje v spoločnosti, ktorá "
+#~ "zastupuje <a href=\"https://www.aldebaran.com/en\" "
+#~ "target=\"_blank\" title=\"Aldebaran Robotics\">Aldebaran"
+#~ " Robotics</a> na Slovensku. Jeho hlavnou"
+#~ " snahou je pritiahnuť mladých ľudí k"
+#~ " programovaniu a informatike. Python "
+#~ "používa pri tvorbe aplikácií pre "
+#~ "humanoidné platformy ako NAO, Papper a"
+#~ " Romeo. Vo voľnom čase sa venuje "
+#~ "svojmu projektu <a href=\"http://smartgrowbox.com/\""
+#~ " target=\"_blank\" title=\"SmartGrowBox\">SmartGrowBox</a>."
+#~ msgstr ""
+#~ "Adam works for a company which "
+#~ "represents <a href=\"https://www.aldebaran.com/en\" "
+#~ "target=\"_blank\" title=\"Aldebaran Robotics\">Aldebaran"
+#~ " Robotics</a> in Slovakia. His main "
+#~ "goal is to motivate young people "
+#~ "to programming and informatics. Adam "
+#~ "uses Python to form applications for "
+#~ "humanoid platforms NAO, Papper and "
+#~ "Romeo. In his free time he devotes"
+#~ " himself to his project <a "
+#~ "href=\"http://smartgrowbox.com/\" "
+#~ "target=\"_blank\">SmartGrowBox</a>."
+
+#~ msgid ""
+#~ "Django vývojár v <a "
+#~ "href=\"http://djangostars.com/\" target=\"_blank\" "
+#~ "title=\"DjangoStars\">DjangoStars</a>. Zaujíma sa o"
+#~ " funkcionálne programovanie a testovanie "
+#~ "ako spôsob merania kvality kódu."
+#~ msgstr ""
+#~ "Django developer at <a "
+#~ "href=\"http://djangostars.com/\" target=\"_blank\" "
+#~ "title=\"Django Stars\">DjangoStars</a>. Interested "
+#~ "in functional programming and testing as"
+#~ " a way to measure the code "
+#~ "quality."
 

@@ -67,7 +67,7 @@
           {% endif %}
         </ul>
         <ul class="nav navbar-nav">
-          <li{% if li_tickets %} class="{{ li_tickets }}"{% endif %}>
+          <li{% if li_tickets %} class="{{ li_tickets }}"{% else %} class="hide"{% endif %}>
             <a href="{{ url_for('tickets', lang_code=lang_code) }}">{{ _('Vstupenky') }}</a>
           </li>
           <li{% if li_getting_here %} class="{{ li_getting_here }}"{% endif %}>
