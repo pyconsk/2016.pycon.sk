@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-14 08:58+0100\n"
+"POT-Creation-Date: 2016-03-14 09:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -168,16 +168,12 @@ msgstr ""
 " PyCon. <strong>The next meetup will take place in April</strong>."
 
 #: templates/body.html:9 templates/body.html:17 templates/body.html:21
-msgid "PyCon prichádza na Slovensko!"
-msgstr "PyCon is coming to Slovakia!"
-
-#: templates/body.html:9 templates/body.html:17 templates/body.html:21
 msgid ""
 "PyCon SK je komunitou organizovaná konferencia pre programovací jazyk "
-"Python, ktorá sa uskutoční 11. 3. 2016 až 13. 3. 2016 v Bratislave."
+"Python, ktorá sa uskutočnila 11. 3. 2016 až 13. 3. 2016 v Bratislave."
 msgstr ""
 "PyCon SK is a community-organized conference for the Python programming "
-"language, which will be held in Bratislava on 11th - 13th March, 2016."
+"language, which was held in Bratislava on 11th - 13th March, 2016."
 
 #: templates/body.html:45
 msgid "Preskočiť na hlavný obsah"
@@ -3275,4 +3271,7 @@ msgstr "more about our vision and objectives"
 
 #~ msgid ""
 #~ msgstr ""
+
+#~ msgid "PyCon prichádza na Slovensko!"
+#~ msgstr "PyCon is coming to Slovakia!"
 

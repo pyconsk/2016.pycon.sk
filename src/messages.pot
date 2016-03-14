@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-14 08:58+0100\n"
+"POT-Creation-Date: 2016-03-14 09:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -165,13 +165,9 @@ msgid ""
 msgstr ""
 
 #: templates/body.html:9 templates/body.html:17 templates/body.html:21
-msgid "PyCon prichádza na Slovensko!"
-msgstr ""
-
-#: templates/body.html:9 templates/body.html:17 templates/body.html:21
 msgid ""
 "PyCon SK je komunitou organizovaná konferencia pre programovací jazyk "
-"Python, ktorá sa uskutoční 11. 3. 2016 až 13. 3. 2016 v Bratislave."
+"Python, ktorá sa uskutočnila 11. 3. 2016 až 13. 3. 2016 v Bratislave."
 msgstr ""
 
 #: templates/body.html:45
