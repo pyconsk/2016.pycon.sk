@@ -186,6 +186,10 @@ footer li {
   padding-bottom: 20px;
 }
 
+.icon-menu .glyphicon {
+  font-size: 64px;
+}
+
 .tito-ticket-description {
   font-size: 1.1rem;
 }
@@ -208,6 +212,11 @@ footer li {
   font-family:'Oxygen Mono', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace;
   font-size:14px;
   overflow:auto
+}
+
+.stats {
+  margin-top: 20px;
+  margin-left: 128px;
 }
 
 iframe.seamless {
