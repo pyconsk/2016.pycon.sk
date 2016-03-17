@@ -214,6 +214,11 @@ footer li {
   overflow:auto
 }
 
+.stats {
+  margin-top: 20px;
+  margin-left: 128px;
+}
+
 iframe.seamless {
   background-color: transparent;
   border: 0px none transparent;
