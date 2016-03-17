@@ -36,7 +36,7 @@
   <link rel="alternate" href="https://pycon.sk/en/stats-slido.html" hreflang="en">
   
   <link rel="canonical" href="https://pycon.sk/sk/stats-slido.html" />
-  <link rel="stylesheet" href="../static/css/pycon.css?v=8241180">
+  <link rel="stylesheet" href="../static/css/pycon.css?v=d550dea">
   <link rel="icon" href="../static/images/favicon.ico" sizes="16x16">
 </head>
 <body>
@@ -108,21 +108,26 @@
 
     <p class="lead">PyCon SK je komunitou organizovaná konferencia pre programovací jazyk Python. <strong>Prvý ročník</strong> sa uskutočnil <strong>11. 3. 2016 až 13. 3. 2016 v Bratislave</strong>.</p>
 
-    <div class="jumbotron">
-      <img src="../static/images/logo/pycon.svg" alt="" class="img-responsive pull-left" style="width: 128px">
-      <ul class="lead stats">
-        <li><strong>26</strong> rečníkov z desiatich krajín</li>
-        <li><strong>400</strong> účastníkov</li>
-        <li><strong>500</strong> divákov live streamu</li>
-      </ul>
+    <div id="lead-stats">
+      <div class="jumbotron bg-pycon">
+        <ul class="lead stats pull-right">
+          <li><strong>26</strong> rečníkov z desiatich krajín</li>
+          <li><strong>400</strong> účastníkov</li>
+          <li><strong>500</strong> divákov live streamu</li>
+        </ul>
+      </div>
+      <p class="image-caption text-center">Photo &copy; by <a href="https://www.flickr.com/photos/ondrejsika/25766775865" target="_blank">Ondrej Sika</a></p>
     </div>
 
-    <ul class="nav nav-tabs">
-      <li class=""><a href="stats-web.html">www.pycon.sk</a></li>
-      <li class="active"><a href="stats-slido.html">sli.do</a></li>
+    <ul class="nav nav-tabs" id="nav-stats">
+      <li class=""><a href="stats-web.html#lead-stats"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span> www.pycon.sk</a></li>
+      <li class="active"><a href="stats-slido.html#lead-stats"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> sli.do</a></li>
+      <li><a href="stats-slido.html#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Fotky</a></li>
+      <li><a href="stats-slido.html#"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Videá</a></li>
+      <li><a href="https://github.com/pyconsk/2016-slides"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> Prezentácie</a></li>
     </ul>
 
-    <h2>Sli.do infografika z 11. 3. 2016 - 12. 3. 2016</h2>
+    <h3>Sli.do infografika z 11. 3. 2016 - 12. 3. 2016&nbsp;&nbsp;&nbsp;<a href="https://www.sli.do/event/6iroygww/infographic/c/08aa" target="_blank"><span class="glyphicon glyphicon-new-window"></span></a></h3>
 
     <div>
       <iframe src="https://www.sli.do/event/6iroygww/infographic/c/08aa" style="width: 100%; height: 640px" class="seamless"></iframe>
@@ -189,9 +194,8 @@
       <img src="../static/images/sponsors/websupport-logo.png" alt="WebSupport" style="height:60px" />
     </a>
     </li>
-    </li>
     <li>
-    <a href="stats-slido.html#" target="">
+    <a href="stats-slido.html#">
       <img src="../static/images/sponsors/switzerlab-logo.png" alt="Switzerlab" style="height:48px" />
     </a>
     </li>

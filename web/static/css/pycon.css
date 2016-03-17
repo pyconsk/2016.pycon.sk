@@ -214,9 +214,32 @@ footer li {
   overflow:auto
 }
 
+.bg-pycon {
+  background-image: url(../images/pycon/25766775865_584b92616f_k.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  height: 390px;
+  padding-top: 100px;
+  padding-right: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+#lead-stats {
+  margin-bottom: 30px;
+}
+
 .stats {
   margin-top: 20px;
-  margin-left: 128px;
+  margin-left: 110px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #eee;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style: none;
+
 }
 
 iframe.seamless {

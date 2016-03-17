@@ -36,7 +36,7 @@
   <link rel="alternate" href="https://pycon.sk/sk/stats-web.html" hreflang="sk">
   
   <link rel="canonical" href="https://pycon.sk/en/stats-web.html" />
-  <link rel="stylesheet" href="../static/css/pycon.css?v=8241180">
+  <link rel="stylesheet" href="../static/css/pycon.css?v=d550dea">
   <link rel="icon" href="../static/images/favicon.ico" sizes="16x16">
 </head>
 <body>
@@ -108,21 +108,26 @@
 
     <p class="lead">PyCon SK is a community-organized conference for the Python programming language. <strong>The inaugural PyCon SK </strong> was held <strong> in Bratislava on 11th - 13th March, 2016</strong>.</p>
 
-    <div class="jumbotron">
-      <img src="../static/images/logo/pycon.svg" alt="" class="img-responsive pull-left" style="width: 128px">
-      <ul class="lead stats">
-        <li><strong>26</strong> speakers from ten countries</li>
-        <li><strong>400</strong> attendees</li>
-        <li><strong>500</strong> live stream watchers</li>
-      </ul>
+    <div id="lead-stats">
+      <div class="jumbotron bg-pycon">
+        <ul class="lead stats pull-right">
+          <li><strong>26</strong> speakers from ten countries</li>
+          <li><strong>400</strong> attendees</li>
+          <li><strong>500</strong> live stream watchers</li>
+        </ul>
+      </div>
+      <p class="image-caption text-center">Photo &copy; by <a href="https://www.flickr.com/photos/ondrejsika/25766775865" target="_blank">Ondrej Sika</a></p>
     </div>
 
-    <ul class="nav nav-tabs">
-      <li class="active"><a href="stats-web.html">www.pycon.sk</a></li>
-      <li class=""><a href="stats-slido.html">sli.do</a></li>
+    <ul class="nav nav-tabs" id="nav-stats">
+      <li class="active"><a href="stats-web.html#lead-stats"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span> www.pycon.sk</a></li>
+      <li class=""><a href="stats-slido.html#lead-stats"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> sli.do</a></li>
+      <li><a href="stats-web.html#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Photos</a></li>
+      <li><a href="stats-web.html#"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Talks</a></li>
+      <li><a href="https://github.com/pyconsk/2016-slides"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> Slides</a></li>
     </ul>
 
-    <h2>Web analytics from 11. 3. 2016 - 13. 3. 2016</h2>
+    <h3>Web analytics from 11. 3. 2016 - 13. 3. 2016&nbsp;&nbsp;&nbsp;<a href="../static/images/pycon/pycon-sk-analytics-20160311-20160313.jpg" target="_blank"><span class="glyphicon glyphicon-new-window"></span></a></h3>
 
     <div>
       <img src="../static/images/pycon/pycon-sk-analytics-20160311-20160313.jpg" alt="Google Analytics" class="img-responsive center-block" />
@@ -189,9 +194,8 @@
       <img src="../static/images/sponsors/websupport-logo.png" alt="WebSupport" style="height:60px" />
     </a>
     </li>
-    </li>
     <li>
-    <a href="stats-web.html#" target="">
+    <a href="stats-web.html#">
       <img src="../static/images/sponsors/switzerlab-logo.png" alt="Switzerlab" style="height:48px" />
     </a>
     </li>
