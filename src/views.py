@@ -13,6 +13,7 @@ LOGO_PYCON = 'images/logo/pycon.svg'
 LOGO_MEETUP_BA = 'images/logo/bratislava_logo.svg'
 
 LANGS = ('en', 'sk')
+SITEMAP_DEFAULT = {'prio': '0.1', 'freq': 'weekly', 'lastmod': '2016-02-22T22:22:00+00:00'}
 SITEMAP = {
     'sitemap.xml': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2015-12-18T10:53:24+00:00'},
     'index.html': {'prio': '1', 'freq': 'daily', 'lastmod': '2016-01-22T10:24:12+00:00'},
@@ -682,31 +683,35 @@ def sitemap():
         if "GET" in rule.methods:
             if len(rule.arguments)==0:
                 indx = rule.rule.replace('/', '')
+                sitemap_data = SITEMAP.get(indx, SITEMAP_DEFAULT)
                 pages.append({
                     'loc': domain + rule.rule,
-                    'lastmod': SITEMAP[indx]['lastmod'],
-                    'freq': SITEMAP[indx]['freq'],
-                    'prio': SITEMAP[indx]['prio'],
-                    })
+                    'lastmod': sitemap_data['lastmod'],
+                    'freq': sitemap_data['freq'],
+                    'prio': sitemap_data['prio'],
+                })
 
             elif 'lang_code' in rule.arguments:
                 indx = rule.rule.replace('/<lang_code>/', '')
+
                 for lang in LANGS:
                     alternate = []
+
                     for alt_lang in LANGS:
                         if alt_lang != lang:
                             alternate.append({
                                 'lang': alt_lang,
                                 'url': domain + rule.rule.replace('<lang_code>', alt_lang)
-                                })
+                            })
 
+                    sitemap_data = SITEMAP.get(indx, SITEMAP_DEFAULT)
                     pages.append({
                         'loc': domain + rule.rule.replace('<lang_code>', lang),
                         'alternate': alternate,
-                        'lastmod': SITEMAP[indx]['lastmod'],
-                        'freq': SITEMAP[indx]['freq'],
-                        'prio': SITEMAP[indx]['prio'],
-                        })
+                        'lastmod': sitemap_data['lastmod'],
+                        'freq': sitemap_data['freq'],
+                        'prio': sitemap_data['prio'],
+                    })
 
     sitemap_xml = render_template('sitemap_template.xml', pages=pages)
     response= make_response(sitemap_xml)
