@@ -5,7 +5,7 @@
   <div class="col-md-8">
     {% include "stats.html" %}
 
-    <h2>{{ _('Štatistiky www.pycon.sk z 11. 3. 2016 - 13. 3. 2016') }}</h2>
+    <h3>{{ _('Štatistiky www.pycon.sk z 11. 3. 2016 - 13. 3. 2016') }}&nbsp;&nbsp;&nbsp;<a href="{{ url_for('static', filename='images/pycon/pycon-sk-analytics-20160311-20160313.jpg') }}" target="_blank"><span class="glyphicon glyphicon-new-window"></span></a></h3>
 
     <div>
       <img src="{{ url_for('static', filename='images/pycon/pycon-sk-analytics-20160311-20160313.jpg') }}" alt="Google Analytics" class="img-responsive center-block" />

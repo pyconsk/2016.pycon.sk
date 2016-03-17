@@ -2,16 +2,21 @@
 
     <p class="lead">{{ _('PyCon SK je komunitou organizovaná konferencia pre programovací jazyk Python.') }} {{ _('<strong>Prvý ročník</strong> sa uskutočnil <strong>11. 3. 2016 až 13. 3. 2016 v Bratislave</strong>.') }}</p>
 
-    <div class="jumbotron">
-      <img src="{{ url_for('static', filename='images/logo/pycon.svg') }}" alt="" class="img-responsive pull-left" style="width: 128px">
-      <ul class="lead stats">
-        <li><strong>26</strong> {{ _('rečníkov z desiatich krajín') }}</li>
-        <li><strong>400</strong> {{ _('účastníkov') }}</li>
-        <li><strong>500</strong> {{ _('divákov live streamu') }}</li>
-      </ul>
+    <div id="lead-stats">
+      <div class="jumbotron bg-pycon">
+        <ul class="lead stats pull-right">
+          <li><strong>26</strong> {{ _('rečníkov z desiatich krajín') }}</li>
+          <li><strong>400</strong> {{ _('účastníkov') }}</li>
+          <li><strong>500</strong> {{ _('divákov live streamu') }}</li>
+        </ul>
+      </div>
+      <p class="image-caption text-center">Photo &copy; by <a href="https://www.flickr.com/photos/ondrejsika/25766775865" target="_blank">Ondrej Sika</a></p>
     </div>
 
-    <ul class="nav nav-tabs">
-      <li class="{{ li_stats_web }}"><a href="{{ url_for('stats_web', lang_code=lang_code) }}">www.pycon.sk</a></li>
-      <li class="{{ li_stats_slido }}"><a href="{{ url_for('stats_slido', lang_code=lang_code) }}">sli.do</a></li>
+    <ul class="nav nav-tabs" id="nav-stats">
+      <li class="{{ li_stats_web }}"><a href="{{ url_for('stats_web', lang_code=lang_code) }}#lead-stats"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span> www.pycon.sk</a></li>
+      <li class="{{ li_stats_slido }}"><a href="{{ url_for('stats_slido', lang_code=lang_code) }}#lead-stats"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> sli.do</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> {{ _('Fotky') }}</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> {{ _('Videá') }}</a></li>
+      <li><a href="https://github.com/pyconsk/2016-slides"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> {{ _('Prezentácie') }}</a></li>
     </ul>

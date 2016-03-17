@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-17 10:37+0100\n"
+"POT-Creation-Date: 2016-03-17 23:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -795,15 +795,15 @@ msgstr ""
 msgid "Štatistiky"
 msgstr ""
 
-#: templates/index.html:22
+#: templates/index.html:22 templates/stats.html:19
 msgid "Fotky"
 msgstr ""
 
-#: templates/index.html:23
+#: templates/index.html:23 templates/stats.html:20
 msgid "Videá"
 msgstr ""
 
-#: templates/index.html:24
+#: templates/index.html:24 templates/stats.html:21
 msgid "Prezentácie"
 msgstr ""
 
@@ -950,11 +950,11 @@ msgstr ""
 msgid "Strieborní sponzori:"
 msgstr ""
 
-#: templates/right_nav.html:70 templates/sponsors.html:325
+#: templates/right_nav.html:69 templates/sponsors.html:325
 msgid "Hlavný mediálny partner"
 msgstr ""
 
-#: templates/right_nav.html:81
+#: templates/right_nav.html:80
 msgid "Všetci sponzori"
 msgstr ""
 
@@ -2231,15 +2231,15 @@ msgstr ""
 msgid "Štatistiky www.pycon.sk z 11. 3. 2016 - 13. 3. 2016"
 msgstr ""
 
-#: templates/stats.html:7
+#: templates/stats.html:8
 msgid "rečníkov z desiatich krajín"
 msgstr ""
 
-#: templates/stats.html:8
+#: templates/stats.html:9
 msgid "účastníkov"
 msgstr ""
 
-#: templates/stats.html:9
+#: templates/stats.html:10
 msgid "divákov live streamu"
 msgstr ""
 
