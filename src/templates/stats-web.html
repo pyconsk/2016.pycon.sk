@@ -1,0 +1,20 @@
+{% extends "body.html" %}
+
+{% block content %}
+<div class="row">
+  <div class="col-md-8">
+    {% include "stats.html" %}
+
+    <h2>{{ _('Štatistiky www.pycon.sk z 11. 3. 2016 - 13. 3. 2016') }}</h2>
+
+    <div>
+      <img src="{{ url_for('static', filename='images/pycon/pycon-sk-analytics-20160311-20160313.jpg') }}" alt="Google Analytics" class="img-responsive center-block" />
+    </div>
+
+  </div>
+
+  <div class="col-md-4">
+    {% include 'right_nav.html' %}
+  </div>
+</div>
+{% endblock %}

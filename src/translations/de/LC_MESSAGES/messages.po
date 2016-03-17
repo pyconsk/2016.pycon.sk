@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-14 21:48+0100\n"
+"POT-Creation-Date: 2016-03-17 10:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -775,30 +775,46 @@ msgid ""
 "odohrávajú v Bratislave."
 msgstr ""
 
-#: templates/index.html:10
+#: templates/index.html:10 templates/stats.html:1
 msgid "Ďakujeme za účasť!"
 msgstr ""
 
-#: templates/index.html:12
+#: templates/index.html:12 templates/stats.html:3
 msgid ""
 "PyCon SK je komunitou organizovaná konferencia pre programovací jazyk "
 "Python."
 msgstr ""
 
-#: templates/index.html:12
+#: templates/index.html:12 templates/stats.html:3
 msgid ""
 "<strong>Prvý ročník</strong> sa uskutočnil <strong>11. 3. 2016 až 13. 3. "
 "2016 v Bratislave</strong>."
 msgstr ""
 
-#: templates/index.html:20
+#: templates/index.html:21
+msgid "Štatistiky"
+msgstr ""
+
+#: templates/index.html:22
+msgid "Fotky"
+msgstr ""
+
+#: templates/index.html:23
+msgid "Videá"
+msgstr ""
+
+#: templates/index.html:24
+msgid "Prezentácie"
+msgstr ""
+
+#: templates/index.html:29
 #, python-format
 msgid ""
 "Premiérový ročník konferencie PyCon SK sa uskutočnil <a "
 "href=\"%(link)s\">pod záštitou prezidenta SR Andreja Kisku</a>."
 msgstr ""
 
-#: templates/index.html:22
+#: templates/index.html:31
 #, python-format
 msgid ""
 "Po úspešnom uvedení vo viac ako 40 krajinách sveta bol po prvýkrát na "
@@ -811,19 +827,19 @@ msgid ""
 "href=\"%(url_djangogirls)s\">Django Girls</a> workshop."
 msgstr ""
 
-#: templates/index.html:27
+#: templates/index.html:36
 #: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:19
 msgid "Tlačová správa v"
 msgstr ""
 
-#: templates/index.html:31
+#: templates/index.html:40
 msgid ""
 "Ak máte záujem prispieť, stať sa dobrovoľníkom na budúci rok, alebo "
 "akokoľvek inak pomôcť s organizáciou PyCon SK (ktorý bol kompletne "
 "organizovaný dobrovoľníkmi), budeme radi, ak sa nám ozvete."
 msgstr ""
 
-#: templates/index.html:32
+#: templates/index.html:41
 #, python-format
 msgid ""
 "Medzičasom sa môžete prísť pozrieť na naše pravidelné <a "
@@ -2207,6 +2223,26 @@ msgstr ""
 msgid "Stanovy"
 msgstr ""
 
+#: templates/stats-slido.html:8
+msgid "Sli.do infografika z 11. 3. 2016 - 12. 3. 2016"
+msgstr ""
+
+#: templates/stats-web.html:8
+msgid "Štatistiky www.pycon.sk z 11. 3. 2016 - 13. 3. 2016"
+msgstr ""
+
+#: templates/stats.html:7
+msgid "rečníkov z desiatich krajín"
+msgstr ""
+
+#: templates/stats.html:8
+msgid "účastníkov"
+msgstr ""
+
+#: templates/stats.html:9
+msgid "divákov live streamu"
+msgstr ""
+
 #: templates/thank-you.html:5
 msgid "Ďakujeme za záujem"
 msgstr ""
@@ -2430,37 +2466,6 @@ msgstr ""
 #~ msgid "PyCon prichádza na Slovensko!"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "Cieľ: Informovať o možnosti programovania "
-#~ "platformy NAO cez programovací jazyk "
-#~ "Python. &lt;br&gt;&lt;br&gt; Úvod: Motivovanie "
-#~ "mladých ľudí do informatiky a práce "
-#~ "s programovacím jazykom. Ukážky na "
-#~ "platforme NAO."
-#~ msgstr ""
-
 #~ msgid "Robot NAO - Programovanie NAO cez Python"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Adam pracuje v spoločnosti, ktorá "
-#~ "zastupuje <a href=\"https://www.aldebaran.com/en\" "
-#~ "target=\"_blank\" title=\"Aldebaran Robotics\">Aldebaran"
-#~ " Robotics</a> na Slovensku. Jeho hlavnou"
-#~ " snahou je pritiahnuť mladých ľudí k"
-#~ " programovaniu a informatike. Python "
-#~ "používa pri tvorbe aplikácií pre "
-#~ "humanoidné platformy ako NAO, Papper a"
-#~ " Romeo. Vo voľnom čase sa venuje "
-#~ "svojmu projektu <a href=\"http://smartgrowbox.com/\""
-#~ " target=\"_blank\" title=\"SmartGrowBox\">SmartGrowBox</a>."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Django vývojár v <a "
-#~ "href=\"http://djangostars.com/\" target=\"_blank\" "
-#~ "title=\"DjangoStars\">DjangoStars</a>. Zaujíma sa o"
-#~ " funkcionálne programovanie a testovanie "
-#~ "ako spôsob merania kvality kódu."
 #~ msgstr ""
 

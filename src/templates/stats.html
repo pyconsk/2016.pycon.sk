@@ -1,0 +1,16 @@
+    <h1>{{ _('Ďakujeme za účasť!') }}</h1>
+
+    <p class="lead">{{ _('PyCon SK je komunitou organizovaná konferencia pre programovací jazyk Python.') }} {{ _('<strong>Prvý ročník</strong> sa uskutočnil <strong>11. 3. 2016 až 13. 3. 2016 v Bratislave</strong>.') }}</p>
+
+    <div class="jumbotron">
+      <ul class="lead">
+        <li>26 {{ _('rečníkov z desiatich krajín') }}</li>
+        <li>400 {{ _('účastníkov') }}</li>
+        <li>500 {{ _('divákov live streamu') }}</li>
+      </ul>
+    </div>
+
+    <ul class="nav nav-tabs">
+      <li class="{{ li_stats_web }}"><a href="{{ url_for('stats_web', lang_code=lang_code) }}">www.pycon.sk</a></li>
+      <li class="{{ li_stats_slido }}"><a href="{{ url_for('stats_slido', lang_code=lang_code) }}">sli.do</a></li>
+    </ul>

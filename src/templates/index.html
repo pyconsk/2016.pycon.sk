@@ -17,6 +17,15 @@
       </a>
     </p>
 
+    <div class="row icon-menu text-center">
+      <div class="col-xs-3"><a href="{{ url_for('stats_web', lang_code=lang_code) }}"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span><br>{{ _('Štatistiky') }}</a></div>
+      <div class="col-xs-3"><a href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span><br>{{ _('Fotky') }}</a></div>
+      <div class="col-xs-3"><a href="#"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span><br>{{ _('Videá') }}</a></div>
+      <div class="col-xs-3"><a href="https://github.com/pyconsk/2016-slides"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span><br>{{ _('Prezentácie') }}</a></div>
+    </div>
+
+    <br>
+
     <p class="text-justify lead"><small>{% trans link=url_for('president', lang_code=lang_code) %}Premiérový ročník konferencie PyCon SK sa uskutočnil <a href="{{ link }}">pod záštitou prezidenta SR Andreja Kisku</a>.{% endtrans %}</small></p>
 
     <p class="text-justify">{{ _('Po úspešnom uvedení vo viac ako 40 krajinách sveta bol po prvýkrát na Slovensku. Prednášky boli rozdelené na <a href="%(url_friday)s">piatok - slovenský deň</a> a <a href="%(url_saturday)s">sobotu - anglický deň</a>. <a href="%(url_sunday)s">Nedeľa</a> bola určená workshopom a Python Clinic, kde ste sa mohli porozprávať s niektorými rečníkmi podrobnejšie o ich téme, alebo si prakticky odskúšať niektoré Python technológie na vlastnej klávesnici. Taktiež sa uskutočnil <a href="%(url_djangogirls)s">Django Girls</a> workshop.',

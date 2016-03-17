@@ -186,6 +186,10 @@ footer li {
   padding-bottom: 20px;
 }
 
+.icon-menu .glyphicon {
+  font-size: 64px;
+}
+
 .tito-ticket-description {
   font-size: 1.1rem;
 }
