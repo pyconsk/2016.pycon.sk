@@ -16,7 +16,7 @@
     <ul class="nav nav-tabs" id="nav-stats">
       <li class="{{ li_stats_web }}"><a href="{{ url_for('stats_web', lang_code=lang_code) }}#lead-stats"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span> www.pycon.sk</a></li>
       <li class="{{ li_stats_slido }}"><a href="{{ url_for('stats_slido', lang_code=lang_code) }}#lead-stats"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> sli.do</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> {{ _('Fotky') }}</a></li>
+      <li class="{{ li_pictures }}"><a href="{{ url_for('pictures', lang_code=lang_code) }}"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> {{ _('Fotky') }}</a></li>
       <li><a href="#"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> {{ _('Videá') }}</a></li>
       <li><a href="https://github.com/pyconsk/2016-slides"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> {{ _('Prezentácie') }}</a></li>
     </ul>
