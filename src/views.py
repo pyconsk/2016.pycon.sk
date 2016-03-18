@@ -16,31 +16,33 @@ LANGS = ('en', 'sk')
 SITEMAP_DEFAULT = {'prio': '0.1', 'freq': 'weekly', 'lastmod': '2016-02-22T22:22:00+00:00'}
 SITEMAP = {
     'sitemap.xml': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2015-12-18T10:53:24+00:00'},
-    'index.html': {'prio': '1', 'freq': 'daily', 'lastmod': '2016-01-22T10:24:12+00:00'},
-    'tickets.html': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2016-01-22T22:00:05+00:00'},
-    'speakers.html': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2015-10-31T23:45:00+00:00'},
-    'sponsors.html': {'prio': '0.9', 'freq': 'weekly', 'lastmod': '2015-12-18T10:24:12+00:00'},
+    'index.html': {'prio': '1', 'freq': 'daily', 'lastmod': '2016-03-18T09:24:12+00:00'},
+    'tickets.html': {'prio': '0.1', 'freq': 'yearly', 'lastmod': '2016-01-22T22:00:05+00:00'},
+    'speakers.html': {'prio': '0.4', 'freq': 'yearly', 'lastmod': '2015-10-31T23:45:00+00:00'},
+    'sponsors.html': {'prio': '0.4', 'freq': 'yearly', 'lastmod': '2015-12-18T10:24:12+00:00'},
     'code-of-conduct.html': {'prio': '0.9', 'freq': 'monthly', 'lastmod': '2015-09-10T20:00:00+00:00'},
-    'schedule-friday.html': {'prio': '0.8', 'freq': 'daily', 'lastmod': '2016-02-22T23:45:00+00:00'},
-    'schedule-saturday.html': {'prio': '0.8', 'freq': 'daily', 'lastmod': '2016-02-22T23:45:00+00:00'},
-    'schedule-sunday.html': {'prio': '0.8', 'freq': 'daily', 'lastmod': '2016-02-22T23:45:00+00:00'},
-    'pod-zastitou-prezidenta-slovenskej-republiky.html': {'prio': '0.8', 'freq': 'monthly', 'lastmod': '2016-02-18T19:00:00+00:00'},
+    'schedule-friday.html': {'prio': '0.5', 'freq': 'yearly', 'lastmod': '2016-02-22T23:45:00+00:00'},
+    'schedule-saturday.html': {'prio': '0.5', 'freq': 'yearly', 'lastmod': '2016-02-22T23:45:00+00:00'},
+    'schedule-sunday.html': {'prio': '0.5', 'freq': 'yearly', 'lastmod': '2016-02-22T23:45:00+00:00'},
+    'pod-zastitou-prezidenta-slovenskej-republiky.html': {'prio': '0.5', 'freq': 'yearly', 'lastmod': '2016-02-18T19:00:00+00:00'},
     'spy.html': {'prio': '0.75', 'freq': 'monthly', 'lastmod': '2015-09-10T20:00:00+00:00'},
-    'getting-here.html': {'prio': '0.75', 'freq': 'weekly', 'lastmod': '2016-01-18T12:00:05+00:00'},
-    'django-girls.html': {'prio': '0.66', 'freq': 'weekly', 'lastmod': '2015-12-21T00:42:45+00:00'},
+    'stats.html': {'prio': '0.8', 'freq': 'weekly', 'lastmod': '2016-03-17T23:00:00+00:00'},
+    'pictures.html': {'prio': '0.8', 'freq': 'weekly', 'lastmod': '2016-03-18T21:00:00+00:00'},
+    'getting-here.html': {'prio': '0.2', 'freq': 'yearly', 'lastmod': '2016-01-18T12:00:05+00:00'},
+    'django-girls.html': {'prio': '0.2', 'freq': 'yearly', 'lastmod': '2015-12-21T00:42:45+00:00'},
     'meetup.html': {'prio': '0.6', 'freq': 'weekly', 'lastmod': '2015-12-18T10:53:24+00:00'},
-    'ba-01-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2015-06-29T20:06:00+00:00'},
-    'ba-02-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2015-07-26T20:07:00+00:00'},
-    'ba-03-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2015-08-26T20:08:00+00:00'},
-    'ba-04-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2015-09-26T20:09:00+00:00'},
-    'ba-05-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2015-10-26T20:10:00+00:00'},
-    'ba-06-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2015-11-11T11:11:11+00:00'},
-    'ba-07-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2016-01-17T12:22:22+00:00'},
-    'ba-08-meetup.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2016-01-18T10:53:24+00:00'},
-    'console.html': {'prio': '0.2', 'freq': 'monthly', 'lastmod': '2016-02-05T11:11:11+00:00'},
+    'ba-01-meetup.html': {'prio': '0.1', 'freq': 'monthly', 'lastmod': '2015-06-29T20:06:00+00:00'},
+    'ba-02-meetup.html': {'prio': '0.1', 'freq': 'monthly', 'lastmod': '2015-07-26T20:07:00+00:00'},
+    'ba-03-meetup.html': {'prio': '0.1', 'freq': 'monthly', 'lastmod': '2015-08-26T20:08:00+00:00'},
+    'ba-04-meetup.html': {'prio': '0.1', 'freq': 'monthly', 'lastmod': '2015-09-26T20:09:00+00:00'},
+    'ba-05-meetup.html': {'prio': '0.1', 'freq': 'monthly', 'lastmod': '2015-10-26T20:10:00+00:00'},
+    'ba-06-meetup.html': {'prio': '0.1', 'freq': 'monthly', 'lastmod': '2015-11-11T11:11:11+00:00'},
+    'ba-07-meetup.html': {'prio': '0.1', 'freq': 'monthly', 'lastmod': '2016-01-17T12:22:22+00:00'},
+    'ba-08-meetup.html': {'prio': '0.1', 'freq': 'monthly', 'lastmod': '2016-01-18T10:53:24+00:00'},
+    'console.html': {'prio': '0.3', 'freq': 'monthly', 'lastmod': '2016-02-05T11:11:11+00:00'},
     'thank-you.html': {'prio': '0.1', 'freq': 'yearly', 'lastmod': '2015-07-10T20:00:00+00:00'},
-    'speaking.html': {'prio': '0.1', 'freq': 'weekly', 'lastmod': '2015-10-26T22:05:00+00:00'},
-    'sponsoring.html': {'prio': '0.1', 'freq': 'weekly', 'lastmod': '2015-10-26T22:05:00+00:00'},
+    'speaking.html': {'prio': '0.1', 'freq': 'yearly', 'lastmod': '2015-10-26T22:05:00+00:00'},
+    'sponsoring.html': {'prio': '0.1', 'freq': 'yearly', 'lastmod': '2015-10-26T22:05:00+00:00'},
 }
 LDJSON = {
     "@context": "http://schema.org",
@@ -213,6 +215,11 @@ def schedule_sun():
 @app.route('/<lang_code>/pod-zastitou-prezidenta-slovenskej-republiky.html')
 def president():
     return render_template('pod-zastitou-prezidenta-slovenskej-republiky.html', **_get_template_variables(li_index='active'))
+
+
+@app.route('/<lang_code>/pictures.html')
+def pictures():
+    return render_template('pictures.html', **_get_template_variables(li_index='active', li_pictures='active'))
 
 
 @app.route('/<lang_code>/stats-web.html')

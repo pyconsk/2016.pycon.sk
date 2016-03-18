@@ -19,7 +19,7 @@
 
     <div class="row icon-menu text-center">
       <div class="col-xs-3"><a href="{{ url_for('stats_web', lang_code=lang_code) }}"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span><br>{{ _('Štatistiky') }}</a></div>
-      <div class="col-xs-3"><a href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span><br>{{ _('Fotky') }}</a></div>
+      <div class="col-xs-3"><a href="{{ url_for('pictures', lang_code=lang_code) }}"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span><br>{{ _('Fotky') }}</a></div>
       <div class="col-xs-3"><a href="#"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span><br>{{ _('Videá') }}</a></div>
       <div class="col-xs-3"><a href="https://github.com/pyconsk/2016-slides"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span><br>{{ _('Prezentácie') }}</a></div>
     </div>
