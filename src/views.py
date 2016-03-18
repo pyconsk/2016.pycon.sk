@@ -28,6 +28,7 @@ SITEMAP = {
     'spy.html': {'prio': '0.75', 'freq': 'monthly', 'lastmod': '2015-09-10T20:00:00+00:00'},
     'stats.html': {'prio': '0.8', 'freq': 'weekly', 'lastmod': '2016-03-17T23:00:00+00:00'},
     'pictures.html': {'prio': '0.8', 'freq': 'weekly', 'lastmod': '2016-03-18T21:00:00+00:00'},
+    'videos.html': {'prio': '0.8', 'freq': 'weekly', 'lastmod': '2016-03-18T22:00:00+00:00'},
     'getting-here.html': {'prio': '0.2', 'freq': 'yearly', 'lastmod': '2016-01-18T12:00:05+00:00'},
     'django-girls.html': {'prio': '0.2', 'freq': 'yearly', 'lastmod': '2015-12-21T00:42:45+00:00'},
     'meetup.html': {'prio': '0.6', 'freq': 'weekly', 'lastmod': '2015-12-18T10:53:24+00:00'},
@@ -220,6 +221,11 @@ def president():
 @app.route('/<lang_code>/pictures.html')
 def pictures():
     return render_template('pictures.html', **_get_template_variables(li_index='active', li_pictures='active'))
+
+
+@app.route('/<lang_code>/videos.html')
+def videos():
+    return render_template('videos.html', **_get_template_variables(li_index='active', li_videos='active'))
 
 
 @app.route('/<lang_code>/stats-web.html')

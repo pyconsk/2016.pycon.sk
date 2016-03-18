@@ -1,0 +1,16 @@
+{% extends "body.html" %}
+
+{% block content %}
+<div class="row">
+  <div class="col-md-8">
+    {% include "stats.html" %}
+    <br />
+    <iframe width="750" height="422" src="https://www.youtube.com/embed/videoseries?list=PLeK_HepiMJKKUzMetyy-7rO5RENSMgUcZ" frameborder="0" allowfullscreen></iframe>
+
+  </div>
+
+  <div class="col-md-4">
+    {% include 'right_nav.html' %}
+  </div>
+</div>
+{% endblock %}
