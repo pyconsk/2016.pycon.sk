@@ -232,14 +232,18 @@ footer li {
 .stats {
   margin-top: 20px;
   margin-left: 110px;
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #eee;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ee6;
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   list-style: none;
 
+}
+
+.stats strong {
+  color: #66CCFF;
 }
 
 iframe.seamless {
