@@ -105,6 +105,7 @@ fi
 
 # Go to staging branch
 git checkout staging || exit 5
+git pull origin staging || exit 6
 
 # Move stored site as new site
 if [[ -d "${STAGING_DIR}" ]]; then
