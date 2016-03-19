@@ -9,7 +9,7 @@
 		
 		<loc>https://pycon.sk/sitemap.xml</loc>
 		
-		<lastmod>2015-12-18T10:53:24+00:00</lastmod>
+		<lastmod>2016-03-19T10:53:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.9</priority>
     </url>
@@ -45,7 +45,7 @@
                  hreflang="sk"
                  href="https://pycon.sk/sk/schedule-saturday.html"
                  />
-		<lastmod>2016-02-22T23:45:00+00:00</lastmod>
+		<lastmod>2016-03-18T23:45:00+00:00</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.5</priority>
     </url>
@@ -57,7 +57,7 @@
                  hreflang="en"
                  href="https://pycon.sk/en/schedule-saturday.html"
                  />
-		<lastmod>2016-02-22T23:45:00+00:00</lastmod>
+		<lastmod>2016-03-18T23:45:00+00:00</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.5</priority>
     </url>
@@ -93,7 +93,7 @@
                  hreflang="sk"
                  href="https://pycon.sk/sk/schedule-friday.html"
                  />
-		<lastmod>2016-02-22T23:45:00+00:00</lastmod>
+		<lastmod>2016-03-18T23:45:00+00:00</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.5</priority>
     </url>
@@ -105,7 +105,7 @@
                  hreflang="en"
                  href="https://pycon.sk/en/schedule-friday.html"
                  />
-		<lastmod>2016-02-22T23:45:00+00:00</lastmod>
+		<lastmod>2016-03-18T23:45:00+00:00</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.5</priority>
     </url>
@@ -117,7 +117,7 @@
                  hreflang="sk"
                  href="https://pycon.sk/sk/schedule-sunday.html"
                  />
-		<lastmod>2016-02-22T23:45:00+00:00</lastmod>
+		<lastmod>2016-03-18T23:45:00+00:00</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.5</priority>
     </url>
@@ -129,7 +129,7 @@
                  hreflang="en"
                  href="https://pycon.sk/en/schedule-sunday.html"
                  />
-		<lastmod>2016-02-22T23:45:00+00:00</lastmod>
+		<lastmod>2016-03-18T23:45:00+00:00</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.5</priority>
     </url>
@@ -141,7 +141,7 @@
                  hreflang="sk"
                  href="https://pycon.sk/sk/getting-here.html"
                  />
-		<lastmod>2016-01-18T12:00:05+00:00</lastmod>
+		<lastmod>2016-03-18T12:00:05+00:00</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.2</priority>
     </url>
@@ -153,7 +153,7 @@
                  hreflang="en"
                  href="https://pycon.sk/en/getting-here.html"
                  />
-		<lastmod>2016-01-18T12:00:05+00:00</lastmod>
+		<lastmod>2016-03-18T12:00:05+00:00</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.2</priority>
     </url>
@@ -165,7 +165,7 @@
                  hreflang="sk"
                  href="https://pycon.sk/sk/django-girls.html"
                  />
-		<lastmod>2015-12-21T00:42:45+00:00</lastmod>
+		<lastmod>2016-03-18T00:42:45+00:00</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.2</priority>
     </url>
@@ -177,7 +177,7 @@
                  hreflang="en"
                  href="https://pycon.sk/en/django-girls.html"
                  />
-		<lastmod>2015-12-21T00:42:45+00:00</lastmod>
+		<lastmod>2016-03-18T00:42:45+00:00</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.2</priority>
     </url>
@@ -357,7 +357,7 @@
                  hreflang="sk"
                  href="https://pycon.sk/sk/ba-08-meetup.html"
                  />
-		<lastmod>2016-01-18T10:53:24+00:00</lastmod>
+		<lastmod>2016-03-18T10:53:24+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.1</priority>
     </url>
@@ -369,7 +369,7 @@
                  hreflang="en"
                  href="https://pycon.sk/en/ba-08-meetup.html"
                  />
-		<lastmod>2016-01-18T10:53:24+00:00</lastmod>
+		<lastmod>2016-03-18T10:53:24+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.1</priority>
     </url>
@@ -381,9 +381,9 @@
                  hreflang="sk"
                  href="https://pycon.sk/sk/stats-slido.html"
                  />
-		<lastmod>2016-02-22T22:22:00+00:00</lastmod>
+		<lastmod>2016-03-18T23:00:00+00:00</lastmod>
 		<changefreq>weekly</changefreq>
-		<priority>0.1</priority>
+		<priority>0.8</priority>
     </url>
     <url>
 		
@@ -393,9 +393,9 @@
                  hreflang="en"
                  href="https://pycon.sk/en/stats-slido.html"
                  />
-		<lastmod>2016-02-22T22:22:00+00:00</lastmod>
+		<lastmod>2016-03-18T23:00:00+00:00</lastmod>
 		<changefreq>weekly</changefreq>
-		<priority>0.1</priority>
+		<priority>0.8</priority>
     </url>
     <url>
 		
@@ -429,9 +429,9 @@
                  hreflang="sk"
                  href="https://pycon.sk/sk/stats-web.html"
                  />
-		<lastmod>2016-02-22T22:22:00+00:00</lastmod>
+		<lastmod>2016-03-18T23:00:00+00:00</lastmod>
 		<changefreq>weekly</changefreq>
-		<priority>0.1</priority>
+		<priority>0.8</priority>
     </url>
     <url>
 		
@@ -441,9 +441,9 @@
                  hreflang="en"
                  href="https://pycon.sk/en/stats-web.html"
                  />
-		<lastmod>2016-02-22T22:22:00+00:00</lastmod>
+		<lastmod>2016-03-18T23:00:00+00:00</lastmod>
 		<changefreq>weekly</changefreq>
-		<priority>0.1</priority>
+		<priority>0.8</priority>
     </url>
     <url>
 		
@@ -477,7 +477,7 @@
                  hreflang="sk"
                  href="https://pycon.sk/sk/speakers.html"
                  />
-		<lastmod>2015-10-31T23:45:00+00:00</lastmod>
+		<lastmod>2015-03-19T23:45:00+00:00</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.4</priority>
     </url>
@@ -489,7 +489,7 @@
                  hreflang="en"
                  href="https://pycon.sk/en/speakers.html"
                  />
-		<lastmod>2015-10-31T23:45:00+00:00</lastmod>
+		<lastmod>2015-03-19T23:45:00+00:00</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.4</priority>
     </url>
@@ -525,7 +525,7 @@
                  hreflang="sk"
                  href="https://pycon.sk/sk/sponsors.html"
                  />
-		<lastmod>2015-12-18T10:24:12+00:00</lastmod>
+		<lastmod>2015-03-19T10:24:12+00:00</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.4</priority>
     </url>
@@ -537,33 +537,9 @@
                  hreflang="en"
                  href="https://pycon.sk/en/sponsors.html"
                  />
-		<lastmod>2015-12-18T10:24:12+00:00</lastmod>
+		<lastmod>2015-03-19T10:24:12+00:00</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.4</priority>
-    </url>
-    <url>
-		
-		<loc>https://pycon.sk/en/pictures.html</loc>
-		<xhtml:link 
-                 rel="alternate"
-                 hreflang="sk"
-                 href="https://pycon.sk/sk/pictures.html"
-                 />
-		<lastmod>2016-03-18T21:00:00+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-    </url>
-    <url>
-		
-		<loc>https://pycon.sk/sk/pictures.html</loc>
-		<xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://pycon.sk/en/pictures.html"
-                 />
-		<lastmod>2016-03-18T21:00:00+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
     </url>
     <url>
 		
@@ -573,7 +549,7 @@
                  hreflang="sk"
                  href="https://pycon.sk/sk/console.html"
                  />
-		<lastmod>2016-02-05T11:11:11+00:00</lastmod>
+		<lastmod>2016-03-18T11:11:11+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.3</priority>
     </url>
@@ -585,7 +561,7 @@
                  hreflang="en"
                  href="https://pycon.sk/en/console.html"
                  />
-		<lastmod>2016-02-05T11:11:11+00:00</lastmod>
+		<lastmod>2016-03-18T11:11:11+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.3</priority>
     </url>
@@ -597,7 +573,7 @@
                  hreflang="sk"
                  href="https://pycon.sk/sk/tickets.html"
                  />
-		<lastmod>2016-01-22T22:00:05+00:00</lastmod>
+		<lastmod>2016-03-19T22:00:05+00:00</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.1</priority>
     </url>
@@ -609,9 +585,33 @@
                  hreflang="en"
                  href="https://pycon.sk/en/tickets.html"
                  />
-		<lastmod>2016-01-22T22:00:05+00:00</lastmod>
+		<lastmod>2016-03-19T22:00:05+00:00</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.1</priority>
+    </url>
+    <url>
+		
+		<loc>https://pycon.sk/en/photos.html</loc>
+		<xhtml:link 
+                 rel="alternate"
+                 hreflang="sk"
+                 href="https://pycon.sk/sk/photos.html"
+                 />
+		<lastmod>2016-03-18T21:00:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+    </url>
+    <url>
+		
+		<loc>https://pycon.sk/sk/photos.html</loc>
+		<xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://pycon.sk/en/photos.html"
+                 />
+		<lastmod>2016-03-18T21:00:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
     </url>
     <url>
 		
@@ -645,7 +645,7 @@
                  hreflang="sk"
                  href="https://pycon.sk/sk/meetup.html"
                  />
-		<lastmod>2015-12-18T10:53:24+00:00</lastmod>
+		<lastmod>2016-03-18T10:53:24+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
     </url>
@@ -657,7 +657,7 @@
                  hreflang="en"
                  href="https://pycon.sk/en/meetup.html"
                  />
-		<lastmod>2015-12-18T10:53:24+00:00</lastmod>
+		<lastmod>2016-03-18T10:53:24+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.6</priority>
     </url>
@@ -669,7 +669,7 @@
                  hreflang="sk"
                  href="https://pycon.sk/sk/index.html"
                  />
-		<lastmod>2016-03-18T09:24:12+00:00</lastmod>
+		<lastmod>2016-03-19T09:24:12+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1</priority>
     </url>
@@ -681,7 +681,7 @@
                  hreflang="en"
                  href="https://pycon.sk/en/index.html"
                  />
-		<lastmod>2016-03-18T09:24:12+00:00</lastmod>
+		<lastmod>2016-03-19T09:24:12+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1</priority>
     </url>
@@ -693,7 +693,7 @@
                  hreflang="sk"
                  href="https://pycon.sk/sk/spy.html"
                  />
-		<lastmod>2015-09-10T20:00:00+00:00</lastmod>
+		<lastmod>2016-03-18T20:00:00+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.75</priority>
     </url>
@@ -705,7 +705,7 @@
                  hreflang="en"
                  href="https://pycon.sk/en/spy.html"
                  />
-		<lastmod>2015-09-10T20:00:00+00:00</lastmod>
+		<lastmod>2016-03-18T20:00:00+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.75</priority>
     </url>
