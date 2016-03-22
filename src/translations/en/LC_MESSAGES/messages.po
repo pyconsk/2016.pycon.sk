@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-19 07:44+0100\n"
+"POT-Creation-Date: 2016-03-22 16:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -1109,6 +1109,10 @@ msgstr "%(num)s Bratislava Python Meetup"
 msgid "Piatok"
 msgstr "Friday"
 
+#: templates/photos.html:19 templates/tickets.html:57
+msgid "Sobota"
+msgstr "Saturday"
+
 #: templates/pod-zastitou-prezidenta-slovenskej-republiky.html:6
 msgid "PyCon SK odštartuje pod záštitou prezidenta SR Andreja Kisku"
 msgstr ""
@@ -1220,8 +1224,8 @@ msgstr "Large auditorium"
 #: templates/schedule-friday.html:40 templates/schedule-friday.html:131
 #: templates/schedule-saturday.html:40 templates/schedule-saturday.html:132
 #: templates/schedule-saturday.html:238 templates/schedule-saturday.html:324
-#: templates/schedule-sunday.html:40 templates/schedule-sunday.html:76
-#: templates/schedule-sunday.html:100
+#: templates/schedule-sunday.html:40 templates/schedule-sunday.html:83
+#: templates/schedule-sunday.html:107
 msgid "miestnosť"
 msgstr "room"
 
@@ -1345,7 +1349,7 @@ msgid "Jupyter notebook doma, v škole, všade"
 msgstr "Jupyter notebook at home, in school, everywhere"
 
 #: templates/schedule-friday.html:121 templates/schedule-saturday.html:122
-#: templates/schedule-saturday.html:312 templates/schedule-sunday.html:66
+#: templates/schedule-saturday.html:312 templates/schedule-sunday.html:73
 msgid "Obedná prestávka"
 msgstr "Lunch break"
 
@@ -1683,7 +1687,7 @@ msgid "Vstupenky na večeru sa predávajú samostatne na stránke vstupeniek."
 msgstr "Tickets for the dinner are sold separately on the \"Tickets\" page."
 
 #: templates/schedule-saturday.html:238 templates/schedule-saturday.html:324
-#: templates/schedule-sunday.html:40 templates/schedule-sunday.html:76
+#: templates/schedule-sunday.html:40 templates/schedule-sunday.html:83
 msgid "Turingova učebňa"
 msgstr "Turing lecture hall"
 
@@ -1884,16 +1888,19 @@ msgstr "Automated measurements using Python"
 msgid "Nedeľa, 13. marca 2016"
 msgstr "Sunday, 13<sup>th</sup> of March, 2016"
 
-#: templates/schedule-sunday.html:51 templates/schedule-sunday.html:87
-#: templates/tickets.html:58
-msgid "Python Clinic, spontánne workshopy a šprinty"
-msgstr "Python Clinic, spontaneous workshops and sprints"
+#: templates/schedule-sunday.html:51
+msgid "Workshopy a šprinty"
+msgstr "Workshops and Sprints"
 
-#: templates/schedule-sunday.html:100
+#: templates/schedule-sunday.html:94
+msgid "pokračovanie workshopov a šprintov"
+msgstr "workshops and sprints continue"
+
+#: templates/schedule-sunday.html:107
 msgid "Babbageova učebňa"
 msgstr "Babbage lecture hall"
 
-#: templates/schedule-sunday.html:112
+#: templates/schedule-sunday.html:119
 msgid "Len pre registrovaných účastníkov. Registrácie sú uzavreté."
 msgstr "Only for registered participants. Registration is closed."
 
@@ -3178,16 +3185,16 @@ msgid "prednášky v slovenčine, resp. češtine"
 msgstr "talks in Slovak or Czech"
 
 #: templates/tickets.html:57
-msgid "Sobota"
-msgstr "Saturday"
-
-#: templates/tickets.html:57
 msgid "prednášky v angličtine"
 msgstr "talks in English"
 
 #: templates/tickets.html:58
 msgid "Nedeľa"
 msgstr "Sunday"
+
+#: templates/tickets.html:58
+msgid "Python Clinic, spontánne workshopy a šprinty"
+msgstr "Python Clinic, spontaneous workshops and sprints"
 
 #: templates/tickets.html:61
 msgid "Ponúkate množstevné zľavy?"
