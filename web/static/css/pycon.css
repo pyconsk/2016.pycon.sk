@@ -395,6 +395,15 @@ table.schedule .talk {
   height: 40px;  /* for a 30 min slot */
 }
 
+table.schedule .talk.free {
+  height: auto !important;
+}
+
+table.schedule .talk.free ul {
+  padding-left: 16px;
+  padding-bottom: 0px;
+}
+
 table.schedule .slot-5 .talk { height: 16px; } /* 40 - 14 */
 table.schedule .slot-5 .time { height: 20px; } /* 44 - 14 */
 
