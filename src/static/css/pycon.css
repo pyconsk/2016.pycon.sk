@@ -402,6 +402,12 @@ table.schedule .talk.free {
 table.schedule .talk.free ul {
   padding-left: 16px;
   padding-bottom: 0px;
+  padding-top: 2px;
+}
+
+table.schedule .talk.free ul li {
+  font-weight: normal;
+  font-size: 12px;
 }
 
 table.schedule .slot-5 .talk { height: 16px; } /* 40 - 14 */
