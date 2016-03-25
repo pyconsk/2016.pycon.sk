@@ -210,6 +210,25 @@ footer li {
   padding-bottom: 10px;
 }
 
+.video-length {
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding-right: 4px;
+  padding-left: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 11px;
+  margin: 0;
+}
+
+.videos h5 {
+  border: none;
+  padding-bottom: 0;
+}
+
 .image {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -440,7 +459,7 @@ table.schedule .talk.oneline {
   height: 20px;
 }
 
-table.schedule tr.event {
+table.schedule tr.event td.info-main {
   cursor: pointer;
 }
 

@@ -36,7 +36,7 @@
   <link rel="alternate" href="https://pycon.sk/sk/schedule-sunday.html" hreflang="sk">
   
   <link rel="canonical" href="https://pycon.sk/en/schedule-sunday.html" />
-  <link rel="stylesheet" href="../static/css/pycon.css?v=749ccbf">
+  <link rel="stylesheet" href="../static/css/pycon.css?v=5c9073f">
   <link rel="icon" href="../static/images/favicon.ico" sizes="16x16">
 </head>
 <body>
@@ -126,11 +126,11 @@
         <table class="table table-striped table-hover schedule">
           <tbody>
             <tr class="event-dummy event-registration">
-              <td>
+              <td class="info-meta">
                 <div class="time">8:00 - 8:50</div>
                 <div class="lang">EN/SK</div>
               </td>
-              <td>
+              <td class="info-main" data-toggle="dropdown">
                 <div class="talk">Registration</div>
                 <div class="speaker"><a href="getting-here.html">FIIT STU</a></div>
               </td>
@@ -152,7 +152,7 @@
 
           <tbody>
             <tr class="event-dummy">
-              <td>
+              <td class="info-meta">
                 <div class="time">09:00</div>
                 <div class="lang">EN/SK</div>
               </td>
@@ -174,11 +174,11 @@
         <table class="table table-striped table-hover schedule">
           <tbody>
             <tr class="event-dummy event-lunch">
-              <td>
+              <td class="info-meta">
                 <div class="time">12:00</div>
                 <div class="lang"></div>
               </td>
-              <td>
+              <td class="info-main" data-toggle="dropdown">
                 <div class="talk">Lunch break</div>
                 <div class="speaker"></div>
               </td>
@@ -195,11 +195,11 @@
 
           <tbody>
             <tr class="event-dummy">
-              <td>
+              <td class="info-meta">
                 <div class="time">13:00 - 17:00</div>
                 <div class="lang">EN/SK</div>
               </td>
-              <td>
+              <td class="info-main" data-toggle="dropdown">
                 <div class="talk">... workshops and sprints continue</div>
                 <div class="speaker"></div>
               </td>
@@ -219,7 +219,7 @@
 
           <tbody>
             <tr class="event-dummy">
-              <td>
+              <td class="info-meta">
                 <div class="time">08:30 - 18:00</div>
                 <div class="lang">EN/SK</div>
               </td>
@@ -434,7 +434,7 @@ function update_speaker_bio(mod, speaker_id, speaker_id2) {
 
 function tr_click() {
   var mod = $('#event-details');
-  var tr = $(this);
+  var tr = $(this).parent();
   var talk = tr.find('div.talk');
   var speaker = tr.find('div.speaker');
   var room;
@@ -459,7 +459,7 @@ function tr_click() {
 }
 
 $(document).ready(function() {
-  $('tr.event').click(tr_click);
+  $('tr.event td.info-main').click(tr_click);
 });
 </script>
 
