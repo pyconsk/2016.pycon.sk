@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-22 16:09+0100\n"
+"POT-Creation-Date: 2016-03-25 19:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.1.1\n"
+"Generated-By: Babel 2.2.0\n"
 
 #: templates/ba-01-meetup.html:6
 msgid "Prvý Bratislavský Python Meetup"
@@ -1022,7 +1022,7 @@ msgid ""
 "přednášce."
 msgstr ""
 
-#: templates/schedule-friday.html:62
+#: templates/schedule-friday.html:62 templates/videos.html:23
 msgid "Ako funguje import"
 msgstr ""
 
@@ -1038,7 +1038,7 @@ msgid ""
 "vlastností funkcionálneho programovania a ich využitie v jazyku Python."
 msgstr ""
 
-#: templates/schedule-friday.html:73
+#: templates/schedule-friday.html:73 templates/videos.html:30
 msgid "Základy funkcionálneho programovania (aj v Pythone)"
 msgstr ""
 
@@ -1074,7 +1074,7 @@ msgid ""
 "release cykly a mnoho ďalších vlastností."
 msgstr ""
 
-#: templates/schedule-friday.html:95
+#: templates/schedule-friday.html:95 templates/videos.html:37
 msgid "Virtualenv, Flask, Vagrant a pod."
 msgstr ""
 

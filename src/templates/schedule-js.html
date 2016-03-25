@@ -74,7 +74,7 @@ function update_speaker_bio(mod, speaker_id, speaker_id2) {
 
 function tr_click() {
   var mod = $('#event-details');
-  var tr = $(this);
+  var tr = $(this).parent();
   var talk = tr.find('div.talk');
   var speaker = tr.find('div.speaker');
   var room;
@@ -99,6 +99,6 @@ function tr_click() {
 }
 
 $(document).ready(function() {
-  $('tr.event').click(tr_click);
+  $('tr.event td.info-main').click(tr_click);
 });
 </script>

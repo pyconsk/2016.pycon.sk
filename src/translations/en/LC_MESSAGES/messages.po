@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-22 16:09+0100\n"
+"POT-Creation-Date: 2016-03-25 19:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.1.1\n"
+"Generated-By: Babel 2.2.0\n"
 
 #: templates/ba-01-meetup.html:6
 msgid "Prvý Bratislavský Python Meetup"
@@ -1249,7 +1249,7 @@ msgstr ""
 "cyclic imports happen and how to avoid them? &lt;br&gt; This talk will "
 "answer all of these questions."
 
-#: templates/schedule-friday.html:62
+#: templates/schedule-friday.html:62 templates/videos.html:23
 msgid "Ako funguje import"
 msgstr "How import works"
 
@@ -1273,7 +1273,7 @@ msgstr ""
 "beginner. In this talk, we will introduce some of the functional "
 "programming properties and their usage in Python."
 
-#: templates/schedule-friday.html:73
+#: templates/schedule-friday.html:73 templates/videos.html:30
 msgid "Základy funkcionálneho programovania (aj v Pythone)"
 msgstr "Basics of functional programming"
 
@@ -1330,7 +1330,7 @@ msgstr ""
 "applications should meet several requirements. Scalability, zero down "
 "time deployments, short release cycles and many other properties"
 
-#: templates/schedule-friday.html:95
+#: templates/schedule-friday.html:95 templates/videos.html:37
 msgid "Virtualenv, Flask, Vagrant a pod."
 msgstr "Virtualenv, Flask, Vagrant, etc."
 
