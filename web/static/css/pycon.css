@@ -213,6 +213,10 @@ footer li {
   position: relative;
 }
 
+.album .image-caption {
+  margin-bottom: 10px;
+}
+
 .album-title {
   position: absolute;
   top: 40px;
