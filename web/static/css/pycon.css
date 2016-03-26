@@ -194,6 +194,21 @@ footer li {
   font-size: 1.1rem;
 }
 
+.popover-link {
+  cursor: pointer;
+  color: #337ab7;
+  text-decoration: underline dotted;
+}
+
+.popover-link:hover, .popover-link.active {
+  color: #23527c;
+  text-decoration: underline solid;
+}
+
+.red {
+  color: red;
+}
+
 .album {
   position: relative;
 }

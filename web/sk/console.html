@@ -38,7 +38,7 @@
   <link rel="alternate" href="https://pycon.sk/en/console.html" hreflang="en">
   
   <link rel="canonical" href="https://pycon.sk/sk/console.html" />
-  <link rel="stylesheet" href="../static/css/pycon.css?v=5c9073f">
+  <link rel="stylesheet" href="../static/css/pycon.css?v=bcf61a2">
   <link rel="icon" href="../static/images/favicon.ico" sizes="16x16">
 </head>
 <body>
@@ -107,11 +107,6 @@
 <div class="row">
   <div class="col-md-12">
     <textarea id="code" class="codearea" rows="20" spellcheck="false"></textarea>
-
-    <script type="text/python3" src="../static/python/console.py" id="__main__"></script>
-    <script type="text/javascript">
-      window.onload=brython;
-    </script>
   </div>
 </div>
 
@@ -149,6 +144,9 @@
   <script>svgeezy.init(false, 'png');</script>
   <script src="../static/js/bootstrap.min.js"></script>
   
+<script type="text/python3" src="../static/python/console.py" id="__main__"></script>
+<script type="text/javascript">window.onload=brython;</script>
+
   <!-- GA -->
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
