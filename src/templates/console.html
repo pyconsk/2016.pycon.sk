@@ -7,11 +7,12 @@
 <div class="row">
   <div class="col-md-12">
     <textarea id="code" class="codearea" rows="20" spellcheck="false"></textarea>
-
-    <script type="text/python3" src="{{ url_for('static', filename='python/console.py') }}" id="__main__"></script>
-    <script type="text/javascript">
-      window.onload=brython;
-    </script>
   </div>
 </div>
 {% endblock %}
+
+{% block scripts %}
+<script type="text/python3" src="{{ url_for('static', filename='python/console.py') }}" id="__main__"></script>
+<script type="text/javascript">window.onload=brython;</script>
+{% endblock %}
+
