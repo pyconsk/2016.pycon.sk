@@ -5,4 +5,4 @@ STAGING_DIR="web"
 
 cd "${GIT_ROOT}"
 
-git push . staging:live
+git push -f . staging:live
