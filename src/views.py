@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf8 -*-
 import os
+from datetime import datetime
 from flask import Flask, g, request, send_from_directory, render_template, abort, make_response
 from flask.ext.babel import Babel, gettext
 
@@ -9,49 +10,50 @@ app.config['BABEL_DEFAULT_LOCALE'] = 'sk'
 app.jinja_options = {'extensions': ['jinja2.ext.with_', 'jinja2.ext.i18n']}
 babel = Babel(app)
 
+SRC_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 LOGO_PYCON = 'images/logo/pycon.svg'
 LOGO_MEETUP_BA = 'images/logo/bratislava_logo.svg'
 
 LANGS = ('en', 'sk')
-SITEMAP_DEFAULT = {'prio': '0.1', 'freq': 'weekly', 'lastmod': '2016-03-18T22:22:00+00:00'}
+TIME_FORMAT = '%Y-%m-%dT%H:%M:%S+00:00'
+NOW = datetime.utcnow().strftime(TIME_FORMAT)
+
+
+def get_mtime(filename):
+    mtime = datetime.fromtimestamp(os.path.getmtime(filename))
+    return mtime.strftime(TIME_FORMAT)
+
+
+SITEMAP_DEFAULT = {'prio': '0.1', 'freq': 'weekly'}
 SITEMAP = {
-    'sitemap.xml': {'prio': '0.9', 'freq': 'daily', 'lastmod': '2016-03-19T10:53:24+00:00'},
-    'index.html': {'prio': '1', 'freq': 'daily', 'lastmod': '2016-03-19T09:24:12+00:00'},
-    'tickets.html': {'prio': '0.1', 'freq': 'yearly', 'lastmod': '2016-03-19T22:00:05+00:00'},
-    'speakers.html': {'prio': '0.4', 'freq': 'yearly', 'lastmod': '2015-03-19T23:45:00+00:00'},
-    'sponsors.html': {'prio': '0.4', 'freq': 'yearly', 'lastmod': '2015-03-19T10:24:12+00:00'},
-    'code-of-conduct.html': {'prio': '0.9', 'freq': 'monthly', 'lastmod': '2015-09-10T20:00:00+00:00'},
-    'schedule-friday.html': {'prio': '0.5', 'freq': 'yearly', 'lastmod': '2016-03-18T23:45:00+00:00'},
-    'schedule-saturday.html': {'prio': '0.5', 'freq': 'yearly', 'lastmod': '2016-03-18T23:45:00+00:00'},
-    'schedule-sunday.html': {'prio': '0.5', 'freq': 'yearly', 'lastmod': '2016-03-18T23:45:00+00:00'},
-    'pod-zastitou-prezidenta-slovenskej-republiky.html': {'prio': '0.5', 'freq': 'yearly', 'lastmod': '2016-02-18T19:00:00+00:00'},
-    'spy.html': {'prio': '0.75', 'freq': 'monthly', 'lastmod': '2016-03-18T20:00:00+00:00'},
-    'stats-web.html': {'prio': '0.8', 'freq': 'weekly', 'lastmod': '2016-03-18T23:00:00+00:00'},
-    'stats-slido.html': {'prio': '0.8', 'freq': 'weekly', 'lastmod': '2016-03-18T23:00:00+00:00'},
-    'photos.html': {'prio': '0.8', 'freq': 'weekly', 'lastmod': '2016-03-18T21:00:00+00:00'},
-    'videos.html': {'prio': '0.8', 'freq': 'weekly', 'lastmod': '2016-03-18T22:00:00+00:00'},
-    'getting-here.html': {'prio': '0.2', 'freq': 'yearly', 'lastmod': '2016-03-18T12:00:05+00:00'},
-    'django-girls.html': {'prio': '0.2', 'freq': 'yearly', 'lastmod': '2016-03-18T00:42:45+00:00'},
-    'meetup.html': {'prio': '0.6', 'freq': 'weekly', 'lastmod': '2016-03-18T10:53:24+00:00'},
-    'ba-01-meetup.html': {'prio': '0.1', 'freq': 'monthly', 'lastmod': '2015-06-29T20:06:00+00:00'},
-    'ba-02-meetup.html': {'prio': '0.1', 'freq': 'monthly', 'lastmod': '2015-07-26T20:07:00+00:00'},
-    'ba-03-meetup.html': {'prio': '0.1', 'freq': 'monthly', 'lastmod': '2015-08-26T20:08:00+00:00'},
-    'ba-04-meetup.html': {'prio': '0.1', 'freq': 'monthly', 'lastmod': '2015-09-26T20:09:00+00:00'},
-    'ba-05-meetup.html': {'prio': '0.1', 'freq': 'monthly', 'lastmod': '2015-10-26T20:10:00+00:00'},
-    'ba-06-meetup.html': {'prio': '0.1', 'freq': 'monthly', 'lastmod': '2015-11-11T11:11:11+00:00'},
-    'ba-07-meetup.html': {'prio': '0.1', 'freq': 'monthly', 'lastmod': '2016-01-17T12:22:22+00:00'},
-    'ba-08-meetup.html': {'prio': '0.1', 'freq': 'monthly', 'lastmod': '2016-03-18T10:53:24+00:00'},
-    'console.html': {'prio': '0.3', 'freq': 'monthly', 'lastmod': '2016-03-18T11:11:11+00:00'},
-    'thank-you.html': {'prio': '0.1', 'freq': 'yearly', 'lastmod': '2015-07-10T20:00:00+00:00'},
-    'speaking.html': {'prio': '0.1', 'freq': 'yearly', 'lastmod': '2015-10-26T22:05:00+00:00'},
-    'sponsoring.html': {'prio': '0.1', 'freq': 'yearly', 'lastmod': '2015-10-26T22:05:00+00:00'},
+    'sitemap.xml': {'prio': '0.9', 'freq': 'daily', 'lastmod': get_mtime(__file__)},
+    'index.html': {'prio': '1', 'freq': 'daily'},
+    'tickets.html': {'prio': '0.1', 'freq': 'weekly'},
+    'speakers.html': {'prio': '0.4', 'freq': 'weekly'},
+    'sponsors.html': {'prio': '0.4', 'freq': 'weekly'},
+    'code-of-conduct.html': {'prio': '0.9', 'freq': 'weekly'},
+    'schedule-friday.html': {'prio': '0.5', 'freq': 'weekly'},
+    'schedule-saturday.html': {'prio': '0.5', 'freq': 'weekly'},
+    'schedule-sunday.html': {'prio': '0.5', 'freq': 'weekly'},
+    'pod-zastitou-prezidenta-slovenskej-republiky.html': {'prio': '0.5', 'freq': 'weekly'},
+    'spy.html': {'prio': '0.75', 'freq': 'weekly'},
+    'stats-web.html': {'prio': '0.8', 'freq': 'weekly'},
+    'stats-slido.html': {'prio': '0.8', 'freq': 'weekly'},
+    'photos.html': {'prio': '0.8', 'freq': 'weekly'},
+    'videos.html': {'prio': '0.8', 'freq': 'weekly'},
+    'getting-here.html': {'prio': '0.2', 'freq': 'weekly'},
+    'django-girls.html': {'prio': '0.2', 'freq': 'weekly'},
+    'meetup.html': {'prio': '0.6', 'freq': 'weekly'},
+    'console.html': {'prio': '0.3', 'freq': 'weekly'},
+    'speaking.html': {'prio': '0.1', 'freq': 'weekly'},
+    'sponsoring.html': {'prio': '0.1', 'freq': 'weekly'},
 }
 LDJSON = {
     "@context": "http://schema.org",
     "@type": "Organization",
     "name": "PyCon SK",
-    "url": "https://pycon.sk",
-    "logo": "https://pycon.sk/static/images/pycon_sk_logo200_notext.png",
+    "url": "https://2016.pycon.sk",
+    "logo": "https://2016.pycon.sk/static/images/pycon_sk_logo200_notext.png",
     "sameAs": [
       "https://facebook.com/pyconsk",
       "https://twitter.com/pyconsk",
@@ -104,7 +106,7 @@ def index():
       "name": u"PyCon SK 2016",
       "startDate": "2016-03-11T9:00:00+01:00",
       "endDate" : "2016-03-13T18:00:00+01:00",
-      "url": "https://pycon.sk/"+ lang +"/",
+      "url": "https://2016.pycon.sk/"+ lang +"/",
       "sameAs": [
         "https://www.facebook.com/events/941546202585736/"
       ],
@@ -686,21 +688,35 @@ def ba_meetup_08():
                                                                           ld_json=LDJSON_EVENT))
 
 
+def get_lastmod(route, sitemap_entry):
+    """Used by sitemap() below"""
+    if 'lastmod' in sitemap_entry:
+        return sitemap_entry['lastmod']
+
+    template = route.rule.split('/')[-1]
+    template_file = os.path.join(SRC_DIR, 'templates', template)
+
+    if os.path.exists(template_file):
+        return get_mtime(template_file)
+
+    return NOW
+
+
 @app.route('/sitemap.xml', methods=['GET'])
 def sitemap():
     """Generate sitemap.xml. Makes a list of urls and date modified."""
-    domain = 'https://pycon.sk'
-    pages=[]
+    domain = 'https://2016.pycon.sk'
+    pages = []
+
     # static pages
     for rule in app.url_map.iter_rules():
-
         if "GET" in rule.methods:
-            if len(rule.arguments)==0:
+            if len(rule.arguments) == 0:
                 indx = rule.rule.replace('/', '')
                 sitemap_data = SITEMAP.get(indx, SITEMAP_DEFAULT)
                 pages.append({
                     'loc': domain + rule.rule,
-                    'lastmod': sitemap_data['lastmod'],
+                    'lastmod': get_lastmod(rule, sitemap_data),
                     'freq': sitemap_data['freq'],
                     'prio': sitemap_data['prio'],
                 })
@@ -722,7 +738,7 @@ def sitemap():
                     pages.append({
                         'loc': domain + rule.rule.replace('<lang_code>', lang),
                         'alternate': alternate,
-                        'lastmod': sitemap_data['lastmod'],
+                        'lastmod': get_lastmod(rule, sitemap_data),
                         'freq': sitemap_data['freq'],
                         'prio': sitemap_data['prio'],
                     })
