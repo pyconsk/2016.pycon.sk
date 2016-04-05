@@ -105,4 +105,15 @@ GEO:48.1442784;17.1065933
 DESCRIPTION:Prvý slovenský PyCon. Viac info na https://pycon.sk
 END:VEVENT
 
+BEGIN:VEVENT
+SUMMARY:Bratislava Python Meetup #9
+LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03 Bratislava
+URL:https://pycon.sk/sk/ba-09-meetup.html
+UID:675dc56060f241e0b70a6d157a915dc9
+DTSTART:20160412T170000Z
+DTEND:20160412T200000Z
+GEO:48.1442784;17.1065933
+DESCRIPTION: Deviate stretnutie ľudí, ktorí majú záujem o programovanie v Pythone. Nutná registrácia. Viac info na https://pycon.sk/sk/ba-09-meetup.html 
+END:VEVENT
+
 END:VCALENDAR
