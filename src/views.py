@@ -687,7 +687,6 @@ def ba_meetup_08():
     return render_template('ba-08-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
                                                                           ld_json=LDJSON_EVENT))
 
-
 @app.route('/<lang_code>/ba-09-meetup.html')
 def ba_meetup_09():
     lang =  get_locale()
@@ -736,6 +735,11 @@ def ba_meetup_09():
     }
     return render_template('ba-09-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
                                                                           ld_json=LDJSON_EVENT))
+
+
+@app.route('/<lang_code>/ba-09-meetup-slides.html')
+def ba_meetup_09_slides():
+    return render_template('ba-09-meetup-slides.html', **_get_template_variables())
 
 
 def get_lastmod(route, sitemap_entry):
