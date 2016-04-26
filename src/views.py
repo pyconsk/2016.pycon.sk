@@ -736,11 +736,58 @@ def ba_meetup_09():
     return render_template('ba-09-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
                                                                           ld_json=LDJSON_EVENT))
 
-
 @app.route('/<lang_code>/ba-09-meetup-slides.html')
 def ba_meetup_09_slides():
     return render_template('ba-09-meetup-slides.html', **_get_template_variables())
 
+@app.route('/<lang_code>/ba-10-meetup.html')
+def ba_meetup_10():
+    lang =  get_locale()
+    LDJSON_EVENT = {
+      "@context": "http://schema.org",
+      "@type": "Event",
+      "name": u"Desiaty Bratislavský Python Meetup",
+      "startDate": "2016-05-03T18:00:00+01:00",
+      "endDate" : "2016-05-03T21:00:00+01:00",
+      "url": "https://pycon.sk/"+ lang +"/ba-10-meetup.html",
+#      "sameAs": "https://www.facebook.com/events/110990379283146/",
+      "location": {
+        "@type": "Place",
+        "sameAs": "https://progressbar.sk",
+        "name": "Progressbar",
+        "address": u"Michalská 3, Bratislava"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "EUR"
+      },
+#      "performer": [{
+#        "@type": "Person",
+#        "name": u"Richard Kellner",
+#        "sameAs": "https://github.com/"
+#        }
+#      ],
+      "workPerformed": {
+        "@type": "CreativeWork",
+        "name": u"Desiaty Bratislavský Python Meetup",
+        "creator": {
+          "@type": "Organization",
+          "name": "SPy o.z.",
+          "url": "https://pycon.sk/"+ lang +"/spy.html",
+          "logo": "https://pycon.sk/static/images/pycon_sk_logo200_notext.png",
+          "sameAs": [
+            "https://facebook.com/pyconsk",
+            "https://twitter.com/pyconsk",
+            "https://www.linkedin.com/company/spy-o--z-",
+            "https://github.com/pyconsk",
+            "https://pyconsk.slack.com"
+          ],
+        }
+      }
+    }
+    return render_template('ba-10-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
+                                                                          ld_json=LDJSON_EVENT))
 
 def get_lastmod(route, sitemap_entry):
     """Used by sitemap() below"""
