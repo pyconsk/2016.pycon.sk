@@ -121,8 +121,8 @@ SUMMARY:Bratislava Python Meetup #10
 LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03 Bratislava
 URL:https://pycon.sk/sk/ba-10-meetup.html
 UID:675dc56060f241e0b70a6d157a915dc9
-DTSTART:20160503T170000Z
-DTEND:20160503T200000Z
+DTSTART:20160503T173000Z
+DTEND:20160503T203000Z
 GEO:48.1442784;17.1065933
 DESCRIPTION: Desiate stretnutie ľudí, ktorí majú záujem o programovanie v Pythone. Viac info na https://pycon.sk/sk/ba-10-meetup.html 
 END:VEVENT
