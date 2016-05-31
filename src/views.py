@@ -32,13 +32,13 @@ SITEMAP = {
     'speakers.html': {'prio': '0.4', 'freq': 'weekly'},
     'sponsors.html': {'prio': '0.4', 'freq': 'weekly'},
     'code-of-conduct.html': {'prio': '0.9', 'freq': 'weekly'},
-    'schedule-friday.html': {'prio': '0.5', 'freq': 'weekly'},
-    'schedule-saturday.html': {'prio': '0.5', 'freq': 'weekly'},
-    'schedule-sunday.html': {'prio': '0.5', 'freq': 'weekly'},
+    'schedule-friday.html': {'prio': '0.4', 'freq': 'weekly'},
+    'schedule-saturday.html': {'prio': '0.4', 'freq': 'weekly'},
+    'schedule-sunday.html': {'prio': '0.4', 'freq': 'weekly'},
     'pod-zastitou-prezidenta-slovenskej-republiky.html': {'prio': '0.5', 'freq': 'weekly'},
     'spy.html': {'prio': '0.75', 'freq': 'weekly'},
-    'stats-web.html': {'prio': '0.8', 'freq': 'weekly'},
-    'stats-slido.html': {'prio': '0.8', 'freq': 'weekly'},
+    'stats-web.html': {'prio': '0.5', 'freq': 'weekly'},
+    'stats-slido.html': {'prio': '0.5', 'freq': 'weekly'},
     'photos.html': {'prio': '0.8', 'freq': 'weekly'},
     'videos.html': {'prio': '0.8', 'freq': 'weekly'},
     'getting-here.html': {'prio': '0.2', 'freq': 'weekly'},
@@ -762,12 +762,11 @@ def ba_meetup_10():
         "price": 0,
         "priceCurrency": "EUR"
       },
-#      "performer": [{
-#        "@type": "Person",
-#        "name": u"Richard Kellner",
-#        "sameAs": "https://github.com/"
-#        }
-#      ],
+      "performer": [{
+        "@type": "Person",
+        "name": u"Jozef Képesi",
+        }
+      ],
       "workPerformed": {
         "@type": "CreativeWork",
         "name": u"Desiaty Bratislavský Python Meetup",
@@ -787,6 +786,55 @@ def ba_meetup_10():
       }
     }
     return render_template('ba-10-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
+                                                                          ld_json=LDJSON_EVENT))
+
+
+@app.route('/<lang_code>/ba-11-meetup.html')
+def ba_meetup_11():
+    lang =  get_locale()
+    LDJSON_EVENT = {
+      "@context": "http://schema.org",
+      "@type": "Event",
+      "name": u"Jedenásty Bratislavský Python Meetup",
+      "startDate": "2016-06-07T18:30:00+01:00",
+      "endDate" : "2016-06-07T20:00:00+01:00",
+      "url": "https://pycon.sk/"+ lang +"/ba-11-meetup.html",
+#      "sameAs": "https://www.facebook.com/events/110990379283146/",
+      "location": {
+        "@type": "Place",
+        "sameAs": "https://progressbar.sk",
+        "name": "Progressbar",
+        "address": u"Michalská 3, Bratislava"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "EUR"
+      },
+      "performer": [{
+        "@type": "Person",
+        "name": u"Juraj Bezručka",
+        }
+      ],
+      "workPerformed": {
+        "@type": "CreativeWork",
+        "name": u"Desiaty Bratislavský Python Meetup",
+        "creator": {
+          "@type": "Organization",
+          "name": "SPy o.z.",
+          "url": "https://pycon.sk/"+ lang +"/spy.html",
+          "logo": "https://pycon.sk/static/images/pycon_sk_logo200_notext.png",
+          "sameAs": [
+            "https://facebook.com/pyconsk",
+            "https://twitter.com/pyconsk",
+            "https://www.linkedin.com/company/spy-o--z-",
+            "https://github.com/pyconsk",
+            "https://pyconsk.slack.com"
+          ],
+        }
+      }
+    }
+    return render_template('ba-11-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
                                                                           ld_json=LDJSON_EVENT))
 
 def get_lastmod(route, sitemap_entry):

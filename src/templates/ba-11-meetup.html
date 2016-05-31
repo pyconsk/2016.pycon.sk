@@ -1,0 +1,53 @@
+{% extends "body.html" %}
+
+{% block header%}
+<link rel="stylesheet" type="text/css" href='https://css.tito.io/v1' />
+<script src='https://js.tito.io/v1' async></script>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+  <div class="col-md-8">
+    <div class="jumbotron">
+      <h1>{{ _('Jedenásty Bratislavský Python Meetup') }}</h1>
+      <h2><span class="glyphicon glyphicon-time" aria-hidden="true"></span> {{ _('0ý. jún 2016 – 18:30') }}</h2>
+      <h2><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> <a href="https://progressbar.sk/calendar/" title="{{ _('Kalendár ProgressBaru') }}">ProgressBar Hackerspace,<br>Michalská 3, Bratislava</a></h2>
+    </div>
+
+    <p class="text-justify">{{ _('Na júnovom meetupe nám Juraj Bezručka predstavý "python pre neprogramatorov".') }}</p>
+
+    <p class="text-justify">{{ _('Juraj nám predstaví funkcie ako map, filter či reduce aj s príkladmi, ďalej tiež list/dict comprehension, prípadne ďalšie užitočné funkcie (vysvetlí ternárny operátor a pod.)') }}</p>
+
+    <p class="text-justify">{{ _('Tešíme sa na Vás na stretnutí.') }}</p>
+    <p>{{ _('Jazyk') }}: {{ _('slovenčina') }}</p>
+    {#    <p> <img class="logo-scale" src="{{ url_for('static', filename='images/logo/github-mark-small.png') }}"/> Github: <a href="https://github.com/pyconsk/meetup/tree/master/Bratislava/201602" target="_blank">https://github.com/pyconsk/meetup/tree/master/Bratislava/201602</a></p> #}
+    <p>{{ _('Kontakt') }}: <a href="mailto:meetup@pycon.sk?subject=Desiaty%20Bratislavský%20Python%20Meetup" title="Bratislava Python Meetup Email">meetup@pycon.sk</a></p>
+    <p>{{ _('Organizátor') }}: <a href="/{{ lang_code }}/spy.html" title="">SPy o.z.</a></p>
+
+    <br>
+
+    <br>
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+      this.page.url = 'https://pycon.sk{{ request.path }}';
+      this.page.identifier = '11';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+
+      s.src = '//pythonmeetup.disqus.com/embed.js';
+
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+  </div>
+
+  <div class="col-md-4">
+    {% include 'right_nav.html' %}        
+  </div>
+</div>
+{% endblock %}
