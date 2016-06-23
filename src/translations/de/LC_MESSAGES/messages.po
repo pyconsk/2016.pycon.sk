@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-03-25 19:56+0100\n"
+"POT-Creation-Date: 2016-06-23 21:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Prvý Bratislavský Python Meetup"
 msgstr ""
 
-#: templates/ba-01-meetup.html:7 templates/meetup.html:57
+#: templates/ba-01-meetup.html:7 templates/meetup.html:72
 msgid "7. júl 2015 – 18:00"
 msgstr ""
 
@@ -31,6 +31,8 @@ msgstr ""
 #: templates/ba-03-meetup.html:8 templates/ba-04-meetup.html:8
 #: templates/ba-05-meetup.html:8 templates/ba-06-meetup.html:8
 #: templates/ba-07-meetup.html:8 templates/ba-08-meetup.html:8
+#: templates/ba-09-meetup.html:14 templates/ba-10-meetup.html:14
+#: templates/ba-11-meetup.html:14
 msgid "Kalendár ProgressBaru"
 msgstr ""
 
@@ -38,7 +40,8 @@ msgstr ""
 #: templates/ba-03-meetup.html:13 templates/ba-04-meetup.html:13
 #: templates/ba-05-meetup.html:13 templates/ba-06-meetup.html:15
 #: templates/ba-07-meetup.html:18 templates/ba-08-meetup.html:16
-#: templates/spy.html:18
+#: templates/ba-09-meetup.html:27 templates/ba-10-meetup.html:24
+#: templates/ba-11-meetup.html:24 templates/spy.html:18
 msgid "Kontakt"
 msgstr ""
 
@@ -46,6 +49,8 @@ msgstr ""
 #: templates/ba-03-meetup.html:14 templates/ba-04-meetup.html:14
 #: templates/ba-05-meetup.html:14 templates/ba-06-meetup.html:16
 #: templates/ba-07-meetup.html:19 templates/ba-08-meetup.html:17
+#: templates/ba-09-meetup.html:28 templates/ba-10-meetup.html:25
+#: templates/ba-11-meetup.html:25
 msgid "Organizátor"
 msgstr ""
 
@@ -53,7 +58,7 @@ msgstr ""
 msgid "Druhý Bratislavský Python Meetup"
 msgstr ""
 
-#: templates/ba-02-meetup.html:7 templates/meetup.html:53
+#: templates/ba-02-meetup.html:7 templates/meetup.html:68
 msgid "4. august 2015 – 18:00"
 msgstr ""
 
@@ -61,7 +66,7 @@ msgstr ""
 msgid "Tretí Bratislavský Python Meetup"
 msgstr ""
 
-#: templates/ba-03-meetup.html:7 templates/meetup.html:48
+#: templates/ba-03-meetup.html:7 templates/meetup.html:63
 msgid "8. september 2015 – 18:00"
 msgstr ""
 
@@ -69,7 +74,7 @@ msgstr ""
 msgid "Štvrtý Bratislavský Python Meetup"
 msgstr ""
 
-#: templates/ba-04-meetup.html:7 templates/meetup.html:43
+#: templates/ba-04-meetup.html:7 templates/meetup.html:58
 msgid "6. október 2015 – 18:00"
 msgstr ""
 
@@ -77,7 +82,7 @@ msgstr ""
 msgid "Piaty Bratislavský Python Meetup"
 msgstr ""
 
-#: templates/ba-05-meetup.html:7 templates/meetup.html:38
+#: templates/ba-05-meetup.html:7 templates/meetup.html:53
 msgid "10. november 2015 – 18:00"
 msgstr ""
 
@@ -85,7 +90,7 @@ msgstr ""
 msgid "Šiesty Bratislavský Python Meetup"
 msgstr ""
 
-#: templates/ba-06-meetup.html:7 templates/meetup.html:33
+#: templates/ba-06-meetup.html:7 templates/meetup.html:48
 msgid "8. december 2015 – 18:00"
 msgstr ""
 
@@ -97,7 +102,7 @@ msgstr ""
 msgid "Siedmy Bratislavský Python Meetup"
 msgstr ""
 
-#: templates/ba-07-meetup.html:7 templates/meetup.html:28
+#: templates/ba-07-meetup.html:7 templates/meetup.html:43
 msgid "12. január 2016 – 18:00"
 msgstr ""
 
@@ -130,6 +135,8 @@ msgid ""
 msgstr ""
 
 #: templates/ba-07-meetup.html:16 templates/ba-08-meetup.html:13
+#: templates/ba-09-meetup.html:23 templates/ba-10-meetup.html:21
+#: templates/ba-11-meetup.html:21
 msgid "Tešíme sa na Vás na stretnutí."
 msgstr ""
 
@@ -137,7 +144,7 @@ msgstr ""
 msgid "Ôsmy Bratislavský Python Meetup"
 msgstr ""
 
-#: templates/ba-08-meetup.html:7 templates/meetup.html:23
+#: templates/ba-08-meetup.html:7 templates/meetup.html:38
 msgid "9. február 2016 – 18:00"
 msgstr ""
 
@@ -152,11 +159,14 @@ msgid ""
 "produkčné servery."
 msgstr ""
 
-#: templates/ba-08-meetup.html:14 templates/schedule-js.html:18
+#: templates/ba-08-meetup.html:14 templates/ba-09-meetup.html:25
+#: templates/ba-10-meetup.html:22 templates/ba-11-meetup.html:22
+#: templates/schedule-js.html:18
 msgid "Jazyk"
 msgstr ""
 
-#: templates/ba-08-meetup.html:14
+#: templates/ba-08-meetup.html:14 templates/ba-09-meetup.html:25
+#: templates/ba-10-meetup.html:22 templates/ba-11-meetup.html:22
 msgid "slovenčina"
 msgstr ""
 
@@ -164,6 +174,73 @@ msgstr ""
 msgid ""
 "V marci všetko naše úsilie zameriame na PyCon, takže marcový meetup "
 "vynecháme a <strong>ďalšie stretnutie bude v apríli</strong>."
+msgstr ""
+
+#: templates/ba-09-meetup.html:12
+msgid "Deviaty Bratislavský Python Meetup"
+msgstr ""
+
+#: templates/ba-09-meetup.html:13 templates/meetup.html:33
+msgid "12. apríl 2016 – 18:00"
+msgstr ""
+
+#: templates/ba-09-meetup.html:17
+msgid "Na aprílovom meetupe si spravíme Coding Dojo session."
+msgstr ""
+
+#: templates/ba-09-meetup.html:18
+msgid ""
+"Netreba si nič nosiť budeme praktizovat pair programing na projektore. "
+"Stačí iba chuť programovať. POZOR! Aby sme dokázali spraviť kvalitný "
+"workshop, zaviedli sme registráciu, aby sme mali prehľado koľko ľudí "
+"príde. Počet miest je limitovaný, preto sa zaregistrujte čo najskôr."
+msgstr ""
+
+#: templates/ba-09-meetup.html:24
+msgid "Prezentácia"
+msgstr ""
+
+#: templates/ba-10-meetup.html:12
+msgid "Desiaty Bratislavský Python Meetup"
+msgstr ""
+
+#: templates/ba-10-meetup.html:13 templates/meetup.html:28
+msgid "03. máj 2016 – 18:30"
+msgstr ""
+
+#: templates/ba-10-meetup.html:17
+msgid ""
+"Na májový meetup nám príde porozprávať Jozef Képesi o populárnej databáze"
+" PostgreSQL."
+msgstr ""
+
+#: templates/ba-10-meetup.html:19
+msgid ""
+"<b>When in doubt, just use PostgreSQL.</b> Popíšeme si najlepšie praktiky"
+" z pohľadu architektúry a vlastností databázy. Na záver Jozef prezradí aj"
+" skryté funkcie, ktoré dnes robia z PostgreSQL viac framework na "
+"spracovanie dát, ako databázu."
+msgstr ""
+
+#: templates/ba-11-meetup.html:12
+msgid "Jedenásty Bratislavský Python Meetup"
+msgstr ""
+
+#: templates/ba-11-meetup.html:13 templates/meetup.html:23
+msgid "07. jún 2016 – 18:30"
+msgstr ""
+
+#: templates/ba-11-meetup.html:17
+msgid ""
+"Na júnovom meetupe nám Juraj Bezručka predstaví \"python pre "
+"neprogramatorov\"."
+msgstr ""
+
+#: templates/ba-11-meetup.html:19
+msgid ""
+"Juraj nám predstaví funkcie ako map, filter či reduce aj s príkladmi, "
+"ďalej tiež list/dict comprehension, prípadne ďalšie užitočné funkcie "
+"(vysvetlí ternárny operátor a pod.)"
 msgstr ""
 
 #: templates/body.html:9 templates/body.html:17 templates/body.html:21
@@ -881,16 +958,19 @@ msgstr ""
 
 #: templates/meetup.html:22 templates/meetup.html:27 templates/meetup.html:32
 #: templates/meetup.html:37 templates/meetup.html:42 templates/meetup.html:47
-#: templates/meetup.html:52 templates/meetup.html:56
+#: templates/meetup.html:52 templates/meetup.html:57 templates/meetup.html:62
+#: templates/meetup.html:67 templates/meetup.html:71
 #, python-format
 msgid "%(num)s Bratislavský Python Meetup"
 msgstr ""
 
-#: templates/photos.html:12 templates/tickets.html:56
+#: templates/photos.html:15 templates/tickets.html:56 templates/videos.html:11
+#: templates/videos.html:237
 msgid "Piatok"
 msgstr ""
 
-#: templates/photos.html:19 templates/tickets.html:57
+#: templates/photos.html:22 templates/tickets.html:57 templates/videos.html:88
+#: templates/videos.html:244
 msgid "Sobota"
 msgstr ""
 
@@ -999,6 +1079,7 @@ msgstr ""
 
 #: templates/schedule-friday.html:40 templates/schedule-friday.html:131
 #: templates/schedule-saturday.html:40 templates/schedule-saturday.html:132
+#: templates/videos.html:89
 msgid "Veľká aula"
 msgstr ""
 
@@ -1024,7 +1105,7 @@ msgid ""
 "přednášce."
 msgstr ""
 
-#: templates/schedule-friday.html:62 templates/videos.html:23
+#: templates/schedule-friday.html:62 templates/videos.html:18
 msgid "Ako funguje import"
 msgstr ""
 
@@ -1040,7 +1121,7 @@ msgid ""
 "vlastností funkcionálneho programovania a ich využitie v jazyku Python."
 msgstr ""
 
-#: templates/schedule-friday.html:73 templates/videos.html:30
+#: templates/schedule-friday.html:73 templates/videos.html:25
 msgid "Základy funkcionálneho programovania (aj v Pythone)"
 msgstr ""
 
@@ -1076,7 +1157,7 @@ msgid ""
 "release cykly a mnoho ďalších vlastností."
 msgstr ""
 
-#: templates/schedule-friday.html:95 templates/videos.html:37
+#: templates/schedule-friday.html:95 templates/videos.html:39
 msgid "Virtualenv, Flask, Vagrant a pod."
 msgstr ""
 
@@ -1087,7 +1168,7 @@ msgid ""
 "GUI prvky (ipywidgets), OSM mapy cez Folium."
 msgstr ""
 
-#: templates/schedule-friday.html:106
+#: templates/schedule-friday.html:106 templates/videos.html:49
 msgid "Jupyter notebook doma, v škole, všade"
 msgstr ""
 
@@ -1127,7 +1208,7 @@ msgid ""
 "nápomocné."
 msgstr ""
 
-#: templates/schedule-friday.html:153
+#: templates/schedule-friday.html:153 templates/videos.html:63
 msgid "Django, Django REST Framework, React"
 msgstr ""
 
@@ -1148,7 +1229,7 @@ msgid ""
 "automatických testov bez straty spoľahlivosti."
 msgstr ""
 
-#: templates/schedule-friday.html:175
+#: templates/schedule-friday.html:175 templates/videos.html:70
 msgid ""
 "Spojenie py.test, coverage.py a ast.py, ktoré posúva TDD vývoj na novú "
 "úroveň"
@@ -1163,7 +1244,7 @@ msgid ""
 "začiatočníkov a stredne pokročilých používateľov Pythonu."
 msgstr ""
 
-#: templates/schedule-friday.html:186
+#: templates/schedule-friday.html:186 templates/videos.html:80
 msgid "Tipy a triky na používanie funkcionálnych vlastností Pythonu"
 msgstr ""
 
@@ -1315,6 +1396,7 @@ msgstr ""
 
 #: templates/schedule-saturday.html:238 templates/schedule-saturday.html:324
 #: templates/schedule-sunday.html:40 templates/schedule-sunday.html:83
+#: templates/videos.html:167
 msgid "Turingova učebňa"
 msgstr ""
 
@@ -1404,11 +1486,11 @@ msgid ""
 " jak ho použít pro Python a jak ho zneužít pro deployment."
 msgstr ""
 
-#: templates/schedule-saturday.html:357
+#: templates/schedule-saturday.html:357 templates/videos.html:211
 msgid "Vagrant - koniec ságy \"U mňa to funguje\""
 msgstr ""
 
-#: templates/schedule-saturday.html:368
+#: templates/schedule-saturday.html:369
 msgid ""
 "Hadoop a Spark umožňujú pohodlne spracovávať veľké množstvá dát. Na "
 "príklade personalizovaných emailov predvediem čo znamená spracovanie dát "
@@ -1418,11 +1500,11 @@ msgid ""
 "SciPy a IPython notebook."
 msgstr ""
 
-#: templates/schedule-saturday.html:368
+#: templates/schedule-saturday.html:369
 msgid "Personalizované emaily pomocou Pythonu a Sparku"
 msgstr ""
 
-#: templates/schedule-saturday.html:379
+#: templates/schedule-saturday.html:380
 msgid ""
 "&lt;ul&gt; &lt;li&gt;Demonštrácia jednoduchého merania.&lt;/li&gt; "
 "&lt;li&gt;Štandardne používané komunikačné rozhrania (ethernet, GPIB, "
@@ -1432,7 +1514,7 @@ msgid ""
 "meraní ako ukladanie dát, zobrazovanie a pod.&lt;/li&gt; &lt;/ul&gt;"
 msgstr ""
 
-#: templates/schedule-saturday.html:379
+#: templates/schedule-saturday.html:380
 msgid "Automatizácia meraní pomocou Pythonu"
 msgstr ""
 
@@ -2456,6 +2538,98 @@ msgstr ""
 
 #: templates/tickets.html:74
 msgid "viac o našich cieľoch"
+msgstr ""
+
+#: templates/videos.html:32
+msgid "MicroPython."
+msgstr ""
+
+#: templates/videos.html:56
+msgid "Python and Malware"
+msgstr ""
+
+#: templates/videos.html:95
+msgid "Teach, Learn, Program"
+msgstr ""
+
+#: templates/videos.html:102
+msgid "Can Free Software be a full time job?"
+msgstr ""
+
+#: templates/videos.html:109
+msgid "Building Protocol Libraries The Right Way"
+msgstr ""
+
+#: templates/videos.html:116
+msgid "Poets, programmers and Python"
+msgstr ""
+
+#: templates/videos.html:126
+msgid "Analyzing Networks In Python"
+msgstr ""
+
+#: templates/videos.html:133
+msgid "Behind The Scenes Of Day-To-Day Software Development At Google"
+msgstr ""
+
+#: templates/videos.html:140
+msgid "Python – What you didn’t know you didn’t know…"
+msgstr ""
+
+#: templates/videos.html:147
+msgid "Python and DTrace"
+msgstr ""
+
+#: templates/videos.html:156
+msgid "Python application security auditing with bandit"
+msgstr ""
+
+#: templates/videos.html:173
+msgid "Scientific Computing with Python"
+msgstr ""
+
+#: templates/videos.html:180
+msgid "Automatic English Text Correction"
+msgstr ""
+
+#: templates/videos.html:187
+msgid "Building Netflow based NIDS out of open source components"
+msgstr ""
+
+#: templates/videos.html:194
+msgid "Building and Deploying containerized Python Apps in the Cloud"
+msgstr ""
+
+#: templates/videos.html:204
+msgid "Automating Distributed Tasks with Ansible in the Cloud"
+msgstr ""
+
+#: templates/videos.html:218
+msgid "Personalised emails using Python and Spark"
+msgstr ""
+
+#: templates/videos.html:225
+msgid "Automated measurements using Python"
+msgstr ""
+
+#: templates/videos.html:230
+msgid "Ostatné"
+msgstr ""
+
+#: templates/videos.html:251
+msgid "Rozhovory na PyCon SK 2016"
+msgstr ""
+
+#: templates/videos.html:258
+msgid "Rozhovor s Martinou Šturdíkovou"
+msgstr ""
+
+#: templates/videos.html:268
+msgid "Rozhovor s Clausom Aichingerom"
+msgstr ""
+
+#: templates/videos.html:275
+msgid "First Slovak PyCon starts tomorrow"
 msgstr ""
 
 #~ msgid "virtualenv, flask, vagrant a pod."
