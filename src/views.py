@@ -3,7 +3,7 @@
 import os
 from datetime import datetime
 from flask import Flask, g, request, send_from_directory, render_template, abort, make_response
-from flask.ext.babel import Babel, gettext
+from flask_babel import Babel, gettext
 
 app = Flask(__name__, static_url_path='/static')
 app.config['BABEL_DEFAULT_LOCALE'] = 'sk'
