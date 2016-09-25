@@ -160,4 +160,16 @@ GEO:48.1442784;17.1065933
 DESCRIPTION: Trináste stretnutie ľudí, ktorí majú záujem o programovanie v Pythone. Viac info na https://pycon.sk/sk/ba-13-meetup.html 
 END:VEVENT
 
+BEGIN:VEVENT
+SUMMARY:Bratislava Python Meetup #14
+LOCATION;CHARSET=utf-8:ProgressBar Hackerspace\, Michalská 3\, 811 03 Bratislava
+URL:https://pycon.sk/sk/ba-14-meetup.html
+UID:675dc56060f241e0b70a6d157a915d10
+DTSTART:20161004T160000Z
+DTEND:20161004T190000Z
+GEO:48.1442784;17.1065933
+DESCRIPTION: Štrnáste stretnutie ľudí, ktorí majú záujem o programovanie v Pythone. Viac info na https://pycon.sk/sk/ba-14-meetup.html 
+END:VEVENT
+
+
 END:VCALENDAR
