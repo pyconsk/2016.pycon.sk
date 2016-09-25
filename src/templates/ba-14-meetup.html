@@ -1,0 +1,51 @@
+{% extends "body.html" %}
+
+{% block content %}
+<div class="row">
+  <div class="col-md-8">
+    <div class="jumbotron">
+      <h1>{{ _('Štrnásty Bratislavský Python Meetup') }}</h1>
+      <h2><span class="glyphicon glyphicon-time" aria-hidden="true"></span> {{ _('14. október 2016 – 18:00') }}</h2>
+      <h2><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> <a href="https://progressbar.sk/calendar/" title="{{ _('Kalendár ProgressBaru') }}">ProgressBar Hackerspace,<br>Michalská 3, Bratislava</a></h2>
+    </div>
+
+    <p class="text-justify">{{ _('Na oktobrovom meetupe budeme pokračovať v pair programmingu v Djangu.') }}</p>
+
+    <p class="text-justify">{{ _('V septembri sme začali programovať aplikáciu v Django frameworku. Na októbrovom meetupe sa rozdelíme do dvojíc a budeme pokračovať v programovaní. Prineste si notebook aby ste mali na čom programovať. Meetup je vhodný aj pre začiatočníkov, ktorý sa chcú naučiť Django, ale budeme radi ak prídu aj skúsenejší, aby sme vytvorili vyvážené dvojice. Pripravíme si aj problémy pre skúsených. Ak ste sa minulý mesiac nezúčastnili, nevadí, budeme pokračovať a začiatočníkom pomôžeme aby vedeli pokračovať...') }}</p>
+
+    <p>Prezentácia: <a href="http://richard.kellnerovci.sk/zaciname-s-djangom/" target="_blank">http://richard.kellnerovci.sk/zaciname-s-djangom/</a></p>
+    <p><img class="logo-scale" src="{{ url_for('static', filename='images/logo/github-mark-small.png') }}"/> Github: <a href="https://github.com/pyconsk/django-konfera" target="_blank">https://github.com/pyconsk/django-konfera</a></p>
+ 
+    <p class="text-justify">{{ _('Tešíme sa na Vás na stretnutí.') }}</p>
+    <p>{{ _('Jazyk') }}: {{ _('slovenčina') }}</p>
+   
+    <p>{{ _('Kontakt') }}: <a href="mailto:meetup@pycon.sk?subject=Trinásty%20Bratislavský%20Python%20Meetup" title="Bratislava Python Meetup Email">meetup@pycon.sk</a></p>
+    <p>{{ _('Organizátor') }}: <a href="/{{ lang_code }}/spy.html" title="">SPy o.z.</a></p>
+
+    <br>
+
+    <br>
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+      this.page.url = 'https://pycon.sk{{ request.path }}';
+      this.page.identifier = '14';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+
+      s.src = '//pythonmeetup.disqus.com/embed.js';
+
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+  </div>
+
+  <div class="col-md-4">
+    {% include 'right_nav.html' %}        
+  </div>
+</div>
+{% endblock %}

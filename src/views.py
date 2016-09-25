@@ -926,6 +926,51 @@ def ba_meetup_13():
                                                                           ld_json=LDJSON_EVENT))
 
 
+@app.route('/<lang_code>/ba-14-meetup.html')
+def ba_meetup_14():
+    lang =  get_locale()
+    LDJSON_EVENT = {
+      "@context": "http://schema.org",
+      "@type": "Event",
+      "name": u"Štrnásty Bratislavský Python Meetup",
+      "startDate": "2016-10-04T18:00:00+01:00",
+      "endDate" : "2016-10-04T21:00:00+01:00",
+      "url": "https://pycon.sk/"+ lang +"/ba-14-meetup.html",
+      "sameAs": "https://www.facebook.com/events/489645064576958/",
+      "location": {
+        "@type": "Place",
+        "sameAs": "https://progressbar.sk",
+        "name": "Progressbar",
+        "address": u"Michalská 3, Bratislava"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "EUR"
+      },
+      "workPerformed": {
+        "@type": "CreativeWork",
+        "name": u"Štrnásty Bratislavský Python Meetup",
+        "creator": {
+          "@type": "Organization",
+          "name": "SPy o.z.",
+          "url": "https://pycon.sk/"+ lang +"/spy.html",
+          "logo": "https://pycon.sk/static/images/pycon_sk_logo200_notext.png",
+          "sameAs": [
+            "https://facebook.com/pyconsk",
+            "https://twitter.com/pyconsk",
+            "https://www.linkedin.com/company/spy-o--z-",
+            "https://github.com/pyconsk",
+            "https://pyconsk.slack.com"
+          ],
+        }
+      }
+    }
+    return render_template('ba-14-meetup.html', **_get_template_variables(logo=LOGO_MEETUP_BA, li_meetup='active',
+                                                                          ld_json=LDJSON_EVENT))
+
+
+
 def get_lastmod(route, sitemap_entry):
     """Used by sitemap() below"""
     if 'lastmod' in sitemap_entry:
