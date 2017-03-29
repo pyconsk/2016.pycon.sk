@@ -25,7 +25,7 @@ Installation
 
 - clone repository locally::
 
-    git clone git@github.com:pyconsk/pycon.sk.git
+    git clone https://github.com/pyconsk/2016.pycon.sk.git
     cd pycon.sk
 
 - run initialization script (creates a virtual environment and installs all requirements)::
