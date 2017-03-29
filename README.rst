@@ -91,3 +91,8 @@ Links
 - facebook: https://facebook.com/pyconsk
 - twitter: https://twitter.com/pyconsk
 
+
+License
+-------
+
+MIT license for code (GitHub repo), CC-BY for content, except sponsors logo's (consult with particular comapny if you would like to use their logo).
