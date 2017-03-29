@@ -1,13 +1,13 @@
-PyCon SK and Slovak Python User Group Website
-#############################################
+PyCon SK 2016 and Slovak Python User Group Website
+##################################################
 
-PyCon SK website, built with Flask from which static HTML is generated.
+PyCon SK 2016 website, built with Flask from which static HTML is generated.
 
 
 Contributing
 ------------
 
-If you'd like to contribute to the project, please `check the issues <https://github.com/pyconsk/pycon.sk/issues>`_ to see what we are working on.
+Conference is already over, there is no development in this repo. Its main purpose is archive. If you want to contribute, check out our other repositories.
 
 
 Project structure
@@ -83,11 +83,11 @@ Pull & Push
 
 If you find some bug please do report it, or send us a merge request with a fix, thanks.
 
+
 Links
 -----
 
-- web: https://pycon.sk
+- web: https://2016.pycon.sk
 - facebook: https://facebook.com/pyconsk
 - twitter: https://twitter.com/pyconsk
-- slack: https://pyconsk.slack.com
 
