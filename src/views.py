@@ -1044,6 +1044,9 @@ def get_lastmod(route, sitemap_entry):
 
     return NOW
 
+@app.route('/CNAME', methods=['GET'])
+def cname():
+    return '2016.pycon.sk'
 
 @app.route('/sitemap.xml', methods=['GET'])
 def sitemap():
