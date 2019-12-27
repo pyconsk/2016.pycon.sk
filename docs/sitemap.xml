@@ -9,9 +9,25 @@
 		
 		<loc>https://2016.pycon.sk/sitemap.xml</loc>
 		
-		<lastmod>2019-12-27T22:28:45+00:00</lastmod>
+		<lastmod>2019-12-27T22:58:18+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.9</priority>
+    </url>
+    <url>
+		
+		<loc>https://2016.pycon.sk/index.html</loc>
+		
+		<lastmod>2019-12-27T22:28:45+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1</priority>
+    </url>
+    <url>
+		
+		<loc>https://2016.pycon.sk/</loc>
+		
+		<lastmod>2019-12-27T23:01:40+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.1</priority>
     </url>
     <url>
 		
