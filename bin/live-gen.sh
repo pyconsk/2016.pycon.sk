@@ -113,7 +113,6 @@ fi
 mv "${TMP_DIR}/${FLASK_URL}" "${STAGING_DIR}"
 
 # Add initial redirect to landing page
-
 echo "
 <!DOCTYPE html>
 <html>
@@ -129,6 +128,8 @@ echo "
 </body>
 </html>
 " > "${STAGING_DIR}"/index.html
+
+echo "2016.pycon.sk" > "${STAGING_DIR}"/CNAME
 
 git add "${STAGING_DIR}"
 git status
