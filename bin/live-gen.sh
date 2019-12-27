@@ -3,7 +3,7 @@
 GIT_ROOT="$(cd "$(dirname "$0")/.." ; pwd -P)"
 TMP_DIR="/tmp"
 SOURCE_DIR="${GIT_ROOT}/src"
-STAGING_DIR="web"
+STAGING_DIR="docs"
 FLASK_PORT="9999"
 FLASK_URL="127.0.0.1:${FLASK_PORT}"
 STASH_REQUIRED=""
@@ -15,6 +15,7 @@ which git > /dev/null || exit 127
 which wget > /dev/null || echo 128
 
 if [[ ! -f envs3/bin/activate ]]; then
+	pwd
 	echo "ENVS not found!"
 	exit 1
 fi
@@ -48,7 +49,7 @@ MASTER_COMMIT="$(git rev-list --format=%n%s%b --max-count=1 HEAD)"
 PYCON_CSS_COMMIT="$(git rev-list --max-count=1 --abbrev-commit HEAD src/static/css/pycon.css)"
 
 # Go to flask templated site activate envs and run flask dev server
-source envs/bin/activate
+source envs3/bin/activate
 cd "${SOURCE_DIR}"
 
 export FLASK_PORT
@@ -103,10 +104,6 @@ fi
 # Stash uncommitted changes if needed
 [[ -n "${STASH_REQUIRED}" ]] && git stash
 
-# Go to staging branch
-git checkout staging || exit 5
-git pull origin staging || exit 6
-
 # Move stored site as new site
 if [[ -d "${STAGING_DIR}" ]]; then
 	rm -rf "${STAGING_DIR}"
@@ -114,12 +111,10 @@ fi
 
 # Update and commit staging branch
 mv "${TMP_DIR}/${FLASK_URL}" "${STAGING_DIR}"
-git add .
+git add "${STAGING_DIR}"
 git status
-git commit -m "Updated from master ${MASTER_COMMIT}"
+git commit -m "Regenerated static site from master ${MASTER_COMMIT}"
 
-# Go back to master
-git checkout master
 [[ -n "${STASH_REQUIRED}" ]] && git stash pop || true
 
 echo

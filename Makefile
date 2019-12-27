@@ -7,8 +7,7 @@ help:
 	@echo "  init       initialize virtual enviroment and install requirements"
 	@echo "  messages   extract translation strings and update translation catalogs"
 	@echo "  compile    compile translation catalogs"
-	@echo "  staging    generate static html files in staging branch"
-	@echo "  live       push staging branch into live branch"
+	@echo "  live       generate static site into /docs folder"
 	@echo "  pull       pull all branches from remote repository"
 	@echo "  push       push all branches to remote repository"
 
@@ -22,11 +21,8 @@ messages:
 compile:
 	@cd src && pybabel compile -d translations
 
-staging:
-	@bin/staging-gen.sh
-
 live:
-	@bin/live-copy.sh
+	@bin/live-gen.sh
 
 pull:
 	@bin/pull-all.sh

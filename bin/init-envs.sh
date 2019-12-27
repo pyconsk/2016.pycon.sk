@@ -7,4 +7,5 @@ cd "${GIT_ROOT}"
 
 python3 -m venv envs3
 source envs3/bin/activate
-pip install -r doc/requirements.txt
+pip install --upgrade pip
+pip install -r requirements.txt

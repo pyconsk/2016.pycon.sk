@@ -3,6 +3,7 @@ PyCon SK 2016 and Slovak Python User Group Website
 
 PyCon SK 2016 website, built with Flask from which static HTML is generated.
 
+At the end of 2019 site generation was migrated to use Python3 by default. Other  major change was to update generation scripts no longer use 3 branches. Instead we generate to `/docs` folder to support GitHub pages.
 
 Contributing
 ------------
@@ -16,8 +17,8 @@ Project structure
 **3 branches**:
 
 - ``master`` - the Flask app, templates, static files, translations (make your changes in the ``src`` folder)
-- ``staging`` - static HTML, generated from the app in ``master`` branch (do NOT edit anything in here)
-- ``live`` - static HTML, created by pushing the ``staging`` branch into ``live`` branch (do NOT edit anything in here)
+- ``staging`` - static HTML, generated from the app in ``master`` branch (do NOT edit anything in here - NO LONGER USED!)
+- ``live`` - static HTML, created by pushing the ``staging`` branch into ``live`` branch (do NOT edit anything in here - NO LONGER USED!)
 
 
 Installation
@@ -60,11 +61,7 @@ Translations
 Static site
 -----------
 
-- generating staging site (updates the staging branch)::
-
-    make staging
-
-- update live site by pushing staging branch into the live branch::
+- generate into `/docs` folder static site::
 
     make live
 
