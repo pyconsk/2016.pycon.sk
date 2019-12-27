@@ -18,6 +18,7 @@ develop-eggs
 .installed.cfg
 MANIFEST
 envs
+envs3
 
 # Databases
 *.sql

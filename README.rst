@@ -34,11 +34,11 @@ Installation
 
 - activate virtual environments::
 
-    source envs/bin/activate
+    source envs3/bin/activate
 
 - start flask server, and you can view it in browser (http://127.0.0.1:5000)::
 
-    python views.py
+    python src/views.py
 
 
 Translations

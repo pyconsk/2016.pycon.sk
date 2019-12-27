@@ -14,7 +14,7 @@ cd "${GIT_ROOT}"
 which git > /dev/null || exit 127
 which wget > /dev/null || echo 128
 
-if [[ ! -f envs/bin/activate ]]; then
+if [[ ! -f envs3/bin/activate ]]; then
 	echo "ENVS not found!"
 	exit 1
 fi
