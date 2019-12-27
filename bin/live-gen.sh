@@ -111,6 +111,25 @@ fi
 
 # Update and commit staging branch
 mv "${TMP_DIR}/${FLASK_URL}" "${STAGING_DIR}"
+
+# Add initial redirect to landing page
+
+echo "
+<!DOCTYPE html>
+<html>
+<head>
+   <!-- HTML meta refresh URL redirection -->
+   <meta http-equiv=\"refresh\"
+   content=\"0; url=/en/index.html\">
+</head>
+<body>
+   <p>The page has moved to:
+   <a href=\"https://2016.pycon.sk/en/index.html\">https://2016.pycon.sk/en/index.html</a>
+   </p>
+</body>
+</html>
+" > "${STAGING_DIR}"/index.html
+
 git add "${STAGING_DIR}"
 git status
 git commit -m "Regenerated static site from master ${MASTER_COMMIT}"
