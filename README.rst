@@ -87,7 +87,7 @@ Links
 - web: https://2016.pycon.sk
 - facebook: https://facebook.com/pyconsk
 - twitter: https://twitter.com/pyconsk
-
+- SPy o.z.: https://spyoz.eu/
 
 License
 -------
