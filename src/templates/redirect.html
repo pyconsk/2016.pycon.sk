@@ -1,0 +1,14 @@
+{% extends "body.html" %}
+{% block content %}
+<!-- Content -->
+<div class="section" id="home">
+  <div class="content">
+    <div class="content-text">
+	<p>{{ _('You should have been automatically redirected to out new website.') }}</p>
+	</p>{{ _('Please follow the url: <a href="%(url)s" target="blank">%(url)s</a>', url=redirect_url) }}</p>
+    </div>
+  </div>
+</div>
+<!-- Content End -->
+{% endblock %}
+
