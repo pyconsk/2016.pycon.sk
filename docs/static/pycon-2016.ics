@@ -1,0 +1,270 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pycon.sk//EN
+METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:Registrácia
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T080000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T090000
+DESCRIPTION:Language:SK\nSpeaker:
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Otvorenie konferencie
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T090000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T092000
+DESCRIPTION:Language:SK
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ako funguje import
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T092000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T100000
+DESCRIPTION:Language:CZ\nSpeaker:Petr Viktorin
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Základy funkcionálneho programovania (aj v Pythone)
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T100000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T104000
+DESCRIPTION:Language:SK\nSpeaker:Andrea Šteňová 
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MicroPython
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T104000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T112500
+DESCRIPTION:Language:SK\nSpeaker:Andrej Mošať
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Virtualenv\, Flask\, Vagrant a pod.
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T112500
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T120500
+DESCRIPTION:Language:SK\nSpeaker:Miroslav Beka
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jupyter notebook doma\, v škole\, všade
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T120500
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T134500
+DESCRIPTION:Language:SK\nSpeaker:Michal Kaukič
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python a malware
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T134500
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T144000
+DESCRIPTION:Language:SK\nSpeaker:Peter Matkovski
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Django\, Django REST Framework\, React
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T144000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T152000
+DESCRIPTION:Language:SK\nSpeaker:Svetlana Margetová
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Robot NAO - Programovanie NAO cez Python
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T152000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T161000
+DESCRIPTION:Language:SK\nSpeaker:Adam Gluch
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Spojenie py.test\, coverage.py a ast.py\, ktoré posúva TDD vývoj na novú úroveň
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T161000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T165000
+DESCRIPTION:Language:SK\nSpeaker:Tibor Arpas
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tipy a triky na používanie funkcionálnych vlastností Pythonu
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T165000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T173000
+DESCRIPTION:Language:SK\nSpeaker:Jakub Ševcech
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lightning talks
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T173000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T175000
+DESCRIPTION:Language:SK
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Poďakovanie
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T175000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160311T175500
+DESCRIPTION:Language:SK
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Registrácia
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T080000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T090000
+DESCRIPTION:Language:EN\nSpeaker:
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Opening talk
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T090000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T092000
+DESCRIPTION:Language:EN
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vyučovať\, učiť sa a programovať
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T092000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T100000
+DESCRIPTION:Language:EN\nSpeaker:Nick Tollervey
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dá sa na bezplatnom (free) softvéri pracovať na plný úväzok?
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T100000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T103500
+DESCRIPTION:Language:EN\nSpeaker:Bjarni Runar Einarsson
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ako vytvárať knižnice protokolov správnym spôsobom
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T103500
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T112000
+DESCRIPTION:Language:EN\nSpeaker:Cory Benfield
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Poets, programmers and Python
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T112000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T120000
+DESCRIPTION:Language:EN\nSpeaker:Daniele Procida
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Analýza sietí v Pythone
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T120000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T135500
+DESCRIPTION:Language:EN\nSpeaker:Johannes Wachs
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:V zákulisí každodenného vývoja softvéru v Google
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T135500
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T152500
+DESCRIPTION:Language:EN\nSpeaker:Petra Cross
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python - o tom\, čo neviete\, že neviete
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T152500
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T161000
+DESCRIPTION:Language:EN\nSpeaker:Martina Sturdikova a Laura Munn
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python a DTrace
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T161000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T165000
+DESCRIPTION:Language:EN\nSpeaker:Jesús Cea Avión
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bezpečnostný audit Pythonských aplikácií pomocou banditu
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T165000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T173000
+DESCRIPTION:Language:EN\nSpeaker:Michael Scherer
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lightning talks
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T173000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T182000
+DESCRIPTION:Language:EN
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Thank you
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T182000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T182500
+DESCRIPTION:Language:EN\nSpeaker:
+LOCATION:Veľká aula - Large auditorium\nmiestnosť/room 1.61
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python vo vedeckých aplikáciách
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T100000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T105500
+DESCRIPTION:Language:EN\nSpeaker:Claus Aichinger
+LOCATION:Turingova učebňa - Turing lecture hall\nmiestnosť/room 1.58
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Automatizovaná korekcia anglických textov
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T105500
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T115000
+DESCRIPTION:Language:EN\nSpeaker:Tatiana Al-Chueyr Martins
+LOCATION:Turingova učebňa - Turing lecture hall\nmiestnosť/room 1.58
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tvorba NIDS založenom na Netflow pomocou open-sourcových komponentov
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T115000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T134500
+DESCRIPTION:Language:EN\nSpeaker:Michal Kuffa
+LOCATION:Turingova učebňa - Turing lecture hall\nmiestnosť/room 1.58
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tvorba a nasadenie containerizovaných Python aplikácií v cloude
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T134500
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T144000
+DESCRIPTION:Language:EN\nSpeaker:Rodolfo Carvalho
+LOCATION:Turingova učebňa - Turing lecture hall\nmiestnosť/room 1.58
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Automatizácia distribuovaných úloh v cloude pomocou Ansible
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T144000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T152000
+DESCRIPTION:Language:EN\nSpeaker:Büşra Köken
+LOCATION:Turingova učebňa - Turing lecture hall\nmiestnosť/room 1.58
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vagrant - koniec ságy "U mňa to funguje"
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T152000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T160000
+DESCRIPTION:Language:CZ\nSpeaker:Věroš Kaplan
+LOCATION:Turingova učebňa - Turing lecture hall\nmiestnosť/room 1.58
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Personalizované emaily pomocou Pythonu a Sparku
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T160000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T164500
+DESCRIPTION:Language:SK\nSpeaker:Tomáš Sirný
+LOCATION:Turingova učebňa - Turing lecture hall\nmiestnosť/room 1.58
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Automatizácia meraní pomocou Pythonu
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T164500
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160312T173000
+DESCRIPTION:Language:SK\nSpeaker:Matúš Rehák
+LOCATION:Turingova učebňa - Turing lecture hall\nmiestnosť/room 1.58
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Registration/Registrácia
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160313T080000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160313T090000
+DESCRIPTION:Language:SK/EN
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python Clinic\, spontaneus workshops and sprints
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160313T090000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160313T170000
+DESCRIPTION:Language:SK/EN
+LOCATION:Turingova učebňa - Turing lecture hall\nmiestnosť/room 1.58
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Django Girls Workshop
+DTSTART;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160313T083000
+DTEND;TZID=Europe/Bratislava;VALUE=DATE-TIME:20160313T180000
+DESCRIPTION:Language:SK/EN\nOnly for registered participants. Registration is closed. Len pre registrovaných účastníkov. Registrácie sú uzavreté.
+LOCATION:Babbageova učebňa - Babbage lecture hall\nmiestnosť/room 1.57
+END:VEVENT
+END:VCALENDAR
